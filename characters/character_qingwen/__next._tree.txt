@@ -4,4 +4,4 @@
 :HL["/honglou-yuzhou/_next/static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/honglou-yuzhou/_next/static/media/f112ed7f0b91582f-s.p.2xkduggpvd1-n.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/honglou-yuzhou/_next/static/media/feb57b2dc8f29018-s.p.3qy4m29-cg3o4.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"characters","param":null,"prefetchHints":4192,"slots":{"children":{"name":"id","param":{"type":"d","key":"character_qingwen","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"4dfQfcEr-N67ryGhGG7q_"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"characters","param":null,"prefetchHints":4192,"slots":{"children":{"name":"id","param":{"type":"d","key":"character_qingwen","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"MbpmBFLfG0lJCyWSySnww"}
