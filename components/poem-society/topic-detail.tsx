@@ -198,14 +198,14 @@ export default function TopicDetail({
     }
     setAnswerBusy(true);
     try {
-      await api<{ id: number }>("/api/posts", {
+      const r = await api<{ id: number; msg?: string }>("/api/posts", {
         method: "POST",
         body: JSON.stringify({ title: "", content: answer.trim(), tag: POEM_TAG, type: "answer", topic_id: id }),
       });
       setAnswer("");
-      setComposeNotice({ ok: true, text: "已发布，自动审核通过后展示" });
-      const r = await api<{ topic: TopicInfo; items: TopicWork[] }>(`/api/topics/${id}`);
-      setWorks([...r.items].sort((a, b) => b.like_count - a.like_count || a.created_at - b.created_at));
+      setComposeNotice({ ok: true, text: r.msg || "已发布" });
+      const fresh = await api<{ topic: TopicInfo; items: TopicWork[] }>(`/api/topics/${id}`);
+      setWorks([...fresh.items].sort((a, b) => b.like_count - a.like_count || a.created_at - b.created_at));
     } catch (ex) {
       setComposeNotice({ ok: false, text: ex instanceof Error ? ex.message : "发布失败" });
     } finally {
@@ -243,6 +243,8 @@ export default function TopicDetail({
 
   const difficultyLabel = DIFFICULTY_LABEL[topic.difficulty] || topic.difficulty;
   const current = topic.is_current === 1 && kind === "poem_topic";
+  /* 话题详情接口不含 join_count（列表接口才有），以作品数为准 */
+  const joinCount = typeof topic.join_count === "number" ? topic.join_count : works.length;
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
@@ -263,7 +265,7 @@ export default function TopicDetail({
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-body">{topic.content}</p>
         <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-muted">
           <span>
-            已有 <span className="font-serif text-sm font-semibold text-primary">{topic.join_count}</span> 人参与
+            已有 <span className="font-serif text-sm font-semibold text-primary">{joinCount}</span> 人参与
           </span>
           {topic.theme && <span>主题 · {topic.theme}</span>}
           <span>长期开放</span>

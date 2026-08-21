@@ -76,6 +76,11 @@ export function isNewTopic(createdAt: number): boolean {
   return Date.now() - createdAt < 2 * 24 * 3600_000;
 }
 
+/** 清洗后端生成的 AI 诗评文本（后端 hashOf 偶发负索引导致 "undefined。" 前缀，存库后需前端兜底） */
+export function cleanReview(text: string): string {
+  return text.replace(/^undefined[。，、]?/, "").trim();
+}
+
 export interface CommentNode extends CommentItem {
   children: CommentNode[];
 }

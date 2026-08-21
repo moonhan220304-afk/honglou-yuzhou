@@ -8,7 +8,6 @@ import LevelBadge from "@/components/level-badge";
  * 供个人空间 / 用户主页等需要展示"谁 + 什么等级"的地方使用。
  * 传入 href 时整条可点击（跳转用户主页，路径自动带站点前缀）。 */
 export default function UserChip({
-  id,
   username,
   avatar,
   level,

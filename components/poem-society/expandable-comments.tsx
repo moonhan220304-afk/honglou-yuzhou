@@ -5,7 +5,7 @@ import Link from "next/link";
 import { api } from "@/lib/api";
 import type { CommentItem, Me } from "@/lib/api";
 import { formatTime } from "@/lib/client-community";
-import { buildCommentTree, type AiReview, type CommentNode, type PostDetailData } from "@/lib/poem-society";
+import { buildCommentTree, cleanReview, type AiReview, type CommentNode, type PostDetailData } from "@/lib/poem-society";
 
 /** 评论区（就地展开版）：金色 AI 诗评框置顶 + 评论按赞排序的楼中楼 + 底部输入框与 @AI 评诗。
  *  数据由父组件缓存（POST /api/posts/:id），提交/评诗后通过 onRefresh 回源刷新。 */
@@ -53,7 +53,7 @@ export default function ExpandableComments({
       });
       setInput("");
       setOpenReply(null);
-      setReplyDraft((d) => ({ ...d, [String(replyTo ?? "")]: "" }));
+      if (replyTo) setReplyDraft((d) => ({ ...d, [replyTo]: "" }));
       showNotice(true, "评论已发布");
       onRefresh(postId);
     } catch (ex) {
@@ -189,7 +189,7 @@ export default function ExpandableComments({
             </span>
           </p>
           <p className="mt-1.5 whitespace-pre-line font-serif text-sm leading-relaxed text-body">
-            {data.reviews[0].content}
+            {cleanReview(data.reviews[0].content)}
           </p>
         </div>
       )}

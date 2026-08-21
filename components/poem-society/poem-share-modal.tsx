@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { CommentItem } from "@/lib/api";
-import type { AiReview } from "@/lib/poem-society";
+import { cleanReview, type AiReview } from "@/lib/poem-society";
 import { formatTime } from "@/lib/client-community";
 
 export interface PoemShareData {
@@ -98,7 +98,7 @@ export default function PoemShareModal({
           <div className="mt-4 rounded-xl border border-gold/60 bg-gold/10 px-4 py-3">
             <p className="text-xs font-semibold text-gold">📌 诗评 · AI 诗评</p>
             <p className="mt-1.5 whitespace-pre-line font-serif text-sm leading-relaxed text-body">
-              {data.reviews[0].content}
+              {cleanReview(data.reviews[0].content)}
             </p>
           </div>
         )}

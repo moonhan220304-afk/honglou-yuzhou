@@ -5,15 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import UserMenu from "@/components/user-menu";
 
-const navItems = [
-  { href: "/characters", label: "人物" },
-  { href: "/questions", label: "问题" },
-  { href: "/graph", label: "图谱" },
-  { href: "/map", label: "大观园" },
-  { href: "/test", label: "测试" },
-];
-
-/** 移动版顶栏：首页悬浮透明（沉浸全景），其他页面纸色 */
+/** 移动版顶栏（第二阶段）：logo + 找乐子快捷入口 + 用户。频道导航在底部 MobileNav */
 export default function MHeader() {
   const pathname = usePathname();
   const isHome = pathname === "/";
@@ -45,29 +37,16 @@ export default function MHeader() {
           />
         </Link>
         <div className="flex items-center gap-3">
-          <nav className="flex items-center gap-3.5">
-            {navItems.map((it) => {
-              const active =
-                it.href === "/"
-                  ? pathname === "/"
-                  : pathname.startsWith(it.href);
-              return (
-                <Link
-                  key={it.href}
-                  href={it.href}
-                  className={`text-[13px] ${
-                    transparent
-                      ? "text-white/90 drop-shadow"
-                      : active
-                        ? "font-semibold text-primary"
-                        : "text-body"
-                  }`}
-                >
-                  {it.label}
-                </Link>
-              );
-            })}
-          </nav>
+          <Link
+            href="/test"
+            className={`rounded-full border px-3 py-1 text-xs transition-colors ${
+              transparent
+                ? "border-white/40 text-white"
+                : "border-line bg-surface text-body hover:text-primary"
+            }`}
+          >
+            🎮 找乐子
+          </Link>
           <UserMenu />
         </div>
       </div>
