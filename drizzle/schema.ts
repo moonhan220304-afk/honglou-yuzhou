@@ -1,3 +1,6 @@
+/* ⚠️ LEGACY（已弃用）：本项目生产后端为 server/api-server.js（纯 Node + node:sqlite）。
+ * drizzle/ 为早期 Postgres 设计稿，勿改勿用；如需重置，请删除本目录与 drizzle.config.ts。
+ */
 import {
   pgTable,
   text,
