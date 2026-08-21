@@ -82,6 +82,73 @@ export interface TestStats {
   byType: TestStatType[];
 }
 
+/* ===== 第二阶段：成长体系 / 关注 响应类型 ===== */
+
+/** 积分明细一条（GET /api/points 的 logs） */
+export interface PointsLog {
+  id: number;
+  delta: number;
+  reason: string;
+  ref: string | null;
+  created_at: number;
+}
+
+/** GET /api/points 响应 */
+export interface PointsResp {
+  ok: boolean;
+  points: number;
+  level: number;
+  level_name: string;
+  logs: PointsLog[];
+}
+
+/** 关注列表项（GET /api/follows） */
+export interface FollowItem {
+  id: number;
+  username: string;
+  avatar: string | null;
+  points: number;
+}
+
+/** 用户公开主页的用户信息（GET /api/users/:id 的 user） */
+export interface UserPublic {
+  id: number;
+  username: string;
+  avatar: string | null;
+  signature: string | null;
+  points: number;
+  level: number;
+  level_name: string;
+  followers: number;
+  following: number;
+  created_at: number;
+}
+
+/** 用户公开主页 / 关注流中的内容条目（含 type） */
+export interface ContentItem {
+  id: number;
+  title: string;
+  content: string;
+  type: string;
+  like_count: number;
+  view_count?: number;
+  created_at: number;
+}
+
+/** 混合流条目（GET /api/feed，tab=hot|new|following） */
+export interface FeedItem {
+  id: number;
+  title: string;
+  content: string;
+  tag: string;
+  type: string;
+  topic_id: number | null;
+  like_count: number;
+  view_count: number;
+  created_at: number;
+  author: { id: number; username: string; avatar: string | null; points?: number };
+}
+
 export async function api<T = unknown>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(sitePath(path), {
     credentials: "same-origin",
