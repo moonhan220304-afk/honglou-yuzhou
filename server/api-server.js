@@ -1219,12 +1219,19 @@ const server = http.createServer(async (req, res) => {
       const per = Math.min(30, Number(url.searchParams.get("per")) || 12);
       const conds = ["p.status = 'approved'"];
       const args = [];
+      if (tab === "mine") {
+        if (!viewer) return send(res, 200, { ok: true, tab, items: [] });
+        conds.length = 0;
+        conds.push("p.status != 'removed'", "p.author_id = ?");
+        args.push(viewer.id);
+      }
       if (tab === "following") {
         if (!viewer) return send(res, 200, { ok: true, tab, items: [] });
         conds.push("p.author_id IN (SELECT followee_id FROM follows WHERE follower_id = ?)");
         args.push(viewer.id);
       }
       const order =
+        tab === "mine" ? "p.created_at DESC" :
         tab === "new" ? "p.created_at DESC" :
         tab === "following" ? "p.created_at DESC" :
         "(p.like_count * 3 + p.view_count / 5) DESC, p.created_at DESC";
@@ -1503,7 +1510,7 @@ function composeAiReview(post) {
   }
   if (text.length < 24) notes.push("篇幅虽短，贵在言有尽而意无穷");
   const opens = ["意境清新", "用词不俗", "别有意趣", "情致动人", "颇具巧思", "气象开阔"];
-  const pick = opens[hashOf(text) % opens.length];
+  const pick = opens[(hashOf(text) >>> 0) % opens.length];
   return `${pick}。${notes.join("；")}。整体不俗，若再于格律上打磨，可入诗刊。`;
 }
 
