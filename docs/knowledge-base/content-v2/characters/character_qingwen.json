@@ -1,0 +1,950 @@
+{
+  "character": {
+    "id": "character_qingwen",
+    "name": "晴雯",
+    "slug": "qingwen",
+    "aliases": [
+      "勇晴雯",
+      "晴姐",
+      "晴姑娘"
+    ],
+    "category": "金陵十二钗又副册",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "出身不详，十岁被赖大家买来，后经赖嬷嬷孝敬给贾母；姑舅哥哥多浑虫（多官）为其仅存亲人。",
+      "position": "贾母之婢→宝玉房里的大丫鬟（怡红院）；又副册之首。",
+      "origin": "籍贯姓氏俱湮没无考（判词「霁月难逢」暗伏其早亡）。",
+      "generation": "与宝玉同辈的丫鬟阶层"
+    },
+    "tags": [
+      "霁月难逢",
+      "彩云易散",
+      "心比天高",
+      "晴为黛影",
+      "撕扇",
+      "病补雀金裘",
+      "倒箱",
+      "芙蓉女儿诔",
+      "诽谤生",
+      "十六岁夭亡"
+    ],
+    "summary": {
+      "short": "怡红院大丫鬟，金陵十二钗又副册之首。判词「心比天高，身为下贱」「寿夭多因诽谤生」——她以真性情对抗整个污浊秩序，十六岁被逐病死，宝玉作《芙蓉女儿诔》悼之。",
+      "long": "晴雯是《红楼梦》丫鬟群像中最具锋芒的人物。她出身孤苦——十岁被赖大家买来，赖嬷嬷带她进贾府，贾母喜爱，便孝敬了贾母；贾母又把她给了宝玉。判词「霁月难逢，彩云易散。心比天高，身为下贱。风流灵巧招人怨，寿夭多因诽谤生，多情公子空牵念」把她的一生写尽：她生得「水蛇腰，削肩膀，眉眼又有些像你林妹妹的」（王夫人语），针线女红为怡红院第一，口齿伶俐、行事泼辣。她「心比天高」——不屑袭人「连个姑娘还没挣上去」的钻营；她的「真」在第三十一回达到顶点：「撕扇子作千金一笑」——宝玉让她撕扇子，她撕得痛快：「你如今既是有情，我也就当他是废了」。「勇晴雯病补雀金裘」（第五十二回）是她勇与艺的巅峰：重病中一夜补好烧破的雀金裘，救宝玉于危难。抄检大观园（第七十四回），唯独她「挽着头发闯进来，豁一声将箱子掀开」——以决绝的姿态捍卫尊严。然「风流灵巧招人怨」，第七十七回她被王夫人以「狐狸精」之名逐出大观园，病倒在姑舅哥哥多浑虫家中。宝玉偷去探望，她换下贴身旧红绫袄与宝玉互赠——「早知如此，我当日也另有个道理。不料痴心傻意，只说大家横竖是在一处」。当晚含恨而死，年十六岁。第七十八回宝玉作《芙蓉女儿诔》——脂批点明「虽诔晴雯，实乃诔黛玉」。晴雯是「晴为黛影」（脂批「晴有林风」）的丫鬟层黛玉：同样的美、真、孤高，同样的不容于浊世。二百年来，她是读者心中「千红一哭」中最痛的一声。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "心比天高——丫鬟身份下的贵族人格",
+        "fact_type": "canonical_text_fact",
+        "description": "晴雯是最没有「丫鬟相」的丫鬟：不告密、不钻营、不谄媚、不顺从。她以平等的姿态对待宝玉（敢说敢笑敢顶撞），以尊严的姿态对待等级（不屑袭人的姨娘之路）。她的「心比天高」是全书对人格尊严的最响亮辩护。"
+      },
+      {
+        "dimension": "真——以真性情对抗污浊秩序",
+        "fact_type": "canonical_text_fact",
+        "description": "晴雯的一生是「真」的一生：撕扇是真痛快，补裘是真仗义，倒箱是真愤怒，临死之语是真伤心。「晴为黛影」的核心正在于此——她与黛玉共享「质本洁来还洁去」的人格洁癖。"
+      },
+      {
+        "dimension": "勇与巧——被美貌掩盖的才华",
+        "fact_type": "canonical_text_fact",
+        "description": "「勇晴雯病补雀金裘」——全京城找不到第二个敢接此活的织补匠，重病的晴雯用一夜完成了它。她的针线之巧与胆气之勇，是「风流灵巧」的具体内容。可惜这些才华在「狐狸精」的指控面前一文不值。"
+      },
+      {
+        "dimension": "招人怨——真性情的代价",
+        "fact_type": "canonical_text_fact",
+        "description": "晴雯的尖利（骂坠儿、讥袭人、打骂小丫头）树敌无数——「寿夭多因诽谤生」。她的真包含「不宽恕」：眼里揉不得沙子，嘴下从无留情。她的死因一半是诽谤，一半是她以真性情换来的四面树敌。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_qingwen_judgment_ch5",
+        "title": "判词——又副册之首（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_qingwen_tear_fans_ch31",
+        "title": "撕扇子作千金一笑（第三十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_qingwen_expel_zhuier_ch52",
+        "title": "撵坠儿（第五十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_qingwen_mend_ch52",
+        "title": "勇晴雯病补雀金裘（第五十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_qingwen_box_ch74",
+        "title": "抄检大观园——倒箱（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_qingwen_expelled_ch77",
+        "title": "被逐出大观园（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_qingwen_death_ch78",
+        "title": "病死与诀别（第七十七至七十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_qingwen_lei_ch78",
+        "title": "《芙蓉女儿诔》（第七十八回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_qingwen_judgment",
+        "quote": "霁月难逢，彩云易散。心比天高，身为下贱。风流灵巧招人怨，寿夭多因诽谤生，多情公子空牵念。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回晴雯判词（又副册第一）。「霁月」「彩云」藏「晴」「雯」二字——名字即命运；「诽谤生」三字直指她的死因。"
+      },
+      {
+        "source_id": "source_ch31_qingwen_fans",
+        "quote": "晴雯听了，笑道：「既这么说，你就拿了扇子来我撕。我最喜欢撕的。」……宝玉笑道：「古人云，『千金难买一笑』，几把扇子能值几何！」……晴雯笑道：「我亦不过如此罢，你如今既是有情，我也就当他是废了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十一回撕扇。「撕扇子作千金一笑」——宝玉的纵容与晴雯的真率互相成全，构成全书最痛快的场面之一。"
+      },
+      {
+        "source_id": "source_ch74_qingwen_box",
+        "quote": "只见晴雯挽着头发闯进来，豁一声将箱子掀开，两手捉着底子，朝天往地下尽情一倒，将所有之物尽都倒出。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回抄检大观园。晴雯是全园唯一以「倒箱」反抗搜查的丫鬟——以最激烈的方式捍卫清白与尊严。"
+      },
+      {
+        "source_id": "source_ch77_qingwen_last",
+        "quote": "晴雯呜咽道：「……早知如此，我当日也另有个道理。不料痴心傻意，只说大家横竖是在一处。不想平空里生出这一节话来，有冤无处诉！」说毕又哭。……晴雯拭泪，就伸手取了剪刀，将左手上两根葱管一般的指甲齐根铰下；又伸手向被内将贴身穿着的一件旧红绫袄脱下，并指甲都与宝玉道：「这个你收了，以后就如见我一般。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回诀别。晴雯铰甲赠袄——「有冤无处诉」是她对「虚担了风流罪名」的终极控诉。"
+      },
+      {
+        "source_id": "source_ch77_wangfuren_banish",
+        "quote": "王夫人便冷笑道：「好个美人！真像个病西施了。你天天作这轻狂样儿给谁看？……我一生最嫌这样人，况且又出来这个事。好好的宝玉，倘或叫这蹄子勾引坏了，那还了得！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回王夫人逐晴雯。「轻狂样儿」「勾引坏了」——晴雯之死的「罪名」纯粹是莫须有的外貌与气质。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "判词「霁月难逢，彩云易散」——晴雯＝晴天彩云（雯＝花纹云彩）",
+      "detail": "「雯」为花纹状的云彩，「晴雯」即晴天的彩云——对应判词「霁月难逢，彩云易散」，云易散预示其夭折。甲戌本「霁日」vs他本「霁月」版本争议（龚逵《「霁日」「霁月」与晴雯形象的问题》）。脂批「晴有林风」——「晴为黛影」，晴雯是黛玉之影子",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "「霁日」vs「霁月」版本争议",
+          "content": "甲戌本作「霁日」，他本多作「霁月」，龚逵撰文讨论两版本与晴雯形象塑造的关系",
+          "proponent": "龚逵"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 77,
+          "evidence": "被逐后病死（宝玉探望，自述无家）",
+          "age": "未见明文"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "红学通行推算约16岁"
+      },
+      "conclusion": "原文未见明文年龄；红学通行推算死时约十六七岁（scholarly_viewpoint，据第77回宝玉探望时「如花年纪」等语境）。",
+      "controversies": [],
+      "fact_type": "scholarly_viewpoint"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "勇晴雯",
+      "type": "回目称号",
+      "context": "第五十二回回目「勇晴雯病补雀金裘」——「勇」是曹雪芹对她的定评",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "晴姐",
+      "type": "丫鬟称呼",
+      "context": "怡红院小丫头们对她的称呼（「晴姐姐」）",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "晴姑娘",
+      "type": "丫鬟称呼",
+      "context": "众人对晴雯的称呼",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_qingwen_tear_fans_ch31",
+      "title": "撕扇子作千金一笑",
+      "event_level": "major",
+      "chapter": {
+        "number": 31,
+        "title": "撕扇子作千金一笑 因麒麟伏白首双星",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "晴雯失手跌折扇股，宝玉骂她「蠢才」，晴雯反唇相讥，二人争吵。晚间宝玉归来，与她论「爱物」之理，让她撕扇子取乐：「千金难买一笑，几把扇子能值几何！」晴雯连撕几把，麝月赶来拦住。「你如今既是有情，我也就当他是废了」——主仆和好。"
+      },
+      "summary": {
+        "short": "晴雯跌折扇子与宝玉争吵，晚间和解——宝玉纵她撕扇，晴雯撕得尽兴。这个场面成为她「真性情」的名片：要吵就吵，要笑就笑，连「和解」都带着痛快。",
+        "meaning": [
+          "撕扇是晴雯人格的宣言：她与宝玉的关系是平等的「情」的关系，不是主仆关系",
+          "「爱物」之辩——宝玉的「物为情使」哲学与晴雯的「情即真实」一拍即合",
+          "「千金一笑」——宝玉用几把扇子买来的不是晴雯的笑，是晴雯的「被理解」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "撕扇——尊严的另类伸张",
+          "content": "晴雯撕的不是扇子，是「丫鬟的规矩」：她敢和主子吵架、敢摔脸子、敢撕东西——因为在她心里她不是「东西」的主人也不是「东西」，她与宝玉是平等的「人」。这种平等意识是晴雯「心比天高」的核心：她不接受「身为下贱」的自我贬低。"
+        },
+        {
+          "type": "literary",
+          "title": "「撕扇」与「补裘」的对称",
+          "content": "第三十一回撕扇（毁物）与第五十二回补裘（救物）构成晴雯形象的完美对称：撕扇是「任性之美」，补裘是「勇义之美」——一个把名贵扇子撕着玩的人，会豁出命去补一件衣服。毁与补之间，晴雯的完整人格呼之欲出：她只对「情」认真，对「物」全不在乎。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qingwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_sheyue",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qingwen_expel_zhuier_ch52",
+      "title": "撵坠儿",
+      "event_level": "minor",
+      "chapter": {
+        "number": 52,
+        "title": "俏平儿情掩虾须镯 勇晴雯病补雀金裘",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "小丫鬟坠儿偷了平儿的虾须镯。晴雯病中得知，性如烈火，当即要撵坠儿，并「用一丈青（簪子）向他手上乱戳」，边骂边赶，不容分说。"
+      },
+      "summary": {
+        "short": "坠儿偷镯事发，平儿为顾全怡红院脸面要悄悄处理。晴雯却按捺不住，病中怒撵坠儿，用簪子戳她的手，立逼人牙子来领。坠儿哭着求饶，终被撵出。",
+        "meaning": [
+          "晴雯眼里揉不得沙子——她对「偷」的零容忍是丫鬟圈里的异类",
+          "「戳手」的暴力——她的「烈」既是正义感也是伤人伤己的棱角",
+          "撵坠儿与后来她被逐形成回环：她撵人的方式，最终别人也用在她身上"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "烈性正义的代价",
+          "content": "晴雯撵坠儿的「烈」与王夫人逐晴雯的「狠」用了同一套逻辑（以道德罪名驱逐），区别只在位置：晴雯站在「理」上，王夫人站在「权」上。晴雯的悲剧伏笔正在于此——她以为「有理走遍天下」，不知道在权力面前，理最廉价。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qingwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qingwen_mend_ch52",
+      "title": "勇晴雯病补雀金裘",
+      "event_level": "major",
+      "chapter": {
+        "number": 52,
+        "title": "俏平儿情掩虾须镯 勇晴雯病补雀金裘",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "宝玉的雀金裘（俄罗斯国孔雀毛织就）后襟被烧了一个洞，次日要穿，京城织补匠无人敢接。重病的晴雯挣扎起身，以孔雀金线按织补之法一夜补好，力尽神疲，病情加重。"
+      },
+      "summary": {
+        "short": "雀金裘被烧，无人能补。重病的晴雯「挣命」起身，一夜织补，做到「头重身轻，满眼金星乱迸」。补毕「嗳哟了一声，便身不由主倒下」。这一夜成为她生命走向衰亡的转折——「补裘」补的是宝玉的体面，耗的是晴雯的命。",
+        "meaning": [
+          "「勇」字定评——重病中的孤勇：为她可以死，为宝玉不可以丢脸",
+          "她的针线之巧全书第一——「风流灵巧」的实证",
+          "补裘之后病势加重——她为宝玉耗尽了自己，而宝玉连保护她的能力都没有"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「挣命」——晴雯之爱的形态",
+          "content": "晴雯对宝玉的爱不说不写，只做：一句「我挣命罢了」，然后是一夜的针线。她「心比天高」的另一面是「情比命重」——她可以为所爱之人耗尽最后一口气。补裘是她的「题帕诗」：不用文字，用命。"
+        },
+        {
+          "type": "literary",
+          "title": "补裘与逐晴——爱的峰值与死的开端",
+          "content": "曹雪芹的残忍在于节奏：第五十二回晴雯为宝玉「挣命」补裘，第二十五回之后病根已伏，第七十七回她就因「勾引坏宝玉」的罪名被逐。她补的每一针都在加速自己的死亡，而她保护的人（宝玉）只能眼睁睁看她被拖走。补裘是全书「以德报怨」结构中最痛的一环——晴雯为宝玉付出一切，宝玉的世界却救不了她。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qingwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qingwen_box_ch74",
+      "title": "抄检大观园——倒箱",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "抄检大观园搜至怡红院。晴雯「挽着头发闯进来，豁一声将箱子掀开，两手捉着底子，朝天往地下尽情一倒」——倾箱倒箧，以最激烈的姿态对抗搜查。王善保家的讨个没趣。"
+      },
+      "summary": {
+        "short": "抄检大观园，晴雯是唯一以「倒箱」示威的人：她把全部衣物泼在地上——「你们搜，搜个够」。她的愤怒不是心虚，而是尊严受辱的爆发。王善保家的与王夫人从此记住她的「轻狂样儿」——倒箱成为她被逐的最后伏笔。",
+        "meaning": [
+          "倒箱是全园丫鬟阶层最响亮的一次反抗——她以行动宣告「我不怕查，我恨的是被查」",
+          "与袭人（主动开箱配合）的对照——「真」与「顺」的分野在此定格",
+          "她的愤怒越激烈，她的死期越近——抄检者不会容忍被搜查者的愤怒"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "倒箱——尊严的暴力美学",
+          "content": "晴雯的倒箱与探春的掌掴（打王善保家的）构成抄检大观园中两个最著名的反抗动作：小姐的耳光与丫鬟的倒箱。两个动作的共同点是「阶级尊严的自我伸张」——探春捍卫小姐的体面，晴雯捍卫「干净人」的体面。曹雪芹用这两个动作告诉读者：抄检大观园真正冒犯的，是「人」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qingwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_shanbao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qingwen_expelled_ch77",
+      "title": "被逐出大观园——「有冤无处诉」",
+      "event_level": "major",
+      "chapter": {
+        "number": 77,
+        "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园→多浑虫家",
+        "specific": "王夫人亲自到怡红院，将「四五日水米不曾沾牙」的晴雯从炕上拉起来，逐出大观园。晴雯被送到姑舅哥哥多浑虫家。王夫人只准她带走贴身衣物。宝玉痛哭：「晴雯可还在这里做什么？」"
+      },
+      "summary": {
+        "short": "王夫人亲临怡红院，把重病的晴雯从炕上拖起，撵出园子，只准带走随身衣物。罪名是「狐狸精」「轻狂样儿」——都是莫须有的气质罪。宝玉不敢违逆母亲，只能哭。晴雯被送到姑舅哥哥多浑虫家中，无人照料。",
+        "meaning": [
+          "「俏丫鬟抱屈夭风流」——回目点明：她的死因是「抱屈」，即冤枉",
+          "被从病床上拖走——礼教对「美」与「真」的处刑现场",
+          "宝玉的无能为力——他「守护所有女儿」的理想在此刻破产"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "罪名学——「狐狸精」的构造",
+          "content": "晴雯的罪名没有任何事实基础：她与宝玉清清白白（临死自辩「我当日也另有个道理」——后悔自己太清白）。王夫人的指控（美貌=勾引、伶俐=轻狂）暴露了礼教社会对女性的根本恐惧：美与真本身就是罪。「寿夭多因诽谤生」——诽谤不需要事实，只需要权力。"
+        },
+        {
+          "type": "character",
+          "title": "「早知如此，我当日也另有个道理」",
+          "content": "晴雯临终的这句话是她悲剧的点睛之笔：她与宝玉什么都没做，却「虚担了虚名」——她悔的不是「做过」，而是「没做」。若早知清白的代价是「虚名」与放逐，她宁可坐实了这份情。这是全书对「清白无用论」最惨烈的一击：在这个制度里，清不清白根本不重要，重要的是你有没有权力。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qingwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_duo_hunchong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qingwen_death_ch78",
+      "title": "诀别与夭亡——铰甲赠袄",
+      "event_level": "major",
+      "chapter": {
+        "number": 78,
+        "title": "老学士闲征姽婳词 痴公子杜撰芙蓉诔",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "多浑虫家",
+        "specific": "宝玉偷出大观园探望晴雯。晴雯口渴无茶，只能喝带腥气的粗茶——「这就是茶了，那里比得咱们的茶」。她铰下两根葱管般的指甲、脱下贴身旧红绫袄赠宝玉。当夜晴雯死，年十六岁。"
+      },
+      "summary": {
+        "short": "宝玉冒险探晴雯。重病的晴雯喝下粗碗腥茶，感叹「这就是茶了」——她铰甲赠袄：「这个你收了，以后就如见我一般。」当夜晴雯夭亡。小丫头谎称晴雯做了芙蓉花神，宝玉信以为真。",
+        "meaning": [
+          "铰甲赠袄——晴雯以「身体之物」完成的最后盟誓",
+          "「这就是茶了」——身份跌落的最残酷注脚",
+          "芙蓉花神之说——宝玉（与作者）为晴雯之死寻求的神话补偿"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "指甲与红绫袄——身体的遗赠",
+          "content": "晴雯临终的赠物（指甲、内衣）是最私密的物品——她以身体的遗赠完成与宝玉的「肌肤之盟」：活着时清白，死前把清白「坐实」为情。这是她对「虚担虚名」的最后反抗——不是以行为，而是以遗物。"
+        },
+        {
+          "type": "character",
+          "title": "芙蓉花神——民间叙事的安慰",
+          "content": "小丫头编的「芙蓉花神」之说，宝玉（与作者）郑重采信——曹雪芹用民间想象为晴雯之死镀上神性，同时保留其「谎话」的底子：神话是编的，痛是真的。花神之说既安慰宝玉，也提醒读者：现实的晴雯死得毫无神迹可言。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qingwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_duo_hunchong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qingwen_lei_ch78",
+      "title": "《芙蓉女儿诔》——「虽诔晴雯，实乃诔黛玉」",
+      "event_level": "major",
+      "chapter": {
+        "number": 78,
+        "title": "老学士闲征姽婳词 痴公子杜撰芙蓉诔",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "花冢/芙蓉池边",
+        "specific": "宝玉为晴雯作《芙蓉女儿诔》，以香花祭奠。文中「红绡帐里，公子多情；黄土垄中，女儿薄命」之句，后经黛玉建议改为「茜纱窗下，我本无缘；黄土垄中，卿何薄命」——黛玉「怦然变色」。脂批：「虽诔晴雯，实乃诔黛玉。」"
+      },
+      "summary": {
+        "short": "宝玉作长篇《芙蓉女儿诔》祭晴雯。黛玉闻句而来，建议改「红绡帐里」为「茜纱窗下」——改后的句子竟成对黛玉自己的谶语：「卿何薄命」——黛玉「怦然变色」。脂批点破：这篇诔文明祭晴雯，实为黛玉之死预写祭文。",
+        "meaning": [
+          "《芙蓉女儿诔》是宝玉悼念体系的顶点——也是「晴为黛影」的最终证据",
+          "「卿何薄命」——祭文的谶语从晴雯滑向黛玉",
+          "晴雯之死与黛玉之死在悼文中合流——两场死亡，一篇诔文"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "脂批「实乃诔黛玉」——晴黛合流的叙事设计",
+          "content": "脂砚斋的批语点破曹雪芹的深层设计：晴雯之死是黛玉之死的预演。《芙蓉女儿诔》表面哀晴雯，实为黛玉的「先祭」——「芙蓉」既是晴雯的花神封号，也是黛玉的抽签花名（「莫怨东风当自嗟」的芙蓉签）。两个「芙蓉」的叠加，把丫鬟与小姐的命运焊在一起：晴雯的今天，就是黛玉的明天。"
+        },
+        {
+          "type": "literary",
+          "title": "改句成谶——黛玉的「怦然变色」",
+          "content": "「茜纱窗下，我本无缘；黄土垄中，卿何薄命」——黛玉亲自改出的句子，恰好预言了自己的死亡。她的「怦然变色」说明她听懂了弦外之音。曹雪芹让被祭奠者（的未来形态）参与修改自己的祭文——文学史上最惊悚也最精妙的一笔。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qingwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qingwen_judgment_ch5",
+      "title": "太虚幻境判词——又副册之首",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "宝玉在「薄命司」先开又副册，第一页即是晴雯：画着「既非人物，亦非山水，不过是水墨滃染的满纸乌云浊雾而已」。判词「霁月难逢，彩云易散……」"
+      },
+      "summary": {
+        "short": "晴雯的册页画着「满纸乌云浊雾」——没有人物没有山水，只有乌云浊雾。她是又副册第一人，也是宝玉在薄命司看到的第一个女子。判词「霁月难逢，彩云易散」以「晴」「雯」拆名成谶。",
+        "meaning": [
+          "「乌云浊雾」的册画——她的世界没有形象，只有污浊；她的存在就是被浊雾吞没的「霁月」",
+          "又副册之首——丫鬟层的第一悲剧",
+          "「霁月」「彩云」的拆名——晴与雯，美到极致也散到极致"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「霁日」还是「霁月」——判词版本之争",
+          "content": "甲戌本作「霁日难逢」，庚辰本等作「霁月难逢」（龚逵等学者对此有专门研究）。「霁月」意象更美（雨后之月），与「彩云」对仗更工；「霁日」则更接近「晴」的本义（雨止日出）。版本之异不影响总意——无论日与月，都是「难逢」「易散」的洁净之物。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qingwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_bo_ming",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_qingwen_jia_baoyu",
+      "from": "character_qingwen",
+      "to": "character_jia_baoyu",
+      "type": "主仆（精神知己）",
+      "nature": [
+        "master_servant",
+        "romantic",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "晴雯与宝玉的关系是全书最纯粹的主仆情：没有肉欲（「虚担虚名」）、没有算计（不屑姨娘之路）、只有平等与真。宝玉纵她撕扇、容她顶撞、为她作诔；晴雯为他补裘、为他「挣命」。判词「多情公子空牵念」——宝玉对她的牵念越深，越显出他保护能力的虚无。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "撕扇与纵容",
+          "chapter": 31,
+          "description": "宝玉纵晴雯撕扇——「千金难买一笑」。"
+        },
+        {
+          "stage": 2,
+          "title": "补裘与救命",
+          "chapter": 52,
+          "description": "晴雯病补雀金裘——以命相报。"
+        },
+        {
+          "stage": 3,
+          "title": "诀别与诔文",
+          "chapter": 77,
+          "description": "晴雯铰甲赠袄，当夜夭亡。宝玉作《芙蓉女儿诔》。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qingwen_lin_daiyu",
+      "from": "character_qingwen",
+      "to": "character_lin_daiyu",
+      "type": "影子（晴为黛影）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "scholarly_viewpoint",
+      "summary": "脂批「晴有林风」——晴雯是黛玉的丫鬟层投影：同样的美貌（眉眼像林妹妹）、同样的真率、同样的孤高、同样的「不容于浊世」。二人几乎无正面交集（晴雯曾让黛玉吃闭门羹，属误会），但命运高度同构：黛玉之死是晴雯之死的放大版，《芙蓉女儿诔》「实乃诔黛玉」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "「眉眼像你林妹妹」",
+          "chapter": 74,
+          "description": "王夫人骂晴雯「眉眼又有些像你林妹妹的」——外貌的影子关系被点破。"
+        },
+        {
+          "stage": 2,
+          "title": "诔文合流",
+          "chapter": 78,
+          "description": "「虽诔晴雯，实乃诔黛玉」——脂批点明命运的同构。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qingwen_wang_furen",
+      "from": "character_qingwen",
+      "to": "character_wang_furen",
+      "type": "主仆（驱逐者与被逐者）",
+      "nature": [
+        "master_servant",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人与晴雯几乎无正面交集，却是她命运的刽子手。王夫人第一次见她（第七十四回）就记住她的「轻狂样儿」，第七十七回以「狐狸精」之名将重病的她逐出。王夫人的厌恶是「气质罪」：晴雯的美貌、伶俐、自由感，都是对她的秩序的威胁。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "初见即厌",
+          "chapter": 74,
+          "description": "王夫人见晴雯「钗軃鬓松，衫垂带褪」，又像黛玉，顿生厌恶——「好个美人！真像个病西施了」。"
+        },
+        {
+          "stage": 2,
+          "title": "驱逐",
+          "chapter": 77,
+          "description": "王夫人亲临怡红院逐晴雯，只准带贴身衣物。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qingwen_jia_mu",
+      "from": "character_qingwen",
+      "to": "character_jia_mu",
+      "type": "旧主（赏识之源）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母是晴雯的第一个靠山：赖嬷嬷把晴雯孝敬贾母，贾母见她「生得伶俐标致」「针线又出挑」，遂给了宝玉，并认定「将来只他还可以给宝玉使唤得」（意属晴雯为宝玉之妾）。晴雯被逐后，贾母惊愕惋惜：「但晴雯那丫头我看他甚好……将来只他还可以给宝玉使唤得。谁知变了。」——贾母的认可救不了晴雯，权力的代际转移（王夫人掌权）才是生杀所在。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赐与宝玉",
+          "chapter": 3,
+          "description": "贾母将晴雯拨给宝玉——「只他还可以给宝玉使唤得」的属意。"
+        },
+        {
+          "stage": 2,
+          "title": "事后惋惜",
+          "chapter": 78,
+          "description": "晴雯死后贾母表示惋惜——但为时已晚。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qingwen_lai_dajia",
+      "from": "character_qingwen",
+      "to": "character_lai_mama",
+      "type": "旧主（买卖关系）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "晴雯十岁被赖大家买来做丫鬟，因常跟赖嬷嬷进贾府，被贾母看中，赖嬷嬷便「孝敬」了贾母——晴雯的身世就此湮没：连家乡父母都记不清，只有姑舅哥哥多浑虫一个亲人。被买被送的轨迹，是她「身为下贱」的制度性起点。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "被买被送",
+          "chapter": 77,
+          "description": "晴雯临终前对宝玉诉说身世：十岁被赖大家买来，后孝敬了贾母。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_qingwen_judgment",
+      "title": "判词（又副册）",
+      "work_type": "判词",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "「霁月难逢，彩云易散。心比天高，身为下贱。风流灵巧招人怨，寿夭多因诽谤生，多情公子空牵念。」",
+      "symbolic_notes": "「霁月」「彩云」拆「晴」「雯」二字；「乌云浊雾」的册画是她生存环境的写照——她这轮「霁月」终被浊雾吞没。"
+    },
+    {
+      "id": "poem_furong_lei",
+      "title": "芙蓉女儿诔",
+      "work_type": "诔文（长篇韵文）",
+      "chapter_number": 78,
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉为晴雯所作长篇祭文。「忆女儿曩生之昔，其为质则金玉不足喻其贵，其为性则冰雪不足喻其洁，其为神则星日不足喻其明，其为貌则花月不足喻其色。」……「红绡帐里，公子多情；黄土垄中，女儿薄命。」（后改为「茜纱窗下，我本无缘；黄土垄中，卿何薄命。」）",
+      "symbolic_notes": "全书最长的抒情文学文本之一；脂批「虽诔晴雯，实乃诔黛玉」——一篇诔文，两个芙蓉（晴雯的花神封号与黛玉的芙蓉签）。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_qingwen_daiyu_shadow",
+      "title": "晴雯是不是黛玉的「影子」？",
+      "slug": "is-qingwen-daiyus-shadow",
+      "question_type": "comparative_analysis",
+      "importance_weight": 85,
+      "heat_weight": 82,
+      "neutral_overview": "脂批「晴有林风」，王夫人说晴雯「眉眼像你林妹妹」，《芙蓉女儿诔》「实乃诔黛玉」。晴雯与黛玉的关系，是巧合还是曹雪芹的自觉设计？",
+      "viewpoint_ids": [
+        "viewpoint_qingwen_is_shadow",
+        "viewpoint_qingwen_not_shadow",
+        "viewpoint_qingwen_system_parallel"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "viewpoint_qingwen_is_shadow",
+          "title": "镜像论：晴雯是黛玉的丫鬟版",
+          "summary": "证据链完整：外貌（眉眼像黛玉）、性格（真率孤高）、命运（不容于浊世、死于诽谤）、文学处理（《芙蓉女儿诔》实诔黛玉）。曹雪芹用晴雯「预演」黛玉之死——丫鬟的死是小规模彩排，小姐的死是正式演出。晴雯是「谶语化」的黛玉。",
+          "evidence": [
+            "王夫人「眉眼又有些像你林妹妹的」",
+            "脂批「晴有林风」「实乃诔黛玉」",
+            "晴雯之死与黛玉之死的同构性"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "viewpoint_qingwen_not_shadow",
+          "title": "独立论：晴雯是独立人格，不是影子",
+          "summary": "晴雯的烈（撕扇、倒箱、撵坠儿）与黛玉的雅（葬花、题帕、吟诗）气质迥异；晴雯的锋芒是外向的、动作性的，黛玉的锋芒是内向的、诗性的。把晴雯读成「影子」会遮蔽她的独立性——她是丫鬟群像中最具个性张力的人物，其文学价值不依附黛玉而存在。",
+          "evidence": [
+            "晴雯的动作性反抗（倒箱、戳坠儿）与黛玉的诗性反抗（葬花、焚稿）的差异",
+            "晴雯的「勇」是独特的，黛玉并无对应"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "viewpoint_qingwen_system_parallel",
+          "title": "体系论：钗黛体系中的结构性对位",
+          "summary": "「晴为黛影、袭为钗副」是曹雪芹的体系化设计：主子层有钗黛对照，丫鬟层有袭晴对照——两条平行线构成「贵贱同构」的命运体系。晴雯与黛玉的相似性不是「影子关系」而是「结构对位」：不同阶层的两个女人，因同样的「真」而死于同样的「诽谤」。",
+          "evidence": [
+            "钗黛与袭晴的双线对位",
+            "「风流灵巧招人怨」与黛玉「孤高自许」的同构性"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_wangfuren_banish_qingwen",
+      "title": "王夫人为什么赶走晴雯？",
+      "slug": "why-did-wangfuren-banish-qingwen",
+      "question_type": "character_motivation",
+      "importance_weight": 82,
+      "heat_weight": 78,
+      "neutral_overview": "晴雯与宝玉清清白白，王夫人却以「狐狸精」之名驱逐她。真正的原因是什么？",
+      "viewpoint_ids": [
+        "viewpoint_qingwen_ritual_defense",
+        "viewpoint_qingwen_power_politics",
+        "viewpoint_qingwen_daiyu_shadow"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_qingwen_ritual_defense",
+          "title": "礼教防卫：晴雯触碰了王夫人的底线",
+          "summary": "王夫人的核心焦虑是「宝玉被勾引坏」——晴雯的「水蛇腰削肩膀」「轻狂样儿」在她眼中就是危险信号。驱逐晴雯是「防患于未然」的礼教防卫：宁可错杀，不可放过。晴雯的美貌与自由气质本身就是「罪证」。",
+          "evidence": [
+            "「好好的宝玉，倘或叫这蹄子勾引坏了」",
+            "王夫人对「病西施」「轻狂样儿」的定性"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "viewpoint_qingwen_power_politics",
+          "title": "权力政治：逐晴雯是袭人派的胜利",
+          "summary": "晴雯被逐是怡红院内部权力斗争的结果：袭人已获准姨娘待遇，晴雯是贾母属意的「唯一可给宝玉使唤」的人——二人代表贾母与王夫人两派的意志。王夫人逐晴雯，实质是排除贾母路线、巩固自己的「贤」体系。告密者（袭人嫌疑或婆子们）只是执行了权力更替的舆论准备。",
+          "evidence": [
+            "贾母「将来只他还可以给宝玉使唤得」与王夫人逐晴雯的冲突",
+            "袭人准姨娘待遇与晴雯被逐的时间关系"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_qingwen_daiyu_shadow",
+          "title": "杀鸡儆猴：晴雯是黛玉的替身",
+          "summary": "王夫人骂晴雯时特意点出「眉眼像你林妹妹」——她真正恐惧的是晴雯背后的黛玉。王夫人不能动黛玉（贾母之庇），于是拿「丫鬟版黛玉」开刀。逐晴雯是对宝黛阵营的警告：连丫鬟都保不住，何况小姐。晴雯之死是宝黛爱情悲剧的第一声丧钟。",
+          "evidence": [
+            "王夫人「眉眼又有些像你林妹妹的」的指向性",
+            "晴雯之死与黛玉之死的先后呼应（诔文合流）"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_qingwen_yuan",
+      "title": "晴雯到底冤不冤？",
+      "slug": "was-qingwens-death-unjust",
+      "question_type": "character_morality",
+      "importance_weight": 80,
+      "heat_weight": 78,
+      "neutral_overview": "晴雯之死是「诽谤生」——但她的尖利、暴烈（戳坠儿、骂小丫头）也确实树敌无数。她的死是纯属冤枉，还是性格自取？",
+      "viewpoint_ids": [
+        "vp_qingwen_yuan_yes",
+        "vp_qingwen_yuan_partly"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_qingwen_yuan_yes",
+          "title": "纯冤论：罪名与事实完全脱节",
+          "summary": "晴雯被逐的罪名（勾引宝玉）纯属虚构——她与宝玉清白如雪（「早知如此，我当日也另有个道理」）。她的尖利是性格问题不是道德问题：撵坠儿是维护怡红院清白，骂小丫头是丫鬟圈常态。以性格缺陷换死亡判决，就是冤案。",
+          "evidence": [
+            "晴雯临终「虚担虚名」的自白",
+            "「寿夭多因诽谤生」的判词定调"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_qingwen_yuan_partly",
+          "title": "性格论：她的暴烈部分「自取」了祸端",
+          "summary": "晴雯的「真」里包含不宽恕的暴烈：戳坠儿的手、骂小丫头的嘴、讥袭人的刺——这些行为制造了大量怨恨（「招人怨」），为诽谤提供了弹药与听众。她的死是「诽谤+性格」的合谋：诽谤是刀，她的棱角是让刀好砍的缺口。若她稍知收敛，未必招来王夫人的「轻狂」印象。",
+          "evidence": [
+            "「风流灵巧招人怨」——判词承认她的「招怨」",
+            "撵坠儿、骂小丫头等树敌行为",
+            "王善保家的对她的指名告发"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_qingwen_version",
+      "title": "「霁日难逢」还是「霁月难逢」——判词版本之争说明什么？",
+      "slug": "qingwens-verdict-text-version-dispute",
+      "question_type": "version_dispute",
+      "importance_weight": 68,
+      "heat_weight": 60,
+      "neutral_overview": "甲戌本作「霁日难逢」，庚辰本等他本作「霁月难逢」。一字之差，关系判词意象的解读。",
+      "viewpoint_ids": [
+        "vp_qingwen_jiyue",
+        "vp_qingwen_jiri"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_qingwen_jiyue",
+          "title": "「霁月」说（庚辰本等通行本）",
+          "summary": "「霁月」（雨后的明月）意象更美，与「彩云易散」对仗更工整（月对云、霁对彩），且「月」与「晴雯」的「雯」（彩云）构成天象系统的完整呼应。龚逵等学者从版本源流与意象系统两方面论证「霁月」更可能是曹雪芹定稿。",
+          "evidence": [
+            "庚辰本等主要抄本的文本",
+            "「月—云」天象对仗的意象分析"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_qingwen_jiri",
+          "title": "「霁日」说（甲戌本）",
+          "summary": "甲戌本作「霁日难逢」：「霁日」（雨后的晴天）更贴近「晴」字本义（雨止日出），拆名更直接。「日」与「月」的版本差异，可能反映曹雪芹改稿的不同阶段——甲戌本年代较早，或保留初稿用字。一字之差提醒读者：判词的每一个字都经过作者的反复打磨。",
+          "evidence": [
+            "甲戌本的文本",
+            "「晴」字与「霁日」的语义贴近"
+          ],
+          "fact_type": "disputed_version"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_qingwen_jiemei",
+      "title": "晴雯——「丫鬟中的贵族」与阶级尊严的文学表达",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1980,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者普遍将晴雯视为《红楼梦》「奴隶中的贵族」：她以丫鬟之身，践行最高的人格标准——不告密（真）、不谄媚（傲）、不钻营（洁）。王昆仑等指出，晴雯的「心比天高」是对「身为下贱」的命运判决的持续上诉；她的死是全书对封建等级制度的最强烈抗议之一：一个「干净的」人被以「肮脏」的罪名处死，而真正的肮脏（告密、钻营、诽谤）安然无恙。"
+    },
+    {
+      "id": "viewpoint_qingwen_wannian",
+      "title": "「俏丫鬟抱屈夭风流」——冤枉美学的巅峰",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学悲剧美学研究",
+      "year": 1992,
+      "source_title": "多项悲剧美学研究",
+      "description": "晴雯之死被学者视为「冤枉美学」的巅峰之作：她的罪名（勾引）与事实（清白）完全脱节，她的美丽（眉眼、巧手）成为定罪依据，她的死前自白（「有冤无处诉」）把冤案的荒诞推到极致。有论者指出，晴雯之死预演了后世所有「欲加之罪」的文学原型——礼教社会对女性的定罪不需要证据，只需要「像」。"
+    },
+    {
+      "id": "viewpoint_qingwen_fulong",
+      "title": "《芙蓉女儿诔》——「虽诔晴雯，实乃诔黛玉」的文本学",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "脂砚斋等",
+      "year": 1754,
+      "source_title": "《脂砚斋重评石头记》批语及后续研究",
+      "description": "脂批对《芙蓉女儿诔》的定位（「虽诔晴雯，实乃诔黛玉」）被学界广泛接受：诔文中的「芙蓉」双关（晴雯的花神封号与黛玉的芙蓉签）、「茜纱窗下，我本无缘；黄土垄中，卿何薄命」的改句成谶、以及晴雯之死与黛玉之死的情节同构，共同构成「一诔祭双人」的叙事奇观。学者进一步指出：宝玉在晴雯死后尚能作诔、能痛哭，而黛玉死时（后四十回）他已被掉包计娶了宝钗——连一篇诔文都无法再写。这使《芙蓉女儿诔》成为宝玉「悼念能力」的绝唱。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 8,
+    "total_relationships": 6,
+    "total_poems": 2,
+    "total_questions": 4,
+    "total_viewpoints": 3,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 38,
+      "text_inference": 4,
+      "scholarly_viewpoint": 11,
+      "disputed_version": 2,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

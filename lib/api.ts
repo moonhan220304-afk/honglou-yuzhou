@@ -1,0 +1,105 @@
+"use client";
+
+/** 站点基础路径（桌面 /honglou-yuzhou，移动 /honglou-yuzhou/m）。
+ * 任何 window.location / 服务端重定向都必须经 sitePath 加前缀，
+ * 否则会跳到服务器根路径（被同机其他站点占用）。 */
+export const siteBase = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+export function sitePath(p: string): string {
+  return p.startsWith("/") ? `${siteBase}${p}` : p;
+}
+
+export interface Me {
+  id: number;
+  username: string;
+  role: "user" | "admin";
+  avatar: string | null;
+  signature: string | null;
+  created_at: number;
+}
+
+export interface PostQuote {
+  question_title?: string;
+  viewpoint_title?: string;
+  source?: string;
+  summary?: string;
+}
+
+export interface PostSummary {
+  id: number;
+  title: string;
+  content: string;
+  tag: string;
+  images: string[];
+  status: string;
+  like_count: number;
+  view_count: number;
+  question_id: string | null;
+  quote: PostQuote | null;
+  author: { id: number; username: string };
+  created_at: number;
+}
+
+export interface CommentItem {
+  id: number;
+  content: string;
+  reply_to: number | null;
+  floor: number;
+  like_count: number;
+  liked?: boolean;
+  author: { id: number; username: string };
+  created_at: number;
+}
+
+export interface NotificationItem {
+  id: number;
+  type: string;
+  from: { id: number; username: string } | null;
+  post_id: number | null;
+  comment_id: number | null;
+  question_id: string | null;
+  title: string;
+  body: string;
+  read: boolean;
+  created_at: number;
+}
+
+export interface TestStatType {
+  archetype_id: string;
+  character_id: string;
+  c: number;
+}
+
+export interface TestStats {
+  total: number;
+  byType: TestStatType[];
+}
+
+export async function api<T = unknown>(path: string, init?: RequestInit): Promise<T> {
+  const res = await fetch(sitePath(path), {
+    credentials: "same-origin",
+    headers: init?.body instanceof FormData || init?.body instanceof Blob ? undefined : { "Content-Type": "application/json", ...(init?.headers as Record<string, string> | undefined) },
+    ...init,
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error((data as { msg?: string }).msg || `请求失败(${res.status})`);
+  return data as T;
+}
+
+export async function apiGet<T = unknown>(path: string): Promise<T> {
+  return api<T>(path);
+}
+
+export async function apiPost<T = unknown>(path: string, body: unknown): Promise<T> {
+  return api<T>(path, { method: "POST", body: JSON.stringify(body) });
+}
+
+/** 登录状态（客户端一次性获取，页面按需调用） */
+export async function fetchMe(): Promise<Me | null> {
+  try {
+    const r = await api<{ user: Me | null }>("/api/me");
+    return r.user;
+  } catch {
+    return null;
+  }
+}

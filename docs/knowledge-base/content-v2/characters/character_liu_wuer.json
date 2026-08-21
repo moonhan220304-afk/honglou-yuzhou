@@ -1,0 +1,476 @@
+{
+  "character": {
+    "id": "character_liu_wuer",
+    "name": "柳五儿",
+    "slug": "liu-wu-er",
+    "aliases": [
+      "五儿"
+    ],
+    "category": "荣国府仆役之女（厨役柳家之女）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "大观园厨役柳家的（柳嫂子）之女，排行第五，故称五儿。",
+      "position": "仆役之女，未入府当差；一心谋入怡红院而未成。",
+      "origin": "贾府厨房仆役家庭。",
+      "generation": "与春燕、小红等年相仿佛的丫鬟候选阶层"
+    },
+    "tags": [
+      "玫瑰露",
+      "茯苓霜",
+      "判冤决狱",
+      "平儿",
+      "芳官",
+      "晴雯之影",
+      "钗黛之影",
+      "候芳魂五儿承错爱"
+    ],
+    "summary": {
+      "short": "大观园厨役柳嫂子之女，体弱多病，一心想进怡红院当差。第六十回芳官赠她玫瑰露；第六十一回她带茯苓霜入园被林之孝家的当贼拿下，平儿判冤决狱替她洗清，但她始终未能进园当差。第七十七回王夫人说「那丫头短命死了」；后四十回（gaoe，第一百零九回）写她复活进怡红院，被宝玉误认作晴雯转世——前后矛盾，是红学著名公案。",
+      "long": "柳五儿是大观园厨役柳嫂子之女，排行第五，人称五儿。她生得「人物齐整」，却体弱多病，全书出场不多，但每一笔都意味深长。第六十回，她病中想吃玫瑰露，芳官问宝玉要了半瓶玫瑰露送她，又引出一串茯苓霜、失窃案。第六十一回，五儿带舅舅家给的茯苓霜进园，被林之孝家的撞见，当作偷露的贼拿下，连累母亲柳嫂子差点丢了厨房差事；平儿「判冤决狱」查明真相，洗清五儿，却终究没能让她进怡红院——她的「想进园」成了一个底层女儿够不着的梦。第七十七回，王夫人撵芳官时说道「幸而那丫头短命死了」——前八十回明确交代五儿已死。然而后四十回（gaoe）第一百零九回「候芳魂五儿承错爱」写五儿未死，进了怡红院，宝玉把她误认作晴雯转世，想入非非——续书复活了曹雪芹笔下已死的人物，这是《红楼梦》最著名的前后矛盾之一。红学界论五儿，多聚焦三点：她是「钗黛之影」的又一例（其美兼有钗黛、其弱似黛玉），她是「晴雯之影」（宝玉错认她为晴雯的续书情节），她更是「大观园门槛」的象征——园子外多少女儿想进来，园子里多少女儿被撵出去。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "弱——病中的梦想者",
+        "fact_type": "canonical_text_fact",
+        "description": "五儿体弱多病，全书以「病」写她：病中的她最渴望的是进怡红院——大观园外的人看园内，以为那里是福地。她的弱让她连「进去」的力气都没有，梦想与身体一样单薄。"
+      },
+      {
+        "dimension": "洁——被冤枉也不自轻",
+        "fact_type": "canonical_text_fact",
+        "description": "第六十一回五儿被当贼拿下，委屈却不失态，平儿判冤决狱后「众人皆服」。她的洁与晴雯同调——底层女儿的清白是全书最贵的尊严。"
+      },
+      {
+        "dimension": "影——钗黛与晴雯的影子（gaoe之辨）",
+        "fact_type": "disputed_version",
+        "note": "后四十回（gaoe）候芳魂情节之辨",
+        "description": "后四十回（gaoe）把五儿写成晴雯的替身，宝玉「候芳魂」错爱五儿。学界多认为这是续书对曹雪芹「影写」笔法的误用：前八十回的五儿是「想进来的人」，续书把她变成了「被错认的人」。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_liu_wuer_ch60",
+        "title": "芳官赠玫瑰露（第六十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_liu_wuer_ch61",
+        "title": "茯苓霜被当贼、平儿判冤决狱（第六十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_liu_wuer_ch77",
+        "title": "王夫人称其「短命死了」（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_liu_wuer_ch109",
+        "title": "候芳魂五儿承错爱——被误认晴雯转世（第一百零九回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch60_liu_wuer_rose",
+        "quote": "（芳官道）「……我才把家里带来的一瓶玫瑰露，送了你半瓶……」（五儿道）「我的病，好也是那个，歹也是那个……若能去了这病，也是大家造化。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十回。玫瑰露是五儿之病的唯一甜——芳官与五儿的友情，是全书最素的一笔。"
+      },
+      {
+        "source_id": "source_ch61_liu_wuer_accused",
+        "quote": "（林之孝家的）「……你敢拿出去？既这样，你就明说是怎么来的！」……（五儿）呜咽着，不能作答。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十一回。一包茯苓霜让五儿成了「贼」——大观园的门，连想进的人都防着。"
+      },
+      {
+        "source_id": "source_ch77_liu_wuer_dead",
+        "quote": "（王夫人道）「……是谁调唆宝玉要柳家的丫头五儿了？幸而那丫头短命死了，不然进来了，你们又连伙聚党遭害这园子呢。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回。前八十回明确写五儿已死——与后四十回（gaoe）的复活直接矛盾。"
+      },
+      {
+        "source_id": "source_ch109_liu_wuer_ghost",
+        "quote": "（宝玉）见是五儿……便道：「你进来，我瞧你是不是晴雯转世的。」……「候芳魂五儿承错爱」。",
+        "fact_type": "disputed_version",
+        "note": "第一百零九回（attribution=gaoe）。续书复活五儿，写成晴雯的替身——红学著名矛盾。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「五儿」——排行第五之女，无名之名的底层写法",
+      "detail": "「五儿」是按排行起的名字（柳家第五个孩子，一说第五个女儿），全书再无其他信息——连名字都只给到「排行」。这种命名正是底层女儿的命名法：小姐们有「黛玉」「宝钗」的珠玉之名，仆役之女只有一个数字。与之对照，怡红院丫鬟有「春燕」「秋纹」的时令雅名——五儿的名字本身，就是她与「园内」之间那道门槛。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；厨役柳家之女，约十三四岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "五儿",
+      "type": "省称",
+      "context": "文中常省「柳」字径称「五儿」",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_liu_wuer_ch60",
+      "title": "玫瑰露——芳官的赠药与病中的甜",
+      "event_level": "minor",
+      "chapter": {
+        "number": 60,
+        "title": "茉莉粉替去蔷薇硝 玫瑰露引来茯苓霜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "柳家（大观园外）",
+        "specific": "五儿病中想吃玫瑰露，芳官问宝玉要了半瓶玫瑰露，亲自送来给五儿。五儿感激不已，又说起想进怡红院当差的心事，芳官应承替她说情。"
+      },
+      "summary": {
+        "short": "第六十回的玫瑰露是五儿全部梦想的浓缩：半瓶露是友情，一个「想进怡红院」的念头是野心。她的病与她的梦在露水里碰头——甜是借来的，进园是够不着的。",
+        "meaning": [
+          "玫瑰露从宝玉处来——怡红院的甜，五儿只能借",
+          "「想进园」——大观园外女儿的普遍欲望，五儿是它的代言人",
+          "芳官的应承——丫鬟之间最朴素的互助"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "门槛内外的梦",
+          "content": "五儿是「门槛」主题的化身：园外的人把园内想象成天堂，却不知园内的芳官们正被撵、司棋们正撞墙。曹雪芹让最想进去的人死在门口——大观园的门，对底层女儿永远半开半掩。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_wuer",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liu_wuer_ch61",
+      "title": "茯苓霜冤案——被当贼与判冤决狱",
+      "event_level": "major",
+      "chapter": {
+        "number": 61,
+        "title": "投鼠忌器宝玉瞒赃 判冤决狱平儿行权",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "五儿带舅舅家送的茯苓霜进园，被林之孝家的撞见，当作偷玫瑰露的贼拿下，拘了一夜。她母亲柳嫂子几乎丢差。平儿细审，查清真贼是彩云（偷露给贾环），为探春体面让宝玉瞒赃，洗清五儿。"
+      },
+      "summary": {
+        "short": "第六十一回是五儿的「审判日」：她想进的园子，先用「贼」的罪名招待了她。平儿的明断还她清白，却还不了她一个进园的机会——冤狱可以判，门槛不会开。",
+        "meaning": [
+          "茯苓霜的来路再正当，也抵不过「园外人」的原罪",
+          "平儿判冤决狱——全书最亮的司法场景，也是五儿最暗的一夜",
+          "投鼠忌器——真贼彩云因探春体面被放，假贼五儿因无背景被拘"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "冤案的等级学",
+          "content": "玫瑰露案的真贼是王夫人房里的彩云，却因「投鼠忌器」不敢动；假贼五儿无依无靠，先被当贼拘了一夜。同一桩案子里，背景决定待遇——平儿的清明恰恰照出这个体系的不清。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_wuer",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_zhixiao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_liu_jia",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liu_wuer_ch109",
+      "title": "候芳魂五儿承错爱——被误认作晴雯转世",
+      "event_level": "major",
+      "chapter": {
+        "number": 109,
+        "title": "候芳魂五儿承错爱 还孽债迎女返真元",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "怡红院",
+        "specific": "后四十回（gaoe）写五儿并未死去，进了怡红院。宝玉病后恍惚，把五儿误认作晴雯转世，对她「承错爱」——续书让五儿顶替晴雯的位置，完成宝玉的一场情幻。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）复活了曹雪芹笔下已死的五儿（77回明言「短命死了」），并把她写成晴雯的替身。这个著名矛盾提醒读者：续书与原著之间隔着一整条人物命运的断崖。",
+        "meaning": [
+          "复活——77回「短命死了」与109回的正面矛盾",
+          "承错爱——宝玉把对晴雯的情移给五儿，是续书对「情」的机械补写",
+          "影的滥用——曹雪芹的「影写法」被续书做成了直白的替身术"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "复活公案",
+          "content": "柳五儿之死（77回）与复活（109回gaoe）是《红楼梦》最著名的前后矛盾之一，也是「后四十回非曹雪芹原稿」的重要内证。学者指出：曹雪芹笔下的五儿死于园外，是「大观园门槛」主题的完成；续书复活她做晴雯替身，是主题的坍缩。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_wuer",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_liu_wuer_fangguan",
+      "from": "character_liu_wuer",
+      "to": "character_fangguan",
+      "type": "好友（赠露之谊）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "芳官是五儿唯一的「园内朋友」：替她讨玫瑰露、替她说情进怡红院。两个都是最底层的女儿，一个在园内朝不保夕，一个在园外望门兴叹——她们的友谊是全书写得最素的一对。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赠露",
+          "chapter": 60,
+          "description": "芳官讨玫瑰露送五儿。"
+        },
+        {
+          "stage": 2,
+          "title": "说情",
+          "chapter": 60,
+          "description": "芳官应承替五儿谋进怡红院。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liu_wuer_liujia",
+      "from": "character_liu_wuer",
+      "to": "character_liu_jia",
+      "type": "母女（厨役之家）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "柳嫂子是五儿的母亲，掌管大观园厨房。她疼女儿，也因女儿惹上玫瑰露风波差点丢差。五儿的「想进园」一半是女儿的心愿，一半是母亲的经营——底层母亲为女儿谋的前程，就是进园当差。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "玫瑰露风波",
+          "chapter": 61,
+          "description": "五儿被冤，柳嫂子差事受牵连。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liu_wuer_pinger",
+      "from": "character_liu_wuer",
+      "to": "character_pinger",
+      "type": "恩人（判冤决狱）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "平儿在第六十一回还了五儿清白——「判冤决狱」是平儿的明断，也是五儿全书唯一的公道。这段关系是全书「善」的链条：最底层的女儿，得到了最清醒的丫鬟的公正。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "洗冤",
+          "chapter": 61,
+          "description": "平儿判冤决狱，洗清五儿。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liu_wuer_baoyu",
+      "from": "character_liu_wuer",
+      "to": "character_jia_baoyu",
+      "type": "想入其房未成（gaoe：被错爱）",
+      "nature": [
+        "master_servant",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "五儿一心进怡红院侍候宝玉而未成；后四十回（gaoe）她进园后反被宝玉错认为晴雯转世。宝玉与五儿之间始终隔着一层「影」：她进不去的房，与她被错认的人，都是别人的位置。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "想进未成",
+          "chapter": 60,
+          "description": "五儿托芳官说情进怡红院。"
+        },
+        {
+          "stage": 2,
+          "title": "被错爱",
+          "chapter": 109,
+          "description": "宝玉误认五儿为晴雯转世。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_liu_wuer_death",
+      "title": "柳五儿到底死没死？77回与109回（gaoe）的矛盾说明什么？",
+      "slug": "did-liu-wuer-die-or-not",
+      "question_type": "version_dispute",
+      "importance_weight": 74,
+      "heat_weight": 72,
+      "neutral_overview": "第七十七回王夫人说五儿「短命死了」，后四十回（gaoe）第一百零九回她却活着进了怡红院。这个矛盾该怎么理解？",
+      "viewpoint_ids": [
+        "vp_liu_wuer_dead",
+        "vp_liu_wuer_alive",
+        "vp_liu_wuer_evidence"
+      ],
+      "fact_type": "disputed_version",
+      "note": "前八十回与后四十回（gaoe）的人物命运矛盾",
+      "viewpoints": [
+        {
+          "id": "vp_liu_wuer_dead",
+          "title": "死论：前八十回为真，五儿死于园外",
+          "summary": "曹雪芹前八十回明写五儿「短命死了」（77回王夫人语），这是定论。五儿死在门槛外，完成「大观园之梦不可及」的主题——她的死是全书女儿悲剧的浓缩版。",
+          "evidence": [
+            "第七十七回王夫人原话「幸而那丫头短命死了」",
+            "前八十回此后五儿再无出场"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_liu_wuer_alive",
+          "title": "活论：续书复活五儿有其情节需要",
+          "summary": "后四十回（gaoe）需要一个人顶替晴雯的位置承接宝玉的「情」，五儿是最顺手的材料（与晴雯有相似处）。续书的复活是情节需求压倒文本事实——这在续书中并非孤例。",
+          "evidence": [
+            "第一百零九回「候芳魂五儿承错爱」",
+            "续书多处调整前八十回人物命运"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_liu_wuer_evidence",
+          "title": "证据论：这个矛盾是「续书非原著」的内证",
+          "summary": "五儿之死与复活是红学论证后四十回非曹雪芹原稿的著名内证之一：曹雪芹不可能忘记自己写死的人物。这个矛盾比任何外部考证都更有力地划出了原著与续书的界线。",
+          "evidence": [
+            "77回与109回的正面冲突",
+            "学界以此作为续书作者问题的内证之一"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch61_liu_wuer_innocence",
+      "quote": "（平儿道）「……这件事，也是你做得不明。……如今也不追究了，你只管回家去，你母亲那里我替你说。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第六十一回。平儿还五儿清白——全书底层女儿最暖的一次公道。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_liu_wuer_shadow",
+      "title": "柳五儿——「钗黛之影」与「晴雯之影」的双重影像",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 2007,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，柳五儿是《红楼梦》「影写」体系的一环：她体弱似黛玉、齐整近宝钗（钗黛之影），又与晴雯同为「想入怡红院而身世飘零」的女儿（晴雯之影）。续书（gaoe）把她写成晴雯的直白替身，恰是把曹雪芹的「影」写成了「替」——这也是学界判断后四十回笔力差距的常用例证。五儿的文学功能在于「门槛」：她死于园外（77回），是全书「大观园不可及」主题的最后注脚。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 1,
+    "total_viewpoints": 1,
+    "total_sources": 5,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 15,
+      "text_inference": 2,
+      "scholarly_viewpoint": 2,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

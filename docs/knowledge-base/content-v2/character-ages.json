@@ -1,0 +1,1480 @@
+{
+  "_meta": {
+    "title": "红楼梦人物年龄考",
+    "description": "全书 79 位在库人物的年龄梳理。所有年龄均以原文为锚点推算；原文未见明文的一律标注「未见明文」，推算项标注 text_inference 并写明推算依据，不凭空补数。",
+    "key_anchor": "第25回一僧一道对通灵玉说「青埂峰一别，展眼已过十三载矣」——宝玉此时13岁，是全书最可靠的年龄锚点。",
+    "standards": {
+      "canonical_text_fact": "原文有明文年龄",
+      "text_inference": "据原文明文推算（写明推算链）",
+      "scholarly_viewpoint": "红学家考证结论",
+      "disputed_version": "版本异文或前后矛盾"
+    },
+    "created": "2026-08-15"
+  },
+  "ages": [
+    {
+      "character_id": "character_jia_baoyu",
+      "name": "贾宝玉",
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴：如今长了七八岁",
+          "age": "七八岁"
+        },
+        {
+          "chapter": 3,
+          "evidence": "黛玉：这位哥哥比我大一岁",
+          "age": "比黛玉大一岁"
+        },
+        {
+          "chapter": 25,
+          "evidence": "僧对通灵玉：青埂峰一别，展眼已过十三载矣",
+          "age": "13岁"
+        },
+        {
+          "chapter": 56,
+          "evidence": "甄宝玉今年十三岁（甄宝玉比贾宝玉小一岁）",
+          "age": "14岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "七八岁（第2回）",
+        "story_end": "约18岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第25回「十三载」为全书最可靠锚点：宝玉13岁入大观园前后，前八十回末约18岁。",
+      "controversies": [
+        {
+          "title": "第2回「次年」生宝玉与第18回元春「情状有如母子」矛盾",
+          "detail": "甲戌己卯庚辰诸本作「不想次年又生一位公子」，元春与宝玉仅差一岁，与第18回「其名分虽系姊弟，其情状有如母子」不合。冯其庸认为这是冷子兴胡吹卖弄、商人套近乎之语，非作者失误；程乙本改为「隔了十几年」。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_lin_daiyu",
+      "name": "林黛玉",
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "生得一女，乳名黛玉，年方五岁（贾雨村任教时）",
+          "age": "5岁"
+        },
+        {
+          "chapter": 2,
+          "evidence": "黛玉之母贾敏病逝（守丧后进京）",
+          "age": "约6岁"
+        },
+        {
+          "chapter": 3,
+          "evidence": "黛玉：这位哥哥（宝玉）比我大一岁",
+          "age": "比宝玉小一岁"
+        },
+        {
+          "chapter": 45,
+          "evidence": "黛玉对宝钗：我长了今年十五岁（庚辰夹批「黛玉才十五岁，记清」）",
+          "age": "15岁（自称）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约6-7岁（第3回进府）",
+        "story_end": "约16-17岁（前八十回末）",
+        "death_age": "未见明文（后40回gaoe写焚稿而死）"
+      },
+      "conclusion": "按第2回体系进府约六七岁；第45回自称十五岁与第25回宝玉十三岁的叙时系统冲突，是全书最著名的年龄矛盾。",
+      "controversies": [
+        {
+          "title": "第45回「我长了今年十五岁」矛盾",
+          "detail": "依第25回「十三载」锚点，此时黛玉应约12-13岁。庚辰夹批「黛玉才十五岁，记清」；周汝昌《红楼纪历》称「此为信笔泛叙」；张俊沈治钧批「此处所报年龄似误，诸本皆然」。",
+          "fact_type": "disputed_version"
+        },
+        {
+          "title": "己卯本杨藏本进府年龄「十三岁」",
+          "detail": "庚辰本体系黛玉六岁进府；己卯本杨藏本在凤姐问年纪时黛玉答「十三岁」。刘上生认为明义所见《红楼梦初稿》以十三岁为黛玉叙事起点，合成《石头记》时改小，抄手又将初稿年龄移植回来，打乱全年龄系统。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_xue_baochai",
+      "name": "薛宝钗",
+      "text_anchors": [
+        {
+          "chapter": 4,
+          "evidence": "脂本：薛蟠今年方十有五岁；宝钗比薛蟠小两岁",
+          "age": "13岁进京"
+        },
+        {
+          "chapter": 22,
+          "evidence": "凤姐：薛大妹妹今年十五岁，也算得将笄之年（贾母张罗生日）",
+          "age": "15岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "13岁（第4回进京）",
+        "story_end": "约20-21岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第4回13岁进京、第22回过十五岁生日为两个原文锚点；大宝玉约两三岁。",
+      "controversies": [
+        {
+          "title": "程高本隐去薛蟠年龄",
+          "detail": "第4回「薛蟠十五岁、宝钗小两岁」与第22回六年后宝钗十五岁不合，程高本第4回隐去薛蟠年龄以弥合，但未能解决第22回「才过第一个生辰」的矛盾。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_wang_xifeng",
+      "name": "王熙凤",
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴：贾琏娶王熙凤已二年",
+          "age": "出嫁约2年（约十七八岁嫁）"
+        },
+        {
+          "chapter": 6,
+          "evidence": "刘姥姥见凤姐「不过二十岁上下」（周瑞家的介绍语境）",
+          "age": "约20岁"
+        },
+        {
+          "chapter": 43,
+          "evidence": "九月初二凤姐生日",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约19-20岁（第6回）",
+        "story_end": "约27-28岁（前八十回末）",
+        "death_age": "未见明文（红学推算约31岁，据通灵纪年）"
+      },
+      "conclusion": "第6回刘姥姥眼中「不过二十岁上下」为明证；脂批通灵纪年推算前八十回末约27岁。",
+      "controversies": [
+        {
+          "title": "第49回被算入「皆不过十五六七岁」",
+          "detail": "第49回「叙起年庚，除李纨年纪最长……皆不过十五六七岁」把凤姐算入少女之列，明显失误；程高本改为「李纨年纪最长，凤姐次之」。",
+          "fact_type": "disputed_version"
+        },
+        {
+          "title": "第54回「与贾珍从小儿一处淘气」",
+          "detail": "凤姐比贾珍小十五岁上下，二人「从小儿一处淘气了这么大」年龄不合。曹金钟考论认为这是凤姐夸张之语，为塑造其爽利形象。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_jia_lian",
+      "name": "贾琏",
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴：贾琏约二十岁，娶王熙凤已二年",
+          "age": "约20岁"
+        },
+        {
+          "chapter": 62,
+          "evidence": "三月初九贾琏生日",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约20岁",
+        "story_end": "约28岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第2回冷子兴「约二十岁」为明证，大凤姐两三岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_jia_mu",
+      "name": "贾母",
+      "text_anchors": [
+        {
+          "chapter": 39,
+          "evidence": "刘姥姥：我今年七十五了；贾母：比我大好几岁",
+          "age": "约70岁上下"
+        },
+        {
+          "chapter": 71,
+          "evidence": "因今岁八月初三日乃贾母八旬之庆",
+          "age": "80大寿"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约70岁",
+        "story_end": "约80岁（前八十回末）",
+        "death_age": "83岁（后40回gaoe：享年八十三岁）"
+      },
+      "conclusion": "第39回约七十、第71回八旬之庆两个锚点之间只隔两年叙事时间，是著名矛盾；后40回写83岁寿终（gaoe）。",
+      "controversies": [
+        {
+          "title": "刘姥姥75岁与贾母八十大寿的时间矛盾",
+          "detail": "第39回刘姥姥自称75岁、贾母说「比我大好几岁」→贾母约70；第71回却铺写八十大寿，按叙事时间只过两年，诸本皆然未改。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_liu_laolao",
+      "name": "刘姥姥",
+      "text_anchors": [
+        {
+          "chapter": 39,
+          "evidence": "刘姥姥对贾母：我今年七十五了",
+          "age": "75岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "75岁（第39回）",
+        "story_end": "约75-80岁",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第39回自报75岁是唯一明文锚点。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_wang_furen",
+      "name": "王夫人",
+      "text_anchors": [
+        {
+          "chapter": 33,
+          "evidence": "哭贾珠：我如今已五十岁的人（打宝玉时）",
+          "age": "约50岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约47-50岁",
+        "story_end": "约53岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第33回「我如今已五十岁」为明文锚点。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_jia_zheng",
+      "name": "贾政",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文年龄。据王夫人约50岁（第33回）推算，贾政约五十四五岁（text_inference：夫妻年龄相近，仅据王夫人年龄推定）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_she",
+      "name": "贾赦",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文。据贾母之长子、贾琏之父（第2回贾琏约20岁）推算，约五十五岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_xing_furen",
+      "name": "邢夫人",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文。贾赦继室，约五十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_xue_pan",
+      "name": "薛蟠",
+      "text_anchors": [
+        {
+          "chapter": 4,
+          "evidence": "薛公子学名薛蟠，表字文龙，今年方十有五岁",
+          "age": "15岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "15岁（第4回）",
+        "story_end": "约23岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第4回明文15岁。",
+      "controversies": [
+        {
+          "title": "程高本隐去薛蟠年龄",
+          "detail": "为弥合与宝钗十五岁生日的矛盾，程高本第4回隐去薛蟠年龄。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_xue_yima",
+      "name": "薛姨妈",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文。王夫人之妹、薛蟠之母，约四十四五岁（text_inference：据王夫人50岁与薛蟠15岁推算）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_xiangling",
+      "name": "香菱（甄英莲）",
+      "text_anchors": [
+        {
+          "chapter": 1,
+          "evidence": "只有一女，乳名英莲，年方三岁（元宵被拐）",
+          "age": "3岁被拐"
+        },
+        {
+          "chapter": 4,
+          "evidence": "被拐后十二三岁被卖（门子叙述语境）",
+          "age": "约12-13岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "3岁（第1回）",
+        "story_end": "约19-20岁（前八十回末）",
+        "death_age": "未见明文（后40回gaoe写难产而死）"
+      },
+      "conclusion": "第1回三岁被拐、第4回约十二三岁被卖为两个锚点；比宝钗略小。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_jia_rong",
+      "name": "贾蓉",
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴：这位珍爷已倒生了一个儿子，今年才十六岁，名叫贾蓉",
+          "age": "16岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "16岁（第2回）",
+        "story_end": "约25岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第2回明文16岁；娶秦可卿时约15岁（据第2回与第13回时间推算）。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_qin_keqing",
+      "name": "秦可卿",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "红学推算约20岁（据通灵纪年：15年冬亡，年20岁）"
+      },
+      "conclusion": "原文未见明文年龄；红学通灵纪年推算死时约20岁（红学观点）。",
+      "controversies": [],
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "character_id": "character_jia_zhen",
+      "name": "贾珍",
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴言其子贾蓉已十六岁",
+          "age": "据贾蓉16岁推算"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约34岁（text_inference：据贾蓉16岁推算）",
+        "story_end": "约42岁",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；据贾蓉十六岁（第2回）推算约三十四五岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_lan",
+      "name": "贾兰",
+      "text_anchors": [
+        {
+          "chapter": 4,
+          "evidence": "贾珠之妻李纨……幸存一子，取名贾兰，今方五岁",
+          "age": "5岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "5岁（第4回）",
+        "story_end": "约13岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第4回明文五岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_li_wan",
+      "name": "李纨",
+      "text_anchors": [
+        {
+          "chapter": 4,
+          "evidence": "青春丧偶；其子贾兰今方五岁",
+          "age": "约20岁上下"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约20岁（第4回，据贾兰5岁与贾珠不足20病亡推算）",
+        "story_end": "约28-29岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未明写；据第4回贾兰五岁、贾珠「不到二十岁」病亡推算，李纨出场约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_yingchun",
+      "name": "贾迎春",
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉眼中：第一个肌肤微丰，合中身材……温柔沉默",
+          "age": "未见明文（三春同出场）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约12岁（text_inference：第3回较探春惜春为长）",
+        "story_end": "约20-21岁（第79回出嫁，前八十回末）",
+        "death_age": "未见明文（后40回gaoe写被虐而死，嫁后一年即死）"
+      },
+      "conclusion": "原文未见明文；比探春惜春为长，79回出嫁（text_inference推算约二十岁上下）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_tanchun",
+      "name": "贾探春",
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉眼中：第二个削肩细腰……文彩精华，见之忘俗",
+          "age": "未见明文"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约7-8岁（第3回，与黛玉相近）",
+        "story_end": "约15-16岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；第3回与黛玉同列姊妹，约七八岁；前八十回末约十五六岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_xichun",
+      "name": "贾惜春",
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉眼中：第三个身量未足，形容尚小",
+          "age": "尚小（约6岁上下）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约6岁（第3回「形容尚小」）",
+        "story_end": "约14岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第3回「身量未足，形容尚小」为明文（四春最小）；前八十回末约十四五岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_shi_xiangyun",
+      "name": "史湘云",
+      "text_anchors": [
+        {
+          "chapter": 20,
+          "evidence": "称黛玉「林姐姐」",
+          "age": "比黛玉小"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "约15岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；第20回称黛玉为「林姐姐」→比黛玉小（文本推断）。",
+      "controversies": [
+        {
+          "title": "湘云称黛玉「林姐姐」又称「林妹妹」",
+          "detail": "第20回称「林姐姐」、第22回却称「林妹妹」。曹金钟考论：后者是借用宝玉口吻脱口而出，非真实辈分矛盾，舒序本改「林妹妹」恐为妄改。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_qiaojie",
+      "name": "贾巧姐",
+      "text_anchors": [
+        {
+          "chapter": 21,
+          "evidence": "大姐儿出痘疹（供奉痘疹娘娘）",
+          "age": "未见明文（约四五岁）"
+        },
+        {
+          "chapter": 42,
+          "evidence": "刘姥姥取名「巧哥儿」（尚未有名）",
+          "age": "约6-7岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约4-5岁（第21回出痘）",
+        "story_end": "约13-14岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未明写年龄；第42回尚无名需刘姥姥取名，约六七岁（文本推断）。七月初七生。",
+      "controversies": [
+        {
+          "title": "刘上生叙时考",
+          "detail": "刘上生指出：按「一进」「二进」相隔四五年的文本叙时，大姐儿四五年后仍「奶子抱着」不见长大、六七岁尚未取名不合情理，证明一进二进实际只隔一年，是作者刻意拉长叙时以配合宝玉十三岁线。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_miao_yu",
+      "name": "妙玉",
+      "text_anchors": [
+        {
+          "chapter": 18,
+          "evidence": "林之孝家的：带发修行……今年才十八岁，法名妙玉",
+          "age": "18岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "18岁（第18回）",
+        "story_end": "约25岁（前八十回末）",
+        "death_age": "未见明文（后40回gaoe写被劫不知下落）"
+      },
+      "conclusion": "第18回明文十八岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_xiren",
+      "name": "袭人",
+      "text_anchors": [
+        {
+          "chapter": 62,
+          "evidence": "袭人与黛玉同生日（二月十二）",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "约19-20岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文年龄；比宝玉大数岁（第19回袭人姨表妹17岁、宝玉尚幼的旁证推算，text_inference）。",
+      "controversies": [
+        {
+          "title": "大丫鬟年龄之谜",
+          "detail": "人民网刊文指出：按年推算第3回袭人仅约9岁，与其「每每规谏宝玉，心中着实忧郁」的言行不符；作者似有意让小者增大、大者减小，统合于「十五六七岁」标准。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_qingwen",
+      "name": "晴雯",
+      "text_anchors": [
+        {
+          "chapter": 77,
+          "evidence": "被逐后病死（宝玉探望，自述无家）",
+          "age": "未见明文"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "红学通行推算约16岁"
+      },
+      "conclusion": "原文未见明文年龄；红学通行推算死时约十六七岁（scholarly_viewpoint，据第77回宝玉探望时「如花年纪」等语境）。",
+      "controversies": [],
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "character_id": "character_pinger",
+      "name": "平儿",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；凤姐陪嫁丫鬟，比凤姐略小，约十七八岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_yuanyang",
+      "name": "鸳鸯",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；贾母首席丫鬟，与袭人平儿金钏年龄接近，约十八九岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jinchuan",
+      "name": "金钏",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（红学推算约20岁）"
+      },
+      "conclusion": "原文未见明文；与袭人平儿鸳鸯同为荣府一等丫鬟「从小儿一块」，死时约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_zijuan",
+      "name": "紫鹃",
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉进府时，贾母将自己身边二等丫头鹦哥给了黛玉（后改名紫鹃）",
+          "age": "未见明文"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；黛玉进府时已是贾母二等丫头，比黛玉大数岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_xueyan",
+      "name": "雪雁",
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉从苏州带来的小丫头，甚小（「一团孩气」）",
+          "age": "甚小（约10岁上下）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约10岁上下（第3回「一团孩气」）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第3回明文「一团孩气」——是黛玉进府时唯一带年龄信息的人物（刘上生指出）。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_sheyue",
+      "name": "麝月",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；与袭人秋纹等大丫鬟年龄相近（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_qiuwen",
+      "name": "秋纹",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；与麝月年龄相近（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_huan",
+      "name": "贾环",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；探春同母弟，比探春小（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_rui",
+      "name": "贾瑞",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；贾代儒长孙，约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_yun",
+      "name": "贾芸",
+      "text_anchors": [
+        {
+          "chapter": 24,
+          "evidence": "宝玉问：你今年十几岁了？贾芸道：十八岁",
+          "age": "18岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "18岁（第24回）",
+        "story_end": "约25岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第24回明文十八岁（宝玉也因此戏言「倒像我的儿子」，贾琏说宝玉才十二三岁让其叫叔叔不害臊——又一旁证）。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_xiaohong",
+      "name": "小红（林红玉）",
+      "text_anchors": [
+        {
+          "chapter": 27,
+          "evidence": "凤姐问：你十几了？小红道：十七岁了",
+          "age": "17岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "17岁（第27回）",
+        "story_end": "约20岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第27回明文十七岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_jia_qiang",
+      "name": "贾蔷",
+      "text_anchors": [
+        {
+          "chapter": 9,
+          "evidence": "宁府正派玄孙……如今长了十六岁",
+          "age": "16岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "16岁（第9回）",
+        "story_end": "约23岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第9回明文十六岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_qin_zhong",
+      "name": "秦钟",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（约十四五岁）"
+      },
+      "conclusion": "原文未见明文；与宝玉同学论兄弟，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_qin_ye",
+      "name": "秦业",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（约70岁上下）"
+      },
+      "conclusion": "原文未见明文；老来得子（秦钟），约七十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_zhi_neng_er",
+      "name": "智能儿",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；水月庵小尼姑，与秦钟年龄相近约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_you_erjie",
+      "name": "尤二姐",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（约20岁上下）"
+      },
+      "conclusion": "原文未见明文；贾琏偷娶时约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_you_sanjie",
+      "name": "尤三姐",
+      "text_anchors": [
+        {
+          "chapter": 65,
+          "evidence": "三姐：五年前我们老娘家里做生日，妈和我们到那里与老娘拜寿……我看上的（柳湘莲）",
+          "age": "五年前见湘莲"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文（约十八九岁）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；比二姐小，痴等柳湘莲五年，死时约十八九岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_liu_xianglian",
+      "name": "柳湘莲",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；世家子弟好串戏，约二十余岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_xia_jingui",
+      "name": "夏金桂",
+      "text_anchors": [
+        {
+          "chapter": 79,
+          "evidence": "香菱对宝玉介绍夏家小姐（未明写年龄）",
+          "age": "未见明文"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约17岁出嫁（text_inference：薛家说亲语境与红学推算）",
+        "story_end": "未见明文",
+        "death_age": "未见明文（后40回gaoe写毒人反自毒死）"
+      },
+      "conclusion": "原文未见明文年龄；红学通行推算出嫁时约17岁（红学观点）。",
+      "controversies": [],
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "character_id": "character_xue_baoqin",
+      "name": "薛宝琴",
+      "text_anchors": [
+        {
+          "chapter": 62,
+          "evidence": "与宝玉同日生日（生辰相近，第62回探春所言）",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文（红学推算约15岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文年龄；第62回与宝玉同日生日（text_inference约十四五岁）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_xing_xiuyan",
+      "name": "邢岫烟",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约18岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；红学推算约十八岁（红学观点）。",
+      "controversies": [],
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "character_id": "character_xue_ke",
+      "name": "薛蝌",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；带妹进京聘嫁，约十八九岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_yucun",
+      "name": "贾雨村",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（中进士后约30岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；第1回穷儒赴考、第4回补授应天府，约三十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_zhen_shiyin",
+      "name": "甄士隐",
+      "text_anchors": [
+        {
+          "chapter": 1,
+          "evidence": "年已半百，膝下无儿",
+          "age": "约50岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约50岁（第1回「年已半百」）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第1回明文「年已半百」。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_lin_ruhai",
+      "name": "林如海",
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "今如海年已四十",
+          "age": "40岁"
+        },
+        {
+          "chapter": 3,
+          "evidence": "如海说：汝父年将半百",
+          "age": "年将半百"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约40-46岁",
+        "story_end": "死时未见明文（第14回捐馆）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第2回明文「年已四十」、第3回「年将半百」。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_zhen_baoyu",
+      "name": "甄宝玉",
+      "text_anchors": [
+        {
+          "chapter": 56,
+          "evidence": "江南甄家宝玉今年十三岁（甄宝玉比贾宝玉小一岁）",
+          "age": "13岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "13岁（第56回）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第56回明文十三岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_leng_zixing",
+      "name": "冷子兴",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；都中古董商，成年（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jinghuan_xianzi",
+      "name": "警幻仙子",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "仙界无年龄",
+        "story_end": "仙界无年龄",
+        "death_age": "不适用"
+      },
+      "conclusion": "太虚幻境之主，仙界人物无年龄。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_ming_yan",
+      "name": "茗烟",
+      "text_anchors": [
+        {
+          "chapter": 9,
+          "evidence": "宝玉第一个得用的书童，年轻不谙世事",
+          "age": "年轻（约12-14岁）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约12-14岁（第9回「年轻不谙世事」）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第9回明文「年轻不谙世事」，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_wang_ziteng",
+      "name": "王子腾",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；王夫人薛姨妈之兄，中年（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_zhao_yiniang",
+      "name": "赵姨娘",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；探春贾环之母，约三十余岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_ma_daopo",
+      "name": "马道婆",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；宝玉寄名干娘，老年（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jiao_da",
+      "name": "焦大",
+      "text_anchors": [
+        {
+          "chapter": 7,
+          "evidence": "从小儿跟着太爷们出过三四回兵（宁国公时期）",
+          "age": "老年"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "老年（第7回：从宁公出兵）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第7回明文「跟着太爷们出过三四回兵」——宁府三代数十年老仆，约六七十岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_siqi",
+      "name": "司棋",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；迎春首席丫鬟，约十八九岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_pan_youan",
+      "name": "潘又安",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；司棋表弟，与司棋年龄相近（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_sha_dajie",
+      "name": "傻大姐",
+      "text_anchors": [
+        {
+          "chapter": 73,
+          "evidence": "贾母房中粗使丫头，年方十四五岁（痴痴傻傻）",
+          "age": "约14-15岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约14-15岁（第73回）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第73回明文约十四五岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "character_id": "character_wang_shanbao",
+      "name": "王善保家的",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；邢夫人陪房，老年（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_chunyan",
+      "name": "春燕",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；怡红院小丫鬟，约十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_liu_wuer",
+      "name": "柳五儿",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；厨役柳家之女，约十三四岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_caixia",
+      "name": "彩霞",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；王夫人丫鬟，与金钏玉钏年龄相近（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_fangguan",
+      "name": "芳官",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约12-14岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；十二官皆少年，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_ouguan",
+      "name": "藕官",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约12-14岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；十二官之一，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_ruiguan",
+      "name": "蕊官",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约12-14岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；十二官之一，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_lingguan",
+      "name": "龄官",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约13-15岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；十二官小旦，约十三四岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_dengguniang",
+      "name": "灯姑娘（多姑娘）",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；多浑虫之妻，约二十余岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_baodan",
+      "name": "宝蟾",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；夏金桂陪嫁丫鬟，约十六七岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_li_momo",
+      "name": "李嬷嬷",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；宝玉奶娘（乳母），约四十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_ying_er",
+      "name": "莺儿",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；宝钗丫鬟，约十四五岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_you_shi",
+      "name": "尤氏",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；贾珍继室，约三十五六岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jiang_yuhan",
+      "name": "蒋玉菡",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；忠顺王府小旦，与宝玉年龄相近或略大（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_beijing_wang",
+      "name": "北静王",
+      "text_anchors": [
+        {
+          "chapter": 14,
+          "evidence": "贾珍：北静王水溶……现今此王少年，才貌俱全（路祭时）",
+          "age": "少年"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "少年（第14回，约20岁上下）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第14回明文「少年」，约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_jing",
+      "name": "贾敬",
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文（第63回吞金服砂而死）",
+        "death_age": "未见明文（约60岁上下）"
+      },
+      "conclusion": "原文未见明文；乙卯科进士、贾珍之父，约六十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    },
+    {
+      "character_id": "character_jia_yuanchun",
+      "name": "贾元春",
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "大小姐是正月初一日所生，故名元春",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（后40回gaoe写薨逝）"
+      },
+      "conclusion": "原文未见明文年龄；正月初一生。判词「二十年来辨是非」或指入宫二十年（text_inference，有争议）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  ],
+  "controversies": [
+    {
+      "title": "黛玉第45回「我长了今年十五岁」vs 第25回宝玉十三载系统",
+      "detail": "依第25回「青埂峰一别，展眼已过十三载矣」，宝玉13岁、黛玉应约12岁；第45回黛玉却自称十五岁。庚辰夹批「黛玉才十五岁，记清」；周汝昌《红楼纪历》：「按本年宝玉十三岁，凡小于宝玉者不能超过十三岁……此为信笔泛叙」；张俊沈治钧批「此处所报年龄似误，诸本皆然」。",
+      "fact_type": "disputed_version"
+    },
+    {
+      "title": "刘姥姥75岁 vs 贾母两年后八十大寿",
+      "detail": "第39回刘姥姥自报75岁、贾母说「比我大好几岁」→贾母约70岁；第71回却铺写「贾母八旬之庆」，按叙事时间只过两年，诸本皆然。",
+      "fact_type": "disputed_version"
+    },
+    {
+      "title": "第49回「皆不过十五六七岁」把凤姐算入",
+      "detail": "庚辰本等第49回：「除李纨年纪最长，他十二个人皆不过十五六七岁」——凤姐已二十六七岁被算入，程高本改为「李纨年纪最长，凤姐次之，余者皆不过十五六七岁」。",
+      "fact_type": "disputed_version"
+    },
+    {
+      "title": "黛玉进府年龄的版本异文",
+      "detail": "庚辰本体系黛玉六岁进府；己卯本杨藏本黛玉答凤姐「十三岁」。刘上生：明义所见《红楼梦初稿》以十三岁为黛玉叙事起点，曹雪芹合成《石头记》时改小，抄手将初稿年龄移植回来，打乱整个年龄系统。",
+      "fact_type": "disputed_version"
+    },
+    {
+      "title": "三套年龄体系说（石问之）",
+      "detail": "石问之《林黛玉进贾府年龄问题再探》：书中至少三套年龄体系——①第2回体系（宝玉7-8岁、黛玉6-7岁）②第22-25回体系（宝钗15岁、宝玉13岁）③第4回体系（宝钗13岁、宝玉11岁、黛玉10岁）。他认为黛玉六岁进府「根本无法与第三回的描写和人物形象相匹配」，但无论改用哪套，都无法弥合宝黛初见「童性年龄与少年青春气息二重性」的矛盾。",
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "title": "第2回「次年」生宝玉 vs 第18回「情状有如母子」",
+      "detail": "甲戌己卯庚辰诸本第2回作「不想次年又生一位公子」——元春与宝玉只差一岁；第18回却说元春对宝玉「名分虽系姊弟，其情状有如母子」。冯其庸：冷子兴是胡吹乱说、套近乎的商人，前后两段话说话人不同，不能视为矛盾；程乙本改为「隔了十几年」，胡适认为是「晚出之铁证」。",
+      "fact_type": "disputed_version"
+    },
+    {
+      "title": "湘云称黛玉「林姐姐」又称「林妹妹」",
+      "detail": "第20回称「林姐姐」、第22回称「林妹妹」。曹金钟《红楼梦人物年龄「矛盾」考论》：后者是湘云借用宝玉口吻脱口而出（宝玉常「林妹妹」不离口），符合其心直口快性格，舒序本改「林妹妹」恐为妄改。第38回贾母对湘云说「别让你宝哥哥林姐姐多吃了」可证黛玉比湘云大。",
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "title": "凤姐与贾珍「从小儿一处淘气」（第54回）",
+      "detail": "凤姐比贾珍小十五岁上下，二人不可能「从小儿一处淘气了这么大」。曹金钟：这是凤姐夸张之语，意在表现「男人万不及一」的爽利大方。",
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "title": "大丫鬟年龄之谜（人民网刊文）",
+      "detail": "按年推算，第3回袭人仅约9岁，与其「每每规谏宝玉，心中着实忧郁」的言行不符；凤姐第6回「不过二十岁上下」，四五年后第49回反而只剩「十五六七岁」。作者似有意识让小者增大、大者减小，统合于「十五六七岁」标准——这是与「两玉」六七八岁青梅竹马设定配套的青春化处理。",
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "title": "板儿「一进」「二进」不长大（刘上生）",
+      "detail": "第6回板儿「才五六岁的孩子」，四五年后「二进」（39-42回）仍怯人贪玩、仍被一巴掌打哭，大姐儿四五年后仍「奶子抱着」、六七岁尚未取名——证明「一进」「二进」实际只隔一年，作者刻意拉长叙时以配合宝玉十三岁线。",
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "title": "刘上生「大时间观」理论",
+      "detail": "曹雪芹明言「何必拘拘于朝代年纪哉」（第一回），「无朝代年纪可考」是其主动的叙时策略：大而言之王朝世代、小而言之人物年龄都刻意模糊，以凸显「事体情理」。人物年龄错迕既是「增删五次」的修改痕迹，也是化消极为积极的「新奇别致」笔墨。",
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "title": "周汝昌《红楼纪历》",
+      "detail": "周汝昌编《红楼纪历》以贾宝玉年龄为纲：前八十回共约十五年（宝玉降生至18岁），通灵历20年。刘姥姥一进在「红楼八年或九年」（宝玉八九岁），二进在「红楼十三年」（宝玉十三岁）。",
+      "fact_type": "scholarly_viewpoint"
+    }
+  ]
+}

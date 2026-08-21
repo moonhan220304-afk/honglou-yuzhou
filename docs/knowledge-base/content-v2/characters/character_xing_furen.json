@@ -1,0 +1,769 @@
+{
+  "character": {
+    "id": "character_xing_furen",
+    "name": "邢夫人",
+    "slug": "xing-furen",
+    "aliases": [
+      "尴尬人",
+      "大太太"
+    ],
+    "category": "荣国府大房夫人（贾赦继室）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾赦继室夫人，邢家之女（娘家寒微，弟邢德全、侄女邢岫烟），无亲生儿女。",
+      "position": "荣国府大房夫人（贾赦之妻），名义上的长媳。",
+      "origin": "寒薄小户邢家之女。",
+      "generation": "与王夫人同辈"
+    },
+    "tags": [
+      "贾赦继室",
+      "尴尬人",
+      "愚犟吝啬",
+      "讨鸳鸯",
+      "嫌隙人",
+      "绣春囊",
+      "无儿女",
+      "邢岫烟"
+    ],
+    "summary": {
+      "short": "贾赦的继室夫人，无儿无女，愚犟而吝啬。第四十六回替丈夫讨鸳鸯，第七十一回当众给凤姐难堪，第七十三回以绣春囊发难——她是荣国府「尴尬人」的标本：自身尴尬而不自知，专做让自己更尴尬的事。",
+      "long": "邢夫人是荣国府权力场上的「边缘人」：出身寒薄，做了贾赦的继室，却无儿无女——在大房没有根基，在二房没有位置。曹雪芹对她的定评是「尴尬人」：第四十六回回目「尴尬人难免尴尬事」——她替贾赦去讨鸳鸯，碰了一鼻子灰，贾母怒骂贾赦，她只能干站着挨训。她的「愚犟」是全书少见的完整刻画：愚在看不穿形势（以为讨鸳鸯是讨好丈夫的机会），犟在听不进劝说（凤姐的苦劝她一句听不进去），吝在雁过拔毛（邢岫烟住进大观园，每月二两月银她还要抽走一两——「邢岫烟典衣」即由此而来）。她与王夫人的妯娌矛盾是大房与二房的权力暗线：第七十一回「嫌隙人有心生嫌隙」，她为两个被捆的婆子当众向凤姐求情，让当家奶奶下不来台；第七十三回她从傻大姐处得绣春囊，封好送与王夫人——名为提醒，实为发难，直接引爆抄检大观园。她对凤姐的不满由来已久：凤姐是王夫人的人，管着她的下人，抢了她的体面。后四十回（gaoe）写她听信王仁撺掇，做主把巧姐许给外藩——险些把亲孙女卖掉。红学家论邢夫人，多指向一个「庸」字：她不是恶人，是庸人——庸人的自私、庸人的糊涂、庸人的势利，构成的伤害往往不比恶人小。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "愚——永远看不懂形势",
+        "fact_type": "canonical_text_fact",
+        "description": "邢夫人的愚是全方位的：讨鸳鸯时看不懂贾母的底线，拿绣春囊时算不清发难的成本，管下人的手腕比王夫人差几个段位。她的每一次「经营」都在削弱自己——「尴尬人」的尴尬，一半是她自找的。"
+      },
+      {
+        "dimension": "犟——听不进任何劝告",
+        "fact_type": "canonical_text_fact",
+        "description": "凤姐苦劝她别去讨鸳鸯，她「夺过手来」不听；王夫人好言相待，她只觉得对方虚伪。犟是愚的加固层——一个不听劝的人，永远留在自己的错误里。"
+      },
+      {
+        "dimension": "吝——雁过拔毛的薄凉",
+        "fact_type": "canonical_text_fact",
+        "description": "邢岫烟每月二两月银，她要「盘剥」一两给邢德全；对下人严苛，对侄女刻薄。她的吝不是穷，是贪——一个没有儿女没有根基的继室，本能地攥紧每一分钱。"
+      },
+      {
+        "dimension": "卑——继室无子的生存焦虑",
+        "fact_type": "canonical_text_fact",
+        "description": "邢夫人的一切行为背后是「无儿无女」的恐惧：她讨好贾赦是为保住夫人的位置，盘剥钱财是为老来有靠。她的卑使她逢迎，她的逢迎使她更卑——这是一个在荣国府找不到自己位置的女人。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xing_furen_jieshi_ch3",
+        "title": "黛玉拜见大舅舅（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xing_furen_taoyuanyang_ch46",
+        "title": "替贾赦讨鸳鸯（第四十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xing_furen_dangyi_ch57",
+        "title": "邢岫烟当衣（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xing_furen_xianxi_ch71",
+        "title": "嫌隙人有心生嫌隙（第七十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xing_furen_xiuchunnang_ch73",
+        "title": "绣春囊发难（第七十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_xing_furen_qiaojie_ch118",
+        "title": "听信王仁，做主巧姐亲事（第一一八回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch46_xing_furen_persuade",
+        "quote": "邢夫人道：「……你老爷跟前竟没有个可靠的人，你一个女孩子家，你知道什么？……你女婿现在园子里住着，若是你跟他去，现成主子不做去，错过这个机会，后悔就迟了！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十六回。邢夫人以「现成主子」诱鸳鸯为贾赦之妾——在她眼中，做主子的妾是天大的恩典，这正是她全部价值观的暴露。"
+      },
+      {
+        "source_id": "source_ch46_xing_furen_jiamu",
+        "quote": "贾母见无人，方说道：「……你替我作媒说合，背地里你们又弄什么？我通共剩了这么一个可靠的人，你们还要来算计！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十六回贾母怒斥。邢夫人的讨鸳鸯把贾母最贴身的人也算计进去——贾母的怒，是对她「愚而贪」的当场判决。"
+      },
+      {
+        "source_id": "source_ch57_xing_furen_dangyi",
+        "quote": "（邢岫烟）见宝钗……原来姑母（邢夫人）每月命他拿出一两银子与邢德全用……岫烟只得把棉衣当了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回「邢岫烟典衣」。邢夫人盘剥侄女的月银，逼得岫烟雪天当衣——她的吝，冷过冬天的雪。"
+      },
+      {
+        "source_id": "source_ch71_xing_furen_xianxi",
+        "quote": "邢夫人直至晚间散时，当着众人陪笑和凤姐求情……凤姐只觉灰心悲伤，眼泪直流。……「嫌隙人有心生嫌隙」。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十一回。邢夫人为两个婆子当众给凤姐难堪——「嫌隙人」三字是曹雪芹对她的第二次定评。"
+      },
+      {
+        "source_id": "source_ch73_xing_furen_xiuchunnang",
+        "quote": "邢夫人（从傻大姐处）得了一个五彩绣香囊……（道）「且放在袖内……只向王夫人处来」……王夫人见了，气色更变。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十三回。绣春囊从邢夫人之手流入王夫人之手——抄检大观园的导火索，由「嫌隙人」点燃。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "书中未写其名，以夫姓「邢」加「夫人」称之",
+      "detail": "与王夫人、尤氏一样属「无名字的夫人」群像。红学谐音研究多认为「邢」暗谐「刑」，与贾赦之「赦」相对——「刑赦」相映，暗示大房之昏聩与未来之获罪流放；第四十六回回目称其「尴尬人」，第七十一回回目称其「嫌隙人」——两个回目定评，就是她的全部名字。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文。贾赦继室，约五十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "尴尬人",
+      "type": "回目称号",
+      "context": "第四十六回回目「尴尬人难免尴尬事」——「尴尬」是曹雪芹对她的定评",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "大太太",
+      "type": "府内称谓",
+      "context": "荣国府上下对她的称谓——「大」是名分，权力却全在二房",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xing_furen_jieshi_ch3",
+      "title": "黛玉拜见大舅舅",
+      "event_level": "minor",
+      "chapter": {
+        "number": 3,
+        "title": "贾雨村夤缘复旧职 林黛玉抛父进京都",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府大房",
+        "specific": "黛玉进府后拜见贾赦，邢夫人接待，亲热留饭：「舅母爱惜赐饭，原不应辞。」黛玉婉辞后，邢夫人亲自送至仪门，嘱咐再三方回。"
+      },
+      "summary": {
+        "short": "第三回黛玉拜见，邢夫人是全书第一个出场的夫人级人物。她留饭送别，周到殷勤——开场时的邢夫人，还是一个「正常」的舅母。",
+        "meaning": [
+          "邢夫人的出场以「殷勤」开笔——她的愚与贪是后文逐步展开的",
+          "接待黛玉的是她而非贾赦——大房的社交功能全落在继室身上",
+          "黛玉的婉辞（还要拜见二舅舅）——大房与二房的分量，一个细节即见"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "正常开场，渐次失格",
+          "content": "曹雪芹写邢夫人不是一笔定型的：第三回的殷勤、第四十六回的愚犟、第七十一回的刻薄——她的形象是逐步「掉下去」的。这种写法让她的恶显得有来处：一个无儿无女的继室，在权力的夹缝里慢慢扭曲。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_furen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xing_furen_taoyuanyang_ch46",
+      "title": "替贾赦讨鸳鸯——尴尬人难免尴尬事",
+      "event_level": "major",
+      "chapter": {
+        "number": 46,
+        "title": "尴尬人难免尴尬事 鸳鸯女誓绝鸳鸯偶",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/贾母房中",
+        "specific": "贾赦欲纳鸳鸯为妾，邢夫人自告奋勇去说合。凤姐劝她别去，她「夺过手来」不听。她先劝鸳鸯「现成主子不做去」，又请鸳鸯嫂子劝、许诺鸳鸯父母。鸳鸯剪发立誓不嫁。贾母闻知大怒，把邢夫人骂了一顿。"
+      },
+      "summary": {
+        "short": "贾赦要讨贾母的首席丫鬟，做妻子的邢夫人亲自出马。她把这桩羞辱事当成交差的买卖：劝鸳鸯、请嫂子、许好处——直到贾母的怒火烧到自己脸上。这是全书「尴尬人」最尴尬的一场戏。",
+        "meaning": [
+          "替丈夫纳妾——邢夫人把「贤惠」做成了一桩讨好丈夫的生意",
+          "她完全看不见风险：动贾母的人，就是动贾母的权威",
+          "「现成主子不做去」——她真心以为丫鬟会感激这个「恩典」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "愚的完整解剖",
+          "content": "讨鸳鸯事件是邢夫人人格的完整解剖：她看不到鸳鸯的人格尊严（以为人人想当妾）、看不到贾母的底线（贴身之人不可动）、看不到凤姐的忠告（利令智昏听不进）。她的愚不是无知，是利益蒙眼——想讨好丈夫的贪，让她变成了全府的「尴尬」。"
+        },
+        {
+          "type": "literary",
+          "title": "尴尬人与鸳鸯偶",
+          "content": "第四十六回回目将「尴尬人」与「鸳鸯女」对举：要讨鸳鸯的人自己成了笑话，被讨的丫鬟却立下「横竖不嫁人」的誓言。曹雪芹让愚者去碰烈者——邢夫人的尴尬，反衬出鸳鸯的刚烈。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_furen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_yuanyang",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xing_furen_dangyi_ch57",
+      "title": "邢岫烟当衣——盘剥侄女",
+      "event_level": "minor",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "邢岫烟住进大观园后，邢夫人每月从她二两月银中抽出一两给邢德全。天寒时岫烟无钱，把棉衣当了。宝钗发现当票，替她赎回，劝慰再三。"
+      },
+      "summary": {
+        "short": "侄女邢岫烟投亲而来，邢夫人却每月盘剥一两银——逼得岫烟雪天当衣。她的吝对自家人毫不手软，是全书「人情凉薄」的小注脚。",
+        "meaning": [
+          "岫烟当衣与薛姨妈接济形成对照——薛家的慈衬出邢家的薄",
+          "盘剥侄女接济弟弟——她的「顾家」只对娘家的儿子",
+          "当衣细节是「千红一哭」中最安静的一声——穷小姐的冬天"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "吝的寒意",
+          "content": "邢夫人对侄女的盘剥，比她的愚更让人心冷：岫烟是她在贾府唯一的娘家人，她却连一两银子都要拿走。她的吝是生存焦虑的病态化——一个没有根基的女人，把每一分钱都当成了救命稻草。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_furen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xing_xiuyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xing_furen_xianxi_ch71",
+      "title": "嫌隙人有心生嫌隙",
+      "event_level": "major",
+      "chapter": {
+        "number": 71,
+        "title": "嫌隙人有心生嫌隙 鸳鸯女无意遇鸳鸯",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾母寿辰，尤氏的婆子得罪尤氏，凤姐命人捆了她们。其中一个婆子的亲家求邢夫人说情。邢夫人当众陪笑向凤姐求情，语带讥讽：「不看我的脸，权且看老太太。」凤姐羞愤交加，回房痛哭。"
+      },
+      "summary": {
+        "short": "第七十一回，邢夫人为两个被捆的婆子当众发难，让当家奶奶凤姐下不来台。她的「嫌隙」不只在两个婆子——她恨的是凤姐的权、二房的势、自己的边缘。",
+        "meaning": [
+          "当众求情是当众打脸——邢夫人用「求」的方式完成了一次权力挑衅",
+          "凤姐的痛哭——全书最强势的女人也有软肋，就是她的顶头上司婆婆",
+          "「嫌隙人」的定评——她的存在本身，就是荣国府的裂缝"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "边缘人的报复",
+          "content": "邢夫人对凤姐的敌意，本质是边缘人对中心的一次报复：凤姐是王夫人的人，掌着本该属于大房儿媳的权力。邢夫人抓不住别的，只能抓住婆子事件当众发难——她的报复方式如此低级，恰恰证明她在权力场上的无能与憋屈。"
+        },
+        {
+          "type": "literary",
+          "title": "贾母寿辰上的裂缝",
+          "content": "曹雪芹把这场「嫌隙」安排在贾母八十大寿的喜庆里：盛宴之上，婆媳当众角力。热闹的寿辰藏着家族内斗的阴风——第七十一回是贾府「盛世危机」的转折点之一，嫌隙从此浮出水面。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_furen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xing_furen_xiuchunnang_ch73",
+      "title": "绣春囊发难——点燃抄检大观园",
+      "event_level": "major",
+      "chapter": {
+        "number": 73,
+        "title": "痴丫头误拾绣春囊 懦小姐不问累金凤",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园→荣国府",
+        "specific": "邢夫人从傻大姐手中得绣春囊，封好送与王夫人。王夫人惊怒交加，认定是凤姐之物，凤姐辩白。邢夫人此举实为问责：二房管家不严，大观园出了淫秽之物——间接点燃抄检大观园之火。"
+      },
+      "summary": {
+        "short": "一个绣春囊，被邢夫人变成了问责二房的炮弹。她把它封好送王夫人——表面上顾全脸面，骨子里等着看笑话。抄检大观园的大火，由这位「嫌隙人」亲手点火。",
+        "meaning": [
+          "绣春囊移交是邢夫人对王夫人的一次权力狙击",
+          "她本人并不想解决问题，只想问责——「嫌隙」的逻辑贯穿始终",
+          "抄检大观园由此而起——晴雯、司棋等女儿的命运被这颗「炮弹」炸毁"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "抄检大观园的真正点火人",
+          "content": "学界论抄检大观园，多把邢夫人视为真正的点火人：王夫人的蠢、凤姐的避、王善保家的恶，都是在她的「问责」压力下被激活的。一个边缘人用一件绣春囊撬动了整个大观园的崩塌——小人之恶，从来不因力小而力小。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_furen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_sha_dajie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xing_furen_qiaojie_ch118",
+      "title": "听信王仁——做主巧姐亲事",
+      "event_level": "major",
+      "chapter": {
+        "number": 118,
+        "title": "记微嫌舅兄欺弱女 惊谜语妻妾谏痴人",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "后四十回（gaoe）写王仁（凤姐之兄）撺掇邢夫人，把巧姐许给外藩郡王（实为买卖）。邢夫人愚而听信，一力做主。幸得刘姥姥、平儿设计，巧姐随刘姥姥避祸乡下，逃过一劫。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）里，邢夫人的「愚」酿成最大的险情：她听信王仁，差点把亲孙女巧姐卖给外藩。她的糊涂，让「尴尬人」的愚走到了害人的终点。",
+        "meaning": [
+          "王仁是奸，邢夫人是愚——奸与愚的合谋比纯奸更危险",
+          "巧姐得救靠的是刘姥姥和平儿——邢夫人的世界里没有一个可信之人",
+          "这个情节完成了邢夫人「庸人之恶」的最终注脚"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "庸人之恶的终点",
+          "content": "邢夫人从讨鸳鸯的尴尬，走到卖孙女的险境——她的愚始终如一，伤害却步步升级。续书（gaoe）用巧姐案证明：庸人的糊涂与恶人的阴谋同样致命，因为糊涂之人永远不知道自己在做什么。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_furen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_ren",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xing_furen_yuanyang",
+      "from": "character_xing_furen",
+      "to": "character_yuanyang",
+      "type": "讨娶者与被拒者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "邢夫人与鸳鸯的交集全在第四十六回：她替贾赦讨鸳鸯，被鸳鸯以剪发明誓拒绝。鸳鸯的刚烈反衬她的愚——同一个场面里，丫鬟比夫人更像「人」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "诱劝被拒",
+          "chapter": 46,
+          "description": "邢夫人劝鸳鸯「现成主子不做去」，鸳鸯誓死不从。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xing_furen_wang_xifeng",
+      "from": "character_xing_furen",
+      "to": "character_wang_xifeng",
+      "type": "婆媳（嫌隙与压制）",
+      "nature": [
+        "family",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "邢夫人与凤姐的矛盾是荣国府最深的婆媳裂痕：凤姐是王夫人的内侄女，管着家，得着宠——邢夫人作为婆婆处处落于下风。她当众给凤姐难堪（第七十一回）、问责二房（第七十三回），都是这场婆媳战争的爆发。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "劝而不听",
+          "chapter": 46,
+          "description": "凤姐苦劝邢夫人别去讨鸳鸯，被「夺过手来」不听。"
+        },
+        {
+          "stage": 2,
+          "title": "当众发难",
+          "chapter": 71,
+          "description": "邢夫人当众求情，凤姐痛哭。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xing_furen_xing_xiuyan",
+      "from": "character_xing_furen",
+      "to": "character_xing_xiuyan",
+      "type": "姑侄（克扣与依附）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "邢岫烟是邢夫人娘家侄女，随父母投亲而来。邢夫人对岫烟薄待——每月盘剥一两月银，逼得岫烟当衣。岫烟却「人穷志不穷」，从不诉苦。姑侄二人，一薄一厚，是邢家贫寒的两种面孔。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "投亲",
+          "chapter": 49,
+          "description": "邢岫烟随父母进京投靠邢夫人。"
+        },
+        {
+          "stage": 1,
+          "title": "投靠",
+          "chapter": 49,
+          "description": "岫烟随家投靠邢夫人。"
+        },
+        {
+          "stage": 2,
+          "title": "盘剥",
+          "chapter": 57,
+          "description": "邢夫人每月抽走岫烟一两月银，岫烟当衣。"
+        },
+        {
+          "stage": 2,
+          "title": "克扣",
+          "chapter": 57,
+          "description": "邢夫人克扣岫烟月钱。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xing_furen_jia_mu",
+      "from": "character_xing_furen",
+      "to": "character_jia_mu",
+      "type": "婆媳（不被待见的长媳）",
+      "nature": [
+        "family",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母对邢夫人这个长媳素无好感：讨鸳鸯事件后，贾母当面斥她「你倒也三从四德，只是这贤惠也太过了」。邢夫人对贾母只有怕与怨——大房的失宠，从婆媳关系开始。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "挨训",
+          "chapter": 46,
+          "description": "贾母因讨鸳鸯事训斥邢夫人。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xing_furen_wang_furen",
+      "from": "character_xing_furen",
+      "to": "character_wang_furen",
+      "type": "妯娌（大房与二房之争）",
+      "nature": [
+        "family",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "邢夫人与王夫人的妯娌关系，是大房与二房权力格局的缩影：王夫人掌家得势，邢夫人边缘失位。邢夫人的「嫌隙」大半冲着王夫人——绣春囊移交是她的问责，抄检大观园是二房的应战。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "发难",
+          "chapter": 73,
+          "description": "邢夫人以绣春囊问责王夫人。"
+        },
+        {
+          "stage": 2,
+          "title": "抄检",
+          "chapter": 74,
+          "description": "王夫人发动抄检大观园——二房的反击。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_xing_furen_tao",
+      "title": "邢夫人为什么替贾赦讨鸳鸯？",
+      "slug": "why-did-xing-furen-help-jia-she-court-yuanyang",
+      "question_type": "character_motivation",
+      "importance_weight": 74,
+      "heat_weight": 70,
+      "neutral_overview": "替丈夫纳妾，且是贾母的首席丫鬟——邢夫人为何主动接下这桩必输的差事？",
+      "viewpoint_ids": [
+        "vp_xing_furen_zibao",
+        "vp_xing_furen_yushun",
+        "vp_xing_furen_quan"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xing_furen_zibao",
+          "title": "自保论：讨好丈夫，巩固继室地位",
+          "summary": "邢夫人无儿无女，地位全系于贾赦。替丈夫讨妾是「贤惠」的表忠：她要向贾赦证明自己有用，以守住夫人的位置。她的愚，其实是极度不安全感的病态表达。",
+          "evidence": [
+            "邢夫人无亲生儿女的身份处境",
+            "她劝说鸳鸯时「你老爷跟前竟没有个可靠的人」的自陈"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xing_furen_yushun",
+          "title": "愚顺论：「三从四德」驯化出的工具化人格",
+          "summary": "邢夫人是旧式妇德的极致执行者：丈夫要妾，妻子便该去讨——贾母讽她「贤惠也太过了」正指此。她的顺不是美德，是人格的工具化：她已经不会站在自己的立场想问题了。",
+          "evidence": [
+            "贾母「你倒也三从四德，只是这贤惠也太过了」",
+            "凤姐劝她时她的执意不听"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xing_furen_quan",
+          "title": "求权论：鸳鸯是贾母的钱库钥匙",
+          "summary": "贾赦讨鸳鸯，图的不仅是人，更是贾母的私房钱——鸳鸯管着贾母的家底。邢夫人配合讨鸳鸯，是想为大房（也为自己的晚年）撬动这笔财富。她的愚里有贪，贪里有算。",
+          "evidence": [
+            "贾赦「自古嫦娥爱少年」却独独要娶鸳鸯的反常",
+            "鸳鸯掌管贾母体己的事实"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xing_furen_yu",
+      "title": "邢夫人的「愚犟」是性格还是处境？",
+      "slug": "is-xing-furens-stubbornness-nature-or-nurture",
+      "question_type": "character_analysis",
+      "importance_weight": 70,
+      "heat_weight": 62,
+      "neutral_overview": "曹雪芹写邢夫人「愚犟」，但她的愚真的只是天性吗？",
+      "viewpoint_ids": [
+        "vp_xing_furen_nature",
+        "vp_xing_furen_situation"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xing_furen_nature",
+          "title": "天性论：天生庸人",
+          "summary": "邢夫人的愚犟是天赋：出身寒薄，教养有限，脑子跟不上荣国府的复杂棋局。同样的处境若给王夫人，结局会完全不同——人的差异首先在天资。",
+          "evidence": [
+            "邢家「家世寒薄」的设定",
+            "她多次「听不进劝」的执拗"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xing_furen_situation",
+          "title": "处境论：继室无子的生存挤压使她扭曲",
+          "summary": "邢夫人的愚是处境逼出来的：无儿无女、丈夫昏聩、婆婆偏心、妯娌掌权——她没有任何安全网。一个没有退路的人，才会抓住讨鸳鸯这种「机会」当救命稻草。她的犟是自我保护，她的吝是积蓄安全感。",
+          "evidence": [
+            "继室无子的身份困境",
+            "盘剥月银、讨好贾赦的行为逻辑"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xing_furen_xiuchunnang",
+      "title": "绣春囊事件——邢夫人是在发难还是尽本分？",
+      "slug": "was-xing-furens-xiuchunnang-an-attack-or-a-duty",
+      "question_type": "plot_analysis",
+      "importance_weight": 72,
+      "heat_weight": 68,
+      "neutral_overview": "邢夫人把绣春囊送王夫人，表面是顾全大局，实际引爆抄检大观园。她的动机是什么？",
+      "viewpoint_ids": [
+        "vp_xing_furen_attack",
+        "vp_xing_furen_duty"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xing_furen_attack",
+          "title": "发难论：对二房的一次权力狙击",
+          "summary": "邢夫人完全可以私下毁掉绣春囊，却选择封送王夫人——这是精心计算的问责：大观园在你们二房手里出了淫物，你们怎么交代？她要的就是王夫人的难堪与抄检的混乱，借以报「嫌隙」之仇。",
+          "evidence": [
+            "第七十一回「嫌隙人」的铺垫",
+            "绣春囊移交的郑重形式（封好、亲送）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xing_furen_duty",
+          "title": "本分论：按礼法程序办事，只是没想到后果",
+          "summary": "作为捡到秽物的大房夫人，按礼法她只能上交二房当家人处理——她并无更多心机。抄检大观园的扩大化是王夫人自己的选择，责任不在邢夫人。她的可悲在于：本分的动作落在她手里，也变成了灾祸的引信。",
+          "evidence": [
+            "她交绣春囊时并无添油加醋的言语",
+            "抄检的发动者是王夫人"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xing_furen_ganga",
+      "title": "「尴尬人」——边缘夫人的典型形象",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1987,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，邢夫人是《红楼梦》夫人群像中独特的「尴尬人」：她介于主子与边缘之间——有夫人的名分，无夫人的根基；有继室的体面，无儿女的底气。曹雪芹以「尴尬人难免尴尬事」「嫌隙人有心生嫌隙」两个回目为她作传，写尽一个权力边缘人的愚、犟、吝、卑。她的形象价值在于：证明在封建大家族里，害人的不一定是聪明人——庸人凭着愚昧和私心，同样能把事办坏。"
+    },
+    {
+      "id": "viewpoint_xing_furen_xiuchunnang",
+      "title": "绣春囊与抄检大观园——妯娌战争的引爆点",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1991,
+      "source_title": "多项叙事结构研究",
+      "description": "学界将第七十三、七十四回视为荣国府由盛转衰的转折点，而邢夫人是这一转折的「点火人」：绣春囊从她之手移交王夫人，大房对二房的问责转化为对丫鬟层的清洗。学者强调，抄检大观园的政治性远远大于其「查秽」的表象——它是荣国府内部权力斗争的总爆发，而邢夫人作为大房的代表，完成了斗争的最后一击。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 6,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 31,
+      "text_inference": 9,
+      "scholarly_viewpoint": 2,
+      "disputed_version": 3,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

@@ -1,0 +1,1048 @@
+{
+  "character": {
+    "id": "character_jia_yingchun",
+    "name": "贾迎春",
+    "slug": "jia-yingchun",
+    "aliases": [
+      "二木头",
+      "二姑娘",
+      "二姐姐",
+      "菱洲",
+      "懦小姐"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "荣国府贾赦之女（庶出），生母早亡；贾琏之妹；贾迎春与贾探春、贾惜春并称「三春」。",
+      "position": "贾府二小姐；大观园缀锦楼（紫菱洲）居所。",
+      "origin": "金陵人氏，荣国府出身。",
+      "generation": "贾府第四代（与贾宝玉同辈）"
+    },
+    "tags": [
+      "二木头",
+      "中山狼",
+      "懦弱",
+      "累金凤",
+      "司棋",
+      "孙绍祖",
+      "婚姻交易",
+      "庶出",
+      "善棋",
+      "被虐而死"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一。贾赦庶女，性情懦弱，「戳一针也不知嗳哟一声」。判词「子系中山狼」预示其被夫虐死的命运——因五千两银子被父亲抵嫁孙绍祖，一载而亡，是封建婚姻交易制度最触目惊心的牺牲品。",
+      "long": "贾迎春为荣国府贾赦之庶女，诨名「二木头」——兴儿说她「戳一针也不知嗳哟一声」。第三回出场时「温柔沉默，观之可亲」，是三春中唯一被描写为「亲」的人物。她善棋（司棋即其丫鬟之名），居大观园缀锦楼（紫菱洲）。她的懦弱在第七十三回达到顶点：「懦小姐不问累金凤」——奶母偷她的累丝金凤去当钱，她看《太上感应篇》不理论，丫鬟绣桔急得跳脚，还是探春出面召来平儿讨回。第七十四回抄检大观园，司棋被逐，迎春只求自保，「不敢多言」。第七十九回，其父贾赦因欠孙绍祖五千两银子，将她「折准」嫁与孙绍祖。第八十回她回门哭诉孙绍祖「好赌酗酒，家中所有的媳妇丫头将及淫遍」，不到一载被折磨而死。判词「子系中山狼，得志便猖狂。金闺花柳质，一载赴黄粱」与《喜冤家》曲「作践的，公府千金似下流」，是十二钗判词中最直接的暴力预言。后四十回（gaoe）第一〇九回「还孽债迎女返真元」写其被虐而死，贾母痛悔。迎春的悲剧是「制度吞人」的极致案例——她不是死于自己的过错，而是死于一个把女儿当债务抵押品的制度。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "懦弱——「戳一针也不知嗳哟一声」",
+        "fact_type": "canonical_text_fact",
+        "description": "迎春的「懦」不是性格缺陷而是生存状态的描写：作为庶出之女、失去生母、父亲贾赦荒唐暴虐、继母邢夫人冷漠，她在贾府没有任何靠山。她的「不争」是一种被环境塑造出的自我保存——争也没用，不如不争。"
+      },
+      {
+        "dimension": "温柔沉默——被忽略的「观之可亲」",
+        "fact_type": "canonical_text_fact",
+        "description": "曹雪芹给迎春的出场词是「温柔沉默，观之可亲」。她是三春中最没有攻击性的人：从不争宠、从不伤人、甘愿做诗社的「陪衬」。这种「亲」的背后是她对命运的全盘接受——她的温柔是无力反抗的别名。"
+      },
+      {
+        "dimension": "逆来顺受的哲学——《太上感应篇》",
+        "fact_type": "canonical_text_fact",
+        "description": "第七十三回奶母偷金凤，迎春手捧《太上感应篇》安然闲坐，说「正是，多少男人尚如此，何况我哉」「他们的不是，自作自受，我也不能讨情，我也不去苛责就是了」。她以宿命论与因果报应思想为自己构建精神避难所——这既是懦弱，也是一种弱者的生存哲学。"
+      },
+      {
+        "dimension": "无声的悲剧——连死亡都「不敢多言」",
+        "fact_type": "text_inference",
+        "description": "迎春的悲剧全程无声：出嫁时不反抗，回门哭诉后仍然回去，最后被活活虐死。她是十二钗中唯一「连死都没有声音」的人——判词「一载赴黄粱」连死亡都被写成一场安静的梦。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_yingchun_judgment_ch5",
+        "title": "判词与《喜冤家》曲（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_yingchun_intro_ch3",
+        "title": "初见黛玉——「温柔沉默，观之可亲」（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_yingchun_riddle_ch22",
+        "title": "灯谜——算盘（第二十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_yingchun_leijinfeng_ch73",
+        "title": "懦小姐不问累金凤（第七十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_yingchun_siqi_ch74",
+        "title": "司棋被逐——迎春不敢多言（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_yingchun_marriage_ch79",
+        "title": "嫁孙绍祖（第七十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_yingchun_abused_ch80",
+        "title": "回门哭诉（第八十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_yingchun_death_ch109",
+        "title": "被虐而死（第一〇九回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_yingchun_judgment",
+        "quote": "子系中山狼，得志便猖狂。金闺花柳质，一载赴黄粱。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回迎春判词。「子系」合起来是「孙」字——曹雪芹把仇人的姓氏拆进判词；「中山狼」用东郭先生典，写孙绍祖忘恩负义。"
+      },
+      {
+        "source_id": "source_ch05_yingchun_song",
+        "quote": "[喜冤家]中山狼，无情兽，全不念当日根由。一味的骄奢淫荡贪还构。觑着那，侯门艳质同蒲柳；作践的，公府千金似下流。叹芳魂艳魄，一载荡悠悠。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回《喜冤家》曲。「侯门艳质同蒲柳」「公府千金似下流」——千金小姐被作践为下流，是十二钗曲中最暴烈的控诉。"
+      },
+      {
+        "source_id": "source_ch03_yingchun_appearance",
+        "quote": "第一个肌肤微丰，合中身材，腮凝新荔，鼻腻鹅脂，温柔沉默，观之可亲。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三回迎春外貌描写。与探春「顾盼神飞」、惜春「身量未足」并列——「温柔沉默」四字是迎春性格的定调。"
+      },
+      {
+        "source_id": "source_ch73_yingchun_leijinfeng",
+        "quote": "迎春听了，笑道：「我说不用了。任凭他取去就完了。」……迎春道：「正是，多少男人尚如此，何况我哉。」……又正色道：「姑娘们的事，我不敢管的。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十三回累金凤事件。迎春对奶母的偷窃「不问」——懦弱与宿命论的集中展示。"
+      },
+      {
+        "source_id": "source_ch80_yingchun_complaint",
+        "quote": "迎春方哭哭啼啼的在王夫人房中诉委曲，说孙绍祖「一味好色，好赌酗酒，家中所有的媳妇丫头将及淫遍。略劝过两三次，便骂我是『醋汁子老婆拧出来的』。又说老爷曾收着他五千银子，不该使了他的。如今他来要了两三次不得，他便指着我的脸说道：『你别和我充夫人娘子，你老子使了我五千银子，把你准折卖给我的。』」",
+        "fact_type": "canonical_text_fact",
+        "note": "第八十回迎春回门哭诉。五千两银子——迎春婚姻的本质是债务抵押，这是全书对封建婚姻制度最赤裸的揭露。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "四春第二，从「春」字排辈；谐「应」",
+      "detail": "迎春为贾府四春（元迎探惜）之二，谐音「应」——「原应叹息」之一环。诨名「二木头」（兴儿：「戳一针也不知嗳哟一声」）。判词「子系中山狼」——「子系」合为「孙」字（拆字），指其夫孙绍祖",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉眼中：第一个肌肤微丰，合中身材……温柔沉默",
+          "age": "未见明文（三春同出场）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约12岁（text_inference：第3回较探春惜春为长）",
+        "story_end": "约20-21岁（第79回出嫁，前八十回末）",
+        "death_age": "未见明文（后40回gaoe写被虐而死，嫁后一年即死）"
+      },
+      "conclusion": "原文未见明文；比探春惜春为长，79回出嫁（text_inference推算约二十岁上下）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "二木头",
+      "type": "诨名",
+      "context": "兴儿对尤二姐介绍：「二姑娘的浑名是二木头，戳一针也不知嗳哟一声」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "二姑娘",
+      "type": "家族称呼",
+      "context": "贾府二小姐的通行称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "二姐姐",
+      "type": "姐妹称呼",
+      "context": "宝玉、探春、惜春等对迎春的称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "菱洲",
+      "type": "雅号",
+      "context": "海棠诗社雅号，因居紫菱洲而得名",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "懦小姐",
+      "type": "回目称号",
+      "context": "第七十三回回目「懦小姐不问累金凤」——「懦」是曹雪芹对迎春的定评",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_yingchun_intro_ch3",
+      "title": "初见黛玉——「温柔沉默，观之可亲」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 3,
+        "title": "贾雨村夤缘复旧职 林黛玉抛父进京都",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "黛玉初入贾府拜见三春。迎春是第一个被描写的——「肌肤微丰，合中身材，腮凝新荔，鼻腻鹅脂，温柔沉默，观之可亲」。"
+      },
+      "summary": {
+        "short": "黛玉初见迎春：外貌描写中透出「温柔沉默」的性情。三春的出场词构成鲜明的性格预告——迎春「观之可亲」（可欺）、探春「顾盼神飞」（刚烈）、惜春「身量未足」（幼弱）。",
+        "meaning": [
+          "「温柔沉默，观之可亲」——亲而可欺，出场即暗示其被欺凌的命运",
+          "三春外貌描写的等差——曹雪芹用最经济的笔墨完成三个人物的性格速写"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "出场词即命运词",
+          "content": "曹雪芹的出场描写从来不是纯外貌：「温柔沉默」是迎春被动的性格本质，「观之可亲」是她的「无害性」——而一个无害的人在恶狼环伺的环境里，恰恰是最先被吃掉的那个。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_xichun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yingchun_riddle_ch22",
+      "title": "灯谜——算盘「有功无运也难逢」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 22,
+        "title": "听曲文宝玉悟禅机 制灯谜贾政悲谶语",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾政看众钗灯谜。迎春的谜底是算盘——「天运人功理不穷，有功无运也难逢。因何镇日纷纷乱，只为阴阳数不同。」贾政暗觉不祥。"
+      },
+      "summary": {
+        "short": "迎春的灯谜（算盘）与元春的爆竹、探春的风筝、惜春的海灯并列为「不祥之兆」。「有功无运也难逢」——命运如算盘，拨来拨去由不得自己。",
+        "meaning": [
+          "算盘象征迎春的命运被「算」——被父亲算作五千两银子的债务",
+          "「有功无运」——她的逆来顺受（功）救不了她的命运（运）"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "算盘：被算计的一生",
+          "content": "迎春的灯谜是三春中最凄凉的：「镇日纷纷乱」的算盘珠子，正是迎春——被拨弄、被计算、被抵押。她一生的价值在父亲眼中就是「五千银子」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_xichun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yingchun_leijinfeng_ch73",
+      "title": "懦小姐不问累金凤",
+      "event_level": "major",
+      "chapter": {
+        "number": 73,
+        "title": "痴丫头误拾绣春囊 懦小姐不问累金凤",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "缀锦楼（紫菱洲）",
+        "specific": "迎春的奶母偷了她的累丝金凤去当钱赌博。丫鬟绣桔急着讨回，迎春却看《太上感应篇》不理论。探春赶来，召平儿前来处理，迎春反说「任凭你们处置，我总不知道」。"
+      },
+      "summary": {
+        "short": "迎春的累丝金凤被奶母偷去典当，她捧着《太上感应篇》安然自处：「他们的不是，自作自受，我也不能讨情，我也不去苛责就是了。」丫鬟绣桔与她论理，她竟说「姑娘们的事，我不敢管的」。探春仗义出头，召平儿来断。",
+        "meaning": [
+          "迎春的「不问」不是豁达而是彻底的放弃——连自己的利益都懒得维护",
+          "奶母敢偷小姐的头面，说明迎春的软弱已是全府皆知、人人都敢欺",
+          "与探春的对照：一个「不问」，一个「必管」——庶出女儿的两种生存姿态"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "《太上感应篇》——弱者的精神避难所",
+          "content": "迎春手不释卷的《太上感应篇》是道教劝善书，讲因果报应。她的逻辑是：你们作恶自有报应，我何必理论。这套「无为」哲学既是懦弱的借口，也是无依之人的自我保护——既然争也争不赢，不如用「不争」保住最后的体面。但曹雪芹用奶母的下场（被罚）证明：报应不会自己来，迎春的不作为只加速了自己的死亡。"
+        },
+        {
+          "type": "character",
+          "title": "探春的对照——同是庶出，两种活法",
+          "content": "探春与迎春同为庶出小姐，一个刚烈一个懦弱。探春为迎春出头时说「如今你两个病重之时……」，她深知懦弱的代价。迎春的悲剧恰恰是探春所恐惧的命运——如果探春不争，她也会被碾碎。迎春是探春的反面镜像：展示「不反抗」的结局。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yingchun_siqi_ch74",
+      "title": "司棋被逐——迎春「不敢多言」",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "缀锦楼（紫菱洲）",
+        "specific": "抄检大观园在司棋箱中搜出私情之物（与表弟潘又安的定情物）。周瑞家的押司棋出去，司棋哭求迎春「好歹打听打听」，迎春含泪道「我也没法儿」。"
+      },
+      "summary": {
+        "short": "抄检大观园搜出司棋与潘又安私通之物，司棋被逐。她向迎春哭求，迎春却含泪说：「我知道你干了什么大不是，我还十分说情留下，岂不连我也完了。」司棋最终被撵出大观园，后自尽。",
+        "meaning": [
+          "迎春的「自保」逻辑：连一个丫鬟都救不了，甚至不敢救",
+          "司棋的刚烈与迎春的懦弱构成主仆倒置的悲剧对照",
+          "「岂不连我也完了」——迎春的恐惧是全书对庶出弱势处境的写照"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "主仆对照——丫鬟比小姐更有血性",
+          "content": "司棋敢爱敢死，迎春连说情的勇气都没有。曹雪芹刻意安排这对主仆：司棋的名字（围棋的「棋」）暗示迎春的命运本可以「下」出不同局面，但迎春把每一步都让给了别人。司棋被逐后撞墙而死，迎春却「不敢多言」——两个女性的死法不同，尊严却恰恰相反。"
+        },
+        {
+          "type": "literary",
+          "title": "「连我也完了」——制度恐惧的内化",
+          "content": "迎春对司棋说的「岂不连我也完了」，揭示了她懦弱的根源：不是没有同情心，而是极度的不安全感。她深知自己在贾府的地位薄如纸——庶出、无母、父暴、继母冷漠。她的一生都在「自保」，最终却连自保都没能做到。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_pan_youan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_siqi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhou_rui",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yingchun_marriage_ch79",
+      "title": "嫁孙绍祖——「准折卖给我的」",
+      "event_level": "major",
+      "chapter": {
+        "number": 79,
+        "title": "薛文龙悔娶河东狮 贾迎春误嫁中山狼",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府→孙家",
+        "specific": "贾赦将迎春许配孙绍祖。贾母虽不称意，但「想来拦阻亦恐不听」，只得由他去。孙绍祖出身军家，曾依附贾府——如今得势便猖狂，迎春嫁后即被折磨。"
+      },
+      "summary": {
+        "short": "贾赦因曾使了孙绍祖五千两银子，将迎春「准折」嫁过去。贾母不称意却拦不住，贾政劝谏也不听。迎春出嫁，紫菱洲人去楼空，宝玉日日到紫菱洲徘徊感伤。孙绍祖「得志便猖狂」，一载间将迎春折磨至死。",
+        "meaning": [
+          "婚姻是债务抵押——五千两银子买断了迎春的一生",
+          "贾母、贾政都看出孙家不是良配，却无人能阻止——制度的惯性碾压个人意愿",
+          "回目「误嫁中山狼」——「误」的不是迎春的选择，而是她根本没有选择"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "中山狼的指涉——孙绍祖的原型",
+          "content": "「中山狼」典出马中锡《中山狼传》，写狼被救后反要吃人——喻忘恩负义。孙绍祖家本是贾府门生故旧，仰仗贾府势力发迹，娶了迎春后却翻脸折磨，正是「中山狼」的本义。「子系」二字合为「孙」，是曹雪芹在判词中埋下的姓名暗码。"
+        },
+        {
+          "type": "character",
+          "title": "紫菱洲的凭吊——宝玉的哀悼",
+          "content": "迎春出嫁后，宝玉「天天到紫菱洲一带地方徘徊瞻顾」，吟出「池塘一夜秋风冷，吹散芰荷红玉影」。宝玉是贾府中唯一真正为迎春之去而痛心的人——他的悼念不只为迎春，更为大观园「女儿国」的第一场离散。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_sun_shaozu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yingchun_abused_ch80",
+      "title": "回门哭诉——「所有的媳妇丫头将及淫遍」",
+      "event_level": "major",
+      "chapter": {
+        "number": 80,
+        "title": "美香菱屈受贪夫棒 王道士胡诌妒妇方",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "迎春回门，在王夫人房中哭诉孙绍祖的暴行：好赌酗酒、淫遍家中媳妇丫头、动辄打骂，并揭露婚姻真相——「你老子使了我五千银子，把你准折卖给我的」。"
+      },
+      "summary": {
+        "short": "迎春回门哭诉孙绍祖之恶，并说出最刺心的一句：「你老子使了我五千银子，把你准折卖给我的。」王夫人只能以「我的儿，这也是你的命」相慰，嘱咐她「认命」。迎春仍被送回孙家。",
+        "meaning": [
+          "「准折卖给我」——曹雪芹借孙绍祖之口说出封建婚姻的买卖本质",
+          "王夫人的「认命」劝导——连最可能的救援者都劝她认命，迎春的绝境是全体的不作为",
+          "迎春明知回去是死，还是回去了——制度内的女性没有「不回去」的选项"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "全体的不作为——迎春之死的共谋者",
+          "content": "迎春之死没有一个凶手，又全是凶手：贾赦贪五千两银子把她卖了；贾母虽不称意却「由他去」；贾政劝谏被拒后放弃；王夫人以「命」相慰劝她认命。曹雪芹展示的不是一个人作恶，而是整个制度与家族伦理的失效——迎春被所有人「轻轻地」放弃了。"
+        },
+        {
+          "type": "character",
+          "title": "「这也是你的命」——宿命论完成了最后一击",
+          "content": "王夫人的安慰恰恰是最残忍的：「我的儿，这也是你的命。」迎春的一生都在接受这个「命」——不问累金凤是认命，不救司棋是认命，回孙家更是认命。她的懦弱与制度的冷漠互为因果，最终把她送进坟墓。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_sun_shaozu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yingchun_death_ch109",
+      "title": "还孽债迎女返真元——被虐而死",
+      "event_level": "major",
+      "chapter": {
+        "number": 109,
+        "title": "候芳魂五儿承错爱 还孽债迎女返真元",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "孙家",
+        "specific": "迎春在孙家被虐待而死。消息传来，贾母悲痛欲绝：「是我害了你了！」"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写迎春被孙绍祖折磨而死。贾母痛悔当年没有拦住这门亲事。判词「一载赴黄粱」兑现——「还孽债」的回目把迎春之死写成前世孽债的偿还，弱化了制度批判。",
+        "meaning": [
+          "迎春之死是金陵十二钗中第一个明确的「制度谋杀」",
+          "回目「还孽债」的宿命论框架与判词「中山狼」的制度批判存在张力",
+          "贾母的悔恨迟到了——迎春之死成为贾府衰败的又一记丧钟"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「一载」与后四十回的时间矛盾",
+          "content": "判词明确「一载赴黄粱」——迎春嫁后一年即死。但后四十回（gaoe）的叙事时间线中，迎春之死距第七十九回出嫁已不止一年（中间隔着抄检余波、贾母寿辰、黛玉之死、探春远嫁等大量事件）。有学者指出这是续书对判词系统的疏漏之一，也说明判词的兑现本应是「嫁后一载即亡」的紧凑节奏。"
+        },
+        {
+          "type": "literary",
+          "title": "「孽债」的降格处理",
+          "content": "回目「还孽债迎女返真元」把迎春之死解释为前世孽债，与原著「子系中山狼」的现实批判形成落差。但即使在宿命论框架下，迎春之死的感染力依然巨大——她是十二钗中唯一被「明写」虐杀的人物，其死状之惨，使读者无法回避制度之恶。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_sun_shaozu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yingchun_judgment_ch5",
+      "title": "太虚幻境判词——《喜冤家》",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "宝玉在「薄命司」见迎春的册页：画着「一恶狼，追扑一美女，欲啖之意」。判词与《喜冤家》曲即源于此。"
+      },
+      "summary": {
+        "short": "迎春的册页画着「恶狼追扑美女」——十二钗画中最直白暴力的一幅。判词「子系中山狼，得志便猖狂。金闺花柳质，一载赴黄粱」把「孙」姓拆进文字，把「一载」的死亡时限写进预言。",
+        "meaning": [
+          "恶狼追美女——迎春命运的唯一内容就是「被吃」",
+          "十二钗中唯一把「凶手」明写进判词的人物",
+          "「金闺花柳质」与「一载赴黄粱」的对比——最娇贵的生命以最快的方式凋零"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "判词的时间性——「一载」的精确预言",
+          "content": "判词把死亡时间都写清了：「一载」。这说明曹雪芹对迎春的命运设计极为精确——从出嫁到死亡只有一年。迎春的悲剧不靠悬念（读者早在第五回就知道结局），而靠必然性——明知结局仍眼睁睁看着她走向结局。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_bo_ming",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_yingchun_xing_furen",
+      "from": "character_jia_yingchun",
+      "to": "character_xing_furen",
+      "type": "继母女",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "邢夫人是迎春的继母，对迎春冷漠疏离。迎春幼时母亲早亡，在继母手下长大，无人疼爱。邢夫人自己的处境也卑微（贾赦之妻，无子无势），她对迎春既无母爱也无能力庇护。迎春的懦弱与这段无人庇护的成长史直接相关。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "无庇护的成长",
+          "chapter": 3,
+          "description": "黛玉进府时邢夫人带迎春等见客——迎春的教养环境是「嫡母在场而母爱缺席」。",
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yingchun_jia_tanchun",
+      "from": "character_jia_yingchun",
+      "to": "character_jia_tanchun",
+      "type": "堂姐妹（保护与被保护）",
+      "nature": [
+        "kinship",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "探春与迎春同为庶出，性格却截然相反：迎春懦弱（「懦小姐」），探春刚强（「敏探春」）。探春多次为迎春出头（第七十三回讨累金凤）。二人构成「同一身份、两种命运」的对照——迎春逆来顺受被虐而死，探春奋起反抗却远嫁分离。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "累金凤事件——玫瑰护花柳",
+          "chapter": 73,
+          "description": "探春赶来质问：「如今你两个病重之时，她趁事理之际藏了你的累金凤……你若不理论，她越发得寸进尺了。」召平儿处理。"
+        },
+        {
+          "stage": 1,
+          "title": "探春为迎春出头",
+          "chapter": 73,
+          "description": "累金凤事件中迎春被丫鬟乳母搅得不得安宁却不置一辞，探春赶来后痛斥下人并为迎春做主。二人的反应差异极为鲜明。"
+        },
+        {
+          "stage": 2,
+          "title": "出嫁之别",
+          "chapter": 79,
+          "description": "迎春出嫁时探春与众姊妹送别——大观园的第一场离散。"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_yingchun_gold_ch73",
+          "description": "探春为迎春做主"
+        }
+      ],
+      "impact": "迎春与探春的对比是全书中最残酷的对照试验——同样的生存环境（贾府衰败），同样的庶出身份（二人皆为庶女），一个奋勇抗争而远嫁（探春），一个完全放弃而被虐待致死（迎春）。两人的命运差异证明：在末世的洪流中，性格决定结局。"
+    },
+    {
+      "id": "relationship_yingchun_si_qi",
+      "from": "character_jia_yingchun",
+      "to": "character_si_qi",
+      "type": "主仆（丫鬟强于小姐）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "司棋是迎春的首席丫鬟，性情刚烈泼辣——与懦弱的主人恰成对照。司棋敢为私情而死，迎春却连为她说情都不敢。主仆二人都不得善终：司棋撞墙殉情，迎春被虐而死。一个死于「敢」，一个死于「不敢」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "日常相处",
+          "chapter": 61,
+          "description": "司棋大闹厨房——丫鬟的强势反衬小姐的弱势。"
+        },
+        {
+          "stage": 2,
+          "title": "抄检被逐",
+          "chapter": 74,
+          "description": "司棋箱中搜出定情物被逐，求迎春说情，迎春含泪不敢多言。司棋后被撵，撞墙而死。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yingchun_sun_shaozu",
+      "from": "character_jia_yingchun",
+      "to": "character_sun_shaozu",
+      "type": "夫妻（施虐与受害）",
+      "nature": [
+        "marriage",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "孙绍祖是迎春的丈夫与凶手。出身军家，曾依附贾府，娶亲后「得志便猖狂」：好赌酗酒、淫遍家中媳妇丫头、以「五千银子」为由把迎春当下贱之物折磨。判词「中山狼」即此人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "成婚",
+          "chapter": 79,
+          "description": "贾赦作主将迎春嫁与孙绍祖。贾母不称意、贾政劝谏均无效。"
+        },
+        {
+          "stage": 2,
+          "title": "虐妻",
+          "chapter": 80,
+          "description": "迎春回门哭诉孙绍祖暴行与「准折卖给我」的真相。"
+        },
+        {
+          "stage": 3,
+          "title": "虐杀",
+          "chapter": 109,
+          "description": "迎春被折磨而死。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yingchun_jia_mu",
+      "from": "character_jia_yingchun",
+      "to": "character_jia_mu",
+      "type": "祖孙",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母对迎春的婚事「心中却不十分称意」，但「想来拦阻亦恐不听」，竟放任不管。迎春死后贾母痛悔「是我害了你了」。这段关系展示了贾母的局限：作为贾府最高权威，她在最关键的时刻选择了不作为——一个慈祖母的疏忽，成了孙女的地狱。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "许婚不拦",
+          "chapter": 79,
+          "description": "贾母明知孙家不配，却因「恐不听」而不拦阻。"
+        },
+        {
+          "stage": 2,
+          "title": "痛悔已迟",
+          "chapter": 109,
+          "description": "迎春死讯传来，贾母悲恸：「是我害了你了！」",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yingchun_jia_baoyu",
+      "from": "character_jia_yingchun",
+      "to": "character_jia_baoyu",
+      "type": "堂兄妹",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "迎春出嫁后，宝玉「天天到紫菱洲一带地方徘徊瞻顾」，吟诗悼念「池塘一夜秋风冷，吹散芰荷红玉影」。宝玉是全府唯一为迎春的离去而真正伤心的人——他悼念的不只是二姐姐，更是大观园理想的第一次崩塌。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "紫菱洲凭吊",
+          "chapter": 79,
+          "description": "迎春出嫁后宝玉至紫菱洲徘徊感伤，吟《紫菱洲歌》。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_yingchun_judgment_song",
+      "title": "判词与《喜冤家》曲",
+      "work_type": "判词/曲",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "判词：「子系中山狼，得志便猖狂。金闺花柳质，一载赴黄粱。」《喜冤家》：「中山狼，无情兽，全不念当日根由。一味的骄奢淫荡贪还构。觑着那，侯门艳质同蒲柳；作践的，公府千金似下流。叹芳魂艳魄，一载荡悠悠。」",
+      "symbolic_notes": "「子系」合而为「孙」；「中山狼」喻忘恩负义；「一载」精确预言死亡时间。"
+    },
+    {
+      "id": "poem_yingchun_riddle",
+      "title": "灯谜（算盘）",
+      "work_type": "灯谜（七绝）",
+      "chapter_number": 22,
+      "fact_type": "canonical_text_fact",
+      "summary": "「天运人功理不穷，有功无运也难逢。因何镇日纷纷乱，只为阴阳数不同。」",
+      "symbolic_notes": "算盘——被「算」的命运：五千两银子的债务把她拨进孙家的火坑。「有功无运」自谶其逆来顺受而不得善终。"
+    },
+    {
+      "id": "poem_baoyu_zilingzhou",
+      "title": "紫菱洲歌（宝玉为迎春所作）",
+      "work_type": "七言诗",
+      "chapter_number": 79,
+      "fact_type": "canonical_text_fact",
+      "summary": "「池塘一夜秋风冷，吹散芰荷红玉影。蓼花菱叶不胜愁，重露繁霜压纤梗。不闻永昼敲棋声，燕泥点点污棋枰。古人惜别怜朋友，况我今当手足情！」",
+      "symbolic_notes": "宝玉悼迎春之作。「不闻永昼敲棋声」——迎春善棋，人去楼空，棋枰尘封。这是大观园女儿国的第一首挽歌。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_yingchun_victim",
+      "title": "迎春为什么会成为贾府婚姻制度的牺牲者？",
+      "slug": "why-is-yingchun-a-victim-of-marriage-system",
+      "question_type": "theme_analysis",
+      "importance_weight": 80,
+      "heat_weight": 70,
+      "neutral_overview": "迎春之死不是偶然：她被五千两银子「准折」嫁入狼窝，全府无人相救。她的悲剧究竟是谁造成的——是父亲、丈夫，还是制度本身？",
+      "viewpoint_ids": [
+        "viewpoint_yingchun_system",
+        "viewpoint_yingchun_personality",
+        "viewpoint_yingchun_family_decay"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_yingchun_system",
+          "title": "制度论：迎春的悲剧是「婚姻即交易」制度的必然",
+          "summary": "在「父母之命」的婚姻制度下，女儿是家族的财产，婚姻是财产转移——贾赦把女儿抵债完全「合法」。迎春的悲剧不是个别恶人造成的意外，而是制度运行的必然结果：孙绍祖不是特例，只是把制度的买卖本质说破了的那个。",
+          "evidence": [
+            "「把你准折卖给我的」——婚姻的买卖本质被点破",
+            "贾赦的行为在制度内完全合法，无人能阻止"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_yingchun_personality",
+          "title": "性格论：她的「懦」加速了悲剧的兑现",
+          "summary": "同样是面对不幸婚姻，迎春选择了彻底的逆来顺受——不问累金凤、不救司棋、不哭闹不求助。她的懦弱使施暴者肆无忌惮：欺负迎春没有成本。性格不是悲剧的根源（根源是制度），但性格决定了她在悲剧中的姿态——没有一次像样的反抗。",
+          "evidence": [
+            "「戳一针也不知嗳哟一声」——兴儿的定评",
+            "累金凤事件与司棋事件中她的一贯放弃"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "viewpoint_yingchun_family_decay",
+          "title": "衰败论：迎春之死是贾府「体制失灵」的检验报告",
+          "summary": "迎春之死暴露了贾府整个保护机制的失灵：父亲贪财、继母冷漠、祖母放任、伯父劝谏无效、全家事后才痛悔。一个大小姐被明码标价地卖出去，没有任何机制能拦住——这说明贾府的伦理秩序早已名存实亡。她的死是贾府崩溃的预演。",
+          "evidence": [
+            "贾母「不称意」却放任、贾政劝谏被拒、王夫人劝「认命」",
+            "迎春死后全府的反应只是哭，没有追责"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_yingchun_ermutou",
+      "title": "迎春为什么如此懦弱？「二木头」是天生的吗？",
+      "slug": "why-is-yingchun-so-weak",
+      "question_type": "character_motivation",
+      "importance_weight": 78,
+      "heat_weight": 70,
+      "neutral_overview": "「戳一针也不知嗳哟一声」的懦弱，是迎春的天性，还是环境塑造的结果？她为什么不反抗？",
+      "viewpoint_ids": [
+        "vp_yingchun_environment",
+        "vp_yingchun_nature",
+        "vp_yingchun_philosophy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_yingchun_environment",
+          "title": "环境塑造论：无依无靠者的自我保全",
+          "summary": "迎春的懦弱是被环境反复验证后的最优策略：庶出、幼年丧母、父亲荒唐暴虐、继母冷漠、全府没有一个人真正疼她。反抗的结局只会更糟——不如沉默。「二木头」不是天性，是生存环境雕刻出来的形状。",
+          "evidence": [
+            "迎春的出身处境（庶出、丧母、继母）",
+            "她在贾府的存在感极低——连诗社活动都只是陪衬"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yingchun_nature",
+          "title": "天性论：她天性如此",
+          "summary": "同样出身庶出、处境不佳的探春却刚烈反抗——说明处境并不必然造就懦弱。曹雪芹对迎春的描写（「温柔沉默」）从一开始就定下了天性基调：她是「天生」的逆来顺受者。迎探的对照恰恰说明性格差异的先在性。",
+          "evidence": [
+            "第三回出场「温柔沉默」的定调",
+            "探春同处境而性格相反——处境不是唯一变量"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yingchun_philosophy",
+          "title": "哲学论：她的懦弱背后有一套宿命论",
+          "summary": "迎春的「不争」不只是胆小，她有自己的一套哲学——《太上感应篇》的因果报应论。她相信「他们的不是，自作自受」，相信命运早已注定。她的懦弱有理论支撑，是「自觉的选择」而非单纯的软弱。",
+          "evidence": [
+            "第七十三回她捧《太上感应篇》说「多少男人尚如此，何况我哉」",
+            "她自称「任凭你们处置，我总不知道」的放弃姿态"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_yingchun_siqi",
+      "title": "司棋事件中迎春的表现该如何评价？",
+      "slug": "how-to-judge-yingchuns-response-to-siqi",
+      "question_type": "event_analysis",
+      "importance_weight": 72,
+      "heat_weight": 65,
+      "neutral_overview": "司棋被逐时哭求迎春说情，迎春却说「我也没法儿」。她是冷漠无情，还是无能为力？",
+      "viewpoint_ids": [
+        "vp_yingchun_siqi_cold",
+        "vp_yingchun_siqi_powerless"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_yingchun_siqi_cold",
+          "title": "冷漠论：她的「没法儿」是自私的托词",
+          "summary": "迎春作为主子，只要开口求情，司棋未必没有转圜余地——探春能救丫鬟，她为什么不能？她的「岂不连我也完了」暴露的是极度的自保自私：比起丫鬟的生死，她更在意自己的安全。",
+          "evidence": [
+            "「我知道你干了什么大不是，我还十分说情留下，岂不连我也完了」——迎春原话",
+            "对照：探春对丫鬟的保护（打王善保家的维护丫鬟尊严）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_yingchun_siqi_powerless",
+          "title": "无力论：她真的「没法儿」",
+          "summary": "司棋犯的是「风化」大罪（私通），在抄检大观园的背景下无人敢沾。迎春自己都是泥菩萨过江——庶出、无靠山、即将被嫁。她的「没法儿」不是托词而是现实：她没有探春的资本（王夫人的赏识、小姐的强势地位）。要求迎春救司棋，是要求溺水者救人。",
+          "evidence": [
+            "司棋之罪的严重性（抄检背景下无人敢说情）",
+            "迎春自身处境的脆弱（累金凤被偷都无人为她主持）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_yingchun_sanchun",
+      "title": "迎春、探春、惜春——「三春」为何走向三种不同的毁灭？",
+      "slug": "why-do-three-springs-destroy-differently",
+      "question_type": "literary_analysis",
+      "importance_weight": 75,
+      "heat_weight": 65,
+      "neutral_overview": "同为贾府小姐，迎春被虐死、探春远嫁、惜春出家。曹雪芹设计这「三春」的对照结构想说明什么？",
+      "viewpoint_ids": [
+        "vp_sanchun_three_ways"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_sanchun_three_ways",
+          "title": "三种策略论：顺从、反抗、逃离——全部失败",
+          "summary": "迎春代表「顺从」（逆来顺受→被吞掉）、探春代表「反抗」（精明抗争→仍被放逐）、惜春代表「逃离」（勘破出家→青灯古佛）。三种应对策略涵盖了封建女性面对命运的全部可能，而结局无一幸免——这证明问题不在个体选择，而在制度本身：无论顺从、反抗还是逃离，都逃不出「千红一哭」的宿命。",
+          "evidence": [
+            "迎春「一载赴黄粱」、探春「清明涕送」、惜春「独卧青灯古佛旁」",
+            "判词系统中三春命运的平行设计"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_yingchun_jia_she",
+      "title": "贾赦卖女——「父权」在迎春悲剧中扮演什么角色？",
+      "slug": "what-role-does-paternal-power-play-in-yingchuns-tragedy",
+      "question_type": "theme_analysis",
+      "importance_weight": 75,
+      "heat_weight": 68,
+      "neutral_overview": "迎春的父亲贾赦是悲剧的起点：为五千两银子把女儿抵债。曹雪芹对「父亲」的书写意味着什么？",
+      "viewpoint_ids": [
+        "vp_jiashe_father_right",
+        "vp_jiashe_decay"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiashe_father_right",
+          "title": "父权批判论：父亲是女儿命运的合法裁决者",
+          "summary": "贾赦卖女不是个人道德败坏，而是父权制度的极端展示——父亲对女儿的婚姻有「合法」的决定权，贾母、贾政都无法推翻。曹雪芹通过贾赦展示了「父权」如何从「保护者」异化为「出卖者」：制度赋予父亲的权利，没有任何监督与制约。",
+          "evidence": [
+            "贾政劝谏「劝阻过两三次」而无效——父权不可撼动",
+            "贾母作为最高长辈也「恐不听」而放弃"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiashe_decay",
+          "title": "堕落象征论：贾赦是贾府男性败落的标本",
+          "summary": "贾赦贪财好色、以女抵债，是贾府男性集体堕落的最刺眼标本（与贾珍、贾琏构成「赦珍琏」的败家链条）。迎春的悲剧因此有双重含义：既是女性在婚姻制度中的牺牲，也是整个男性权力层腐烂的代价。",
+          "evidence": [
+            "贾赦强索鸳鸯事件（第四十六回）的铺垫",
+            "贾府男性（赦、珍、琏）的集体堕落与家族败亡的因果"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_yingchun_ruozhe",
+      "title": "迎春——弱者哲学的文学标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1985,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者普遍将迎春视为《红楼梦》「弱者群像」的极致代表：她不是没有感受（回门哭诉说明她知痛），而是被剥夺了反抗的一切资源与理由。她的懦弱是「结构性无助」的文学化表达——不是一个人软弱，而是一套制度把一类人（庶出女性）塑造成软弱。迎春与司棋的主仆对照（奴才敢死、主子不敢言）更强化了这一讽刺：人的尊严不取决于身份，取决于「敢不敢」。"
+    },
+    {
+      "id": "viewpoint_yingchun_wusheng",
+      "title": "无声的悲剧——「一载赴黄粱」的叙事处理",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学悲剧美学研究",
+      "year": 1992,
+      "source_title": "多项悲剧美学研究",
+      "description": "迎春之死的特殊之处在于其「无声」：与黛玉（焚稿、吐血、诗谶）秦可卿（丧仪之盛）等金钗的死亡相比，迎春的死几乎没有场面——只有回门的哭诉与死讯的传来。有学者认为这正是曹雪芹的刻意设计：迎春一生无声，死也无声；她的悲剧不需要场面渲染，因为「无人理会」本身就是最深的悲剧。判词「一载赴黄粱」把死亡写成一场安静的梦——连死都「温柔沉默」。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 8,
+    "total_relationships": 7,
+    "total_poems": 3,
+    "total_questions": 5,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 39,
+      "text_inference": 15,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

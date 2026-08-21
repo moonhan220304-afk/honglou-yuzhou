@@ -1,0 +1,931 @@
+{
+  "character": {
+    "id": "character_xue_yima",
+    "name": "薛姨妈",
+    "slug": "xue-yima",
+    "aliases": [
+      "薛王氏",
+      "慈姨妈",
+      "姨妈"
+    ],
+    "category": "薛家女主人（皇商薛家）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "金陵王氏之女，王子腾、王夫人之妹，嫁与皇商薛家，夫早亡，寡居。",
+      "position": "薛家女主人（寡居掌家），薛蟠、薛宝钗之母。",
+      "origin": "金陵四大家族之一「丰年好大雪」之薛家。",
+      "generation": "与王夫人、贾政同辈"
+    },
+    "tags": [
+      "丰年好大雪",
+      "慈姨妈",
+      "金玉良缘",
+      "梨香院",
+      "皇商薛家",
+      "爱语慰痴颦",
+      "护香菱",
+      "双王同盟"
+    ],
+    "summary": {
+      "short": "薛蟠、宝钗之母，王夫人之妹。第四回携家进京寄居梨香院，从此贾府多了一位「慈姨妈」——她是「金玉良缘」最重要的推动者，第五十七回「慈姨妈爱语慰痴颦」以假意说亲试探黛玉，是全书写她最传神的一笔。",
+      "long": "薛姨妈是四大家族之「薛」（护官符「丰年好大雪，珍珠如土金如铁」）的寡居女主人。她的兄长是王子腾，姐姐是王夫人——这条姐妹线使薛家与荣国府结成了全书最牢固的政治—婚姻同盟。第四回薛蟠打死冯渊后，薛家以送宝钗待选为名举家进京，寄居贾府梨香院，「一进门又给贾政、贾母请了安，每日与姐妹们一处」，从此薛姨妈成为大观园社交场上最忙碌的「慈人」：对贾母她是最会凑趣的亲家，对黛玉她是「疼你的姨娘」，对宝钗她是最精明的母亲。她的「慈」里藏着「算」——第八回宝玉到梨香院吃酒，金锁配玉的「金玉良缘」叙事由她家的丫鬟莺儿率先说破；第二十八回元妃赐礼宝玉宝钗同例，她与王夫人心领神会；第五十七回「慈姨妈爱语慰痴颦」，她在黛玉面前说出「不如竟把你林妹妹定与他，岂不四角俱全」的漂亮话，紫鹃赶来求她作主时她又笑着推脱——这段话被红学界公认为对宝黛姻缘最温柔也最虚假的安抚：她以干亲的暖话，稳住了黛玉的心，也为金玉良缘的布局赢得了时间。她对女儿宝钗的管教极严（「宝丫头古怪着呢，他从来不爱这些花儿粉儿的」），对儿子薛蟠的溺爱又到了荒唐的地步——薛蟠打死人，她花钱了事；薛蟠要南行经商，她拦不住只能放行。第七十九、八十回，薛蟠娶了「河东狮」夏金桂，香菱遭虐，她气极要卖香菱，被宝钗拦下，香菱遂归宝钗——这是她「护」的极限，也是她无力管束这个家的写照。后四十回（gaoe）写薛蟠又打死人获罪，她卖产奔走营救，薛家从此衰败。红学家论薛姨妈，多着一「慈」字：她的慈不是伪善，而是旧式贵族寡母在礼教与家族利益之间的生存术——慈是她的本性，算也是她的本性，二者原是一体。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "慈——人情场上的圆融",
+        "fact_type": "canonical_text_fact",
+        "description": "薛姨妈的「慈」是全书最成功的人设：对贾母凑趣，对黛玉温存，对香菱怜惜，对宝钗细心。她的慈不是王夫人的「呆」，而是一种高段位的人情圆融——第七十五回她输牌给贾母凑兴、第五十七回她认黛玉做干女儿，处处得体，处处有温度。"
+      },
+      {
+        "dimension": "算——金玉良缘的幕后操盘手",
+        "fact_type": "canonical_text_fact",
+        "description": "薛家进京的最大战略资产就是宝钗。薛姨妈以「送女待选」为由入住贾府，与王夫人形成姐妹同盟，共同经营「金玉良缘」：金锁配玉的故事、元妃赐礼后的心照、对黛玉的「爱语」安抚，都是这盘棋的落子。她的算不着痕迹——这正是她的高明。"
+      },
+      {
+        "dimension": "守——寡居守成者的谨慎",
+        "fact_type": "canonical_text_fact",
+        "description": "薛家「珍珠如土金如铁」的富贵已是昨日：丈夫早逝，儿子不肖，生意靠伙计支撑。薛姨妈的理财与社交处处透出守成者的谨慎——寄居贾府是求庇护，联姻贾府是求保险。她的一生都在为薛家这只漏船补漏。"
+      },
+      {
+        "dimension": "软——对薛蟠的溺爱与无力",
+        "fact_type": "canonical_text_fact",
+        "description": "薛姨妈对薛蟠的溺爱到了荒唐的地步：打死人花钱了事，离家经商拦不住，娶夏金桂做不了主，香菱遭虐只能哭。她的「软」是寡母纵子的标本——她的慈给了儿子，儿子的祸砸了全家。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xue_yima_jinjing_ch4",
+        "title": "举家进京寄居梨香院（第四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xue_yima_jinyu_ch8",
+        "title": "金玉初识——留宝玉吃酒（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xue_yima_quanhe_ch34",
+        "title": "劝和薛蟠宝钗（第三十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xue_yima_aiyu_ch57",
+        "title": "慈姨妈爱语慰痴颦（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xue_yima_xiangling_ch80",
+        "title": "香菱归宝钗——护香菱（第八十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_xue_yima_yingjiu_ch85",
+        "title": "薛蟠获罪，卖产营救（第八十五回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch04_xue_family",
+        "quote": "贾不假，白玉为堂金作马。阿房宫，三百里，住不下金陵一个史。东海缺少白玉床，龙王来请金陵王。丰年好大雪，珍珠如土金如铁。",
+        "fact_type": "canonical_text_fact",
+        "note": "第四回护官符。「丰年好大雪」——雪谐薛，薛家位列四大家族，这是薛姨妈全部社会资本的底色。"
+      },
+      {
+        "source_id": "source_ch08_xue_yima_liujiu",
+        "quote": "薛姨妈道：「……只管放心吃，有我呢。……你们哥儿俩也坐一处罢。」……薛姨妈方放了心：「小祖宗，我可已担着不是了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回梨香院吃酒。薛姨妈留宝玉吃酒、纵其暖酒而饮——「有我呢」三字，是慈，也是拉近宝玉的社交手腕。"
+      },
+      {
+        "source_id": "source_ch57_xue_yima_shuoqin",
+        "quote": "薛姨妈道：「……我想着，你宝兄弟老太太那样疼他，他又生的那样，若要外头说去，断不中意。不如竟把你林妹妹定与他，岂不四角俱全？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回「慈姨妈爱语慰痴颦」。假意说亲——黛玉听了「便啐了一口」，紫鹃赶来求她作主，她笑着拿话支开。全书对宝黛姻缘最温柔的试探。"
+      },
+      {
+        "source_id": "source_ch57_xue_yima_ganqin",
+        "quote": "薛姨妈道：「我素日最疼你……妈若是不顾念，我的丫头就是你的……」黛玉便认了干女儿，母女更相亲近。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回认干亲。以「慈」之名完成与黛玉的情感绑定——亦是「爱语慰痴颦」策略的一部分。"
+      },
+      {
+        "source_id": "source_ch80_xue_yima_xiangling",
+        "quote": "薛姨妈气得浑身乱战……赌气要卖香菱。宝钗笑道：「咱们家从来只知买人，并不知卖人之说。……」香菱从此便跟了宝钗去了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第八十回。薛姨妈「护香菱」的极限：她想把香菱从金桂的折磨中救出来，方法却是卖掉——最终由宝钗出面收下香菱。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "书中未写其名，以「薛姨妈」称之——对姨母的亲属称谓，与「王夫人」构成姐妹对照",
+      "detail": "「薛姨妈」之「薛」即护官符「丰年好大雪」之「雪」的谐音——薛家富如雪、白如雪，亦将「白茫茫大地真干净」般消融。她是书中唯一以「姨妈」为名的太太级人物：这个称呼自带亲近感，恰是她「慈」的人设来源。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文。王夫人之妹、薛蟠之母，约四十四五岁（text_inference：据王夫人50岁与薛蟠15岁推算）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "薛王氏",
+      "type": "本姓称谓",
+      "context": "薛姨妈本姓王，系王夫人之妹、王子腾之妹，嫁入薛家后称薛王氏",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "慈姨妈",
+      "type": "回目称号",
+      "context": "第五十七回回目「慈姨妈爱语慰痴颦」——「慈」是曹雪芹对她的定评",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "姨妈",
+      "type": "亲属称谓",
+      "context": "宝玉、黛玉等对她最常用的称呼——亲近而尊敬的姨母称谓",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xue_yima_jinjing_ch4",
+      "title": "举家进京——寄居梨香院",
+      "event_level": "major",
+      "chapter": {
+        "number": 4,
+        "title": "薄命女偏逢薄命郎 葫芦僧乱判葫芦案",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "金陵→京都荣国府梨香院",
+        "specific": "薛蟠打死冯渊、夺英莲（香菱）后，薛家以送宝钗进京待选为名，举家北上。王子腾升任外省，薛姨妈遂率子女住进贾府梨香院，拜见了贾母、贾政，此后「每日与姐妹们一处」长住。"
+      },
+      "summary": {
+        "short": "薛蟠杀人案之后，薛姨妈携子女进京，寄居贾府梨香院。她以「待选」之名入府，以「慈人」之姿融入——薛家从此成为贾府最亲密的依附者与联姻对象。",
+        "meaning": [
+          "寄居梨香院是「金玉良缘」的地理前提——宝钗与宝玉从此同处一个屋檐下",
+          "「送女待选」是一张掩人耳目的牌：选妃只是名目，联姻才是目的",
+          "薛家的进京，本质是衰败中的皇商向姻亲贵族寻求庇护"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "梨香院——金玉良缘的孵化器",
+          "content": "学者指出，薛家入住梨香院是全书最关键的布局之一：薛姨妈让宝钗与宝玉零距离相处，「金玉」之说有了天天互证的机会。梨香院之名亦含反讽——「离乡」之院，薛家从此离了故乡，也一步步离了体面。"
+        },
+        {
+          "type": "character",
+          "title": "寡母当家——薛姨妈的生存术",
+          "content": "丈夫早逝，儿子闯祸，女儿待嫁——薛姨妈的每一步都是「求稳」：求贾府之稳，求婚姻之稳，求生意之稳。进京寄居看似体面，实则是寡母带着两个孩子的投亲之路。她的圆融不是风雅，是生存。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_yima",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_ziteng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_feng_yuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_yima_jinyu_ch8",
+      "title": "金玉初识——留宝玉吃酒",
+      "event_level": "major",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院",
+        "specific": "宝玉探望宝钗，薛姨妈热情相留：「只管放心吃，有我呢。」席间莺儿说出宝钗金锁上的「不离不弃，芳龄永继」与宝玉通灵玉上的「莫失莫忘，仙寿恒昌」恰成一对——「金玉良缘」的说法由此公开。黛玉随后赶到，「半含酸」地打趣。"
+      },
+      "summary": {
+        "short": "第八回是「金玉良缘」叙事的起点：在薛姨妈的梨香院里，金锁与通灵玉第一次「配成一对」。她留酒的热情与莺儿说破金玉的机巧，让这场会面成为薛家战略的第一次亮相。",
+        "meaning": [
+          "金玉之说由薛家丫鬟口中说出——「偶然」之下是精心设计的必然",
+          "薛姨妈的「有我呢」——她以长辈的慈掩护了金玉布局的第一手",
+          "黛玉的「半含酸」——金玉初会当天，宝黛钗三角关系正式开锣"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "金玉良缘的叙事起点",
+          "content": "红学界普遍以第八回为「金玉良缘」叙事的原点：金锁的来历（癞头和尚所送、须配玉者）与通灵玉形成文本级呼应。薛姨妈是这场叙事的场地提供者与热情赞助者——她的梨香院，就是金玉良缘的第一个舞台。"
+        },
+        {
+          "type": "character",
+          "title": "慈与算的二重奏",
+          "content": "留酒是真慈（她确把宝玉当晚辈疼爱），促成金玉是暗算（她确在经营女儿的姻缘）。薛姨妈的过人处在于二重奏的和谐：她的慈让算变得温暖，她的算让慈有了方向。黛玉的「半含酸」恰说明她嗅到了慈里的算。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_yima",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ying_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_yima_quanhe_ch34",
+      "title": "错里错以错劝哥哥——劝和兄妹",
+      "event_level": "minor",
+      "chapter": {
+        "number": 34,
+        "title": "情中情因情感妹妹 错里错以错劝哥哥",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院",
+        "specific": "宝玉挨打后，薛蟠与宝钗因「告密」之疑大吵，薛蟠口不择言说宝钗「护着宝玉」。宝钗哭了一夜。薛姨妈在旁劝和，向宝钗解释薛蟠的莽撞。"
+      },
+      "summary": {
+        "short": "宝玉挨打风波波及薛家：薛蟠的浑话伤了宝钗。薛姨妈夹在「一个痴一个莽」的儿女之间劝和——她的慈在家庭内部显出了真实的功能：这个家的日常运转全靠她缝缝补补。",
+        "meaning": [
+          "薛姨妈在儿女之间扮演永远的缓冲垫",
+          "薛蟠的粗莽与宝钗的隐忍，都要靠她的慈来维持平衡",
+          "薛家内部的裂痕（薛蟠之祸）从此刻开始隐隐发作"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "慈的真正用武之地",
+          "content": "薛姨妈对外是社交高手，对内是伤心母亲：儿子不肖、女儿委屈，她的劝和是全书薛家戏里最家常也最心酸的部分。慈姨妈之「慈」，最先要抚平的其实是自己的家。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_yima",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_yima_aiyu_ch57",
+      "title": "慈姨妈爱语慰痴颦",
+      "event_level": "major",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "潇湘馆",
+        "specific": "紫鹃试玉之后，薛姨妈与宝钗同到潇湘馆看望黛玉。她抚慰黛玉：「不如竟把你林妹妹定与他，岂不四角俱全？」紫鹃闻讯赶来催她作主，她却笑着支开：「这孩子急什么！」又提出要认黛玉作干女儿。"
+      },
+      "summary": {
+        "short": "第五十七回的薛姨妈是全书最精彩的「慈戏」：她把说亲的话说得比谁都真，把黛玉的心暖得比谁都软；紫鹃追来时，她又一语笑开。这出戏的谜底至今争论不休——她是真心疼黛玉，还是用慈语给金玉良缘争取时间？",
+        "meaning": [
+          "「四角俱全」的漂亮话——给黛玉的希望是全书最温柔的陷阱",
+          "认干亲——用母女之名的温度，替代婚姻之实的承诺",
+          "紫鹃的催问被一笑带过——慈语的全部效力就在于「说过即忘」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "慈与算的完美合演",
+          "content": "薛姨妈此回的表现被视为她人格的巅峰展示：慈是真的（她对黛玉的怜惜绝非全伪），算是真的（她绝不可能推动宝黛婚事——那意味着薛家战略破产）。慈为表、算为里，表里都真——这才是「慈姨妈」三个字的全部深意。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「爱语慰痴颦」的悲剧功能",
+          "content": "学者指出，第五十七回是宝黛姻缘「虚假的希望」的顶点：薛姨妈的慈语让黛玉（乃至读者）一度以为婚事有戏，而正因这希望的甜蜜，日后的落空才格外残忍。曹雪芹让最温暖的人说出最虚假的话，是全书的「温柔刀」叙事。"
+        },
+        {
+          "type": "literary",
+          "title": "回目对照——慧紫鹃与慈姨妈",
+          "content": "同回回目中「慧紫鹃」与「慈姨妈」对举：紫鹃之慧是为黛玉「作定大事」，薛姨妈之慈是替黛玉「慰藉痴心」——一个敢闯，一个善圆。两个「爱黛玉的人」，一个是行动的，一个是表演的，对照之下，悲凉自见。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_yima",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zijuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_yima_xiangling_ch80",
+      "title": "香菱归宝钗——护香菱",
+      "event_level": "minor",
+      "chapter": {
+        "number": 80,
+        "title": "美香菱屈受贪夫棒 王道士胡诌妒妇方",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "夏金桂设计陷害香菱，薛蟠毒打香菱。薛姨妈气不过，赌气要卖香菱——宝钗拦住：「咱们家从来只知买人，并不知卖人之说。」香菱从此归宝钗名下，随宝钗入大观园。"
+      },
+      "summary": {
+        "short": "香菱遭虐，薛姨妈「护」的方式是卖掉她——这是她作为主母能想到的止损法。宝钗拦下后，香菱归宝钗。薛姨妈对香菱的护有真心（气极、心疼），却没有力量（镇不住金桂、管不住薛蟠）。",
+        "meaning": [
+          "「护香菱」的悲剧性在于：她护的方式恰恰是伤害的方式",
+          "薛家内宅的失控（金桂之恶）证明薛姨妈的掌家已经失灵",
+          "香菱归宝钗——薛家内部唯一干净的处置，由宝钗完成"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "慈的边界",
+          "content": "薛姨妈不是不怜香菱——她「气得浑身乱战」。但她的慈救不了人：对薛蟠她管不住，对金桂她压不下，对香菱她只能「卖」。慈姨妈的慈是有边界的——边界就是她作为旧式贵妇的能力极限。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_yima",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xia_jingui",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_yima_yingjiu_ch85",
+      "title": "薛蟠获罪——卖产营救",
+      "event_level": "major",
+      "chapter": {
+        "number": 85,
+        "title": "贾存周报升郎中任 薛文起复惹放流刑",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "薛家",
+        "specific": "后四十回（gaoe）写薛蟠打死酒店堂倌张三，获罪下狱。薛姨妈惊惶无措，倾家卖产、四处央人营救，全赖贾府与王家周旋，终改判流刑。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）里，薛蟠再惹命案，薛姨妈的晚年被儿子的祸事拖垮：卖产、求人、熬煎。续书写她营救儿子的奔波与无力——四大家族之「雪」，到此时融化殆尽。",
+        "meaning": [
+          "薛蟠的第二次命案，宣告「护官符」时代已经终结——钱与势都保不住薛家",
+          "薛姨妈一生的守成，最终败在儿子的败家上",
+          "她的奔走是寡母之爱的最后形态：明知救不回，仍要救"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「雪」之消融",
+          "content": "续书（gaoe）让薛蟠再犯命案，从结构上完成了薛家「雪」的意象闭环：以命案起家（第四回），以命案败家（第八十五回）。薛姨妈的营救是败落中的徒劳——珍珠如土金如铁的家底，终于被儿子一口口吃尽。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_yima",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xue_yima_wang_furen",
+      "from": "character_xue_yima",
+      "to": "character_wang_furen",
+      "type": "亲姊妹（金玉同盟）",
+      "nature": [
+        "kinship",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛姨妈与王夫人是「双王同盟」：亲姐妹，更是金玉良缘的联合操盘手。王夫人掌荣国府内政，薛姨妈供宝钗——姐姐出位置，妹妹出女儿。后四十回（gaoe）掉包计中，正是这对姐妹合谋瞒过黛玉与宝玉。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "投亲入府",
+          "chapter": 4,
+          "description": "薛家进京投靠王夫人，寄居梨香院——同盟的地理基础。"
+        },
+        {
+          "stage": 1,
+          "title": "姐妹同盟的形成",
+          "chapter": 4,
+          "description": "薛家进京投靠贾府——「金玉良缘」的舆论基地自此建立。"
+        },
+        {
+          "stage": 2,
+          "title": "金玉布局",
+          "chapter": 8,
+          "description": "金锁配玉之说公开——同盟的战略目标浮出水面。"
+        },
+        {
+          "stage": 2,
+          "title": "同盟的运转",
+          "chapter": 36,
+          "description": "王夫人内定袭人、推动宝钗——姐妹联盟在婚姻线上步步为营。"
+        },
+        {
+          "stage": 3,
+          "title": "掉包合谋",
+          "chapter": 97,
+          "description": "姐妹合谋掉包计，宝钗代嫁——同盟的最终收割。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_yima_xue_baochai",
+      "from": "character_xue_yima",
+      "to": "character_xue_baochai",
+      "type": "母女",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛姨妈对宝钗既慈且严：她的女儿是她全部的骄傲与全部的战略资产。宝钗对母亲极孝顺（处处体贴、代管家务、安慰其忧）。母女二人是薛家最后的体面——一个主内，一个主外，把摇摇欲坠的家撑了十年。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "管教与倚重",
+          "chapter": 8,
+          "description": "薛姨妈对外夸宝钗「古怪着呢，从来不爱花儿粉儿」——严母的得意。"
+        },
+        {
+          "stage": 1,
+          "title": "相依进京",
+          "chapter": 4,
+          "description": "薛姨妈携宝钗、薛蟠进京，投奔荣国府。宝钗作为薛家唯一明理的子女，是薛姨妈在贾府立足的重要支柱。"
+        },
+        {
+          "stage": 2,
+          "title": "卖香菱之争",
+          "chapter": 80,
+          "description": "宝钗拦下卖香菱之议——女儿比母亲更有主张。"
+        },
+        {
+          "stage": 3,
+          "title": "代嫁之痛",
+          "chapter": 97,
+          "description": "宝钗委屈代嫁，薛姨妈含泪送女——母女的战略代价。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_baochai_enters_jia_ch4",
+          "description": "母女同入贾府"
+        }
+      ],
+      "impact": "宝钗与薛姨妈的母女关系展现了宝钗性格中温情的一面——在外端庄世故，在母亲面前方能卸下部分防御。薛姨妈也是「金玉良缘」最积极的推动者之一。"
+    },
+    {
+      "id": "relationship_xue_yima_xue_pan",
+      "from": "character_xue_yima",
+      "to": "character_xue_pan",
+      "type": "母子（溺爱与拖累）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛姨妈对薛蟠是无原则的溺爱：打死人花钱了事，南行经商拦不住，娶金桂做不了主。薛蟠的每一桩祸，最后都由她买单。她是「慈母多败儿」的文学标本——也是四大家族「儿孙不成器」叙事的承担者。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "纵子成祸",
+          "chapter": 4,
+          "description": "薛蟠打死冯渊，薛姨妈携家避祸进京。"
+        },
+        {
+          "stage": 1,
+          "title": "纵子",
+          "chapter": 4,
+          "description": "命案了事，携子进京。"
+        },
+        {
+          "stage": 2,
+          "title": "放子南行",
+          "chapter": 48,
+          "description": "薛蟠要随伙计南行，薛姨妈拦不住，含泪放行。"
+        },
+        {
+          "stage": 2,
+          "title": "放行",
+          "chapter": 48,
+          "description": "薛姨妈拦不住儿子南下。"
+        },
+        {
+          "stage": 3,
+          "title": "卖产营救",
+          "chapter": 85,
+          "description": "薛蟠二次命案，薛姨妈倾家营救。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 3,
+          "title": "救子",
+          "chapter": 85,
+          "description": "薛蟠获罪，薛姨妈倾家营救。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_yima_lin_daiyu",
+      "from": "character_xue_yima",
+      "to": "character_lin_daiyu",
+      "type": "干亲（慈与算）",
+      "nature": [
+        "kinship",
+        "patronage",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛姨妈对黛玉表现出令人意外的温柔——第五十七回「慈姨妈爱语慰痴颦」，她认黛玉为干女儿（「我保林妹妹嫁宝玉」等玩笑之语），黛玉亦感其慈爱，呼之为「妈」。然其身为宝钗之母，终究是金玉良缘阵营的核心。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "爱语慰痴颦",
+          "chapter": 57,
+          "description": "假意说亲、认干女儿——慈语安抚黛玉。"
+        },
+        {
+          "stage": 1,
+          "title": "慈姨妈爱语慰痴颦",
+          "chapter": 57,
+          "description": "薛姨妈探望病中黛玉，说「不如把你林妹妹定与他（宝玉）」——黛玉虽知是玩笑，仍感温暖。"
+        },
+        {
+          "stage": 2,
+          "title": "同住照拂",
+          "chapter": 58,
+          "description": "薛姨妈住进潇湘馆照管黛玉——慈的日常化。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_yima_jia_mu",
+      "from": "character_xue_yima",
+      "to": "character_jia_mu",
+      "type": "宾主（奉承与依附）",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛姨妈是贾母面前最会凑趣的客人：输牌凑兴、说笑解闷，深得贾母欢心。她依附贾母的庇护，也借贾母的欢心为薛家积累人情资本。贾母喜欢她，却始终没有把宝钗当作宝玉婚事的首选——薛姨妈的奉承，终未换来最关键的一票。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "进京拜见",
+          "chapter": 4,
+          "description": "薛姨妈携子女拜见贾母，从此常伴贾母左右。"
+        },
+        {
+          "stage": 2,
+          "title": "凑趣承欢",
+          "chapter": 57,
+          "description": "薛姨妈陪贾母斗牌、说笑——「奉承」的日常。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_yima_xiangling",
+      "from": "character_xue_yima",
+      "to": "character_xiangling",
+      "type": "主仆（怜惜与无力）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "香菱是薛家抢来、买来的丫鬟兼薛蟠之妾。薛姨妈平日待香菱不薄（赞她「模样儿好还是其次，为人行事更出挑」），但金桂进门后香菱遭虐，她「护」的手段只是要卖——最终香菱归了宝钗。她的怜惜是真的，她的无能为力也是真的。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "收留与善待",
+          "chapter": 16,
+          "description": "香菱随薛家进京，薛姨妈视其为「平头正脸」的家人。"
+        },
+        {
+          "stage": 2,
+          "title": "要卖与归钗",
+          "chapter": 80,
+          "description": "薛姨妈赌气要卖香菱，宝钗拦下，香菱归宝钗。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_xue_huguanfu",
+      "title": "护官符（薛家）",
+      "work_type": "民谣（护官符）",
+      "chapter_number": 4,
+      "fact_type": "canonical_text_fact",
+      "summary": "「丰年好大雪，珍珠如土金如铁。」",
+      "symbolic_notes": "雪谐薛——薛家之富如雪之厚，薛家之运如雪之消。薛姨妈的家族资本全在此十二字中：富极一时，终将化尽。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_xue_yima_shuoqin",
+      "title": "薛姨妈要把黛玉说给宝玉——是真心还是试探？",
+      "slug": "was-xue-yimas-proposal-sincere",
+      "question_type": "character_motivation",
+      "importance_weight": 78,
+      "heat_weight": 74,
+      "neutral_overview": "第五十七回薛姨妈说「把你林妹妹定与他，岂不四角俱全」，又认黛玉做干女儿。这话有几分真？",
+      "viewpoint_ids": [
+        "vp_xue_yima_sincere",
+        "vp_xue_yima_probe",
+        "vp_xue_yima_comfort"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_yima_sincere",
+          "title": "真心论：她的疼惜是真实的，只是不敢作主",
+          "summary": "薛姨妈对孤女黛玉确有真心的怜惜（她甚至搬进潇湘馆照管黛玉）。说亲之语半出肺腑——她欣赏黛玉，也同情黛玉；但作为薛家女主人，她不可能真去推动宝黛婚事，所以话一出口便被自己笑着收回。慈是真的，不能作主也是真的。",
+          "evidence": [
+            "第五十八回薛姨妈住进潇湘馆照管黛玉",
+            "她对黛玉「素日最疼你」的细节"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xue_yima_probe",
+          "title": "试探论：用说亲试探黛玉与贾母的底牌",
+          "summary": "薛姨妈的「说亲」是战略试探：借玩笑之语探黛玉对婚事的态度、探宝黛关系的深度，甚至间接探贾母的口风。紫鹃求她作主时她的推脱，正是试探结束的信号——她得到了想知道的，不必再继续。",
+          "evidence": [
+            "紫鹃催她作主时她笑言支开",
+            "薛家金玉良缘战略的利益约束"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xue_yima_comfort",
+          "title": "安抚论：以慈语稳住黛玉，为金玉良缘争取时间",
+          "summary": "紫鹃试玉后宝黛之情已半公开，薛姨妈需要稳住黛玉的情绪、稳住宝黛同盟的离心力。说亲与认干亲是「温柔安抚」：给黛玉一个盼头，给局势一个缓冲。慈语是策略——最温柔的策略。",
+          "evidence": [
+            "说亲发生在紫鹃试玉、宝黛之情公开化之后",
+            "她始终未向贾母王夫人提出此议"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xue_yima_jinyu",
+      "title": "「金玉良缘」是薛家的战略布局吗？",
+      "slug": "was-jinyu-liangyuan-a-xue-family-strategy",
+      "question_type": "plot_analysis",
+      "importance_weight": 76,
+      "heat_weight": 70,
+      "neutral_overview": "金锁配玉的传说、薛家进京寄居、元妃赐礼同例——「金玉良缘」究竟是薛姨妈一家的谋划，还是命运（作者）的安排？",
+      "viewpoint_ids": [
+        "vp_xue_yima_strategy",
+        "vp_xue_yima_follow",
+        "vp_xue_yima_wangfuren"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_yima_strategy",
+          "title": "战略论：衰败的皇商家族需要联姻护身",
+          "summary": "薛家男人不中用（薛蟠），家业在败，宝钗是唯一的战略资产。薛姨妈携女进京、长住贾府，正是要把宝钗的婚姻转化为薛家的保险。「金玉良缘」不是迷信，是家族战略的文学化表达。",
+          "evidence": [
+            "薛家进京寄居的时间选择（宝钗待选+薛蟠案后）",
+            "金锁来历与「须配玉」的说法"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xue_yima_follow",
+          "title": "顺势论：待选失败后的顺势而为",
+          "summary": "薛家进京的原始目标是宝钗待选。待选无果后，「金玉良缘」成为次优方案。薛姨妈并非一开始就谋宝玉，而是在局势演变中顺势经营——她的算盘是「看菜吃饭」式的务实，而非深谋远虑的战略。",
+          "evidence": [
+            "进京名目是「送女待选」",
+            "宝钗待选结果书中未再提及"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xue_yima_wangfuren",
+          "title": "王夫人主导论：薛姨妈只是姐妹同盟的执行者",
+          "summary": "「金玉良缘」的主帅是王夫人而非薛姨妈：王夫人在荣国府权力格局中需要「自己人」做儿媳（宝钗是亲外甥女），而薛姨妈作为寄居者，只能配合姐姐的战略。薛姨妈是操盘手之一，但不是唯一的操盘手。",
+          "evidence": [
+            "王夫人对黛玉的疏远与对宝钗的倚重",
+            "元妃赐礼同例背后的王夫人影响"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xue_yima_ci",
+      "title": "薛姨妈是「慈」还是「伪善」？",
+      "slug": "is-xue-yima-kind-or-hypocritical",
+      "question_type": "character_morality",
+      "importance_weight": 74,
+      "heat_weight": 72,
+      "neutral_overview": "她人人称「慈姨妈」，但她的慈里藏着金玉良缘的算盘。这个人物究竟是温厚长者，还是笑面谋士？",
+      "viewpoint_ids": [
+        "vp_xue_yima_kind",
+        "vp_xue_yima_fake",
+        "vp_xue_yima_both"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_yima_kind",
+          "title": "慈论：她的温厚是全书难得的暖色",
+          "summary": "薛姨妈对黛玉、香菱、岫烟的照拂有大量细节支撑（认干亲、同住照管、护香菱）。在人人算计的贾府，她的慈是真实的情绪供给。把她的善良全部读成阴谋，是一种过度解读。",
+          "evidence": [
+            "第五十八回住潇湘馆照管黛玉",
+            "第八十回对香菱的气极与心疼"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xue_yima_fake",
+          "title": "伪善论：慈是社交面具，利益才是内核",
+          "summary": "薛姨妈的一切慈都服务于薛家利益：疼黛玉是为稳住情敌，陪贾母是为攀附庇护，护香菱到头来还是要卖。她的慈是精心维护的人设——大观园里最温柔的伪善。",
+          "evidence": [
+            "第五十七回说亲后拒绝兑现",
+            "第八十回「护香菱」的方式是卖掉"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xue_yima_both",
+          "title": "一体论：慈与算是旧式贵妇的生存一体两面",
+          "summary": "薛姨妈不是面具人：她的慈与算是同一种生存术的两个表情。旧式贵族寡母的世界里，对人是情，对事是利，二者从不对立——她可以在同一个下午真心怜黛玉、又真心经营金玉良缘。读她需要放下「真伪二分法」。",
+          "evidence": [
+            "第五十七回「爱语慰痴颦」中慈与算的同步进行",
+            "她对薛蟠的溺爱（无私）与对宝钗的规划（有算）并行不悖"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xue_yima_alliance",
+      "title": "「双王同盟」——金玉良缘的组织基础",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1986,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，薛姨妈与王夫人的姐妹关系是「金玉良缘」的组织基础：王夫人掌握荣国府内政权力，薛姨妈提供宝钗这一人选，姊妹二人构成「双王同盟」，与贾母—黛玉阵营形成拉锯。薛姨妈寄居贾府的社交经营（奉承贾母、慈抚黛玉、结好众人），本质上是为这个同盟积累人情资本。她的形象因此具有双重性：既是慈爱的姨母，也是政治—婚姻博弈中的职业操盘手。"
+    },
+    {
+      "id": "viewpoint_xue_yima_aiyu",
+      "title": "「爱语慰痴颦」——温柔的残忍与虚假的希望",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学悲剧美学研究",
+      "year": 1993,
+      "source_title": "多项悲剧美学研究",
+      "description": "第五十七回被学者视为宝黛姻缘叙事中「虚假希望」的顶点：薛姨妈的慈语（说亲、认干亲）给黛玉以婚姻可成的幻觉，而这幻觉正是悲剧的必要铺垫——希望越真切，落空越残忍。有论者称薛姨妈为「以慈杀人的悲剧执行者」：她不动刀，只说话；她的每一句温言软语，都在推迟黛玉对真相的认知，直到掉包计（gaoe）到来。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 6,
+    "total_poems": 1,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 32,
+      "text_inference": 8,
+      "scholarly_viewpoint": 4,
+      "disputed_version": 2,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

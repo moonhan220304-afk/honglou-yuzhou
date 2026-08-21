@@ -1,0 +1,395 @@
+{
+  "character": {
+    "id": "character_chunyan",
+    "name": "春燕",
+    "slug": "chun-yan",
+    "aliases": [],
+    "category": "荣国府丫鬟（怡红院小丫鬟）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "何婆子（春燕之母，芳官干娘）之女；其姑妈分管大观园柳叶渚花木。",
+      "position": "怡红院小丫鬟。",
+      "origin": "贾府家生子奴才体系。",
+      "generation": "与小红、佳蕙等怡红院小丫鬟同侪"
+    },
+    "tags": [
+      "柳叶渚",
+      "何婆子",
+      "芳官干娘",
+      "蔷薇硝",
+      "麝月召将飞符",
+      "怡红院"
+    ],
+    "summary": {
+      "short": "怡红院小丫鬟，其母何婆子是芳官的干娘。第五十九回「柳叶渚边嗔莺咤燕」里，她因姑妈与亲娘闹事被追打进怡红院；第六十回替蕊官转送蔷薇硝给芳官，引出茉莉粉事件。她在刁蛮亲娘与怡红院之间周旋，是全书「小丫鬟夹缝求生」的样本。",
+      "long": "春燕是怡红院的小丫鬟，母亲何婆子（芳官的干娘）、姑妈都是园中婆子——她的家庭是全书奴婢世界的一个剖面：母亲泼悍、姑妈悭吝，而她偏偏在宝玉房里当差，时时夹在「娘家人的丑」与「怡红院的体面」之间。第五十九回「柳叶渚边嗔莺咤燕」：莺儿摘柳条编花篮，管花木的春燕姑妈心疼花木又不敢得罪莺儿，拿春燕出气；春燕的娘何婆子赶来，母女吵成一团，追打到怡红院，惊动宝玉，麝月一句「叫林大娘来撵出去」才镇住场子——平儿传话「打四十板子撵出去」，何婆子软了，跪求袭人，宝玉看春燕情面饶过。第六十回，蕊官托春燕把蔷薇硝带给芳官，春燕转送，引出茉莉粉事件（芳官以茉莉粉充蔷薇硝打发贾环，赵姨娘大闹怡红院）。春燕在全书没有独立的大事，却是丫鬟阶层生态的最佳观察窗口：她的懂事、她娘的无赖、她姑妈的悭吝，构成一幅底层婆子与丫鬟的浮世绘。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "懂事——夹缝里的分寸",
+        "fact_type": "canonical_text_fact",
+        "description": "春燕在母亲、姑妈、怡红院三方之间周旋，处处赔小心：她替母亲向宝玉求情，又劝母亲安分。小丫鬟的生存智慧在她身上写得最细——不惹事，也躲不开事。"
+      },
+      {
+        "dimension": "通达——看得透底层世情",
+        "fact_type": "canonical_text_fact",
+        "description": "第五十九回春燕对莺儿说的一段话是全书底层生存哲学的白描：婆子们「越老越把钱财看得真」、丫鬟们「有朝一日散了」。她一个小孩儿，把大观园的运转规则看得比谁都清。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_chunyan_ch58",
+        "title": "母亲何婆子作芳官干娘引发洗头风波（第五十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_chunyan_ch59",
+        "title": "柳叶渚事件——姑妈打骂、亲娘追打进怡红院（第五十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_chunyan_ch60",
+        "title": "替蕊官转送蔷薇硝，引出茉莉粉事件（第六十回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch59_chunyan_liuye",
+        "quote": "（春燕道）「……我姑妈一味地疼钱……我娘去问姑妈，他倒打了我一顿……况且如今我们家里，还有几件事……先时还有那没知识的婆子，……越老越把钱看得真了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十九回。春燕对莺儿说的这段话，是全书对底层婆子生态最通透的观察。"
+      },
+      {
+        "source_id": "source_ch59_chunyan_chase",
+        "quote": "（何婆子）「小蹄子，你敢不跟我来！」……（追到怡红院）麝月道：「……不如叫林大娘进来，撵了他出去罢。」……平儿（传话）道：「……打四十板子，撵出去。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十九回。亲娘追打女儿进怡红院，回目「召将飞符」——底层婆子闹剧的顶点。"
+      },
+      {
+        "source_id": "source_ch60_chunyan_qiangweixiao",
+        "quote": "（蕊官对春燕道）「……把这包蔷薇硝给芳官去。」……春燕只得接了硝包，一径到怡红院来，交给芳官。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十回。一包蔷薇硝，经春燕之手引发茉莉粉事件——她是这条因果链的中转站。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「春燕」——春鸟，怡红院丫鬟的时令组命名",
+      "detail": "怡红院丫鬟命名有一套「时令物象」系统：春燕（春之燕）、秋纹（秋之纹）、碧痕、麝月（夜之月）——「春燕」即春天的燕子，取其轻快、报春之意。燕子筑巢檐下、依附人家，恰是小丫鬟依附主家的写照；而「春」字与全书「三春过后诸芳尽」的时序主题呼应：燕子来时春正好，燕子去时园已空。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；怡红院小丫鬟，约十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_chunyan_ch59",
+      "title": "柳叶渚事件——被姑妈打骂、被亲娘追打进怡红院",
+      "event_level": "major",
+      "chapter": {
+        "number": 59,
+        "title": "柳叶渚边嗔莺咤燕 绛云轩里召将飞符",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（柳叶渚、怡红院）",
+        "specific": "莺儿、蕊官摘柳条编花篮，管花木的春燕姑妈心疼花木又不敢开罪莺儿，拿春燕撒气打骂。春燕之母何婆子赶到，母女对骂，追打春燕直到怡红院，惊动宝玉。麝月命人去请林之孝家的，平儿传话要打四十板子撵出去，何婆子软了跪求，宝玉看春燕情面饶过。"
+      },
+      "summary": {
+        "short": "第五十九回是全书的「底层闹剧场」：姑妈的悭吝、亲娘的泼悍、女儿的委屈，一场柳条风波把丫鬟婆子世界的生态写得活灵活现。春燕被亲娘追打，还要反过来替娘求情——小丫鬟的难，全在这一个「追打」里。",
+        "meaning": [
+          "「嗔莺咤燕」——回目用莺（莺儿）燕（春燕）双关，一场花木风波起于贫与悭",
+          "平儿的「打四十板子」——怡红院的规矩最后救了春燕，也镇了她娘",
+          "春燕求情——被追打的女儿替追打她的娘求情，底层亲情的撕裂"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "懂事者的代价",
+          "content": "春燕的懂事是环境逼出来的：娘不省事、姑妈不省事，她必须懂事。曹雪芹写小丫鬟不用大事，一场追打就写尽了「懂事者」的全部负担——她替全家圆场，因为全家只有她懂规矩。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_chunyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_zhixiao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_he_pozi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ruiguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_sheyue",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ying_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_chunyan_ch60",
+      "title": "转送蔷薇硝——茉莉粉事件的中转站",
+      "event_level": "minor",
+      "chapter": {
+        "number": 60,
+        "title": "茉莉粉替去蔷薇硝 玫瑰露引来茯苓霜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（蘅芜苑至怡红院）",
+        "specific": "蕊官托春燕把蔷薇硝带给芳官，春燕转送。宝玉看见，贾环索要，芳官不愿把蕊官所赠的真硝给贾环，改以茉莉粉应付，贾环拿给彩云，赵姨娘大怒，冲进怡红院打芳官，引发一场混战。"
+      },
+      "summary": {
+        "short": "第六十回，春燕当了一回命运的邮差：一包蔷薇硝经她之手，从蕊官到芳官，再到贾环、赵姨娘，最终酿成一场姨娘与女孩子们的大混战。她全程无辜，却身处因果链的正中。",
+        "meaning": [
+          "蔷薇硝是「赠物」——芳官珍视的是蕊官的情分，不是硝",
+          "茉莉粉的「替代」——戏子与庶出少爷之间，连一包硝都要分真假",
+          "春燕的中转——大观园的消息与礼物网络，靠小丫鬟维持"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "物件的旅行",
+          "content": "蔷薇硝→茉莉粉→赵姨娘之怒，一包脂粉的旅行串联起园中各阶层：曹雪芹用「物」写「人」，每个经手者的取舍都是性格的注脚——芳官的重情、贾环的贪、赵姨娘的蠢，尽在一包粉里。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_chunyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ruiguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_chunyan_hepozi",
+      "from": "character_chunyan",
+      "to": "character_he_pozi",
+      "type": "母女（泼悍亲娘）",
+      "nature": [
+        "family",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "春燕的娘何婆子是全书最泼悍的婆子之一：追打春燕进怡红院、给芳官洗头用女儿剩水。春燕对她是又气又护——气她的闹，护她的命（求宝玉别撵她）。这对母女的相处，是底层亲情被贫困扭曲的样本。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "追打",
+          "chapter": 59,
+          "description": "何婆子追打春燕进怡红院。"
+        },
+        {
+          "stage": 2,
+          "title": "求情",
+          "chapter": 59,
+          "description": "春燕替母亲求情免撵。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_chunyan_baoyu",
+      "from": "character_chunyan",
+      "to": "character_jia_baoyu",
+      "type": "主仆（看情面饶其母）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "春燕在宝玉房中当差，第五十九回宝玉看她的情面饶过何婆子。宝玉对春燕的宽宥，是他「女儿观」的日常版本：善待每个女儿，包括她们身后的烂摊子。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "看情面",
+          "chapter": 59,
+          "description": "宝玉因春燕之故饶过何婆子。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_chunyan_ying_er",
+      "from": "character_chunyan",
+      "to": "character_ying_er",
+      "type": "相识（柳叶渚风波的当事人）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "第五十九回莺儿折柳编篮，引发春燕姑妈闹事、春燕被打——春燕不怨莺儿，反而向莺儿赔不是，代姑妈道歉。两个丫鬟的往来，映出小丫鬟与小姐贴身丫鬟之间的微妙温差。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "柳叶渚",
+          "chapter": 59,
+          "description": "莺儿折柳引发风波，春燕代母赔礼。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_chunyan_fangguan",
+      "from": "character_chunyan",
+      "to": "character_fangguan",
+      "type": "同院（转送蔷薇硝）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "春燕与芳官同处怡红院，且春燕之母是芳官干娘——两家关系纠缠。第六十回春燕替蕊官转送蔷薇硝给芳官，二人往来透着一层同龄女儿的情谊。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "转送",
+          "chapter": 60,
+          "description": "春燕把蕊官的蔷薇硝转交芳官。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_chunyan_ecology",
+      "title": "春燕一家的闹剧，是曹雪芹的「底层浮世绘」还是纯粹喜剧？",
+      "slug": "is-chunyans-family-a-burlesque",
+      "question_type": "theme_analysis",
+      "importance_weight": 62,
+      "heat_weight": 56,
+      "neutral_overview": "第五十八至六十回，春燕的娘何婆子闹洗头、闹柳叶渚，被平儿吓得软了——这些婆子闹剧到底是在写什么？",
+      "viewpoint_ids": [
+        "vp_chunyan_comedy",
+        "vp_chunyan_tragedy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_chunyan_comedy",
+          "title": "喜剧论：婆子闹剧是大观园的调味",
+          "summary": "何婆子们的闹剧具有民间喜剧的完整结构：势利、蛮横、被镇住、软了求饶——曹雪芹借她们写丫鬟世界的诙谐面，与小姐们的雅事构成张弛。",
+          "evidence": [
+            "何婆子「打四十板子」前后态度的陡变",
+            "闹剧的误会与反转结构"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_chunyan_tragedy",
+          "title": "悲剧论：贫困把亲情变成了闹剧",
+          "summary": "姑妈为一根柳条心疼、何婆子用剩水给芳官洗头——都是穷。婆子们的悭吝泼悍是贫困的产物，春燕的懂事是被贫困逼出来的早熟。闹剧的底色，是底层无路可退的生存。",
+          "evidence": [
+            "春燕自述家中「还有几件事」的窘迫",
+            "婆子们「越老越把钱看得真」的生存逻辑"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch59_chunyan_wisdom",
+      "quote": "（春燕对莺儿道）「……这园子分了人管，如今多撂一根草也不能了。……我妈和我姨妈，他老姊妹两个……越老越把钱看的真了。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第五十九回。春燕的通透——小丫鬟比谁都明白大观园的运转规则。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_chunyan_type",
+      "title": "春燕——「懂事的小丫鬟」类型",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 2003,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，春燕是《红楼梦》小丫鬟群像中的「懂事者」类型：与小红（能干的进取者）、四儿（攀附的投机者）不同，春燕的生存策略是「明事理、不越界」。她的家庭（泼悍的娘、悭吝的姑妈）构成大观园奴婢阶层的底层剖面——曹雪芹借她的眼睛，把婆子世界的贫、悍、悭逐一看穿。她最后留在怡红院安稳度日，与芳官（被逐）、司棋（殉情）形成对照：在全书丫鬟的悲剧谱系里，懂事是最小的悲剧，也是唯一的活路。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 2,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 1,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.85,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 16,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

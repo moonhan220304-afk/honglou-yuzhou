@@ -1,0 +1,571 @@
+{
+  "character": {
+    "id": "character_li_momo",
+    "name": "李嬷嬷",
+    "slug": "li-mo-mo",
+    "aliases": [],
+    "category": "荣国府乳母（宝玉奶娘）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "宝玉的奶娘（乳母）；其子李贵是宝玉的跟班小厮（随宝玉上学）。",
+      "position": "荣国府奶母，奶大宝玉的「半个娘」。",
+      "origin": "荣府仆妇，以乳哺宝玉得「奶娘」名分。",
+      "generation": "与王夫人同辈的乳母阶层"
+    },
+    "tags": [
+      "奶娘",
+      "乳母",
+      "李贵",
+      "拦酒",
+      "枫露茶",
+      "茜雪之撵",
+      "糖蒸酥酪",
+      "什么阿物儿",
+      "妆狐媚子",
+      "白操了一世心"
+    ],
+    "summary": {
+      "short": "宝玉的奶娘，其子李贵随侍宝玉。第八回拦阻宝玉吃酒，又喝掉宝玉的枫露茶，引发摔杯风波；第十九回吃宝玉留给袭人的糖蒸酥酪，骂袭人「什么阿物儿」；第二十回骂袭人「妆狐媚子哄宝玉」，被凤姐拉走；第五十七回宝玉疯魔，她哭喊「我白操了一世心」。茜雪之撵疑与她有关。",
+      "long": "李嬷嬷是宝玉的奶娘——「我的血变的奶，吃的长这么大」，她是全书奴婢世界里名分最特殊的一个：奶娘不是普通仆人，是「半个娘」，这份名分既是她的荣耀，也是她的病灶。第八回薛姨妈留宝玉吃酒，李嬷嬷上前拦阻：「不中用！当着老太太、太太，那怕你吃一坛呢。想那日我眼错不见一会，不知是那一个没调教的……给了你一口酒吃，葬送的我挨了两日骂。」又祭出杀手锏：「你可仔细，老爷今儿在家，堤防问你的书！」——一席话把宝玉的酒兴浇灭，全靠黛玉周旋才解围。同回稍后，宝玉回房，发现早起沏的枫露茶被李嬷嬷喝了：「他是你那一门子的奶奶？你们这么孝敬他？……如今我又吃不着奶了，白白的养着祖宗作什么！撵了出去，大家干净！」摔杯大怒，要撵茜雪——茜雪后来果然被撵，第十九回李嬷嬷还拿此事示威：「你们也不必妆狐媚子哄我，打量上次为茶撵茜雪的事，我不知道呢。」第十九回她见袭人回家、宝玉房里有碗糖蒸酥酪，径自吃了，还骂：「你们看袭人不知怎样，那是我手里调理出来的毛丫头，什么阿物儿！」第二十回她拄着拐杖进怡红院骂袭人：「一心只想妆狐媚子哄宝玉，哄的宝玉不理我，听你们的话」——被凤姐笑着拉走：「好妈妈，别生气……我家里烧的滚热的野鸡，快来跟我吃酒去。」第五十七回紫鹃试探宝玉后宝玉疯魔，李嬷嬷赶来，「呀的一声便搂着放声大哭」，「捶床捣枕说：'这可不中用了！我白操了一世心了！'」——这句哭是全书奴婢悲情最痛的一声。李嬷嬷的闹剧底下，是一个被「用完即弃」的乳母的全部委屈：奶大了国公府的命根子，老了连一碗酥酪都成了罪过。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "倚老卖老——「我的血变的奶」",
+        "fact_type": "canonical_text_fact",
+        "description": "李嬷嬷的每一次闹都搬出同一张王牌：「我的血变的奶，吃的长这么大。」奶娘的名分是她的终身财产，她靠它吃酥酪、骂袭人、闯怡红院——倚老卖老的姿态背后，是一个失权者的最后筹码。"
+      },
+      {
+        "dimension": "怨——对「新人换旧人」的恨",
+        "fact_type": "canonical_text_fact",
+        "description": "李嬷嬷对袭人的恨是全书最典型的「旧权对新宠」之恨：袭人是她「手里调理出来的毛丫头」，如今却「妆狐媚子哄宝玉」，哄得宝玉不理她。她的骂不是对袭人，是对整个「奶娘失位」的秩序。"
+      },
+      {
+        "dimension": "悲——「我白操了一世心了」",
+        "fact_type": "canonical_text_fact",
+        "description": "第五十七回宝玉疯魔，李嬷嬷哭得比谁都真：「这可不中用了！我白操了一世心了！」——她的闹与她的爱是一体两面：这个被嫌弃的老奶娘，是全书最在乎宝玉死活的人之一。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_li_momo_wine_ch8",
+        "title": "拦阻宝玉吃酒、喝枫露茶引发摔杯风波（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_li_momo_su_lao_ch19",
+        "title": "吃糖蒸酥酪、骂袭人「什么阿物儿」（第十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_li_momo_scold_ch20",
+        "title": "骂袭人「妆狐媚子哄宝玉」，被凤姐拉走（第二十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_li_momo_cry_ch57",
+        "title": "宝玉疯魔，哭喊「我白操了一世心」（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch8_li_momo_wine",
+        "quote": "（李嬷嬷道）「不中用！当着老太太、太太，那怕你吃一坛呢。想那日我眼错不见一会，不知是那一个没调教的，只图讨你的好儿，不管别人死活，给了你一口酒吃，葬送的我挨了两日骂。」……（又道）「你可仔细，老爷今儿在家，堤防问你的书！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回。奶娘拦酒的名场面——「老爷今儿在家」是全书写父权恐惧最日常的一笔。"
+      },
+      {
+        "source_id": "source_ch19_li_momo_su_lao",
+        "quote": "（李嬷嬷）「我不信他这样坏了。别说我吃了一碗牛奶，就是再比这个值钱的，也是应该的。……你们看袭人不知怎样，那是我手里调理出来的毛丫头，什么阿物儿！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十九回。糖蒸酥酪之争——奶娘的「应该」与丫鬟的「规矩」对撞，「什么阿物儿」五字传神。"
+      },
+      {
+        "source_id": "source_ch20_li_momo_scold",
+        "quote": "（李嬷嬷骂袭人）「……一心只想妆狐媚子哄宝玉，哄的宝玉不理我，听你们的话。……你们也不必妆狐媚子哄我，打量上次为茶撵茜雪的事，我不知道呢。」……（凤姐）「好妈妈，别生气……我家里烧的滚热的野鸡，快来跟我吃酒去。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十回。「妆狐媚子」——李嬷嬷对袭人的经典判决；凤姐的「野鸡」调虎离山，是全书最漂亮的劝架。"
+      },
+      {
+        "source_id": "source_ch57_li_momo_cry",
+        "quote": "（李嬷嬷）「呀」的一声便搂着放声大哭起来……捶床捣枕说：「这可不中用了！我白操了一世心了！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回。宝玉疯魔，全府大哭——奶娘的哭声最真：「我白操了一世心」是奴婢对主子的爱最痛的表达。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「嬷嬷」——乳母的称谓，「李」为其姓",
+      "detail": "「嬷嬷」是北方（含满语影响）对奶娘、老妇的通称，《红楼梦》以「嬷嬷」称乳母：宝玉的奶娘李嬷嬷、贾琏的奶娘赵嬷嬷、黛玉的奶娘王嬷嬷——乳母无正名，只冠夫姓/本姓加「嬷嬷」，其名字被「奶」的职能替代，身份全系于所奶的主子。李嬷嬷的名分自述「我的血变的奶，吃的长这么大」，正是这个称谓的注脚：嬷嬷的全部价值，都在那一口奶里；奶尽之日，就是名分贬值之时——她的悲剧就藏在这个职业称谓里。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；宝玉奶娘（乳母），约四十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_li_momo_wine_ch8",
+      "title": "拦酒与枫露茶——茜雪之撵的导火索",
+      "event_level": "major",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家（梨香院）与怡红院",
+        "specific": "薛姨妈留宝玉吃酒，李嬷嬷拦阻，以「老爷今儿在家」吓住宝玉，又自喝了几杯。宝玉回房，发现早起沏的枫露茶被李嬷嬷喝了，怒摔茶杯：「如今我又吃不着奶了，白白的养着祖宗作什么！撵了出去，大家干净！」并迁怒茜雪，要撵她——茜雪后来果然被撵。"
+      },
+      "summary": {
+        "short": "第八回是李嬷嬷与宝玉关系的转折点：她拦酒是「管」，喝枫露茶是「僭」，宝玉摔杯是「厌」。一句「如今我又吃不着奶了」撕破奶娘神话——名分与感情都随断奶而终结，剩下的只有「撵了出去，大家干净」的残酷。",
+        "meaning": [
+          "「老爷今儿在家」——奶娘用父权管束宝玉，全书父权恐惧的第一次亮相",
+          "枫露茶事件——一碗茶的僭越，引爆宝玉对奶娘的「断奶式」反叛",
+          "茜雪之撵的导火索——李嬷嬷喝了茶，茜雪背了锅"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "「断奶」的政治",
+          "content": "李嬷嬷的失势是全书奴婢政治的第一课：奶娘的价值绑定在「奶」上，断奶即失权。宝玉那句「白白的养着祖宗作什么」与她的「我的血变的奶」互为镜像——主仆双方都清楚这层关系的本质：一场以乳汁结算的交易。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_momo",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qianxue",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_li_momo_su_lao_ch19",
+      "title": "吃糖蒸酥酪，骂袭人「什么阿物儿」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 19,
+        "title": "情切切良宵花解语 意绵绵静日玉生香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "袭人回家省亲，宝玉给她留了一碗糖蒸酥酪。李嬷嬷进房看见，丫头们说那是给袭人留的，她偏要吃：「别说我吃了一碗牛奶，就是再比这个值钱的，也是应该的。」吃完还骂：「你们看袭人不知怎样，那是我手里调理出来的毛丫头，什么阿物儿！」"
+      },
+      "summary": {
+        "short": "第十九回的酥酪是李嬷嬷失势的量杯：一碗留给袭人的牛奶，比她的奶娘名分还重。她吃下的是酥酪，咽下的是「我竟然不如一个毛丫头」的全部委屈。",
+        "meaning": [
+          "酥酪之争——宝玉的偏心即判决：留给袭人的，比给奶娘的「应该」更优先",
+          "「什么阿物儿」——她骂的是袭人，痛的是自己「调理出来」的成果反噬",
+          "丫头们劝她别吃——奶娘的威严已经压不住一碗酥酪"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "吃的政治",
+          "content": "李嬷嬷吃酥酪不是馋，是争：她争的是「奶娘的应该」——过去她吃的「应该」是整个怡红院的供奉，现在只剩一碗牛奶还要看袭人的面子。曹雪芹用「吃」写透了奴婢世界里名分的通胀与贬值。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_momo",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_li_momo_scold_ch20",
+      "title": "骂袭人「妆狐媚子哄宝玉」，被凤姐拉走",
+      "event_level": "major",
+      "chapter": {
+        "number": 20,
+        "title": "王熙凤正言弹妒意 林黛玉俏语谑娇音",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "袭人因染病未起身招呼，李嬷嬷拄拐进房大骂：「忘了本的小娼妇……一心只想妆狐媚子哄宝玉，哄的宝玉不理我，听你们的话。」又翻出茜雪被撵的旧账：「打量上次为茶撵茜雪的事，我不知道呢。」宝玉替袭人分辩，凤姐赶来笑道：「好妈妈，别生气……我家里烧的滚热的野鸡，快来跟我吃酒去。」半拉半劝把她弄走了。"
+      },
+      "summary": {
+        "short": "第二十回是李嬷嬷的总爆发：新账（袭人不理她）旧账（茜雪被撵）一起翻，骂得满院皆闻。凤姐的「滚热的野鸡」一出手就把她架走了——全书最漂亮的劝架术，恰好说明李嬷嬷的闹从来不在「理」上，只在「气」上。",
+        "meaning": [
+          "「妆狐媚子」——奶娘视角的判决：丫鬟夺宠即狐媚，与王夫人骂晴雯同一套话语",
+          "翻茜雪旧账——她自觉是「茶案」的胜利者，殊不知自己正是导火索",
+          "凤姐拉走——以酒食消气，以面子收场：她的闹从来无解，只有转移"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "「狐媚子」话语的权力谱系",
+          "content": "李嬷嬷骂袭人「妆狐媚子」，与王夫人骂晴雯「狐狸精」、王善保家的告晴雯同属一套「狐媚话语」——奴婢世界里，得宠者必被骂作狐媚。李嬷嬷自己曾是得宠者（奶娘），失宠后立刻学会了这套话——权力的语言，从来是谁失势谁捡起。"
+        },
+        {
+          "type": "character",
+          "title": "凤姐的劝架艺术",
+          "content": "凤姐拉李嬷嬷是全书人情世故的教科书：不评理、不训斥，只给面子和野鸡。她太懂这类老人——她们要的不是公道，是「被当回事」。这层智慧反衬出李嬷嬷的可悲：她的全部愤怒，换不来一句「你受委屈了」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_momo",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qianxue",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_li_momo_cry_ch57",
+      "title": "宝玉疯魔，哭喊「我白操了一世心」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "紫鹃说「林妹妹要回苏州去」试探宝玉，宝玉急痛迷心，呆病发作，人事不省。李嬷嬷赶来，先掐人中，见无反应，「呀」的一声搂着放声大哭，捶床捣枕：「这可不中用了！我白操了一世心了！」后紫鹃赶来解释，宝玉抓住紫鹃不放，真相方白。"
+      },
+      "summary": {
+        "short": "第五十七回宝玉疯魔，满院哭声里李嬷嬷的最响：「我白操了一世心了！」——这个被宝玉嫌厌的老奶娘，在他的生死关头哭出了全书奴婢之爱的最痛一声。她的闹与她的爱，此刻终于和解。",
+        "meaning": [
+          "「白操了一世心」——奶娘的一生全押在宝玉身上，他一倒，她的一生就空了",
+          "掐人中、放声大哭——老嬷嬷的土办法与真感情",
+          "与贾母的「谁当是谁的痛」同回并置——长辈之痛各有私心，奶娘的私心最纯"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "闹剧背后的爱",
+          "content": "李嬷嬷前三次出场都是闹剧（拦酒、吃酥酪、骂袭人），第五十七回的一声哭把闹剧翻成了悲剧——曹雪芹用这个转折告诉读者：她的闹从来是爱的变形。奶娘的爱没处安放，只好变成长长的抱怨与短短的哭。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_momo",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zijuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_li_momo_jia_baoyu",
+      "from": "character_li_momo",
+      "to": "character_jia_baoyu",
+      "type": "乳母（恩与怨）",
+      "nature": [
+        "family",
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "李嬷嬷奶大宝玉，却从恩人变成「祖宗」——宝玉嫌她（「白白的养着祖宗作什么」），她也怨他（「吃不着奶了，把我丢在一旁」）。这对乳母与奶儿的关系是全书奴婢政治的典型：恩义与权力都随断奶终结，剩下的只有互相嫌弃。可第五十七回宝玉疯魔，哭得最真的人还是她。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "哺育",
+          "chapter": 8,
+          "description": "「我的血变的奶，吃的长这么大」。"
+        },
+        {
+          "stage": 2,
+          "title": "失势",
+          "chapter": 19,
+          "description": "酥酪、枫露茶之争，宝玉嫌她「养着祖宗」。"
+        },
+        {
+          "stage": 3,
+          "title": "大哭",
+          "chapter": 57,
+          "description": "宝玉疯魔，李嬷嬷哭「白操了一世心」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_li_momo_xiren",
+      "from": "character_li_momo",
+      "to": "character_xiren",
+      "type": "旧主与新宠（冲突）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "袭人是李嬷嬷「手里调理出来的毛丫头」，如今却夺了她的位：酥酪留给袭人、宝玉只听袭人的话。李嬷嬷骂她「什么阿物儿」「妆狐媚子哄宝玉」，袭人始终忍让。这对「旧主新宠」的矛盾，是怡红院权力交替的缩影。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "吃酥酪",
+          "chapter": 19,
+          "description": "李嬷嬷吃袭人的酥酪，骂「什么阿物儿」。"
+        },
+        {
+          "stage": 2,
+          "title": "骂狐媚子",
+          "chapter": 20,
+          "description": "李嬷嬷骂袭人「妆狐媚子哄宝玉」，被凤姐拉走。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_li_momo_qianxue",
+      "from": "character_li_momo",
+      "to": "character_qianxue",
+      "type": "间接加害者与受害者（茶案）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "茜雪之撵的账，一半要算在李嬷嬷头上：她喝了宝玉的枫露茶，宝玉之怒冲着茜雪发，「为茶撵茜雪」——茜雪成了奶娘与奶儿斗争的牺牲品。李嬷嬷事后还拿此事示威（「打量上次为茶撵茜雪的事，我不知道呢」），可见她对茜雪毫无愧意。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "喝枫露茶",
+          "chapter": 8,
+          "description": "李嬷嬷喝掉宝玉的枫露茶，宝玉摔杯要撵茜雪。"
+        },
+        {
+          "stage": 2,
+          "title": "翻旧账",
+          "chapter": 20,
+          "description": "李嬷嬷以茜雪被撵之事示威。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_li_momo_wang_xifeng",
+      "from": "character_li_momo",
+      "to": "character_wang_xifeng",
+      "type": "被劝解者（凤姐的圆场术）",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "第二十回李嬷嬷大闹怡红院，无人能劝，凤姐一出面，几句好话加一只「滚热的野鸡」就把她拉走了。凤姐懂这类老仆：不要公道，只要面子。这场「野鸡外交」是全书最经典的劝架场面，也写尽李嬷嬷的可悲——她的愤怒值不值一只野鸡，作者没说，读者自明。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "拉走",
+          "chapter": 20,
+          "description": "凤姐以「滚热的野鸡」把李嬷嬷劝离怡红院。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_li_momo_li_gui",
+      "from": "character_li_momo",
+      "to": "character_li_gui",
+      "type": "母子（奶娘之子随侍）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "李贵是李嬷嬷的儿子，随宝玉上学当跟班。奶娘一门两代都挂在宝玉身上：娘奶大了他，儿子伺候着他——奴婢家族的命运与主子深度绑定，李嬷嬷的「白操一世心」里，也有儿子这辈子的分量。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "随侍",
+          "chapter": 9,
+          "description": "李贵随宝玉上学，管束跟班。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_li_momo_crisis",
+      "title": "李嬷嬷大闹怡红院——「奶娘危机」的本质是什么？",
+      "slug": "what-is-the-essence-of-the-wet-nurse-crisis",
+      "question_type": "character_analysis",
+      "importance_weight": 66,
+      "heat_weight": 60,
+      "neutral_overview": "李嬷嬷吃酥酪、骂袭人、翻茜雪旧账——她的闹被写成喜剧，但这闹剧底下是什么？",
+      "viewpoint_ids": [
+        "vp_li_momo_power",
+        "vp_li_momo_class"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_li_momo_power",
+          "title": "权力失落论：奶娘的地位靠「奶」维持，断奶即失权",
+          "summary": "李嬷嬷的权力全部来自「奶」：奶着宝玉时，她管吃管喝有实权；宝玉一长大，「吃不着奶了」，她的权力瞬间归零——袭人取代了她的位置。她对袭人的恨本质是权力交接的阵痛：旧权（乳母监护权）与新宠（贴身丫鬟）的零和博弈。她的闹不是胡搅蛮缠，是一个被制度辞退的管理者的最后挣扎。",
+          "evidence": [
+            "「吃不着奶了，把我丢在一旁」——她自己点破权力来源",
+            "她对袭人的恨集中在「宝玉不理我，听你们的话」——话语权转移",
+            "拦酒、喝茶本是她的旧权范围，如今样样成罪"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_li_momo_class",
+          "title": "阶级悲情论：被用完即弃的奴婢一生",
+          "summary": "李嬷嬷的悲剧是阶级性的：她奶大了国公府的命根子，付出的是一生的青春与乳汁，回报却随断奶清零——「白白的养着祖宗作什么」六个字，从主子嘴里说出时，她的全部贡献已被宣布作废。她的闹是可悲的：一个奴婢争取「奶娘该有的体面」，而这个体面从来不在制度保障里。曹雪芹借她写奴婢世界的残酷：价值即使用价值，用完即弃。",
+          "evidence": [
+            "「我的血变的奶，吃的长这么大」——全部付出即全部价值",
+            "一碗酥酪都要看袭人的面子——体面的贬值",
+            "第五十七回「白操了一世心」的哭——一生劳绩的自我总结"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_li_momo_qianxue",
+      "title": "茜雪之撵，李嬷嬷该负多大责任？",
+      "slug": "how-much-is-li-momo-to-blame-for-qianxue",
+      "question_type": "theme_analysis",
+      "importance_weight": 62,
+      "heat_weight": 66,
+      "neutral_overview": "第八回李嬷嬷喝掉枫露茶，宝玉摔杯大怒要撵茜雪——茜雪后来果然被撵（第十九、二十回侧面交代）。谁该为茜雪之撵负责？",
+      "viewpoint_ids": [
+        "vp_li_momo_qianxue_trigger",
+        "vp_li_momo_qianxue_system"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_li_momo_qianxue_trigger",
+          "title": "导火索论：她喝了茶，茜雪背了锅",
+          "summary": "因果链清晰：李嬷嬷喝枫露茶→宝玉怒→迁怒茜雪→茜雪被撵。茜雪是无辜的——茶不是她给的，是李嬷嬷要「尝尝」；她挨撵，纯粹因为李嬷嬷的僭越引爆了宝玉的怒火。更可恨的是李嬷嬷事后还拿茜雪被撵示威（「打量上次为茶撵茜雪的事，我不知道呢」），毫无愧意——她以别人的血为自己的威风。",
+          "evidence": [
+            "第八回茜雪答「那会子李奶奶来了，他要尝尝，就给他吃了」",
+            "宝玉摔杯之怒的直接对象本是李嬷嬷，茜雪只是在场",
+            "第二十回李嬷嬷翻茜雪旧账的得意口吻"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_li_momo_qianxue_system",
+          "title": "制度论：撵茜雪的是主子的任性，不是奶娘的茶",
+          "summary": "真正动手撵茜雪的是宝玉/贾府的主子权，李嬷嬷只是导火索——没有枫露茶，也会有别的由头。茜雪之撵的本质是「主子的任性+丫鬟的无辜」：奴婢的命运系于主子一念之间，这是全书奴婢悲剧的总纲。且脂批提示茜雪后文在狱神庙慰宝玉（「茜雪至狱神庙方呈正文」），正见曹雪芹对茜雪的惋惜——撵她的账，记在制度与任性的头上，比记在一个老奶娘头上更公道。",
+          "evidence": [
+            "撵人的权力与决定都属于主子，李嬷嬷无此权",
+            "脂批「茜雪至狱神庙方呈正文」——茜雪被撵后有重要后文",
+            "全书奴婢「因小过被撵」的普遍性（金钏、晴雯、四儿等）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch8_li_momo_fenglu",
+      "quote": "（茜雪道）「我原是留着的，那会子李奶奶来了，他要尝尝，就给他吃了。」……（宝玉）将手中茶杯只顺手往地下一掷，豁啷一声，打了个齑粉。……（宝玉道）「他是你那一门子的奶奶？……如今我又吃不着奶了，白白的养着祖宗作什么！撵了出去，大家干净！」",
+      "fact_type": "canonical_text_fact",
+      "note": "第八回。枫露茶与摔杯——「撵了出去，大家干净」八年后在茜雪身上应验。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_li_momo_scholar",
+      "title": "李嬷嬷与《红楼梦》的「奶母群像」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 2004,
+      "source_title": "多项人物专题研究",
+      "description": "学者将李嬷嬷置于《红楼梦》「奶母群像」中考察：李嬷嬷（宝玉奶娘）、赵嬷嬷（贾琏奶娘）、王嬷嬷（黛玉奶娘）等构成一个特殊阶层——「奶」给了她们超乎奴婢的名分，也给了她们随主子长大而必然贬值的命运。李嬷嬷是这群像中着墨最重的一个：曹雪芹以喜剧写她的闹（拦酒、吃酥酪、骂袭人），以悲剧写她的哭（「我白操了一世心」），两副笔墨合成一个完整的奴婢悲剧——名分是虚的，价值是实的；价值尽时，名分即笑柄。其与茜雪之撵的关联，也是学界讨论奴婢命运「偶然性」的常引案例。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 5,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 24,
+      "text_inference": 4,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

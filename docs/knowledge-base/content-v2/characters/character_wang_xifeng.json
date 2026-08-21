@@ -1,0 +1,1325 @@
+{
+  "character": {
+    "id": "character_wang_xifeng",
+    "name": "王熙凤",
+    "slug": "wang-xifeng",
+    "aliases": [
+      "凤辣子",
+      "琏二奶奶",
+      "凤丫头",
+      "凤哥儿",
+      "凤姐",
+      "泼皮破落户",
+      "末世凡鸟"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "core",
+    "content_level": "L3",
+    "identity": {
+      "family": "贾琏之妻；王夫人之内侄女（金陵王家之女）。荣国府长房儿媳（贾赦之媳、邢夫人之媳）。",
+      "position": "荣国府实际管家人（代理王夫人理家）。大权在握的当家奶奶。",
+      "origin": "金陵人氏，出身「东海缺少白玉床，龙王请来金陵王」的王家。",
+      "generation": "贾府第四代（贾琏之妻）"
+    },
+    "tags": [
+      "精明强干",
+      "心狠手辣",
+      "弄权敛财",
+      "凤辣子",
+      "末世凡鸟",
+      "机关算尽",
+      "管理天才",
+      "先声夺人",
+      "哭向金陵"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一。王家之女，贾琏之妻，荣国府实际管家人。精明强干、心狠手辣、贪财弄权。判词「一从二令三人木，哭向金陵事更哀」暗示其最终被休弃。",
+      "long": "王熙凤为金陵王家之女、王夫人之内侄女，嫁与荣国府贾赦之子贾琏。容貌「一双丹凤三角眼，两弯柳叶吊梢眉。身量苗条，体格风骚。粉面含春威不露，丹唇未启笑先闻」。其出场堪称全书最经典的「先声夺人」描写（第三回）。她是荣国府的实际管家人——以「借刀杀人」「坐山观虎斗」等权术手段将贾府内外权力牢牢攥在手中。精明强干到能同时操办秦可卿丧事（协理宁国府）和荣国府日常事务。然其贪婪残暴亦罕有其匹——弄权铁槛寺害死张金哥夫妇、毒设相思局害死贾瑞、借刀杀人逼死尤二姐。判词「凡鸟偏从末世来，都知爱慕此生才。一从二令三人木，哭向金陵事更哀」——「凡鸟」合为「凤」，「一从二令三人木」是全书最著名的字谜（主流解读为贾琏对其「从—冷—休」的三阶段态度），预言其最终被贾琏休弃、哭归金陵的悲惨结局。后四十回（gaoe）写其失势、病亡及死前托孤巧姐于刘姥姥。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "治家天才与权力狂人",
+        "fact_type": "canonical_text_fact",
+        "description": "凤姐拥有非凡的行政管理和多任务处理能力——协理宁国府时同时接手治丧、日常账务、人事管理、矛盾调解等多项繁难事务而井井有条。但她将管理才能用在了错误的方向：不是兴利除弊，而是弄权敛财。她的「治家」本质上是「治人」。"
+      },
+      {
+        "dimension": "心狠手辣——「机关算尽太聪明」",
+        "fact_type": "canonical_text_fact",
+        "description": "凤姐的残忍令人胆寒：害死贾瑞（「毒设相思局」）、逼死尤二姐（借秋桐之手、纵容庸医下药）、弄权铁槛寺害死一对未婚夫妻。她的恶不是冲动而是精心算计——每一步都精确地服务于自身利益。「机关算尽太聪明，反误了卿卿性命」。"
+      },
+      {
+        "dimension": "喜剧天才与悲剧灵魂",
+        "fact_type": "canonical_text_fact",
+        "description": "凤姐是全书中最具喜剧天份的人物——她的语言天赋无人能及：调侃刘姥姥、打趣黛玉、逗笑贾母。但她的喜剧表演之下藏着深沉的悲剧：贾琏偷娶尤二姐、自己终生无子（仅一女巧姐）、最终被夫家休弃。"
+      },
+      {
+        "dimension": "末世凡鸟——才不逢时",
+        "fact_type": "canonical_text_fact",
+        "description": "判词「凡鸟偏从末世来」点明凤姐悲剧的本质：她的才干若生在贾府鼎盛之世足以成为中兴功臣，然她生于末世——一个无论如何也无法被挽救的衰败时代。她的精明强干最终只是在加速贾府的灭亡而非拯救它。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xifeng_debut_ch3",
+        "title": "凤姐出场——先声夺人（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xifeng_jiarui_ch12",
+        "title": "毒设相思局害贾瑞（第十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xifeng_co_manage_ch13",
+        "title": "协理宁国府（第十三至十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xifeng_iron_threshold_ch15",
+        "title": "弄权铁槛寺（第十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xifeng_qin_keqing_meng_ch13",
+        "title": "秦可卿托梦（第十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_xifeng_birthday_ch44",
+        "title": "变生不测凤姐泼醋（第四十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_xifeng_lame_visit_ch6",
+        "title": "刘姥姥一进荣国府——施恩（第六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_qiaojie_name_ch42",
+        "title": "刘姥姥为巧姐取名（第四十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 9,
+        "event_id": "event_xifeng_usury_ch72",
+        "title": "放高利贷及账目危机（第七十二回等）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 10,
+        "event_id": "event_xifeng_youerjie_ch68_69",
+        "title": "酸凤姐大闹宁国府/借刀杀人害尤二姐（第六十八至六十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 11,
+        "event_id": "event_xifeng_miscarry_ch55",
+        "title": "小产病倒——权力交接（第五十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 12,
+        "event_id": "event_house_search_ch74",
+        "title": "抄检大观园（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 13,
+        "event_id": "event_xifeng_sima_ch114",
+        "title": "王熙凤历幻返金陵（第一百一十四回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_xifeng_judgment",
+        "quote": "凡鸟偏从末世来，都知爱慕此生才。一从二令三人木，哭向金陵事更哀。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回凤姐判词。「凡鸟」合为「凤」。「一从二令三人木」主流解读为「从、冷（令谐音）、休（人木）」——贾琏对凤姐的三阶段态度。"
+      },
+      {
+        "source_id": "source_ch05_xifeng_song",
+        "quote": "[聪明累]机关算尽太聪明，反算了卿卿性命。生前心已碎，死后性空灵。家富人宁，终有个家亡人散各奔腾。枉费了，意悬悬半世心；好一似，荡悠悠三更梦。忽喇喇似大厦倾，昏惨惨似灯将尽。呀！一场欢喜忽悲辛。叹人世，终难定！",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回凤姐之曲《聪明累》——「机关算尽太聪明，反误了卿卿性命」成为凤姐一生的最精炼判词。"
+      },
+      {
+        "source_id": "source_ch03_xifeng_debut",
+        "quote": "一语未了，只听后院中有人笑声，说：「我来迟了，不曾迎接远客！」……一双丹凤三角眼，两弯柳叶吊梢眉。身量苗条，体格风骚。粉面含春威不露，丹唇未启笑先闻。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三回凤姐出场。「丹唇未启笑先闻」——全书最经典的人物出场描写。"
+      },
+      {
+        "source_id": "source_ch15_iron",
+        "quote": "凤姐听了这话，便发了兴头，说道：「你是素日知道我的，从来不信什么是阴司地狱报应的。凭是什么事，我说要行就行。你叫他拿三千银子来，我就替他出这口气。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十五回凤姐弄权铁槛寺。「从来不信什么是阴司地狱报应」——全书最冷酷的自我声明。"
+      },
+      {
+        "source_id": "source_zhizhi_xifeng",
+        "quote": "[脂批]评凤姐「治世之能臣，乱世之奸雄」——与曹操相提并论。",
+        "fact_type": "scholarly_viewpoint",
+        "note": "脂砚斋对凤姐的评价，指出其才能与奸雄一体两面的本质。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "学名王熙凤，「自幼假充男儿教养」（第三回原文）",
+      "detail": "凤为雄鸟（凤雄凰雌），男儿名；第五十四回《凤求鸾》男主角亦名王熙凤（作者有意重名）；判词画「一只雌凤落在冰山之上」；「熙」字，《说文》「燥也」，暴晒之意；「天下熙熙皆为利来」——熙谐利，王通亡。多重寓意：男儿性格、贪利之祸、无子悲剧（雄鸟不生）。判词「凡鸟偏从末世来」——「凡鸟」合为「凤」字（拆字）",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "「熙＝利、王＝亡」拆解之争",
+          "content": "「熙」谐「利」、「王」通「亡」的拆解属推测性解读（文本推断），非原文明言",
+          "proponent": "红学研究者"
+        },
+        {
+          "title": "「一从二令三人木」拆字无定论",
+          "content": "凤姐判词「一从二令三人木」的拆字解法（主流解读为「从—冷—休」）至今无定论",
+          "proponent": "红学界"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴：贾琏娶王熙凤已二年",
+          "age": "出嫁约2年（约十七八岁嫁）"
+        },
+        {
+          "chapter": 6,
+          "evidence": "刘姥姥见凤姐「不过二十岁上下」（周瑞家的介绍语境）",
+          "age": "约20岁"
+        },
+        {
+          "chapter": 43,
+          "evidence": "九月初二凤姐生日",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约19-20岁（第6回）",
+        "story_end": "约27-28岁（前八十回末）",
+        "death_age": "未见明文（红学推算约31岁，据通灵纪年）"
+      },
+      "conclusion": "第6回刘姥姥眼中「不过二十岁上下」为明证；脂批通灵纪年推算前八十回末约27岁。",
+      "controversies": [
+        {
+          "title": "第49回被算入「皆不过十五六七岁」",
+          "detail": "第49回「叙起年庚，除李纨年纪最长……皆不过十五六七岁」把凤姐算入少女之列，明显失误；程高本改为「李纨年纪最长，凤姐次之」。",
+          "fact_type": "disputed_version"
+        },
+        {
+          "title": "第54回「与贾珍从小儿一处淘气」",
+          "detail": "凤姐比贾珍小十五岁上下，二人「从小儿一处淘气了这么大」年龄不合。曹金钟考论认为这是凤姐夸张之语，为塑造其爽利形象。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "凤辣子",
+      "type": "昵称",
+      "context": "贾母对凤姐的昵称——「凤辣子」道出其泼辣爽利",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "琏二奶奶",
+      "type": "家族称呼",
+      "context": "因夫贾琏行二，贾府上下称「琏二奶奶」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "凤丫头",
+      "type": "长辈昵称",
+      "context": "贾母、王夫人等长辈对凤姐的昵称",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "凤哥儿",
+      "type": "昵称",
+      "context": "长辈及同辈对凤姐的亲切称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "泼皮破落户",
+      "type": "戏谑绰号",
+      "context": "贾母打趣凤姐的戏称——「他是我们这里有名的一个泼皮破落户儿」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "末世凡鸟",
+      "type": "判词代称",
+      "context": "判词「凡鸟偏从末世来」——「凡鸟」合字为「凤」",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xifeng_debut_ch3",
+      "title": "凤姐出场——先声夺人",
+      "event_level": "major",
+      "chapter": {
+        "number": 3,
+        "title": "贾雨村夤缘复旧职 林黛玉抛父进京都",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府贾母正房",
+        "specific": "黛玉初入贾府正在拜见贾母和众人，忽听后院传来笑声——「我来迟了，不曾迎接远客」。"
+      },
+      "summary": {
+        "short": "黛玉正在贾母房中与众人厮见，只听得后院中有人笑声传来说「我来迟了，不曾迎接远客」。凤姐在一群媳妇丫鬟的簇拥下盛装出现，一面亲热地问候黛玉，一面「用帕拭泪」悲叹黛玉母亲早逝，一面对贾母百般讨好。",
+        "meaning": [
+          "全书最经典的人物出场——以「笑声」替代「现身」，以「缺席」制造「在场」的效果",
+          "凤姐一句话完成三重表演：问候黛玉（对外）、悲叹贾敏（对内）、讨好贾母（对上）",
+          "「丹唇未启笑先闻」——凤姐的笑既是她的武器也是她的面具"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "笑声中的权力——出场即权力宣言",
+          "content": "在全场恭肃严整的氛围中，凤姐以笑声打破秩序——这不是无礼，而是权力的展示：她拥有在全场寂静中一个人发笑的特权。她的出场不是「被介绍」，而是「自我介绍」——以笑声宣示她是整个空间中唯一不需要遵守「恭肃」规矩的人。曹雪芹仅用不到二百字就完成了全书最令人难忘的人物登场。"
+        },
+        {
+          "type": "character",
+          "title": "瞬息万变的表演天才",
+          "content": "凤姐出场后短短几分钟内完成了「笑→拭泪→转悲为喜」的三重情绪转换——从问候黛玉的笑，到悲叹贾敏的泪，再到回应贾母的喜。这种情绪切换的速度与自然程度展示了她超凡的表演能力。黛玉的「纳罕」从侧面印证：这是一个不属于常规秩序的人物。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_jiarui_ch12",
+      "title": "毒设相思局——凤姐害贾瑞",
+      "event_level": "major",
+      "chapter": {
+        "number": 12,
+        "title": "王熙凤毒设相思局 贾天祥正照风月鉴",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "贾瑞觊觎凤姐美色，凤姐表面假意周旋，暗中「毒设相思局」——先约他夜等挨冻，再派人捉他讹诈，最后泼粪羞辱。贾瑞羞愤交加一病不起，跛足道人赠「风月宝鉴」救他，但他执迷不悟反照宝鉴正面，最终精尽而亡。",
+        "meaning": [
+          "凤姐「毒设相思局」是她的第一次谋杀——以最阴毒的方式玩弄并毁掉一个觊觎她的人",
+          "贾瑞之死开启了凤姐「手上沾血」的叙事线——此后毒计步步升级",
+          "「风月宝鉴」的插入使此回超越了个人恩怨，成为全书「色即是空」主题的寓言"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤姐之毒——不直接杀而让人「自取灭亡」",
+          "content": "凤姐对付贾瑞的方式极具个性：她本可以直接告诉贾琏或贾母，但她选择了「设计」——让贾瑞在欺骗、羞辱、折磨中一步步走向死亡，而她自己始终「清白无辜」。这种「不沾血」的杀人方式是她犯罪美学的起点，将在尤二姐事件中升级为巅峰。"
+        },
+        {
+          "type": "literary",
+          "title": "风月宝鉴——「色空」主题的寓言",
+          "content": "「风月宝鉴」是本回的核心装置：正面是凤姐的幻象（色），反面是骷髅（空）。贾瑞死于「以色为真」。这个寓言暗示：所有执迷于色相的人都将走向毁灭——包括将来在权力和财富中迷失的贾府诸人。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「风月宝鉴」与《红楼梦》的旧稿",
+          "content": "《红楼梦》第一回提及本书曾名《风月宝鉴》——红学界认为「贾瑞照鉴」一段可能源自早期旧稿《风月宝鉴》，是曹雪芹整合进全书的一个寓言单元。这解释了此回与其他章节在风格上的微妙差异。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lame_daoist",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_rui",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_qin_keqing_meng_ch13",
+      "title": "秦可卿托梦凤姐",
+      "event_level": "minor",
+      "chapter": {
+        "number": 13,
+        "title": "秦可卿死封龙禁尉 王熙凤协理宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "秦可卿临终托梦凤姐，赠言：「三春去后诸芳尽，各自须寻各自门」及「树倒猢狲散」之警，并建议在祖茔附近多置田庄房产以备祭祀供给——这是全书唯一的一次「治家良策」的正面传授。凤姐梦醒即闻可卿死讯。",
+        "meaning": [
+          "秦可卿托梦是全书对贾府命运的第一次明确预言",
+          "「树倒猢狲散」是曹雪芹家史（曹家败落）的家族记忆投影",
+          "可卿的治家建议（祭祀田产制度）凤姐始终未能实施——预言与执行的断裂"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "可卿与凤姐——两个聪明人的对照",
+          "content": "秦可卿与王熙凤是宁荣两府最聪明的两个女人，可卿临终把最重要的治家智慧交给了凤姐——因为只有凤姐有能力执行。但凤姐醒后忙于治丧、弄权、敛财，将可卿的忠告完全抛诸脑后。这个细节暗示了凤姐聪明反被聪明误的根本原因：她有执行的才能，却没有执行的远见。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「树倒猢狲散」——曹家的家族记忆",
+          "content": "脂批指出「树倒猢狲散」是曹雪芹祖父曹寅生前的口头禅——曹寅曾预言曹家必败于子孙骄奢。这一细节证明《红楼梦》与曹雪芹家史之间存在着确凿的记忆传承关系，也是「自传说」的重要论据之一。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_co_manage_ch13",
+      "title": "王熙凤协理宁国府",
+      "event_level": "major",
+      "chapter": {
+        "number": 13,
+        "title": "秦可卿死封龙禁尉 王熙凤协理宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府",
+        "specific": "秦可卿死后，宁国府人手杂乱无人统领。贾珍求凤姐协理治丧，凤姐临危受命，雷厉风行整顿秩序。"
+      },
+      "summary": {
+        "short": "秦可卿死后，宁国府内「着实不成个体统」。贾珍请凤姐协理治丧，凤姐接下宁国府对牌，分派任务、制定规矩、对迟到者「顿时放下脸来」重罚。一时间宁国府秩序焕然——「众人领了去，也都有了投奔」。",
+        "meaning": [
+          "凤姐治家之才的巅峰展示——以一个女性之身管理皇亲级别的丧礼",
+          "「协理宁国府」与「探春兴利除宿弊」形成对照——凤姐用威、探春用理",
+          "然凤姐的治家最终服务于个人权力欲望而非贾府共同体利益"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "管理才能的巅峰与局限",
+          "content": "协理宁国府是全书中展示凤姐管理才能最集中的段落。然而脂批暗示了一个残酷的伏笔——凤姐在这里展现的「治人」才能在日后全部异化为「害人」手段。她的管理艺术建立在一个不可持续的权力基础之上（贾母的宠爱、王夫人的授权），一旦这个权力基础动摇，她的全部才能将反噬自身。"
+        },
+        {
+          "type": "literary",
+          "title": "「杀伐决断」的美学",
+          "content": "凤姐整顿宁国府的场面（迟到者挨打、分工表、点卯簿）具有极高的叙事快感——这是一个「天才现场」：混乱在凤姐手中迅速转化为秩序。曹雪芹以近乎管理学的精确度描写这个过程，使凤姐成为古典文学中第一个「职业经理人」式的女性形象。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_iron_threshold_ch15",
+      "title": "王凤姐弄权铁槛寺",
+      "event_level": "major",
+      "chapter": {
+        "number": 15,
+        "title": "王凤姐弄权铁槛寺 秦鲸卿得趣馒头庵",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "铁槛寺",
+        "specific": "秦可卿送殡途中在铁槛寺停灵。铁槛寺老尼净虚央告凤姐插手张家退婚案——以贾府权势逼迫守备家退婚。凤姐开口索取三千两银子，以贾琏名义修书一封给长安节度使云光。"
+      },
+      "summary": {
+        "short": "老尼净虚央求凤姐插手一桩退婚案。凤姐以三千两银子的价格「弄权」——以贾琏名义修书给长安节度使，逼迫守备家退婚。结果张金哥自缢而死，守备之子亦投河殉情。凤姐「安享了三千两」，两条人命无声无息地成为她敛财的代价。",
+        "meaning": [
+          "凤姐第一次以权谋取非法之财——从此打开了以权敛财的潘多拉魔盒",
+          "「自此凤姐胆识愈壮」——三千两银子与两条人命是她道德底线的拐点",
+          "弄权铁槛寺是凤姐从「治家之才」到「害人之器」的转变标志"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「不信报应」——恶之自由宣言",
+          "content": "「从来不信什么是阴司地狱报应」是凤姐道德观的终极表达。她将自己放置在任何道德约束之外——法律、伦理、宗教、因果报应全部失效——唯一的原则是「利」。这句话也预示了她的结局：正是因为不信报应，她才会毫无顾忌地作恶；也正是因为她作恶太多，最终的报应才更具有毁灭性。"
+        },
+        {
+          "type": "literary",
+          "title": "张金哥案——凤姐罪恶的微型标本",
+          "content": "张金哥与守备之子的爱情悲剧与宝黛爱情形成同构对照：同是被权势拆散的爱情，同是殉情而死。区别在于宝黛是主角（悲剧被详细展开），张金哥只是凤姐敛财记录中的一个数字。这种「大悲剧中的小悲剧」结构强化了全书的主题：在封建权力网络下，爱情悲剧不是个案而是常态。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lao_ni",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jingxu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_birthday_ch44",
+      "title": "变生不测凤姐泼醋",
+      "event_level": "major",
+      "chapter": {
+        "number": 44,
+        "title": "变生不测凤姐泼醋 喜出望外平儿理妆",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "凤姐生日，贾母做主凑份子为其庆生。凤姐酒醉回房，撞见贾琏与鲍二家的偷情，听见二人诅咒她「那阎王老婆死了就好了」并夸奖平儿。凤姐大怒，先打平儿、再打鲍二家的、后与贾琏大闹，甚至闹到贾母面前。鲍二家的羞惧上吊。",
+        "meaning": [
+          "凤姐「泼醋」暴露其婚姻的真相——强大如她，也无法控制丈夫的背叛",
+          "平儿无辜挨打——凤姐在愤怒中的失态暴露出她内心深处的嫉妒与恐惧",
+          "「阎王老婆」——下人对凤姐的真实评价，与「粉面含春」的表象形成残酷对照"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「泼醋」——凤姐最脆弱的时刻",
+          "content": "凤姐在全书几乎永远处于掌控地位，唯独在婚姻中她无法掌控贾琏。鲍二家的与贾琏的对话（「阎王老婆死了就好了」）击中了她的软肋——她可以用权力碾压所有人，却无法阻止丈夫的背叛。这个「强大者的脆弱时刻」使凤姐的形象获得了罕见的深度。"
+        },
+        {
+          "type": "literary",
+          "title": "生日与死亡——喜庆中的谶语",
+          "content": "凤姐的生日以「泼醋大闹」收场——这场闹剧是凤姐婚姻走向崩溃的转折点。更深的谶语在于：鲍二家的上吊后，凤姐以权势压下了人命案。生日的喜庆与人命的消逝形成刺目对照，暗示凤姐的「风光」始终建立在鲜血与尸体之上。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_youerjie_ch68_69",
+      "title": "借刀杀人——凤姐害尤二姐",
+      "event_level": "major",
+      "chapter": {
+        "number": 68,
+        "title": "苦尤娘赚入大观园 酸凤姐大闹宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾琏偷娶尤二姐后，凤姐表面以贤惠之姿将尤二姐接入贾府，暗中布置杀局。"
+      },
+      "summary": {
+        "short": "贾琏在国孝家孝期间偷娶尤二姐。凤姐得知后不动声色，一面以极度「贤惠」的姿态将尤二姐接入贾府（博得众口称赞），一面暗中布置杀局：①唆使尤二姐的前未婚夫张华状告贾琏「国孝家孝期间停妻再娶」；②趁官司之机大闹宁国府；③借秋桐之手对尤二姐百般凌辱；④在尤二姐怀孕后安排庸医开出虎狼之药，打下成形男胎。尤二姐万念俱灰，吞生金自尽。",
+        "meaning": [
+          "凤姐的犯罪手法达到了最高境界——手不沾血，全盘算计，四方获益",
+          "「贤惠」面纱下的「借刀杀人」——对封建妻妾制度的杀戮实录",
+          "尤二姐之死是全书最令人发指的悲剧之一，也是凤姐罪行的巅峰"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤姐的犯罪艺术——杀人不沾血",
+          "content": "凤姐害死尤二姐的操作是全书中最令人不寒而栗的犯罪设计。她不在任何一步「直接」杀人——安排张华告状、导演大闹宁国府、默许秋桐欺凌、安排庸医下药，每一步都是借他人之手。最后尤二姐自杀了，凤姐「用手帕拭泪」——她在每一个旁观者眼里都是「正妻为妾室哭泣」的贤惠形象。法律、道德、人情均无法给她定罪。"
+        },
+        {
+          "type": "literary",
+          "title": "「赚入大观园」——诱捕叙事的巅峰",
+          "content": "凤姐迎接尤二姐入府的一段（「我今儿才得见你……我劝你也不该」的贤惠话术）是全书最精彩的反讽文本：字面上是姐妹情深，实际上每个字都是杀机。「酸凤姐大闹宁国府」一场则是凤姐语言暴力的极致——她以泼妇的方式闹事，以贤妇的身份收场，把贾珍尤氏玩得团团转。"
+        },
+        {
+          "type": "hongxue",
+          "title": "尤二姐案中的阶级维度",
+          "content": "尤二姐之死暴露了封建婚姻制度的吃人本质：一个「二房」的身份使尤二姐失去了所有法律保护——她不能告、不能走、不能反抗。凤姐的「借刀杀人」之所以畅通无阻，是因为制度本身就站在她这边。从制度批判的角度看，凤姐也是制度之恶的执行者。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qiu_tong",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiaojie_name_ch42",
+      "title": "刘姥姥为巧姐取名",
+      "event_level": "minor",
+      "chapter": {
+        "number": 42,
+        "title": "蘅芜君兰言解疑癖 潇湘子雅谑补余香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "凤姐女儿生来体弱多病。刘姥姥二进荣国府时，凤姐请她为女儿取名。刘姥姥问明生于七月初七（乞巧节），取名「巧哥儿」——「以毒攻毒，以火攻火」，并说「姑奶奶定要依我这名字，他必长命百岁」。",
+        "meaning": [
+          "凤姐对刘姥姥的施恩（第六回给银）在这里获得了「名字」的回报",
+          "「巧」字成为巧姐命运的关键——后四十回写巧姐遇难时恰得刘姥姥相救（遇难成祥）",
+          "凤姐一生不信报应，唯独对女儿的这份「迷信」成了她的软肋"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤姐唯一的软肋——母亲的身份",
+          "content": "不信阴司报应的凤姐，在女儿的健康问题上却宁可信其有——请刘姥姥取名。这一细节揭示了凤姐人性中最柔软的部分：她对全世界的狠与对女儿的爱形成极端的反差。这个反差也使她最终「托孤」刘姥姥的结局具有了情感的基础。"
+        },
+        {
+          "type": "literary",
+          "title": "「巧」字的伏笔体系",
+          "content": "「巧姐」之「巧」构成了一个完整的伏笔系统：生于七月七日（乞巧）、刘姥姥取名（巧哥儿）、判词「巧得遇恩人」、后四十回被救于烟花巷（刘姥姥出手）。「巧」既是命运的偶然（侥幸），也是善恶报应的必然——凤姐一生唯一的一念之善，救了女儿的命。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_usury_ch72",
+      "title": "放高利贷——权力的变现",
+      "event_level": "minor",
+      "chapter": {
+        "number": 72,
+        "title": "王熙凤恃强羞说病 来旺妇倚势霸成亲",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "凤姐长期挪用贾府公款放高利贷，月例银子也被她拿去生息。第七十二回前后，贾府财政危机逐渐显现——凤姐向鸳鸯借贾母的私房金器去当铺典当，以维持周转。她的私人财富帝国建立在贾府的公共资产之上。",
+        "meaning": [
+          "凤姐的敛财规模远超表面可见——放贷网络遍及贾府内外",
+          "挪用月例银子是对贾府基层（丫鬟仆役）的直接剥削",
+          "典当贾母金器标志着贾府财政已经枯竭到需要拆东墙补西墙的程度"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤姐的「私人帝国」与贾府的「公共崩溃」",
+          "content": "凤姐的经济犯罪具有双重破坏性：一是直接掏空贾府（放贷利息归她个人），二是破坏贾府的管理信用（月例拖延引发下人不稳）。她是贾府最大的蛀虫，却同时是贾府最不可或缺的管理者——这个悖论正是末世家族的典型结构。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_yuanyang",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_miscarry_ch55",
+      "title": "小产病倒——权力交接",
+      "event_level": "minor",
+      "chapter": {
+        "number": 55,
+        "title": "辱亲女愚妾争闲气 欺幼主刁奴蓄险心",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "凤姐操劳过度小产（失去一个男胎），身体垮下。王夫人命探春、李纨、宝钗三人代理家务。凤姐虽在病中，仍通过平儿遥控指挥，并对探春的理家才能暗中赞叹——「好个三姑娘，我说她不错」。",
+        "meaning": [
+          "小产是凤姐身体与权力双重衰落的起点",
+          "探春理家使凤姐第一次面对「替代者」的威胁",
+          "凤姐对探春的欣赏中掺杂着忌惮——「她如今要作法开端，一定是拿我开端」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤姐与探春——两种权力模式的交接",
+          "content": "凤姐病中观察探春理家的一段是全书中最重要的权力对照：凤姐用「威」（威慑+利益），探春用「理」（制度+公心）。凤姐的评价「好个三姑娘」是真心赞赏，「拿我开端」是清醒警觉——她太了解自己的「弊」在哪里，也太了解探春的「利」会指向哪里。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_house_search_ch74",
+      "title": "抄检大观园——凤姐的被动执行",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "绣春囊事件后，王夫人命凤姐带队抄检大观园。凤姐虽知此事不妥（「就这话也说不出口」）却不得不执行。抄检中凤姐多次替丫鬟们说话（如护着紫鹃），但对探春的抗争（怒打王善保家的）只能旁观。抄检导致晴雯、司棋、入画等被逐，大观园元气大伤。",
+        "meaning": [
+          "抄检大观园是贾府内部崩溃的标志性事件——自家人搜自家人",
+          "凤姐在此事件中的角色复杂——她是执行者但不是决策者，甚至对王善保家的有暗中抵制",
+          "抄检的连锁反应（晴雯之死、司棋之死、宝钗搬离、惜春断情）加速了大观园的瓦解"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤姐的两难——制度的执行者与制度的受害者",
+          "content": "抄检大观园中凤姐的角色极具复杂性：她明知抄检荒谬（作为管理者她最清楚这种搜查解决不了任何问题），却因王夫人之命不得不执行；她执行时又暗中放水（护紫鹃、讥王善保家的）。凤姐在这个事件中的「被动」预示了她权力的衰退——她已从「说了算的人」变成「听命行事的人」。"
+        },
+        {
+          "type": "literary",
+          "title": "探春的一掌与凤姐的旁观",
+          "content": "探春怒打王善保家的时，凤姐选择了旁观——这一掌实际上也打在凤姐的「抄检政策」上。凤姐与探春在此刻形成了微妙的同盟：凤姐乐见王善保家的受辱（那是邢夫人的人），而探春则代表了对抄检本身的反抗。但二人的根本区别在于：探春敢公开反抗，凤姐只能暗地抵制。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_shanbao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_siqi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zijuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ru_hua",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xifeng_sima_ch114",
+      "title": "王熙凤历幻返金陵",
+      "event_level": "major",
+      "chapter": {
+        "number": 114,
+        "title": "王熙凤历幻返金陵 甄应嘉蒙恩还玉阙",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "summary": {
+        "short": "贾府被抄家后，凤姐失势、被休、病入膏肓。她在病中梦见尤二姐、贾瑞等冤魂索命，最终在贫病恐惧中死去。临终前将女儿巧姐托付给刘姥姥。灵柩被送回金陵——「哭向金陵事更哀」的判词在此应验。",
+        "meaning": [
+          "凤姐之死是「机关算尽太聪明，反误了卿卿性命」的最终兑现",
+          "「哭向金陵」——当年威风的琏二奶奶最终以棺椁还乡",
+          "冤魂索命的写法强化了「不信报应者终遭报应」的道德结构"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "从「粉面含春」到「历幻返金陵」——权力生命的完整弧线",
+          "content": "凤姐的死亡过程是她一生权力的逆向重演：从掌控一切（协理宁国府）到被一切抛弃（被休、被抄、病亡）。死前梦见被自己害死的人（尤二姐、贾瑞、张金哥夫妇）——这个细节使她的死亡具有了「清算」的性质。而托孤巧姐给刘姥姥，则是她一生唯一的善念结出的唯一的善果。"
+        },
+        {
+          "type": "hongxue",
+          "title": "凤姐结局的版本争议",
+          "content": "脂批暗示凤姐的原稿结局可能比后四十回更惨烈——有「扫雪拾玉」「狱神庙」等情节残痕（凤姐在狱神庙中与宝玉相见的批语），暗示她可能经历了入狱的过程。后四十回的处理（病亡+托孤）简化了这一过程，但保留了「哭向金陵」的核心结局。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_rui",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_wang_xifeng_ping_er",
+      "from": "character_wang_xifeng",
+      "to": "character_ping_er",
+      "type": "主仆 / 通房丫鬟 / 权力制衡者",
+      "nature": [
+        "master_servant",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "平儿是贾琏的通房丫鬟（妾），但在凤姐的铁腕统治下几乎不能近贾琏之身。平儿是全书中最「完美」的丫鬟——她聪明、温柔、公正、不争宠，是凤姐最信任的人，也是凤姐暴行的唯一制衡者（平儿多次在三言两语间平息凤姐的怒火、保全弱者）。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "绝无仅有的主仆信任",
+          "chapter": 21,
+          "description": "平儿是唯一能在凤姐面前直言不讳的丫鬟。凤姐对所有人都用威，唯有对平儿有「情」。"
+        },
+        {
+          "stage": 2,
+          "title": "平儿挨打——信任的裂痕",
+          "chapter": 44,
+          "description": "凤姐泼醋时打了平儿——凤姐在愤怒中伤害了她唯一的心腹。事后凤姐向平儿赔礼——全书唯一一次凤姐向人道歉。"
+        }
+      ],
+      "impact": "平儿是凤姐暴力统治中唯一的人性缓存——若没有平儿的存在，凤姐的残忍将失去唯一的制约和唯一的温暖对照。"
+    },
+    {
+      "id": "relationship_wang_xifeng_wang_furen",
+      "from": "character_wang_xifeng",
+      "to": "character_wang_furen",
+      "type": "姑侄（权力委托）",
+      "nature": [
+        "kinship",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐是王夫人的内侄女，也是王夫人在荣国府的权力代理人——王夫人将管家大权交给凤姐，凤姐则事事向王夫人请示汇报。二人构成「王-凤」权力轴心，与贾母形成微妙的三角。但王夫人对凤姐的信任有限（抄检大观园时越过凤姐直接指挥），凤姐对王夫人则始终恭顺而有所保留。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "授权——代理管家",
+          "chapter": 3,
+          "description": "凤姐嫁入贾府后从王夫人手中接过管家权。二人同为王家女，形成天然的权力同盟。"
+        },
+        {
+          "stage": 1,
+          "title": "权力的委托",
+          "chapter": 3,
+          "description": "王夫人委托凤姐管理家务——王家人在贾府的权力结构正式形成。"
+        },
+        {
+          "stage": 2,
+          "title": "微妙的裂痕",
+          "chapter": 74,
+          "description": "抄检大观园由王夫人主导、凤姐执行——凤姐的自主权已被削弱。"
+        },
+        {
+          "stage": 2,
+          "title": "抄检中的合作",
+          "chapter": 74,
+          "description": "王夫人主持、凤姐执行——姑侄联手完成对大观园的清洗。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_xifeng_judgment_song",
+      "title": "判词与《聪明累》曲",
+      "work_type": "判词/曲",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "判词：「凡鸟偏从末世来，都知爱慕此生才。一从二令三人木，哭向金陵事更哀。」《聪明累》：「机关算尽太聪明，反算了卿卿性命……忽喇喇似大厦倾，昏惨惨似灯将尽。」",
+      "symbolic_notes": "「凡鸟」合字为「凤」。「一从二令三人木」为全书最著名字谜。「聪明累」即被聪明所累——凤姐一生的总评。"
+    },
+    {
+      "id": "poem_xifeng_koujue",
+      "title": "一夜北风紧（联句起句）",
+      "work_type": "联句（五言排律）",
+      "chapter_number": 50,
+      "fact_type": "canonical_text_fact",
+      "summary": "芦雪广（庵）联句中凤姐起首句「一夜北风紧」——众人都赞「这句虽粗，不见底下的，这正是会作诗的起法」。",
+      "symbolic_notes": "凤姐不识几个字却起首联句，且起得朴实有力——展示其无师自通的悟性。「一夜北风紧」亦可视为贾府危机的隐喻。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_xifeng_character",
+      "title": "王熙凤到底是怎样的人：能干、狠毒还是制度中的执行者？",
+      "slug": "what-kind-of-person-is-xifeng",
+      "question_type": "character_personality",
+      "importance_weight": 95,
+      "heat_weight": 95,
+      "neutral_overview": "王熙凤是《红楼梦》中最具争议的人物之一。她既能干得令人叹服（协理宁国府），又狠毒得令人发指（害死尤二姐）。她到底是怎样的人？是天生恶毒，还是末世制度的产物？",
+      "viewpoint_ids": [
+        "vp_xifeng_evil",
+        "vp_xifeng_system",
+        "vp_xifeng_complex"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xifeng_evil",
+          "title": "性恶论——天生狠毒的执行者",
+          "summary": "凤姐的「恶」不是环境逼出来的，而是她的天性——「从来不信什么是阴司地狱报应」是她的自我声明。她的每一步罪行（害贾瑞、逼死尤二姐、弄权铁槛寺）都精确服务于自身利益，且从无愧疚。她是「聪明+恶」的完美结合体。",
+          "evidence": [
+            "第十五回「从来不信什么是阴司地狱报应」；第十二回毒设相思局的冷酷设计；第六十九回借刀杀人的层层布局"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xifeng_system",
+          "title": "制度论——封建制度的完美产物",
+          "summary": "凤姐是封建家族制度的「完美产物」：制度给了她权力（管家权），也教了她权力的用法（以势压人、以权谋私）。她害尤二姐所用的每一步手段（告状、泼醋、借刀）都是制度允许甚至鼓励的。杀死尤二姐的不是凤姐，而是妻妾制度本身。",
+          "evidence": [
+            "凤姐的所有罪行都在制度框架内进行且未受任何惩罚——制度本身就是她的保护伞"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_xifeng_complex",
+          "title": "复杂性论——能干与狠毒是同一枚硬币的两面",
+          "summary": "凤姐的能干与狠毒无法分割：她的管理才能（杀伐决断、多任务处理）与她的犯罪才能（设计、布局、借刀）是同一种智力在不同方向上的运用。脂批评她「治世之能臣，乱世之奸雄」——与曹操同构。她是中国文学中最完整的「权力人格」标本。",
+          "evidence": [
+            "脂批「治世之能臣，乱世之奸雄」；协理宁国府与害尤二姐展示的是同一种组织能力"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xifeng_downfall",
+      "title": "王熙凤为什么会走向失势？",
+      "slug": "why-xifeng-falls",
+      "question_type": "character_fate",
+      "importance_weight": 90,
+      "heat_weight": 85,
+      "neutral_overview": "凤姐从前期的权力巅峰（协理宁国府）走向后期的众叛亲离（被休、病亡）。她的失势是必然的吗？原因是什么？",
+      "viewpoint_ids": [
+        "vp_downfall_power",
+        "vp_downfall_health",
+        "vp_downfall_karma"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_downfall_power",
+          "title": "权力基础论——靠山倒了",
+          "summary": "凤姐的权力全部来自授权：贾母的宠爱、王夫人的信任、贾琏的默认。这个权力结构是脆弱的——贾母一死，凤姐立即失势。她从未建立属于自己的权力基础（无子、与邢夫人不睦、下人怨声载道）。",
+          "evidence": [
+            "贾母去世后凤姐办丧事被众人怠慢（后四十回）；她与长房（邢夫人）的关系始终紧张"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_downfall_health",
+          "title": "健康崩溃论——身体是权力的物质基础",
+          "summary": "凤姐的失势始于小产（第五十五回）——身体垮掉导致她不得不交出管家权。此后的病情反复使她逐渐失去对贾府的控制力。在「末世」中，管理者的身体衰竭直接导致权力真空。",
+          "evidence": [
+            "第五十五回小产；第七十二回「恃强羞说病」——她隐瞒病情维持权力表象"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_downfall_karma",
+          "title": "因果论——恶行的积累必然反噬",
+          "summary": "凤姐的罪行（害贾瑞、逼死尤二姐、弄权铁槛寺害死张金哥夫妇）在她的权力网络中埋下了无数的仇恨种子。当她的权力衰落时，所有这些仇恨一起爆发——她成了众矢之的。她不信报应，报应却如约而至。",
+          "evidence": [
+            "《聪明累》「机关算尽太聪明，反误了卿卿性命」；后四十回凤姐死前梦见冤魂索命"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xifeng_ping_er",
+      "title": "王熙凤对平儿到底是什么感情？",
+      "slug": "xifengs-feelings-for-ping-er",
+      "question_type": "character_relationship",
+      "importance_weight": 85,
+      "heat_weight": 80,
+      "neutral_overview": "平儿是凤姐的陪嫁丫鬟、贾琏的通房丫鬟。凤姐对平儿的态度在全书中独一无二：既完全信任（所有机密都经平儿之手），又在愤怒时打过平儿（第四十四回）。她对平儿到底怀有什么感情？",
+      "viewpoint_ids": [
+        "vp_pinger_sister",
+        "vp_pinger_tool",
+        "vp_pinger_balance"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_pinger_sister",
+          "title": "姊妹论——凤姐唯一的「自己人」",
+          "summary": "平儿是凤姐从娘家带来的陪嫁丫鬟——是她与贾府之间唯一没有利益冲突的人。凤姐对平儿的信任（放高利贷的账目都经平儿）远超对贾琏的信任。第四十四回打平儿后凤姐向她赔礼——这是凤姐全书唯一一次道歉，说明她在意平儿的感受。",
+          "evidence": [
+            "凤姐向平儿道歉（第四十四回）；平儿可以当面顶撞凤姐而不受罚（第二十一回）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_pinger_tool",
+          "title": "工具论——最顺手的权力工具",
+          "summary": "凤姐对平儿的「好」本质上是主人对工具的保养——平儿能干、忠诚、能替她分忧解劳、在凤姐害人时提供缓冲。平儿的存在使凤姐的统治更高效、更不易招致反抗。这不是感情，而是精明的统治术。",
+          "evidence": [
+            "平儿承担的职责远超一般丫鬟（财务、人事、危机公关）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_pinger_balance",
+          "title": "制衡论——平儿是凤姐的「道德刹车」",
+          "summary": "平儿在凤姐的权力体系中扮演着「减震器」的角色——她多次平息凤姐的怒火、保护弱者（尤二姐、丫鬟们）、在凤姐与贾琏之间调解。凤姐对平儿的信任恰恰建立在平儿「不完全服从」的平衡上——她需要一个人来防止自己过度膨胀。",
+          "evidence": [
+            "平儿在尤二姐事件中暗中照顾尤二姐；平儿在凤姐与贾琏间的多次斡旋"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xifeng_yicongerling",
+      "title": "「一从二令三人木」到底怎么解读？",
+      "slug": "yicong-erling-sanrenmu",
+      "question_type": "version_study",
+      "importance_weight": 85,
+      "heat_weight": 85,
+      "neutral_overview": "「一从二令三人木」是《红楼梦》中最著名的字谜之一，历代红学家提出过十余种解读。它到底是什么意思？",
+      "viewpoint_ids": [
+        "vp_conglengxiu",
+        "vp_sanshuo",
+        "vp_other"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_conglengxiu",
+          "title": "「从—冷—休」说（主流）",
+          "summary": "拆字法：「从」=顺从（贾琏早期服从凤姐）；「令」谐「冷」=冷淡（中期感情破裂）；「人木」=「休」=休弃（最终被休）。这一解读与贾琏凤姐夫妻关系的演变轨迹高度吻合，是流传最广的解释。",
+          "evidence": [
+            "判词上下文「哭向金陵事更哀」与「休弃归家」结局吻合；吴世昌等学者的拆字论证"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_sanshuo",
+          "title": "「三件大事」说",
+          "summary": "凤姐在三件大事上经历了「从、令、休」：秦可卿丧事上「从」命协理（服从）；尤二姐事件上「令」贾琏（发令）；抄家后「休」（被休弃）。三字分别对应她权力曲线的三个阶段。",
+          "evidence": [
+            "凤姐在全书三件大事中的不同角色定位"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_other",
+          "title": "其他解读（拆字变体等）",
+          "summary": "还有「一从二令三人木」为「从来知命」「从、令、休」句读之争、「从」作「纵」（放纵）、「令」作「伶」等多种变体。核心共识是：此句预言凤姐被休弃、哭归金陵的悲惨结局。",
+          "evidence": [
+            "红学界对判词的持续讨论（相关论文数十篇）"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xifeng_kindness_liu",
+      "title": "凤姐对刘姥姥的施恩是「真心善举」还是「顺手人情」？",
+      "slug": "xifengs-kindness-to-liu-laolao",
+      "question_type": "character_morality",
+      "importance_weight": 80,
+      "heat_weight": 75,
+      "neutral_overview": "凤姐对刘姥姥的两次施恩（一进荣国府给银二十两、二进荣国府赠衣并请其取名）是全书中凤姐仅有的「善行」。这份善意的性质如何？是真心善举还是贵族对穷亲戚的顺手打发？",
+      "viewpoint_ids": [
+        "vp_kindness_genuine",
+        "vp_kindness_casual"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_kindness_genuine",
+          "title": "真心论——凤姐人性中残存的暖色",
+          "summary": "凤姐给刘姥姥银子时的态度真诚（「说给姑奶奶听」的实诚），请刘姥姥为女儿取名时更是罕见的谦卑。这份善意与她的恶行并存——恰恰证明了人性的复杂：恶人也有善念，而这善念最终救了她的女儿。",
+          "evidence": [
+            "第六回凤姐给银时的实诚态度；第四十二回请刘姥姥取名的郑重"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_kindness_casual",
+          "title": "顺手人情论——贵族对穷亲戚的常规打发",
+          "summary": "二十两银子对凤姐不过是「拔一根寒毛」，给银打点穷亲戚是贵族社会的常规操作，不具有道德意义。请刘姥姥取名则带有明显的功利性（信民间「贱名好养」的说法）。凤姐的「善」是被后来的因果叙事（巧姐被救）「追认」的。",
+          "evidence": [
+            "凤姐对刘姥姥的轻视态度（「打花胡哨」式的应付）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xifeng_qiaojie",
+      "title": "巧姐的命运为什么与刘姥姥绑定？「巧得遇恩人」如何理解？",
+      "slug": "qiaojie-fate-liu-laolao",
+      "question_type": "character_fate",
+      "importance_weight": 75,
+      "heat_weight": 70,
+      "neutral_overview": "巧姐的判词「势败休云贵，家亡莫论亲。偶因济刘氏，巧得遇恩人」明确将她的命运与刘姥姥绑定。为什么是刘姥姥？",
+      "viewpoint_ids": [
+        "vp_qiaojie_karma"
+      ],
+      "fact_type": "canonical_text_fact",
+      "viewpoints": [
+        {
+          "id": "vp_qiaojie_karma",
+          "title": "因果报应论——曹雪芹的道德天平",
+          "summary": "巧姐与刘姥姥的绑定是全书最清晰的因果报应结构：凤姐施恩刘姥姥（微小的善）→巧姐遇难时被刘姥姥所救（巨大的报）。曹雪芹以此证明：善恶之报「如影随形」——凤姐不信报应，报应却通过她的女儿完成了闭环。",
+          "evidence": [
+            "判词「偶因济刘氏，巧得遇恩人」；第四十二回刘姥姥取名「巧哥儿」的伏笔"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_xifeng_jia_mu_relationship",
+      "title": "凤姐和贾母之间是真情还是表演？",
+      "slug": "xifeng-jiamu-relationship",
+      "question_type": "character_relationship",
+      "importance_weight": 75,
+      "heat_weight": 75,
+      "neutral_overview": "凤姐与贾母的关系是全书最有趣的「上下级」关系——凤姐的插科打诨是贾母晚年的最大娱乐，贾母的宠爱是凤姐权力的最终保障。这究竟是真情还是表演？",
+      "viewpoint_ids": [
+        "vp_jiamu_performance",
+        "vp_jiamu_mixed"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiamu_performance",
+          "title": "表演论——凤姐的「职业孝心」",
+          "summary": "凤姐对贾母的一切「孝敬」都具有表演性质：逗笑、打趣、奉承——目的是巩固权力。贾母也清楚这一点（「泼皮破落户」的称呼带着看透的戏谑）。这是一种双向的默契表演。",
+          "evidence": [
+            "凤姐的奉承话语具有高度的模式化和表演性；贾母的回应也总是戏谑式的"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiamu_mixed",
+          "title": "混合论——表演中有真情",
+          "summary": "凤姐与贾母的关系是表演与真情的混合：凤姐的奉承是职业性的，但贾母去世后凤姐办丧事的尽心竭力（尽管被众人怠慢）显示她的悲痛并非完全虚假。长年累月的相处使这段权力关系沾染了真实的情感。",
+          "evidence": [
+            "凤姐在贾母丧事中的表现（后四十回）"
+          ],
+          "fact_type": "disputed_version",
+          "note": "部分证据来自后四十回（attribution=gaoe）"
+        }
+      ]
+    },
+    {
+      "id": "question_xifeng_modern_management",
+      "title": "凤姐的治家才能为什么救不了贾府？",
+      "slug": "why-xifeng-cant-save-jia",
+      "question_type": "theme_analysis",
+      "importance_weight": 80,
+      "heat_weight": 70,
+      "neutral_overview": "凤姐拥有全书最强的管理才能，但她治下的贾府却加速衰败。她的才能为什么不能拯救贾府？",
+      "viewpoint_ids": [
+        "vp_xifeng_parasite",
+        "vp_xifeng_era"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xifeng_parasite",
+          "title": "蛀虫论——管理者本身就是最大的问题",
+          "summary": "凤姐的才能与她的贪婪绑定：她挪用公款放高利贷、克扣月例、以权谋私——她自己是贾府最大的蛀虫。一个最大的蛀虫来「管理」贾府，只能加速蛀空。她的治家越高效，贾府被掏空得越快。",
+          "evidence": [
+            "第七十二回放高利贷与当贾母金器的细节；月例银子的克扣引发下人不满"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xifeng_era",
+          "title": "末世论——「凡鸟偏从末世来」",
+          "summary": "判词「凡鸟偏从末世来」是根本解释：贾府之败是制度性、时代性的，任何人（包括凤姐、探春）都无法挽回。凤姐的才能放在盛世可能成就中兴，放在末世只能随波逐流。「运偏消」的不是凤姐的能力，而是整个时代。",
+          "evidence": [
+            "判词「凡鸟偏从末世来，都知爱慕此生才」；「忽喇喇似大厦倾」的必然性隐喻"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xifeng_neo_man",
+      "title": "凤姐——古典文学中最现代的「权力女性」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "王昆仑等",
+      "year": 1944,
+      "source_title": "《红楼梦人物论》（王昆仑，1944）",
+      "description": "王昆仑将凤姐定位为「从历史深谷中升起的'新人'」——她不靠贤德、不靠门第（虽出身王家）、不靠丈夫，而以才能、手腕和胆识在男权世界中开辟了自己的权力空间。她是古典文学中最具现代性的女性形象之一。"
+    },
+    {
+      "id": "viewpoint_xifeng_caocao",
+      "title": "「女曹操」论",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "脂砚斋批语及后世沿袭",
+      "year": 1754,
+      "description": "脂批评凤姐「治世之能臣，乱世之奸雄」——直接以曹操相拟。这一评价奠定了红学界「女曹操」论述的基调：凤姐的雄才大略与心狠手辣、管理才能与权术手段的一体两面。"
+    },
+    {
+      "id": "viewpoint_xifeng_gender",
+      "title": "凤姐的女性主义解读",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "当代女性主义红学批评",
+      "year": 1995,
+      "description": "当代女性主义批评将凤姐视为「在男权制度中以男性方式获取权力的女性」——她通过「扮演男性」（发号施令、杀伐决断）获得权力，最终被制度反噬。她的悲剧揭示了封建制度下女性权力的根本不可能性。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 14,
+    "total_relationships": 8,
+    "total_poems": 2,
+    "total_questions": 8,
+    "total_viewpoints": 3,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L3",
+    "fact_type_distribution": {
+      "canonical_text_fact": 35,
+      "text_inference": 20,
+      "scholarly_viewpoint": 12,
+      "disputed_version": 6,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 2
+  }
+}

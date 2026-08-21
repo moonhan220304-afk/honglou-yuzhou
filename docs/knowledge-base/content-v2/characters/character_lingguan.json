@@ -1,0 +1,523 @@
+{
+  "character": {
+    "id": "character_lingguan",
+    "name": "龄官",
+    "slug": "ling-guan",
+    "aliases": [],
+    "category": "梨香院十二官（小旦）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "姑苏采买来的女戏子之一，父母姓氏不详（第五十八回朝廷遣散女戏后放归）。",
+      "position": "贾府梨香院戏班小旦；后放归本籍。",
+      "origin": "姑苏人氏，十二个女戏子（十二官）之一。",
+      "generation": "戏班行当辈"
+    },
+    "tags": [
+      "龄官划蔷痴及局外",
+      "画蔷",
+      "情悟梨香院",
+      "拒唱",
+      "嗓子哑了",
+      "像黛玉",
+      "贾蔷",
+      "十二官小旦",
+      "蔷薇花架"
+    ],
+    "summary": {
+      "short": "梨香院十二官中的小旦，相貌极像黛玉。第三十回她在蔷薇架下用金簪痴画「蔷」字千百遍，第三十六回拒为宝玉唱戏、与贾蔷真情相待——她是宝玉「识分定」、悟「情缘各有分定」的关键人物。",
+      "long": "龄官是贾府为元春省亲从姑苏采买的十二个女戏子之一，行当小旦。第二十二回宝钗生日上，凤姐说那个小旦「扮上活像一个人」——众人都看出像黛玉，湘云说破「倒像林妹妹的模样儿」，说的就是龄官。第三十回「龄官划蔷痴及局外」：她独在蔷薇架下，用金簪在地上痴痴地画「蔷」字，「画完一个又画一个，已经画了有几千个『蔷』」，下雨了也浑然不觉；宝玉在篱外看痴了，提醒她避雨，反而被问「难道姐姐在外头有什么遮雨的？」——宝玉这才发觉自己淋透了。第三十六回宝玉想听她的戏，点名要她唱「袅晴丝」，她严词拒绝：「嗓子哑了。前儿娘娘传进我们去，我还没有唱呢。」宝玉讪讪退出后，看到贾蔷来探她：买来会衔旗串戏的玉顶金豆雀儿逗她，她反笑骂「你们家把好好的人弄了来，关在这牢坑里学这个劳什子还不算，你这会子又弄个雀儿来，也偏生干这个」，贾蔷当即拆笼放生；贾蔷要为她请医，她又怕他晒着：「你站住。这会子大毒的日头底下，你赌气子去请了来我也不瞧。」宝玉看罢，回房对袭人叹道：「昨夜说你们的眼泪单葬我，这就错了。……从此后只好各人得各人的眼泪罢了。」——这就是「识分定情悟梨香院」：宝玉从龄官身上悟出「人生情缘，各有分定」。第五十八回朝廷遣散戏班，龄官（与芳官等「不愿意回去」者不同）不在留下的名单里——脂批暗示她后来「大观园散」时悄然离去，了无下文。她是全书「小人物大顿悟」的典范：戏子是「假凤虚凰」，情却是真的。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "痴——蔷薇架下画「蔷」千遍",
+        "fact_type": "canonical_text_fact",
+        "description": "龄官的痴是全书最纯粹的「爱情痴态」：不写诗、不寄笺，只在地上用簪子画情人的名字，画了「几千个」。曹雪芹写她的痴与写宝玉看她的痴并置——「痴及局外」，两重痴心，隔着篱笆互相照亮。"
+      },
+      {
+        "dimension": "傲——戏子的骨气",
+        "fact_type": "canonical_text_fact",
+        "description": "她拒为宝玉唱戏的理由是「嗓子哑了」——连元春传她都没唱，一个公子点曲更请不动她。她的傲不是骄纵，是「我的人、我的嗓子、我的情」的自我所有权：戏子可以被买卖，但她自己不能被随便使唤。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_lingguan_like_ch22",
+        "title": "宝钗生日上「活像黛玉」的小旦（第二十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_lingguan_hua_qiang_ch30",
+        "title": "蔷薇架下痴画「蔷」字（第三十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_lingguan_refuse_ch36",
+        "title": "拒唱与情悟梨香院（第三十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_lingguan_release_ch58",
+        "title": "朝廷遣散戏班，放归（第五十八回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch30_lingguan_huaqiang",
+        "quote": "（那女孩子）手里拿着根绾头的簪子，在地下抠土……只见他抠来抠去，画来画去，还是个「蔷」字。再看，还是个「蔷」字。里面的原是早已痴了，画完一个又画一个，已经画了有几千个「蔷」。外面的不觉也看痴了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十回「龄官划蔷痴及局外」。一个「蔷」字画几千遍——全书最纯粹的痴情场景。"
+      },
+      {
+        "source_id": "source_ch36_lingguan_refuse",
+        "quote": "（龄官）道：「嗓子哑了。前儿娘娘传进我们去，我还没有唱呢。」……（宝玉）又听贾蔷笑道：「你站住。这会子大毒的日头底下，你赌气子去请了来我也不瞧。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十六回。拒唱与「怕他晒着」——傲与柔并存的爱情。"
+      },
+      {
+        "source_id": "source_ch36_lingguan_bird",
+        "quote": "龄官道：「你们家把好好的人弄了来，关在这牢坑里学这个劳什子还不算，你这会子又弄个雀儿来，也偏生干这个。你分明是弄了他来打趣形容我们。」贾蔷听了，不觉慌起来，连忙赌身立誓……登时放了笼中雀儿。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十六回。「牢坑」——戏子自我处境的清醒认知；贾蔷放雀，爱屋及乌。"
+      },
+      {
+        "source_id": "source_ch36_lingguan_baoyu",
+        "quote": "宝玉回到怡红院……对袭人道：「昨夜说你们的眼泪单葬我，这就错了。……从此后只好各人得各人的眼泪罢了。」……自此深悟人生情缘，各有分定。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十六回「识分定情悟梨香院」。龄官之痴点醒了宝玉之痴——情缘各有分定。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「龄」——妙龄；「官」——戏班行当名",
+      "detail": "十二个女戏子皆以「某官」为名（芳官、藕官、蕊官……），「官」是旧时戏班艺名的通例。「龄」取「妙龄」之意——一个妙龄少女被买来「关在这牢坑里」学戏，她的名字本身就含着「青春被制度占有」的哀感。一说「龄」谐「伶」——伶官，戏子之谓。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约13-15岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；十二官小旦，约十三四岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_lingguan_like_ch22",
+      "title": "「活像黛玉」的小旦",
+      "event_level": "minor",
+      "chapter": {
+        "number": 22,
+        "title": "听曲文宝玉悟禅机 制灯谜贾政悲谶语",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（宝钗生日宴）",
+        "specific": "宝钗生日点戏，凤姐指着一个小旦说「这个孩子扮上活像一个人，你们再看不出来」。宝钗心内明白只不说，宝玉不敢说，湘云心直口快：「倒像林妹妹的模样儿。」说的正是龄官——由此引发宝玉湘云拌嘴、宝玉黛玉误会，宝玉一度「悟禅机」。"
+      },
+      "summary": {
+        "short": "龄官的首次出场是「不在场的在场」：她扮相像黛玉，成了凤姐玩笑的由头，也成了宝黛湘之间一场风波的导火索。她还没说一句话，就搅动了全书最重要的一场「像不像」公案。",
+        "meaning": [
+          "「扮上活像一个人」——戏子像小姐，等级社会里最犯忌的相似",
+          "湘云说破、宝钗不说、宝玉不敢——三个人三种「世故」",
+          "「像黛玉」是龄官的命运符号：她将替黛玉「演」一段情"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "影身结构：龄官是黛玉的「戏台之影」",
+          "content": "红学家普遍注意到龄官与黛玉的「影身」关系：相貌相似之外，她的痴（画蔷）、她的傲（拒唱）、她的病（身子弱）、她的情（与贾蔷），处处是黛玉的平民版。曹雪芹写龄官，等于把黛玉的命运在小人物身上预演了一遍。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_lingguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_lingguan_hua_qiang_ch30",
+      "title": "蔷薇架下痴画「蔷」字",
+      "event_level": "major",
+      "chapter": {
+        "number": 30,
+        "title": "宝钗借扇机带双敲 龄官划蔷痴及局外",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园蔷薇架下",
+        "specific": "夏雨将至，龄官独在蔷薇架下用金簪痴画「蔷」字，画了「几千个」犹不停。宝玉在篱外看痴了，雨落下来，他先提醒龄官「下大雨，身上都湿了」，龄官抬头看他说：「多谢姐姐提醒了我。难道姐姐在外头有什么遮雨的？」宝玉这才发现自己也淋透了。"
+      },
+      "summary": {
+        "short": "回目「龄官划蔷痴及局外」——两重痴：她在画情人的名字，他在看画名字的人。她不知道他是谁（以为是个丫头），他不知道自己已淋透。这是全书「痴」的绝美定格。",
+        "meaning": [
+          "「蔷」字几千遍——无声的爱语，比任何情诗都响",
+          "「痴及局外」——她的痴点燃了他的痴，痴痴相映",
+          "宝玉「多情而忘我」的极致——先提醒别人避雨，忘了自己"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "画蔷的叙事张力",
+          "content": "整个场景没有对话、没有心理描写，只有一个动作：画。曹雪芹用「画完一个又画一个」的重复营造痴的厚度——重复本身就是爱。这个场景后被无数绘画、戏曲搬演，是《红楼梦》最具画面感的情节之一。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_lingguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_lingguan_refuse_ch36",
+      "title": "拒唱——「情悟梨香院」",
+      "event_level": "major",
+      "chapter": {
+        "number": 36,
+        "title": "绣鸳鸯梦兆绛芸轩 识分定情悟梨香院",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院",
+        "specific": "宝玉找龄官点唱「袅晴丝」，龄官以「嗓子哑了」严拒，元春传唱都没去。宝玉方知那日画「蔷」的就是她。随后贾蔷来：买雀逗她反被笑骂，拆笼放生；要顶日头去请医，被龄官喝住「我也不瞧」。宝玉看呆，回去悟出「人生情缘，各有分定」。"
+      },
+      "summary": {
+        "short": "龄官拒唱是全书「小人物尊严」的巅峰：她连元春的面子都不给，只给贾蔷一个人「唱」。宝玉在此目睹一对真正相爱的人——原来世上有人只爱贾蔷、只为贾蔷画蔷、只为贾蔷管他的日头。他的「情」不是宇宙中心。",
+        "meaning": [
+          "「嗓子哑了」——全书最硬的「拒唱」，戏子对自己身体的最终解释权",
+          "放雀——龄官以「笼中鸟」自况，贾蔷以「放生」作答：爱的表达是还她自由",
+          "「大毒的日头」——她骂他是为他好：爱的真形态是心疼"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "宝玉的顿悟课",
+          "content": "宝玉一生以「所有人的眼泪」自许，龄官让他看见「各人得各人的眼泪」：她只为他（贾蔷）而痴，与你宝玉无关。这是全书对宝玉「情痴」最重要的一次修正——他从此「识分定」，懂得了情的边界与专属。"
+        },
+        {
+          "type": "literary",
+          "title": "「假凤虚凰」的真情",
+          "content": "第五十八回「杏子阴假凤泣虚凰」写藕官等人的同性之恋，学界常将龄官贾蔷之恋与之并论：戏台上的「假凤虚凰」在戏台下结了真情。曹雪芹借一群最「假」的人（戏子），写最「真」的情——这是对「情」的定义权的又一次翻转。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_lingguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_qiang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_lingguan_release_ch58",
+      "title": "遣散戏班，放归",
+      "event_level": "minor",
+      "chapter": {
+        "number": 58,
+        "title": "杏子阴假凤泣虚凰 茜纱窗真情揆痴理",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院（解散）",
+        "specific": "宫中老太妃薨逝，朝廷谕旨遣发各府戏班。尤氏等安排：愿去者父母领回，不愿去的留府分房使唤。芳官等留园为婢，龄官不在留园名单中——她离开了贾府，下落未再交代。"
+      },
+      "summary": {
+        "short": "第五十八回戏班解散：十二官各奔东西，龄官选择离开。她来时是被买的「笼中鸟」，走时是自由身——她的结局没有眼泪，只有离去，与她的「傲」一脉相承。",
+        "meaning": [
+          "「不愿去的留下」——芳官们留下继续演丫鬟，龄官走了：她不属于贾府",
+          "她的离场无声无息——小人物在大观园里来去如风",
+          "贾蔷龄官之恋终无下文——「薄命司」外的情，结局仍是散"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "龄官的「散场」",
+          "content": "脂批对龄官结局的提示极少，学界一般认为她随戏班散去后不知所终——或嫁贾蔷，或流落江湖。她的「无结局」本身就是结局：大观园的梦散了，笼中的鸟飞了，去哪里无人知道。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_lingguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_lingguan_jia_qiang",
+      "from": "character_lingguan",
+      "to": "character_jia_qiang",
+      "type": "恋人",
+      "nature": [
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "龄官与贾蔷之恋是全书最「日常」的爱情：她画「蔷」字画痴，他买雀儿哄她；她骂他「打趣我们」，他赌誓放雀；她心疼他「大毒的日头」，他听她的话站着。两个年轻人用最琐碎的互动写最真的情——曹雪芹写这对恋人，是为了让宝玉看：情不是被捧出来的，是处出来的。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "画蔷传痴",
+          "chapter": 30,
+          "description": "龄官痴画「蔷」字——情之所钟在贾蔷。"
+        },
+        {
+          "stage": 1,
+          "title": "相恋",
+          "chapter": 18,
+          "description": "梨香院共事，情愫渐生。"
+        },
+        {
+          "stage": 2,
+          "title": "放雀请医",
+          "chapter": 36,
+          "description": "贾蔷探病、放雀、欲请医——爱的双向奔赴。"
+        },
+        {
+          "stage": 2,
+          "title": "画蔷",
+          "chapter": 30,
+          "description": "龄官蔷薇架下痴画「蔷」字。"
+        },
+        {
+          "stage": 3,
+          "title": "放雀",
+          "chapter": 36,
+          "description": "贾蔷买雀被讥，拆笼放生。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_lingguan_jia_baoyu",
+      "from": "character_lingguan",
+      "to": "character_jia_baoyu",
+      "type": "点醒者与被点醒者",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉是全书唯一被龄官「拒绝」的公子：她拒唱、拒搭理，让宝玉第一次领受「自己的痴不是全世界的中心」。宝玉从她与贾蔷身上悟出「情缘各有分定」——龄官是宝玉情悟路上最关键的路标之一。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "看痴",
+          "chapter": 30,
+          "description": "宝玉雨中看龄官画蔷。"
+        },
+        {
+          "stage": 2,
+          "title": "情悟",
+          "chapter": 36,
+          "description": "宝玉被拒唱，目睹龄官贾蔷之情，悟「分定」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_lingguan_lin_daiyu",
+      "from": "character_lingguan",
+      "to": "character_lin_daiyu",
+      "type": "影身（相貌相似）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "龄官「扮上活像」黛玉——这层相似让她的痴、她的傲、她的病都成了黛玉的「投影」：黛玉对宝玉的痴，是龄官对贾蔷之痴的贵族版；龄官的命运，是黛玉命运的低配预演。二人从未同场，却构成全书最精密的「影身」关系之一。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "像黛玉",
+          "chapter": 22,
+          "description": "凤姐点破小旦「扮上活像一个人」，湘云说破「像林妹妹」。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_lingguan_baoyu_wu",
+      "title": "龄官对宝玉的「情悟」到底意味着什么？",
+      "slug": "what-does-baoyu-learn-from-lingguan",
+      "question_type": "theme_analysis",
+      "importance_weight": 76,
+      "heat_weight": 72,
+      "neutral_overview": "宝玉从「所有人的眼泪都葬我」到「各人得各人的眼泪」——龄官贾蔷之恋让他悟到了什么？这个顿悟对宝黛爱情是打击还是成全？",
+      "viewpoint_ids": [
+        "vp_lingguan_baoyu_growth",
+        "vp_lingguan_baoyu_narcissism"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_lingguan_baoyu_growth",
+          "title": "成长论：从「情圣」到「情人」的顿悟",
+          "summary": "宝玉此前的爱是「泛爱」——他以为全天下女儿都该爱他、为他流泪。龄官让他看见：情是专属的，龄官只爱贾蔷，就像黛玉只能爱他。这个顿悟让宝玉的情从「广度」走向「深度」——「各人得各人的眼泪」之后，他的黛玉才真正成为「唯一」。这是宝黛爱情的「成人礼」。",
+          "evidence": [
+            "「从此后只好各人得各人的眼泪罢了」——放弃对全体眼泪的所有权",
+            "此回后宝黛之情进入更成熟的阶段（第三十六回之后）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_lingguan_baoyu_narcissism",
+          "title": "自恋破灭论：宝玉的「情」本质是自我投射",
+          "summary": "宝玉的沮丧暴露了他的情之本质：他一直把众女儿的眼泪当成自己的「葬品」——这不是爱，是自恋。龄官拒唱打破了他的幻觉：原来有人根本不在乎他。他的「悟」与其说是成长，不如说是被迫承认：他的爱从未离开过自我中心。这个发现预示了他最终「情极而空」的结局。",
+          "evidence": [
+            "「昨夜说你们的眼泪单葬我」——以自我为情的中心",
+            "宝玉被拒后「讪讪的红了脸」——自恋受挫的羞赧"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_lingguan_laokeng",
+      "title": "「关在这牢坑里」——龄官的反抗是自觉的吗？",
+      "slug": "is-lingguans-resistance-conscious",
+      "question_type": "character_analysis",
+      "importance_weight": 68,
+      "heat_weight": 64,
+      "neutral_overview": "一个买来的戏子，说出「牢坑」二字、拒唱、骂贾蔷「弄了个雀儿来打趣我们」——龄官的愤怒是阶级自觉，还是少女的任性？",
+      "viewpoint_ids": [
+        "vp_lingguan_laokeng_conscious",
+        "vp_lingguan_laokeng_emotion"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_lingguan_laokeng_conscious",
+          "title": "自觉论：她的反抗指向制度本身",
+          "summary": "龄官骂的不是贾蔷，是「你们家」——把好好的人弄来关在牢坑里学劳什子。她清楚自己的处境：被买卖、被训练、被关押的「笼中鸟」。拒唱（连娘娘都不给面子）是她对「戏子必须服从」的制度的拒绝。她的「傲」是全书下层人物里最接近「尊严自觉」的一次爆发。",
+          "evidence": [
+            "「你们家把好好的人弄了来，关在这牢坑里学这个劳什子」——矛头直指贾府制度",
+            "拒唱理由直指元春——对最高权力的不服从"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_lingguan_laokeng_emotion",
+          "title": "情感论：她的「牢坑」之说只是恋人的牢骚",
+          "summary": "龄官骂贾蔷，语境是恋人间的嗔怒——她生病心烦，贾蔷买了雀儿逗她，她觉得被「打趣」。她的「牢坑」是借题发挥的怨，而非深思熟虑的反抗：她对贾蔷说「你赌气子去请了来我也不瞧」，句句是「在乎」。她的拒唱也更多是「嗓子真的哑了+对宝玉的淡漠」，不必过度政治化。",
+          "evidence": [
+            "骂贾蔷时她「正没好气」——情绪语境",
+            "贾蔷放雀后她「早又把眼睛红圈儿」——怨中带爱"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch22_lingguan_xifeng",
+      "quote": "凤姐笑道：「这个孩子扮上活像一个人，你们再看不出来。」宝钗心里也知道，便只一笑不肯说。……史湘云接着笑道：「倒像林妹妹的模样儿。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第二十二回。龄官「像黛玉」——湘云说破引发的宝黛湘风波。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_lingguan_daiyu_shadow",
+      "title": "龄官与黛玉：影身结构的镜像分析",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1990,
+      "source_title": "多项人物对照研究",
+      "description": "学者系统梳理了龄官与黛玉的镜像关系：相貌相似（第二十二回）、痴情形态相似（画蔷与葬花同是「痴极」的独处仪式）、病弱相似、孤傲相似（拒唱与黛玉的「孤高自许」）——龄官是黛玉在「戏子阶层」的投影，二人共同构成「情」的两个价位：黛玉之情通向「还泪」神话，龄官之情通向「放雀」日常。曹雪芹以戏子之影补足小姐之形，使「情」的书写既有神话高度又有市井体温。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 3,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 5,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 22,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

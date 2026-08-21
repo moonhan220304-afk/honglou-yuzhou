@@ -1,0 +1,993 @@
+{
+  "character": {
+    "id": "character_jia_qiaojie",
+    "name": "贾巧姐",
+    "slug": "jia-qiaojie",
+    "aliases": [
+      "巧哥儿",
+      "大姐儿",
+      "巧姑娘"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "荣国府贾琏与王熙凤之女；贾母之重孙女。",
+      "position": "贾府第五代小姐（幼女）；与板儿有佛手柚子之缘。",
+      "origin": "金陵人氏，生于七月初七（乞巧节）。",
+      "generation": "贾府第五代（贾兰、巧姐一辈）"
+    },
+    "tags": [
+      "留余庆",
+      "狠舅奸兄",
+      "刘姥姥",
+      "佛手柚子",
+      "板儿",
+      "势败家亡",
+      "救孤",
+      "乞巧节生",
+      "因果报应",
+      "巧得遇恩人"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一，王熙凤之女。判词「偶因济刘氏，巧得遇恩人」——母亲当年对刘姥姥的偶然施舍，成了她日后获救的因果。她是十二钗中唯一被「救出」命运的金钗。",
+      "long": "贾巧姐是贾琏与王熙凤之女，生于七月初七乞巧节（凤姐自觉生日不巧，「遂云的『七月七日牵牛织女会』……日里不好」），第四十二回刘姥姥为她取名「巧哥儿」，以「以毒攻毒、以火攻火」之法化解生日之「巧」。她幼年体弱多病（第二十一回出痘疹，贾琏凤姐分房——由此牵出多姑娘事件）。第四十一回在探春房中与板儿互换佛手与柚子——脂批明点「小儿常情遂成千里伏线」，是板儿与巧姐姻缘的谶笔。判词「势败休云贵，家亡莫论亲。偶因济刘氏，巧得遇恩人」与《留余庆》曲「留余庆，留余庆，忽遇恩人；幸娘亲，幸娘亲，积得阴功」，预言其在家亡势败后被「狠舅奸兄」出卖、终为刘姥姥所救。后四十回（gaoe）第一一八回写王仁（狠舅）与贾环等合谋将巧姐卖与外藩；第一一九回刘姥姥冒险救出巧姐，藏于乡间，后嫁与周姓富家（一说板儿）。巧姐是十二钗中「戏份」最少、却结构意义最重的人物：她的存在证明凤姐一生恶行之外的那点「善」（接济刘姥姥），结出了唯一的善果——「劝人生，济困扶穷」。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "被书写的幼女——最年轻的薄命册中人",
+        "fact_type": "canonical_text_fact",
+        "description": "巧姐是金陵十二钗中唯一在全书主体情节中仍是幼儿的人物。她没有性格成长弧线，命运全靠他人书写——正因如此，她的判词与结局成为全书「因果结构」的最纯粹载体：她的获救不是靠自己的努力，而是靠母亲无意间种下的善因。"
+      },
+      {
+        "dimension": "「巧」的宿命——生日与名字",
+        "fact_type": "canonical_text_fact",
+        "description": "七月初七的生日让凤姐忧心「日子不好」，刘姥姥则以「巧哥儿」化解——「日后大了，各人成家立业，或一时有不遂心的事，必然是遇难成祥，逢凶化吉，都从这『巧』字上来」。这个「巧」字成为她命运的密码：巧（偶）遇恩人，巧合得救。"
+      },
+      {
+        "dimension": "因果链条的终点",
+        "fact_type": "text_inference",
+        "description": "巧姐的全部文学功能是完成一条因果链：凤姐第六回接济刘姥姥二十两银子（善因）→刘姥姥救巧姐（善果）。曹雪芹用这个小女孩证明：在「千红一哭」的绝对悲剧里，唯有善行留下了余庆。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_qiaojie_judgment_ch5",
+        "title": "判词与《留余庆》曲（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_qiaojie_dou_ch21",
+        "title": "出痘疹（第二十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_qiaojie_youzi_ch41",
+        "title": "佛手柚子——与板儿的千里伏线（第四十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_qiaojie_name_ch42",
+        "title": "刘姥姥取名「巧哥儿」（第四十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_qiaojie_sold_ch118",
+        "title": "狠舅奸兄卖巧姐（第一一八回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 6,
+        "event_id": "event_qiaojie_rescue_ch119",
+        "title": "刘姥姥救孤（第一一九回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 7,
+        "event_id": "event_qiaojie_marriage_ch120",
+        "title": "嫁与周家（第一二〇回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_qiaojie_judgment",
+        "quote": "势败休云贵，家亡莫论亲。偶因济刘氏，巧得遇恩人。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回巧姐判词。册页画着「一座荒村野店，有一美人在那里纺绩」——贵族小姐终落乡野。"
+      },
+      {
+        "source_id": "source_ch05_qiaojie_song",
+        "quote": "[留余庆]留余庆，留余庆，忽遇恩人；幸娘亲，幸娘亲，积得阴功。劝人生，济困扶穷，休似俺那爱银钱忘骨肉的狠舅奸兄！正是乘除加减，上有苍穹。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回《留余庆》曲。「狠舅奸兄」——出卖她的正是骨肉至亲；「济困扶穷」是全曲的劝世主题。"
+      },
+      {
+        "source_id": "source_ch42_qiaojie_name",
+        "quote": "凤姐儿道：「……只保佑他应了你的话就好了。」……刘姥姥听说，便想了一想，笑道：「不知他几时生的？」凤姐儿道：「正是生日的日子不好呢，可巧是七月初七日。」刘姥姥忙笑道：「这个正好，就叫他是巧哥儿。这叫作『以毒攻毒，以火攻火』的法子……日后大了……必然是遇难成祥，逢凶化吉，却从这『巧』字上来。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十二回刘姥姥为巧姐取名。「巧」字成为她日后得救的命运密码。"
+      },
+      {
+        "source_id": "source_ch41_qiaojie_youzi",
+        "quote": "那大姐儿因抱着一个大柚子顽的，忽见板儿抱着一个佛手，便也要佛手。……板儿……便求大姐儿说：「我拿的这柚子换姐姐的佛手罢。」……脂批：小儿常情遂成千里伏线。",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十一回巧姐与板儿互换佛手柚子。脂批点明「千里伏线」——两个孩子的玩具互换，是日后姻缘的谶笔。"
+      },
+      {
+        "source_id": "source_ch06_qiaojie_origin",
+        "quote": "凤姐笑道：「……可巧昨儿太太给我的丫头们做衣裳的二十两银子，我还没动呢，你若不嫌少，就暂且先拿了去罢。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六回凤姐给刘姥姥二十两银子——「偶因济刘氏」的善因。巧姐获救的因果由此起头。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "七月初七生，刘姥姥以「以毒攻毒」取巧字命名（第四十二回原文）",
+      "detail": "巧姐生于七月初七（乞巧节），凤姐自觉生日「不巧」；刘姥姥以「以毒攻毒、以火攻火」之法为其取名「巧哥儿」，曰「日后大了……必然是遇难成祥，逢凶化吉，却从这『巧』字上来」。判词「偶因济刘氏，巧得遇恩人」——「巧」字呼应刘姥姥救其出火坑之缘",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 21,
+          "evidence": "大姐儿出痘疹（供奉痘疹娘娘）",
+          "age": "未见明文（约四五岁）"
+        },
+        {
+          "chapter": 42,
+          "evidence": "刘姥姥取名「巧哥儿」（尚未有名）",
+          "age": "约6-7岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约4-5岁（第21回出痘）",
+        "story_end": "约13-14岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未明写年龄；第42回尚无名需刘姥姥取名，约六七岁（文本推断）。七月初七生。",
+      "controversies": [
+        {
+          "title": "刘上生叙时考",
+          "detail": "刘上生指出：按「一进」「二进」相隔四五年的文本叙时，大姐儿四五年后仍「奶子抱着」不见长大、六七岁尚未取名不合情理，证明一进二进实际只隔一年，是作者刻意拉长叙时以配合宝玉十三岁线。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "巧哥儿",
+      "type": "赐名",
+      "context": "刘姥姥以「以毒攻毒」之法为其取名，化解七月初七生日之「巧」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "大姐儿",
+      "type": "家族称呼",
+      "context": "取名前的通行称呼——贾府最小的「大姐儿」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "巧姑娘",
+      "type": "家族称呼",
+      "context": "贾府败落后下人对她的称呼（后四十回）",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_qiaojie_dou_ch21",
+      "title": "出痘疹——引出多姑娘事件",
+      "event_level": "minor",
+      "chapter": {
+        "number": 21,
+        "title": "贤袭人娇嗔箴宝玉 俏平儿软语救贾琏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "巧姐出痘疹（天花），贾府供奉痘疹娘娘，凤姐与贾琏分房斋戒十二日。贾琏趁机与多姑娘私通，平儿软语救下他的把柄。"
+      },
+      "summary": {
+        "short": "巧姐出痘，凤姐贾琏分房斋戒。贾琏耐不住寂寞私通多姑娘，被平儿发现并隐瞒。巧姐的病愈，牵出的是父母的婚姻裂缝——她的童年一直处在父母关系的火药桶旁。",
+        "meaning": [
+          "巧姐幼年多病——体弱的她在贾府风雨飘摇中长大",
+          "出痘事件是巧姐「年幼无闻」时期，父母关系恶化的一个切片",
+          "曹雪芹写巧姐的笔法：她本人的戏极少，但她的每一次生病都牵动家庭暗流"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "襁褓中的旁观者",
+          "content": "巧姐的幼年在全书前八十回几乎「隐形」——她只在生病、起名、换玩具时被想起。这种「隐身」恰是她的命运写照：一个贵族幼女的存在感，取决于家族的权势。势败之后，她反而「出场」了——以被卖被救的方式。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_dengguniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiaojie_youzi_ch41",
+      "title": "佛手柚子——板儿与巧姐的千里伏线",
+      "event_level": "major",
+      "chapter": {
+        "number": 41,
+        "title": "栊翠庵茶品梅花雪 怡红院劫遇母蝗虫",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（探春房中）",
+        "specific": "刘姥姥带板儿游大观园。在探春房中，巧姐抱着大柚子玩，见板儿抱佛手便也要。板儿已把佛手玩了半日，用柚子换了巧姐的佛手。脂批：「小儿常情遂成千里伏线。」"
+      },
+      "summary": {
+        "short": "巧姐与板儿互换玩具——巧姐得佛手（象征祥瑞），板儿得柚子（「柚子」谐「有子」）。脂批点破：两个孩子的无心之举，是日后姻缘的「千里伏线」。",
+        "meaning": [
+          "佛手（福寿）归巧姐、柚子（有子）归板儿——玩具互换即是聘礼互换的预演",
+          "脂批「千里伏线」——曹雪芹的伏笔可跨几十回而不漏",
+          "两个阶层的孩子互换玩具——贵族与农家的命运在此刻悄悄结扣"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "脂批的姻缘预言",
+          "content": "脂砚斋在佛手柚子处批「小儿常情遂成千里伏线」，是巧姐嫁板儿之说的最重要证据。玩具互换的象征逻辑也支持此说：佛手（福）与柚子（有子）互为聘礼——巧姐以贵族之「福」换板儿农家之「子」，二人的结合是「贵族下嫁农家」的结构完成。"
+        },
+        {
+          "type": "literary",
+          "title": "阶级相遇的温柔时刻",
+          "content": "这是全书阶级最悬殊的两个孩子唯一一次平等相处：没有尊卑、没有赏赐，只有「换玩具」的天然童趣。曹雪芹让未来的人生伴侣在幼年即完成「交换信物」的仪式——温柔中藏着命运的铁律。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ban_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiaojie_name_ch42",
+      "title": "刘姥姥取名「巧哥儿」",
+      "event_level": "major",
+      "chapter": {
+        "number": 42,
+        "title": "蘅芜君兰言解疑癖 潇湘子雅谑补余香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "巧姐生病，刘姥姥说可能是撞客了。凤姐便求刘姥姥为女儿取名——「到底贫苦些，你贫苦人起个名字，只怕压的住他」。刘姥姥取「巧哥儿」：以巧破巧、以毒攻毒。"
+      },
+      "summary": {
+        "short": "凤姐请刘姥姥给女儿取名。刘姥姥问出生时辰，得知七月初七，便说「这个正好，就叫他是巧哥儿」——「以毒攻毒，以火攻火」，日后「遇难成祥，逢凶化吉，都从这『巧』字上来」。凤姐大喜。",
+        "meaning": [
+          "命名即定命——刘姥姥的「巧」字与判词「巧得遇恩人」暗合",
+          "贵族小姐的名字来自村妇——阶级关系的一次温和倒转",
+          "凤姐一生精明，却把女儿的命运托付给一个村妇的「巧」字"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「巧」字的闭环",
+          "content": "刘姥姥取「巧哥儿」时说的话（遇难成祥、逢凶化吉）正是判词「巧得遇恩人」的白话版。曹雪芹让恩人亲口说出命运密码：巧姐一生最「巧」的事，就是遇到了刘姥姥。命名场景是全书因果结构的显形仪式。"
+        },
+        {
+          "type": "character",
+          "title": "凤姐罕见的「不自信」",
+          "content": "凤姐生平要强，唯独在女儿的病上低头——「到底贫苦些，只怕压的住他」。一个把命运握在自己手里的女人，在孩子的生死面前承认「压不住」，只能求助于民间智慧。这是凤姐母性的罕见流露，也是她与刘姥姥关系的深化：从施舍者到托付者。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiaojie_sold_ch118",
+      "title": "狠舅奸兄卖巧姐",
+      "event_level": "major",
+      "chapter": {
+        "number": 118,
+        "title": "记微嫌舅兄欺弱女 惊谜语妻妾谏痴人",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾琏外出，贾府势败。巧姐之舅王仁与贾环等合谋，欲将巧姐卖与外藩作使唤之人（或谓卖作偏房），以图银子。邢夫人被蒙蔽同意，王夫人等无力阻止。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写贾琏不在家时，王仁（狠舅）、贾环（奸兄之党）合谋将巧姐卖与外藩。邢夫人糊涂应允。王夫人、宝钗等闻讯惊怒，却一时无计——平儿急中生智，携巧姐暂避，并通知刘姥姥。",
+        "meaning": [
+          "「势败休云贵，家亡莫论亲」——卖她的正是至亲：舅舅与同族叔兄",
+          "《留余庆》「爱银钱忘骨肉的狠舅奸兄」在续书中得到直白兑现",
+          "巧姐被卖是贾府「亲情人伦」崩塌的最后证据"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「狠舅奸兄」的所指之争",
+          "content": "「狠舅」确指王仁（凤姐之兄）无争议；「奸兄」则众说纷纭：后四十回（gaoe）指贾芸（与王仁贾环合谋），但脂批线索下多数红学家认为「奸兄」更可能是贾芹（前八十回已写其堕落：贾芹管水月庵而与尼姑苟且）。部分学者则认为「奸兄」或指贾蓉。奸兄的所指是巧姐结局研究中的一桩悬案。"
+        },
+        {
+          "type": "literary",
+          "title": "骨肉之恶——「家亡莫论亲」",
+          "content": "卖巧姐的是她的亲舅舅与同族兄弟——曹雪芹（及续书作者）用最亲的血缘施最恶的暴行，把「势败家亡」的世态炎凉推到极致。巧姐的获救之所以感人，正因为出卖她的人与救她的人形成极端对照：亲者恶，疏者善。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xing_furen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_ren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiaojie_rescue_ch119",
+      "title": "刘姥姥救孤",
+      "event_level": "major",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府→刘姥姥庄上",
+        "specific": "刘姥姥闻讯赶来，冒险将巧姐藏匿，连夜带往乡下庄上避难。巧姐因而逃过被卖之劫。凤姐临终托孤（第一一三回）的嘱托至此兑现。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写刘姥姥第三次进荣国府（第一一三回），凤姐临终将巧姐托付于她。巧姐被卖之祸起时，刘姥姥赶来相救，把巧姐藏到乡下。判词「偶因济刘氏，巧得遇恩人」与《留余庆》「忽遇恩人」正式兑现。",
+        "meaning": [
+          "二十两银子的善因，结出了救命的善果——全书最完整的因果闭环",
+          "刘姥姥的「报恩」不是钱财偿还，而是以命相托的回报",
+          "巧姐从侯门小姐变为乡野女子——阶级跌落却是唯一的生路"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "因果闭环——曹雪芹的「余庆」设计",
+          "content": "巧姐的获救是全书唯一「善有善报」的闭环：凤姐第六回的施舍（半含傲慢的二十两银子）→刘姥姥的感恩（二进送瓜菜、三进救孤）。曹雪芹用这条线证明：在贾府上下无一善果的世界里，唯有凤姐那点「偶」然的善行留下了余庆。善恶报应不爽的劝世主题，由一个小女孩完成。"
+        },
+        {
+          "type": "character",
+          "title": "刘姥姥的义举——民间道德的胜利",
+          "content": "刘姥姥救巧姐冒的是大险（对抗贾府亲族的买卖），图的是大义（报恩）。在贵族亲族卖孤的对照下，一个村妇的道德高度照亮了全书——曹雪芹把「民间道德力量」写成了贵族世界的救赎者。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiaojie_marriage_ch120",
+      "title": "嫁与周家——结局的版本之争",
+      "event_level": "minor",
+      "chapter": {
+        "number": 120,
+        "title": "甄士隐详说太虚情 贾雨村归结红楼梦",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "刘姥姥庄上",
+        "specific": "后四十回（gaoe）写刘姥姥作媒，将巧姐许配庄上周姓富家之子。但脂批「千里伏线」等线索使多数红学家认为曹雪芹原意是嫁板儿。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）安排巧姐嫁周姓富家。但脂批（佛手柚子「千里伏线」）与判词画（荒村野店美人纺绩——「纺绩」暗示农家生活）都指向巧姐嫁板儿的结局。巧姐的婚姻归宿因此成为「后四十回 vs 脂批」的经典争议。",
+        "meaning": [
+          "「荒村野店美人纺绩」的册画——巧姐的归宿是农家的纺绩生活",
+          "嫁周家（富户）与嫁板儿（农家）的差异，关系「贵族彻底平民化」的主题强度",
+          "脂批「千里伏线」使板儿说成为红学界的主流推断"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "板儿说 vs 周家说",
+          "content": "板儿说依据：脂批「小儿常情遂成千里伏线」、佛手柚子互换的象征、判词画「纺绩」的农家意象。周家说依据：后四十回（gaoe）文本。多数红学家认为曹雪芹原意是嫁板儿——巧姐下嫁农家，完成「贵族阶层解体、回归平民」的主题，而周家「富户」的设定削弱了这一力度。"
+        },
+        {
+          "type": "literary",
+          "title": "纺绩——判词画里的阶级隐喻",
+          "content": "判词画中巧姐在「荒村野店」纺绩——纺绩是农妇的劳作，与侯门小姐的身份天差地别。曹雪芹把她的归宿画成「纺绩」，暗示她的命运是「回到土地上」——贵族梦醒后，土地是唯一的收容所。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ban_er",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiaojie_judgment_ch5",
+      "title": "太虚幻境判词——《留余庆》",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "宝玉见巧姐册页：画着「一座荒村野店，有一美人在那里纺绩」。判词与《留余庆》曲。"
+      },
+      "summary": {
+        "short": "巧姐的册页画着荒村野店美人纺绩——十二钗画中唯一「接地气」的一幅。判词「偶因济刘氏，巧得遇恩人」直接点明刘姥姥与巧姐的因果；《留余庆》曲以「劝人生，济困扶穷」作结。",
+        "meaning": [
+          "「纺绩」——侯门千金沦为农妇的命运预告",
+          "「狠舅奸兄」——被至亲出卖的预言",
+          "「乘除加减，上有苍穹」——天道循环的报应观"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "十二钗判词中唯一「有救」的结局",
+          "content": "十二钗判词几乎全是死局（病、杀、嫁、遁），唯有巧姐的判词写着「遇恩人」——她是唯一被「救」的金钗。但她的获救以「家亡势败」为前提：救她的不是权势，而是她失去权势之后母亲留下的唯一善缘。曹雪芹的悲悯在此：万艳同悲的世界里，留下了一个「留余庆」的例外。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_qiaojie_wang_xifeng",
+      "from": "character_jia_qiaojie",
+      "to": "character_wang_xifeng",
+      "type": "母女",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐是巧姐之母，也是她命运的因果起点：凤姐接济刘姥姥（善因）→刘姥姥救巧姐（善果）。凤姐一生精明狠辣，唯一留下的「余庆」正是对女儿的救命之恩。后四十回（gaoe）凤姐临终托孤刘姥姥，把女儿交给自己一生唯一做过的「善事」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "为女求名",
+          "chapter": 42,
+          "description": "凤姐放下身段请刘姥姥为巧姐取名——「只怕压的住他」。"
+        },
+        {
+          "stage": 1,
+          "title": "取名——凤姐罕见的母爱流露",
+          "chapter": 42,
+          "description": "凤姐请刘姥姥为女儿取名，表现出罕见的谦逊和对女儿的关切。这是全书中凤姐最接近「母亲」身份的一刻。"
+        },
+        {
+          "stage": 2,
+          "title": "临终托孤",
+          "chapter": 113,
+          "description": "凤姐临终将巧姐托付刘姥姥。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_qiaojie_name_ch42",
+          "description": "凤姐请刘姥姥为女儿取名"
+        }
+      ],
+      "impact": "凤姐一生害人无数，但唯有在「母亲」身份上留下了唯一的善因——这个善因最终救了女儿的一命。曹雪芹以这一对母女关系完成了全书最宏大的因果报应书写。"
+    },
+    {
+      "id": "relationship_qiaojie_liu_laolao",
+      "from": "character_jia_qiaojie",
+      "to": "character_liu_laolao",
+      "type": "恩人（命名与解救）",
+      "nature": [
+        "ambiguous",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "刘姥姥是巧姐的命名者与救命恩人：取名「巧哥儿」为她「以毒攻毒」；贾府败落时（后四十回，gaoe）冒险救她出虎口。判词「巧得遇恩人」指的就是刘姥姥。这段关系是全书因果结构的核心：母亲的偶然之善，兑换了女儿的救命之恩。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "取名定命",
+          "chapter": 42,
+          "description": "刘姥姥为巧姐取名「巧哥儿」，预言「遇难成祥，逢凶化吉」。"
+        },
+        {
+          "stage": 1,
+          "title": "赐名——结下命运的种子",
+          "chapter": 42,
+          "description": "刘姥姥为巧姐取名「巧哥儿」，预言其「遇难成祥，逢凶化吉」。这一命名仪式在神话层面赋予了刘姥姥以「命运守护者」的角色。"
+        },
+        {
+          "stage": 1,
+          "title": "取名",
+          "chapter": 42,
+          "description": "刘姥姥为巧姐取名「巧哥儿」——命名之约。"
+        },
+        {
+          "stage": 2,
+          "title": "托孤",
+          "chapter": 113,
+          "description": "凤姐临终托孤，刘姥姥应允。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 2,
+          "title": "赎救——以全部家产报恩",
+          "chapter": 119,
+          "description": "贾府败落后巧姐被卖，刘姥姥变卖田产将其赎出，带回乡下，为其安排婚事。从「赐名」到「赎身」，完成了全书最完整的施恩-报恩闭环。",
+          "note": "后四十回，attribution=gaoe"
+        },
+        {
+          "stage": 2,
+          "title": "救孤",
+          "chapter": 119,
+          "description": "刘姥姥冒险救巧姐，藏于乡间。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 3,
+          "title": "救孤",
+          "chapter": 119,
+          "description": "巧姐被卖之祸起，刘姥姥冒险救出，藏于乡间。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_qiaojie_name_ch42",
+          "description": "赐名结缘"
+        },
+        {
+          "event_id": "event_qiaojie_rescued_ch119",
+          "description": "变卖家产赎救"
+        }
+      ],
+      "impact": "刘姥姥与巧姐的关系是全书在毁灭一切之后唯一的「重建」叙事。在整个家族崩解、亲人相害的背景下，一个外姓的乡下人（刘姥姥）完成了连亲舅亲族都做不到的守护——这是曹雪芹对「血缘伦理」最彻底的反讽和对「民间道德」最高的礼赞。"
+    },
+    {
+      "id": "relationship_qiaojie_baner",
+      "from": "character_jia_qiaojie",
+      "to": "character_baner",
+      "type": "姻缘伏笔（佛手柚子之缘）",
+      "nature": [
+        "romantic",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "板儿是刘姥姥的外孙。第四十一回与巧姐互换佛手柚子——脂批「小儿常情遂成千里伏线」，红学界多据此推断曹雪芹原意中巧姐终嫁板儿。后四十回（gaoe）改嫁周家，与脂批线索相左。这段「玩具之缘」是全书最温柔也最隐微的姻缘伏笔。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "佛手柚子互换",
+          "chapter": 41,
+          "description": "板儿以柚子换巧姐的佛手——脂批「千里伏线」。"
+        },
+        {
+          "stage": 2,
+          "title": "（原意）姻缘",
+          "chapter": 80,
+          "description": "多数红学家推断的结局：巧姐嫁板儿，归农纺绩。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qiaojie_wang_ren",
+      "from": "character_jia_qiaojie",
+      "to": "character_wang_ren",
+      "type": "舅甥（狠舅）",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王仁是巧姐的舅舅（凤姐之兄），《留余庆》中的「狠舅」。后四十回（gaoe）写他在贾府势败后伙同他人图谋卖掉外甥女。判词「家亡莫论亲」的最直接注脚——至亲成为最险的刀。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "卖外甥女",
+          "chapter": 118,
+          "description": "王仁与贾环合谋卖巧姐。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qiaojie_jia_lian",
+      "from": "character_jia_qiaojie",
+      "to": "character_jia_lian",
+      "type": "父女",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾琏是巧姐之父。他对女儿的爱平淡而真实——巧姐出痘时他遵礼斋戒（虽转身就私通多姑娘）；后四十回（gaoe）写他闻知女儿被卖后追悔莫及、设法营救。贾琏的「庸人父爱」在家族败落中成为巧姐为数不多的依靠。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "出痘分房",
+          "chapter": 21,
+          "description": "巧姐出痘，贾琏凤姐分房斋戒。"
+        },
+        {
+          "stage": 2,
+          "title": "闻卖惊悔",
+          "chapter": 119,
+          "description": "贾琏归家闻知巧姐被卖，与众人设计营救。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qiaojie_pinger",
+      "from": "character_jia_qiaojie",
+      "to": "character_pinger",
+      "type": "庇护者（护孤）",
+      "nature": [
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）写平儿在巧姐被卖的危机中挺身而出：急中生智携巧姐暂避，并通知刘姥姥前来相救。平儿对凤姐之忠延续到其女身上——「忠仆护孤」是后四十回对平儿形象的正面补笔。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "护主救孤",
+          "chapter": 118,
+          "description": "平儿闻知卖巧姐之谋，急携巧姐躲避，设法求援。"
+        },
+        {
+          "stage": 1,
+          "title": "护孤出城",
+          "chapter": 119,
+          "description": "平儿护巧姐避祸乡间。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_qiaojie_judgment_song",
+      "title": "判词与《留余庆》曲",
+      "work_type": "判词/曲",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "判词：「势败休云贵，家亡莫论亲。偶因济刘氏，巧得遇恩人。」《留余庆》：「留余庆，留余庆，忽遇恩人；幸娘亲，幸娘亲，积得阴功。劝人生，济困扶穷，休似俺那爱银钱忘骨肉的狠舅奸兄！正是乘除加减，上有苍穹。」",
+      "symbolic_notes": "「偶因济刘氏」——「偶」字点出凤姐施善的无心；「巧得遇恩人」——「巧」字双关其名。荒村野店纺绩的册画，是她「归农」的预言。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_qiaojie_liulaolao",
+      "title": "巧姐判词与刘姥姥之间有什么关系？",
+      "slug": "qiaojie-judgment-and-liu-laolao",
+      "question_type": "fate_analysis",
+      "importance_weight": 78,
+      "heat_weight": 68,
+      "neutral_overview": "判词「偶因济刘氏，巧得遇恩人」把巧姐的命运与刘姥姥锁死在一起。一个侯门千金与一个乡村老妇，为何构成全书最重要的因果对？",
+      "viewpoint_ids": [
+        "viewpoint_qiaojie_karma",
+        "viewpoint_qiaojie_cycle"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_qiaojie_karma",
+          "title": "因果论：巧姐的命运是凤姐「善举」的利息",
+          "summary": "凤姐一生作恶多端（尤二姐、张金哥等），唯有一次「偶然」的善举——接济刘姥姥二十两银子。正是这唯一的善，兑换了女儿唯一的生机。曹雪芹的报应观极为精确：恶有恶报（凤姐死于权势尽失），善有善报（巧姐得救）——善恶的账，都由子女清偿。",
+          "evidence": [
+            "第六回接济刘姥姥的「偶然」善举",
+            "判词「偶因济刘氏，巧得遇恩人」的因果直陈"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_qiaojie_cycle",
+          "title": "轮回论：巧姐的命运是「贵族→平民」的世纪轮回",
+          "summary": "巧姐与刘姥姥的关系暗藏全书的阶级循环主题：贾府从「宁荣二公」创业起家，到巧姐一代「归农纺绩」——百年一循环，贵族从哪里来，回到哪里去。刘姥姥是土地的化身：巧姐获救于刘姥姥，即获救于土地。判词画「荒村野店美人纺绩」正是这个轮回的终点图景。",
+          "evidence": [
+            "判词画的「纺绩」意象",
+            "《留余庆》「济困扶穷」的劝世主题"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_qiaojie_ending",
+      "title": "巧姐的结局——嫁板儿还是嫁周家？",
+      "slug": "did-qiaojie-marry-baner-or-zhou",
+      "question_type": "version_dispute",
+      "importance_weight": 75,
+      "heat_weight": 70,
+      "neutral_overview": "后四十回写巧姐嫁周姓富家，但脂批「千里伏线」与判词画的「纺绩」意象都指向嫁板儿。哪个才是曹雪芹的原意？",
+      "viewpoint_ids": [
+        "vp_qiaojie_baner",
+        "vp_qiaojie_zhou"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_qiaojie_baner",
+          "title": "板儿说（脂批派）",
+          "summary": "佛手柚子互换处脂批「小儿常情遂成千里伏线」是最直接的证据；「柚子」谐「有子」暗示板儿得子；判词画「纺绩」指向农家生活而非富户。多数红学家（如周汝昌、蔡义江等）据此认为曹雪芹原意是巧姐嫁板儿，完成「贵族回归土地」的主题闭环。",
+          "evidence": [
+            "脂批「千里伏线」",
+            "佛手柚子互换的象征",
+            "判词画「荒村野店美人纺绩」"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_qiaojie_zhou",
+          "title": "周家说（后四十回文本）",
+          "summary": "后四十回（gaoe）安排刘姥姥作媒、巧姐嫁周姓富户之子。此说给巧姐一个「体面」的归宿，符合续书「沐皇恩延世泽」的美满化倾向。但其与判词画「纺绩」的农家意象相矛盾，被红学界普遍认为偏离原意。",
+          "evidence": [
+            "第一二〇回刘姥姥作媒的情节",
+            "周家「富户」设定与「纺绩」意象的落差"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "question_qiaojie_henjiu",
+      "title": "「狠舅奸兄」究竟是谁？",
+      "slug": "who-are-the-cruel-uncle-and-brother",
+      "question_type": "version_dispute",
+      "importance_weight": 70,
+      "heat_weight": 65,
+      "neutral_overview": "《留余庆》曲中的「狠舅奸兄」出卖巧姐——狠舅无争议是王仁，奸兄是谁则众说纷纭：贾芸？贾芹？还是贾蓉？",
+      "viewpoint_ids": [
+        "vp_henjiu_jiaqin",
+        "vp_henjiu_jiayun"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_henjiu_jiaqin",
+          "title": "贾芹说（脂批派主流）",
+          "summary": "多数红学家认为「奸兄」是贾芹：前八十回已写他管水月庵时与尼姑淫乱（第九十三回前后），品行败坏有据；且「芹」与「欺弱女」的回目（记微嫌舅兄欺弱女）中的「兄」字相合。脂批系统未明指，但贾芹的堕落铺垫最充分。",
+          "evidence": [
+            "贾芹管水月庵的劣迹",
+            "前八十回对贾芹堕落的铺垫"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_henjiu_jiayun",
+          "title": "贾芸说（后四十回文本）",
+          "summary": "后四十回（gaoe）写贾芸参与卖巧姐之谋——续书直接坐实「奸兄」为贾芸。但贾芸在前八十回中是宝玉的「义儿」、颇具侠气（送白海棠、赠绢帕之疑），续书让他卖巧姐与其前八十回形象相悖，被许多读者与学者视为人物塑造的断裂。",
+          "evidence": [
+            "第一一八回贾芸参与合谋的情节",
+            "贾芸前八十回的正面形象（义儿、赠海棠）"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "question_qiaojie_meaning",
+      "title": "巧姐在十二钗中有何独特意义？",
+      "slug": "what-is-qiaojies-unique-meaning-among-the-twelve",
+      "question_type": "theme_analysis",
+      "importance_weight": 75,
+      "heat_weight": 62,
+      "neutral_overview": "巧姐没有才貌的描写、没有爱情的纠葛、甚至几乎没有台词。这个「最不起眼」的金钗，凭什么位列十二钗正册？",
+      "viewpoint_ids": [
+        "vp_qiaojie_structure",
+        "vp_qiaojie_karma_meaning"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_qiaojie_structure",
+          "title": "结构论：她是「千红一哭」里的例外音",
+          "summary": "十二钗的命运几乎全是绝路，巧姐是唯一的例外——她是唯一被救出的金钗。这个例外不是随机设定的：曹雪芹需要一个「善有善报」的样本，来平衡全书的悲剧密度，也让「济困扶穷」的劝世主题有个落点。巧姐的存在，使悲剧不走向虚无。",
+          "evidence": [
+            "判词「巧得遇恩人」与《留余庆》的劝世主题",
+            "十二钗结局谱系中唯一的「获救」"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_qiaojie_karma_meaning",
+          "title": "报应论：她是凤姐故事的最终审判",
+          "summary": "巧姐的命运是凤姐一生的总结陈词：凤姐的恶（弄权铁槛寺、害尤二姐）结出贾府的败亡之果，凤姐的善（济刘姥姥）结出女儿的获救之果。巧姐不是独立的人物，而是凤姐善恶的天平——她的获救，是曹雪芹对凤姐的最终判决中唯一的减刑条款。",
+          "evidence": [
+            "凤姐善恶的双线（害人无数 vs 偶济刘氏）",
+            "巧姐命运的两次转折均系于凤姐的因果"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_qiaojie_yingou",
+      "title": "巧姐——「阴骘」主题的文学载体",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学果报主题研究",
+      "year": 1990,
+      "source_title": "多项因果报应主题研究",
+      "description": "学者指出，《留余庆》曲中的「积得阴功」「阴骘积儿孙」是理解巧姐形象的关键词：曹雪芹借巧姐写中国传统的「阴骘」观念——父母的善恶报应在子孙身上。凤姐「偶」济刘氏而得「余庆」，与「机深祸也深」的因果（张金哥案、尤二姐案）构成完整的报应体系。巧姐是这套体系的「收款人」：她是凤姐善恶之账的最终结算。"
+    },
+    {
+      "id": "viewpoint_qiaojie_yixiang",
+      "title": "「纺绩」意象——贵族回归土地的阶级寓言",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学意象研究",
+      "year": 1996,
+      "source_title": "多项意象与阶级研究",
+      "description": "判词画中巧姐「纺绩」的意象被学者广泛讨论：「纺绩」既是农妇的劳作，也是传统社会对女性美德的表彰（纺绩事亲）。巧姐从「侯门千金」到「荒村纺绩」，完成了贾府百年兴衰的阶级闭环——从布衣发家到回归布衣。有学者进一步指出「纺绩」与《好了歌》「荒冢一堆草没了」的呼应：一切荣华终归尘土，唯有劳动与土地永恒。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 7,
+    "total_relationships": 6,
+    "total_poems": 1,
+    "total_questions": 4,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 22,
+      "text_inference": 6,
+      "scholarly_viewpoint": 7,
+      "disputed_version": 17,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

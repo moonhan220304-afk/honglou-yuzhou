@@ -1,0 +1,919 @@
+{
+  "character": {
+    "id": "character_yuanyang",
+    "name": "鸳鸯",
+    "slug": "yuan-yang",
+    "aliases": [
+      "金鸳鸯",
+      "鸳鸯姐姐"
+    ],
+    "category": "荣国府丫鬟（贾母首席丫鬟）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "金文翔之女，兄金文翔（在贾府为奴），父母在南京看房子——荣国府家生之婢。",
+      "position": "贾母首席丫鬟（贴身大丫鬟），掌管贾母的私房体己。",
+      "origin": "贾府家生奴婢。",
+      "generation": "与袭人、晴雯等同侪的丫鬟阶层"
+    },
+    "tags": [
+      "金鸳鸯",
+      "贾母首席丫鬟",
+      "誓绝鸳鸯偶",
+      "剪发立誓",
+      "横竖不嫁人",
+      "鸳鸯女无意遇鸳鸯",
+      "殉主",
+      "司棋",
+      "贾赦"
+    ],
+    "summary": {
+      "short": "贾母首席丫鬟，全书最刚烈的丫鬟。第四十六回「鸳鸯女誓绝鸳鸯偶」——贾赦逼娶，她剪发立誓「横竖不嫁人」；第七十一回「鸳鸯女无意遇鸳鸯」——她撞见司棋的私情却守口如瓶。后四十回（gaoe）她殉主自缢。",
+      "long": "鸳鸯是贾母身边的第一人：管着老太太的私房、传着老太太的话，连凤姐贾琏都要赔笑叫一声「鸳鸯姐姐」。她的地位在丫鬟层里独一无二，她的悲剧也独一无二。第四十六回「尴尬人难免尴尬事 鸳鸯女誓绝鸳鸯偶」：贾赦看中了她，遣邢夫人来说，先许「现成主子」，再压「鸳鸯的爹娘」，甚至放出「凭他嫁到谁家去，也难出我的手心」的狠话。鸳鸯的回应是全书最响亮的一声「不」——她当着平儿、袭人的面发誓：「我这一辈子，莫说是宝玉，就是宝金、宝银、宝天王、宝皇帝，横竖不嫁人就完了！」又在贾母面前剪发明志：「就是老太太逼着我，我一刀子抹死了，也不能从命！」贾母大怒护她，这场逼婚以贾赦灰头土脸收场。她的刚烈不是泼辣，是清醒：她太知道「当小老婆」是什么下场——「不然你们就弄个半死不活的人，还要留着她做什么？」第七十一回「鸳鸯女无意遇鸳鸯」：她撞见司棋与表兄潘又安私会，却许诺「我横竖不告诉一个人就是了」——回目双关，把她名字里的「鸳鸯」二字翻出了最悲凉的层次：名为鸳鸯，却立誓不嫁；无意撞鸳鸯，却要护着别人的鸳鸯。后四十回（gaoe，第一一一回「鸳鸯女殉主登太虚」）写贾母死后她自缢殉主，魂归太虚幻境掌「痴情司」——续书写她与可卿会合，了却情缘。红学家论鸳鸯，多聚焦她的「不嫁宣言」：那是全书奴隶阶层最响亮的独立宣言——她的身份是奴，她的选择是「人」。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "刚——敢对「宝天王」说不",
+        "fact_type": "canonical_text_fact",
+        "description": "鸳鸯的刚烈是全书丫鬟之最：剪发、立誓、抹脖子的话都说得出。她的刚不是晴雯的任性，是清醒的决绝——她知道退一步就是深渊，所以一步不退。"
+      },
+      {
+        "dimension": "慧——贾母身边的「总钥匙」",
+        "fact_type": "canonical_text_fact",
+        "description": "鸳鸯管着贾母的全部体己：银钱出入、衣饰分派、应酬应对，无一不精。第四十回「金鸳鸯三宣牙牌令」，她能在老太太的宴席上指挥若定——她的「慧」是首席丫鬟的立身之本。"
+      },
+      {
+        "dimension": "义——护别人的「鸳鸯」",
+        "fact_type": "canonical_text_fact",
+        "description": "第七十一回撞见司棋私情，她本可揭发，却选择守口如瓶。她自己拒绝爱情，却守护别人的爱情——这份「义」使她的形象超越了忠仆，进入人格的高处。"
+      },
+      {
+        "dimension": "醒——看透妾室之路的清醒",
+        "fact_type": "canonical_text_fact",
+        "description": "鸳鸯对「当小老婆」的认知是全府丫鬟中最清醒的：她见过平儿的忍、袭人的爬、赵姨娘的惨——「你们再了不得，也不过是个小老婆」。她的不嫁是看透之后的选择，不是一时之勇。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_yuanyang_ch24",
+        "title": "宝玉缠鸳鸯吃胭脂（第二十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_yuanyang_ch40",
+        "title": "金鸳鸯三宣牙牌令（第四十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_yuanyang_ch46",
+        "title": "鸳鸯女誓绝鸳鸯偶（第四十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_yuanyang_ch71",
+        "title": "鸳鸯女无意遇鸳鸯（第七十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_yuanyang_ch72",
+        "title": "鸳鸯借当（第七十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_yuanyang_ch110",
+        "title": "贾母去世（第一一〇回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 7,
+        "event_id": "event_yuanyang_ch111",
+        "title": "鸳鸯女殉主登太虚（第一一一回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch46_yuanyang_shi",
+        "quote": "鸳鸯……对着平儿、袭人道：「我这一辈子，莫说是宝玉，就是宝金、宝银、宝天王、宝皇帝，横竖不嫁人就完了！……就是老太太逼着我，我一刀子抹死了，也不能从命！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十六回。全书的「独立宣言」——一个丫鬟对婚姻制度的终极拒绝。"
+      },
+      {
+        "source_id": "source_ch46_yuanyang_jianfa",
+        "quote": "鸳鸯……左手打开头发，右手便铰。……「凭你们怎么怎么样，我横竖不嫁人就完了！」……贾母听了，气的浑身乱战，口内只说：「我通共剩了这么一个可靠的人，他们还要来算计！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十六回。剪发明志——头发是身体的誓书；贾母之怒，是全书对贾赦的又一次公开否定。"
+      },
+      {
+        "source_id": "source_ch71_yuanyang_siqi",
+        "quote": "鸳鸯……说：「你放心，我横竖不告诉一个人就是了。」……（司棋）说：「如今咱们两个，都算报过了恩了。」……「鸳鸯女无意遇鸳鸯」。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十一回。撞见司棋私情而守口如瓶——回目双关：她自己无缘鸳鸯偶，却护住了别人的鸳鸯。"
+      },
+      {
+        "source_id": "source_ch46_yuanyang_shi",
+        "quote": "鸳鸯冷笑道：「……我是横了心的，当着众人在这里，我这一辈子莫说是『宝玉』，便是『宝金』『宝银』『宝天王』『宝皇帝』，横竖不嫁人就完了！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十六回誓词的完整版。宝金宝银宝天王宝皇帝的排比——把「宝」字辈的一网打尽，连皇帝都不在话下。"
+      },
+      {
+        "source_id": "source_ch111_yuanyang_xunzhu",
+        "quote": "鸳鸯……哭了一场，想：「……老太太疼我一场，我跟了去，倒也干净。」……鸳鸯殉主，缢于贾母房内。……秦氏引她至太虚幻境，封为「痴情司」之神。",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第一一一回「鸳鸯女殉主登太虚」。续书写她自缢殉主，与可卿会合于太虚幻境。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "贾母之婢，名「鸳鸯」——取鸳鸯鸟（成双之鸟）之名",
+      "detail": "鸳鸯是爱情的象征鸟——成双成对、生死相随。贾母之婢却以此为名，而本人立誓「横竖不嫁人」：名字的成双与命运的独身构成全书最冷的反讽。第七十一回回目「鸳鸯女无意遇鸳鸯」更以双关点题：名为鸳鸯，却撞见（并保护）别人的鸳鸯——她一生与「鸳鸯」无缘，却成全了别人的鸳鸯。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；贾母首席丫鬟，与袭人平儿金钏年龄接近，约十八九岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "金鸳鸯",
+      "type": "回目称号",
+      "context": "第四十回回目「金鸳鸯三宣牙牌令」——「金」写其贵重，是贾母房中第一人",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "鸳鸯姐姐",
+      "type": "府内称谓",
+      "context": "凤姐、贾琏等对她的尊称——连主子都要赔笑，她的实际地位可见一斑",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_yuanyang_ch24",
+      "title": "宝玉缠鸳鸯吃胭脂",
+      "event_level": "minor",
+      "chapter": {
+        "number": 24,
+        "title": "醉金刚轻财尚义侠 痴女儿遗帕惹相思",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "宝玉挨着鸳鸯，扭股糖似的粘在她身上，要吃她嘴上的胭脂。鸳鸯叫袭人来管他。"
+      },
+      "summary": {
+        "short": "宝玉缠着鸳鸯要吃胭脂——一个少年的痴气，日后竟成了贾赦逼婚时疑心「鸳鸯与宝玉有情」的话柄。这个小场面埋下的线，第四十六回被引爆。",
+        "meaning": [
+          "吃胭脂是宝玉「情不情」的日常——对丫鬟的亲近不带恶意",
+          "鸳鸯的拒绝得体——首席丫鬟的分寸感",
+          "此事的「嫌疑」被贾赦利用——清者自清，浊者自浊"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "被疑心的伏笔",
+          "content": "贾赦后来疑心鸳鸯「必定是嫌我老了……恋着宝玉」，理由之一就是这类亲昵场面。曹雪芹让读者先看见清白的日常，再看见污浊的猜疑——鸳鸯的不嫁宣言，正是对这种猜疑的总清算。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_yuanyang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanyang_ch40",
+      "title": "金鸳鸯三宣牙牌令",
+      "event_level": "minor",
+      "chapter": {
+        "number": 40,
+        "title": "史太君两宴大观园 金鸳鸯三宣牙牌令",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "贾母两宴大观园，鸳鸯在旁宣令：既服侍贾母，又调度刘姥姥，行令劝酒、插科打诨，全场节奏尽在她一人掌握。凤姐还要看她的眼色行事。"
+      },
+      "summary": {
+        "short": "第四十回是鸳鸯的「能力展示」：贾母的盛宴由她指挥，凤姐的玩笑由她配合，刘姥姥的闹剧由她调度——「金鸳鸯」之「金」，先在这一场的风光里闪光。",
+        "meaning": [
+          "首席丫鬟的「帅才」——她不只是服侍人，是主持局面",
+          "凤姐与她的默契——贾母体系里最核心的两个人",
+          "今日的风光与第四十六回的险境——地位的顶峰离悬崖只有六回"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "风光与悬崖",
+          "content": "曹雪芹把鸳鸯最风光的一场（三宣牙牌令）安排在她最凶险的一场（誓绝鸳鸯偶）之前——顶峰之后就是悬崖。她的能力越强，贾赦越想要她；她的地位越高，跌下去越惨。第四十回的笑声，是为第四十六回的泪蓄势。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_yuanyang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanyang_ch46",
+      "title": "鸳鸯女誓绝鸳鸯偶",
+      "event_level": "major",
+      "chapter": {
+        "number": 46,
+        "title": "尴尬人难免尴尬事 鸳鸯女誓绝鸳鸯偶",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/贾母房中",
+        "specific": "贾赦逼娶鸳鸯，先遣邢夫人诱劝，再压鸳鸯的哥嫂施压，并放出「凭他嫁到谁家去，也难出我的手心」的狠话。鸳鸯对平儿袭人发誓「横竖不嫁人」，又在贾母面前剪发明志：「就是老太太逼着我，我一刀子抹死了，也不能从命！」贾母大怒，斥邢夫人，护住鸳鸯。"
+      },
+      "summary": {
+        "short": "全书奴隶阶层最响亮的一声「不」：面对大老爷的逼娶、兄嫂的施压、全府的观望，鸳鸯剪发立誓，宁死不从。她的宣言不为自己攀高枝，只为守住「人」的底线——「横竖不嫁人就完了」。",
+        "meaning": [
+          "「不嫁宣言」的靶心不是贾赦，是妾室制度本身——她看透了「小老婆」之路",
+          "剪发是身体的誓书——丫鬟的全部，只此一身",
+          "贾母的护是庇护也是囚笼——鸳鸯的「自由」止于贾母在世之时"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "不嫁宣言的启蒙意义",
+          "content": "学者多把鸳鸯的「横竖不嫁人」视为全书丫鬟阶层自主意识的最高点：她拒绝的不是一个人，是一条路——妾室之路（平儿式的忍、赵姨娘式的惨、袭人式的爬）。她的宣言与宝玉「女儿是水做的」相互辉映：一个拒绝异化女性的制度，一个守护女儿的价值。"
+        },
+        {
+          "type": "character",
+          "title": "刚烈的清醒",
+          "content": "鸳鸯的刚不是莽：她的每一句话都经过深思——「就是老太太逼着我」一句，说明她早想好了与贾母摊牌的底线；「弄个半死不活的人」的质问，说明她看透了贾赦的盘算。刚烈是表，清醒是里——这是鸳鸯与晴雯之烈最大的区别。"
+        },
+        {
+          "type": "literary",
+          "title": "鸳鸯偶的讽刺结构",
+          "content": "回目「鸳鸯女誓绝鸳鸯偶」：名为鸳鸯的人，立誓拒绝鸳鸯偶。曹雪芹用回目做了一次双关手术——把爱情象征与拒婚誓言焊在一起，让这个丫鬟的名字在反讽中获得新的意义：她才是真正的「鸳鸯」，因为她的「不」守住了爱的纯粹。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_yuanyang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xing_furen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanyang_ch71",
+      "title": "鸳鸯女无意遇鸳鸯",
+      "event_level": "major",
+      "chapter": {
+        "number": 71,
+        "title": "嫌隙人有心生嫌隙 鸳鸯女无意遇鸳鸯",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "鸳鸯夜归，无意中撞见司棋与表兄潘又安在山石后私会。司棋跪求保密，鸳鸯许诺「我横竖不告诉一个人就是了」。后司棋因此事败露被逐。"
+      },
+      "summary": {
+        "short": "立誓不嫁的鸳鸯，撞见了别人的私情——回目「鸳鸯女无意遇鸳鸯」的双关，把全书最辛酸的对照写尽：她自己无缘鸳鸯偶，却要守护别人的鸳鸯。",
+        "meaning": [
+          "「无意」遇「鸳鸯」——她一生与爱情无缘，却成了爱情的目击者与保护者",
+          "「横竖不告诉一个人」——与第四十六回的「横竖不嫁人」句式呼应，两个誓言，一样坚定",
+          "司棋之败——鸳鸯护得了一时，护不了制度的手"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "双关的悲凉",
+          "content": "「鸳鸯女无意遇鸳鸯」是《红楼梦》回目双关的巅峰：名为鸳鸯的人，撞见实为鸳鸯的两个人。她不嫁的誓言与司棋敢爱的勇气在此相遇——一个弃爱，一个殉爱，殊途同归地死在制度的绞索里。"
+        },
+        {
+          "type": "character",
+          "title": "守护者的义",
+          "content": "鸳鸯本可以揭发司棋（主子的规矩要求她这么做），她却选择保密。这是全书丫鬟层最动人的「义」之一：她自己放弃了爱情，却拼死守护别人的爱情。她的「不嫁」因此不是冰冷，是把自己得不到的东西，转手护给别人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_yuanyang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_pan_youan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_siqi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanyang_ch72",
+      "title": "鸳鸯借当——贾母体己的暗流",
+      "event_level": "minor",
+      "chapter": {
+        "number": 72,
+        "title": "王熙凤恃强羞说病 来旺妇倚势霸成亲",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾府财政吃紧，贾琏央鸳鸯把贾母不用的金银家伙「借」出来当了应急。鸳鸯默许。此事后被邢夫人探知，成为大房二房矛盾的又一桩公案。"
+      },
+      "summary": {
+        "short": "贾琏凤姐周转不开，求到鸳鸯头上——贾母的体己，只有她能动。这个事件写出她的权力本质：她是贾母私库的总钥匙，也是全府财政暗流的总开关。",
+        "meaning": [
+          "「借当」暴露贾府的财务危机——表面的富贵靠当老太太的家底撑着",
+          "鸳鸯的默许是拿自己的命在冒险——事发，第一个倒霉的是她",
+          "她帮贾琏，是念凤姐之情——首席丫鬟的人情网络"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "总钥匙的风险",
+          "content": "鸳鸯的权力（管体己）与她的风险（借当败露）成正比。她明知「这事若弄出来，我怎么办」，还是应了——她的义气使她一次次把自己置于险境。贾赦想娶她，何尝不是想配这把「总钥匙」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_yuanyang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xing_furen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanyang_ch110",
+      "title": "贾母去世——靠山的崩塌",
+      "event_level": "major",
+      "chapter": {
+        "number": 110,
+        "title": "史太君寿终归地府 王凤姐力诎失人心",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "后四十回（gaoe）写贾母寿终。鸳鸯大哭，主持丧事、守灵尽哀。贾母一去，她与贾赦的旧账无人再护——众人皆道她的处境危矣。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）里，贾母之死抽走了鸳鸯的保护伞：当年拒婚结下的仇，随着靠山倒下而重新压来。她守灵尽哀——哀的不只是主子，更是自己即将失去的栖身之所。",
+        "meaning": [
+          "贾母在，鸳鸯是「第一人」；贾母去，鸳鸯是「第一靶」",
+          "守灵是她最后的主仆之情，也是她对未来的恐惧",
+          "她与贾赦的旧账——拒婚者的「报应」已经在路上"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "末日前的哀恸",
+          "content": "鸳鸯哭贾母，是全书最重的一哭：主子死了，丫鬟的「活路」也死了。她的悲痛里混着对自己命运的预知——贾母之灵前的每一滴泪，都是为自己提前流的。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_yuanyang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanyang_ch111",
+      "title": "鸳鸯女殉主登太虚",
+      "event_level": "major",
+      "chapter": {
+        "number": 111,
+        "title": "鸳鸯女殉主登太虚 狗彘奴欺天招伙盗",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "后四十回（gaoe）写鸳鸯自缢殉主。其魂被秦可卿引入太虚幻境，接任「痴情司」之职。贾府上下感其忠义，贾赦等人亦无可如何。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）给鸳鸯的结局是殉主自缢——与其落入贾赦之手，不如干干净净跟了老太太去。续书更安排她魂登太虚，与可卿会合，掌痴情司。",
+        "meaning": [
+          "殉主是「横竖不嫁人」的最终兑现——以死完成誓言",
+          "魂登太虚的神话补偿——续书给刚烈者的体面",
+          "与可卿会合——「情」之一系的丫鬟，归入「情」的册页"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "殉主结局的评价",
+          "content": "续书（gaoe）的鸳鸯殉主被普遍认为处理出色：它以「死」完成了第四十六回「横竖不嫁人」的誓言闭环——活着不嫁，死了也不嫁。亦有论者存疑：前八十回无殉主伏笔，脂批亦无明示，鸳鸯之死是续书的最佳推断而非曹雪芹原笔。",
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "type": "character",
+          "title": "以死拒辱",
+          "content": "鸳鸯的死是「不」字的最终形态：她拒绝的不是死亡，是屈辱——「跟了去，倒也干净」。这个「干净」与黛玉的「质本洁来还洁去」同源：清白之人，只求干净的死法。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_yuanyang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_yuanyang_jia_mu",
+      "from": "character_yuanyang",
+      "to": "character_jia_mu",
+      "type": "主仆（首席丫鬟与靠山）",
+      "nature": [
+        "master_servant",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "鸳鸯与贾母是全书最稳固的主仆关系：她管贾母的体己、传贾母的话、替贾母的场子作主。贾母的庇护是她全部的安全——「我通共剩了这么一个可靠的人」，反过来说，鸳鸯也只剩老太太一个靠山。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "首席丫鬟",
+          "chapter": 24,
+          "description": "鸳鸯日常服侍贾母，执掌体己。"
+        },
+        {
+          "stage": 2,
+          "title": "剪发托庇",
+          "chapter": 46,
+          "description": "贾母怒护鸳鸯，挡下贾赦。"
+        },
+        {
+          "stage": 3,
+          "title": "殉主",
+          "chapter": 111,
+          "description": "贾母死后鸳鸯自缢相随。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yuanyang_jia_baoyu",
+      "from": "character_yuanyang",
+      "to": "character_jia_baoyu",
+      "type": "主仆（清白与嫌疑）",
+      "nature": [
+        "master_servant",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "鸳鸯与宝玉的关系清白，却被贾赦疑心「恋着宝玉」。宝玉对鸳鸯亲近而尊重，鸳鸯立誓时把「宝天王」也一网打尽——她的「不嫁」连宝玉都不留余地，这正是清白的证明：她谁都不嫁。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "吃胭脂的风波",
+          "chapter": 24,
+          "description": "宝玉缠鸳鸯吃胭脂——亲昵的日常。"
+        },
+        {
+          "stage": 2,
+          "title": "誓词撇清",
+          "chapter": 46,
+          "description": "「就是宝玉……横竖不嫁人就完了」——连宝玉一并拒绝。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yuanyang_siqi",
+      "from": "character_yuanyang",
+      "to": "character_siqi",
+      "type": "撞破与遮掩（守护与私情）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "鸳鸯撞见司棋私情却守口如瓶——两个丫鬟，一个弃爱，一个殉爱。司棋被逐后，这段「保密之恩」成为二人之间无言的纽带。回目「鸳鸯女无意遇鸳鸯」就是为她们而设。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "撞破",
+          "chapter": 71,
+          "description": "鸳鸯撞见司棋与潘又安私会。"
+        },
+        {
+          "stage": 1,
+          "title": "撞见与遮掩",
+          "chapter": 71,
+          "description": "鸳鸯撞见司棋潘又安幽会，赌咒替她保密。"
+        },
+        {
+          "stage": 2,
+          "title": "保密",
+          "chapter": 71,
+          "description": "鸳鸯许诺「横竖不告诉一个人」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yuanyang_jia_lian",
+      "from": "character_yuanyang",
+      "to": "character_jia_lian",
+      "type": "借当交易（人情与风险）",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾琏求鸳鸯偷当贾母金银，鸳鸯念凤姐之情默许。这场「借当」把她拖进贾府财务的暗流——她的人情网络越广，她承担的风险越大。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "借当",
+          "chapter": 72,
+          "description": "鸳鸯默许贾琏偷当贾母体己。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yuanyang_jin_wenxiang",
+      "from": "character_yuanyang",
+      "to": "character_jin_wenxiang",
+      "type": "兄妹（施压者）",
+      "nature": [
+        "family",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "金文翔是鸳鸯之兄，在贾赦的压力下充当说客，劝妹妹应了亲事。鸳鸯怒斥兄嫂：「我成了正果，就是你们的好日子了！」——血缘在利益面前，也可以被用来贩卖妹妹。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "说亲施压",
+          "chapter": 46,
+          "description": "金文翔夫妻受贾赦之命劝嫁鸳鸯。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_yuanyang_refuse",
+      "title": "鸳鸯拒绝贾赦，到底拒绝的是什么？",
+      "slug": "what-did-yuanyang-really-refuse",
+      "question_type": "character_motivation",
+      "importance_weight": 80,
+      "heat_weight": 76,
+      "neutral_overview": "贾赦许的是「现成主子」——多少丫鬟求之不得。鸳鸯却剪发立誓，宁死不从。她拒绝的究竟是什么？",
+      "viewpoint_ids": [
+        "vp_yuanyang_aogu",
+        "vp_yuanyang_lianzhu",
+        "vp_yuanyang_jiashe",
+        "vp_yuanyang_self"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_yuanyang_aogu",
+          "title": "傲骨论：她不屑「小老婆」之路",
+          "summary": "鸳鸯的拒绝是人格的拒绝：她亲眼见过妾室之路的全景——平儿的忍、赵姨娘的惨、袭人的爬——她不想成为其中任何一种。她的傲不是身份之傲，是人格之傲：宁做贾母的丫鬟，不做贾赦的姨娘。",
+          "evidence": [
+            "「你们再了不得，也不过是个小老婆」的清醒认知",
+            "对平儿、赵姨娘等妾室命运的观察"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yuanyang_lianzhu",
+          "title": "恋主论：舍不得贾母，更怕离开庇护",
+          "summary": "鸳鸯的全部地位与安全系于贾母：离了老太太，她便什么都不是。拒婚有现实考量——嫁了贾赦，等于同时失去贾母的庇护与丫鬟的自由。她的「恋主」既是感情，也是生存理性。",
+          "evidence": [
+            "她是贾母私库的执掌者",
+            "「我通共剩了这么一个可靠的人」的互相依赖"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_yuanyang_jiashe",
+          "title": "嫌人论：贾赦其人，不堪与共",
+          "summary": "贾赦是全书最不堪的老爷：好色、昏聩、逼人致死。鸳鸯宁死不嫁，一半原因就是对方是贾赦——「他倒是一辈子不娶女人，单把个奴才的女儿作践」的愤怒，是对贾赦之流的彻底轻蔑。",
+          "evidence": [
+            "贾赦逼娶的种种不堪手段（兄嫂施压、放狠话）",
+            "贾赦后来买嫣红等事的佐证"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_yuanyang_self",
+          "title": "自主论：她要的是「不嫁」本身的选择权",
+          "summary": "鸳鸯的宣言核心是「横竖不嫁人」——她拒绝的不仅是贾赦，更是「被安排」这件事本身。丫鬟的一生全由主子安排，唯有「不」字是她自己的。她的拒婚是全书奴隶阶层自主意识的最高宣言。",
+          "evidence": [
+            "「横竖不嫁人就完了」的绝对语气",
+            "「就是老太太逼着我」也不从的底线"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_yuanyang_baoyu",
+      "title": "鸳鸯与宝玉之间有没有私情？",
+      "slug": "was-there-love-between-yuanyang-and-baoyu",
+      "question_type": "relationship_analysis",
+      "importance_weight": 72,
+      "heat_weight": 68,
+      "neutral_overview": "贾赦疑心鸳鸯「恋着宝玉」。吃胭脂的场面、拒婚时把宝玉也「一网打尽」——二人关系到底如何？",
+      "viewpoint_ids": [
+        "vp_yuanyang_love",
+        "vp_yuanyang_clean",
+        "vp_yuanyang_friend"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_yuanyang_love",
+          "title": "有理论：贾赦的疑心并非空穴来风",
+          "summary": "贾赦的怀疑有表面依据：宝玉吃胭脂的亲昵、鸳鸯对宝玉的维护。且鸳鸯誓词把宝玉放在「宝天王」之首——越是否认得急切，越有此地无银之嫌。在丫鬟心中，宝玉是唯一「不像主子」的主子，有情愫亦合情理。",
+          "evidence": [
+            "第二十四回吃胭脂的亲昵",
+            "贾赦「必定是恋着宝玉」的疑心"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yuanyang_clean",
+          "title": "无理论：清白的关系，被借题发挥",
+          "summary": "鸳鸯与宝玉清清白白：她拒绝宝玉与拒绝贾赦用的是同一个「横竖不嫁人」。贾赦的疑心是拒婚者恼羞成怒的泼脏水——把「不愿嫁我」污蔑成「恋着别人」。誓词里把宝玉一并拒绝，恰恰是最有力的自证。",
+          "evidence": [
+            "「就是宝玉……横竖不嫁人就完了」的一视同仁",
+            "鸳鸯与宝玉全书无任何私情描写"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_yuanyang_friend",
+          "title": "友理论：大丫鬟与小主人的互敬",
+          "summary": "鸳鸯与宝玉是「互敬的朋友」：宝玉尊重她的地位与人格，她欣赏宝玉待女儿的真心。这种情谊高于主仆、不及男女——是宝玉「女儿观」在大丫鬟身上最健康的投射。",
+          "evidence": [
+            "宝玉对鸳鸯从无轻侮之行",
+            "鸳鸯对宝玉的维护（如瞒下借当等事）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_yuanyang_shuangguan",
+      "title": "「鸳鸯女无意遇鸳鸯」——这个双关意味着什么？",
+      "slug": "what-does-the-yuanyang-pun-mean",
+      "question_type": "literary_analysis",
+      "importance_weight": 74,
+      "heat_weight": 70,
+      "neutral_overview": "第七十一回回目用「鸳鸯」双关：名为鸳鸯的人，撞见成双的人。这个双关的深意是什么？",
+      "viewpoint_ids": [
+        "vp_yuanyang_irony",
+        "vp_yuanyang_foreshadow",
+        "vp_yuanyang_guardian"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_yuanyang_irony",
+          "title": "反讽论：无缘者目击有缘",
+          "summary": "双关的第一层是反讽：名为鸳鸯（爱情之鸟）的人立誓不嫁，却在深夜撞见别人的鸳鸯偶。她一生与爱情无缘，命运却安排她做爱情的目击者——最冷的名字，最热的场面。",
+          "evidence": [
+            "「横竖不嫁人」与「无意遇鸳鸯」的对照",
+            "鸳鸯鸟象征与人物命运的落差"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yuanyang_foreshadow",
+          "title": "伏笔论：司棋之败预示她的结局",
+          "summary": "双关的第二层是伏笔：司棋与潘又安的私情败露、司棋被逐、潘又安出逃——这段「鸳鸯」以毁灭收场，预示了鸳鸯自己的结局（殉主自缢，gaoe）。她撞见的不是别人的爱情，是自己的谶语。",
+          "evidence": [
+            "司棋事件的悲剧走向",
+            "鸳鸯殉主结局与司棋之死的同构性"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yuanyang_guardian",
+          "title": "守护论：弃爱者的成全",
+          "summary": "双关的第三层是人物的升华：鸳鸯对司棋的保密，使「无意遇鸳鸯」变成「有意护鸳鸯」——她自己放弃了爱情，却拼死守护别人的爱情。她的「不嫁」因此不是冰冷，而是一种更深的对「鸳鸯」的成全。",
+          "evidence": [
+            "「横竖不告诉一个人」的许诺",
+            "与第四十六回誓词句式的呼应"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_yuanyang_ending",
+      "title": "后四十回鸳鸯殉主自缢——这个结局合理吗？",
+      "slug": "is-yuanyangs-suicide-ending-reasonable",
+      "question_type": "version_dispute",
+      "importance_weight": 72,
+      "heat_weight": 68,
+      "neutral_overview": "续书（gaoe）让鸳鸯在贾母死后自缢殉主，魂登太虚。这个结局与她的「横竖不嫁人」誓言是什么关系？",
+      "viewpoint_ids": [
+        "vp_yuanyang_ending_yes",
+        "vp_yuanyang_ending_doubt"
+      ],
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "viewpoints": [
+        {
+          "id": "vp_yuanyang_ending_yes",
+          "title": "合理论：以死完成「不」的誓言",
+          "summary": "贾母一死，贾赦的旧账必然清算——鸳鸯面前只有两条路：屈从或死。她选择死，正是「横竖不嫁人」的最终兑现：活着不嫁，死了也不嫁。殉主结局与她的刚烈、清醒、决绝一脉相承，是续书最成功的处理之一。",
+          "evidence": [
+            "第四十六回「难出我的手心」的威胁",
+            "「跟了去，倒也干净」的决绝"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_yuanyang_ending_doubt",
+          "title": "存疑论：前八十回无殉主伏笔",
+          "summary": "脂批对鸳鸯结局无明示，前八十回亦无殉主暗示；以她的聪慧，逃离（如随众人散出）未必不可行。殉主是续书基于人物性格的合理推断，却未必是曹雪芹原意。且「魂登太虚掌痴情司」的神话处理，与前八十回写实基调有落差。",
+          "evidence": [
+            "脂批无鸳鸯结局提示",
+            "「殉主」对奴婢制度的歌颂色彩"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_yuanyang_ziyou",
+      "title": "鸳鸯——「奴隶中的自由人」与不嫁宣言",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1986,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者普遍将鸳鸯视为《红楼梦》丫鬟中自主意识最高的人物：她的「横竖不嫁人」是全书奴隶阶层最响亮的独立宣言——拒绝的不是一个丈夫，而是一条被安排的命运。王昆仑等论者指出，鸳鸯形象的价值在于「以奴的身分，行人的选择」：她不是反抗某一个主子，而是反抗「身为下贱」的整个前提。她的殉主（gaoe）因此被读作宣言的完成：以死拒绝一切安排。"
+    },
+    {
+      "id": "viewpoint_yuanyang_tanmi",
+      "title": "鸳鸯结局的探佚之争",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学探佚研究",
+      "year": 1994,
+      "source_title": "多项探佚学研究",
+      "description": "关于鸳鸯在曹雪芹原稿中的结局，学界有不同推断：一说殉主自缢（续书所本），一说被贾赦报复而死，一说随贾府败落流散。判词册页无鸳鸯（她非十二钗），脂批亦无明示，故其结局纯属探佚。有论者注意到第四十六回「难出我的手心」的威胁与「横竖不嫁人」的誓言，认为曹雪芹必会让贾赦的威胁兑现——鸳鸯之死，应死于对贾赦的拒绝。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 7,
+    "total_relationships": 6,
+    "total_poems": 0,
+    "total_questions": 4,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 32,
+      "text_inference": 10,
+      "scholarly_viewpoint": 4,
+      "disputed_version": 9,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

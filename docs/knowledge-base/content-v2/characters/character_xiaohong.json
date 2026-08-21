@@ -1,0 +1,572 @@
+{
+  "character": {
+    "id": "character_xiaohong",
+    "name": "小红",
+    "slug": "xiao-hong",
+    "aliases": [
+      "林红玉",
+      "红儿"
+    ],
+    "category": "荣国府丫鬟（怡红院→凤姐房下）",
+    "importance_level": "supporting",
+    "content_level": "L1",
+    "identity": {
+      "family": "荣国府世仆之家：父亲林之孝（收管各处田房事务），母亲林之孝家的（管家奶奶）。",
+      "position": "怡红院三等丫鬟→王熙凤房下听用。",
+      "origin": "荣国府「世代旧仆」之女，本名红玉。",
+      "generation": "贾府家生丫鬟"
+    },
+    "tags": [
+      "痴女儿遗帕惹相思",
+      "滴翠亭传帕",
+      "千里搭长棚",
+      "口角简断",
+      "林之孝之女",
+      "避讳改名",
+      "凤姐抢人",
+      "贾芸",
+      "情醒代表",
+      "狱神庙"
+    ],
+    "summary": {
+      "short": "本名红玉，因避宝玉、黛玉的「玉」字改名小红。第二十四回遗帕与贾芸结缘，第二十七回在滴翠亭传帕被宝钗偷听、又因「口角简断」被凤姐要去——「千里搭长棚，没有不散的筵席」出自她口，她是丫鬟中罕见的「情醒者」。",
+      "long": "小红是荣国府世仆之女，父亲林之孝管各处田房事务，母亲林之孝家的是管家奶奶。她「容长脸面，细巧身材，十分俏丽甜净」，年方十七（一说十六七），本名红玉，因「玉」字犯了林黛玉、宝玉，「便都把这个字隐起来」，改叫小红。她进怡红院时只是三等丫鬟，只配干浇花、喂雀的粗活，进不得宝玉的眼——宝玉第一次见她时竟不认得自己院里的丫头。她心性很高，不甘埋没，第二十四回趁宝玉要茶的机会露了一次脸，反被秋纹、碧痕「兜脸啐了一口」。同回她遗帕被贾芸拾去，从此「痴女儿遗帕惹相思」，梦中也与贾芸还帕相见。第二十六回贾芸进园种树，托坠儿以帕传情。第二十七回小红在滴翠亭内与坠儿谈帕，被宝钗偷听（宝钗「金蝉脱壳」，把偷听之嫌转嫁给黛玉）；同回她在凤姐面前替平儿传话，一口一个「奶奶」，四门子的亲戚话头说得分毫不乱，凤姐大为赞赏：「这一个丫头就好。方才两遭，说话虽不多，听那口声就简断。」遂把她要去身边使唤。她的名言是第二十六回劝佳蕙的话：「千里搭长棚，没有个不散的筵席，谁守谁一辈子呢？」——丫鬟群中如此清醒地看透聚散的，她是第一个。脂批提示后文有「狱神庙红玉」一段（红玉与茜雪在狱神庙探望落难的宝玉），后四十回未写此节。她与贾芸是丫鬟与子弟中最被看好的一对「上进青年」，也是「情醒」主题的代表人物。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "敏——口角简断、记性过人",
+        "fact_type": "canonical_text_fact",
+        "description": "凤姐给她的定评是「口角简断」。她替平儿传「四五门子的话」——奶奶、舅奶奶、五奶奶们的关系理得清清楚楚，全府丫鬟没几个做得到。她的「敏」是向上爬的资本：在怡红院被压，她懂得另寻出路，一眼看中凤姐这棵大树。"
+      },
+      {
+        "dimension": "醒——看透聚散的清醒",
+        "fact_type": "canonical_text_fact",
+        "description": "「千里搭长棚，没有个不散的筵席」——这句名言出自小红之口。在丫鬟们争风吃醋、指望长留贾府时，她已看透一切都是暂时的。她的「醒」与晴雯的「痴」、袭人的「谋」形成对照：她既不殉情，也不恋栈，只经营自己的前程与情缘。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xiaohong_tea_ch24",
+        "title": "趁宝玉要茶露脸，遭秋纹碧痕啐骂（第二十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xiaohong_handkerchief_ch24",
+        "title": "遗帕惹相思——与贾芸结缘（第二十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xiaohong_ting_ch27",
+        "title": "滴翠亭传帕被宝钗偷听（第二十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xiaohong_fengjie_ch27",
+        "title": "为凤姐传话，被凤姐要去（第二十七回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch24_xiaohong_name",
+        "quote": "原来这小红本姓林，小名红玉，只因「玉」字犯了林黛玉、宝玉，便都把这个字隐起来，便都叫他「小红」。……这红玉年方十七岁，……容长脸面，细巧身材，十分俏丽甜净。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十四回。避讳改名——丫鬟连「玉」字都不能沾，主仆等级的极致细节。"
+      },
+      {
+        "source_id": "source_ch26_xiaohong_proverb",
+        "quote": "红玉道：「也不犯着气他们。俗语说的好：『千里搭长棚，没有个不散的筵席』，谁守谁一辈子呢？不过三年五载，各人干各人的去了。那时谁还管谁呢？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十六回小红劝佳蕙。全书最著名的「聚散无常」宣言之一，出自一个三等丫鬟之口。"
+      },
+      {
+        "source_id": "source_ch27_xiaohong_jian",
+        "quote": "凤姐听了笑道：「这一个丫头就好。方才两遭，说话虽不多，听那口声就简断。」……凤姐道：「你明儿伏侍我去罢。我认你作女儿，我再调理调理，你就出息了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十七回。凤姐的「抢人」——小红职场突围的巅峰时刻。"
+      },
+      {
+        "source_id": "source_ch27_xiaohong_pa",
+        "quote": "（红玉与坠儿在滴翠亭内）红玉道：「也罢，拿了去给凤姐……嗐！……」……坠儿道：「他再三再四的嘱咐我，拿了去交给你……还立你什么呢？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十七回滴翠亭传帕。宝钗在亭外听得一清二楚，后以「颦儿我看你往那里藏」金蝉脱壳。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "本名红玉——「玉」字犯宝玉、黛玉之讳，隐「玉」改称小红",
+      "detail": "「红玉」二字本是好名（红者艳、玉者贵），却因「玉」字犯了主子名讳而被迫「隐玉」——「玉」是宝玉与黛玉（木石前盟）的专字，一个丫鬟连名字都不配沾。改名「小红」后她反而以「红」立身：遗帕之「红」、传帕之「红」——她的姻缘与出头，都系在这个「红」字上。脂批称其为「红玉」，红学家多以此字为她的「本名符号」。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 27,
+          "evidence": "凤姐问：你十几了？小红道：十七岁了",
+          "age": "17岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "17岁（第27回）",
+        "story_end": "约20岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第27回明文十七岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "林红玉",
+      "type": "本名",
+      "context": "第二十四回明言「本姓林，小名红玉」——林之孝之女，世仆之后",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "红儿",
+      "type": "昵称",
+      "context": "坠儿等丫鬟间对小红的口语称呼",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xiaohong_tea_ch24",
+      "title": "趁宝玉要茶露脸，遭秋纹碧痕啐骂",
+      "event_level": "minor",
+      "chapter": {
+        "number": 24,
+        "title": "醉金刚轻财尚义侠 痴女儿遗帕惹相思",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "宝玉要茶，房里无人，小红趁势进去倒茶——宝玉这才第一次见自己院里的这个丫头。秋纹、碧痕打水回来见状大怒，进房找小红，兜脸啐道：「没脸的下流东西……你也拿镜子照照，配递茶递水不配！」"
+      },
+      "summary": {
+        "short": "小红第一次「进取」就被同侪碾碎：她趁无人倒茶露脸，被秋纹碧痕啐骂「配递茶递水不配」。怡红院内部的等级压迫，逼出了她另谋出路的决心。",
+        "meaning": [
+          "宝玉不认得自己院里的丫头——小红在怡红院的「隐形人」处境",
+          "「配不配」的质问——丫鬟内部的等级比主子更残酷",
+          "这次挫败直接推动她转向凤姐——压迫越狠，突围越急"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "丫鬟界的「内卷」",
+          "content": "怡红院的丫鬟体系是全书最严密的「职场」：袭人晴雯等把持宝玉身边，小丫鬟连倒茶都是僭越。秋纹碧痕的骂不只是嫉妒，是「规则维护」——小红在这里没有路，这是她后来义无反顾投凤姐的原因。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiaohong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qiuwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiaohong_handkerchief_ch24",
+      "title": "遗帕惹相思——与贾芸结缘",
+      "event_level": "major",
+      "chapter": {
+        "number": 24,
+        "title": "醉金刚轻财尚义侠 痴女儿遗帕惹相思",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（蜂腰桥一带）",
+        "specific": "小红的手帕子落在园中，被进园种树的贾芸拾得。小红猜知帕在贾芸处，自此魂牵梦萦，梦中贾芸还帕。第二十六回贾芸托坠儿把自己的帕子给小红「还」——二人互赠信物，私定情缘。"
+      },
+      "summary": {
+        "short": "回目「痴女儿遗帕惹相思」——一方手帕牵起小红与贾芸的情缘。这是全书最「落地」的爱情：两个处境相似的上进青年，用一块帕子互相确认了心意，比大观园的公子小姐们更接近现代人的恋爱。",
+        "meaning": [
+          "遗帕—拾帕—还帕——手帕作为「信物」的民间情爱模式",
+          "小红之「痴」与宝玉之「痴」不同——她的相思有对象、有计划、有出路",
+          "贾芸小红之恋是全书中罕见的「成功姻缘」伏线（脂批狱神庙一段二人皆仗义）"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「痴女儿」的痴",
+          "content": "曹雪芹把「痴」字给了小红（回目「痴女儿遗帕惹相思」）——在全书「痴」的谱系里（宝玉痴情、黛玉痴心、贾瑞痴欲），小红的痴是「痴情+清醒」的混合体：她梦见贾芸，却不误正事；她动心，却把姻缘经营得步步为营。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiaohong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_yun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiaohong_ting_ch27",
+      "title": "滴翠亭传帕——被宝钗偷听",
+      "event_level": "major",
+      "chapter": {
+        "number": 27,
+        "title": "滴翠亭杨妃戏彩蝶 埋香冢飞燕泣残红",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园滴翠亭",
+        "specific": "小红与坠儿在滴翠亭内私语手帕之事，宝钗追蝶至此，躲在一旁听完。小红怕人偷听要推开窗子，宝钗急中生智：「颦儿，我看你往那里藏！」装作刚追黛玉到此，把「偷听嫌疑」转嫁给黛玉。"
+      },
+      "summary": {
+        "short": "滴翠亭是全书写「偷听」的经典场景：小红的私情谈话被宝钗听去，宝钗的「金蝉脱壳」又让黛玉背了锅。丫鬟之私与小姐之机在此交汇，小红的危机（私情败露）被宝钗一句话转嫁。",
+        "meaning": [
+          "小红的私情风险——丫鬟私通授受是「死罪」，她此刻命悬一线",
+          "宝钗的「颦儿我看你往那里藏」——全书对宝钗心机最具争议的一笔",
+          "小红开窗的警觉——她的机敏在关键时刻救了她自己"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "被嫁祸的偷听",
+          "content": "宝钗偷听是「偶然」（追蝶至此），嫁祸黛玉是「本能」——这是薛宝钗形象研究中最著名的公案之一：机变与世故的边界在哪里。而对小红而言，这次被偷听恰恰证明她的判断——「大事」不可声张。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiaohong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiaohong_fengjie_ch27",
+      "title": "为凤姐传话四门子，被凤姐要去",
+      "event_level": "major",
+      "chapter": {
+        "number": 27,
+        "title": "滴翠亭杨妃戏彩蝶 埋香冢飞燕泣残红",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "凤姐差小红传话给平儿，小红回来复命，把「我们奶奶、这里奶奶、五奶奶、舅奶奶」四五门子的话分毫不乱地回完。晴雯等讥她「长远的攀高枝儿」，凤姐却赞她「口角简断」，当场要她去自己房里——「你明儿伏侍我去罢。我认你作女儿。」"
+      },
+      "summary": {
+        "short": "小红的「面试」：四门子亲戚话头一气回完，凤姐拍板要人。晴雯的嘲讽（「攀高枝」）与凤姐的赏识（「简断」）同时发生——同一个人，两种评价，小红选择跟能给她前途的人走。",
+        "meaning": [
+          "「四门子话」——信息整理能力是丫鬟界的稀缺才能",
+          "「攀高枝」——晴雯的讥讽反衬出小红的选择：她不怕人说，她要出路",
+          "凤姐认女——小红从此进入贾府权力中枢，完成丫鬟阶层的最大跃迁"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "从怡红院到凤姐房——职场突围的范本",
+          "content": "小红是全书丫鬟中唯一完成「阶层跃迁」的人：从不得见面的三等丫鬟，到权力核心凤姐的「爱将」。她的路径清晰：能力（口角简断）+时机（凤姐缺人）+决断（不怕骂攀高枝）。脂批提示后文她与茜雪在狱神庙探望落难宝玉——正是凤姐房下这份「势」，让她有能力在贾府倾覆后反哺旧主。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiaohong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_men_zi",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xiaohong_jia_yun",
+      "from": "character_xiaohong",
+      "to": "character_jia_yun",
+      "type": "恋人（遗帕定情）",
+      "nature": [
+        "romantic",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "小红与贾芸是全书中「门当户对」程度最高的一对：一个是世仆之女，一个是旁支子弟；一个在丫鬟里谋出路，一个在差事上找出头。遗帕—还帕—传帕的三部曲写尽了下层青年恋爱的谨慎与甜蜜。脂批暗示后文二人皆在贾府之难中「仗义」——他们的姻缘是全书罕见的「有情人成眷属」的伏线。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "遗帕结缘",
+          "chapter": 24,
+          "description": "小红遗帕，贾芸拾得，梦中还帕。"
+        },
+        {
+          "stage": 1,
+          "title": "拾帕结缘",
+          "chapter": 24,
+          "description": "贾芸拾得小红手帕。"
+        },
+        {
+          "stage": 2,
+          "title": "传帕定情",
+          "chapter": 27,
+          "description": "贾芸托坠儿还帕，二人互赠信物。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiaohong_wang_xifeng",
+      "from": "character_xiaohong",
+      "to": "character_wang_xifeng",
+      "type": "主仆（赏识与被赏识）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐是小红的「贵人」：一眼看中她的「口角简断」，当场要去，还要认作女儿（后知小红之母林之孝家的已是她干女儿，笑称「倒造化了」）。小红跟凤姐学的是「办实事的本领」，凤姐得的是「办实事的助手」——这对主仆是全书效率最高的组合。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "传话被赏识",
+          "chapter": 27,
+          "description": "小红传四门子话，凤姐赞「口角简断」并要去。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiaohong_xue_baochai",
+      "from": "character_xiaohong",
+      "to": "character_xue_baochai",
+      "type": "被偷听者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝钗偷听小红私情并嫁祸黛玉——小红后来见宝钗便「怕」：她的私情若被主子知道即是灭顶之灾。这段关系是宝钗「滴翠亭公案」的核心：小红是被动的受害者，她的警觉（推窗）与宝钗的机变（金蝉脱壳）在同一个场景里交锋。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "亭外偷听",
+          "chapter": 27,
+          "description": "宝钗听走小红私语，嫁祸黛玉脱身。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiaohong_lin_zhixiao",
+      "from": "character_xiaohong",
+      "to": "character_lin_zhixiao",
+      "type": "父女",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "小红之父林之孝是荣府「收管各处田房事务」的管家，母亲林之孝家的是管家奶奶——她本有「管家之女」的出身，却自愿从三等丫鬟做起。这个家庭背景解释了她的见识（「千里搭长棚」的格局观）与她的韧性（输了不哭，另找出路）。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "世仆之家",
+          "chapter": 24,
+          "description": "第二十四回交代林之孝家的家世背景。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiaohong_qingwen",
+      "from": "character_xiaohong",
+      "to": "character_qingwen",
+      "type": "被排挤者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "晴雯是怡红院等级秩序的维护者：她讥小红「攀高枝」「爬上来了」，代表怡红院对小红进取心的集体打压。小红与晴雯构成「丫鬟两种活法」的对照：晴雯恃宠而骄、死在怡红院；小红审时度势、走出怡红院——曹雪芹写这两个人，是在写「不肯忍」的两种下场。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "讥讽",
+          "chapter": 27,
+          "description": "晴雯讥小红「攀高枝」。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_xiaohong_juexing",
+      "title": "小红是「情醒」还是「势利」？",
+      "slug": "is-xiaohong-awakened-or-snobbish",
+      "question_type": "character_motivation",
+      "importance_weight": 74,
+      "heat_weight": 70,
+      "neutral_overview": "小红说「千里搭长棚没有不散的筵席」、投奔凤姐、攀高枝——她的清醒与进取，是值得肯定的「觉悟」，还是趋炎附势的「势利」？",
+      "viewpoint_ids": [
+        "vp_xiaohong_juexing_yes",
+        "vp_xiaohong_juexing_snob"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xiaohong_juexing_yes",
+          "title": "情醒论：她是丫鬟中第一个「看透」的人",
+          "summary": "小红的「千里搭长棚」不是冷血，是清醒：她看透了「三年五载，各人干各人的」的聚散无常，于是把精力放在真实可把握的东西上——能力（传话）、爱情（贾芸）、出路（凤姐）。她的「散」论与全书「树倒猢狲散」的主题同频，作者安排这句话出自丫鬟之口，正是要表彰这种下层智慧。脂批暗示她后文在狱神庙探救宝玉——她的「醒」最终兑现为「义」。",
+          "evidence": [
+            "「谁守谁一辈子呢？不过三年五载，各人干各人的去了」",
+            "脂批：狱神庙回有红玉茜雪一大段文字"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xiaohong_juexing_snob",
+          "title": "势利论：她的「清醒」是精致的利己",
+          "summary": "小红的每一步都是算计：趁无人倒茶（巴结宝玉）、被啐骂后立即转投凤姐（看人下菜）、私受贾芸之帕（私相授受）。她的「千里搭长棚」与其说是通透，不如说是为自己「跳槽」找的漂亮说法——她不忠于任何人，只忠于自己的前程。对比晴雯的痴、鸳鸯的烈，小红的「醒」少了「义」的分量。",
+          "evidence": [
+            "晴雯讥她「攀高枝」——怡红院同侪的直觉判断",
+            "她投凤姐与遗帕贾芸几乎同步进行——爱情与出路两手抓"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xiaohong_baochai",
+      "title": "滴翠亭偷听：宝钗嫁祸黛玉，小红知不知情？",
+      "slug": "did-xiaohong-know-baochai-eavesdropped",
+      "question_type": "plot_analysis",
+      "importance_weight": 68,
+      "heat_weight": 64,
+      "neutral_overview": "宝钗在滴翠亭偷听了小红的私情，又用「颦儿我看你往那里藏」脱身。小红听到的是「黛玉刚才在这里」——她信了吗？这事对后续情节有何影响？",
+      "viewpoint_ids": [
+        "vp_xiaohong_baochai_believed",
+        "vp_xiaohong_baochai_suspicious"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xiaohong_baochai_believed",
+          "title": "相信论：小红被「金蝉脱壳」瞒过",
+          "summary": "文本中小红与坠儿的反应是「臊了」「信以为真」：她们担心的是黛玉听去了私情，从此对黛玉心存芥蒂。宝钗的嫁祸成功地把自己的「偷听」转成了黛玉的「偷听」——这个误会是宝黛钗三角关系中宝钗心机的最有力证据。",
+          "evidence": [
+            "小红坠儿闻言「都唬怔了」，以为黛玉听到私语",
+            "后文小红对黛玉的态度未见缓和——误会的余波"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xiaohong_baochai_suspicious",
+          "title": "存疑论：以小红之敏，未必全信",
+          "summary": "小红是全书最机敏的丫鬟之一（推窗防偷听、传话分毫不乱），宝钗现身的方式破绽不小（追蝶追到亭子边，开口就喊「我看你往那里藏」）。有论者认为小红后来投凤姐、远离是非之地，多少与这次「被偷听」的阴影有关——她虽不能确认是谁，但已明白私情被「什么小姐」听去了，必须更低调行事。",
+          "evidence": [
+            "小红开窗前的警觉（「谁在外面」）证明她防偷听意识极强",
+            "此后小红贾芸的交往转入更隐蔽的方式"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch24_xiaohong_dream",
+      "quote": "（红玉）翻来复去，一夜无眠。……这里红玉刚刚睡下，忽听窗外低低的叫道：「红玉，你的手帕子我拾在这里呢。」……正是贾芸的声音。……红玉醒来，方知是梦。",
+      "fact_type": "canonical_text_fact",
+      "note": "第二十四回末尾。遗帕之后的梦中还帕——「痴女儿」的痴情心理写真。"
+    },
+    {
+      "source_id": "source_ch26_xiaohong_bridge",
+      "quote": "（贾芸对坠儿道）「前儿我给宝二爷办事去，他说……你把这帕子拿给她。」……红玉接了帕子，一看正是自己的。",
+      "fact_type": "canonical_text_fact",
+      "note": "第二十六回蜂腰桥设言传心事——贾芸以「还帕」为名，实赠自己的帕子。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xiaohong_yushenmiao",
+      "title": "脂批提示：红玉茜雪狱神庙探望宝玉",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "脂砚斋批语及相关研究",
+      "year": 1980,
+      "source_title": "脂批狱神庙回研究",
+      "description": "脂批多次提示后文有「狱神庙」一大回文字：宝玉落难时，红玉与茜雪曾往狱神庙探望。学界据此推断小红在后半部的形象是「仗义」——当年被怡红院排挤出去的丫鬟，反成了贾府倾覆后少数回头报恩的人。这一线索使小红的「清醒」最终获得道德完成：她不是只懂经营的小人，而是「义利双全」的下层英雄。后四十回未写此节，殊为可惜。"
+    },
+    {
+      "id": "viewpoint_xiaohong_pa",
+      "title": "「遗帕」与「传帕」——下层爱情叙事的典范",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学爱情叙事研究",
+      "year": 1995,
+      "source_title": "多项叙事研究",
+      "description": "研究者指出，小红与贾芸的「帕」三部曲（遗帕—梦中还帕—蜂腰桥传帕）是全书最完整的「信物爱情」叙事：它不靠诗社、不靠眼泪，靠的是「帕子—坠儿—消息」的世俗传递链。对比宝黛的旧帕题诗（第三十四回），同为手帕，宝黛之情通向诗与泪，芸红之情通向柴米与差事——曹雪芹以两对「帕缘」写出了爱情的两种现实。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 26,
+      "text_inference": 4,
+      "scholarly_viewpoint": 2,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

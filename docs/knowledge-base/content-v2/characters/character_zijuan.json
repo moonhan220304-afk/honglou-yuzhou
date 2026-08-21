@@ -1,0 +1,880 @@
+{
+  "character": {
+    "id": "character_zijuan",
+    "name": "紫鹃",
+    "slug": "zi-juan",
+    "aliases": [
+      "鹦哥",
+      "慧紫鹃"
+    ],
+    "category": "荣国府丫鬟（黛玉首席丫鬟）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾府家生或买入之婢，原名鹦哥（贾母之婢），赐与黛玉后改名紫鹃。",
+      "position": "贾母之婢→林黛玉首席丫鬟（潇湘馆）。",
+      "origin": "贾府丫鬟体系出身。",
+      "generation": "与黛玉同辈的丫鬟阶层"
+    },
+    "tags": [
+      "慧紫鹃",
+      "情辞试忙玉",
+      "黛玉之影",
+      "忠义丫鬟",
+      "姐妹之情",
+      "潇湘馆",
+      "焚稿",
+      "守灵",
+      "陪侍修行"
+    ],
+    "summary": {
+      "short": "黛玉的首席丫鬟，原名鹦哥。第五十七回「慧紫鹃情辞试忙玉」以诈言试出宝玉对黛玉的真心——她是宝黛爱情最重要的守护者，也是黛玉生前身后唯一的知己。",
+      "long": "紫鹃原是贾母身边的二等丫鬟，名鹦哥。黛玉进府时（第三回），贾母见黛玉带来的雪雁甚小，遂将自己身边的鹦哥给了黛玉，后改名紫鹃——「紫鹃」与「雪雁」都是黛玉的「鸟儿」。她与黛玉的关系超越主仆：日夜服侍、知冷知热、直言规谏，全书唯有她敢管黛玉、敢为黛玉做主。第五十七回「慧紫鹃情辞试忙玉」是她的巅峰时刻——她以「林妹妹要回苏州去」的诈言试探宝玉，宝玉闻言「如头顶上响了一个焦雷」，痴狂大病；事后她向黛玉剖白：「我是一片真心为姑娘。替你愁了这几年了，无父母无兄弟，谁是知疼着热的人？趁早儿老太太还明白硬朗的时节，作定了大事要紧。」——这番话把宝黛姻缘的风险与她的苦心说得明明白白。她是唯一真正操心黛玉「终身大事」的人，比黛玉自己更清醒、比宝玉更勇敢。黛玉临终（第九十七回，gaoe），她在旁见证「焚稿断痴情」，痛斥贾府「狠心负义」；黛玉死后，她伤心欲绝，守着灵前不肯离开（第九十八回）。后四十回（gaoe）写她最终看破世事，自愿随惜春在栊翠庵修行——以青灯古佛了断对黛玉的追随。红学家普遍称赞紫鹃为《红楼梦》丫鬟中「忠义」的最高典范：她的忠不是奴性，而是「义」——对孤女的真心相待、对友情的生死不渝。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "慧——洞察与勇气",
+        "fact_type": "canonical_text_fact",
+        "description": "回目「慧紫鹃情辞试忙玉」以「慧」字定评。她的「慧」包含三重：看透宝黛真心（洞察）、敢试宝玉（勇气）、敢劝黛玉早作主张（担当）。她是全书唯一既看清局势、又敢于行动的丫鬟。"
+      },
+      {
+        "dimension": "忠义——超越主仆的姐妹情",
+        "fact_type": "canonical_text_fact",
+        "description": "紫鹃对黛玉的「忠」不是职业伦理，而是自发的情感：「我是一片真心为姑娘」——她把黛玉当成无依的妹妹，把自己当成她的家人。黛玉死后她的痛（「活着我们就一处活着，不活着我们就一处化灰化烟」），是全书最纯粹的悼亡。"
+      },
+      {
+        "dimension": "直言——敢劝黛玉的唯一的「家人」",
+        "fact_type": "canonical_text_fact",
+        "description": "黛玉「小性儿」，全府无人敢说；唯独紫鹃敢直言相劝：「姑娘太浮躁了些」；她甚至批评黛玉对宝玉的试探过度。她的直言是「家人」的特权——只有真心相待的人才有资格说真话。"
+      },
+      {
+        "dimension": "清醒——比主人公更清醒的旁观者",
+        "fact_type": "canonical_text_fact",
+        "description": "紫鹃对宝黛姻缘的风险看得比谁都清楚：「趁早儿老太太还明白硬朗的时节，作定了大事要紧」——她早已预感到贾母年迈、宝黛之事拖延不得。她的清醒使她的悲剧更深：她什么都看明白了，却什么都做不了。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_zijuan_intro_ch3",
+        "title": "贾母赐名——鹦哥改名紫鹃（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_zijuan_shoulu_ch8",
+        "title": "命雪雁送手炉（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_zijuan_tests_yu_ch57",
+        "title": "慧紫鹃情辞试忙玉（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_zijuan_advise_ch57",
+        "title": "深夜劝黛玉早作主张（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_zijuan_fengao_ch97",
+        "title": "见证焚稿断痴情（第九十七回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 6,
+        "event_id": "event_zijuan_guard_ch98",
+        "title": "守灵——「不活着我们就一处化灰」（第九十八回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 7,
+        "event_id": "event_zijuan_nun_ch118",
+        "title": "陪惜春修行（第一一八回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch57_zijuan_test",
+        "quote": "紫鹃笑道：「……最要紧的，我听老太太说，你们明儿要回南边去呢！」宝玉听了，便如头顶上响了一个焦雷一般。……袭人来见宝玉「一头热汗，满脸紫胀」，两个眼珠儿直直的起来，口角边津液流出，皆不知觉。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回「慧紫鹃情辞试忙玉」。一句诈言把宝玉的真心试得无处躲藏——宝黛爱情的最强证据由紫鹃取得。"
+      },
+      {
+        "source_id": "source_ch57_zijuan_heart",
+        "quote": "紫鹃笑道：「我是一片真心为姑娘。替你愁了这几年了，无父母无兄弟，谁是知疼着热的人？趁早儿老太太还明白硬朗的时节，作定了大事要紧。……若娘家人有势的还好些，若是姑娘这样的人，有老太太一日还好一日，若没了老太太，也只是凭人去欺负了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回紫鹃深夜剖白。「作定了大事要紧」——全书对宝黛姻缘风险最清醒的表述。"
+      },
+      {
+        "source_id": "source_ch57_zijuan_sister",
+        "quote": "紫鹃笑道：「活着，咱们一处活着；不活着，咱们一处化灰化烟，如何？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回紫鹃对黛玉的表白。「一处化灰化烟」——主仆情义的生死盟誓。"
+      },
+      {
+        "source_id": "source_ch08_zijuan_shoulu",
+        "quote": "紫鹃道：「大雪地里，你就来送这个，明儿我叫雪雁去送手炉子，你倒自己送来了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回紫鹃命雪雁给黛玉送手炉——细微处见其无微不至的照拂。"
+      },
+      {
+        "source_id": "source_ch97_zijuan_fengao",
+        "quote": "黛玉喘着气，将绢子撂在火上……紫鹃已知是那两块旧帕子了……黛玉把帕子尽行撂入火中烧了。……黛玉又叫紫鹃：「妹妹，我这里并没有亲人。我的身子是干净的，你好歹叫他们送我回去。」",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第九十七回焚稿断痴情。黛玉临终称紫鹃「妹妹」——主仆名分到此化为姐妹。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "原名鹦哥（贾母所起），黛玉改名紫鹃",
+      "detail": "鹦哥＝鹦鹉——代黛玉说她想说的话；紫鹃＝杜鹃啼血，预示黛玉泪尽而亡。「情慧」（民间十二丫环情字批）",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉进府时，贾母将自己身边二等丫头鹦哥给了黛玉（后改名紫鹃）",
+          "age": "未见明文"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；黛玉进府时已是贾母二等丫头，比黛玉大数岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "鹦哥",
+      "type": "原名",
+      "context": "贾母身边的二等丫鬟名鹦哥；赐与黛玉后改名紫鹃——「紫鹃」与黛玉带来的「雪雁」都是鸟名",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "慧紫鹃",
+      "type": "回目称号",
+      "context": "第五十七回回目「慧紫鹃情辞试忙玉」——「慧」是曹雪芹对紫鹃的定评",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "妹妹",
+      "type": "临终称呼",
+      "context": "黛玉临终唤紫鹃「妹妹」——主仆名分在死亡面前化为姐妹",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zijuan_intro_ch3",
+      "title": "贾母赐婢——鹦哥改名紫鹃",
+      "event_level": "minor",
+      "chapter": {
+        "number": 3,
+        "title": "贾雨村夤缘复旧职 林黛玉抛父进京都",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "黛玉进府，只带来幼小的雪雁与奶娘王嬷嬷。贾母见人手单薄，遂将自己身边的二等丫鬟鹦哥给了黛玉，后改名紫鹃。"
+      },
+      "summary": {
+        "short": "紫鹃的「来历」决定了她与黛玉关系的特殊性质：她不是黛玉从林家带来的人，而是贾母派到黛玉身边的贾府之人——这使她既能以「自家人」身份照顾黛玉，又深谙贾府内部的政治与风险。",
+        "meaning": [
+          "「鹦哥」改「紫鹃」——贾母赐婢即赐名，紫鹃的忠诚与贾母的托付同时开始",
+          "「紫鹃」与「雪雁」的鸟名系统——黛玉房里的两个丫鬟都是「鸟」，暗合黛玉的「漂泊之魂」",
+          "她出身贾母房下——这使她的「为黛玉做主」具有半官方色彩"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "鸟名系统——紫鹃与雪雁",
+          "content": "紫鹃（啼血的杜鹃）与雪雁（孤飞的寒雁）都是中国文学中经典的哀愁意象：杜鹃啼血、孤雁失群——曹雪芹给黛玉的两个丫鬟取这样的名字，等于在黛玉身边布置了两个命运符号。紫鹃之「啼」对应黛玉之「泪」，雪雁之「孤」对应黛玉之「寄」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zijuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xueyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zijuan_shoulu_ch8",
+      "title": "命雪雁送手炉——无微不至的照拂",
+      "event_level": "minor",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院",
+        "specific": "黛玉在宝钗处，天降大雪。紫鹃差雪雁送小手炉来——黛玉笑问「谁叫你送来的？」，雪雁答「紫鹃姐姐怕姑娘冷，叫我送来的」。黛玉借此机锋暗刺宝玉听宝钗的话不喝冷酒。"
+      },
+      "summary": {
+        "short": "雪天里紫鹃差雪雁给黛玉送手炉——一个不经意的细节，写出紫鹃对黛玉无微不至的照拂：人不在眼前，心一直在。黛玉拿着手炉反成了打趣宝玉的由头。",
+        "meaning": [
+          "「紫鹃姐姐怕姑娘冷」——黛玉在贾府冷暖自知，只有紫鹃替她「知冷」",
+          "黛玉的「半含酸」借手炉发挥——紫鹃的照拂成了黛玉机锋的道具",
+          "这个细节奠定紫鹃的形象基调：她是黛玉的影子，永远在场"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「怕姑娘冷」——照拂的体温",
+          "content": "全书写丫鬟对主子的照顾无数，唯独紫鹃的照顾有「体温」：不是例行公事，是「怕」。这个「怕」字里是真正的关切——她把黛玉的冷暖当成自己的冷暖。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zijuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xueyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zijuan_tests_yu_ch57",
+      "title": "慧紫鹃情辞试忙玉",
+      "event_level": "major",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "潇湘馆/怡红院",
+        "specific": "紫鹃以「黛玉要回苏州」诈言试探宝玉。宝玉如遭雷击，痴狂大病——「两个眼珠儿直直的起来，口角边津液流出，皆不知觉」。贾母王夫人急得团团转，逼问之下紫鹃说出真相。宝玉哭道「要去连我也带了去」。紫鹃服侍宝玉病愈后回潇湘馆。"
+      },
+      "summary": {
+        "short": "紫鹃以诈言试出宝玉的真心：一句「要回南边去」，让宝玉痴狂欲死。贾府上下都看明白了宝玉对黛玉的生死之情——这场「试验」让宝黛爱情的公开化达到顶点，也让紫鹃成为唯一为黛玉姻缘「出击」的人。",
+        "meaning": [
+          "宝玉的反应（痴狂大病）是宝黛爱情的「最高等级证明」——此后无人再怀疑他的真心",
+          "紫鹃以丫鬟之身推动小姐的终身大事——全书最大胆的「越位」",
+          "试玉的结果把宝黛婚事推向台面——也把风险推向台面"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「慧」的三重奏",
+          "content": "试玉事件完整展示了紫鹃的「慧」：洞察（看清宝黛彼此的真心与僵局）、胆识（以诈言触发危机——这是可能毁掉她的冒险）、分寸（事后向宝玉剖白原委，服侍病愈，赢得贾母王夫人的不追究）。她是全书唯一能「破局」的丫鬟。"
+        },
+        {
+          "type": "literary",
+          "title": "试玉的叙事功能",
+          "content": "曹雪芹借紫鹃之手完成了一次「爱情鉴定」：宝黛之情的深度，靠紫鹃的诈言得到全府公认。此后，宝黛姻缘从「暗流」变为「明局」——连薛姨妈都要说「把林妹妹说给宝玉」的风凉话。紫鹃的试验是宝黛悲剧「希望」的最高点，也是失望的起点。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zijuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zijuan_advise_ch57",
+      "title": "深夜劝黛玉——「作定了大事要紧」",
+      "event_level": "major",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "潇湘馆",
+        "specific": "试玉之后，深夜无人，紫鹃与黛玉同睡，向她剖白心意：「我是一片真心为姑娘。替你愁了这几年了……趁早儿老太太还明白硬朗的时节，作定了大事要紧。」黛玉嘴上嗔她「嚼什么蛆」，却「心内未尝不伤感」，直哭了一夜。"
+      },
+      "summary": {
+        "short": "试玉之后的深夜里，紫鹃向黛玉剖白：她愁了几年，只为黛玉的终身大事。她劝黛玉趁贾母还在，作定大事——「若没了老太太，也只是凭人去欺负了」。黛玉嘴上嗔怪，心里伤感，哭了一夜。",
+        "meaning": [
+          "紫鹃是全书唯一把黛玉的婚姻焦虑「说出来」的人",
+          "「凭人去欺负」——她预见了贾母去世后黛玉的无依",
+          "黛玉的哭——被说破心事的痛，与对紫鹃真心的感动"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「替你愁了这几年」——忠义的时长",
+          "content": "紫鹃的「愁」持续了「几年」——她在黛玉身边多年，把黛玉的每一分焦虑都看在眼里、担在心上。她的劝告不是一时冲动，是多年观察后的破釜沉舟。这份「愁」的重量，使她成为宝黛爱情之外最重要的见证者。"
+        },
+        {
+          "type": "literary",
+          "title": "清醒者的预言",
+          "content": "紫鹃的「若没了老太太，也只是凭人去欺负了」是精确的命运预言：贾母一去，黛玉果然无人庇护（后四十回，gaoe）。紫鹃看透了贾府庇护体系的本质——黛玉的安全完全系于贾母一人。她的清醒是全书最沉重的清醒：看破，却说不动命运。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zijuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zijuan_fengao_ch97",
+      "title": "见证焚稿断痴情——「妹妹，我这里并没有亲人」",
+      "event_level": "major",
+      "chapter": {
+        "number": 97,
+        "title": "林黛玉焚稿断痴情 薛宝钗出闺成大礼",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "潇湘馆",
+        "specific": "黛玉病危，将题帕诗稿与诗帕尽付一炬。紫鹃欲拦，黛玉不从。黛玉临终对紫鹃说：「妹妹，我这里并没有亲人。我的身子是干净的，你好歹叫他们送我回去。」"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写黛玉焚稿断痴情，紫鹃在旁泪如雨下却拦不住。黛玉唤她「妹妹」，嘱她「送我回去」——在生命的尽头，黛玉承认的唯一亲人是紫鹃。",
+        "meaning": [
+          "「妹妹」——主仆名分在死亡面前化为姐妹，这是对紫鹃一生的最高加冕",
+          "焚稿时紫鹃的「拦」与黛玉的「烧」——两个绝望者的最后对话",
+          "「送我回去」——黛玉把身后事托付给紫鹃，只信她一人"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「妹妹」的加冕",
+          "content": "黛玉临终改口叫「妹妹」，是续书中公认最动人的一笔：她一生孤高，不认任何亲，却在死前认了紫鹃。这个称呼证明紫鹃的「一处化灰化烟」的誓言被黛玉正式接受——她们是彼此在这世上唯一的亲人。"
+        },
+        {
+          "type": "character",
+          "title": "紫鹃的愤怒与无力",
+          "content": "焚稿时紫鹃痛恨贾府「狠心负义」，却无法改变任何事——她的「慧」在此刻全部失效：看清一切的人，只能看着一切发生。这是紫鹃悲剧的高潮：一个清醒者被命运按在座位上看戏。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zijuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zijuan_guard_ch98",
+      "title": "守灵——「活着我们就一处活着」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 98,
+        "title": "苦绛珠魂归离恨天 病神瑛泪洒相思地",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "潇湘馆/灵前",
+        "specific": "黛玉死后，紫鹃伤心欲绝，守着灵前不肯离开。众人劝她，她只道「林姑娘叫我送他回去，我还没送呢」。她执意为黛玉守灵，不肯接受贾府的任何安排。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写黛玉死后紫鹃守着灵前，痛不欲生。她执意要「送姑娘回去」（扶柩回南），拒绝贾府的安抚。紫鹃的守灵，是她对黛玉「一处化灰化烟」誓言的践行。",
+        "meaning": [
+          "守灵是「忠」的最终形态——不因主人之死而终止的忠诚",
+          "「我还没送他回去呢」——她记着黛玉的遗言，并以此拒绝与贾府和解",
+          "她的痛不输宝玉——两个最爱黛玉的人，一个疯癫，一个守灵"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "忠义的绝唱",
+          "content": "紫鹃的守灵与袭人的改嫁构成全书最鲜明的丫鬟对照：袭人之忠止于「职」（宝玉出家后她「委屈」改嫁），紫鹃之忠至于「义」（黛玉死后仍要完成她的遗愿）。红学家赞紫鹃「忠义」，正因她的忠超越了主仆契约，进入了人格层面。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zijuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zijuan_nun_ch118",
+      "title": "陪惜春修行——青灯古佛的归宿",
+      "event_level": "minor",
+      "chapter": {
+        "number": 118,
+        "title": "记微嫌舅兄欺弱女 惊谜语妻妾谏痴人",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "栊翠庵",
+        "specific": "惜春决意出家，紫鹃自请随侍。众人劝她，她道「我服侍林姑娘一场，林姑娘待我也是极好的，他的心事我也尽知……我这里也寻了去，倒干净」——她随惜春在栊翠庵带发修行，了此残生。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写紫鹃看破世事，自愿随惜春在栊翠庵修行——「寻了去，倒干净」。她以青灯古佛的形式，完成了对黛玉的另一种追随：黛玉已去，尘世无可留恋。",
+        "meaning": [
+          "紫鹃的出家不是皈依宗教，是「哀莫大于心死」的谢幕",
+          "她与惜春「两个伤心人」在栊翠庵相依——都有「绝不回贾府」的决绝",
+          "「倒干净」——她对贾府（逼死黛玉的世界）的最终弃绝"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "紫鹃结局的版本评价",
+          "content": "紫鹃随惜春修行的结局（后四十回，gaoe）被普遍认为处理得相当精彩：它同时完成两个人物弧线——惜春的出世与紫鹃的绝望。紫鹃的「倒干净」三字与她的「慧」呼应：她看清了贾府没有她留恋的东西，果断选择离场。红学家多认为此结局虽系续书，却深得紫鹃人格之神。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zijuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_xichun",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_zijuan_lin_daiyu",
+      "from": "character_zijuan",
+      "to": "character_lin_daiyu",
+      "type": "主仆（情同姐妹）",
+      "nature": [
+        "master_servant",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "紫鹃与黛玉的关系是全书丫鬟群像中最深的情义：她们超越了主仆，成为事实上的姐妹。紫鹃照拂黛玉冷暖、劝谏黛玉心性、谋划黛玉终身；黛玉临终唤她「妹妹」——这是这段关系的最终认证。「活着，咱们一处活着；不活着，咱们一处化灰化烟」——她们的盟誓超越了生死。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赐婢结缘",
+          "chapter": 3,
+          "description": "贾母将鹦哥（紫鹃）赐与黛玉——主仆关系的开始。"
+        },
+        {
+          "stage": 1,
+          "title": "贾母拨付——初为丫鬟",
+          "chapter": 3,
+          "description": "黛玉初入贾府时，贾母见黛玉带来的雪雁太小，便将身边的鹦哥（后改名紫鹃）拨给黛玉使唤。"
+        },
+        {
+          "stage": 2,
+          "title": "知己情深",
+          "chapter": 57,
+          "description": "紫鹃剖白「一片真心为姑娘」，劝黛玉早作主张；黛玉为之哭了一夜。"
+        },
+        {
+          "stage": 2,
+          "title": "朝夕相处——胜似亲姊",
+          "chapter": 26,
+          "description": "紫鹃随黛玉入住潇湘馆，二人朝夕相处，紫鹃对黛玉「知冷知热」，远超一般主仆情分。黛玉亦待紫鹃「如亲姊妹一般」。"
+        },
+        {
+          "stage": 3,
+          "title": "临终认妹",
+          "chapter": 97,
+          "description": "黛玉唤紫鹃「妹妹」，托付身后事。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 3,
+          "title": "慧紫鹃试玉——以命护主",
+          "chapter": 57,
+          "description": "紫鹃为试宝玉对黛玉的真心，谎称黛玉将回苏州。宝玉因此痴病发作，紫鹃因此受到贾母等责备，但她无怨无悔。"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_daiyu_enters_jia",
+          "description": "贾母拨鹦哥（紫鹃）服侍黛玉"
+        },
+        {
+          "event_id": "event_zijuan_tests_yu_ch57",
+          "description": "紫鹃试玉——忠心护主"
+        }
+      ],
+      "impact": "紫鹃与黛玉的关系是全书最美的女性情谊之一。紫鹃以丫鬟之身为黛玉守护了最后的情感防线——在黛玉临终时「只有紫鹃一人」守在身旁。她的存在证明：最深的陪伴未必来自血缘或爱情，而是来自在最脆弱时刻的不离不弃。"
+    },
+    {
+      "id": "relationship_zijuan_jia_baoyu",
+      "from": "character_zijuan",
+      "to": "character_jia_baoyu",
+      "type": "试探者与同盟",
+      "nature": [
+        "friendship",
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "紫鹃是宝黛爱情最重要的外部推动者：试玉事件让宝玉的真心公之于众；宝玉病中她衣不解带服侍；宝玉对她的「好」也包含感激（她替黛玉问出了宝玉不敢明说的话）。二人是「宝黛同盟」的两个守护者——宝玉守护爱情本身，紫鹃守护爱情的可行性。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "试玉",
+          "chapter": 57,
+          "description": "紫鹃诈言试出宝玉真心——宝玉痴狂大病，二人关系的转折点。"
+        },
+        {
+          "stage": 2,
+          "title": "病中照拂",
+          "chapter": 57,
+          "description": "宝玉病中紫鹃服侍，并向宝玉剖白原委——同盟关系的确立。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zijuan_jia_mu",
+      "from": "character_zijuan",
+      "to": "character_jia_mu",
+      "type": "旧主（托付者）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母是紫鹃的旧主，也是她与黛玉缘分的缔造者：把紫鹃赐给黛玉，等于把照顾黛玉的责任托付给她。紫鹃也深知贾母对黛玉的庇护是关键——「趁早儿老太太还明白硬朗的时节」的劝告，说明她把贾母视为宝黛姻缘的唯一希望。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赐婢托孤",
+          "chapter": 3,
+          "description": "贾母见黛玉人手单薄，赐紫鹃相随。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zijuan_jia_xichun",
+      "from": "character_zijuan",
+      "to": "character_jia_xichun",
+      "type": "陪伴（出家归宿）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）写紫鹃随惜春在栊翠庵修行。二人此前并无深交，是「伤心人」的相遇：惜春看破家族污浊，紫鹃看破生死情义。紫鹃的「倒干净」与惜春的「矢孤介」在栊翠庵会合——两个对贾府彻底死心的人，选择同一种离场方式。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "随侍出家",
+          "chapter": 118,
+          "description": "紫鹃自请随惜春带发修行。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zijuan_xiren",
+      "from": "character_zijuan",
+      "to": "character_xiren",
+      "type": "对照（忠义的两种形态）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "紫鹃与袭人构成丫鬟「忠义观」的两极：袭人之忠指向「职」（服侍周到、规劝主子、向上晋升），主人出家后便「委屈」改嫁；紫鹃之忠指向「义」（为黛玉谋划终身、死后守灵、看破出家），主人死后仍要完成其遗愿。曹雪芹（及续书作者）以这对对照展示了「忠」的两种层次：职业伦理与人格盟约。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "归宿分野",
+          "chapter": 120,
+          "description": "袭人改嫁蒋玉菡，紫鹃随惜春修行——「嫁」与「空」的对照。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_zijuan_test",
+      "title": "紫鹃为什么敢试探宝玉？她不知道这是大险吗？",
+      "slug": "why-did-zijuan-dare-to-test-baoyu",
+      "question_type": "character_motivation",
+      "importance_weight": 78,
+      "heat_weight": 72,
+      "neutral_overview": "以丫鬟之身诈言试探主子，差点害死宝玉——紫鹃的行为是忠诚的冒险，还是不智的莽撞？",
+      "viewpoint_ids": [
+        "vp_zijuan_test_loyal",
+        "vp_zijuan_test_insight",
+        "vp_zijuan_test_duty"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zijuan_test_loyal",
+          "title": "忠诚冒险论：为了黛玉，她押上了自己",
+          "summary": "紫鹃明知试探的风险（「谁知宝玉的反应如此之烈」），但黛玉的终身大事已拖无可拖。她「愁了这几年」，最终选择破釜沉舟——用自己可能被逐的危险，换黛玉姻缘的一线转机。这是「义」的最高形态：为他人的命运，押上自己的命运。",
+          "evidence": [
+            "「我是一片真心为姑娘。替你愁了这几年了」",
+            "试玉后她向贾母王夫人自陈的坦白姿态"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_zijuan_test_insight",
+          "title": "洞察论：她比任何人都清楚宝玉的真心与僵局",
+          "summary": "紫鹃的试探基于多年的洞察：她看清宝玉爱黛玉已到极致、也看清宝黛之间谁都不肯先「明说」的僵局。她的诈言是「以毒攻毒」——用分离的恐惧逼出真情的证据。她不是莽撞，是算准了结果才出手（「慧紫鹃」的慧正在于此）。",
+          "evidence": [
+            "她对宝黛关系多年的观察（「愁了这几年」）",
+            "诈言内容（回南边）精准命中宝玉最恐惧的事"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zijuan_test_duty",
+          "title": "责任论：她把自己当成了黛玉的「娘家人」",
+          "summary": "紫鹃的越位行为源于她的自我定位：她不是普通丫鬟，而是黛玉「无父母无兄弟」处境下的家人。娘家人的责任是过问小姐的终身大事——她以「家人」身份行事，而非以「奴才」身份。她的敢，来自这份自认的亲情。",
+          "evidence": [
+            "「无父母无兄弟，谁是知疼着热的人」——她自认填补了这个空缺",
+            "黛玉临终唤她「妹妹」——对她家人身份的最终确认（attribution=gaoe）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_zijuan_relationship",
+      "title": "紫鹃与黛玉的关系：主仆还是姐妹？",
+      "slug": "were-zijuan-and-daiyu-sisters",
+      "question_type": "relationship_analysis",
+      "importance_weight": 72,
+      "heat_weight": 65,
+      "neutral_overview": "黛玉临终唤紫鹃「妹妹」，紫鹃发誓「一处化灰化烟」。她们的关系如何从主仆演变为姐妹？",
+      "viewpoint_ids": [
+        "vp_zijuan_sister_gradual",
+        "vp_zijuan_sister_crisis"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zijuan_sister_gradual",
+          "title": "渐变论：日常照拂中长成的亲情",
+          "summary": "紫鹃与黛玉的姐妹情是「处」出来的：多年的同室而居、知冷知热、直言相劝，使主仆之谊自然升华为亲情。送手炉（第八回）、劝「太浮躁」（第三十回前后）、深夜谈心（第五十七回）——每个日常细节都在积累情感的浓度，临终的「妹妹」只是水到渠成的命名。",
+          "evidence": [
+            "第八回送手炉等日常照拂细节",
+            "第五十七回同床夜话的亲密程度"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_zijuan_sister_crisis",
+          "title": "危机论：共同对抗命运使关系升华",
+          "summary": "姐妹关系的关键转折在「命运危机」中完成：试玉事件（紫鹃为黛玉冒险）、焚稿（黛玉临终托付）——每次危机都让二人确认彼此是「唯一的亲人」。黛玉孤高，不轻易认亲；正因紫鹃与她共同经历了命运的打击，才获得「妹妹」的认证。",
+          "evidence": [
+            "试玉事件后二人的情感加深",
+            "临终托付与「妹妹」的称呼（attribution=gaoe）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_zijuan_hui",
+      "title": "「慧紫鹃」——她的「慧」体现在哪里？",
+      "slug": "where-does-zijuans-wisdom-lie",
+      "question_type": "character_analysis",
+      "importance_weight": 70,
+      "heat_weight": 62,
+      "neutral_overview": "曹雪芹以「慧」字定评紫鹃。一个丫鬟的「慧」，具体指什么？",
+      "viewpoint_ids": [
+        "vp_zijuan_hui_three"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zijuan_hui_three",
+          "title": "洞察+胆识+分寸：慧的三重结构",
+          "summary": "紫鹃之慧有三重：一是洞察之慧——看清宝黛真心、贾府风险、贾母庇护的时限；二是胆识之慧——敢以诈言试玉、敢劝黛玉「作定大事」；三是分寸之慧——试玉后服侍病愈、坦白原委，使自己全身而退。她的慧不是小聪明，是「看透+敢为+善后」的完整智慧。对比之下，凤姐之慧失之毒，宝钗之慧失之藏，唯有紫鹃之慧用于「成全」——这是她最可贵处。",
+          "evidence": [
+            "「趁早儿老太太还明白硬朗的时节，作定了大事要紧」的洞察",
+            "试玉的胆识与善后的分寸"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_zijuan_ending",
+      "title": "紫鹃随惜春修行的结局合理吗？",
+      "slug": "is-zijuans-ending-reasonable",
+      "question_type": "version_dispute",
+      "importance_weight": 70,
+      "heat_weight": 65,
+      "neutral_overview": "后四十回（gaoe）安排紫鹃随惜春出家。这个「无主可依」的结局，是否符合她的人格逻辑？",
+      "viewpoint_ids": [
+        "vp_zijuan_ending_yes",
+        "vp_zijuan_ending_question"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_zijuan_ending_yes",
+          "title": "合理论：「倒干净」是忠义的完整句号",
+          "summary": "紫鹃的一生系于黛玉：黛玉在，她在；黛玉亡，她的世界随之终结。随惜春修行（「寻了去，倒干净」）既完成「一处化灰化烟」的誓言（以另一种形式追随黛玉），也让她脱离「逼死黛玉」的贾府。这个结局与她的「慧」一脉相承：看清、决断、离场。",
+          "evidence": [
+            "「倒干净」的决绝口吻与她的清醒人格一致",
+            "守灵情节已铺垫她对贾府的离心"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_zijuan_ending_question",
+          "title": "存疑论：与惜春的交集缺乏铺垫",
+          "summary": "前八十回中紫鹃与惜春几乎无交集，让她随惜春出家略显突兀；此外，紫鹃的「忠」是指向黛玉的，黛玉死后她的情感逻辑更可能是「回南边送灵」而非「皈依佛门」。续书的处理虽动人，但情感线索的接驳不够自然。",
+          "evidence": [
+            "前八十回紫鹃惜春无深交",
+            "紫鹃对黛玉的遗言是「送我回去」（扶柩回南）而非出家"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_zijuan_zhongyi",
+      "title": "紫鹃——《红楼梦》丫鬟「忠义」的最高典范",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1985,
+      "source_title": "多项红学人物专题研究",
+      "description": "红学界普遍将紫鹃视为丫鬟群像中「忠义」的最高典范：她的忠不是奴性（不同于袭人的职业忠诚），而是「义」——以真心待孤女、以冒险谋其终身、以生死践其盟约。学者指出，紫鹃形象的特殊价值在于：她是全书唯一「为他人命运而行动」的丫鬟——袭人谋的是自己的前程，晴雯守的是自己的尊严，唯独紫鹃，一生谋划的都是黛玉的幸福。她的「忠义」因此具有超越阶级的人道主义光辉。"
+    },
+    {
+      "id": "viewpoint_zijuan_tui",
+      "title": "「试玉」——宝黛爱情的公开鉴定与紫鹃的叙事功能",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1990,
+      "source_title": "多项叙事结构研究",
+      "description": "学者分析「慧紫鹃情辞试忙玉」的叙事功能：它是宝黛爱情的「公开鉴定」——宝玉的痴狂反应让全府（包括读者）确认其真情之深；它把婚姻问题从「私情」推向「明局」，直接引发后续的薛姨妈「爱语慰痴颦」等博弈场面；同时，它塑造了紫鹃作为「爱情见证人与推动者」的独特位置。有论者称紫鹃为「宝黛爱情的第三个主角」——没有她的推动，宝黛之情将始终停在「暗暗地想」。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 7,
+    "total_relationships": 6,
+    "total_poems": 0,
+    "total_questions": 4,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 24,
+      "text_inference": 8,
+      "scholarly_viewpoint": 2,
+      "disputed_version": 16,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "character": {
+    "id": "character_wang_shanbao",
+    "name": "王善保家的",
+    "slug": "wang-shan-bao-jia-de",
+    "aliases": [
+      "王善保媳妇"
+    ],
+    "category": "邢夫人陪房（荣国府女仆）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "丈夫王善保，邢夫人陪房；外孙女司棋（迎春房中首席大丫鬟）。",
+      "position": "邢夫人陪房婆子，抄检大观园的撺掇者与执行者。",
+      "origin": "邢夫人陪房体系，随邢夫人入贾府。",
+      "generation": "与周瑞家的、林之孝家的等管家婆子同侪"
+    },
+    "tags": [
+      "抄检大观园",
+      "探春一巴掌",
+      "司棋私情",
+      "搬起石头砸自己的脚",
+      "邢夫人陪房",
+      "惑奸谗"
+    ],
+    "summary": {
+      "short": "邢夫人的陪房婆子，抄检大观园的头号推手。第七十四回她向王夫人进谗撺掇抄检，抄到探春处时掀探春衣襟，被探春反手打了一巴掌；抄到司棋处，又抄出自己外孙女的私情——搬起石头砸了自己的脚，成了全书最著名的「现世报」。",
+      "long": "王善保家的是邢夫人的陪房，第七十四回里，她是把大观园推向抄检的关键人物：绣春囊事发，王夫人本在气头上，她趁机进谗，专说丫鬟们「一个个倒像受了封诰似的」，撺掇王夫人抄检大观园，公报私仇（她素日恨园中丫鬟不奉承她）。抄检之夜里她最嚣张：到了探春处，探春早有准备、开门秉烛而待，她却「趁势作脸」，拉起探春衣襟一掀，笑说「连姑娘身上我都翻了，果然没有什么」——探春怒极，反手一掌打在她脸上，骂出「你是什么东西，敢来拉扯我的衣裳」！到了迎春处，她本是来抄别人的，却从司棋（她的亲外孙女）箱中抄出男子鞋袜、同心如意与情书——凤姐当场念信，她「只恨没地缝儿钻进去」，自己打自己嘴巴：「老不死的娼妇，怎么造下孽了！」抄检大观园以她的脸面扫地收场：想整人的人，先整了自家人。她与探春那一掌，是全书奴婢与主子关系最惊心动魄的一次爆发，也是抄检大观园这场闹剧的高潮与句号。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "谗——狐假虎威的进谗者",
+        "fact_type": "canonical_text_fact",
+        "description": "王善保家的拿绣春囊做文章，挟邢夫人之势向王夫人进谗——她的「谗」不是针对一个人，是针对整个丫鬟阶层。回目「惑奸谗」三个字，曹雪芹把「谗」的定性给了她。"
+      },
+      {
+        "dimension": "欺——欺软怕硬的作脸",
+        "fact_type": "canonical_text_fact",
+        "description": "她掀探春衣襟，是奴才世界最典型的「作脸」：以为抄检是奉旨，谁都可欺。她没算到探春会打她——欺软怕硬的人在硬茬面前，只剩自打嘴巴。"
+      },
+      {
+        "dimension": "报——现世报的活标本",
+        "fact_type": "canonical_text_fact",
+        "description": "抄检出司棋私情，是全书最精准的因果报应：她以风化之名起事，风化之罪先落在自家。曹雪芹让她的名字（善保＝善报）与命运形成反讽闭环。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_wang_shanbao_ch74a",
+        "title": "向王夫人进谗，撺掇抄检大观园（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_wang_shanbao_ch74b",
+        "title": "掀探春衣襟，挨探春一巴掌（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_wang_shanbao_ch74c",
+        "title": "抄出外孙女司棋私情，自打嘴巴（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch74_wang_shanbao_slander",
+        "quote": "王善保家的道：「……这些女孩子们一个个倒像受了封诰似的，他们就成了千金小姐了。闹下天来，谁敢哼一声儿。不然，就调唆姑娘的丫头们，说欺负了姑娘们了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回。进谗的原文——她恨的是丫鬟们的「体面」，是奴婢阶层的内斗心理。"
+      },
+      {
+        "source_id": "source_ch74_wang_shanbao_slap",
+        "quote": "（王善保家的）趁势作脸，因越众向前拉起探春的衣襟，故意一掀，嘻嘻笑道：「连姑娘身上我都翻了，果然没有什么。」……一语未了，只听「拍」的一声，王家的脸上早着了探春一掌。探春登时大怒，指着王家的问道：「你是什么东西，敢来拉扯我的衣裳！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回。全书最响亮的一巴掌——奴婢僭越的极限与小姐尊严的底线相撞。"
+      },
+      {
+        "source_id": "source_ch74_wang_shanbao_reap",
+        "quote": "（抄出司棋之物后）王善保家的……只恨没地缝儿钻进去。凤姐只瞅着他嘻嘻的笑。……王善保家的气无处泄，便自己回手打着自己的脸，骂道：「老不死的娼妇，怎么造下孽了！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回。现世报的完成式——她自己骂自己「造孽」，全书因果报应的讽刺顶点。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「王善保」——「善报」的谐音反讽",
+      "detail": "「王善保」谐音「善报」（一说为「善有善报」之反用）：一个名为「善保」的婆子，干的却是进谗、掀衣、公报私仇的恶事，最后恶报先报在自家外孙女头上。曹雪芹的命名反讽在这里最为直白：善保者不善，报应不爽。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；邢夫人陪房，老年（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "王善保媳妇",
+      "type": "夫名代称",
+      "context": "正文中「王善保家的」「王善保媳妇」并用，均指邢夫人陪房婆子",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_wang_shanbao_ch74a",
+      "title": "进谗撺掇——抄检大观园的发起",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "王夫人处",
+        "specific": "绣春囊事发，王善保家的向王夫人进谗，历数丫鬟们「像受了封诰似的」的「罪状」，撺掇趁夜抄检大观园，王夫人从其言。"
+      },
+      "summary": {
+        "short": "第七十四回，王善保家的把一场风化事故变成了一场政治清洗：她以绣春囊为由头，报丫鬟不奉承她之私仇。抄检大观园的整个机制，是她的私愤与王夫人的猜忌合谋而成。",
+        "meaning": [
+          "「惑奸谗」——回目把抄检的定性给了她的「谗」",
+          "公报私仇——抄检的动机链条里全是奴婢阶层的内斗",
+          "王夫人的猜忌被一个婆子点燃——主子与奴才的合谋"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "谗的机制",
+          "content": "王善保家的进谗是全书「谗」的集大成：抓住绣春囊这个真把柄，掺入私怨，再借主子的手实施报复。抄检大观园证明：毁灭一个理想国，不需要敌人，一个记仇的婆子就够了。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_shanbao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_wang_shanbao_ch74b",
+      "title": "掀探春衣襟——挨了全书最响的一巴掌",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（探春房）",
+        "specific": "抄到探春处，探春开门秉烛而待，自掀箱柜让抄。王善保家的「趁势作脸」，拉起探春衣襟一掀，被探春反手一巴掌打在脸上，又挨探春痛骂。"
+      },
+      "summary": {
+        "short": "探春的一巴掌是抄检大观园的高潮：王善保家的以为「连姑娘身上我都翻了」是奉旨的威风，探春用一巴掌告诉她——奴婢的僭越，打的就是脸。这一掌也打出了全书最著名的一句骂：「你是什么东西！」",
+        "meaning": [
+          "「百足之虫死而不僵」——探春对抄检的预言，与这一掌互为表里",
+          "掀衣襟的性意味——奴才查小姐的身子，礼法世界的最后一道线",
+          "探春之打——全书唯一敢打「体制内恶奴」的小姐"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "探春的巴掌，曹雪芹的立场",
+          "content": "曹雪芹借探春之手打王善保家的，是全书立场最鲜明的一次表态：抄检者比被抄者更该打。探春骂的「你是什么东西」，是全书对奴才僭越的最高判决。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「惑奸谗」的回目学",
+          "content": "第七十四回回目「惑奸谗」三字，学者多解为「王夫人惑于奸谗」——奸谗者即王善保家的。回目先判后叙：整场抄检在回目里就已经被定性为「谗」的产物。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_shanbao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_wang_shanbao_ch74c",
+      "title": "抄出外孙女司棋私情——搬起石头砸自己的脚",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（迎春房）",
+        "specific": "抄到迎春房，从司棋（王善保家的外孙女）箱中抄出男子鞋袜、同心如意与潘又安情书。凤姐当场念信，王善保家的「只恨没地缝儿钻进去」，自打嘴巴骂自己「造孽」。"
+      },
+      "summary": {
+        "short": "抄检大观园的最后一站，成了王善保家的自曝其短：她以风化之名发起抄检，风化的铁证先抄出在她外孙女箱里。曹雪芹用「自打嘴巴」四个字，给这场闹剧画了句号。",
+        "meaning": [
+          "「搬起石头砸自己的脚」——全书因果报应的最直观图解",
+          "凤姐「只瞅着他嘻嘻的笑」——她的幸灾乐祸完成了这场羞辱",
+          "司棋的「并无畏惧惭愧之意」与她的「没地缝儿钻」——烈与丑的对照"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "报应的闭环",
+          "content": "王善保家的发起的抄检，第一个实质性「战果」是她的亲外孙女。曹雪芹设计的不是巧合，是报应：礼教的刀子不认亲疏——但正因为不认亲疏，才显得这场「风化整肃」从头就是笑话。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_wang_shanbao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_pan_youan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_siqi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_wang_shanbao_xingfuren",
+      "from": "character_wang_shanbao",
+      "to": "character_xing_furen",
+      "type": "主仆（陪房）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王善保家的是邢夫人的陪房，她的进谗背后站着邢夫人对王夫人一房的积怨。她是一把枪，枪的持有者是邢夫人——抄检大观园说到底是荣府大房与二房之争借她的手开火。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "陪房",
+          "chapter": 74,
+          "description": "以邢夫人陪房身份向王夫人进谗。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_wang_shanbao_wangfuren",
+      "from": "character_wang_shanbao",
+      "to": "character_wang_furen",
+      "type": "进谗者与采纳者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人本对抄检尚存犹疑（恐伤小姐体面），王善保家的的进谗与「私访」主张促使她下决心。二人一拍即合的背后，是王夫人对宝玉房丫鬟的猜忌与王善保家的的私愤的合流。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "撺掇",
+          "chapter": 74,
+          "description": "王善保家的撺掇王夫人抄检大观园。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_wang_shanbao_tanchun",
+      "from": "character_wang_shanbao",
+      "to": "character_jia_tanchun",
+      "type": "挨打者（一巴掌的冤家）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王善保家的掀探春衣襟，挨了探春一巴掌。这一掌是全书奴婢与主子关系最惊心动魄的一次爆发：她以为抄检的「奉旨」身份可以压过小姐的尊严，探春用一巴掌重划了界线。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "掀衣挨打",
+          "chapter": 74,
+          "description": "王善保家的掀探春衣襟，被探春打了一巴掌。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_wang_shanbao_fengjie",
+      "from": "character_wang_shanbao",
+      "to": "character_wang_xifeng",
+      "type": "对立（被看笑话）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐对王善保家的的进谗心知肚明，抄检全程看她笑话：司棋私情败露时，凤姐「只瞅着他嘻嘻的笑」。二人一个是大房陪房，一个是二房管家奶奶，凤姐的讥笑代表了整个二房势力对她的清算。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "看笑话",
+          "chapter": 74,
+          "description": "凤姐冷眼旁观王善保家的出丑。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_wang_shanbao_motive",
+      "title": "王善保家的撺掇抄检大观园，动机是私愤还是奉命？",
+      "slug": "was-the-copy-search-private-vengeance",
+      "question_type": "character_motivation",
+      "importance_weight": 66,
+      "heat_weight": 62,
+      "neutral_overview": "第七十四回，王善保家的向王夫人进谗撺掇抄检。她为什么要挑这个头？",
+      "viewpoint_ids": [
+        "vp_wang_shanbao_private",
+        "vp_wang_shanbao_proxy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_wang_shanbao_private",
+          "title": "私愤论：丫鬟不奉承她，她要报仇",
+          "summary": "正文明写她「素日进园去，那些丫鬟们不大趋奉他，他心里大不自在」，进谗是公报私仇。抄检大观园是奴婢阶层内部的一场私怨清算，风化只是借口。",
+          "evidence": [
+            "第七十四回「不大趋奉他，他心里大不自在」",
+            "她进谗的矛头专指园中丫鬟"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_wang_shanbao_proxy",
+          "title": "代理论：她是大房与二房斗争的棋子",
+          "summary": "王善保家的是邢夫人的陪房，她的进谗背后是邢夫人借绣春囊向王夫人发难。她敢撺掇抄检，因为抄的是二房管辖的大观园——她是大房势力的代理人。",
+          "evidence": [
+            "绣春囊由邢夫人亲手交给王夫人，带有问罪意味",
+            "王善保家的陪房身份与邢夫人利益绑定"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch74_wang_shanbao_grudge",
+      "quote": "（王善保家的）正因素日进园去，那些丫鬟们不大趋奉他，他心里大不自在，要寻他们的故事又寻不着，恰好生出这事来，以为得了把柄。",
+      "fact_type": "canonical_text_fact",
+      "note": "第七十四回。曹雪芹直接点破她的动机——抄检大观园的「公案」，源头是一介婆子的私愤。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_wang_shanbao_type",
+      "title": "王善保家的——「刁奴」形象的代表",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1996,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，王善保家的是《红楼梦》「刁奴」谱系的代表：与周瑞家的（势利圆滑）、林之孝家的（阴柔持重）不同，她是「明恶」——进谗、作脸、欺下，恶得毫不遮掩。她与司棋的关系使她的恶具有了悲剧性的反讽：她是全书唯一「整人整到自己头上」的婆子。有论者认为，探春那一巴掌打的不仅是王善保家的一个人，而是整个「刁奴体制」——所以这一掌才被公认为全书最解气的一掌。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 1,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.85,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 17,
+      "text_inference": 4,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

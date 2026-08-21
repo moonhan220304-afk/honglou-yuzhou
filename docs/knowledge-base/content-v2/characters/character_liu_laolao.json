@@ -1,0 +1,1056 @@
+{
+  "character": {
+    "id": "character_liu_laolao",
+    "name": "刘姥姥",
+    "slug": "liu-laolao",
+    "aliases": [
+      "刘妪",
+      "老寡妇",
+      "母蝗虫"
+    ],
+    "category": "荣国府亲戚（民间人物）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "寡居多年，膝下无子，依女婿王狗儿一家生活；板儿（王狗儿之子）之外婆。",
+      "position": "乡村老寡妇；与贾府王夫人祖上有「连宗」之亲（王家与王夫人娘家同姓联宗）。",
+      "origin": "京郊乡村农家。",
+      "generation": "与贾母同辈的老年女性"
+    },
+    "tags": [
+      "三进荣国府",
+      "母蝗虫",
+      "报恩",
+      "救巧姐",
+      "民间标尺",
+      "大智若愚",
+      "酒令",
+      "栊翠庵",
+      "醉卧怡红院",
+      "见证兴衰"
+    ],
+    "summary": {
+      "short": "乡村老寡妇，因与王夫人娘家联过宗而三进荣国府：一进求帮，二进游园，三进救孤。她是全书唯一贯穿贾府兴衰全程的民间视角——脂批称「借刘妪，却是写阿凤正传」。",
+      "long": "刘姥姥是《红楼梦》中最特殊的人物：一个乡村老寡妇，凭着女婿王狗儿家与王夫人娘家的「连宗」之谊，闯进了国公府的大门。她一进荣国府（第六回）为「打抽丰」——王熙凤给了二十两银子，这「偶」然的一济，成为日后巧姐获救的因果源头。二进荣国府（第三十九至四十二回）是全书喜剧的巅峰：她带着瓜菜回礼，被贾母留下游大观园——行酒令（「大火烧了毛毛虫」「花儿落了结个大倭瓜」）、醉卧怡红院、栊翠庵品茶、给巧姐取名「巧哥儿」，处处闹笑话，又处处见淳朴。她在贾府是「被取笑者」——黛玉叫她「母蝗虫」，凤姐拿她当「女篾片」，鸳鸯与她合谋逗贾母开心——但她的「愚」里藏着最清醒的生存智慧：被捉弄而不怒，得好处而知恩。三进荣国府（第一一三回，gaoe）时贾府已败：凤姐临终托孤，刘姥姥应允；巧姐被卖之祸起时（第一一九回，gaoe），她冒险相救，藏于乡间——二十两银子的善因，结出了救命的善果。脂批在第六回明言：「此回借刘妪，却是写阿凤正传，并非泛文，且伏『二进』『三进』及巧姐之归着。」刘姥姥的三进荣国府，是贾府从「烈火烹油」到「白茫茫大地」的完整见证；她的「知恩图报」是全书污浊的贵族世界之外，唯一的民间道德之光。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "民间生存智慧",
+        "fact_type": "canonical_text_fact",
+        "description": "刘姥姥的「愚」是表象，「慧」是实质：她深知自己进贾府的身份（打抽丰的穷亲戚），坦然接受被取笑的代价，换取实在的好处（银子、衣物、园里的见识）。她劝女婿的话（「谋事在人，成事在天」）是全书最朴素的生存哲学。"
+      },
+      {
+        "dimension": "知恩图报——民间道德的化身",
+        "fact_type": "canonical_text_fact",
+        "description": "刘姥姥两次受恩（二十两银子、一百两银子与诸多衣物）都记在心里：二进带瓜菜回礼，贾府败后（gaoe）冒险救巧姐。她的「报」不是等价交换，而是「你给过我一口饭，我救你一条命」的民间伦理。"
+      },
+      {
+        "dimension": "豁达与幽默感",
+        "fact_type": "canonical_text_fact",
+        "description": "刘姥姥被捉弄从不生气：头上插满菊花她说「我虽老了，年轻时也风流」，喝醉了闯进怡红院睡在宝玉床上——她的豁达与幽默使她成为贾府笑料的中心，却从不失去尊严。她的「笑」是劳动人民的韧性：苦中作乐，乐中求生。"
+      },
+      {
+        "dimension": "见证者——历史的民间标尺",
+        "fact_type": "text_inference",
+        "description": "刘姥姥三进荣国府，丈量了贾府的兴衰全程：一进时的「瘦死的骆驼比马大」，二进时的「烈火烹油」，三进时的「树倒猢狲散」。她是曹雪芹安插在民间的标尺——贵族世界的兴衰，最终要由一双农妇的眼睛来见证。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_liulaolao_first_ch6",
+        "title": "一进荣国府——二十两银子（第六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_liulaolao_second_ch39_42",
+        "title": "二进荣国府——游大观园（第三十九至四十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_liulaolao_jiuling_ch40",
+        "title": "行酒令——「大火烧了毛毛虫」（第四十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_liulaolao_tea_ch41",
+        "title": "栊翠庵品茶（第四十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_liulaolao_drunk_ch41",
+        "title": "醉卧怡红院（第四十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_liulaolao_name_ch42",
+        "title": "给巧姐取名「巧哥儿」（第四十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_liulaolao_third_ch113",
+        "title": "三进荣国府——凤姐托孤（第一一三回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 8,
+        "event_id": "event_liulaolao_rescue_ch119",
+        "title": "救巧姐（第一一九回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch06_liulaolao_first",
+        "quote": "刘姥姥道：「……如今咱们虽离城住着，终是天子脚下。这长安城中，遍地都是钱，只可惜没人会去拿去罢了。在家跳蹋会子也不中用。」……「谋事在人，成事在天。咱们谋到了，看菩萨的保佑，有些机会，也未可知。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六回刘姥姥劝女婿上进。「谋事在人，成事在天」——全书最朴素的民间行动哲学。"
+      },
+      {
+        "source_id": "source_ch06_liulaolao_zhipi",
+        "quote": "脂批：此回借刘妪，却是写阿凤正传，并非泛文，且伏「二进」「三进」及巧姐之归着。",
+        "fact_type": "scholarly_viewpoint",
+        "note": "第六回脂批。刘姥姥的叙事功能被脂批点破：写她，是为了写凤姐、写巧姐的命运伏线。"
+      },
+      {
+        "source_id": "source_ch40_liulaolao_jiuling",
+        "quote": "鸳鸯道：「中间『三四』绿配红。」刘姥姥道：「大火烧了毛毛虫。」……鸳鸯道：「右边『幺四』真好看。」刘姥姥道：「一个萝卜一头蒜。」……鸳鸯道：「凑成便是一枝花。」刘姥姥两只手比着，说道：「花儿落了结个大倭瓜。」众人大笑起来。",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十回刘姥姥行牙牌令。「大火烧了毛毛虫」「一个萝卜一头蒜」「花儿落了结个大倭瓜」——庄稼人的语言把贵族酒令解构成泥土与丰收。"
+      },
+      {
+        "source_id": "source_ch42_liulaolao_gift",
+        "quote": "平儿一一的拿与他瞧着，说道：「……这两包每包里头五十两，共是一百两，是太太给的，叫你拿去或者作个小本买卖，或者置几亩地，以后再别求亲靠友的。」……刘姥姥千恩万谢，说道：「我这一回去，没别的报答，惟有请些高香天天给你们念佛，保佑你们长命百岁的，就算我的心了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十二回刘姥姥二进归去，满载而归（一百两银子及大量衣物）。「请香念佛」——她以民间最郑重的方式许下报恩之愿。"
+      },
+      {
+        "source_id": "source_ch41_liulaolao_tea",
+        "quote": "妙玉命人把那成窑的茶杯别收了，搁在外头去罢。宝玉会意，知为刘姥姥用了，他嫌肮脏不要了。……宝玉便说：「那茶杯虽然脏了，白撂着岂不可惜？依我说，不如就给那贫婆子罢，他卖了也可以度日。你道可使得？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十一回栊翠庵品茶。妙玉嫌刘姥姥用过的成窑杯脏，宝玉讨来送她——阶级的嫌恶与宝玉的悲悯同场并置。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "刘姓村妪",
+      "detail": "「刘」谐「留」——留余庆；曲文《留余庆》「留余庆，留余庆，忽遇恩人」呼应其救巧姐之举。判词「偶因济刘氏，巧得遇恩人」——与巧姐「巧得遇恩人」对应，刘氏之「留」留住了贾府一线余庆",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 39,
+          "evidence": "刘姥姥对贾母：我今年七十五了",
+          "age": "75岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "75岁（第39回）",
+        "story_end": "约75-80岁",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第39回自报75岁是唯一明文锚点。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "刘妪",
+      "type": "脂批称呼",
+      "context": "脂批称「此回借刘妪，却是写阿凤正传」——「妪」是老妇的雅称",
+      "fact_type": "scholarly_viewpoint"
+    },
+    {
+      "alias": "老寡妇",
+      "type": "身份称呼",
+      "context": "刘姥姥寡居多年，「膝下又无儿女，只靠着两亩薄田度日」，后依女婿王狗儿家生活",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "母蝗虫",
+      "type": "戏称",
+      "context": "黛玉打趣二进大观园的刘姥姥「他是那一门子的姥姥，直叫他是个『母蝗虫』就是了」——讥其「打抽丰」之贪",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_liulaolao_first_ch6",
+      "title": "一进荣国府——打抽丰",
+      "event_level": "major",
+      "chapter": {
+        "number": 6,
+        "title": "贾宝玉初试云雨情 刘姥姥一进荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "女婿王狗儿家冬事无办，刘姥姥想起与王夫人娘家联过宗，便带着外孙板儿进城「打抽丰」。经周瑞家的引见，见到凤姐。凤姐给了二十两银子，刘姥姥千恩万谢而去。"
+      },
+      "summary": {
+        "short": "刘姥姥一进荣国府：凭「连宗」之谊上门求助，在凤姐面前欲说还休，终于开口——凤姐给了二十两银子。这二十两是她与贾府（尤其是凤姐与巧姐）命运纠缠的起点。脂批：「此回借刘妪，却是写阿凤正传。」",
+        "meaning": [
+          "刘姥姥的第一次上门，把读者的视线从贵族内闱拉向底层民间——全书「两极结构」的开启",
+          "二十两银子：凤姐眼中微不足道的打发，却是刘姥姥一家一年的生计",
+          "脂批点明：此回借刘姥姥写凤姐——写凤姐的施舍、精明与「偶」然的善"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "第六回的叙事转换",
+          "content": "曹雪芹在第六回插入刘姥姥，是全书叙事结构的关键手笔：从宝黛钗的贵族世界「宕开一笔」，引入民间视角。脂批所谓「并非泛文」——刘姥姥不是插曲，是伏线：她的一进，伏二进三进，伏巧姐的归宿。"
+        },
+        {
+          "type": "character",
+          "title": "「打抽丰」的勇气与尊严",
+          "content": "刘姥姥上门是「打抽丰」（蹭钱），但她不是来乞讨——她带着「谋事在人」的行动哲学与「若果能得些好处」的坦然。她进府时的紧张（「蹭到角门前」）、开口时的窘迫（「未语先飞红的脸」）都是真实的尊严之痛：穷人的难堪与勇气，全在她的一进一退之间。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_gouer",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ban_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhou_rui",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liulaolao_second_ch39_42",
+      "title": "二进荣国府——游大观园",
+      "event_level": "major",
+      "chapter": {
+        "number": 39,
+        "title": "村姥姥是信口开合 情哥哥偏寻根究底",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/大观园",
+        "specific": "刘姥姥带着头一茬瓜菜回礼，正逢贾母想找个「积古的老人家说话儿」，遂被留下。她给贾母讲故事（茗玉小姐抽柴等），贾母携她游大观园：行酒令、逛潇湘馆、醉卧怡红院、栊翠庵品茶、为巧姐取名。归去时满载一百两银子与衣物无数。"
+      },
+      "summary": {
+        "short": "二进荣国府是全书喜剧的巅峰：刘姥姥以「女清客」之姿陪伴贾母，闹出无数笑话（插满头的菊花、行酒令的庄稼话、迷路醉卧宝玉床上），也给贾府带来无数欢笑。归去时她满载而归——贾母王夫人凤姐都赠银赠物。",
+        "meaning": [
+          "刘姥姥的「丑角化」是双方心照不宣的表演：她以被取笑换取好处，贾府以取笑换取欢乐",
+          "她的「信口开合」（茗玉小姐故事）无意中触动了宝玉——民间叙事与贵族精神的碰撞",
+          "二进的高潮（游园）正处贾府「烈火烹油」之盛——盛景由她的眼睛记录"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "刘姥姥的「笑」——喜剧下的残酷",
+          "content": "第四十回「笑」的场面（湘云喷饭、黛玉笑岔气）是全书最著名的喜剧场面，但笑的代价是刘姥姥被捉弄（插花、灌酒、扮丑）。曹雪芹没有掩饰这层残酷：贵族之笑建立在贫者之窘上。刘姥姥的配合（主动扮丑）使「笑」更加复杂——她是明白人，为了生计自愿当笑料。喜剧的深处是阶级的不对称。"
+        },
+        {
+          "type": "character",
+          "title": "「女篾片」的智慧",
+          "content": "凤姐称刘姥姥为「女篾片」（陪客取乐的人），刘姥姥心知肚明却毫不在意——她的智慧在于「认账」：既然此行目的就是拿好处，被取笑就是成本。她的豁达不是麻木，是算清了账的通透。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liulaolao_jiuling_ch40",
+      "title": "行酒令——庄稼人的语言解构",
+      "event_level": "minor",
+      "chapter": {
+        "number": 40,
+        "title": "史太君两宴大观园 金鸳鸯三宣牙牌令",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（缀锦阁）",
+        "specific": "行牙牌令。刘姥姥对不上雅令，说出「大火烧了毛毛虫」「一个萝卜一头蒜」「花儿落了结个大倭瓜」——庄稼话四座绝倒，贾母笑得流出眼泪。"
+      },
+      "summary": {
+        "short": "酒席上行牙牌令，众钗皆出雅语，唯刘姥姥以庄稼话应对：「大火烧了毛毛虫」「一个萝卜一头蒜」「花儿落了结个大倭瓜」——粗鄙中见生机，四座大笑，贾母大乐。",
+        "meaning": [
+          "庄稼话的「不入流」恰恰解构了酒令的雅致体系——泥土语言自带生命力",
+          "「花儿落了结个大倭瓜」——以丰收意象对撞伤春悲秋的贵族审美",
+          "刘姥姥用「错位」制造笑声，也以「错位」保存了民间的真实"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「结个大倭瓜」的美学",
+          "content": "牙牌令是贵族文化的精致标本（黛玉湘云的令都藏着书卷与谶语），刘姥姥的令则全是庄稼：虫子、萝卜、蒜、倭瓜。「花儿落了结个大倭瓜」无意间构成对贵族文化的美学反驳——你们伤春悲秋的花落，在庄稼人眼里是「结果」的开始。粗俗与鲜活，在这句酒令里完成了对雅文化的温柔颠覆。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liulaolao_tea_ch41",
+      "title": "栊翠庵品茶——成窑杯事件",
+      "event_level": "minor",
+      "chapter": {
+        "number": 41,
+        "title": "栊翠庵茶品梅花雪 怡红院劫遇母蝗虫",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "栊翠庵",
+        "specific": "贾母携刘姥姥至栊翠庵。妙玉以成窑五彩小盖钟奉茶于贾母，刘姥姥用过一口，妙玉便命人「别收了，搁在外头去罢」——嫌她脏。宝玉讨得此杯送刘姥姥，说「卖了也可以度日」。妙玉还嘲讽刘姥姥品不出「旧年的雨水」与「梅花上的雪水」之别。"
+      },
+      "summary": {
+        "short": "妙玉奉茶，刘姥姥喝过的成窑杯被妙玉嫌脏丢弃。宝玉讨来送她。妙玉对刘姥姥的嫌恶（「幸而那杯子是我没吃过的」）与宝玉的悲悯形成对照——一只杯子，照出三个人的世界。",
+        "meaning": [
+          "妙玉的「洁癖」与刘姥姥的「脏」——阶层洁癖的极端展示",
+          "成窑杯（价值连城）送村妇——宝玉的悲悯跨越了物的价值体系",
+          "「梅花雪水」与「旧年雨水」的品鉴——贵族文化的精细与民间之「粗」的隔膜"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "杯子的三重视线",
+          "content": "同一只成窑杯：妙玉眼里是「被污染的器皿」（丢弃），宝玉眼里是「可救人的资财」（送人度日），刘姥姥眼里大约只是「一个茶盅」（用过的寻常物）。三重视线叠加出全书最浓缩的阶级寓言：物的价值随观看者的世界而变。"
+        },
+        {
+          "type": "character",
+          "title": "妙玉与刘姥姥——两个「外姓人」",
+          "content": "妙玉与刘姥姥都是大观园的「外来者」，态度却截然相反：妙玉以最精致的洁癖拒绝民间，刘姥姥以最粗粝的豁达接受一切。曹雪芹把二人放进同一个茶席——「过洁世同嫌」的妙玉与「母蝗虫」的刘姥姥，构成「出世之洁」与「入世之俗」的极端对照。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_miao_yu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liulaolao_drunk_ch41",
+      "title": "醉卧怡红院",
+      "event_level": "minor",
+      "chapter": {
+        "number": 41,
+        "title": "栊翠庵茶品梅花雪 怡红院劫遇母蝗虫",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "刘姥姥喝醉迷路，闯进宝玉的卧室，倒在床上鼾睡如雷。袭人赶来叫醒她，帮她遮掩过去。刘姥姥问「这是哪个小姐的绣房，这样精致？我就像到了天宫里的一样」——得知是宝玉卧房，吓得「不敢作声」。"
+      },
+      "summary": {
+        "short": "刘姥姥醉中迷路，误入怡红院，睡在宝玉床上——全书最「荒诞」也最「越界」的一幕：贾府最金贵的公子哥的床，被一个浑身酒气的村妇睡了。袭人收拾遮掩，刘姥姥事后只当是「到了天宫里」。",
+        "meaning": [
+          "醉卧怡红院是阶级秩序的一次「意外越界」——最脏的（酒醉村妇）侵入最净的（宝玉绣房）",
+          "「天宫里的一样」——刘姥姥的民间视角对贵族居所的仰望",
+          "袭人的遮掩——秩序的恢复：这桩「丑事」被体面地抹去"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「劫遇母蝗虫」——回目的双重讽刺",
+          "content": "回目「怡红院劫遇母蝗虫」以「劫」字写这场误入——对怡红院而言，刘姥姥如蝗虫过境；对刘姥姥而言，怡红院如天宫幻境。两个世界互相视对方为「异类」，恰恰说明阶级之间的鸿沟之深：连彼此的「误入」都像天灾。"
+        },
+        {
+          "type": "character",
+          "title": "宝玉的床——「女儿国」的边界",
+          "content": "刘姥姥睡的是宝玉的床——全书最讲究「洁净女儿」的怡红院，被一个「最不洁净」（按妙玉的标准）的村妇睡了。曹雪芹的幽默里有深意：他让「俗世」短暂地占领了「幻境」，又让秩序（袭人）把一切恢复原状。大观园的精致世界，容不下哪怕一个醉汉的鼾声。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liulaolao_name_ch42",
+      "title": "给巧姐取名「巧哥儿」",
+      "event_level": "major",
+      "chapter": {
+        "number": 42,
+        "title": "蘅芜君兰言解疑癖 潇湘子雅谑补余香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "巧姐生病，凤姐疑是「撞客」。刘姥姥认为或是富贵人家养得娇。凤姐请她为女儿取名——「到底贫苦些，只怕压的住他」。刘姥姥得知巧姐生于七月初七，便取名「巧哥儿」：「以毒攻毒，以火攻火」，日后「遇难成祥，逢凶化吉」。凤姐大喜，谢了刘姥姥。"
+      },
+      "summary": {
+        "short": "凤姐请刘姥姥为巧姐取名。刘姥姥以「以毒攻毒」之法化解七月初七生日之「巧」，取名「巧哥儿」，预言她日后「遇难成祥，逢凶化吉」。凤姐大喜，重谢刘姥姥。命名之缘，是日后刘姥姥救巧姐的命运之约。",
+        "meaning": [
+          "贵族小姐的名字出自村妇之口——阶级关系的一次温柔倒转",
+          "「巧」字是巧姐命运的密码：判词「巧得遇恩人」与此处命名暗合",
+          "凤姐的「只怕压的住他」——富贵母亲的软弱与民间力量的托付"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "命名即结盟",
+          "content": "刘姥姥给巧姐取名，等于与巧姐之间建立了「命名者与被命名者」的古老契约——民间信仰中，命名者有庇护之责。这个契约在数十年后兑现：巧姐被卖，命名者来救。曹雪芹用「取名」这个细节，完成了「恩人关系」的宗教化绑定。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liulaolao_third_ch113",
+      "title": "三进荣国府——凤姐托孤",
+      "event_level": "major",
+      "chapter": {
+        "number": 113,
+        "title": "忏宿冤凤姐托村妪 释旧憾情婢感痴郎",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾府败落，凤姐病危。刘姥姥闻讯赶来探望。凤姐临终前将巧姐托付于她：「姥姥，我的命交给你了。我的巧姐儿也是千灾百病的，也交给你了。」刘姥姥应允。凤姐托孤后，刘姥姥为其念佛祝祷。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写凤姐临终托孤：把巧姐托付给刘姥姥。当年凤姐施舍二十两银子的「穷亲戚」，如今成为她唯一信得过的托孤之人。脂批「伏巧姐之归着」至此兑现。",
+        "meaning": [
+          "凤姐一生不信人，临终只信刘姥姥——她的恶被世道清算，她的善只有刘姥姥记着",
+          "托孤场景完成凤姐形象的收束：精明的尽头是托付给「愚」",
+          "「我的命交给你了」——权势尽失后的凤姐，终于承认民间道德的可贵"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤姐的临终清醒",
+          "content": "凤姐一生算计，死前把女儿托付给全府最「无用」的刘姥姥——这是她一生最清醒也最动人的一次决定：她终于看明白，满府的富贵亲戚都是「势败休云贵，家亡莫论亲」的陌路人，只有那个她当年半含傲慢地打发过的村妇，会真的为她的女儿拼命。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liulaolao_rescue_ch119",
+      "title": "救巧姐——报恩的完成",
+      "event_level": "major",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府→刘姥姥庄上",
+        "specific": "王仁、贾环等合谋卖巧姐。平儿与王夫人求计于刘姥姥。刘姥姥定计：先避后藏——把巧姐藏到乡下庄上。巧姐扮作村姑，随刘姥姥连夜出城，逃过被卖之劫。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写巧姐被卖之祸起，刘姥姥赶来定计相救，把巧姐扮作村姑藏到乡下。二十两银子的善因，终于结出救命的善果——判词「偶因济刘氏，巧得遇恩人」兑现。",
+        "meaning": [
+          "刘姥姥的报恩是全书「留余庆」主题的完成——善行的利息由下一代收取",
+          "巧姐从侯门千金到村姑——刘姥姥的「藏」既是救命也是阶级改造",
+          "民间道德的胜利：满府贵族救不了的女孩，一个村妇救下了"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "因果闭环的完成",
+          "content": "从第六回二十两银子到第一一九回救孤——刘姥姥线是全书最完整的因果闭环。曹雪芹用这条线回答了一个问题：在「白茫茫大地真干净」的世界里，什么能留下来？答案是「善」——凤姐一生唯一的一点善，兑换了女儿的一条命。刘姥姥不是人物，是「报应不爽」的活体证明。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_ren",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_liulaolao_wang_xifeng",
+      "from": "character_liu_laolao",
+      "to": "character_wang_xifeng",
+      "type": "施舍与托孤（因果两端）",
+      "nature": [
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "刘姥姥与凤姐的关系贯穿全书：一进时凤姐施舍二十两（居高临下的「打发」）；二进时凤姐拿她当「女篾片」取乐（但也有真情流露——请她给巧姐取名）；三进时凤姐临终托孤（把命交给她）。这段关系的质地从「施舍」变为「托付」——凤姐一生唯一善待过的人，成了她唯一的依靠。脂批「借刘妪写阿凤正传」——刘姥姥线是凤姐形象的侧写。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "施舍",
+          "chapter": 6,
+          "description": "凤姐给刘姥姥二十两银子——「偶因济刘氏」的善因。"
+        },
+        {
+          "stage": 1,
+          "title": "施恩取名",
+          "chapter": 42,
+          "description": "刘姥姥为凤姐女儿取名「巧哥儿」（巧姐），凤姐偶然施恩给刘姥姥银两衣物。这份无意间的善意日后成了女儿唯一的活路。"
+        },
+        {
+          "stage": 1,
+          "title": "一进荣国府——施恩",
+          "chapter": 6,
+          "description": "刘姥姥告帮，凤姐「拔一根寒毛」给了二十两银子——对她而言微不足道，对刘姥姥是救命钱。"
+        },
+        {
+          "stage": 2,
+          "title": "取乐与信任",
+          "chapter": 42,
+          "description": "凤姐请刘姥姥为巧姐取名——从「取乐」到「托付」的转折。"
+        },
+        {
+          "stage": 2,
+          "title": "二进荣国府——取名",
+          "chapter": 42,
+          "description": "刘姥姥为凤姐女儿取名「巧哥儿」。"
+        },
+        {
+          "stage": 3,
+          "title": "托孤",
+          "chapter": 113,
+          "description": "凤姐临终托孤——「我的命交给你了」。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 3,
+          "title": "救巧姐——报恩",
+          "chapter": 119,
+          "description": "贾府败落，巧姐被卖，刘姥姥倾家荡产赎出巧姐。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe。但判词「巧得遇恩人」证明此为曹雪芹原定结局。"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_qiaojie_name_ch42",
+          "description": "刘姥姥为巧姐取名"
+        }
+      ],
+      "impact": "凤姐与刘姥姥的关系是全书中最强有力的因果报应叙事。凤姐一生作恶无数，但唯有对刘姥姥的一点善意最终结了善果——这既是对「积善之家必有余庆」的呼应，也是对凤姐一生「不信阴司报应」的反讽。"
+    },
+    {
+      "id": "relationship_liulaolao_jia_mu",
+      "from": "character_liu_laolao",
+      "to": "character_jia_mu",
+      "type": "主客（两个世界的老人）",
+      "nature": [
+        "friendship",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母与刘姥姥是全书最动人的「老人对」：一个侯门老太君，一个乡村老寡妇，同岁上下的两个人聊得投机——「我正想个积古的老人家说话儿」。贾母称刘姥姥「老亲家」，刘姥姥称贾母「老寿星」。她们之间没有算计，只有两个老人对岁月的交流：贾母在刘姥姥身上看见另一种活法，刘姥姥在贾母身上看见另一种世界。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "初见投缘",
+          "chapter": 39,
+          "description": "贾母留下刘姥姥说话——「积古的老人家」的相见。"
+        },
+        {
+          "stage": 1,
+          "title": "两宴大观园",
+          "chapter": 40,
+          "description": "贾母携刘姥姥游园——两个「积古老人」的互相映照。"
+        },
+        {
+          "stage": 2,
+          "title": "同游大观园",
+          "chapter": 40,
+          "description": "贾母携刘姥姥游园、宴饮——全书最温情的跨阶级相处。"
+        },
+        {
+          "stage": 2,
+          "title": "为巧姐取名",
+          "chapter": 42,
+          "description": "刘姥姥为巧姐取名——这段关系的善缘在结局处兑现（巧姐得救）。"
+        }
+      ],
+      "evidence_events": [
+        "event_jiamu_liu_laolao_ch40"
+      ]
+    },
+    {
+      "id": "relationship_liulaolao_baner",
+      "from": "character_liu_laolao",
+      "to": "character_baner",
+      "type": "祖孙（外婆与外孙）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "板儿是刘姥姥的外孙，两次随她进荣国府。第四十一回板儿与巧姐互换佛手柚子——脂批「千里伏线」：板儿与巧姐的姻缘，正是由外婆与母亲的「善缘」牵成。板儿是刘姥姥线中「下一代」的载体。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "携板儿进府",
+          "chapter": 6,
+          "description": "刘姥姥带板儿一进荣国府——「没见过世面」的祖孙俩。"
+        },
+        {
+          "stage": 2,
+          "title": "佛手柚子",
+          "chapter": 41,
+          "description": "板儿与巧姐互换玩具——脂批「千里伏线」。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liulaolao_miao_yu",
+      "from": "character_liu_laolao",
+      "to": "character_miao_yu",
+      "type": "嫌恶与被嫌恶（阶级洁癖的镜子）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "妙玉是全书唯一公开嫌恶刘姥姥的人：刘姥姥用过的成窑杯，她嫌脏丢弃。刘姥姥则浑然不觉（或不在乎）。二人构成「出世之洁」与「入世之俗」的极端对照——曹雪芹对妙玉「过洁世同嫌」的批评，正以刘姥姥的「不觉」为镜子。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "成窑杯事件",
+          "chapter": 41,
+          "description": "妙玉嫌刘姥姥用过的杯子脏，宝玉讨来送刘姥姥。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liulaolao_wang_gouer",
+      "from": "character_liu_laolao",
+      "to": "character_wang_gouer",
+      "type": "岳母与女婿",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王狗儿是刘姥姥的女婿（王夫人娘家联宗之王家后人）。刘姥姥寡居无依，与他一家生活；家计困窘时，是她以「谋事在人，成事在天」劝说女婿，并亲自进府打抽丰。刘姥姥的「豁达」底色，正来自寄人篱下仍要撑起门面的生活。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "劝婿谋事",
+          "chapter": 6,
+          "description": "刘姥姥劝王狗儿去贾府走动，并亲赴荣国府。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liulaolao_jia_baoyu",
+      "from": "character_liu_laolao",
+      "to": "character_jia_baoyu",
+      "type": "偶然的对话者",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "刘姥姥与宝玉的交集「轻」而意味深长：她的「茗玉小姐抽柴」故事让宝玉信以为真、派人寻访（民间叙事对贵族心灵的触动）；她醉卧怡红院（躺在宝玉床上）；栊翠庵中宝玉为她讨成窑杯。宝玉对她的态度（不嫌、资助、信其故事）与他「怜贫惜弱」的人格一致。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "茗玉小姐故事",
+          "chapter": 39,
+          "description": "宝玉对刘姥姥信口开合的故事信以为真——「痴」与「淳」的相遇。"
+        },
+        {
+          "stage": 2,
+          "title": "赠杯",
+          "chapter": 41,
+          "description": "宝玉为刘姥姥讨成窑杯——「卖了也可以度日」。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_liulaolao_jiuling",
+      "title": "牙牌令（庄稼话三句）",
+      "work_type": "酒令",
+      "chapter_number": 40,
+      "fact_type": "canonical_text_fact",
+      "summary": "「大火烧了毛毛虫。」「一个萝卜一头蒜。」「花儿落了结个大倭瓜。」",
+      "symbolic_notes": "全书唯一「不雅」的酒令。虫子、萝卜、蒜、倭瓜——庄稼人的意象群闯入贵族酒令体系，以泥土的生命力解构伤春悲秋的雅文化。「花儿落了结个大倭瓜」：贵族眼中花落的哀愁，恰是庄稼人眼中结果的开始。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_liulaolao_significance",
+      "title": "刘姥姥为什么是理解贾府兴衰的重要人物？",
+      "slug": "why-is-liu-laolao-key-to-understanding-the-jia-family",
+      "question_type": "theme_analysis",
+      "importance_weight": 85,
+      "heat_weight": 75,
+      "neutral_overview": "三进荣国府，刘姥姥亲眼见证贾府从「瘦死的骆驼比马大」到「树倒猢狲散」。这个村妇为何成为全书兴衰叙事的标尺？",
+      "viewpoint_ids": [
+        "viewpoint_liulaolao_mirror",
+        "viewpoint_liulaolao_earthy",
+        "viewpoint_liulaolao_gratitude"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_liulaolao_mirror",
+          "title": "镜子论：刘姥姥是贾府兴衰的「民间标尺」",
+          "summary": "刘姥姥的三进，分别丈量了贾府的三个阶段：一进时的鼎盛（凤姐的施舍都带着排场）、二进时的烈火烹油（大观园的奢华）、三进时的败落（托孤救孤）。她是曹雪芹安插在贵族世界之外的标尺——贾府的兴衰不需要抽象议论，看刘姥姥三次进府的所见所得即可。",
+          "evidence": [
+            "三进荣国府的所见所感的变化",
+            "「瘦死的骆驼比马大」等民间视角的评语"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_liulaolao_earthy",
+          "title": "元气论：刘姥姥代表「泥土的生命力」",
+          "summary": "刘姥姥是全书唯一「活着就有力量」的人：贵族们在精致的悲剧中凋零，她却在粗粝的泥土中生机勃勃（酒令里的倭瓜萝卜、二进时的新鲜瓜菜）。她是曹雪芹的「元气」符号——当「千红一哭」的大观园灰飞烟灭，唯有泥土里的生命继续生长。巧姐得救于她，即得救于这种元气。",
+          "evidence": [
+            "庄稼话酒令的生命意象",
+            "她救巧姐——泥土对贵族的收容"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_liulaolao_gratitude",
+          "title": "报恩论：刘姥姥是「知恩图报」的道德标尺",
+          "summary": "贾府给她的（银子、衣物）在贵族眼中微不足道，她却以「救一条命」来偿还。曹雪芹用刘姥姥的「报」反衬贵族世界的「忘」——贾府亲友们在败落时或散或害（王仁卖外甥女），唯有受过「小恩」的村妇以命相报。「恩义」的重量，在阶级的对照中被放大到极致。",
+          "evidence": [
+            "二十两银子 vs 救孤的报恩不对等",
+            "「狠舅奸兄」与「报恩刘妪」的对照"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_liulaolao_wisdom",
+      "title": "刘姥姥是真愚还是大智若愚？",
+      "slug": "is-liu-laolao-foolish-or-wise",
+      "question_type": "character_analysis",
+      "importance_weight": 78,
+      "heat_weight": 72,
+      "neutral_overview": "刘姥姥在贾府闹尽笑话，被叫「母蝗虫」「女篾片」；但她每次进府都满载而归，最后还成了巧姐的救命恩人。她到底是愚还是智？",
+      "viewpoint_ids": [
+        "vp_liulaolao_foolish",
+        "vp_liulaolao_perform",
+        "vp_liulaolao_folk_wisdom"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_liulaolao_foolish",
+          "title": "本色论：她是真的「没见过世面」",
+          "summary": "刘姥姥的「愚」是本色的：她确实没见过钟表（把自鸣钟当怪物）、没喝过好茶（品不出梅花雪）、没住过绣房（把怡红院当天宫）。她的笑话不是演出来的，是真实的阶层隔膜。正因本色，才格外可信可亲。",
+          "evidence": [
+            "不识自鸣钟、醉卧怡红院等细节",
+            "她的语言、见识完全符合村妇身份"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_liulaolao_perform",
+          "title": "表演论：她的「愚」是自觉的生存表演",
+          "summary": "刘姥姥深知自己的价值是「提供笑料」——她配合插花、行令、扮丑，甚至主动加戏（「我虽老了，年轻时也风流」）。她的表演换来一百两银子与满车衣物。她不是愚，是「以愚为业」——喜剧是她与贵族之间的交易媒介。",
+          "evidence": [
+            "她配合鸳鸯凤姐的捉弄而不怒",
+            "她向凤姐辞行时的千恩万谢——清楚自己得了什么"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_liulaolao_folk_wisdom",
+          "title": "民间智慧论：她的智慧是另一种体系的智慧",
+          "summary": "刘姥姥的「智」不在诗书而在生活：「谋事在人，成事在天」的行动哲学、「以毒攻毒」的民间医疗思维、看透「瘦死的骆驼比马大」的世故。她的智慧与贾母、凤姐的智慧属于不同体系——贵族的智慧用于维持繁华，民间的智慧用于活下去。大观园败落后，唯有她的智慧还管用。",
+          "evidence": [
+            "劝女婿的「谋事在人」",
+            "给巧姐取名的「以毒攻毒」",
+            "三进时对贾府败落的清醒认知"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_liulaolao_three_visits",
+      "title": "「三进荣国府」的结构意义是什么？",
+      "slug": "structural-meaning-of-three-visits",
+      "question_type": "literary_analysis",
+      "importance_weight": 75,
+      "heat_weight": 65,
+      "neutral_overview": "脂批点明刘姥姥线「伏二进三进及巧姐之归着」——曹雪芹为何设计「三进」的结构？",
+      "viewpoint_ids": [
+        "vp_liulaolao_structure_rise_fall",
+        "vp_liulaolao_structure_karma"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_liulaolao_structure_rise_fall",
+          "title": "兴衰见证论：三进是贾府的「起承转合」刻度",
+          "summary": "一进（第6回）是贾府「正盛」的刻度（凤姐理家、排场初展）；二进（39-42回）是「鼎盛」的刻度（大观园完工、游园盛宴）；三进（113回起）是「败亡」的刻度（托孤救孤）。三进构成贾府兴衰的时间坐标轴——曹雪芹用同一个外来者的三次登门，完成「百足之虫」从盛到亡的完整记录。",
+          "evidence": [
+            "三次进府的所见所感的系统对照",
+            "脂批「并非泛文」的结构提示"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_liulaolao_structure_karma",
+          "title": "因果循环论：三进是「施—受—报」的因果三步",
+          "summary": "一进是「施」（凤姐给二十两）——因；二进是「报」（刘姥姥回礼、为巧姐取名）——缘；三进是「救」（刘姥姥救巧姐）——果。三进完成「施—受—报」的道德闭环，结构上是《留余庆》曲的叙事化。刘姥姥线不是「兴衰见证」的旁观者，而是「因果报应」的执行者。",
+          "evidence": [
+            "二十两银子（6回）→取名（42回）→救孤（119回）的闭环",
+            "判词「偶因济刘氏，巧得遇恩人」的因果直陈"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_liulaolao_laugh",
+      "title": "第四十回的「笑」——刘姥姥带来的欢乐该如何理解？",
+      "slug": "how-to-understand-the-laughter-liu-laolao-brought",
+      "question_type": "event_analysis",
+      "importance_weight": 72,
+      "heat_weight": 68,
+      "neutral_overview": "刘姥姥游大观园引出全书最著名的「笑」场面（湘云喷饭、黛玉岔气）。这场大笑是纯粹的欢乐，还是暗藏残酷？",
+      "viewpoint_ids": [
+        "vp_liulaolao_laugh_comedy",
+        "vp_liulaolao_laugh_cruel"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_liulaolao_laugh_comedy",
+          "title": "喜剧论：这是全书最纯粹的欢乐时刻",
+          "summary": "第四十回的笑是自发的、集体的、畅快的——贾府上下第一次笑得如此彻底。刘姥姥的到来像一阵田野的风，吹活了礼教森严的侯门。这场笑没有恶意：众人笑的是「错位」而非「低贱」，刘姥姥自己也在笑。喜剧精神在此刻战胜了等级。",
+          "evidence": [
+            "湘云喷饭、黛玉笑岔气、贾母笑得流泪的细节",
+            "刘姥姥本人的配合与自嘲"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_liulaolao_laugh_cruel",
+          "title": "残酷论：大笑建立在贫者的窘迫之上",
+          "summary": "这场笑的燃料是刘姥姥的「窘」：插满头的花、灌酒、扮丑、迷路。贵族之笑与贫者之窘是一枚硬币的两面——鸳鸯凤姐的捉弄、黛玉的「母蝗虫」，都带着居高临下的残忍。刘姥姥的「自愿」不能消解结构的不对等：她没有不自愿的选项。曹雪芹让读者在爆笑之余隐隐不安——这正是他的深刻。",
+          "evidence": [
+            "鸳鸯凤姐「拿他取笑」的预谋",
+            "「母蝗虫」的讥称",
+            "刘姥姥的窘迫细节（未语先飞红的脸、认不出自鸣钟的惶恐）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_liulaolao_zhipi",
+      "title": "脂批「借刘妪写阿凤正传」该如何理解？",
+      "slug": "what-does-zhipi-mean-by-writing-xifeng-through-liu-laolao",
+      "question_type": "literary_analysis",
+      "importance_weight": 70,
+      "heat_weight": 60,
+      "neutral_overview": "脂批在第六回说：「此回借刘妪，却是写阿凤正传。」刘姥姥的故事线，如何成为凤姐的「正传」？",
+      "viewpoint_ids": [
+        "vp_liulaolao_xifeng_mirror",
+        "vp_liulaolao_xifeng_karma"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "vp_liulaolao_xifeng_mirror",
+          "title": "镜像论：刘姥姥线是凤姐形象的「民间镜像」",
+          "summary": "凤姐的形象在刘姥姥的视角中完成侧写：一进时凤姐的「巧」与「威」（未见其人先闻其声的排场）、二进时凤姐的「戏」与「真」（拿人取乐与请人为女取名）、三进时凤姐的「败」与「悔」（临终托孤）。刘姥姥三见凤姐，恰好是凤姐一生的三个横截面——「正传」者，正传也。",
+          "evidence": [
+            "三次进府中凤姐形象的三段式变化",
+            "脂批「借刘妪，却是写阿凤正传」"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_liulaolao_xifeng_karma",
+          "title": "因果论：刘姥姥线是凤姐「善恶结算」的账单",
+          "summary": "「写阿凤正传」的深层含义是写凤姐的因果：刘姥姥是凤姐「善」的唯一承受者（二十两银子的偶济），也是她「善果」的唯一兑现人（救巧姐）。曹雪芹用刘姥姥线为凤姐建立「善恶账簿」——恶的一面（尤二姐等）结出败亡之果，善的一面（济刘氏）结出救女之果。刘姥姥的存在，使凤姐的形象有了「账本」。",
+          "evidence": [
+            "凤姐善恶两线的对照",
+            "《留余庆》「幸娘亲，积得阴功」——阴功正指济刘氏"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_liulaolao_zuopin",
+      "title": "刘姥姥——曹雪芹笔下最成功的「圆形喜剧人物」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1985,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者普遍认为刘姥姥是《红楼梦》最成功的喜剧人物之一，且是「圆形人物」的典范：她的愚与智、卑与傲、贪与义并存——上门打抽丰（贪）却知恩图报（义），自甘作笑料（卑）却保有尊严（傲），闹尽笑话（愚）却句句在理（智）。王昆仑等指出，刘姥姥的出现使《红楼梦》从「贵族内景」转向「人间全景」——她的粗粝、烟火气与生存韧性，是曹雪芹为这座即将崩塌的华厦保存的「民间底片」。"
+    },
+    {
+      "id": "viewpoint_liulaolao_huaxie",
+      "title": "「花儿落了结个大倭瓜」——民间美学对贵族美学的解构",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学美学研究",
+      "year": 1993,
+      "source_title": "多项民间文化与美学研究",
+      "description": "刘姥姥的酒令被学者视为「民间美学」对「贵族美学」的温柔解构：同一句「花儿落了」，黛玉看到的是葬花之哀（「花落人亡两不知」），刘姥姥看到的是结果之喜（「结个大倭瓜」）。两种美学在第四十回的牙牌令上正面对撞——曹雪芹没有裁判谁高谁低，而是让二者并存：贵族之美死于虚无，民间之俗活于大地。有论者进一步指出，刘姥姥的「俗」正是《好了歌》的解药：世事洞明之后，「倭瓜」才是真实的收成。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 8,
+    "total_relationships": 7,
+    "total_poems": 1,
+    "total_questions": 5,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 33,
+      "text_inference": 9,
+      "scholarly_viewpoint": 10,
+      "disputed_version": 6,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

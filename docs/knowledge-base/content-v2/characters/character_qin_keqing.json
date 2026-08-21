@@ -1,0 +1,1153 @@
+{
+  "character": {
+    "id": "character_qin_keqing",
+    "name": "秦可卿",
+    "slug": "qin-keqing",
+    "aliases": [
+      "秦氏",
+      "可儿",
+      "蓉大奶奶",
+      "兼美（梦中名）"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "宁国府贾蓉之妻、贾珍之儿媳、尤氏之媳。养父秦业（营缮郎），养弟秦钟。生父生母不详——从养生堂抱养。",
+      "position": "宁国府长孙媳妇（贾府重孙媳妇辈第一人）。贾母称其「重孙媳中第一个得意之人」。",
+      "origin": "养生堂抱养的孤女（通行本文本），学界对其真实出身争议极大（刘心武提出废太子之女等索隐说）。",
+      "generation": "贾府第五代（「蓉」字辈之媳）"
+    },
+    "tags": [
+      "兼美",
+      "情天情海",
+      "淫丧天香楼",
+      "托梦凤姐",
+      "造衅开端实在宁",
+      "删改之谜",
+      "性启蒙",
+      "丧仪僭越",
+      "樯木",
+      "十二钗第一逝者",
+      "秦学"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一，宁国府长孙媳。生得袅娜纤巧、行事温柔和平，为贾母最得意的重孙媳。她是最早看清贾府命运的清醒者——死前托梦凤姐预言「树倒猢狲散」，同时她又是全书最暧昧的谜：出身成谜、死因成谜、与公公贾珍的关系成谜。「淫丧天香楼」的被删情节成为红学最大的黑洞。",
+      "long": "秦可卿是《红楼梦》中最神秘的人物，全书围绕她构建了一个巨大的「空白」。她的存在分三层：文本层——第五回宝玉在她房中梦游太虚幻境（她成为宝玉的性启蒙者与「兼美」的化身）、第十一回病重、第十三回病逝并托梦凤姐、丧仪规格空前；删改层——脂批明言原回目为「秦可卿淫丧天香楼」，因畸笏叟「命芹溪删去」四五页，通行本的「病死」是删改后的产物，留下判词画「美人悬梁」、贾珍过度悲恸、瑞珠触柱、尤氏「胃疾」等大量裂缝；索隐层——刘心武等学者根据她房中后妃器物陈设、义忠亲王棺木、超规格丧礼等线索，推测其原型是废太子胤礽之女等宫廷人物。她的判词「情天情海幻情身，情既相逢必主淫。漫言不肖皆荣出，造衅开端实在宁」将贾府败落的「首罪」指向宁国府；她的曲文《好事终》「箕裘颓堕皆从敬，家事消亡首罪宁」进一步坐实了这一指控。她是十二钗中第一个死去的人，也是唯一一个在死前看清贾府命运并试图警示的人——「三春去后诸芳尽，各自须寻各自门」。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "温柔和平——贾母眼中的完美重孙媳",
+        "description": "文本反复强调可卿的「好」：贾母说她「生的袅娜纤巧，行事又温柔和平，乃重孙媳中第一个得意之人」；婆母尤氏说她「这么个模样儿，这么个性情的人儿，打着灯笼也没地方找去」；她死后「那长一辈的想他素日孝顺，平一辈的想他素日和睦亲密，下一辈的想他素日慈爱」。文本层的可卿几乎是一个零瑕疵的完美女性——而这恰恰与删改层「淫丧天香楼」的丑闻形成最刺目的反差。",
+        "evidence_events": [
+          "event_qin_keqing_sick_ch10",
+          "event_qin_keqing_death_ch13"
+        ]
+      },
+      {
+        "dimension": "先知般的清醒——托梦者的政治智慧",
+        "description": "可卿临死前托梦凤姐，说出全书最清醒的末世预言：「月满则亏，水满则溢」「登高必跌重」「树倒猢狲散」，并提出置祭祀产业、设家塾的退路方案。这番话的见识超越了贾府所有男人——贾敬炼丹、贾珍荒淫、贾政迂腐。曹雪芹让「最不洁的女人」说出「最清醒的政治预言」，这个安排本身就是对贾府男性世界的最大讽刺。",
+        "evidence_events": [
+          "event_qin_keqing_dream_ch13"
+        ]
+      },
+      {
+        "dimension": "兼美——钗黛合一的叙事原型",
+        "description": "第五回警幻仙姑之妹「乳名兼美字可卿」——「鲜艳妩媚，有似乎宝钗，风流袅娜，则又如黛玉」。可卿是全书「钗黛合一」思想的神话表达：她同时拥有宝钗的妩媚与黛玉的袅娜，暗示钗黛二人共同构成「完美女性」的两个侧面。宝玉在可卿房中入睡、在梦中与兼美成亲——性启蒙与审美启蒙在同一张床上完成。",
+        "evidence_events": [
+          "event_qin_keqing_room_ch5"
+        ]
+      },
+      {
+        "dimension": "被删改的牺牲品——文本裂缝中的真相",
+        "description": "可卿形象的复杂性很大程度上来自删改：脂批记载「秦可卿淫丧天香楼，作者用史笔也」，因畸笏叟之命删去四五页。删改留下的裂缝（悬梁判词画、贾珍哭成泪人、瑞珠触柱、尤氏胃疾、超规格丧礼）让可卿成为全书「隐写艺术」的巅峰案例——曹雪芹删掉了情节，却保留了所有的痕迹。",
+        "evidence_events": [
+          "event_tianxianglou_deleted"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_qin_keqing_room_ch5",
+        "title": "宝玉梦游太虚幻境——在可卿房中入梦（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jiao_da_ch7",
+        "title": "焦大醉骂「爬灰」（第七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_qin_keqing_origin_ch8",
+        "title": "出身交代——养生堂抱养（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_qin_keqing_sick_ch10",
+        "title": "张太医论病细穷源（第十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_qin_keqing_visit_ch11",
+        "title": "凤姐探病——「治得病治不得命」（第十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_qin_keqing_dream_ch13",
+        "title": "托梦凤姐——末世预言（第十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_qin_keqing_death_ch13",
+        "title": "死封龙禁尉（第十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_qin_keqing_funeral_ch13_14",
+        "title": "丧仪僭越——樯木棺与北静王路祭（第十三至十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 9,
+        "event_id": "event_tianxianglou_deleted",
+        "title": "「淫丧天香楼」删改之谜（版本研究）",
+        "fact_type": "disputed_version",
+        "note": "脂批记载，非情节事件"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_qinke_judgment",
+        "quote": "情天情海幻情身，情既相逢必主淫。漫言不肖皆荣出，造衅开端实在宁。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回秦可卿判词，画面为「一座高楼，上有一美人悬梁自尽」。悬梁画面与通行本「病死」的矛盾是删改说的第一证据。"
+      },
+      {
+        "source_id": "source_ch05_haoshi_zhong",
+        "quote": "画梁春尽落香尘。擅风情，秉月貌，便是败家的根本。箕裘颓堕皆从敬，家事消亡首罪宁。宿孽总因情。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回《好事终》曲。「画梁春尽落香尘」即悬梁自尽之象；「首罪宁」将贾府败落的第一责任归给宁国府。"
+      },
+      {
+        "source_id": "source_ch05_jianmei",
+        "quote": "警幻仙姑之妹「乳名兼美字可卿」，其鲜艳妩媚，有似乎宝钗，风流袅娜，则又如黛玉。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回。可卿是钗黛「兼美」的神话化身——「钗黛合一」思想的第一次叙事表达。"
+      },
+      {
+        "source_id": "source_ch08_qin_keqing_origin",
+        "quote": "他父亲秦业现任营缮郎，年近七十，夫人早亡。因当年无儿女，便向养生堂抱了一个儿子并一个女儿。谁知儿子又死了，只剩女儿，小名唤可儿。",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回。养生堂抱养是通行本文本白纸黑字的出身交代——但她何以成为贾母眼中「重孙媳中第一个得意之人」，始终令人生疑。"
+      },
+      {
+        "source_id": "source_ch13_qin_keqing_dream",
+        "quote": "秦氏道：「婶婶，你是个脂粉队里的英雄，连那些束带顶冠的男子也不能过你……常言『月满则亏，水满则溢』；又道是『登高必跌重』。如今我们家赫赫扬扬，已将百载，一日倘或乐极悲生，若应了那句『树倒猢狲散』的俗语，岂不虚称了一世的诗书旧族了！」临别赠言：「三春去后诸芳尽，各自须寻各自门。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十三回托梦凤姐。全书最早的清醒预言，出自最「不洁」的女人之口。"
+      },
+      {
+        "source_id": "source_zhipi_yinsang",
+        "quote": "[脂批·甲戌本第十三回回后批]「秦可卿淫丧天香楼，作者用史笔也。老朽因有魂托凤姐贾家后事二件，岂是安富尊荣坐享人能想得到处？其事虽未漏，其言其意则令人悲切感服。姑赦之，因命芹溪删去。」",
+        "fact_type": "scholarly_viewpoint",
+        "note": "脂批是「淫丧天香楼」删改说的直接证据：原回目为「淫丧天香楼」，删改者是奉畸笏叟之命的曹雪芹本人，删除约四五页。"
+      },
+      {
+        "source_id": "source_ch13_jiazhen_cry",
+        "quote": "贾珍哭的泪人一般，正和贾代儒等说道：「合家大小，远亲近友，谁不知我这媳妇比儿子还强十倍。如今伸腿去了，可见这长房内绝灭无人了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十三回。公公对儿媳之死悲恸到「倾其所有」——删改留下的最大裂缝之一。"
+      },
+      {
+        "source_id": "source_ch13_guancai",
+        "quote": "薛蟠道：「我们木店里有一副板，叫做什么樯木，出在潢海铁网山上，作了棺材，万年不坏……原系义忠亲王老千岁要的，因他坏了事，就不曾拿去。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十三回。贾珍执意用义忠亲王（影射废太子）的樯木给儿媳入殓——丧仪僭越是「可卿出身不凡」索隐说的核心证据之一。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 90,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "判词「情天情海幻情身」；秦＝情",
+      "detail": "秦谐「情」：秦可卿＝情可亲/情可轻/情可倾/情可清——清代至今争议不断（詹丹教授文章提及）。其养父秦业＝情孽、其弟秦钟＝情种，全家谐「情」。判词「情天情海幻情身」以情为姓",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "「秦可卿」谐音之义之争",
+          "content": "「情可亲」「情可轻」「情可倾」「情可清」等解读自清代至今并存，无定论（詹丹教授文章提及）",
+          "proponent": "清代评点家 / 当代学者詹丹等"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "红学推算约20岁（据通灵纪年：15年冬亡，年20岁）"
+      },
+      "conclusion": "原文未见明文年龄；红学通灵纪年推算死时约20岁（红学观点）。",
+      "controversies": [],
+      "fact_type": "scholarly_viewpoint"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "秦氏",
+      "type": "家族称呼",
+      "context": "贾府上下对可卿最常见的称呼，以其养父秦业之姓称之",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "可儿",
+      "type": "乳名",
+      "context": "第八回交代：「只剩女儿，小名唤可儿」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "蓉大奶奶",
+      "type": "家族称呼",
+      "context": "因夫贾蓉而称，宁国府内对长孙媳的尊称",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "兼美",
+      "type": "梦中名",
+      "context": "第五回警幻仙姑之妹「乳名兼美字可卿」——钗黛之美的合体",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_qin_keqing_room_ch5",
+      "title": "宝玉梦游太虚幻境——在可卿房中入梦",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "宝玉在宁国府游玩困倦，可卿引他到自己房中歇息。房中陈设尽用历代后妃公主典故（武则天宝镜、赵飞燕金盘、安禄山木瓜、寿昌公主榻、同昌公主联珠帐）。宝玉在此入梦，梦游太虚幻境，与警幻仙姑之妹「兼美字可卿」成亲，梦醒后遗精，遂与袭人初试云雨。",
+        "meaning": [
+          "可卿是宝玉的性启蒙者——他的春梦、梦遗、初试云雨，全部以可卿为起点",
+          "房中陈设的「宫中化」笔法让可卿笼罩在「来头不凡」的氛围中——这是后来一切索隐说的文本起点",
+          "「兼美」兼钗黛之美——可卿是宝玉梦中理想的女性原型"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_qin_keqing",
+          "role": "房主——引宝玉入梦者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "梦游者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "性启蒙与「兼美」的双重结构",
+          "content": "可卿在宝玉生命中的功能独一无二：她是宝玉的第一个「性对象」（现实层——在她的床上做春梦、梦遗），又是第一个「审美对象」（神话层——兼美集钗黛之美）。这个双重结构奠定了全书的情感基调：宝玉对女性的态度从可卿开始就是「欲望」与「审美」的混合体，而警幻的「意淫」教育正是要把宝玉从前者引向后者。值得注意的是，宝玉梦中的「可卿」与梦外的「可卿」是同名同貌的——这种「真人入梦」的写法使可卿成为全书最接近「梦境与现实交界」的人物。"
+        },
+        {
+          "type": "literary",
+          "title": "房中陈设——索隐学的文本起点",
+          "content": "可卿房中的陈设清单（武则天宝镜、赵飞燕金盘、安禄山木瓜、寿昌公主榻、同昌公主帐）全部指向宫廷女性，而且多是「淫乱」典故中的女性（武则天、赵飞燕、杨贵妃）。这种「以陈设写人」的笔法在古典小说中绝无仅有。支持索隐的学者认为这是曹雪芹对可卿「宫廷出身」的暗示；反对者认为这不过是「以宫闱典故渲染情欲氛围」的象征笔法。但无论哪种解释，这个房间都是全书「谜」的开端——可卿的出身之谜、死因之谜、与贾珍的关系之谜，全部从这个房间的陈设开始发酵。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiao_da_ch7",
+      "title": "焦大醉骂「爬灰」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "老仆焦大不满夜里派他送人，借酒醉大骂宁国府：「我要往祠堂里哭太爷去。那里承望到如今生下这些畜牲来！每日家偷狗戏鸡，爬灰的爬灰，养小叔子的养小叔子！」「爬灰」即公公与儿媳私通——矛头直指贾珍与可卿。",
+        "meaning": [
+          "「爬灰的爬灰」是全书第一次（也是唯一一次）公开点破贾珍与可卿的乱伦关系",
+          "焦大之骂的可信度极高——他是当年跟着太爷出生入死的功臣，见证了贾府的堕落全过程",
+          "脂批明确点出焦大之骂「是宁府家风」——这声骂奠定了宁国府「造衅开端」的基调"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jiao_da",
+          "role": "醉骂者"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "被隐射者之一"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "被隐射者之一"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "焦大之骂——宁国府的自我定罪",
+          "content": "焦大的骂之所以有分量，在于他的「资格」：他当年「跟着太爷出过三四回兵，从死人堆里把太爷背了出来」——他是贾府创业史的活见证。由这样一个功臣来骂「生下这些畜牲来」，等于让贾府的创业一代亲自宣判了守业一代的死刑。「爬灰」一词在焦大嘴里不是诽谤而是「内幕曝光」——他是宁国府最老的下人，什么丑事都瞒不过他。脂批在此处批「是宁府家风」四字，等于替作者承认了这条罪状的实指性。"
+        },
+        {
+          "type": "literary",
+          "title": "骂声的叙事功能——提前剧透的丑闻",
+          "content": "焦大之骂出现在第七回，此时可卿尚未病、贾珍尚体面——这声骂是全书最早的「丑闻预告」。曹雪芹先让一个下人在第七回喊出真相，再让读者在第十至十三回看着可卿病、死、丧仪铺张，最后让脂批在版本层确认「淫丧天香楼」——三层递进，把「公公与儿媳」的关系从谣言坐实为事实。这种「先声后实」的叙事策略，使可卿之死成了全书最著名的「读者心知肚明而文本闭口不谈」的事件。"
+        }
+      ]
+    },
+    {
+      "id": "event_qin_keqing_origin_ch8",
+      "title": "出身交代——养生堂抱养的孤女",
+      "event_level": "minor",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "第八回交代可卿出身：其父秦业，营缮郎，年近七十，夫人早亡，因无儿女，从养生堂抱养一儿一女，儿子夭折，只剩女儿可卿。秦业后又老来得子秦钟。",
+        "meaning": [
+          "文本层：可卿是养生堂抱养的孤女——出身低微、来历不明",
+          "矛盾层：如此出身的女子成为宁国府长孙媳并深得贾母欢心——文本的「不匹配」催生了身份之谜",
+          "索隐层：「养生堂」可能是「隐藏真相」的文学装置——刘心武认为她是宫廷弃孤"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_qin_keqing",
+          "role": "抱养孤女"
+        },
+        {
+          "character_id": "character_qin_ye",
+          "role": "养父"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "养弟"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "出身与地位的落差——身份之谜的根源",
+          "content": "可卿的身份之谜本质上是「文本经济学」问题：曹雪芹为什么给一个将承担重大叙事功能（托梦、性启蒙、丧仪）的人物安排一个「养生堂抱养」的低微出身？文本论者的解释是：贾府择媳看性情容貌不看门第（尤氏、邢岫烟出身都不高），可卿的「好」足以弥补出身的「低」；索隐论者的解释是：「养生堂抱养」是隐写——她的真实出身（如宫廷弃孤）不便明写。无论采信哪种，必须承认的事实是：可卿是十二钗中唯一没有家族背景的人物——这使她的悲剧成为十二钗中最纯粹的「无依」之悲。"
+        }
+      ]
+    },
+    {
+      "id": "event_qin_keqing_sick_ch10",
+      "title": "张太医论病——病情的文本玄机",
+      "event_level": "minor",
+      "chapter": {
+        "number": 10,
+        "title": "金寡妇贪利权受辱 张太医论病细穷源",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "可卿病重，冯紫英荐来张友士（张太医）诊病。张太医诊出「心气虚而生火、水亏木旺」之症，说病源是「忧虑伤脾，肝木忒旺」，断定「寅卯间必然自汗……一冬是不相干的，过了春分就可望全愈了」。尤氏却对贾珍说「张太医断的也不是实话」。",
+        "meaning": [
+          "「忧虑伤脾」——心病：张太医的诊断暗示可卿的病根在「忧」，而非「症」",
+          "「过了春分就可望全愈」的预言与可卿在冬末春初死去的现实吻合——太医的医术其实是曹雪芹的谶语装置",
+          "尤氏的「不是实话」四字意味深长——家里人对可卿的病情心知肚明"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_qin_keqing",
+          "role": "病人"
+        },
+        {
+          "character_id": "character_zhang_youshi",
+          "role": "太医——论病"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "婆母——「断的也不是实话」"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「忧虑伤脾」——被医疗化的道德焦虑",
+          "content": "张太医的诊断在医学语言的包装下透露出道德信息：「忧虑伤脾，肝木忒旺」——什么样的忧虑能让一个养尊处优的长孙媳病成这样？结合焦大之骂与「淫丧天香楼」的删改，红学界普遍认为可卿的「病」实为「心病」：她与贾珍的关系成为悬在头顶的剑，忧虑成疾。尤氏那句「张太医断的也不是实话」更为关键——婆婆知道媳妇的病根，但全家都默契地装作不知道。可卿的病因此成为贾府「集体沉默」的缩影：人人知道，人人不说。"
+        }
+      ]
+    },
+    {
+      "id": "event_qin_keqing_visit_ch11",
+      "title": "凤姐探病——「治得病治不得命」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 11,
+        "title": "庆寿辰宁府排家宴 见熙凤贾瑞起淫心",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "凤姐探望病重的可卿。可卿自述：「我自想着，未必熬的过年去呢。」又对凤姐说：「任凭神仙也罢，治得病治不得命。婶子，我知道我这病不过是挨日子。」凤姐听罢，「只觉心中酸楚」。",
+        "meaning": [
+          "「治得病治不得命」——可卿对自己的结局有清醒的预感，甚至远超医生",
+          "可卿与凤姐的最后一次深谈——全书最亲密的妯娌情谊的终点",
+          "「挨日子」三字写尽了一个无望之人的生存状态——她活着只剩等待"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_qin_keqing",
+          "role": "病人——自知不起"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "探病者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤卿之交——全书最被低估的友情",
+          "content": "可卿与凤姐是全书少有的真正交心的关系：凤姐探病时「故意」逗她开心，可卿对凤姐说出「治得病治不得命」的绝望之言——这种掏心窝的话她只对凤姐说。二人的关系基础是同为贾府「管事媳妇」的身份共鸣（一个是宁府长孙媳，一个是荣府管家奶奶），但更深的联系在于：她们都是被男权结构压榨的女性，可卿看得清凤姐的处境（「脂粉队里的英雄」），凤姐也真心疼她。可卿死后第一个托梦给凤姐而不是贾珍、贾蓉，正是这份情谊的终极证明。"
+        }
+      ]
+    },
+    {
+      "id": "event_qin_keqing_dream_ch13",
+      "title": "托梦凤姐——末世预言",
+      "event_level": "major",
+      "chapter": {
+        "number": 13,
+        "title": "秦可卿死封龙禁尉 王熙凤协理宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "可卿临终之夜托梦凤姐，说出全书最清醒的预言：「月满则亏，水满则溢」「登高必跌重」「树倒猢狲散」，并给贾府开出两条退路：一是在祖茔附近多置田庄房舍地亩（祭祀产业，抄家不没入），二是将家塾设于其旁，日后子孙退可读书务农。临别赠言：「三春去后诸芳尽，各自须寻各自门。」",
+        "meaning": [
+          "托梦是可卿一生的最高光——全书最「不洁」的女人说出了全书最清醒的政治预言",
+          "置祭祀产业的建议是清代贵族世家的标准避险方案——可卿的见识超越了贾府所有男人",
+          "「三春去后诸芳尽」的谶语指向元春、迎春、探春（或三个春天）之后群芳尽散的结局"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_qin_keqing",
+          "role": "托梦者——预言与献策"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "受梦者——惊疑未醒"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch13_qin_keqing_dream",
+          "summary": "可卿论盛衰循环并给出置田产、设家塾的退路方案，最后以「三春去后诸芳尽，各自须寻各自门」作结。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "为什么是凤姐？——托梦对象的深意",
+          "content": "可卿的托梦对象是凤姐而非丈夫贾蓉、公公贾珍——这个选择的逻辑有三层：其一，凤姐是贾府实际的当家人（凤姐协理宁国府、掌握荣府财政），只有她有执行力；其二，凤姐是「脂粉队里的英雄」，可卿认可她的能力（「连那些束带顶冠的男子也不能过你」）；其三，也是最深的一层——只有凤姐会信她。可卿与凤姐的私交使这场托梦不只是预言，还是闺蜜之间最后的交托。但悲剧在于：凤姐醒了就忘了——可卿的预言没有改变任何事情。这使托梦成为全书最深的讽刺：先知来过，无人听见。"
+        },
+        {
+          "type": "literary",
+          "title": "托梦的叙事双关——丑闻与预言的叠加",
+          "content": "第十三回的结构是全书最诡异的：前半回是托梦（清醒的政治预言），后半回是死讯（暧昧的丑闻痕迹）。曹雪芹让「最不洁的女人」承担「最清醒的预言者」角色，这个安排本身就是价值判断：贾府的男人们（贾敬炼丹、贾珍荒淫、贾政迂腐）没有一人能说出「树倒猢狲散」，反而是被他们害死的女人看清了一切。脂批「安富尊荣坐享人能想得到处」正是此意。可卿的托梦也解释了她死后为何「凤姐听了，吓了一身冷汗」——凤姐在梦中听到的是自己的命运。"
+        },
+        {
+          "type": "hongxue",
+          "title": "托梦是「删改豁免」的原因",
+          "content": "脂批记载畸笏叟「因有魂托凤姐贾家后事二件……姑赦之，因命芹溪删去」——意思是：因为可卿有「托梦献策」这个善举，畸笏叟才不忍心让她背负「淫丧」的恶名，于是命曹雪芹删去丑闻情节，改写成病死。这个细节透露了清代批书人对「道德」的执念——删改的本质是「用贞节换预言」：把可卿从「淫妇」改成「病逝的贤媳」，代价是留下了满篇裂缝。红学界对这次删改的态度两极：有人认为删改破坏了批判力度（爬灰丑闻被淡化），有人认为删改成就了「隐而不发」的美学（见相关问题讨论）。"
+        }
+      ]
+    },
+    {
+      "id": "event_qin_keqing_death_ch13",
+      "title": "死封龙禁尉——十二钗第一逝者",
+      "event_level": "major",
+      "chapter": {
+        "number": 13,
+        "title": "秦可卿死封龙禁尉 王熙凤协理宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "可卿病逝（通行本）。贾珍「哭的泪人一般」，宣称「我这媳妇比儿子还强十倍」，执意「尽其所有」办丧事。为丧礼风光，他花一千二百两银子为贾蓉捐了个「龙禁尉」的官衔——可卿因而「死封龙禁尉」。瑞珠触柱而亡、宝珠自愿为义女摔盆。尤氏恰在此时「犯了胃疾」不能理事，贾珍遂请凤姐协理宁国府。",
+        "meaning": [
+          "「死封龙禁尉」——一个女人的死后哀荣要靠丈夫的官衔来定义，这是对「诰命制度」的绝妙讽刺",
+          "贾珍「尽其所有」的铺张与「哭的泪人一般」的失态，是删改后留下的最大文本裂缝",
+          "瑞珠触柱、尤氏胃疾——两个细节同时指向「死因有隐情」"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_qin_keqing",
+          "role": "逝者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "公公——过度悲恸、倾尽所有"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "丈夫——捐官"
+        },
+        {
+          "character_id": "character_ruizhu",
+          "role": "丫鬟——触柱而亡"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「死封龙禁尉」的讽刺结构",
+          "content": "回目「秦可卿死封龙禁尉」的语法就充满讽刺：「死封」二字说明她生前没有得到任何封诰，只有死后才因丈夫捐官而获得名义。更深的讽刺在于，这个「龙禁尉」（皇帝禁卫）的官衔是贾珍花一千二百两银子买来的——龙禁尉保卫的是「龙」（皇帝），而贾珍买官的目的只是让儿媳的丧礼牌面上好看。皇家威严、官场制度、家族体面，全都在一场丧事中变成了可以买卖的商品。这正是曹雪芹对清代捐官制度的微缩批判。"
+        },
+        {
+          "type": "character",
+          "title": "贾珍的失态——删改裂缝中的真相",
+          "content": "贾珍在儿媳丧礼上的表现处处越界：哭得比儿子还凶、说「比儿子还强十倍」、执意用亲王级的樯木、尽其所有铺张。这些行为在「公公哭儿媳」的伦理框架中全部不可解释，唯一的解释是「爬灰」——删改后的文本保留了这些失态，反而使真相欲盖弥彰。最残忍的细节是尤氏的「胃疾」：媳妇死了婆婆却「犯了胃疾」不能理事——这个胃疾是全书最著名的「政治病」，它无声地宣告：婆婆拒绝参与这场戏。"
+        }
+      ]
+    },
+    {
+      "id": "event_qin_keqing_funeral_ch13_14",
+      "title": "丧仪僭越——樯木棺与北静王路祭",
+      "event_level": "major",
+      "chapter": {
+        "number": 14,
+        "title": "林如海捐馆扬州城 贾宝玉路谒北静王",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "贾珍执意用薛蟠提供的「樯木」棺——此木「万年不坏」，原是义忠亲王老千岁预定的（因他「坏了事」未能享用）。丧礼规格空前：四十九日「单请一百单八众禅僧在大厅上拜大悲忏」、停灵四十九日，达官贵人路祭不绝——北静王水溶亲临路祭并接见宝玉。",
+        "meaning": [
+          "一个养生堂抱养的孤女，死后享用了亲王级的棺木与王爵的路祭——规格与出身的巨大落差是「身份之谜」的核心证据",
+          "义忠亲王老千岁「坏了事」的细节直指清代宫廷斗争（普遍解读为影射废太子胤礽）",
+          "丧仪僭越是贾府「烈火烹油」的顶点，也是其「僭越之罪」的预演"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_qin_keqing",
+          "role": "逝者——享受超规格丧礼"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "丧礼主持者——僭越的决策人"
+        },
+        {
+          "character_id": "character_beijing_wang",
+          "role": "北静王——亲临路祭"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "樯木与废太子——索隐学的王牌证据",
+          "content": "「义忠亲王老千岁」在清代语境中几乎无法不让人联想到康熙的废太子胤礽（后被追封理亲王）——他正是「坏了事」的亲王。可卿的棺木是「废太子的预定物」，这个细节在刘心武的「秦学」中被解读为可卿是废太子之女的铁证：贾府秘密收养了废太子的遗孤（秦可卿），她死后贾府以亲王之礼安葬，实为「还她身份」。索隐说的魅力与风险都在于此：文本细节（樯木、宫中陈设、超规格丧礼）确实存在，但「细节→身世」的跳跃缺乏直接证据。多数红学家认为樯木的作用首先是象征性的——它暗示贾府与宫廷旧案（废太子案）的隐秘牵连，为日后「抄家」埋下政治伏笔。"
+        },
+        {
+          "type": "literary",
+          "title": "丧礼——贾府衰败前最后的膨胀",
+          "content": "可卿的丧礼是贾府「烈火烹油」的顶点：四十九日道场、亲王棺木、北静王路祭、一百单八众僧道。这场丧礼的花费之巨、规格之高，与贾府日后的崩溃形成最刺目的对照——丧礼越盛，败亡越惨。脂批在此处有「此回写出家国之悲」之意。值得注意的是，丧礼上凤姐协理宁国府大显身手——她的「能」在丧礼上到达顶峰，而托梦者警告的「衰」也正从这场丧礼开始逼近。曹雪芹把全书最大的喜（凤姐的威风）与最大的悲（贾府的透支）压缩在同一场丧事里。"
+        }
+      ]
+    },
+    {
+      "id": "event_tianxianglou_deleted",
+      "title": "「淫丧天香楼」删改之谜",
+      "event_level": "major",
+      "chapter": {
+        "number": 13,
+        "title": "版本研究——非情节事件",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "disputed_version",
+      "summary": {
+        "short": "脂批记载：第十三回原回目为「秦可卿淫丧天香楼」，因畸笏叟「命芹溪删去」四五页，通行本改为「死封龙禁尉」、死因改为病死。删除的情节（据脂批与文本裂缝推测）包括：可卿与贾珍的乱伦关系被撞破（「遗簪」「更衣」等细节）、可卿在天香楼悬梁自尽。删改留下了大量裂缝：判词画「美人悬梁」、贾珍失态、瑞珠触柱、宝珠摔盆、尤氏胃疾。",
+        "meaning": [
+          "这是全书唯一有脂批确证的「被删情节」——红学版本研究的第一现场",
+          "删改的原因（畸笏叟不忍可卿背负淫名）暴露了批书人的道德观与曹雪芹原意的冲突",
+          "「隐写」成为可卿形象的核心美学——她以「空白」的方式存在于文本中"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_qin_keqing",
+          "role": "被删情节的主角"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "被删情节的共犯"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_zhipi_yinsang",
+          "summary": "甲戌本第十三回回后批：「秦可卿淫丧天香楼，作者用史笔也……姑赦之，因命芹溪删去。」"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「史笔」与「隐去」——曹雪芹的两难",
+          "content": "脂批说「作者用史笔也」——「史笔」即实录精神，意味着可卿与贾珍的乱伦不是虚构猎奇，而是有原型的实事（学界推测原型或与曹家/纳兰家旧事相关）。曹雪芹的「史笔」冲动与畸笏叟的「保护」要求发生冲突，结果是折中：删去直写，保留痕迹。这个折中造就了可卿形象的独特美学——她既是「存在过的」（史笔）又是「被抹去的」（删改），读者通过裂缝拼出的真相比直写的真相更有冲击力。这也印证了全书「真事隐去」的创作纲领：可卿就是「隐」字的最极致实践。"
+        },
+        {
+          "type": "character",
+          "title": "删改后的可卿——从淫妇到受害者的漂移",
+          "content": "删改带来的最大变化是可卿的「定性漂移」：原稿的「淫丧」把她写成主动的通奸者（自缢谢罪），删改后的「病死」把她写成被动的牺牲品（忧虑成疾）。当代读者的同情因此偏向后者——她被贾珍胁迫（或引诱），在公公的权势面前无从反抗，只能以死求解脱。这种漂移使可卿成为「受害者叙事」的代表：她的罪（如果算罪）是「擅风情，秉月貌」——美本身成了罪。这正应了曲文《好事终》的判语：「擅风情，秉月貌，便是败家的根本」——把败家的责任推给一个女人的美貌，这正是曹雪芹要批判的男性逻辑。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jia_zhen_qin_keqing",
+      "from": "character_jia_zhen",
+      "to": "character_qin_keqing",
+      "type": "公媳（乱伦暗线·隐写）",
+      "nature": [
+        "kinship",
+        "ambiguous",
+        "illicit_affair",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "summary": "贾珍与秦可卿的关系是全书最大的隐秘：判词「情既相逢必主淫」、焦大之骂「爬灰」、可卿死时贾珍「哭的泪人一般」「恨不能代秦氏之死」、奢华丧仪——多条证据指向翁媳乱伦（脂批透露原稿有「秦可卿淫丧天香楼」回目）。这段关系是「造衅开端实在宁」的核心——宁府之罪的最深一层。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "丑闻的伏笔——焦大醉骂",
+          "chapter": 7,
+          "description": "「爬灰的爬灰」——全书第一次点破，脂批「是宁府家风」坐实其指向。"
+        },
+        {
+          "stage": 1,
+          "title": "公公的过度哀痛——残留痕迹",
+          "chapter": 13,
+          "description": "秦可卿死后贾珍「哭的泪人一般」，以「尽我所有」的架势办理丧事——为贾蓉买官、用亲王规格棺木。贾珍的反常悲痛在现行本中是全书中最大的「未删干净」的线索。"
+        },
+        {
+          "stage": 1,
+          "title": "焦大之骂",
+          "chapter": 7,
+          "description": "「爬灰的爬灰」——乱伦暗线的首次点名。"
+        },
+        {
+          "stage": 2,
+          "title": "丑闻的蔓延——忧虑成疾",
+          "chapter": 10,
+          "description": "可卿「忧虑伤脾」之病——心事压垮了身体，尤氏「张太医断的也不是实话」暗示全家知情。"
+        },
+        {
+          "stage": 2,
+          "title": "可卿之丧",
+          "chapter": 13,
+          "description": "贾珍的异常悲痛与僭越丧仪——暗线的展开。"
+        },
+        {
+          "stage": 3,
+          "title": "丑闻的爆发与删改——淫丧天香楼",
+          "chapter": 13,
+          "description": "原稿可卿悬梁自尽（在天香楼撞破奸情后），畸笏叟命删——通行本改为病死。",
+          "fact_type": "disputed_version",
+          "note": "脂批记载，通行本无此情节"
+        }
+      ],
+      "evidence_events": [
+        "event_jiao_da_ch7",
+        "event_qin_keqing_sick_ch10",
+        "event_tianxianglou_deleted",
+        {
+          "event_id": "event_keqing_death_ch13",
+          "description": "贾珍全程反常的丧礼安排"
+        }
+      ],
+      "impact": "秦可卿与贾珍的关系是《红楼梦》中最深刻却最少被直接书写的禁忌叙事。它的存在被删改抑制，但它的痕迹无处不在。判词「造衅开端实在宁」的精确指向——宁国府（宁）的道德败坏（造衅）——与这条被删除的线索密切相关。"
+    },
+    {
+      "id": "relationship_wang_xifeng_qin_keqing",
+      "from": "character_wang_xifeng",
+      "to": "character_qin_keqing",
+      "type": "妯娌挚友",
+      "nature": [
+        "friendship",
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "全书最被低估的女性友谊。凤姐探望病中的可卿、可卿只对凤姐吐露「治得病治不得命」的绝望、临终托梦第一个找凤姐。二人同为贾府管事媳妇，互相欣赏、互诉衷肠。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "互敬期——英雄惜英雄",
+          "chapter": 7,
+          "description": "凤卿常来常往，凤姐欣赏可卿的温柔和平，可卿敬服凤姐的干练——「脂粉队里的英雄」之评正出自可卿。"
+        },
+        {
+          "stage": 2,
+          "title": "探病期——最后的深谈",
+          "chapter": 11,
+          "description": "凤姐探病强颜欢笑，可卿坦言「挨日子」——两个当家女人之间最后的掏心话。"
+        },
+        {
+          "stage": 3,
+          "title": "托梦期——生死之交",
+          "chapter": 13,
+          "description": "可卿临终托梦献策——把贾府的后事托付给最信任的人。"
+        }
+      ],
+      "evidence_events": [
+        "event_qin_keqing_visit_ch11",
+        "event_qin_keqing_dream_ch13"
+      ]
+    },
+    {
+      "id": "relationship_jia_baoyu_qin_keqing",
+      "from": "character_jia_baoyu",
+      "to": "character_qin_keqing",
+      "type": "侄媳 / 性启蒙对象",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "可卿是宝玉的性启蒙者：在她的房中宝玉做春梦、梦遗、与「兼美」成亲。宝玉梦醒后与袭人初试云雨——这一切的起点都是可卿的卧房。可卿死后宝玉「从梦中听见说秦氏死了，连忙翻身爬起来，只觉心中似戳了一刀的不忍，哇的一声，直奔出一口血来」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "入梦——性启蒙的开始",
+          "chapter": 5,
+          "description": "宝玉在可卿房中梦游太虚幻境，与「兼美字可卿」成亲——现实与梦境的第一次性启蒙。"
+        },
+        {
+          "stage": 2,
+          "title": "吐血——精神层面的创伤",
+          "chapter": 13,
+          "description": "宝玉闻可卿死讯「心中似戳了一刀」「直奔出一口血」——对性启蒙者的死亡做出全书最激烈的生理反应。"
+        }
+      ],
+      "evidence_events": [
+        "event_qin_keqing_room_ch5"
+      ]
+    },
+    {
+      "id": "relationship_you_shi_qin_keqing",
+      "from": "character_you_shi",
+      "to": "character_qin_keqing",
+      "type": "婆媳",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤氏对可卿的评价极高（「打着灯笼也没地方找去」），但可卿死后尤氏「犯了胃疾」不能理事——这个胃疾被普遍解读为对贾珍丑闻的无声抗议。婆媳关系从「夸赞」到「回避」的转折，是删改裂缝的重要一环。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "生前夸赞",
+          "chapter": 10,
+          "description": "尤氏：可卿「这么个模样儿，这么个性情的人儿，打着灯笼也没地方找去」。"
+        },
+        {
+          "stage": 2,
+          "title": "死后回避——「胃疾」",
+          "chapter": 13,
+          "description": "媳妇死了婆婆犯了胃疾不能理事——全书最著名的「政治病」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_mu_qin_keqing",
+      "from": "character_jia_mu",
+      "to": "character_qin_keqing",
+      "type": "祖孙媳",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母对可卿评价极高：「生的袅娜纤巧，行事又温柔和平，乃重孙媳中第一个得意之人。」——这是文本层可卿「完美媳妇」定位的最高认证。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "「第一个得意之人」",
+          "chapter": 5,
+          "description": "贾母的认证使可卿的「好」具有了家族最高权威的背书。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_qinke_judgment",
+      "title": "秦可卿判词",
+      "work_type": "判词",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "「情天情海幻情身，情既相逢必主淫。漫言不肖皆荣出，造衅开端实在宁。」画面：「一座高楼，上有一美人悬梁自尽。」",
+      "symbolic_notes": "「情」字四现——可卿的判词是十二钗中「情」字密度最高的一首。「造衅开端实在宁」将贾府败落的源头指向宁国府（可卿之案）。悬梁画面与通行本「病死」的矛盾，是「淫丧天香楼」删改说的第一文本证据。"
+    },
+    {
+      "id": "poem_qinke_haoshi_zhong",
+      "title": "好事终（金陵十二钗曲·第十二支）",
+      "work_type": "曲（红楼梦曲）",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "「画梁春尽落香尘。擅风情，秉月貌，便是败家的根本。箕裘颓堕皆从敬，家事消亡首罪宁。宿孽总因情。」",
+      "symbolic_notes": "「画梁春尽落香尘」即悬梁自尽之象。「擅风情，秉月貌，便是败家的根本」——把败家的责任推给女人的美貌，实为反讽（批判男权逻辑的嫁祸）。「宿孽总因情」以「情」收束全曲，与判词「情天情海」呼应。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_qinke_identity_dispute",
+      "title": "秦可卿的身份为什么长期存在争议？",
+      "slug": "why-is-qin-keqings-identity-controversial",
+      "question_type": "redology",
+      "importance_weight": 90,
+      "heat_weight": 85,
+      "neutral_overview": "文本层：可卿是养生堂抱养的孤女（第八回明文）；谜面层：她的地位（贾母最得意的重孙媳）、丧礼（亲王棺木、北静王路祭）、房中华贵的宫中陈设都与低微出身难以自洽；索隐层：刘心武等提出她是废太子胤礽之女。",
+      "related_characters": [
+        "character_qin_keqing",
+        "character_jia_zhen",
+        "character_qin_ye"
+      ],
+      "related_events": [
+        "event_qin_keqing_origin_ch8",
+        "event_qin_keqing_funeral_ch13_14"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "viewpoint_qinke_orphan",
+          "title": "文本论：她确实是养生堂抱养的孤女",
+          "summary": "第八回明文交代其出身。贾府择媳看性情容貌不看门第——把象征笔法（宫中陈设）当事实考证，是「身份之谜」的主要来源。",
+          "evidence": [
+            "第八回：「因当年无儿女，便向养生堂抱了一个儿子并一个女儿」",
+            "尤氏、邢岫烟等出身皆不高的儿媳/亲戚证明贾府择媳标准是「性情容貌」而非门第",
+            "房中陈设是曹雪芹「以宫闱典故渲染情欲氛围」的象征笔法"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "viewpoint_qinke_noble",
+          "title": "隐写论：可卿出身高贵，曹雪芹删改了她的故事",
+          "summary": "脂批「淫丧天香楼，作者用史笔也」透露故事被大幅删改。樯木棺（义忠亲王之物）、宫中陈设、超规格丧礼都指向她的真实出身与宫廷有关。",
+          "evidence": [
+            "樯木「原系义忠亲王老千岁要的」——亲王级棺木",
+            "房中陈设全是历代后妃公主的器物",
+            "北静王亲临路祭——一个孤女的丧礼享受王爵待遇",
+            "刘心武据此推断她可能是废太子胤礽之女"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_qinke_death_special",
+      "title": "秦可卿之死为什么如此特殊？",
+      "slug": "why-is-qin-keqings-death-so-special",
+      "question_type": "version_controversy",
+      "importance_weight": 92,
+      "heat_weight": 88,
+      "neutral_overview": "可卿是十二钗中第一个死去的人。她的死在文本中是「病死」（通行本），在脂批中是「淫丧天香楼」（被删改），在叙事功能上是「末世预言」（托梦凤姐）——一具尸体同时承担了道德丑闻与先知预言两种极端功能。",
+      "related_characters": [
+        "character_qin_keqing",
+        "character_jia_zhen",
+        "character_wang_xifeng"
+      ],
+      "related_events": [
+        "event_qin_keqing_dream_ch13",
+        "event_tianxianglou_deleted"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "viewpoint_qinke_death_deleted",
+          "title": "删改论：可卿之死是曹雪芹「删改创作」的遗迹",
+          "summary": "脂批明言「秦可卿淫丧天香楼，作者用史笔也」，因畸笏叟之命删去四五页。判词画「美人悬梁」、贾珍失态、瑞珠触柱、尤氏胃疾都是删改留下的裂缝。",
+          "evidence": [
+            "甲戌本第十三回回后批：「姑赦之，因命芹溪删去」",
+            "判词画面「美人悬梁自尽」与「病死」的矛盾",
+            "贾珍「哭的泪人一般」、瑞珠触柱而亡、尤氏「犯了胃疾」"
+          ],
+          "fact_type": "disputed_version"
+        },
+        {
+          "id": "viewpoint_qinke_death_artistic",
+          "title": "艺术论：删改造就了「隐而不发」的美学",
+          "summary": "删改后的模糊性使可卿之死成为全书最富阐释空间的死亡——读者能感到「有东西被隐瞒」，却永远无法确证。这种「隐」与全书「真事隐」的总标题呼应。",
+          "evidence": [
+            "「真事隐去」的创作纲领与可卿「隐写」的同构",
+            "如果丑闻被完整写出，可卿只会是「又一个失节妇人」；「隐去」反而使她升格为最神秘的存在"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "viewpoint_qinke_death_prophetic",
+          "title": "预言论：可卿之死的真正特殊处是「托梦」",
+          "summary": "她是唯一在死前看清贾府命运并试图警示的人——最「不洁」的女人说出最清醒的政治预言，这个安排本身就是对贾府男性世界的审判。",
+          "evidence": [
+            "「树倒猢狲散」的预言与置祭祀产业的退路方案",
+            "贾府的男人们无一人能说出这样的话",
+            "凤姐醒后即忘——先知来过，无人听见"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_qinke_true_identity",
+      "title": "秦可卿真的是「废太子之女」吗？——刘心武的「秦学」",
+      "slug": "is-qin-keqing-the-abandoned-princes-daughter",
+      "question_type": "redology",
+      "importance_weight": 80,
+      "heat_weight": 82,
+      "neutral_overview": "刘心武在《秦可卿之死》系列（央视《百家讲坛》「揭秘红楼梦」）中提出「秦学」：可卿是康熙朝废太子胤礽之女，被贾府秘密收养，死后以亲王之礼安葬。此说在通俗层面影响巨大，在学术界则争议激烈。",
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "viewpoint_qinke_identity_prince",
+          "title": "秦学主张：废太子之女说",
+          "summary": "刘心武的证据链：樯木（义忠亲王=胤礽的预定物）、宫中陈设、超规格丧礼、北静王路祭、焦大「爬灰」背后的政治隐情、贾府「为秦氏送葬」的规格。他推测可卿之死与宫廷斗争有关，其葬礼规格是「还她身份」。",
+          "evidence": [
+            "「义忠亲王老千岁」在清代语境中几乎必然指向废太子胤礽",
+            "可卿房中全部是后妃公主的器物",
+            "四十九日丧礼、亲王棺木、王爵路祭——超规格的待遇"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "viewpoint_qinke_identity_text",
+          "title": "反对派：文本不支持的过度联想",
+          "summary": "主流红学界认为「秦学」是索隐派的现代翻版：细节真实不等于关系真实。樯木首先服务于「贾府与宫廷旧案的牵连」的象征功能，而非「可卿身世」的实证。蔡义江等学者明确批评其「想象有余，证据不足」。",
+          "evidence": [
+            "第八回明文「养生堂抱养」——文本的正面交代被秦学绕开",
+            "樯木等细节完全可以用「贾珍僭越铺张」解释",
+            "脂批未提供任何「可卿出身高贵」的信息"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "viewpoint_qinke_identity_symbol",
+          "title": "象征论：可卿的身份是「美与情的化身」而非历史人物",
+          "summary": "第三种路径：可卿根本不需要「真实出身」——她是「情」的象征人物。她的房中陈设用宫闱典故，是为了把「情欲之美」推到极致；她的「兼美」属性说明她是钗黛合一的抽象存在。考证她的身世，就像考证警幻仙姑的籍贯。",
+          "evidence": [
+            "「兼美」的设置说明可卿首先是象征人物",
+            "判词「情天情海幻情身」——「幻」字点明其象征属性",
+            "全书只有可卿一人「无出身」——这个空白本身就是艺术设计"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ],
+      "note": "「秦学」的学术地位有限，但其大众影响力说明：可卿的「空白」具有巨大的阐释引力。"
+    },
+    {
+      "id": "question_zhiyanzhai_delete_tianxianglou",
+      "title": "脂砚斋（畸笏叟）为什么命曹雪芹删去「淫丧天香楼」？",
+      "slug": "why-delete-tianxianglou",
+      "question_type": "version_study",
+      "importance_weight": 78,
+      "heat_weight": 74,
+      "neutral_overview": "脂批给出的表面理由（可卿有托梦献策之善，姑赦之）背后存在多重解读：道德保护、家族隐讳、艺术考量。这次删改是研究《红楼梦》成书过程最珍贵的现场证据。",
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "viewpoint_delete_mercy",
+          "title": "慈悲论：不忍让「善者」背负淫名",
+          "summary": "脂批的明面理由：可卿有托梦凤姐的善举，畸笏叟「姑赦之」。这反映了清代批书人「以善掩恶」的道德观——改掉丑闻，保住人物的「体面」。",
+          "evidence": [
+            "脂批原文「因有魂托凤姐贾家后事二件……姑赦之，因命芹溪删去」"
+          ],
+          "fact_type": "disputed_version"
+        },
+        {
+          "id": "viewpoint_delete_reality",
+          "title": "隐讳论：可卿原型涉及现实家族丑闻",
+          "summary": "「作者用史笔也」的「史笔」暗示此事有原型——很可能是曹家（或姻亲家族）的真实丑闻。删改是为了避免「对号入座」的家族风险。",
+          "evidence": [
+            "脂批「史笔」即实录——可卿事当有原型",
+            "「遗簪」「更衣」等细节的残留说明删改极为仓促",
+            "曹家在雍正朝的政治处境使其必须规避「爬灰」类丑闻的影射"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "viewpoint_delete_artistic",
+          "title": "艺术论：删改是「隐写美学」的自觉选择",
+          "summary": "删改无论初衷如何，在客观上完成了全书「真事隐」的纲领——可卿以「空白」的方式获得了比直写更大的艺术力量。",
+          "evidence": [
+            "删改后的裂缝（贾珍失态、瑞珠触柱）比直写更有冲击力",
+            "「隐」与「真事隐去」总题的呼应"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_qinke_baoyu_xingqimeng",
+      "title": "秦可卿在宝玉的性启蒙中扮演什么角色？",
+      "slug": "qin-keqing-as-baoyus-sexual-awakening",
+      "question_type": "character_relationship",
+      "importance_weight": 74,
+      "heat_weight": 68,
+      "neutral_overview": "宝玉在可卿房中入梦、梦游太虚幻境、与「兼美」成亲、梦遗、进而与袭人初试云雨——性启蒙的整个链条都从可卿的卧房开始。这是作者的有意安排还是叙事巧合？",
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_qinke_sex_symbol",
+          "title": "象征论：可卿是「情欲」的化身，她的房间就是欲望的空间",
+          "summary": "可卿房中的陈设（武则天、赵飞燕、杨贵妃的器物）全指向「淫」，宝玉在这个房间里入梦，是曹雪芹把「性启蒙」放在「欲望空间」中的象征设计。",
+          "evidence": [
+            "房中陈设全是「淫乱」典故中的宫廷女性",
+            "警幻授「云雨之事」、兼美与之成亲——梦境是「意淫与皮肤滥淫」的教育现场"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_qinke_sex_real",
+          "title": "现实论：可卿作为「性启蒙者」与其「淫丧」命运互为表里",
+          "summary": "可卿本人就是被「性」毁灭的人（与贾珍的关系致其丧命）——让宝玉在她房中经历性启蒙，暗示「性」的两种后果：可卿式的毁灭与宝玉式的超越。",
+          "evidence": [
+            "可卿因「情」而死（宿孽总因情），宝玉却从同样的起点走向「意淫」的升华",
+            "同一张床上的两种命运：沉沦与觉悟"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_qinke_jiazhen_relation",
+      "title": "秦可卿与贾珍的关系应当怎样定性？",
+      "slug": "how-to-define-qin-keqing-and-jia-zhens-relationship",
+      "question_type": "character_relationship",
+      "importance_weight": 76,
+      "heat_weight": 78,
+      "neutral_overview": "「爬灰」关系因删改而无法确证其性质：是被迫的性侵（权势胁迫），还是自愿的通奸（两情相悦）？这直接决定可卿是「受害者」还是「共犯」，也决定读者对贾珍的愤怒程度。",
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_qinke_zhen_victim",
+          "title": "受害者论：权势下的被迫",
+          "summary": "贾珍是宁国府家长，可卿是寄居其下的儿媳——这种权力关系中的「私情」本质上是性侵。可卿的「忧虑伤脾」是受害者心理的躯体化，她的死（无论自缢还是病死）是走投无路的选择。",
+          "evidence": [
+            "张太医诊断「忧虑伤脾」——长期压抑的焦虑",
+            "可卿的柔弱处境（无娘家庇护）使她无从反抗",
+            "贾珍「哭的泪人一般」——施害者的悔恨或表演"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_qinke_zhen_colluder",
+          "title": "共犯论：原稿的「淫丧」暗示两厢情愿",
+          "summary": "脂批「淫丧天香楼」的「淫」字与判词「情既相逢必主淫」都暗示「情」的存在——删改前的可卿可能并非完全被动。曲文「擅风情，秉月貌」也把她写成「主动的魅力」。",
+          "evidence": [
+            "判词「情既相逢」——「相逢」而非「强迫」",
+            "「淫丧」回目——传统叙事中「淫」含主动意味",
+            "「擅风情」——「擅」字赋予她主动性"
+          ],
+          "fact_type": "disputed_version"
+        },
+        {
+          "id": "vp_qinke_zhen_suspension",
+          "title": "悬置论：删改使「定性」永不可能",
+          "summary": "曹雪芹删去了直接证据，留下的只有裂缝——读者的判断本质上是对「删改意图」的猜测。这种不可知性正是文本力量的一部分。",
+          "evidence": [
+            "脂批只说明「删」，未说明「被迫还是自愿」",
+            "所有裂缝证据都同时支持两种解读"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_qinke_qinxue",
+      "title": "刘心武「秦学」——废太子之女说",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "刘心武",
+      "year": 2005,
+      "description": "刘心武通过「义忠亲王老千岁」与废太子胤礽的对应、可卿房中宫廷陈设、超规格丧礼等线索，提出可卿是胤礽之女、贾府秘密收养的政治孤女说。其著作与《百家讲坛》讲座引发大众层面的「秦可卿热」。学术界对此说普遍持保留态度（蔡义江等公开批评其证据链），但承认其激活了公众对文本细读的兴趣。",
+      "opinions": [
+        {
+          "side": "支持者",
+          "content": "解释了大量文本「不合常理」之处（樯木、陈设、丧礼），为删改提供了政治动机。"
+        },
+        {
+          "side": "反对者",
+          "content": "以「细节真实」推导「关系真实」缺乏逻辑必然性；「义忠亲王」等可能是泛指性影射而非精确指认。"
+        }
+      ]
+    },
+    {
+      "id": "viewpoint_qinke_daixie",
+      "title": "可卿与「钗黛合一」的叙事实验",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "红学界综合研究",
+      "year": 1990,
+      "description": "可卿的「兼美」属性（兼宝钗之妩媚与黛玉之袅娜）被普遍视为「钗黛合一」思想的叙事原型。脂批在第四十二回明言「钗、玉名虽两个，人却一身」，而可卿在第五回即以「一人兼二美」的形象预告了这一命题。可卿的早死（第十三回）因此也具有结构意义：她是「合一的完美」——而完美无法在人间存活，所以第一个死去的正是「兼美」。"
+    },
+    {
+      "id": "viewpoint_qinke_shihua",
+      "title": "「秦可卿」姓名的谐音密码",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "红学界综合研究",
+      "year": 1985,
+      "description": "红学界对「秦可卿」的谐音解读颇多：「秦」谐「情」（判词「情天情海」）；「可卿」谐「可倾」（倾国倾城）或「可轻」（可以轻慢）。最流行的是「情可轻」——情是虚幻的、可轻视的。结合「秦钟」谐「情种」、「秦业」谐「情孽」，秦家三人构成「情」字家族——可卿是「情」，秦钟是「情种」，秦业是「情孽」——一门三「情」，全部死绝，正是「宿孽总因情」的注脚。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 9,
+    "total_relationships": 8,
+    "total_poems": 2,
+    "total_questions": 6,
+    "total_viewpoints": 3,
+    "total_sources": 8,
+    "citation_coverage": 0.9,
+    "total_content_chars": 0,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 32,
+      "text_inference": 15,
+      "scholarly_viewpoint": 17,
+      "disputed_version": 14,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f9f5f0;
+  --color-paper-deep: #f2ede4;
+  --color-surface: #ffffff;
+  --color-surface-warm: #fffbf5;
+  --color-primary: #a63834;
+  --color-primary-deep: #8a2c28;
+  --color-gold: #c49a6c;
+  --color-secondary-btn: #e8d9c9;
+  --color-secondary-btn-text: #5c4a3d;
+  --color-ink: #2c2c2c;
+  --color-body: #595959;
+  --color-muted: #8c8c8c;
+  --color-line: #d4c7b9;
+  --color-line-inner: #e8dfd2;
+  --color-seal: #c0392b;
+
+  --font-serif: "Noto Serif SC", "Songti SC", "Source Han Serif SC", "SimSun", serif;
+  --font-sans: "Noto Sans SC", "PingFang SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+  --font-display: "Playfair Display", Georgia, "Times New Roman", var(--font-serif);
+
+  --shadow-card: 0 2px 8px rgba(60, 45, 30, 0.08);
+  --shadow-hover: 0 4px 16px rgba(60, 45, 30, 0.12);
+}
+
+html {
+  /* 锁定文字缩放：微信/部分安卓浏览器会按系统设置自动放大网页字号，导致布局错乱 */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-body);
+}
+
+::selection {
+  background: rgba(166, 56, 52, 0.15);
+}
+
+@keyframes star-panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes star-panel-in-x {
+  from {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes sky-twinkle {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+/* 白板卡片系统：去边框 → 双层暖色悬浮阴影 + 共享线稿水印层（同一幅园林线稿的五个裁剪模板）。
+   水印位于卡片背景层（天然在文字/控件之后），随 border-radius 自动裁剪；
+   从阅读区边缘向水印侧做纸色渐隐，五模板共享相同的纸色、墨色、阴影与渐隐强度。 */
+.card-print {
+  --card-paper: var(--color-surface);
+  position: relative;
+  overflow: hidden;
+  box-shadow:
+    0 10px 30px rgba(60, 45, 30, 0.08),
+    0 2px 6px rgba(60, 45, 30, 0.05);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image:
+    linear-gradient(to left, var(--card-paper) 3%, rgba(255, 255, 255, 0) 32%),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 58%, var(--card-paper) 97%),
+    var(--garden-line);
+}
+
+.card-print.bg-surface-warm {
+  --card-paper: var(--color-surface-warm);
+}
+
+/* 深色主题：园林线稿水印是浅色白底 PNG，叠在深色卡片上会形成浅色底纹干扰文字，直接隐藏（卡片底色由 bg-surface 提供） */
+html[data-theme-dark="1"] .card-print {
+  background-image: none;
+}
+
+/* 五模板：同一幅线稿的不同裁剪/定位（图 1672×941；倍率一致，仅位移不同） */
+.card-print--identity {
+  background-position: right bottom, center bottom, 74% 12%;
+  background-size: auto, auto, 175% auto;
+}
+.card-print--timeline {
+  background-position: right bottom, center bottom, 78% 74%;
+  background-size: auto, auto, 185% auto;
+}
+.card-print--relations {
+  background-position: right bottom, center bottom, 20% 66%;
+  background-size: auto, auto, 185% auto;
+}
+.card-print--viewpoints {
+  background-position: right bottom, center bottom, right bottom, 88% 44%;
+  background-size: auto, auto, auto, 200% auto;
+  background-image:
+    linear-gradient(to left, var(--card-paper) 3%, rgba(255, 255, 255, 0) 32%),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 58%, var(--card-paper) 97%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.55) 100%),
+    var(--garden-line);
+}
+.card-print--questions {
+  background-position: right bottom, center bottom, 74% 88%;
+  background-size: auto, auto, 200% auto;
+}

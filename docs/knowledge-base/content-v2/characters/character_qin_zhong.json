@@ -1,0 +1,806 @@
+{
+  "character": {
+    "id": "character_qin_zhong",
+    "name": "秦钟",
+    "slug": "qin-zhong",
+    "aliases": [
+      "鲸卿",
+      "情种"
+    ],
+    "category": "宁国府姻亲（秦可卿之弟）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "营缮郎秦业之子（五旬上所得亲生子），秦可卿之弟（可卿系养生堂抱养之女，二人为名义姐弟）。",
+      "position": "秦业之子，贾府家塾附学，宝玉之情友。",
+      "origin": "寒门宦家（秦业仅一营缮郎小官）。",
+      "generation": "与宝玉同辈"
+    },
+    "tags": [
+      "情种",
+      "鲸卿",
+      "腼腆温柔",
+      "女儿之风",
+      "闹学堂",
+      "馒头庵",
+      "智能儿",
+      "夭逝黄泉路"
+    ],
+    "summary": {
+      "short": "秦可卿之弟，字鲸卿——「秦钟」即「情种」。第七回「宴宁府宝玉会秦钟」，两个少年一见如故；第九回闹学堂，第十五回馒头庵与智能儿私情，第十六回夭逝黄泉路。他是宝玉「情」的先行者与第一个幻灭。",
+      "long": "秦钟是《红楼梦》少年群像中最短促的一道光。他出身寒门——父亲秦业不过一个营缮郎，五旬上下才得了这个儿子（姐姐秦可卿还是养生堂抱养的）。第七回他随可卿之约初会宝玉：一个「眉清目秀，粉面朱唇，身材俊俏，举止风流，似在宝玉之上」，一个恨自己生错了家——两个少年在阶级的两端彼此倾慕，遂结为挚友，同入家塾。他的「腼腆温柔，未语脸先红，怯怯羞羞，有女儿之风」是曹雪芹笔下一等一的风流体态。第九回闹学堂，他因与香怜交好被金荣讥讽，学堂大乱——少年的风流把圣贤之地搅成战场。第十五回「秦鲸卿得趣馒头庵」，他与小尼姑智能儿的私情被宝玉撞破——禁欲之地的私情，是全书对宗教虚伪的一记闷棍。第十六回，秦钟病重夭逝，「秦鲸卿夭逝黄泉路」：临死前鬼判索命，他哀求再见宝玉一面；宝玉赶来，他留下遗言——「以前你我见识自为高过世人，我今日才知自误了。以后还该立志功名，以荣耀显达为是。」（此句各本有异，红学界争议甚多）秦钟=「情种」：脂批点破的名字密码，把他与姐姐可卿（「情天情海幻情身」）连成「情」之一系。他的死是宝玉情感世界的第一声丧钟：十六岁的少年公子第一次直面同龄挚友的死亡，而可卿之死又与之相隔不过数回。学者多认为，秦钟是宝玉的一面镜子——他的夭折预告了「情」在浊世中的不寿。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "风流体态——女儿之风",
+        "fact_type": "canonical_text_fact",
+        "description": "秦钟「眉清目秀，粉面朱唇」，「腼腆温柔，怯怯羞羞，有女儿之风」。曹雪芹把他写成兼具男女之美的少年——这份美既是他与宝玉友谊的基础，也是他在浊世中早夭的谶语。"
+      },
+      {
+        "dimension": "情——情种的本色",
+        "fact_type": "canonical_text_fact",
+        "description": "秦钟的一生很短，却处处是「情」：与宝玉的知己之情、与智能儿的男女之情、学堂里的风流之情。他的名字就是他的命运——「情种」在浊世里注定夭折。"
+      },
+      {
+        "dimension": "怯——寒门子弟的自卑",
+        "fact_type": "canonical_text_fact",
+        "description": "初见宝玉时秦钟自思：「可恨我为什么生在这贫寒之家」——他的腼腆里有寒门子弟的敏感：羡慕宝玉的富贵，又珍惜自己的体面。这份「怯」使他与宝玉的友谊从一开始就带着仰望的角度。"
+      },
+      {
+        "dimension": "迷——情与悟之间的徘徊",
+        "fact_type": "canonical_text_fact",
+        "description": "临终之际，秦钟从「情」里醒了过来：他劝宝玉「立志功名」，说自己「自误了」。这个少年在死前完成了一次顿悟——可惜这悟来得太晚，也未必是真的悟。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_qinzhong_meet_ch7",
+        "title": "宴宁府会秦钟（第七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_qinzhong_shuxue_ch8",
+        "title": "入塾拜师（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_qinzhong_xuetang_ch9",
+        "title": "闹学堂（第九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_qinzhong_zhi_neng_ch15",
+        "title": "馒头庵私情（第十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_qinzhong_death_ch16",
+        "title": "夭逝黄泉路（第十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_qinzhong_last_words_ch16",
+        "title": "临终遗言——「立志功名」版本之争（第十六回）",
+        "fact_type": "disputed_version",
+        "note": "版本异文：程本载之，脂本文字略异，部分版本无此句（前八十回内版本争议，非续书）"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch07_qinzhong_meet",
+        "quote": "宝玉只一见秦钟心中便如有所失，痴了半日，自己心中又起了呆意……秦钟见了宝玉形容出众，举止不凡，更兼金冠绣服……心中亦自思道：「果然这宝玉怨不得人溺爱他。……可恨我为什么生在这贫寒之家。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回初会。宝玉恨生贵家、秦钟恨生贫家——两个少年互相倾慕的起点，恰在彼此的「生在错处」。"
+      },
+      {
+        "source_id": "source_ch09_qinzhong_xuetang",
+        "quote": "秦钟趁此和香怜挤眉弄眼，递暗号儿，二人假装出小恭，走至后院说梯己话。……金荣笑道：「……方才明明的撞见他两个……贴的好烧饼！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第九回闹学堂。秦钟的风流引发学堂大战——圣贤之地，顽童之场。"
+      },
+      {
+        "source_id": "source_ch15_qinzhong_zhi_neng",
+        "quote": "秦钟道：「……好人，我已急死了。你今儿再不依，我就死在这里。」……（宝玉）将他二人按住，也不则声。……秦钟笑道：「……这会子不用说了，等一会睡下，再细细的算帐。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十五回馒头庵。秦钟与智能儿私情被宝玉撞破——尼庵里的男欢女爱，全书对宗教禁欲最辛辣的嘲讽。"
+      },
+      {
+        "source_id": "source_ch16_qinzhong_death",
+        "quote": "秦钟哼了一声，微开双目，见宝玉在侧，乃勉强叹道：「怎么不肯早来？……以前你我见识自为高过世人，我今日才知自误了。以后还该立志功名，以荣耀显达为是。」",
+        "fact_type": "disputed_version",
+        "note": "attribution 说明：第十六回临终遗言。「立志功名」句各本有异文，程本明确，脂本亦有而文字略异——红学界对其真伪与深意争议甚大。"
+      },
+      {
+        "source_id": "source_ch16_qinzhong_guipan",
+        "quote": "（鬼判）见宝玉来了，都忙道：「……不如命他秦钟回去……是，此阴司泉路，你不可久留！」……秦钟道：「并无别话。以前你我见识自为高过世人……」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十六回。鬼判索命、因宝玉在侧而放秦钟一叙——死亡写得荒诞，荒诞里是全书对冥司的嘲讽。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "秦钟＝「情种」之谐音（脂批点破）；字鲸卿",
+      "detail": "「秦」谐「情」，「钟」谐「种」——秦钟即情种。其姐秦可卿判词「情天情海幻情身」，姊弟二人同为「情」之一系，秦钟之死即「情种」在浊世中的夭折。亦有论者谓「钟」双关「钟磬」之钟，暗应其馒头庵、智能儿之佛门情缘。字「鲸卿」——鲸为大鱼，「卿」为美称，大美之物生于寒池，终难久存。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（约十四五岁）"
+      },
+      "conclusion": "原文未见明文；与宝玉同学论兄弟，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "鲸卿",
+      "type": "表字",
+      "context": "秦钟字鲸卿——第十五回回目「秦鲸卿得趣馒头庵」即用其字",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "情种",
+      "type": "谐音解读",
+      "context": "脂批点破：秦钟＝情种——名字即命运",
+      "fact_type": "scholarly_viewpoint"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_qinzhong_meet_ch7",
+      "title": "宴宁府宝玉会秦钟",
+      "event_level": "major",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府",
+        "specific": "宝玉随凤姐赴宁府宴，初见秦可卿之弟秦钟。二人一见如故：宝玉恨自己生在侯门公府之家，秦钟恨自己生在贫寒之家——阶级两端的两个少年，在彼此身上看见了「另一个自己」。遂约同入家塾。"
+      },
+      "summary": {
+        "short": "第七回是「情友」的相遇：贵公子与寒门少年互生倾慕，恨各自生错了家。这场相遇让宝玉平生第一次交到同性的知己——秦钟就此进入宝玉的生命，也进入全书「情」的主题。",
+        "meaning": [
+          "阶级的两端互羡互怜——宝玉羡秦钟的自由，秦钟羡宝玉的富贵",
+          "「情友」关系确立——宝玉的第一个男性知己",
+          "同入家塾的约定，直接引出第九回的闹学堂"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "镜中的自己",
+          "content": "秦钟之于宝玉，是一面镜子的两种用法：宝玉在他身上看见「自由」（寒门无拘束的想象），秦钟在宝玉身上看见「富贵」。他们彼此倾慕的，都是自己没有的东西——这段友谊从第一天起就带着互补的幻觉。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「情」之先声",
+          "content": "学者指出，秦钟的出现标志《红楼梦》「情」主题的正式展开：他的「情种」之名、可卿的「情天情海」、宝玉的「情不情」——秦氏姊弟是宝玉情的世界的引路人。第七回的相遇，是宝玉从女儿世界走向更广阔「情界」的第一步。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_zhong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qinzhong_shuxue_ch8",
+      "title": "入塾拜师——寒门求学的体面",
+      "event_level": "minor",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秦家→贾府家塾",
+        "specific": "秦钟依约入贾府家塾附学。秦业虽贫，仍东拼西凑凑了二十四两贽见礼送与塾师贾代儒，为儿子争得入学的体面。贾母见秦钟举止温柔，欢喜不已，留他常与宝玉相伴。"
+      },
+      "summary": {
+        "short": "寒门子弟入学的代价是父亲的东拼西凑：秦业凑二十四两贽见礼，为秦钟换来贾府家塾的一个座位。贾母喜欢他，宝玉更有了伴——这段求学路的开头，体面而辛酸。",
+        "meaning": [
+          "二十四两贽见礼——寒门对教育的全部诚意",
+          "秦业的节衣缩食与儿子的风流成性形成讽刺",
+          "贾母的欢喜——秦钟以「温柔」打入贾府上流"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "父亲的赌注",
+          "content": "秦业把儿子送入贾府家塾，是一场寒门的豪赌：倾尽积蓄，盼的是儿子「学业进益」。可惜秦钟入塾后学的是「情」，不是书——父辈的赌注，输给了少年的风流。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_zhong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_dairu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_ye",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_men_zi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qinzhong_xuetang_ch9",
+      "title": "闹学堂",
+      "event_level": "major",
+      "chapter": {
+        "number": 9,
+        "title": "恋风流情友入家塾 起嫌疑顽童闹学堂",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府家塾",
+        "specific": "秦钟与香怜在后院说梯己话，被金荣撞见，以「贴烧饼」等污语讥讽。秦钟羞愤，宝玉护友，茗烟等小厮冲入学堂打作一团。金荣被迫磕头赔罪。"
+      },
+      "summary": {
+        "short": "秦钟的风流点燃了学堂的火药桶：讥讽、争吵、群殴、磕头赔罪——圣贤之地沦为顽童战场。回目「恋风流情友入家塾」六个字，把这场闹剧的根子点得明明白白。",
+        "meaning": [
+          "秦钟是闹学堂的「引线」——他的风流与怯弱一体两面",
+          "宝玉的护友与茗烟的打闹——权力庇护下的少年意气",
+          "「起嫌疑顽童闹学堂」——教育圣地的彻底失格"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "圣地的沦陷",
+          "content": "贾府家塾是全书教育批判的主场：秦钟、香怜之风流，金荣之污语，薛蟠之龙阳——曹雪芹把儒家的圣贤之地写成了藏污纳垢之所。闹学堂是「末世无学」的寓言：教书的无力，读书的无心。"
+        },
+        {
+          "type": "character",
+          "title": "情种在浊世的第一课",
+          "content": "闹学堂是秦钟的成人礼：他第一次尝到「风流」的代价——金荣的污语、学堂的混战、被迫的赔罪。这堂课的学费是羞耻，而他的「情」还将付出更贵的学费。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_zhong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ming_yan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jin_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qinzhong_zhi_neng_ch15",
+      "title": "秦鲸卿得趣馒头庵",
+      "event_level": "major",
+      "chapter": {
+        "number": 15,
+        "title": "王凤姐弄权铁槛寺 秦鲸卿得趣馒头庵",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "馒头庵（水月庵）",
+        "specific": "秦可卿出殡，凤姐携宝玉、秦钟借住馒头庵。秦钟与庵中小尼智能儿旧有情愫，趁夜私会，被宝玉撞破：「这回可抓住你了。」秦钟央求宝玉别说出去。"
+      },
+      "summary": {
+        "short": "在姐姐出殡的佛门净地，秦钟与尼姑智能儿私会——「得趣馒头庵」与「弄权铁槛寺」同回并置，曹雪芹把权与色的讽刺写到了极点：佛门内外，没有一样是干净的。",
+        "meaning": [
+          "尼庵私情——宗教禁欲的虚伪被少年之欲当场戳穿",
+          "与凤姐「弄权」并置——权的污与色的污，同一个铁槛内外",
+          "宝玉的撞破与包庇——「情友」之间心照不宣的共谋"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "馒头庵的双重讽刺",
+          "content": "回目「王凤姐弄权铁槛寺 秦鲸卿得趣馒头庵」是全书对仗最狠的一联：铁槛寺里弄权（凤姐贪三千两逼死两条人命），馒头庵里得趣（秦钟与小尼私会）。「铁槛」与「馒头」俱出古诗「纵有千年铁门槛，终须一个土馒头」——权与色，终归黄土。"
+        },
+        {
+          "type": "character",
+          "title": "情种之「得趣」",
+          "content": "秦钟与智能儿的情是全书最短的一支恋曲：一个情种，一个小尼，在死亡的余温（可卿出殡）里偷欢。他们的情注定无果——智能儿后来私逃寻他，被秦业逐出；秦钟一病不起。情种之情，件件不寿。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_zhong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhi_neng_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qinzhong_death_ch16",
+      "title": "秦鲸卿夭逝黄泉路",
+      "event_level": "major",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秦家",
+        "specific": "智能儿私逃进城寻秦钟，被秦业逐出，秦业一气而亡。秦钟本已带病，受此打击病重不起。鬼判索命，恰宝玉赶来，判官破例放他还阳片时与宝玉诀别。秦钟留下遗言后咽气。"
+      },
+      "summary": {
+        "short": "父亲被气死，情人生离，自己夭逝——秦钟的死是三重的：情败、家败、命败。他死在元妃才选凤藻宫的同一回里：一边是贾府的极盛，一边是寒门的绝亡。",
+        "meaning": [
+          "秦业之死——秦钟的「情」气死了父亲，父子的账一起了结",
+          "鬼判因「荣国公之孙」放行——阴司的势利，人间的写照",
+          "与元妃晋封同回并置——贾府之喜与秦家之丧，盛衰一体"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "喜与丧的对位",
+          "content": "第十六回回目「贾元春才选凤藻宫 秦鲸卿夭逝黄泉路」：同一天里，贾家升到天上，秦家堕入地府。曹雪芹把全书最盛之事与最惨之死排在一回，为「盛筵必散」写下第一笔——贾府的今天，就是秦家的明天。"
+        },
+        {
+          "type": "character",
+          "title": "情种之夭",
+          "content": "秦钟死于「情」：为情偷欢，气死父亲，病入膏肓。他是全书第一个因情而死的人——他的夭折为「情种」之名作了最痛的注脚：情是种，种在浊世，发不出芽。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_zhong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhi_neng_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_ye",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qinzhong_last_words_ch16",
+      "title": "临终遗言——「以后还该立志功名」",
+      "event_level": "major",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "disputed_version",
+      "location": {
+        "name": "秦家",
+        "specific": "秦钟临终对宝玉说：「以前你我见识自为高过世人，我今日才知自误了。以后还该立志功名，以荣耀显达为是。」——此句各本有异：程本明确载之，脂本文字略有出入，部分版本无「立志功名」句。红学界对其真伪与深意争议极大。"
+      },
+      "summary": {
+        "short": "秦钟的临终遗言是全书的著名公案：一生反对功名的宝玉，挚友临死却劝他「立志功名」。这句话如果是曹雪芹写的，意味着全书对功名的态度比我们想的更复杂；如果不是，则是一个巧妙的续改。",
+        "meaning": [
+          "「自误了」三字——秦钟对自己一生的否定",
+          "劝宝玉立志功名——与全书反功名主题的正面冲突",
+          "版本异文的存在——这句话本身就是一个「争议现场」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "真伪之争",
+          "content": "学界对此句聚讼纷纭：一派认为系曹雪芹原笔——秦钟作为「情种」的临终幻灭，正是作者对「情」之命运的悲观自省；另一派认为此句与宝玉性格及全书基调矛盾，或为后人（乃至程高）增改，将「情种」之死改写为「浪子回头」。版本异文的存在使这一问题难以定谳。",
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "type": "character",
+          "title": "临终的「悟」",
+          "content": "无论真伪，这句遗言都构成人物弧线的收束：秦钟以「情」开局，以「悔」终局——他劝宝玉走的功名路，恰恰是他与宝玉共同鄙弃过的路。情种临死劝人离情，这是全书最凉的一笔：连情种都不信情了。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_zhong",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_qinzhong_baoyu",
+      "from": "character_qin_zhong",
+      "to": "character_jia_baoyu",
+      "type": "挚友（少年知己）",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "秦钟是秦可卿之弟，宝玉与之在学堂相识后一见如故——两个「正邪两赋」的少年在精神上彼此吸引。秦钟在第七回初识、第九回大闹学堂中与宝玉并肩，第十六回因病死去，死前对宝玉的临终遗言「以前你我见识自为高过世人，我今日才知自误了」是对宝玉最早的一次灵魂敲打。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "一见如故",
+          "chapter": 7,
+          "description": "宴宁府初会，二人互生倾慕。"
+        },
+        {
+          "stage": 2,
+          "title": "同塾共读",
+          "chapter": 9,
+          "description": "闹学堂中宝玉护友。"
+        },
+        {
+          "stage": 3,
+          "title": "临终诀别",
+          "chapter": 16,
+          "description": "秦钟夭逝，遗言劝宝玉立志功名。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qinzhong_qin_keqing",
+      "from": "character_qin_zhong",
+      "to": "character_qin_keqing",
+      "type": "养姐弟",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "秦钟与可卿是名义姐弟（可卿为秦业抱养之女），无血缘而「情」相系：可卿之判词「情天情海幻情身」，秦钟之名「情种」——姊弟二人都是「情」的化身，且先后早夭，构成「秦氏一系」的双重悲剧。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "宁府相聚",
+          "chapter": 7,
+          "description": "秦钟赴宁府，姐弟相见（书中可卿亦多方照拂）。"
+        },
+        {
+          "stage": 1,
+          "title": "姐弟之缘",
+          "chapter": 7,
+          "description": "秦钟因姐姐的关系得以结交宝玉——可卿无意中牵起了宝玉与秦钟的友谊线。"
+        },
+        {
+          "stage": 2,
+          "title": "先后夭亡",
+          "chapter": 16,
+          "description": "可卿先逝，秦钟继之——「情」之一系俱灭。"
+        },
+        {
+          "stage": 2,
+          "title": "相继凋零",
+          "chapter": 16,
+          "description": "可卿死（第13回）后，秦钟亦病死（第16回）——养父家彻底绝灭。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qinzhong_zhi_nenger",
+      "from": "character_qin_zhong",
+      "to": "character_zhi_nenger",
+      "type": "情人（佛门私情）",
+      "nature": [
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "秦钟与馒头庵小尼智能儿的私情，是全书最叛逆的一支恋曲：佛门净地的男欢女爱，直接导致秦业气死、秦钟病亡。智能儿后来私逃寻他，被逐——这支情以三败告终。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "得趣馒头庵",
+          "chapter": 15,
+          "description": "私会被宝玉撞破。"
+        },
+        {
+          "stage": 2,
+          "title": "私逃事发",
+          "chapter": 16,
+          "description": "智能儿私逃寻秦钟，秦业气死，秦钟病亡。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qinzhong_jia_mu",
+      "from": "character_qin_zhong",
+      "to": "character_jia_mu",
+      "type": "恩遇（长辈的喜爱）",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母初见秦钟便欢喜：见他「举止温柔」，留他与宝玉相伴，赏赐不断。秦钟以「女儿之风」赢得贾府最高权威的喜爱——这份恩遇是他寒门人生的最高光，也是他入塾闹学的通行证。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "初见欢喜",
+          "chapter": 8,
+          "description": "贾母见秦钟温柔，留他常与宝玉相伴。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_qinzhong_huishou",
+      "title": "第七回回前诗（秦氏）",
+      "work_type": "回前诗",
+      "chapter_number": 7,
+      "fact_type": "canonical_text_fact",
+      "summary": "「十二花容色最新，不知谁是惜花人。相逢若问名何氏，家住江南姓本秦。」",
+      "symbolic_notes": "见于甲戌本等回前总批。诗中「姓本秦」暗点秦氏一系——「惜花人」之问，正对应秦钟、可卿这对「情种」姊弟的早夭。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_qinzhong_qingzhong",
+      "title": "秦钟就是「情种」吗？",
+      "slug": "is-qin-zhong-the-embodiment-of-qingzhong",
+      "question_type": "name_analysis",
+      "importance_weight": 76,
+      "heat_weight": 72,
+      "neutral_overview": "脂批点破「秦钟」即「情种」——这个名字密码到底指向什么？",
+      "viewpoint_ids": [
+        "vp_qinzhong_xieyin",
+        "vp_qinzhong_mirror",
+        "vp_qinzhong_irony"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "vp_qinzhong_xieyin",
+          "title": "谐音论：名字即命运的直接设定",
+          "summary": "秦钟＝情种是最直白的谐音设定：他与可卿（情天情海幻情身）构成「情」的一系。曹雪芹用命名把人物的命运预先写定——情种在浊世，注定夭折。",
+          "evidence": [
+            "脂批对「秦钟」之名的点破",
+            "可卿判词「情天情海幻情身」与秦钟之名的呼应"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_qinzhong_mirror",
+          "title": "镜像论：秦钟是宝玉「情」的先行者",
+          "summary": "秦钟是宝玉的一面镜子：同样的多情，同样的厌学，同样的被宠。他的夭折是宝玉「情」之路的预演——宝玉亲眼看着情种死去，却仍在情的路上走下去。秦钟之死预告了宝玉情的结局。",
+          "evidence": [
+            "二人初见时互相倾慕的对称心理",
+            "秦钟之死对宝玉的震动"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_qinzhong_irony",
+          "title": "反讽论：情种死于情，正是「情」的虚无",
+          "summary": "秦钟以「情种」之名活了十六年，最终死于情（智能儿私情引发家破人亡），临终又劝人离情求功名。名字与命运构成残酷反讽：情种不信情了——这才是「情种」三个字最深的悲凉。",
+          "evidence": [
+            "馒头庵私情引发的连锁悲剧",
+            "临终「立志功名」的遗言"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_qinzhong_last_words",
+      "title": "秦钟临终劝宝玉「立志功名」——是曹雪芹原笔吗？",
+      "slug": "was-qin-zhongs-final-advice-original",
+      "question_type": "version_dispute",
+      "importance_weight": 74,
+      "heat_weight": 70,
+      "neutral_overview": "一生厌弃功名的宝玉，挚友临死却劝他「立志功名」。这句话各本有异，红学界聚讼纷纭。",
+      "viewpoint_ids": [
+        "vp_qinzhong_original",
+        "vp_qinzhong_revised",
+        "vp_qinzhong_self"
+      ],
+      "fact_type": "disputed_version",
+      "note": "版本异文之争（第十六回，前八十回内，非续书）",
+      "viewpoints": [
+        {
+          "id": "vp_qinzhong_original",
+          "title": "原笔论：情种的幻灭是曹雪芹的悲观自省",
+          "summary": "此句当为原笔：秦钟以「情」试过一生，临死方知「自误」——让情种否定情，是曹雪芹对「情」之命运最悲观的表态。且劝宝玉走「正路」，恰是挚友临终最后的真心。",
+          "evidence": [
+            "多数抄本与程本均载此句",
+            "「自误了」与秦钟一生经历的呼应"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_qinzhong_revised",
+          "title": "增改论：与全书反功名基调矛盾",
+          "summary": "此句与全书反功名的总基调（宝玉一生不肯读圣贤书、贾雨村式禄蠹被唾弃）冲突，或系后人增改以收「劝学」之效。部分版本无此句的异文，正说明它在流传中经过了反复改易。",
+          "evidence": [
+            "各本文字的出入",
+            "与宝玉「禄蠹」论等前文的矛盾"
+          ],
+          "fact_type": "disputed_version",
+          "note": "各本异文之辨（第十六回，前八十回内）"
+        },
+        {
+          "id": "vp_qinzhong_self",
+          "title": "自况论：这是秦钟（也是作者）的「还俗」",
+          "summary": "无论真伪，这句话都完成了人物的「还俗」：秦钟临死从情与浪漫里醒来，回归世俗功名的价值观。有论者认为这正是曹雪芹本人晚年心境的投射——看破一切后，对「正经路」的复杂回望。",
+          "evidence": [
+            "「我今日才知自误了」的自省语气",
+            "与《红楼梦》「反认他乡是故乡」主题的暗合"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_qinzhong_zhineng",
+      "title": "秦钟与智能儿的私情如何评价？",
+      "slug": "how-to-evaluate-qin-zhongs-affair-with-zhinenger",
+      "question_type": "character_morality",
+      "importance_weight": 68,
+      "heat_weight": 62,
+      "neutral_overview": "在姐姐出殡的佛门净地与尼姑私会，气死父亲，自己也病亡——这段情是浪漫还是罪过？",
+      "viewpoint_ids": [
+        "vp_qinzhong_pure",
+        "vp_qinzhong_blasphemy",
+        "vp_qinzhong_tragedy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_qinzhong_pure",
+          "title": "纯情论：少年之情的本能与真诚",
+          "summary": "秦钟与智能儿是全书最年轻的一对恋人，他们的情发于本能，真挚而无算计。智能儿后来冒死私逃寻他，更见其情之深。在禁欲的佛门，真情反而是最干净的东西。",
+          "evidence": [
+            "智能儿私逃寻秦钟的决绝",
+            "二人旧情的铺垫（庵中早识）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_qinzhong_blasphemy",
+          "title": "亵渎论：时间与地点的双重不敬",
+          "summary": "姐姐出殡期间、佛门净地之中，秦钟的私情在礼法与宗教上都是双重亵渎。他的放纵直接导致父亲气死——这段情的代价是两条人命，浪漫主义读法掩盖了它的毁灭性。",
+          "evidence": [
+            "馒头庵（水月庵）的宗教背景",
+            "秦业被气死、秦钟病亡的结局"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_qinzhong_tragedy",
+          "title": "悲剧论：下层之情的毁灭标本",
+          "summary": "秦钟与智能儿的情注定无果：一个是寒门独子，一个是佛门小尼——他们的身份没有给这段情留下任何出路。这与司棋与潘又安的情构成同构：下层人的真情，在制度面前只有毁灭一途。",
+          "evidence": [
+            "智能儿被逐、秦钟病亡的结局",
+            "与司棋潘又安悲剧的同构性"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_qinzhong_qing",
+      "title": "秦钟——宝玉「情」之路的先行者与殉道者",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1989,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，秦钟在《红楼梦》「情」的主题中承担先行者角色：他以「情种」之名出场，用十六年短命的一生演完「情」的全过程——知己之情、男女之情、风流之情、临终之情。他的夭折是对宝玉的预演式警告：情种不寿。有论者称秦钟为「宝玉的影子」——宝玉在他的死亡里第一次照见自己的命运，却依然执迷不悟。"
+    },
+    {
+      "id": "viewpoint_qinzhong_mantou",
+      "title": "馒头庵——尼庵藏污的讽刺场",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学宗教批判研究",
+      "year": 1992,
+      "source_title": "多项宗教批判研究",
+      "description": "学者分析「秦鲸卿得趣馒头庵」的讽刺结构：佛门净地（馒头庵）里发生男欢女爱（秦钟与智能儿），回目又将其与「王凤姐弄权铁槛寺」并置——权与色的污秽同时发生在佛寺内外。曹雪芹借秦钟之笔，把宗教场所写成了世俗欲望的延续地，「铁槛」「馒头」的古诗典故（纵有千年铁门槛，终须一个土馒头）更点明一切权色的终局。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 5,
+    "total_poems": 1,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 30,
+      "text_inference": 7,
+      "scholarly_viewpoint": 7,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

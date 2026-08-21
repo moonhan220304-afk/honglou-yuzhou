@@ -1,0 +1,631 @@
+{
+  "character": {
+    "id": "character_zhen_baoyu",
+    "name": "甄宝玉",
+    "slug": "zhen-bao-yu",
+    "aliases": [
+      "甄家宝玉"
+    ],
+    "category": "镜像人物（真假对照）",
+    "importance_level": "minor",
+    "content_level": "L2",
+    "identity": {
+      "family": "金陵甄家（钦差金陵省体仁院总裁甄应嘉家）之公子，甄家与贾家为世交。",
+      "position": "甄家嫡孙——「甄应嘉之孙」辈，与贾宝玉同名同貌同性。",
+      "origin": "金陵甄家——「江南甄家」四字在全书是仅次于贾家的另一大族。",
+      "generation": "与贾宝玉同辈（甄家「玉」字辈的对应）"
+    },
+    "tags": [
+      "真假对照",
+      "同名同貌",
+      "梦会",
+      "贾宝玉之镜",
+      "仕途经济",
+      "李绮"
+    ],
+    "summary": {
+      "short": "金陵甄家公子，与贾宝玉同名、同貌、同性——「假作真时真亦假」的活注脚。第二回由贾雨村转述其「必不能守祖父之根基」的怪癖，第五十六回甄贾二玉在梦中相会，后四十回（gaoe）写他改悟仕途经济、娶李绮——「真假」两极在结局处互换位置。",
+      "long": "甄宝玉是《红楼梦》真假结构中最重要的镜像人物：金陵甄家与都中贾家世交，甄家公子甄宝玉与贾宝玉同名、同貌、同性情——都是衔玉般的奇童，都不爱读书、都痴爱女儿。他从未在前八十回正面登场，却两次被「转述」：第二回贾雨村在冷子兴面前讲述甄家旧事，说自己曾在甄家处馆，甄宝玉「虽是启蒙，却比一个举业的还劳神」——挨打时喊「姐姐妹妹」，说「这女儿两个字，极尊贵、极清净的，比那阿弥陀佛、元始天尊的这两个宝号还更尊荣无对」——这套「女儿崇拜」与贾宝玉如出一辙；雨村断言他「必不能守祖父之根基，从师长之规谏的」，冷子兴听后说贾宝玉「只怕也是同分道理」——真假二玉在第一手资料与二手转述中完成第一次叠影。第五十六回「敏探春兴利除宿弊 时宝钗小惠全大体」与第五十七回之间的情节中，江南甄家太太奉旨进京，带甄宝玉来京相见。甄宝玉在梦中与贾宝玉相会——两个宝玉在彼此梦中互寻、互见，醒来后各自迷惑。这场「梦中梦」是全书真假主题的高潮：甄宝玉梦见贾宝玉，贾宝玉梦见甄宝玉，两个梦互为镜像，读者与人物一同陷入「谁是梦者、谁是梦中之物」的眩晕。前八十回甄宝玉的性情是贾宝玉的「复本」；后四十回（gaoe）却安排他「改悟」——第一一五回甄贾二玉真身相见，甄宝玉已全然换成另一副口吻，满口「文章经济」「立德立言」，反劝贾宝玉走仕途之路（回目「证同类宝玉失相知」），贾宝玉大失所望。此后甄宝玉娶了李纨之妹李绮、与贾兰一起中举——续书让「真」宝玉归顺了正统，把叛逆留给「假」宝玉。这个处理争议极大：支持者认为它完成了「真与假互换」的哲学（真者假之，假者真之）；批评者认为它把甄宝玉变成了劝学符号，折损了「真假对照」的深度。无论评价如何，甄宝玉的存在让《红楼梦》的核心命题——「假作真时真亦假，无为有处有还无」——获得了一个具体的人格载体。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "复本——贾宝玉的镜中像",
+        "fact_type": "canonical_text_fact",
+        "description": "前八十回的甄宝玉与贾宝玉完全同构：同是衔玉而生的奇童（甄家亦有玉？——书中甄宝玉有「玉」，第五十六回甄家人说「我们哥儿的那一个也来了」）、同爱女儿、同厌举业。他是曹雪芹设置的「副本」——用以证明宝玉之性不是贾府特产，而是「情痴情种」这一类人的通性。"
+      },
+      {
+        "dimension": "觉悟——后四十回的形象反转",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe",
+        "description": "后四十回（gaoe）甄宝玉大病后「改悟」，满口文章经济、立德立言，劝贾宝玉走正途。这个反转使「真」宝玉变成了贾宝玉最厌恶的那类人——续书以甄宝玉的「归顺」反衬贾宝玉的「坚守」，真假二玉至此完成位置互换。"
+      },
+      {
+        "dimension": "象征——「真」的实体化",
+        "fact_type": "text_inference",
+        "description": "甄宝玉的「甄」即「真」：他是「真宝玉」——真假的哲学命题需要一个具体的「真」来做对照物。曹雪芹不让他正面出场（前八十回），正是「真事隐」的策略：真者不可见，可见者为假。后四十回（gaoe）让他出场并「变假」，则完成了「假作真时真亦假」的最终演示。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_zhenbaoyu_transferred_ch2",
+        "title": "贾雨村转述甄宝玉之怪癖（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_zhenbaoyu_dream_ch56",
+        "title": "甄贾宝玉梦中相会（第五十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_zhenbaoyu_meet_ch115",
+        "title": "证同类宝玉失相知——真身相见（第一一五回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 4,
+        "event_id": "event_zhenbaoyu_marry_gaoe",
+        "title": "娶李绮·与贾兰同榜中举（后四十回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch02_zhenbaoyu",
+        "quote": "雨村道：「我曾在江南甄家处馆。这甄家正是贾家的老亲，那甄家有个公子，名叫甄宝玉……我劝他，他反说：『必得两个女儿伴着我读书，我方能认得字，心里也明白，不然我自己心里糊涂。』又常对跟他的小厮们说：『这女儿两个字，极尊贵、极清净的，比那阿弥陀佛、元始天尊的这两个宝号还更尊荣无对的呢！……但凡要说时，必须先用清水香茶漱了口才可说；若胡说，便要凿牙穿腮等事。』其暴虐浮躁，顽劣憨痴，种种异常。只一放了学，进去见了那些女儿们，其温厚和平，聪敏文雅，竟又变了一个。……将来色鬼无疑了……必不能守祖父之根基，从师长之规谏的。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二回贾雨村转述。甄宝玉的「女儿崇拜」与贾宝玉如出一辙——真假二玉在未见面前已完成性格叠影。"
+      },
+      {
+        "source_id": "source_ch56_zhenbaoyu_dream",
+        "quote": "（甄宝玉）心中便也疑惑：我因要见林妹妹去，不想竟到了这里，看见一个妹妹，倒和林妹妹生得一样……（贾宝玉）麝月道：「怪道老太太常嘱咐说小人屋里不可多有镜子，人小魂不全，有镜子照多了，睡觉惊恐作胡梦……」（甄宝玉）道：「我找那宝玉去了。」……两下都醒了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十六回。甄贾二玉彼此入梦互访——「梦中梦」结构，「假作真时真亦假」的叙事高潮。"
+      },
+      {
+        "source_id": "source_ch115_zhenbaoyu_changed",
+        "quote": "（甄宝玉）「弟少时也曾深恶那些旧套陈言，只是一年长似一年，家君致仕在家，懒于酬应，委弟接待。后来见过那些大人先生尽都是显亲扬名的人，便是著书立说，无非言忠言孝，自有一番立德立言的事业……所以把少时那一派迂想痴情渐渐的淘汰了些。」",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第一一五回「证同类宝玉失相知」——甄宝玉已改悟仕途经济，贾宝玉大失所望。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "金陵甄家之孙，与贾宝玉同名「宝玉」",
+      "detail": "「甄宝玉」＝「真宝玉」：与贾（假）宝玉构成「真假对照」的人格化。太虚幻境牌坊对联「假作真时真亦假，无为有处有还无」的哲学，由真假二玉承担演出：贾宝玉是「假」中之真（假府中的真情种），甄宝玉是「真」中之假（后四十回gaoe中真宝玉反而归顺正统）。亦有论者认为甄宝玉才是神瑛侍者转世、贾宝玉只是顽石（甲戌本第一回多出四百字的补天石来源说），此说争议极大。甄家名「江南甄家」——「甄」亦通「缜」，与贾家（假）相对，构成「南真北假」的地理对称。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "神瑛侍者归属之争",
+          "content": "程高本将神瑛侍者与补天顽石合一为贾宝玉前世；脂评本系统将二者分开，甲戌本第一回多出四百字说明补天石来源；另有「甄宝玉才是神瑛侍者、贾宝玉是顽石（孽鬼）」之说。",
+          "proponent": "程高本系统 / 脂评本系统 / 部分索隐与探佚学者"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 56,
+          "evidence": "江南甄家宝玉今年十三岁（甄宝玉比贾宝玉小一岁）",
+          "age": "13岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "13岁（第56回）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第56回明文十三岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "甄家宝玉",
+      "type": "家族称呼",
+      "context": "与贾宝玉同名，须冠「甄家」以别——真假二玉连称呼都要靠家族前缀区分，名字的相同恰是命运的镜面",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "真宝玉",
+      "type": "谐音称",
+      "context": "「甄」＝「真」——读者与论者对甄宝玉的通行解读，真假的哲学载体",
+      "fact_type": "text_inference"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhenbaoyu_transferred_ch2",
+      "title": "贾雨村转述——「女儿两个字极尊贵」",
+      "event_level": "major",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "扬州村肆（转述场景）",
+        "specific": "贾雨村向冷子兴讲述自己在江南甄家处馆的经历：甄宝玉读书必须女儿相伴，「女儿两个字极尊贵、极清净」；放学前暴虐浮躁，放学后见女儿们即温厚和平。雨村断言他「必不能守祖父之根基，从师长之规谏的」。冷子兴闻言，说贾宝玉「只怕也是同分道理」。"
+      },
+      "summary": {
+        "short": "甄宝玉在全书第一次亮相是「被讲述」的：贾雨村口中的甄家公子与冷子兴口中的贾家公子，性格怪癖一一对得上——两个宝玉在未见面时已是彼此的影子。",
+        "meaning": [
+          "「女儿两个字，极尊贵、极清净」——女儿崇拜宣言由甄宝玉（真）说出，为贾宝玉（假）的行为提供「同类人」旁证",
+          "雨村「必不能守祖父之根基」的断言——对真假二玉共同的命运预告",
+          "转述而非直写——曹雪芹对「真」的处理策略：真事隐，真人亦隐"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_baoyu",
+          "role": "被转述者（不出场）"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "转述者——曾在甄家处馆"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch02_zhenbaoyu",
+          "summary": "雨村转述甄宝玉的「女儿崇拜」与「必不能守祖父之根基」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「先声夺人」——镜像人物的登场方式",
+          "content": "甄宝玉的第一次出场是纯声音的：他不露面，只存在于贾雨村的讲述里。这个设计极妙——「真」不可直见，只能转述；而转述者（雨村）恰是「假语存」的人格化。于是「真宝玉」的形象从出场起就被「假话」过滤了一层——读者听到的甄宝玉，究竟是真是假，本身就成了谜。曹雪芹用一个转述结构，把「真事隐去」的叙事总纲演绎得严丝合缝。"
+        },
+        {
+          "type": "hongxue",
+          "title": "甄贾二玉的「共犯」性格",
+          "content": "冷子兴说贾宝玉「只怕也是同分道理」，雨村答「正是同分道理」——两位讲述者合力确认：真假二玉是同一类人。这个「同类确认」在叙事上极为重要：它把宝玉的怪癖从「贾府的溺爱产物」提升为「正邪两赋之人的天性」——甄家教养严格（甄应嘉是正人君子），甄宝玉照样怪癖，可见性情与家教无关，是天生的。正邪两赋论由此获得第二个样本。"
+        }
+      ]
+    },
+    {
+      "id": "event_zhenbaoyu_dream_ch56",
+      "title": "甄贾宝玉梦中相会——「我找那宝玉去了」",
+      "event_level": "major",
+      "chapter": {
+        "number": 56,
+        "title": "敏探春兴利除宿弊 时宝钗小惠全大体",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府/甄府（互为梦中）",
+        "specific": "江南甄家太太进京，说起甄宝玉与贾宝玉一模一样。贾宝玉去潇湘馆见史湘云与黛玉，湘云打趣他「丢下成日家在园中，还要自己下帖去邀宝玉」。宝玉回到怡红院午睡，梦见甄府花园、甄家丫鬟，甄宝玉在梦中问他「找那宝玉」——而甄宝玉同日在甄府午睡，也梦见贾宝玉来找他。两个宝玉在彼此的梦中互寻互见。"
+      },
+      "summary": {
+        "short": "真假二玉在梦中互访：甄宝玉梦见自己进了贾府花园，贾宝玉梦见自己到了甄家。两个梦互为镜像，醒来各自恍惚——「假作真时真亦假」的哲学在睡梦中获得最直观的演示。",
+        "meaning": [
+          "「我找那宝玉去了」——谁是谁的梦，谁找谁，全无答案：梦的结构消解了「本尊」与「影子」的区分",
+          "麝月解梦说「小人屋里不可多有镜子」——「镜子」是解梦的关键词：真假二玉互为对方的镜中像",
+          "两个宝玉都梦见对方而非自己——自我的寻找必须借道他人，这是全书最深的存在论命题"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_baoyu",
+          "role": "梦者之一——寻找贾宝玉"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "梦者之二——寻找甄宝玉"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch56_zhenbaoyu_dream",
+          "summary": "二玉互梦互寻，「两下都醒了」——梦中梦的嵌套结构。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "梦中梦——中国古典小说的镜像巅峰",
+          "content": "甄贾二玉互梦是全书最精妙的叙事装置之一：A梦见B在找A，B也梦见A在找B——两个梦互为内容与框架，无法判定谁在谁中。这个结构把「假作真时真亦假」从哲学命题转化为叙事体验：读者跟随两个宝玉的梦游，自身也陷入「哪个是真」的眩晕。曹雪芹用一场梦完成了全书真假主题的华彩变奏。"
+        },
+        {
+          "type": "hongxue",
+          "title": "镜子的隐喻——「双玉」的心理学解读",
+          "content": "麝月的「镜子」之说被学者反复引用：真假二玉互为「镜中像」，甄宝玉是贾宝玉在镜中的投影。心理学解读认为，甄宝玉代表贾宝玉「可能的另一种人生」——在金陵甄家（更严谨的家教下）长大的宝玉；而贾宝玉则是甄宝玉「自由发育」的版本。二玉互梦互找，是自我对「另一个自我」的追寻——人终其一生都在寻找自己的另一种可能。"
+        }
+      ]
+    },
+    {
+      "id": "event_zhenbaoyu_meet_ch115",
+      "title": "证同类宝玉失相知——甄宝玉改悟",
+      "event_level": "major",
+      "chapter": {
+        "number": 115,
+        "title": "惑偏私惜春矢素志 证同类宝玉失相知",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "贾府",
+        "specific": "甄家太太带甄宝玉来贾府。真假二玉真身相见：贾宝玉满心以为遇到知己，甄宝玉却已改悟——谈「文章经济」「立德立言」，劝贾宝玉「显亲扬名」。贾宝玉大失所望，二人「失相知」。甄贾二玉的父亲（甄应嘉与贾政）相谈甚欢。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）让真假二玉真身相见：甄宝玉已从「女儿崇拜」改悟成「仕途经济」，反劝贾宝玉归正。回目「证同类宝玉失相知」——同类相证之日，恰是相知失去之时。",
+        "meaning": [
+          "「证同类」——真假二玉终于互证同类，却在见面时发现彼此已成异类",
+          "甄宝玉的改悟——「真」的归顺与「假」的坚守，真假位置在此互换",
+          "贾宝玉的失望——他见甄宝玉，如见「另一个自己」背叛了自己"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_baoyu",
+          "role": "改悟者——满口文章经济"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "失望者——失相知"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch115_zhenbaoyu_changed",
+          "summary": "甄宝玉自述「把少时那一派迂想痴情渐渐的淘汰了些」——真宝玉归顺正统。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "真假互换——续书的哲学完成与风险",
+          "content": "gaoe让甄宝玉改悟，完成了一次「真假互换」：真者（甄）变假（归顺世俗），假者（贾）守真（坚守情痴）。这符合「假作真时真亦假」的字面逻辑，也让贾宝玉的叛逆获得了终极证明——连「真宝玉」都变了，只有「假宝玉」不变。但批评者指出：前八十回甄宝玉与贾宝玉本是「同分道理」的同类，无端改悟缺乏过渡，甄宝玉从哲学镜像降格为「劝学符号」，真假主题的深度被扁平化。"
+        },
+        {
+          "type": "character",
+          "title": "「失相知」——贾宝玉的孤独顶点",
+          "content": "第一一五回的「失相知」是贾宝玉人生孤独的顶点：他一生在贾府无人相知（黛玉死后更甚），甄宝玉是他最后的「同类希望」——同名同貌同性的另一个自己。当甄宝玉开口谈文章经济，贾宝玉的孤独终于绝对化：连「另一个自己」都不存在了，世上再无人理解他。这场戏为他的出家提供了最后的情感推力。"
+        }
+      ]
+    },
+    {
+      "id": "event_zhenbaoyu_marry_gaoe",
+      "title": "娶李绮——真宝玉的世俗归宿",
+      "event_level": "minor",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "甄家",
+        "specific": "后四十回（gaoe）写甄宝玉与李纨之妹李绮成婚，并同贾兰一起中了举。真宝玉在仕途婚姻两条「正路」上各归其位，与贾宝玉的中举后出家形成对照。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）给甄宝玉安排了完满的世俗归宿：娶李绮、中举人。真宝玉走向了「显亲扬名」的标准人生，假宝玉则「却尘缘」出家——真假二玉的结局构成终极对照。",
+        "meaning": [
+          "甄宝玉娶李绮——「真」入了「俗」的门，婚姻与功名双双圆满",
+          "与贾宝玉的对照——真者得俗福，假者得悟脱，各有各的「圆满」",
+          "李绮——李纨之妹，书香门第之女，甄李联姻是两家「正统」势力的合流"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_baoyu",
+          "role": "新郎/举人"
+        },
+        {
+          "character_id": "character_li_qi",
+          "role": "李绮——新娘"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「真俗假悟」——结局的对称设计",
+          "content": "gaoe为真假二玉安排的结局严格对称：甄宝玉（真）娶妻中举——得俗世圆满；贾宝玉（假）却尘缘出家——得精神解脱。这个对称延续了续书的「真假互换」逻辑：真者得其「真」（实在的人生），假者归其「假」（虚幻的解脱）。但学界多认为此对称过于工整，反而透出续书「求稳」的匠气——曹雪芹原意中的甄宝玉结局（据脂批零散信息）未必如此。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_zhenbaoyu_jia_baoyu",
+      "from": "character_zhen_baoyu",
+      "to": "character_jia_baoyu",
+      "type": "镜像（真假对照）",
+      "nature": [
+        "symbolic_parallel",
+        "doppelganger"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "甄贾二玉是全书的「双生结构」：同名、同貌、同性、同痴。前八十回二人互为复本（梦中相会），后四十回（gaoe）二人分道（甄改悟、贾出家）。他们的关系是「假作真时真亦假」的人格化——真假不是对立而是互渗，谁也离不开谁：没有甄宝玉，贾宝玉的独特性无从证明；没有贾宝玉，甄宝玉的「真」也无从成立。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "转述叠影",
+          "chapter": 2,
+          "description": "雨村转述甄宝玉怪癖，与贾宝玉如出一辙。"
+        },
+        {
+          "stage": 2,
+          "title": "梦中相会",
+          "chapter": 56,
+          "description": "二玉互梦互寻，醒后各自迷惑。"
+        },
+        {
+          "stage": 3,
+          "title": "真身相见",
+          "chapter": 115,
+          "description": "甄宝玉改悟，二玉失相知。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhenbaoyu_zhen_yingjia",
+      "from": "character_zhen_baoyu",
+      "to": "character_zhen_yingjia",
+      "type": "父子（严父与怪子）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "甄应嘉是钦差金陵省体仁院总裁，为人正派（与贾政「同调」）。甄宝玉的怪癖在严父家中照样生长——这组父子关系反证「正邪两赋」的天性论：不是溺爱养出了宝玉，宝玉天生就是宝玉。后四十回（gaoe）甄应嘉致仕后让甄宝玉「委弟接待」世务，成为甄宝玉改悟的契机。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "严父慈子之悖",
+          "chapter": 2,
+          "description": "雨村转述甄家管教之严与甄宝玉之顽。"
+        },
+        {
+          "stage": 2,
+          "title": "致仕放权",
+          "chapter": 115,
+          "description": "甄应嘉致仕，甄宝玉接触世务而改悟。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhenbaoyu_jia_yucun",
+      "from": "character_zhen_baoyu",
+      "to": "character_jia_yucun",
+      "type": "旧师生（被转述者与转述者）",
+      "nature": [
+        "teacher_student"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾雨村曾在甄家处馆教甄宝玉，甄宝玉的「女儿崇拜」由其转述而出。有趣的是，雨村后来进林府教黛玉——他先后教过「真」家的怪子和「真」家的孤女，这两个学生恰是全书「正邪两赋」谱系中的两极（情痴与才女）。雨村教不好甄宝玉（「比一个举业的还劳神」），教黛玉也只一年——全书两大「怪才」都不为他的「举业」逻辑所容。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "处馆甄家",
+          "chapter": 2,
+          "description": "雨村教甄宝玉，为其怪癖头疼。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhenbaoyu_li_qi",
+      "from": "character_zhen_baoyu",
+      "to": "character_li_qi",
+      "type": "夫妻（gaoe）",
+      "nature": [
+        "spouse"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）写甄宝玉娶李绮（李纨之妹）。李绮出自诗书之家，与改悟后的甄宝玉门当户对。这桩婚姻是续书「正统合流」的收束之一：甄家（真）与李家（书香）联姻，与贾家（假）的败落形成对照——正统者们各归其位，唯有「假宝玉」飘然而去。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "联姻",
+          "chapter": 119,
+          "description": "甄宝玉娶李绮。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_zhenbaoyu_purpose",
+      "title": "曹雪芹为什么要写一个甄宝玉？他的存在意义是什么？",
+      "slug": "purpose-of-zhen-baoyu",
+      "question_type": "narrative_design",
+      "importance_weight": 84,
+      "heat_weight": 76,
+      "neutral_overview": "甄宝玉在前八十回从未正面登场，却两次被转述、一次梦中出现。这个「不露面」的人物，曹雪芹为什么要写？",
+      "viewpoint_ids": [
+        "vp_zhenbaoyu_purpose_mirror",
+        "vp_zhenbaoyu_purpose_philosophy",
+        "vp_zhenbaoyu_purpose_baodai"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhenbaoyu_purpose_mirror",
+          "title": "镜像论：以副本证明本尊的普遍性",
+          "summary": "甄宝玉的功能首先是「证明」：贾宝玉的性格不是贾府溺爱的偶然产物，而是「情痴情种」这类人的必然天性——甄家管教严格，甄宝玉照样怪癖。副本的存在把「宝玉现象」从个案提升为类型，正邪两赋论由此获得双重样本。没有甄宝玉，贾宝玉只是一个被惯坏的少爷；有了甄宝玉，他成为一种「人性类型」的代表。",
+          "evidence": [
+            "冷子兴雨村「同分道理」的对话",
+            "甄贾两家管教宽严不同而二玉性情相同"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhenbaoyu_purpose_philosophy",
+          "title": "哲学论：真假命题需要具体的「真」",
+          "summary": "「假作真时真亦假」是抽象命题，需要具体的人格来演。甄宝玉就是那个「真」：真假二玉互梦（谁真谁假不可分）、后四十回（gaoe）真假互换（真者归俗、假者守真），都在把哲学命题戏剧化。甄宝玉的存在使全书「真假」主题从字谜升级为人物辩证法。",
+          "evidence": [
+            "太虚幻境对联与真假二玉的对应",
+            "第五十六回互梦的哲学结构"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhenbaoyu_purpose_baodai",
+          "title": "钗黛论：甄宝玉的「真」与「宝黛」之名的呼应",
+          "summary": "有学者指出，甄宝玉之名与「金玉良缘」相关：贾宝玉之名各取宝钗之「宝」、黛玉之「玉」；甄（真）宝玉的存在则暗示「真正的宝玉」另有其人——他是贾宝玉「未分裂」的原型：在甄宝玉那里，「宝」（正统）与「玉」（灵性）尚未分裂；而在贾宝玉身上，二者必然分裂为宝钗与黛玉之争。甄宝玉是钗黛合一神话的人物化。",
+          "evidence": [
+            "「宝玉」之名拆自宝钗黛玉",
+            "第五回「兼美」与真假二玉的互文"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_zhenbaoyu_dream",
+      "title": "甄贾宝玉梦中相会的情节如何理解？",
+      "slug": "zhen-jia-baoyu-dream-meeting",
+      "question_type": "literary_analysis",
+      "importance_weight": 80,
+      "heat_weight": 74,
+      "neutral_overview": "第五十六回甄贾二玉互梦互寻——这是全书最玄妙的段落之一。这场「梦中梦」到底在说什么？",
+      "viewpoint_ids": [
+        "vp_zhenbaoyu_dream_self",
+        "vp_zhenbaoyu_dream_warning"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhenbaoyu_dream_self",
+          "title": "自我追寻论：每个人都在找「另一个自己」",
+          "summary": "两个宝玉都梦见「自己」去找「宝玉」——找的是同名同貌的另一个自己。这被解读为自我认同的寓言：人在梦中寻找的从来不是别人，是自我的另一种可能。贾宝玉潜意识里渴望一个「被理解的我」，甄宝玉就是那个投射；反之亦然。二玉互找而不相遇（各自醒来），暗示「另一个自我」永远可望而不可即。",
+          "evidence": [
+            "「我找那宝玉去了」的双向性",
+            "醒后「两下都醒了」的落空感"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhenbaoyu_dream_warning",
+          "title": "预警论：为后文「失相知」埋下的伏笔",
+          "summary": "第五十六回的梦已是「失相知」的前奏：梦里二玉互相寻找、险些错过，暗示真假终将分道。麝月「镜子照多了惊梦」之语更是谶语——镜子里的像终究不是本人，甄宝玉这个「镜中像」终将与贾宝玉分离（后四十回gaoe改悟）。这场甜蜜的梦互寻，实际上是最后一场「同类相聚」的预支。",
+          "evidence": [
+            "麝月的镜子之解",
+            "第一一五回「证同类宝玉失相知」的呼应"
+          ],
+          "fact_type": "text_inference",
+          "note": "后四十回（attribution=gaoe）与第五十六回的呼应关系"
+        }
+      ]
+    },
+    {
+      "id": "question_zhenbaoyu_change",
+      "title": "后四十回让甄宝玉「改悟」讲仕途经济，合理吗？",
+      "slug": "is-zhen-baoyu-change-reasonable",
+      "question_type": "version_dispute",
+      "importance_weight": 76,
+      "heat_weight": 70,
+      "neutral_overview": "前八十回的甄宝玉与贾宝玉「同分道理」，后四十回（gaoe）却让他改悟成正统士人。这个转折是妙笔还是败笔？",
+      "viewpoint_ids": [
+        "vp_zhenbaoyu_change_good",
+        "vp_zhenbaoyu_change_bad",
+        "vp_zhenbaoyu_change_unknown"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_zhenbaoyu_change_good",
+          "title": "妙笔论：真假互换完成了哲学闭环",
+          "summary": "甄宝玉的改悟实现了「假作真时真亦假」的终极演绎：真者归俗、假者守真——真假位置互换，哲学命题成立。同时它强化了贾宝玉的孤独：连「另一个自己」都背叛了，他的坚守更显珍贵。甄宝玉的「改悟」还有现实逻辑：甄家败落后他接触世务、见大人先生们的成功，转变并非全无铺垫。",
+          "evidence": [
+            "第一一五回甄宝玉自述改悟过程",
+            "「证同类宝玉失相知」回目的点题"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_zhenbaoyu_change_bad",
+          "title": "败笔论：折损了真假对照的深度",
+          "summary": "批评者认为，前八十回甄宝玉是贾宝玉的「复本」——其价值在于「同」；改悟后他变成「反例」，价值降为「异」。真假对照从深邃的哲学镜像降格为简单的劝学对比（一个听劝、一个不听）。且改悟过程仓促（一场大病、几次应酬就「淘汰」了痴情），与曹雪芹写人物转变的细腻笔法不称。脂批系统中也未见过甄宝玉改悟的提示。",
+          "evidence": [
+            "前八十回「同分道理」的设定",
+            "gaoe改悟过程的仓促",
+            "脂批无相关提示"
+          ],
+          "fact_type": "scholarly_viewpoint",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_zhenbaoyu_change_unknown",
+          "title": "未定论：曹雪芹原意中的甄宝玉可能另有安排",
+          "summary": "有探佚学者认为，曹雪芹原稿中的甄宝玉可能是「真事」的载体（甄家抄家是贾府抄家的预演），其结局或与甄家败落、出家悟道相关，而非娶妻中举。惜原稿散佚，脂批对此透露极少，甄宝玉原结局已成红学悬案——gaoe的处理只是「一种可能」，不宜视为定论。",
+          "evidence": [
+            "甄家抄家在前八十回的多次预告",
+            "脂批对甄家后事的零星提及"
+          ],
+          "fact_type": "scholarly_viewpoint",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_zhenbaoyu_doppelganger",
+      "title": "甄宝玉——中国小说史最成功的「分身」设计",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学比较文学研究",
+      "year": 1997,
+      "source_title": "多项比较文学与叙事学研究",
+      "description": "学者将甄贾二玉与中外文学的「分身」（Doppelgänger）母题比较，认为甄宝玉是中国古典小说中最成功的分身设计：他不参与主线情节、不出场推动事件，纯粹作为「哲学对照物」存在——这与西方分身小说（如《化身博士》）的戏剧性不同，是一种东方式的「静观分身」。真假二玉互梦一节被论者视为堪与博尔赫斯互文的叙事实验。"
+    },
+    {
+      "id": "viewpoint_zhenbaoyu_shenying",
+      "title": "甄宝玉与「神瑛侍者归属」公案",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学版本研究",
+      "year": 1989,
+      "source_title": "版本学与神话结构研究",
+      "description": "在「神瑛侍者是谁」的公案中，甄宝玉是重要变量：甲戌本第一回多出的四百字说明补天石的来源，使「顽石（通灵宝玉）≠神瑛侍者（贾宝玉）」的关系清晰化；由此有学者提出甄宝玉才是神瑛侍者的真身、贾宝玉只是被夹带的顽石（孽鬼）——真假二玉的地位彻底颠倒。此说在脂批中能找到部分依据（如「甄宝玉送玉」的批语），但程高本系统的读者多不接受，争议至今未决。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 3,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 14,
+      "text_inference": 10,
+      "scholarly_viewpoint": 6,
+      "disputed_version": 8,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

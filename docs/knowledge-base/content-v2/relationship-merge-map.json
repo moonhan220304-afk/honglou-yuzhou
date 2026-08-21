@@ -1,0 +1,1658 @@
+{
+  "_meta": {
+    "title": "关系合并映射表（B类80对 + A类12对）",
+    "purpose": "消除同一对人物的重复关系记录。B类：不同id双线——保留一条、删除其余、type归一；A类：同id存两份——保留一份、删除冗余。",
+    "rule_keep": "保留信息更全的一条（stages*10+evidence*20+摘要长度+impact长度加权），平局取核心度更高人物的档案",
+    "rule_type": "type 统一措辞（见 merged_type）",
+    "rule_direction": "6 对单向关系归一为 one-way，其余 mutual",
+    "rule_nature": "nature 同义词归一（family/spouse/marriage→kinship 等）",
+    "rule_special": "元春↔贾政的第三条 relationship_yuanchun_jiafu_politics 实为「元春-贾府」政治关系，误挂在贾政上——直接删除该条（其内容属元春人物档案范畴）",
+    "created": "2026-08-15",
+    "status": "已执行（2026-08-16）：跨 content/ 与 content-v2/ 两目录合并完成",
+    "final_stats": {
+      "合并组数": 97,
+      "删除记录数": 121,
+      "涉及文件数": 74,
+      "合并后关系记录总数": 352,
+      "唯一配对总数": 352,
+      "重复配对剩余": 0,
+      "special_yuanchun_jiafu_politics_已删除": true
+    },
+    "scope_note": "首次扫描仅覆盖 content-v2（80对B类）；前端核对后补扫 content/ 旧目录，新增跨目录重复6对B类（惜春-尤氏、宝玉-元春、贾母-元春、宝玉-妙玉、宝玉-湘云、湘云-宝钗），合并后与前端86对口径一致。"
+  },
+  "b_class_merges": [
+    {
+      "pair": "fangguan<=>liu_wuer",
+      "keep_id": "relationship_liu_wuer_fangguan",
+      "keep_file": "character_liu_wuer",
+      "drop_ids": [
+        "relationship_fangguan_liu_wuer"
+      ],
+      "drop_files": [
+        "character_fangguan"
+      ],
+      "merged_type": "好友（赠露之谊）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>jia_zheng",
+      "keep_id": "relationship_jiazheng_baoyu",
+      "keep_file": "character_jia_zheng",
+      "drop_ids": [
+        "relationship_jia_zheng_baoyu"
+      ],
+      "drop_files": [
+        "character_jia_baoyu"
+      ],
+      "merged_type": "父子（严教与叛逆）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>xiren",
+      "keep_id": "relationship_xiren_jia_baoyu",
+      "keep_file": "character_xiren",
+      "drop_ids": [
+        "relationship_jia_baoyu_xiren"
+      ],
+      "drop_files": [
+        "character_jia_baoyu"
+      ],
+      "merged_type": "主仆（事实上的妾）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "master_servant",
+        "romantic"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>jia_tanchun",
+      "keep_id": "relationship_jia_baoyu_jia_tanchun",
+      "keep_file": "character_jia_baoyu",
+      "drop_ids": [
+        "relationship_jia_tanchun_jia_baoyu"
+      ],
+      "drop_files": [
+        "character_jia_tanchun"
+      ],
+      "merged_type": "同父异母兄妹",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>qin_zhong",
+      "keep_id": "relationship_qinzhong_baoyu",
+      "keep_file": "character_qin_zhong",
+      "drop_ids": [
+        "relationship_jia_baoyu_qin_zhong"
+      ],
+      "drop_files": [
+        "character_jia_baoyu"
+      ],
+      "merged_type": "挚友（少年知己）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>jiang_yuhan",
+      "keep_id": "relationship_jiang_yuhan_jia_baoyu",
+      "keep_file": "character_jiang_yuhan",
+      "drop_ids": [
+        "relationship_jia_baoyu_jiang_yuhan"
+      ],
+      "drop_files": [
+        "character_jia_baoyu"
+      ],
+      "merged_type": "知己（互赠汗巾）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>liu_xianglian",
+      "keep_id": "relationship_liu_xianglian_jia_baoyu",
+      "keep_file": "character_liu_xianglian",
+      "drop_ids": [
+        "relationship_jia_baoyu_liu_xianglian"
+      ],
+      "drop_files": [
+        "character_jia_baoyu"
+      ],
+      "merged_type": "好友",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_huan<=>zhao_yiniang",
+      "keep_id": "relationship_zhao_yiniang_jia_huan",
+      "keep_file": "character_zhao_yiniang",
+      "drop_ids": [
+        "relationship_jia_huan_zhao_yiniang"
+      ],
+      "drop_files": [
+        "character_jia_huan"
+      ],
+      "merged_type": "母子（互相拖累）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_huan<=>jia_tanchun",
+      "keep_id": "relationship_jia_huan_jia_tanchun",
+      "keep_file": "character_jia_huan",
+      "drop_ids": [
+        "relationship_jia_tanchun_jia_huan"
+      ],
+      "drop_files": [
+        "character_jia_tanchun"
+      ],
+      "merged_type": "同母姐弟",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_jing<=>jia_zhen",
+      "keep_id": "relationship_jiazhen_jia_jing",
+      "keep_file": "character_jia_zhen",
+      "drop_ids": [
+        "relationship_jiajing_jia_zhen"
+      ],
+      "drop_files": [
+        "character_jia_jing"
+      ],
+      "merged_type": "父子（弃养与被弃）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_lan<=>li_wan",
+      "keep_id": "relationship_jialan_li_wan",
+      "keep_file": "character_jia_lan",
+      "drop_ids": [
+        "relationship_liwan_jia_lan"
+      ],
+      "drop_files": [
+        "character_li_wan"
+      ],
+      "merged_type": "母子（课子与成才）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_lian<=>wang_xifeng",
+      "keep_id": "relationship_jialian_wang_xifeng",
+      "keep_file": "character_jia_lian",
+      "drop_ids": [
+        "relationship_wang_xifeng_jia_lian"
+      ],
+      "drop_files": [
+        "character_wang_xifeng"
+      ],
+      "merged_type": "夫妻（琏凤体制）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_lian<=>you_erjie",
+      "keep_id": "relationship_jialian_you_erjie",
+      "keep_file": "character_jia_lian",
+      "drop_ids": [
+        "relationship_you_erjie_jia_lian"
+      ],
+      "drop_files": [
+        "character_you_erjie"
+      ],
+      "merged_type": "偷娶之妾",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "romantic"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_lian<=>jia_she",
+      "keep_id": "relationship_jiashe_jia_lian",
+      "keep_file": "character_jia_she",
+      "drop_ids": [
+        "relationship_jialian_jia_she"
+      ],
+      "drop_files": [
+        "character_jia_lian"
+      ],
+      "merged_type": "父子（利用与轻慢）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_mu<=>xue_baochai",
+      "keep_id": "relationship_jia_mu_xue_baochai",
+      "keep_file": "character_jia_mu",
+      "drop_ids": [
+        "relationship_xue_baochai_jia_mu"
+      ],
+      "drop_files": [
+        "character_xue_baochai"
+      ],
+      "merged_type": "祖辈与客居小姐",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_mu<=>wang_furen",
+      "keep_id": "relationship_jia_mu_wang_furen",
+      "keep_file": "character_jia_mu",
+      "drop_ids": [
+        "relationship_wang_furen_jia_mu"
+      ],
+      "drop_files": [
+        "character_wang_furen"
+      ],
+      "merged_type": "婆媳（权力暗战）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_mu<=>wang_xifeng",
+      "keep_id": "relationship_jia_mu_wang_xifeng",
+      "keep_file": "character_jia_mu",
+      "drop_ids": [
+        "relationship_wang_xifeng_jia_mu"
+      ],
+      "drop_files": [
+        "character_wang_xifeng"
+      ],
+      "merged_type": "祖孙媳（宠臣同盟）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_mu<=>jia_zheng",
+      "keep_id": "relationship_jiazheng_jia_mu",
+      "keep_file": "character_jia_zheng",
+      "drop_ids": [
+        "relationship_jia_mu_jia_zheng"
+      ],
+      "drop_files": [
+        "character_jia_mu"
+      ],
+      "merged_type": "母子（孝道与宝玉之争）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_mu<=>liu_laolao",
+      "keep_id": "relationship_liulaolao_jia_mu",
+      "keep_file": "character_liu_laolao",
+      "drop_ids": [
+        "relationship_jia_mu_liu_laolao"
+      ],
+      "drop_files": [
+        "character_jia_mu"
+      ],
+      "merged_type": "主客（两个世界的老人）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_mu<=>jia_she",
+      "keep_id": "relationship_jiashe_jia_mu",
+      "keep_file": "character_jia_she",
+      "drop_ids": [
+        "relationship_jia_mu_jia_she"
+      ],
+      "drop_files": [
+        "character_jia_mu"
+      ],
+      "merged_type": "母子（怨怼的孝）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_qiang<=>lingguan",
+      "keep_id": "relationship_lingguan_jia_qiang",
+      "keep_file": "character_lingguan",
+      "drop_ids": [
+        "relationship_jia_qiang_lingguan"
+      ],
+      "drop_files": [
+        "character_jia_qiang"
+      ],
+      "merged_type": "恋人",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "romantic"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_qiang<=>ming_yan",
+      "keep_id": "relationship_mingyan_jia_qiang",
+      "keep_file": "character_ming_yan",
+      "drop_ids": [
+        "relationship_jia_qiang_mingyan"
+      ],
+      "drop_files": [
+        "character_jia_qiang"
+      ],
+      "merged_type": "利用者与被利用者（闹学堂）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_qiaojie<=>wang_xifeng",
+      "keep_id": "relationship_qiaojie_wang_xifeng",
+      "keep_file": "character_jia_qiaojie",
+      "drop_ids": [
+        "relationship_wang_xifeng_qiaojie"
+      ],
+      "drop_files": [
+        "character_wang_xifeng"
+      ],
+      "merged_type": "母女",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_qiaojie<=>liu_laolao",
+      "keep_id": "relationship_qiaojie_liu_laolao",
+      "keep_file": "character_jia_qiaojie",
+      "drop_ids": [
+        "relationship_liulaolao_jia_qiaojie"
+      ],
+      "drop_files": [
+        "character_liu_laolao"
+      ],
+      "merged_type": "恩人（命名与解救）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_qiaojie<=>pinger",
+      "keep_id": "relationship_qiaojie_pinger",
+      "keep_file": "character_jia_qiaojie",
+      "drop_ids": [
+        "relationship_pinger_jia_qiaojie"
+      ],
+      "drop_files": [
+        "character_pinger"
+      ],
+      "merged_type": "庇护者（护孤）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_rong<=>jia_zhen",
+      "keep_id": "relationship_jiarong_jia_zhen",
+      "keep_file": "character_jia_rong",
+      "drop_ids": [
+        "relationship_jiazhen_jia_rong"
+      ],
+      "drop_files": [
+        "character_jia_zhen"
+      ],
+      "merged_type": "父子（碾压与聚麀）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "symbolic_parallel"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_rong<=>qin_keqing",
+      "keep_id": "relationship_jiarong_qin_keqing",
+      "keep_file": "character_jia_rong",
+      "drop_ids": [
+        "relationship_jia_rong_qin_keqing"
+      ],
+      "drop_files": [
+        "character_qin_keqing"
+      ],
+      "merged_type": "夫妻（名存实亡）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_she<=>jia_yingchun",
+      "keep_id": "relationship_jiashe_jia_yingchun",
+      "keep_file": "character_jia_she",
+      "drop_ids": [
+        "relationship_yingchun_jia_she"
+      ],
+      "drop_files": [
+        "character_jia_yingchun"
+      ],
+      "merged_type": "父女（抵债弃女）",
+      "merged_direction": "one-way",
+      "merged_nature": [
+        "kinship",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_she<=>yuanyang",
+      "keep_id": "relationship_jiashe_yuanyang",
+      "keep_file": "character_jia_she",
+      "drop_ids": [
+        "relationship_yuanyang_jia_she"
+      ],
+      "drop_files": [
+        "character_yuanyang"
+      ],
+      "merged_type": "逼婚者与抗婚者",
+      "merged_direction": "one-way",
+      "merged_nature": [
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_she<=>jia_yucun",
+      "keep_id": "relationship_jiashe_jia_yucun",
+      "keep_file": "character_jia_she",
+      "drop_ids": [
+        "relationship_yucun_jia_she"
+      ],
+      "drop_files": [
+        "character_jia_yucun"
+      ],
+      "merged_type": "狼狈为奸（夺扇同盟）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_she<=>xing_furen",
+      "keep_id": "relationship_jiashe_xing_furen",
+      "keep_file": "character_jia_she",
+      "drop_ids": [
+        "relationship_xing_furen_jia_she"
+      ],
+      "drop_files": [
+        "character_xing_furen"
+      ],
+      "merged_type": "夫妻（懦妻与暴夫）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_tanchun<=>wang_xifeng",
+      "keep_id": "relationship_jia_tanchun_wang_xifeng",
+      "keep_file": "character_jia_tanchun",
+      "drop_ids": [
+        "relationship_wang_xifeng_jia_tanchun"
+      ],
+      "drop_files": [
+        "character_wang_xifeng"
+      ],
+      "merged_type": "姑嫂（合作与戒备）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_tanchun<=>zhao_yiniang",
+      "keep_id": "relationship_jia_tanchun_zhao_yiniang",
+      "keep_file": "character_jia_tanchun",
+      "drop_ids": [
+        "relationship_zhao_yiniang_jia_tanchun"
+      ],
+      "drop_files": [
+        "character_zhao_yiniang"
+      ],
+      "merged_type": "生母女（不认的母女）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_tanchun<=>xue_baochai",
+      "keep_id": "relationship_xue_baochai_jia_tanchun",
+      "keep_file": "character_xue_baochai",
+      "drop_ids": [
+        "relationship_jia_tanchun_xue_baochai"
+      ],
+      "drop_files": [
+        "character_jia_tanchun"
+      ],
+      "merged_type": "表姐妹（理家搭档）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_tanchun<=>jia_yingchun",
+      "keep_id": "relationship_yingchun_jia_tanchun",
+      "keep_file": "character_jia_yingchun",
+      "drop_ids": [
+        "relationship_jia_tanchun_yingchun"
+      ],
+      "drop_files": [
+        "character_jia_tanchun"
+      ],
+      "merged_type": "堂姐妹（保护与被保护）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_yuanchun<=>jia_zheng",
+      "keep_id": "relationship_jiazheng_jia_yuanchun",
+      "keep_file": "character_jia_zheng",
+      "drop_ids": [
+        "relationship_yuanchun_jiafu_politics",
+        "relationship_yuanchun_jia_zheng"
+      ],
+      "drop_files": [
+        "character_jia_yuanchun",
+        "character_jia_yuanchun"
+      ],
+      "merged_type": "父女（君臣之礼下的天伦）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_yucun<=>zhen_shiyin",
+      "keep_id": "relationship_zhen_yucun",
+      "keep_file": "character_zhen_shiyin",
+      "drop_ids": [
+        "relationship_yucun_zhen_shiyin"
+      ],
+      "drop_files": [
+        "character_jia_yucun"
+      ],
+      "merged_type": "恩主与受恩者（知遇与负义）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "benefactor",
+        "symbolic_parallel"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_yucun<=>jia_zheng",
+      "keep_id": "relationship_jiazheng_jia_yucun",
+      "keep_file": "character_jia_zheng",
+      "drop_ids": [
+        "relationship_yucun_jia_zheng"
+      ],
+      "drop_files": [
+        "character_jia_yucun"
+      ],
+      "merged_type": "政治同盟（受荐与反咬）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_yun<=>xiaohong",
+      "keep_id": "relationship_xiaohong_jia_yun",
+      "keep_file": "character_xiaohong",
+      "drop_ids": [
+        "relationship_jia_yun_xiaohong"
+      ],
+      "drop_files": [
+        "character_jia_yun"
+      ],
+      "merged_type": "恋人（遗帕定情）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "romantic",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_zhen<=>qin_keqing",
+      "keep_id": "relationship_jia_zhen_qin_keqing",
+      "keep_file": "character_qin_keqing",
+      "drop_ids": [
+        "relationship_jiazhen_qin_keqing"
+      ],
+      "drop_files": [
+        "character_jia_zhen"
+      ],
+      "merged_type": "公媳（乱伦暗线·隐写）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "illicit_affair",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_zheng<=>wang_furen",
+      "keep_id": "relationship_jiazheng_wang_furen",
+      "keep_file": "character_jia_zheng",
+      "drop_ids": [
+        "relationship_wang_furen_jia_zheng"
+      ],
+      "drop_files": [
+        "character_wang_furen"
+      ],
+      "merged_type": "夫妻（相敬而疏）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_zheng<=>zhao_yiniang",
+      "keep_id": "relationship_jiazheng_zhao_yiniang",
+      "keep_file": "character_jia_zheng",
+      "drop_ids": [
+        "relationship_zhao_yiniang_jia_zheng"
+      ],
+      "drop_files": [
+        "character_zhao_yiniang"
+      ],
+      "merged_type": "夫妾（相看两厌）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "romantic"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jiang_yuhan<=>xiren",
+      "keep_id": "relationship_jiang_yuhan_xiren",
+      "keep_file": "character_jiang_yuhan",
+      "drop_ids": [
+        "relationship_xiren_jiang_yuhan"
+      ],
+      "drop_files": [
+        "character_xiren"
+      ],
+      "merged_type": "夫妻（汗巾前定的姻缘）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "romantic",
+        "symbolic_parallel",
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jinchuan<=>wang_furen",
+      "keep_id": "relationship_wang_furen_jinchuan",
+      "keep_file": "character_wang_furen",
+      "drop_ids": [
+        "relationship_jinchuan_wang_furen"
+      ],
+      "drop_files": [
+        "character_jinchuan"
+      ],
+      "merged_type": "主仆（驱逐与被驱逐）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "master_servant",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "lin_daiyu<=>zijuan",
+      "keep_id": "relationship_zijuan_lin_daiyu",
+      "keep_file": "character_zijuan",
+      "drop_ids": [
+        "relationship_lin_daiyu_zijuan"
+      ],
+      "drop_files": [
+        "character_lin_daiyu"
+      ],
+      "merged_type": "主仆（情同姐妹）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "master_servant",
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "lin_daiyu<=>xue_yima",
+      "keep_id": "relationship_xue_yima_lin_daiyu",
+      "keep_file": "character_xue_yima",
+      "drop_ids": [
+        "relationship_lin_daiyu_xue_yima"
+      ],
+      "drop_files": [
+        "character_lin_daiyu"
+      ],
+      "merged_type": "干亲（慈与算）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage",
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "liu_laolao<=>wang_xifeng",
+      "keep_id": "relationship_liulaolao_wang_xifeng",
+      "keep_file": "character_liu_laolao",
+      "drop_ids": [
+        "relationship_wang_xifeng_liu_laolao"
+      ],
+      "drop_files": [
+        "character_wang_xifeng"
+      ],
+      "merged_type": "施舍与托孤（因果两端）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "liu_xianglian<=>you_sanjie",
+      "keep_id": "relationship_you_sanjie_liu_xianglian",
+      "keep_file": "character_you_sanjie",
+      "drop_ids": [
+        "relationship_liu_xianglian_you_sanjie"
+      ],
+      "drop_files": [
+        "character_liu_xianglian"
+      ],
+      "merged_type": "定亲→悔婚（痴情与悔恨）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "romantic",
+        "tragedy"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "liu_xianglian<=>xue_pan",
+      "keep_id": "relationship_xue_pan_liu_xianglian",
+      "keep_file": "character_xue_pan",
+      "drop_ids": [
+        "relationship_liu_xianglian_xue_pan"
+      ],
+      "drop_files": [
+        "character_liu_xianglian"
+      ],
+      "merged_type": "仇人→结义兄弟",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "conflict",
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "ma_daopo<=>zhao_yiniang",
+      "keep_id": "relationship_ma_daopo_zhao_yiniang",
+      "keep_file": "character_ma_daopo",
+      "drop_ids": [
+        "relationship_zhao_yiniang_ma_daopo"
+      ],
+      "drop_files": [
+        "character_zhao_yiniang"
+      ],
+      "merged_type": "共谋（巫蛊交易）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "patronage",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "miao_yu<=>shi_xiangyun",
+      "keep_id": "relationship_miao_yu_shi_xiangyun",
+      "keep_file": "character_shi_xiangyun",
+      "drop_ids": [
+        "relationship_miaoyu_xiangyun"
+      ],
+      "drop_files": [
+        "character_miao_yu"
+      ],
+      "merged_type": "诗友（凹晶馆联诗）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "miao_yu<=>xing_xiuyan",
+      "keep_id": "relationship_miaoyu_xingxiuyan",
+      "keep_file": "character_miao_yu",
+      "drop_ids": [
+        "relationship_xing_xiuyan_miao_yu"
+      ],
+      "drop_files": [
+        "character_xing_xiuyan"
+      ],
+      "merged_type": "半师半友",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship",
+        "patronage",
+        "mentorship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "ouguan<=>ruiguan",
+      "keep_id": "relationship_ouguan_ruiguan",
+      "keep_file": "character_ouguan",
+      "drop_ids": [
+        "relationship_ruiguan_ouguan"
+      ],
+      "drop_files": [
+        "character_ruiguan"
+      ],
+      "merged_type": "恋人（补缺续情）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "romantic"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "pan_youan<=>siqi",
+      "keep_id": "relationship_siqi_panyouan",
+      "keep_file": "character_siqi",
+      "drop_ids": [
+        "relationship_panyouan_siqi"
+      ],
+      "drop_files": [
+        "character_pan_youan"
+      ],
+      "merged_type": "恋人（表姐弟私情）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "romantic",
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "pinger<=>you_erjie",
+      "keep_id": "relationship_pinger_you_erjie",
+      "keep_file": "character_pinger",
+      "drop_ids": [
+        "relationship_you_erjie_pinger"
+      ],
+      "drop_files": [
+        "character_you_erjie"
+      ],
+      "merged_type": "怜护（施恩与受惠）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "qin_keqing<=>qin_zhong",
+      "keep_id": "relationship_qinzhong_qin_keqing",
+      "keep_file": "character_qin_zhong",
+      "drop_ids": [
+        "relationship_qin_zhong_qin_keqing"
+      ],
+      "drop_files": [
+        "character_qin_keqing"
+      ],
+      "merged_type": "养姐弟",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "qin_ye<=>qin_zhong",
+      "keep_id": "relationship_qin_ye_qin_zhong",
+      "keep_file": "character_qin_ye",
+      "drop_ids": [
+        "relationship_qinzhong_qin_ye"
+      ],
+      "drop_files": [
+        "character_qin_zhong"
+      ],
+      "merged_type": "父子（寒门赌注）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "qin_ye<=>zhi_neng_er",
+      "keep_id": "relationship_qin_ye_zhi_neng_er",
+      "keep_file": "character_qin_ye",
+      "drop_ids": [
+        "relationship_zhi_neng_er_qin_ye"
+      ],
+      "drop_files": [
+        "character_zhi_neng_er"
+      ],
+      "merged_type": "驱逐者与被驱逐者",
+      "merged_direction": "one-way",
+      "merged_nature": [
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "qingwen<=>xiren",
+      "keep_id": "relationship_xiren_qingwen",
+      "keep_file": "character_xiren",
+      "drop_ids": [
+        "relationship_qingwen_xiren"
+      ],
+      "drop_files": [
+        "character_qingwen"
+      ],
+      "merged_type": "同侪（贤与真的对照）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "conflict",
+        "symbolic_parallel"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "siqi<=>yuanyang",
+      "keep_id": "relationship_yuanyang_siqi",
+      "keep_file": "character_yuanyang",
+      "drop_ids": [
+        "relationship_siqi_yuanyang"
+      ],
+      "drop_files": [
+        "character_siqi"
+      ],
+      "merged_type": "撞破与遮掩（守护与私情）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "siqi<=>wang_shanbao",
+      "keep_id": "relationship_siqi_wangshanbao",
+      "keep_file": "character_siqi",
+      "drop_ids": [
+        "relationship_wang_shanbao_siqi"
+      ],
+      "drop_files": [
+        "character_wang_shanbao"
+      ],
+      "merged_type": "祖孙（抄检自抄）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "symbolic_parallel"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "wang_furen<=>xue_baochai",
+      "keep_id": "relationship_wang_furen_xue_baochai",
+      "keep_file": "character_wang_furen",
+      "drop_ids": [
+        "relationship_xue_baochai_wang_furen"
+      ],
+      "drop_files": [
+        "character_xue_baochai"
+      ],
+      "merged_type": "姨母与外甥女（金玉同盟）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "wang_furen<=>xue_yima",
+      "keep_id": "relationship_xue_yima_wang_furen",
+      "keep_file": "character_xue_yima",
+      "drop_ids": [
+        "relationship_wang_furen_xue_yima"
+      ],
+      "drop_files": [
+        "character_wang_furen"
+      ],
+      "merged_type": "亲姊妹（金玉同盟）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "wang_furen<=>wang_xifeng",
+      "keep_id": "relationship_wang_xifeng_wang_furen",
+      "keep_file": "character_wang_xifeng",
+      "drop_ids": [
+        "relationship_wang_furen_wang_xifeng"
+      ],
+      "drop_files": [
+        "character_wang_furen"
+      ],
+      "merged_type": "姑侄（权力委托）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "wang_furen<=>xiren",
+      "keep_id": "relationship_wang_furen_xiren",
+      "keep_file": "character_wang_furen",
+      "drop_ids": [
+        "relationship_xiren_wang_furen"
+      ],
+      "drop_files": [
+        "character_xiren"
+      ],
+      "merged_type": "主仆同盟（赏识与进言）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "master_servant",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "wang_furen<=>zhao_yiniang",
+      "keep_id": "relationship_zhao_yiniang_wang_furen",
+      "keep_file": "character_zhao_yiniang",
+      "drop_ids": [
+        "relationship_wang_furen_zhao_yiniang"
+      ],
+      "drop_files": [
+        "character_wang_furen"
+      ],
+      "merged_type": "妻妾对立",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "conflict",
+        "master_servant"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "wang_xifeng<=>you_erjie",
+      "keep_id": "relationship_you_erjie_wang_xifeng",
+      "keep_file": "character_you_erjie",
+      "drop_ids": [
+        "relationship_wang_xifeng_you_erjie"
+      ],
+      "drop_files": [
+        "character_wang_xifeng"
+      ],
+      "merged_type": "加害者与受害者（连环计）",
+      "merged_direction": "one-way",
+      "merged_nature": [
+        "conflict",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xia_jingui<=>xiangling",
+      "keep_id": "relationship_xiangling_xia_jingui",
+      "keep_file": "character_xiangling",
+      "drop_ids": [
+        "relationship_xia_jingui_xiangling"
+      ],
+      "drop_files": [
+        "character_xia_jingui"
+      ],
+      "merged_type": "迫害者与受害者（夺名借刀）",
+      "merged_direction": "one-way",
+      "merged_nature": [
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xia_jingui<=>xue_pan",
+      "keep_id": "relationship_xue_pan_xia_jingui",
+      "keep_file": "character_xue_pan",
+      "drop_ids": [
+        "relationship_xia_jingui_xue_pan"
+      ],
+      "drop_files": [
+        "character_xia_jingui"
+      ],
+      "merged_type": "夫妻（辖制与反噬）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "conflict",
+        "romantic"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xiangling<=>zhen_shiyin",
+      "keep_id": "relationship_zhen_yinglian",
+      "keep_file": "character_zhen_shiyin",
+      "drop_ids": [
+        "relationship_xiangling_zhen_shiyin"
+      ],
+      "drop_files": [
+        "character_xiangling"
+      ],
+      "merged_type": "父女（失散之缘）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xiangling<=>xue_pan",
+      "keep_id": "relationship_xiangling_xue_pan",
+      "keep_file": "character_xiangling",
+      "drop_ids": [
+        "relationship_xue_pan_xiangling"
+      ],
+      "drop_files": [
+        "character_xue_pan"
+      ],
+      "merged_type": "强占者与受害者（妾与夫）",
+      "merged_direction": "one-way",
+      "merged_nature": [
+        "kinship",
+        "conflict",
+        "romantic"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xing_furen<=>xing_xiuyan",
+      "keep_id": "relationship_xing_furen_xing_xiuyan",
+      "keep_file": "character_xing_furen",
+      "drop_ids": [
+        "relationship_xing_xiuyan_xing_furen"
+      ],
+      "drop_files": [
+        "character_xing_xiuyan"
+      ],
+      "merged_type": "姑侄（克扣与依附）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xing_xiuyan<=>xue_ke",
+      "keep_id": "relationship_xue_ke_xing_xiuyan",
+      "keep_file": "character_xue_ke",
+      "drop_ids": [
+        "relationship_xing_xiuyan_xue_ke"
+      ],
+      "drop_files": [
+        "character_xing_xiuyan"
+      ],
+      "merged_type": "未婚夫妻（忠厚配端雅）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "romantic",
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xue_baochai<=>xue_yima",
+      "keep_id": "relationship_xue_yima_xue_baochai",
+      "keep_file": "character_xue_yima",
+      "drop_ids": [
+        "relationship_xue_baochai_xue_yima"
+      ],
+      "drop_files": [
+        "character_xue_baochai"
+      ],
+      "merged_type": "母女",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xue_baochai<=>xue_pan",
+      "keep_id": "relationship_xue_pan_xue_baochai",
+      "keep_file": "character_xue_pan",
+      "drop_ids": [
+        "relationship_xue_baochai_xue_pan"
+      ],
+      "drop_files": [
+        "character_xue_baochai"
+      ],
+      "merged_type": "兄妹（贤与浑的对照）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xue_baochai<=>ying_er",
+      "keep_id": "relationship_ying_er_xue_baochai",
+      "keep_file": "character_ying_er",
+      "drop_ids": [
+        "relationship_xue_baochai_ying_er"
+      ],
+      "drop_files": [
+        "character_xue_baochai"
+      ],
+      "merged_type": "主仆",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "master_servant"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xue_baoqin<=>xue_ke",
+      "keep_id": "relationship_xue_ke_xue_baoqin",
+      "keep_file": "character_xue_ke",
+      "drop_ids": [
+        "relationship_xue_baoqin_xue_ke"
+      ],
+      "drop_files": [
+        "character_xue_baoqin"
+      ],
+      "merged_type": "胞兄妹（进京聘嫁）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xue_pan<=>xue_yima",
+      "keep_id": "relationship_xue_yima_xue_pan",
+      "keep_file": "character_xue_yima",
+      "drop_ids": [
+        "relationship_xue_pan_xue_yima"
+      ],
+      "drop_files": [
+        "character_xue_pan"
+      ],
+      "merged_type": "母子（溺爱与拖累）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "xueyan<=>zijuan",
+      "keep_id": "relationship_xueyan_zijuan",
+      "keep_file": "character_xueyan",
+      "drop_ids": [
+        "relationship_zijuan_xueyan"
+      ],
+      "drop_files": [
+        "character_zijuan"
+      ],
+      "merged_type": "同侪（潇湘馆搭档）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "you_erjie<=>you_sanjie",
+      "keep_id": "relationship_you_erjie_you_sanjie",
+      "keep_file": "character_you_erjie",
+      "drop_ids": [
+        "relationship_you_sanjie_you_erjie"
+      ],
+      "drop_files": [
+        "character_you_sanjie"
+      ],
+      "merged_type": "姐妹（护姐与托梦）",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    }
+  ],
+  "a_class_merges": [
+    {
+      "pair": "jia_baoyu<=>lin_daiyu",
+      "keep_id": "relationship_lin_daiyu_jia_baoyu",
+      "keep_file": "character_jia_baoyu",
+      "drop_ids": [
+        "relationship_lin_daiyu_jia_baoyu"
+      ],
+      "drop_files": [
+        "character_lin_daiyu"
+      ],
+      "merged_type": "表兄妹 / 情人 / 知己",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "romantic"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>xue_baochai",
+      "keep_id": "relationship_xue_baochai_jia_baoyu",
+      "keep_file": "character_jia_baoyu",
+      "drop_ids": [
+        "relationship_xue_baochai_jia_baoyu"
+      ],
+      "drop_files": [
+        "character_xue_baochai"
+      ],
+      "merged_type": "姨表姐弟 / 夫妻 / 礼教婚姻",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>jia_mu",
+      "keep_id": "relationship_jia_mu_baoyu",
+      "keep_file": "character_jia_mu",
+      "drop_ids": [
+        "relationship_jia_mu_baoyu"
+      ],
+      "drop_files": [
+        "character_jia_baoyu"
+      ],
+      "merged_type": "祖孙",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>wang_furen",
+      "keep_id": "relationship_wang_furen_baoyu",
+      "keep_file": "character_wang_furen",
+      "drop_ids": [
+        "relationship_wang_furen_baoyu"
+      ],
+      "drop_files": [
+        "character_jia_baoyu"
+      ],
+      "merged_type": "母子",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_baoyu<=>shi_xiangyun",
+      "keep_id": "relationship_jia_baoyu_shi_xiangyun",
+      "keep_file": "character_shi_xiangyun",
+      "drop_ids": [
+        "relationship_jia_baoyu_shi_xiangyun"
+      ],
+      "drop_files": [
+        "character_jia_baoyu"
+      ],
+      "merged_type": "表兄妹 / 好友",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "friendship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_mu<=>lin_daiyu",
+      "keep_id": "relationship_jia_mu_lin_daiyu",
+      "keep_file": "character_jia_mu",
+      "drop_ids": [
+        "relationship_jia_mu_lin_daiyu"
+      ],
+      "drop_files": [
+        "character_lin_daiyu"
+      ],
+      "merged_type": "外祖孙",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "jia_mu<=>shi_xiangyun",
+      "keep_id": "relationship_jia_mu_shi_xiangyun",
+      "keep_file": "character_shi_xiangyun",
+      "drop_ids": [
+        "relationship_jia_mu_shi_xiangyun"
+      ],
+      "drop_files": [
+        "character_jia_mu"
+      ],
+      "merged_type": "姑祖孙",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "lin_daiyu<=>xue_baochai",
+      "keep_id": "relationship_lin_daiyu_xue_baochai",
+      "keep_file": "character_xue_baochai",
+      "drop_ids": [
+        "relationship_lin_daiyu_xue_baochai"
+      ],
+      "drop_files": [
+        "character_lin_daiyu"
+      ],
+      "merged_type": "情敌 / 知己 / 金兰契",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship",
+        "rivalry"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "lin_daiyu<=>wang_furen",
+      "keep_id": "relationship_wang_furen_lin_daiyu",
+      "keep_file": "character_wang_furen",
+      "drop_ids": [
+        "relationship_wang_furen_lin_daiyu"
+      ],
+      "drop_files": [
+        "character_lin_daiyu"
+      ],
+      "merged_type": "舅母与外甥女",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "conflict"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "lin_daiyu<=>shi_xiangyun",
+      "keep_id": "relationship_lin_daiyu_shi_xiangyun",
+      "keep_file": "character_shi_xiangyun",
+      "drop_ids": [
+        "relationship_lin_daiyu_shi_xiangyun"
+      ],
+      "drop_files": [
+        "character_lin_daiyu"
+      ],
+      "merged_type": "好友 / 灵魂知己",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship",
+        "friendship",
+        "rivalry"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "qin_keqing<=>qin_ye",
+      "keep_id": "relationship_qin_ye_qin_keqing",
+      "keep_file": "character_qin_ye",
+      "drop_ids": [
+        "relationship_qin_ye_qin_keqing"
+      ],
+      "drop_files": [
+        "character_qin_keqing"
+      ],
+      "merged_type": "养父女",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "kinship"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    },
+    {
+      "pair": "shi_xiangyun<=>xue_baochai",
+      "keep_id": "relationship_xue_baochai_shi_xiangyun",
+      "keep_file": "character_shi_xiangyun",
+      "drop_ids": [
+        "relationship_xue_baochai_shi_xiangyun"
+      ],
+      "drop_files": [
+        "character_xue_baochai"
+      ],
+      "merged_type": "挚友 / 恩义",
+      "merged_direction": "mutual",
+      "merged_nature": [
+        "friendship",
+        "patronage"
+      ],
+      "note": "保留信息更全的一条（stages/evidence/摘要长度加权），并入对方独有内容"
+    }
+  ],
+  "special_drops": [
+    {
+      "pair": "jia_yuanchun<=>jia_zheng",
+      "drop_id": "relationship_yuanchun_jiafu_politics",
+      "reason": "实为「元春↔贾府」政治依附关系，误挂贾政；其描述信息并入元春人物档案，不作为独立关系"
+    }
+  ]
+}

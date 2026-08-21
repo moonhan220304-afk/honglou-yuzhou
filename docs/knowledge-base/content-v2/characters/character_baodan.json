@@ -1,0 +1,500 @@
+{
+  "character": {
+    "id": "character_baodan",
+    "name": "宝蟾",
+    "slug": "bao-chan",
+    "aliases": [],
+    "category": "薛家丫鬟（夏金桂陪房、后为薛蟠之妾）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "夏金桂的陪嫁丫鬟（陪房），家世不详；后被金桂舍与薛蟠为妾。",
+      "position": "夏家陪房丫鬟→薛蟠之妾。",
+      "origin": "随夏金桂陪嫁入薛家。",
+      "generation": "与香菱同辈的妾婢阶层"
+    },
+    "tags": [
+      "陪嫁丫鬟",
+      "薛蟠之妾",
+      "蟾宫折桂",
+      "害香菱",
+      "纵淫心宝蟾工设计",
+      "勾引薛蝌",
+      "与金桂反目",
+      "施毒计金桂自焚身",
+      "供出真情",
+      "gaoe"
+    ],
+    "summary": {
+      "short": "夏金桂的陪嫁丫鬟，第七十九回随嫁入薛家，被金桂舍给薛蟠为妾，与金桂合谋陷害香菱。后四十回（gaoe）第九十一回「纵淫心宝蟾工设计」勾引薛蝌，与金桂反目；第一百零三回金桂下毒害香菱反自毒身亡，宝蟾供出真情。",
+      "long": "宝蟾是夏金桂的陪嫁丫鬟，随嫁进入薛家。金桂要摆布香菱，先舍出宝蟾给薛蟠做妾——用「以妾制妾」之计分香菱之宠；第八十回又与宝蟾合谋设计，令薛蟠棒打香菱（「美香菱屈受贪夫棒」）。前八十回里，宝蟾是金桂的「剑」：主子指哪，她打哪。后四十回（gaoe）她「升格」为主角：第九十一回「纵淫心宝蟾工设计」——金桂看上薛蝌，派宝蟾送酒果试探，宝蟾自己也动了淫心，深夜设计勾引薛蝌，被薛蝌正色拒绝（「大礼所关，不敢造次」）；金桂求薛蝌不得迁怒宝蟾，宝蟾亦反唇相讥，主仆因一个男人反目成仇。第一百回（gaoe）前后二人明争暗斗不断；第一百零三回「施毒计金桂自焚身」——金桂买砒霜下在汤里要害香菱，宝蟾察觉有诈，暗中调换汤碗，毒汤反被金桂自己饮下身亡；事发后夏家追查，宝蟾为洗脱干系，把金桂下毒始末全盘供出。她的名字与金桂配成「蟾宫折桂」的月宫意象：金桂是月桂，宝蟾是月蟾——主仆二人共构「蟾宫」，也共演一场妻妾内斗的闹剧。宝蟾是全书「恶人联盟」瓦解的样本：利聚而来，利尽而散。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "谄——主子的帮凶",
+        "fact_type": "canonical_text_fact",
+        "description": "第八十回宝蟾配合金桂设计害香菱——她的「坏」起初是职业性的：陪嫁丫鬟的命运绑在主子身上，主子要她做妾她做妾，要她害人她害人。她与金桂的关系是「恶」的雇佣关系。"
+      },
+      {
+        "dimension": "淫——「纵淫心」的工设计",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe",
+        "description": "第九十一回（gaoe）回目「纵淫心宝蟾工设计」：她勾引薛蝌的每一步都有算计——送酒果、深夜纠缠、以金桂为饵。她的淫与金桂的淫同款：不是动情，是猎取。"
+      },
+      {
+        "dimension": "变——自保的「供词」",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe",
+        "description": "第一百零三回（gaoe）金桂死后，宝蟾起初还想遮掩，见抵赖不过，为洗脱干系把金桂下毒始末全盘供出。她的「变」不是道德觉醒，是生存本能——恶人联盟的成员，从来只忠于自己。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_baodan_conspire_ch80",
+        "title": "被舍与薛蟠为妾，与金桂合谋害香菱（第八十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_baodan_seduce_ch91",
+        "title": "纵淫心勾引薛蝌，与金桂反目（第九十一回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 3,
+        "event_id": "event_baodan_confess_ch103",
+        "title": "金桂毒人自毒，宝蟾供出真情（第一百零三回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch80_baodan_conspire",
+        "quote": "第八十回回目：美香菱屈受贪夫棒 王道士胡诌妒妇方",
+        "fact_type": "canonical_text_fact",
+        "note": "第八十回。宝蟾配合金桂设计（引薛蟠入香菱房、装病诬陷），令香菱「屈受贪夫棒」。"
+      },
+      {
+        "source_id": "source_ch91_baodan_seduce",
+        "quote": "第九十一回回目：纵淫心宝蟾工设计 布疑阵宝玉妄谈禅",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。宝蟾深夜设计以酒色诱惑薛蝌，被薛蝌以「大礼所关，不敢造次」拒绝。"
+      },
+      {
+        "source_id": "source_ch103_baodan_confess",
+        "quote": "第一百零三回回目：施毒计金桂自焚身 昧真禅雨村空遇旧",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。金桂下毒害香菱反自毒身亡；宝蟾为洗脱干系，供出金桂买砒霜、命她送汤的始末。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「宝蟾」——月宫之蟾，与「金桂」配成蟾宫折桂",
+      "detail": "「蟾」即蟾蜍，古称月宫为蟾宫（月中有蟾），科举中第称「蟾宫折桂」——而金桂正是「桂」。夏家给女儿取名金桂（桂），给陪嫁丫鬟取名宝蟾（蟾），主仆合起来恰是一座「蟾宫」：月桂与月蟾本是同宫之景，金桂与宝蟾也是同恶之党——曹雪芹（或续书作者）用名字把主仆钉死在同一个意象里：富贵与毒辣同源，正如月宫的清辉与蟾蜍的腥滑同居一宫。「宝」字亦反讽：一个行淫施计、换碗自保的丫鬟，名字却顶着「宝」。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；夏金桂陪嫁丫鬟，约十六七岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_baodan_conspire_ch80",
+      "title": "合谋害香菱——金桂的「剑」",
+      "event_level": "major",
+      "chapter": {
+        "number": 80,
+        "title": "美香菱屈受贪夫棒 王道士胡诌妒妇方",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "金桂因要摆布香菱，先把宝蟾舍与薛蟠做妾，待薛蟠与宝蟾热刺刺之际，再设计令香菱撞破二人，随后装病诬陷香菱「用魔法害人」。宝蟾配合金桂演戏，薛蟠不问青红皂白棒打香菱——「美香菱屈受贪夫棒」。"
+      },
+      "summary": {
+        "short": "第八十回宝蟾的角色是「金桂的剑」：先做薛蟠的妾，再做害香菱的局。她的配合无一句怨言——陪嫁丫鬟的恶是职业性的恶，主子的棋局里，她是最好用的那颗子。",
+        "meaning": [
+          "舍宝蟾为妾——「以妾制妾」，金桂把妻妾制度玩成棋局",
+          "宝蟾的配合——她的恶不是主谋之恶，是帮凶之恶",
+          "香菱之棒——两个女人合谋，一个男人动手，妾室制度的三方绞杀"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "帮凶的职业性",
+          "content": "宝蟾害香菱与凤姐借秋桐之刀同构：帮凶本人与受害者并无恩怨，只是主子的工具。曹雪芹写宝蟾的「配合」不写她的心理——工具不需要心理，这恰恰是她前八十回的功能：金桂的影子。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_baodan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xia_jingui",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baodan_seduce_ch91",
+      "title": "纵淫心工设计——勾引薛蝌，与金桂反目（后四十回）",
+      "event_level": "major",
+      "chapter": {
+        "number": 91,
+        "title": "纵淫心宝蟾工设计 布疑阵宝玉妄谈禅",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "薛家",
+        "specific": "金桂看上薛蝌，派宝蟾送酒果试探，宝蟾自己也动了淫心，深夜设计以酒色勾引薛蝌。薛蝌以「大礼所关，不敢造次」严词拒绝。金桂求之不得迁怒宝蟾，宝蟾反唇相讥——主仆因薛蝌反目成仇。"
+      },
+      "summary": {
+        "short": "第九十一回（gaoe）回目「纵淫心宝蟾工设计」：宝蟾从「金桂的剑」变成「自己的主谋」——她的欲望第一次独立于主子。主仆抢同一个男人，抢不到就互相撕咬：恶人联盟的第一次裂缝，从性欲开始。",
+        "meaning": [
+          "「工设计」——宝蟾的算计不输金桂，帮凶也有自己的兵法",
+          "薛蝌的拒绝（「大礼所关」）——全书守礼者的标杆，反衬主仆二人的淫",
+          "主仆反目——联盟靠利益维系，利益（男人）一分，联盟即碎"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "帮凶的独立",
+          "content": "续书（gaoe）给宝蟾安排了一段独立的欲望史：前八十回她只有「配合」，第九十一回她有了「自己要」。这是人物功能的升级——宝蟾从金桂的影子长成另一个恶人：有欲、有计、有反骨。"
+        },
+        {
+          "type": "hongxue",
+          "title": "续书的「恶人加码」",
+          "content": "有论者认为，续书让宝蟾勾引薛蝌是为「金桂自焚身」的结局补链条（主仆反目→宝蟾换碗→供出真情），属叙事必需；亦有论者指出此笔把宝蟾写成了「第二个月亮里的淫妇」，与前八十回「工具人」定位相比略显用力过猛——但「纵淫心」三字毕竟把她的欲望写足了，这是续书对这个人物的贡献。",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_baodan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xia_jingui",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_ke",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baodan_confess_ch103",
+      "title": "金桂毒人自毒，宝蟾供出真情（后四十回）",
+      "event_level": "major",
+      "chapter": {
+        "number": 103,
+        "title": "施毒计金桂自焚身 昧真禅雨村空遇旧",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "薛家",
+        "specific": "金桂买砒霜下在汤中要害香菱，命宝蟾送汤。宝蟾察觉有诈，暗中将汤碗调换，毒汤遂被金桂自己饮下——「施毒计金桂自焚身」。金桂暴毙后，夏家与官府追查，宝蟾起初想遮掩，见抵赖不过，为洗脱干系把金桂下毒始末全盘供出。"
+      },
+      "summary": {
+        "short": "第一百零三回（gaoe）是恶人联盟的终局：金桂毒人反自毒，宝蟾换碗又供词。她的供词里没有悔意，只有算计——恶与恶的结盟，从来以互相出卖收场。",
+        "meaning": [
+          "调换汤碗——宝蟾的背叛不是救人，是自保：她早知金桂动了杀心，提前留了后手",
+          "「供出真情」——她卖主子像当年害香菱一样利落",
+          "金桂「自焚身」——害人者死于己毒，帮凶以证词脱身：报应分明却各得其所"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "恶人联盟的力学",
+          "content": "金桂与宝蟾的关系遵循最朴素的力学：利益同向则合谋（害香菱），利益相撞则反目（争薛蝌），利益攸关则出卖（供词）。续书（gaoe）用三段式写尽了「恶的联盟」的宿命——利聚而来，利尽而散，利危而噬。"
+        },
+        {
+          "type": "character",
+          "title": "从「剑」到「证词」",
+          "content": "宝蟾的完整弧线：金桂的剑→自己的淫心→金桂的掘墓人。前八十回她只是工具，后四十回（gaoe）她成了因果链条上最后的一环——正是她的供词，让「金桂自焚身」从悬案变成铁案。帮凶最终「证」死了主子，而她自己带着一身腥滑全身而退。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_baodan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xia_jingui",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_baodan_xia_jingui",
+      "from": "character_baodan",
+      "to": "character_xia_jingui",
+      "type": "主仆（合谋—反目—出卖）",
+      "nature": [
+        "social_alliance",
+        "enemies"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝蟾与金桂的关系经历了「剑—敌—证」三段：第八十回她是金桂害香菱的合谋者；第九十一回（gaoe）二人争薛蝌反目；第一百零三回（gaoe）她供出金桂的下毒始末。这对主仆是全书「恶人联盟」最完整的样本——她们始终是同类，所以始终要互相撕咬。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "合谋",
+          "chapter": 80,
+          "description": "宝蟾配合金桂设计害香菱。"
+        },
+        {
+          "stage": 2,
+          "title": "反目",
+          "chapter": 91,
+          "description": "争薛蝌不成，主仆反目。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 3,
+          "title": "出卖",
+          "chapter": 103,
+          "description": "宝蟾供出金桂下毒真情。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_baodan_xiangling",
+      "from": "character_baodan",
+      "to": "character_xiangling",
+      "type": "加害者与受害者",
+      "nature": [
+        "enemies"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝蟾与香菱同处妾位，却是害她的人：第八十回配合金桂设计，令香菱「屈受贪夫棒」。香菱从头到尾不曾还手——两个陪嫁/妾室身份的女儿，一个害人，一个受刑，妾室制度的绞肉机里谁都是肉。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "设计",
+          "chapter": 80,
+          "description": "宝蟾配合金桂，香菱屈受贪夫棒。"
+        },
+        {
+          "stage": 2,
+          "title": "换碗",
+          "chapter": 103,
+          "description": "金桂下毒，宝蟾调换汤碗，毒死金桂而香菱幸存。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_baodan_xue_pan",
+      "from": "character_baodan",
+      "to": "character_xue_pan",
+      "type": "妾与夫（被舍的棋子）",
+      "nature": [
+        "marriage",
+        "lovers"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝蟾被金桂舍给薛蟠做妾，薛蟠「得陇望蜀」热刺刺地与宝蟾厮混——她是他贪色的新玩具，也是金桂摆布香菱的棋子。薛蟠对宝蟾与对香菱一样：用时是宝，厌时是草。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "纳妾",
+          "chapter": 80,
+          "description": "金桂将宝蟾舍与薛蟠。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_baodan_xue_ke",
+      "from": "character_baodan",
+      "to": "character_xue_ke",
+      "type": "诱惑者与被拒者（后四十回）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "one_way",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "第九十一回（gaoe）宝蟾深夜设计以酒色勾引薛蝌，被薛蝌以「大礼所关，不敢造次」严词拒绝。这场诱惑是续书对宝蟾与薛蝌的双重定性：她的淫邪与他的持正——同一场戏，一个往下坠，一个往上立。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "拒诱",
+          "chapter": 91,
+          "description": "薛蝌正色拒绝宝蟾的勾引。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_baodan_role",
+      "title": "宝蟾是金桂的「剑」，还是第二个金桂？",
+      "slug": "is-baochan-a-tool-or-another-jingui",
+      "question_type": "character_analysis",
+      "importance_weight": 64,
+      "heat_weight": 58,
+      "neutral_overview": "前八十回的宝蟾只是配合金桂害香菱的帮凶，后四十回（gaoe）她却有了自己的欲望与算计——宝蟾这个人物，曹雪芹（及续书）到底把她当什么写？",
+      "viewpoint_ids": [
+        "vp_baodan_tool",
+        "vp_baodan_self"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_baodan_tool",
+          "title": "工具论：她是妻妾制度的一颗棋子",
+          "summary": "宝蟾的处境决定她的功能：陪嫁丫鬟=主子的私产，被舍为妾=制度的人肉棋子。她害香菱不是出于自己的恨，是「职业要求」——与凤姐借秋桐、金桂借宝蟾同构，她与秋桐一样是「借刀杀人」的刀。前八十回不写她的心理，正因她不需要心理：工具只有功能。",
+          "evidence": [
+            "第八十回合谋中宝蟾无任何个人动机描写",
+            "与秋桐（凤姐之刀）的结构同构",
+            "陪嫁丫鬟被舍为妾的制度性命运"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_baodan_self",
+          "title": "独立恶论：她有欲、有计、有反骨",
+          "summary": "宝蟾的「坏」有自己的火苗：第九十一回（gaoe）「纵淫心」写明她的欲望独立于金桂；第一百零三回（gaoe）她调换汤碗、供出真情，每一步都是她自己的算计。她与金桂是同类：都淫、都毒、都只忠于自己——只是段位不同。把宝蟾读成纯工具，会错过全书「恶人会自我复制」的冷眼。",
+          "evidence": [
+            "第九十一回「纵淫心宝蟾工设计」——她自己的欲望",
+            "第一百零三回换碗与供词——她自己的算计",
+            "与金桂反目的主动性"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "question_baodan_gaoe",
+      "title": "后四十回的宝蟾：续书完成她还是扭曲她？",
+      "slug": "did-gaoe-complete-or-distort-baochan",
+      "question_type": "version_dispute",
+      "importance_weight": 60,
+      "heat_weight": 56,
+      "neutral_overview": "前八十回宝蟾只出场几笔（被舍为妾、配合设计）；后四十回（gaoe）她有了勾引薛蝌、换碗、供词三段重头戏。续书的宝蟾与前八十回接得上吗？",
+      "viewpoint_ids": [
+        "vp_baodan_complete",
+        "vp_baodan_distort"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_baodan_complete",
+          "title": "完善论：续书让工具长成了人",
+          "summary": "续书（gaoe）对宝蟾的处理是「补全」：前八十回她只是金桂的影子，第九十一回起她有了自己的欲望线（薛蝌）、自己的求生线（换碗、供词），最后在「金桂自焚身」的公案里成了关键证人——一个完整的人物弧光：帮凶→反目→自保。这条线方向与前八十回（她的谄与配合）一致，只是把潜台词说成了台词。",
+          "evidence": [
+            "第九十一回「纵淫心」——欲望独立，回目即定性",
+            "第一百零三回供词——她的自保逻辑与前文的配合逻辑一脉相承",
+            "「金桂自焚身」公案因她的供词而闭合"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_baodan_distort",
+          "title": "背离论：续书把帮凶写成了艳情角色",
+          "summary": "前八十回的宝蟾是克制之笔：无心理、无欲望描写，恶得「职业化」。续书（gaoe）却让她深夜勾引薛蝌、与金桂争风吃醋——把一个结构性工具写成了又一个「淫妇」，是续书惯常的「恶人加码」通俗笔法。且「换碗+供词」的自保戏让宝蟾全须全尾地善终，与曹雪芹「白茫茫大地真干净」的无差别审判精神相悖。",
+          "evidence": [
+            "前八十回宝蟾无任何个人欲望描写",
+            "「纵淫心宝蟾工设计」的艳情化回目",
+            "宝蟾最终全身而退，未受任何惩罚"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch79_baodan_concubine",
+      "quote": "（金桂）因要摆布香菱……先舍出宝蟾去给薛蟠，待他「热刺刺」的时节，再拿香菱出气。",
+      "fact_type": "canonical_text_fact",
+      "note": "第七十九、八十回之际。宝蟾被舍为妾——金桂「以妾制妾」的第一着棋。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_baodan_scholar",
+      "title": "宝蟾：妾室制度中「工具性之恶」的样本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 2005,
+      "source_title": "多项人物专题研究",
+      "description": "学者将宝蟾与秋桐、善姐并论，视为《红楼梦》妾室制度中「工具性之恶」的样本：她们与受害者素无恩怨，纯粹作为正妻/主子的工具参与迫害——其「恶」是制度赋予的职能，而非个人的欲念。宝蟾的特殊处在于续书（gaoe）给了她一次「工具翻身」：勾引薛蝌、与金桂反目、换碗自保、供出真情——从帮凶变成独立的恶人，也顺带完成了「金桂自焚身」的因果闭合。有论者认为这段补写在人物逻辑上成立（欲望早于立场），亦有论者批评其艳情化倾向稀释了前八十回的冷峻。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.88,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 9,
+      "text_inference": 2,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 16,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

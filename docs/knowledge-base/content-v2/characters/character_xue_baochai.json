@@ -1,0 +1,1474 @@
+{
+  "character": {
+    "id": "character_xue_baochai",
+    "name": "薛宝钗",
+    "slug": "xue-baochai",
+    "aliases": [
+      "蘅芜君",
+      "宝姐姐",
+      "宝丫头",
+      "杨妃",
+      "宝姑奶奶",
+      "山中高士"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "core",
+    "content_level": "L3",
+    "identity": {
+      "family": "薛姨妈之女；薛蟠之妹；父早亡。金陵四大家族之薛家（皇商）。",
+      "position": "贾府寄居之表小姐（薛姨妈为王夫人之妹）；大观园蘅芜苑居所。",
+      "origin": "金陵（今南京）人氏。出身皇商世家，「珍珠如土金如铁」。",
+      "generation": "贾府第四代（与贾宝玉同辈）"
+    },
+    "tags": [
+      "博学广识",
+      "温厚端庄",
+      "世故圆融",
+      "山中高士",
+      "冷美人",
+      "停机德",
+      "蘅芜君",
+      "任是无情也动人",
+      "封建淑女",
+      "礼教牺牲品"
+    ],
+    "summary": {
+      "short": "金陵十二钗之首（与黛玉并列）。薛家之女，容貌丰美、博学稳重，有「停机德」之风。与贾宝玉最终成婚，但独守空房。",
+      "long": "薛宝钗为《红楼梦》第二女主角，与林黛玉构成「双峰对峙、二水分流」的经典人物结构。出身金陵皇商世家，为入宫待选而来京，寄居荣国府梨香院，后迁居大观园蘅芜苑。容貌「唇不点而红，眉不画而翠，脸若银盆，眼如水杏」。博学广识，诗词学问不在黛玉之下，更通医理、绘画、戏曲。性格温厚端庄、处事圆融、「不干己事不张口」，博得贾府上下一致好评。前八十回中与宝玉、黛玉之间的「金玉良缘」与「木石前盟」之争构成全书最核心的情感三角。第四十二回与黛玉「兰言解疑癖」、第四十五回「金兰契」后与黛玉冰释前嫌——脂批在此提出「钗黛合一」（「钗、玉名虽两个，人却一身」）。后四十回中（gaoe）在王熙凤掉包计的安排下与宝玉成婚，然宝玉「空对着山中高士晶莹雪，终不忘世外仙姝寂寞林」，最终看破红尘出家，宝钗独守空房，悲剧收场。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "博学与理性",
+        "fact_type": "canonical_text_fact",
+        "description": "博学不在黛玉之下而更呈理性之光。通诗书、医理、药理、绘画理论，对戏文典故烂熟于心。第四十二回为惜春列画画物料清单，展现其百科全书式知识储备。"
+      },
+      {
+        "dimension": "温厚与世故",
+        "fact_type": "canonical_text_fact",
+        "description": "待人处事滴水不漏：对长辈恭顺体贴，对姊妹友善周全，对下人宽厚大方。为湘云办东道解围、替岫烟赎冬衣、给黛玉送燕窝。但「不干己事不张口」的世故也在某种程度上构成了一种冷漠。"
+      },
+      {
+        "dimension": "冷与远——山中高士",
+        "fact_type": "canonical_text_fact",
+        "description": "宝钗号「蘅芜君」，其蘅芜苑「雪洞一般，一色玩器全无」。为人亦有不可亲近之「冷」——这种冷不是无情，而是一种高度理性带来的距离感。对金钏儿之死的冷静分析、对尤三姐自刎的不动声色，都体现了「任是无情也动人」的复杂人格。"
+      },
+      {
+        "dimension": "矛盾——礼教的遵从者与被吞噬者",
+        "fact_type": "text_inference",
+        "description": "宝钗是封建礼教最完美的产物，也是封建礼教最可悲的牺牲品。她所有的「好」——端庄、贤淑、识大体——都是按照礼教标准严格修炼的结果。然而最终她被礼教安排的婚姻吞噬：嫁给了不爱她的人，独守空房。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_baochai_enters_jia_ch4",
+        "title": "宝钗进贾府（第四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_gold_lock_ch8",
+        "title": "比通灵金莺微露意（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_baochai_butterfly_ch27",
+        "title": "宝钗扑蝶（第二十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_baochai_paramita_ch22",
+        "title": "点醒宝玉禅机（第二十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_baochai_help_xiangyun_ch37",
+        "title": "为湘云解东道之困（第三十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_baochai_crab_satire_ch38",
+        "title": "讽和螃蟹咏（第三十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_chai_dai_reconcile_ch42",
+        "title": "兰言解疑癖（第四十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_baochai_painting_ch42",
+        "title": "惜春画园清单（第四十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 9,
+        "event_id": "event_golden_words_ch45",
+        "title": "金兰契互剖金兰语（第四十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 10,
+        "event_id": "event_baochai_xingxiuyan_ch57",
+        "title": "为邢岫烟赎冬衣（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 11,
+        "event_id": "event_baochai_co_manage_ch56",
+        "title": "协理家事·小惠全大体（第五十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 12,
+        "event_id": "event_baochai_flower_sign_ch63",
+        "title": "花名签牡丹——「任是无情也动人」（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 13,
+        "event_id": "event_baochai_house_search_ch74",
+        "title": "抄检大观园后搬离蘅芜苑（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 14,
+        "event_id": "event_baochai_xuepan_ch47",
+        "title": "薛蟠挨打与宝钗劝母（第四十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 15,
+        "event_id": "event_baochai_marriage_ch97",
+        "title": "出闺成大礼（第九十七回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 16,
+        "event_id": "event_baochai_alone_ch120",
+        "title": "独守空房（第一百二十回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch04_baochai_intro",
+        "quote": "还有一女，比薛蟠小两岁，乳名宝钗，生得肌骨莹润，举止娴雅。……还有你那个令姨表兄……如今你姨娘家的姑娘也来了，还有一丸药。",
+        "fact_type": "canonical_text_fact",
+        "note": "第四回介绍薛宝钗出场，交代其身世与品格，并首提「冷香丸」。"
+      },
+      {
+        "source_id": "source_ch08_baochai_appearance",
+        "quote": "唇不点而红，眉不画而翠，脸若银盆，眼如水杏。",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回宝玉到梨香院探望宝钗时所见的宝钗面貌。"
+      },
+      {
+        "source_id": "source_ch05_chai_dai_judgment",
+        "quote": "可叹停机德，堪怜咏絮才。玉带林中挂，金簪雪里埋。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回黛玉与宝钗合用判词。「停机德」用乐羊子妻断织劝夫典故赞美宝钗之德；「金簪雪里埋」——「雪」谐「薛」，暗喻宝钗被埋没。"
+      },
+      {
+        "source_id": "source_ch05_baochai_song",
+        "quote": "[终身误]都道是金玉良姻，俺只念木石前盟。空对着，山中高士晶莹雪；终不忘，世外仙姝寂寞林。",
+        "fact_type": "canonical_text_fact",
+        "note": "「山中高士晶莹雪」即宝钗——山中高士之「冷」与晶莹雪之「洁」，是她性格的双重标签。"
+      },
+      {
+        "source_id": "source_zhizhi_chai_dai_heyi",
+        "quote": "[脂批]「钗、玉名虽两个，人却一身，此幻笔也。今书至三十八回时已过三分之一有余，故写是回，使二人合而为一。」",
+        "fact_type": "scholarly_viewpoint",
+        "note": "脂砚斋第四十二回总批提出「钗黛合一」论。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "判词「金簪雪里埋」暗示；宝钗＝珠宝金钗",
+      "detail": "薛谐「雪」，「山中高士晶莹雪」（《终身误》）；宝钗是双股金簪、婚姻信物，白居易《长恨歌》「钗留一股合一扇」分钗断带典故暗示分离；「宝钗」之名即镶嵌珠宝的金钗，《新唐书·车服志》载命妇「花钗九树」，宝钗之名被视为家族对高嫁的期望（野心说）。判词「金簪雪里埋」暗示其结局：宝玉出家后守活寡",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "「山中高士」是赞美还是贬低",
+          "content": "吴氏红学索隐派称「雪满」谐「薛是满清」，以「雪」影射满清（版本争议）；一般解读则认为「山中高士晶莹雪」是对宝钗的极高赞美",
+          "proponent": "吴氏红学索隐派 / 主流红学界"
+        },
+        {
+          "title": "名字野心说是否成立",
+          "content": "有论者据《新唐书·车服志》命妇「花钗九树」之制，认为「宝钗」之名寄寓薛家对高嫁的期望（野心说）；此说属推测性解读",
+          "proponent": "部分红学研究者"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 4,
+          "evidence": "脂本：薛蟠今年方十有五岁；宝钗比薛蟠小两岁",
+          "age": "13岁进京"
+        },
+        {
+          "chapter": 22,
+          "evidence": "凤姐：薛大妹妹今年十五岁，也算得将笄之年（贾母张罗生日）",
+          "age": "15岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "13岁（第4回进京）",
+        "story_end": "约20-21岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第4回13岁进京、第22回过十五岁生日为两个原文锚点；大宝玉约两三岁。",
+      "controversies": [
+        {
+          "title": "程高本隐去薛蟠年龄",
+          "detail": "第4回「薛蟠十五岁、宝钗小两岁」与第22回六年后宝钗十五岁不合，程高本第4回隐去薛蟠年龄以弥合，但未能解决第22回「才过第一个生辰」的矛盾。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "蘅芜君",
+      "type": "雅号",
+      "context": "海棠诗社雅号，因居蘅芜苑。宝钗自取此号，蕴含「香草美人」的古典人格理想",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "宝姐姐",
+      "type": "姐妹称呼",
+      "context": "黛玉、湘云等对宝钗的日常称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "宝丫头",
+      "type": "长辈称呼",
+      "context": "贾母、王夫人等长辈对宝钗的昵称",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "杨妃",
+      "type": "戏谑绰号",
+      "context": "宝玉以「杨妃」打趣宝钗体丰（第三十回），宝钗反唇相讥「我倒像杨妃，只是没一个好哥哥好兄弟可以作得杨国忠的」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "山中高士",
+      "type": "称号",
+      "context": "《终身误》曲「山中高士晶莹雪」——喻其高洁而清冷",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "冷美人",
+      "type": "绰号",
+      "context": "因服用「冷香丸」及冷静理性的性格得名（多见于红学评论，非原文直接称呼）",
+      "fact_type": "text_inference"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_baochai_enters_jia_ch4",
+      "title": "宝钗进贾府",
+      "event_level": "major",
+      "chapter": {
+        "number": 4,
+        "title": "薄命女偏逢薄命郎 葫芦僧乱判葫芦案",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府梨香院",
+        "specific": "薛姨妈率薛蟠、宝钗来京投奔贾府，王夫人安排住在荣国府东北角的梨香院。"
+      },
+      "summary": {
+        "short": "薛姨妈携子薛蟠、女宝钗进京，投奔荣国府王夫人。宝钗「年岁虽大不多，然品格端方，容貌丰美」，入府后迅速获得贾府上下好评。",
+        "meaning": [
+          "宝钗正式进入大观园叙事体系，钗黛二元结构自此建立",
+          "「入宫待选」的叙事动机随后悄然隐去，暗示宝钗命运的转折",
+          "「人多谓黛玉所不及」——从宝钗入府开始，钗黛对比成为全书重要叙事动力"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "钗黛二元结构的建立",
+          "content": "黛玉于第三回入贾府，宝钗于第四回入贾府——曹雪芹以紧邻的回目安排两位女主角进场，刻意制造对称。黛玉之入府以书香清雅为底色，宝钗之入府则紧接薛蟠打死人命案——二人出场方式的工拙之别，已暗示二人在作者心目中的地位差异。"
+        },
+        {
+          "type": "character",
+          "title": "入宫待选的隐没",
+          "content": "宝钗进京的官方理由是「备选为公主郡主入学陪侍，充为才人赞善之职」，但这个理由在进入贾府后几乎不再被提及。这一「叙事动机的消失」被红学家视为重要暗示——宝钗的「待选」命运可能因故失败（一说薛蟠案累及），其人生轨迹被迫转向「金玉良缘」。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「人多谓黛玉所不及」的叙事偏袒",
+          "content": "第四回写道宝钗入府后「人多谓黛玉所不及」——这句叙述看似客观，实则暴露了宝钗的处境：她必须「不及」黛玉才能融入贾府的评价体系。脂批曾在此类地方点出「作者之笔实有微意」，钗黛对比从一开始就是全书最重要的叙事张力之一。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_gold_lock_ch8",
+      "title": "比通灵金莺微露意",
+      "event_level": "major",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院",
+        "specific": "宝玉前来探望病中的宝钗，宝钗借机细看通灵宝玉——「莫失莫忘，仙寿恒昌」。莺儿脱口说出金锁上的「不离不弃，芳龄永继」正是一对。"
+      },
+      "summary": {
+        "short": "宝钗小恙，宝玉前来梨香院探望。宝钗借机仔细赏鉴通灵宝玉，念出其铭文「莫失莫忘，仙寿恒昌」。丫鬟莺儿在旁脱口说出「我听这两句话，倒像和姑娘的项圈上的两句话是一对儿」。黛玉随后也来，以「我来的不巧了」针锋相对。",
+        "meaning": [
+          "「金玉良缘」之说首次以实物（金锁配玉）的形式在叙事中亮相",
+          "莺儿之口道出宝钗不便明说的心思——「金莺微露意」",
+          "黛玉「半含酸」——钗黛对立格局的第一次正面展现"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "金玉良缘的叙事悬念",
+          "content": "「金玉良缘」之说在全书叙事中始终处于一个微妙的暧昧位置：它究竟是薛姨妈和王夫人刻意编排的联姻策略，抑或是冥冥中果真有一份「金玉」之缘？曹雪芹既未明白证实也未彻底否定，使「金玉」与「木石」之争成为全书最持久的叙事悬念。"
+        },
+        {
+          "type": "character",
+          "title": "宝钗的主动与克制",
+          "content": "宝钗「重新翻过来细看」通灵宝玉的行为，微露其内心对「金玉之说」的关注——但她自己什么也没说，是莺儿「微露意」。这种「由他人之口道我心」的表达方式，是宝钗世故精明的典型特征。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ying_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_paramita_ch22",
+      "title": "宝钗点禅机",
+      "event_level": "minor",
+      "chapter": {
+        "number": 22,
+        "title": "听曲文宝玉悟禅机 制灯迷贾政悲谶语",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "宝钗生日点《鲁智深醉闹五台山》，宝玉嫌俗。宝钗念出其中《寄生草》「赤条条来去无牵挂」，宝玉称赏不已。后宝玉参禅作偈，宝钗以六祖惠能「本来无一物」公案点拨，又评其偈「这个人悟了」。",
+        "meaning": [
+          "宝钗的佛学素养在群钗中独步——能随口引用《寄生草》与六祖公案",
+          "她以「学识」而非「体悟」参禅——与其理性人格完全一致",
+          "宝钗对禅机的态度是「知而不溺」——她懂得空的道理，却选择在红尘中认真生活"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "知空而不入空——宝钗与宝玉的根本差异",
+          "content": "面对同一个禅机，宝钗与宝玉做出了截然不同的反应：宝玉「喜的拍膝画圈」并开始参禅——他被「空」吸引；宝钗则保持理性——她只是「懂得」。这个细节极其精妙地展现了二人精神世界的差异：宝钗知「空」而选择「有」（承担家庭责任），宝玉知「有」而终入「空」（悬崖撒手）。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_butterfly_ch27",
+      "title": "宝钗扑蝶",
+      "event_level": "minor",
+      "chapter": {
+        "number": 27,
+        "title": "滴翠亭杨妃戏彩蝶 埋香冢飞燕泣残红",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园滴翠亭附近",
+        "specific": "芒种节饯花神之日，宝钗在园中看到一对玉色蝴蝶，追至滴翠亭外，偶然听到小红和坠儿的私密谈话。"
+      },
+      "summary": {
+        "short": "芒种节饯花神，宝钗独行至滴翠亭外，见一对玉色蝴蝶大如团扇，迎风翩跹。她取出扇子蹑手蹑脚前去扑蝶，追至滴翠亭外，偶然听见小红与坠儿的私密对话。为避嫌，她机智地以「颦儿方才在此」脱身。",
+        "meaning": [
+          "「杨妃扑蝶」是宝钗仅有的少女情怀流露——在这一刻她卸下了礼教的重担",
+          "金蝉脱壳嫁祸黛玉——暴露了宝钗利己主义的一面",
+          "与同一回中黛玉葬花形成对比：一个扑蝶（生之欢悦），一个葬花（死之悲哀）"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "宝钗仅有的天真时刻",
+          "content": "全书中的宝钗几乎永远端庄、理性、滴水不漏——唯独扑蝶这一幕，她卸下了所有的「宝姐姐」角色，成为了一个追着蝴蝶跑的天真少女。这正是脂批所谓「冷中见热」的写法：在最冷的人物身上写最热的瞬间。"
+        },
+        {
+          "type": "character",
+          "title": "金蝉脱壳的道德争议",
+          "content": "宝钗听到小红私语后的「金蝉脱壳」之计——以「颦儿（黛玉）方才蹲在这里弄水」来洗脱自身嫌疑——是全书中宝钗受到最多道德批评的情节之一。她本能地将麻烦「嫁祸」给黛玉。但也可以理解为一个慌张的少女在瞬间做出的避险反应——两种解读并存正是《红楼梦》人物复杂性的体现。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xiaohong",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_help_xiangyun_ch37",
+      "title": "为湘云解东道之困",
+      "event_level": "minor",
+      "chapter": {
+        "number": 37,
+        "title": "秋爽斋偶结海棠社 蘅芜苑夜拟菊花题",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "湘云要做菊花诗社的东道但银钱短缺。宝钗主动相助——「既开社，便要作东。虽然是顽意儿，也要瞻前顾后……你如今比不得他们」。她从自家拿出几篓螃蟹、酒果，并连夜与湘云拟定十二个菊花诗题，成就了全书最著名的菊花诗会。",
+        "meaning": [
+          "宝钗的「帮人」方式极具体——不是施舍银两，而是提供完整方案",
+          "「瞻前顾后」四字道尽宝钗的处世哲学",
+          "菊花诗会由此诞生——黛玉夺魁的名场面源自宝钗的幕后操持"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "实用主义的善意",
+          "content": "宝钗对湘云的帮助是全书中她「好」的最典型样本：她先分析湘云的处境（银钱不自由），再给出解决方案（螃蟹宴省钱又体面），最后帮湘云把诗题也拟好了。这种「方案式」的善意与黛玉「情感式」的共鸣形成对照——两种善意方式都是真诚的，只是路径不同。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_crab_satire_ch38",
+      "title": "讽和螃蟹咏",
+      "event_level": "minor",
+      "chapter": {
+        "number": 38,
+        "title": "林潇湘魁夺菊花诗 薛蘅芜讽和螃蟹咏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "螃蟹宴上宝玉作螃蟹咏，宝钗和作一首——「眼前道路无经纬，皮里春秋空黑黄」，众人赞「这才是食蟹的绝唱」。诗中讽刺世人横行霸道、心黑腹黄。",
+        "meaning": [
+          "「眼前道路无经纬，皮里春秋空黑黄」——宝钗对世情的冷峻洞察",
+          "此诗是宝钗「冷」的一面的文学表达——她对世态炎凉有极清醒的认识",
+          "以小见大——从吃蟹写尽官场黑暗"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「食蟹绝唱」——宝钗的讽刺才能",
+          "content": "这首螃蟹咏展示了宝钗诗歌的另一个侧面——她不仅能写含蓄的闺阁诗（海棠诗），也能写尖锐的讽刺诗。众人都说「这才是食蟹的绝唱」，说明宝钗对世态人心的洞察之深。这种清醒与她「不干己事不张口」的处世方式形成了有趣的张力：她什么都知道，只是不说。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_chai_dai_reconcile_ch42",
+      "title": "蘅芜君兰言解疑癖",
+      "event_level": "major",
+      "chapter": {
+        "number": 42,
+        "title": "蘅芜君兰言解疑癖 潇湘子雅谑补余香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "蘅芜苑",
+        "specific": "宝钗私下拉黛玉至蘅芜苑，以黛玉酒令中引用《西厢记》《牡丹亭》词句之事「审问」黛玉。"
+      },
+      "summary": {
+        "short": "宝钗将黛玉叫到蘅芜苑中，指出她酒令中引用了《西厢记》《牡丹亭》的禁书词句，并以自身年幼时也曾偷读此类书籍的经历规劝黛玉。黛玉「心下暗服」，对宝钗的态度从此大改。",
+        "meaning": [
+          "钗黛关系从对立走向理解的第一个关键转折",
+          "宝钗展现其「以德服人」的教育方式——不是揭发，而是私下规劝",
+          "脂批在此回总批提出「钗黛合一」——「钗、玉名虽两个，人却一身」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "宝钗的教育艺术",
+          "content": "宝钗没有当众揭发黛玉引用禁书（那将令黛玉难堪甚至受到责罚），而是私下约谈；她不说「你错了」，而说「我也读过」——以自己的「不光彩」经历来消除黛玉的防御心理。这是极其成熟的沟通策略。"
+        },
+        {
+          "type": "literary",
+          "title": "钗黛关系的转折点",
+          "content": "脂砚斋第四十二回总批：「钗、玉名虽两个，人却一身，此幻笔也。」兰言解疑癖正是钗黛从对立走向理解的核心事件。从此回开始，黛玉不再将宝钗视为敌人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_painting_ch42",
+      "title": "惜春画园——百科全书式知识展示",
+      "event_level": "minor",
+      "chapter": {
+        "number": 42,
+        "title": "蘅芜君兰言解疑癖 潇湘子雅谑补余香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "贾母命惜春画大观园行乐图。宝钗为惜春开列了一份极其详细的画具清单——从各种笔、颜料、绢纸到「生姜二两、酱半斤」等辅助材料，并讲解绘画技法与构图原理，令众人叹服。",
+        "meaning": [
+          "宝钗知识体系的实用性与全面性——诗词之外，医理、绘画、药理无所不通",
+          "「生姜、酱」等细节展现其知识来自真实生活而非书本堆砌",
+          "与黛玉的「诗人式知识」形成对照——宝钗的知识是「百科全书式」的"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "知识即力量——宝钗的生存资本",
+          "content": "宝钗的博学从来不是装饰性的——她懂得医理（为宝玉开导冷香丸知识）、懂画论（为惜春列清单）、懂当铺经济（为岫烟赎衣）、懂庶务（协助理家）。这种全面的知识结构使她无论在何种处境下都能自处。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_xichun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_golden_words_ch45",
+      "title": "金兰契互剖金兰语",
+      "event_level": "major",
+      "chapter": {
+        "number": 45,
+        "title": "金兰契互剖金兰语 风雨夕闷制风雨词",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "潇湘馆",
+        "specific": "宝钗来潇湘馆探望病中的黛玉，二人推心置腹，黛玉说出多年心结，宝钗送上燕窝。"
+      },
+      "summary": {
+        "short": "黛玉旧疾复发，宝钗来潇湘馆探望。黛玉感慨从前对宝钗多有误解，说「往日竟是我错了」。宝钗以自身经历劝慰，并主动提出赠燕窝。二人自此结为「金兰契」。",
+        "meaning": [
+          "钗黛关系最重要的转折——从「情敌」到「知己」",
+          "宝钗赠燕窝的细节——「每日早起拿上等燕窝一两，冰糖五钱」——具体而温暖的关怀",
+          "脂批「钗黛合一」论的第二个核心文本"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "宝钗的关怀艺术",
+          "content": "宝钗对黛玉的关怀是「精确到两钱」的——燕窝一两、冰糖五钱、每日早起熬制。这种具体入微的关怀方式与黛玉的诗人气质形成了奇妙的互补。宝钗以「药方」式的方式爱人，黛玉以「诗歌」式的方式爱人。"
+        },
+        {
+          "type": "hongxue",
+          "title": "钗黛合一论的文本基础",
+          "content": "脂砚斋「钗、玉名虽两个，人却一身」的论点与金兰契互相印证——钗黛从对立走向和解，被视为曹雪芹设计二人为「兼美」一体的叙事策略。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_xingxiuyan_ch57",
+      "title": "为邢岫烟赎冬衣",
+      "event_level": "minor",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "邢岫烟家贫，为打点下人当了冬衣。宝钗发现后不动声色地替她赎回，并安慰她「你别怕，我自然会说你的衣服还没当」。她不让邢岫烟声张，保全其体面。",
+        "meaning": [
+          "宝钗「体贴人」的最高境界——帮了人还让人不觉受恩",
+          "对贫寒亲戚的尊重——岫烟是邢夫人内侄女，家道寒微",
+          "与薛蟠的挥霍无度形成兄妹对照"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "不露痕迹的善意",
+          "content": "宝钗帮岫烟的方式极具艺术性：先私下询问、再默默赎回、最后教她如何体面应对。这种「帮助而不伤害自尊」的能力，使她在贾府下人中获得了真诚的感激——她对人的「好」是经得起细节检验的。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xing_xiuyan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_co_manage_ch56",
+      "title": "敏探春兴利除宿弊——宝钗小惠全大体",
+      "event_level": "minor",
+      "chapter": {
+        "number": 56,
+        "title": "敏探春兴利除宿弊 时宝钗小惠全大体",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "凤姐病倒期间，王夫人安排探春、李纨、宝钗三人共同理家。探春推行大观园承包改革，宝钗以「小惠全大体」的策略——让没有承包机会的婆子也分得利益——赢得贾府上下交口称赞。",
+        "meaning": [
+          "宝钗第一次展示其治家之才——既有远见又顾及各方利益",
+          "「小惠全大体」体现了宝钗「中庸」的处事哲学",
+          "证明了宝钗当家绝不输凤姐——她比凤姐更得人心"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "治家之才与为人之道",
+          "content": "探春的改革重在制度创新（兴利除弊），宝钗则在制度之上增加了人情考量——让没有承包机会的婆子们也分得利益。这种「惠而不费」的治家方式是儒家「中庸」理想的具体实践。"
+        },
+        {
+          "type": "literary",
+          "title": "「敏探春」与「时宝钗」的回目对照",
+          "content": "回目用「敏」字评探春、「时」字评宝钗——「时」即「识时务」。探春之才在「革」（破旧），宝钗之才在「和」（立新）。两种治家模式的并置展示了曹雪芹对管理哲学的深刻思考。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_flower_sign_ch63",
+      "title": "寿怡红群芳开夜宴——宝钗抽得牡丹",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "宝玉生日之夜，群芳聚饮抽花名签。宝钗抽得牡丹签——「艳冠群芳」，题「任是无情也动人」。"
+      },
+      "summary": {
+        "short": "群芳开夜宴抽花名签。宝钗抽得牡丹签，签上画一枝牡丹，题「艳冠群芳」，诗云「任是无情也动人」。众人笑说「你原也配牡丹花」。",
+        "meaning": [
+          "牡丹是「花王」——曹雪芹以牡丹喻宝钗，确认其在大观园群芳中的最高地位",
+          "「任是无情也动人」——高度凝练宝钗性格核心矛盾：冷（无情）与美（动人）的辩证统一",
+          "花签预言其命运：虽「艳冠群芳」却终究「无情」于宝玉，婚姻有名无实"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "花签的谶语功能",
+          "content": "「任是无情也动人」是全书中对宝钗最精准的判词。宝钗之「冷」令人无法真正亲近，然而正是这份「冷」赋予了她端庄不可侵犯的气质，使她在群芳中「艳冠群芳」。"
+        },
+        {
+          "type": "character",
+          "title": "牡丹——宝钗的终极定位",
+          "content": "群芳中唯有宝钗配牡丹、黛玉配芙蓉（风露清愁）。曹雪芹以最高贵富丽的花对应最「世俗完美」的人，以最清高疏淡的花对应最「诗意不群」的人——花签系统本身即是人物的终极评价。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_house_search_ch74",
+      "title": "抄检大观园后宝钗搬离",
+      "event_level": "minor",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "王夫人命王善保家的带队抄检大观园。宝钗所居的蘅芜苑因是亲戚处未被抄检。但宝钗次日即借故搬离大观园。"
+      },
+      "summary": {
+        "short": "抄检大观园之夜，宝钗的蘅芜苑因是「亲戚家姑娘的屋子」而未被抄检。但宝钗次日即以「母亲身上不好」为由，果断搬离大观园。",
+        "meaning": [
+          "「未被抄检」实际上是一种羞辱——她是外人",
+          "宝钗迅速撤离展现了政治人物的敏锐——她知道大观园已不再安全",
+          "与迎春、惜春等人的被动形成鲜明对比——宝钗永远是主动选择的那一个"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "政治敏感与生存智慧",
+          "content": "宝钗立刻意识到「未被抄检」中隐含的距离感与羞辱。她以最快速度搬离，既保护了自身清白，也避免了日后可能被卷入贾府风波的任何风险。这种敏锐的政治直觉和果断的行动力，在十二钗中独一无二。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_shanbao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_marriage_ch97",
+      "title": "出闺成大礼",
+      "event_level": "major",
+      "chapter": {
+        "number": 97,
+        "title": "林黛玉焚稿断痴情 薛宝钗出闺成大礼",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "location": {
+        "name": "荣国府喜堂",
+        "specific": "薛宝钗在王熙凤掉包计安排下与贾宝玉成婚。宝玉满心以为自己迎娶的是林妹妹，揭开盖头方知是宝钗。"
+      },
+      "summary": {
+        "short": "王熙凤设掉包计，对宝玉伪称迎娶林妹妹，实以宝钗顶替入洞房。宝玉揭开盖头发现是宝钗，顿时「糊涂更甚」。与此同时，黛玉在潇湘馆焚稿泪尽而亡。",
+        "meaning": [
+          "掉包计——贾府上下合谋欺骗宝玉，黛玉成了这场权力游戏的祭品",
+          "宝钗在知情的情况下嫁入——是顺从也是共谋",
+          "「出闺成大礼」是全书最残酷的叙事反讽：大礼即是悲剧序幕"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "悲剧的共谋结构",
+          "content": "掉包计动用了贾府几乎所有的权力资源：贾母批准、凤姐策划、王夫人配合、薛姨妈默许、宝钗本人顺从。黛玉不是被某一个人害死的——是整个封建家族制度以「爱护宝玉」的名义合法地杀死了她。"
+        },
+        {
+          "type": "hongxue",
+          "title": "续书中宝钗出嫁的争议",
+          "content": "后四十回中宝钗在黛玉未死时即嫁入贾府、且全程知情不动的写法，使宝钗在此回中显得冷漠甚至冷酷。这与前八十回宝钗「宽厚待人」的形象有较大落差。部分学者认为曹雪芹原意中宝钗的悲剧在于「嫁而不得」而非「夺人所爱」。然而这一写法在二百余年的接受史中已经深刻塑造了国人的集体记忆。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_baochai_alone_ch120",
+      "title": "独守空房——「兰桂齐芳」的悲凉",
+      "event_level": "minor",
+      "chapter": {
+        "number": 120,
+        "title": "甄士隐详说太虚情 贾雨村归结红楼梦",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "summary": {
+        "short": "宝玉中举后随僧道出家，宝钗留在家中。她怀有身孕（后生贾桂），与李纨之子贾兰并称「兰桂齐芳」——贾府似乎又有了复兴的希望。但宝钗的生命已经空了：丈夫出家、青春虚掷，她以「宝二奶奶」的身份守着一个没有爱情的家。",
+        "meaning": [
+          "「兰桂齐芳」的表面繁荣反衬宝钗命运的彻底虚无",
+          "宝钗得到了「宝二奶奶」的地位，却失去了幸福的可能性",
+          "独守空房是礼教为「完美淑女」准备的终极奖赏"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "礼教完美产物的终极惩罚",
+          "content": "宝钗的一生是「按标准答题」的一生——她答对了礼教的每一道考题，最终却得到了最残忍的奖品：一个空壳婚姻。她的悲剧不同于黛玉的「求而不得」，而是「得而非愿」——她得到了别人以为她想要的一切，唯独没有得到幸福。"
+        },
+        {
+          "type": "hongxue",
+          "title": "兰桂齐芳与曹雪芹原意的距离",
+          "content": "「兰桂齐芳」是后四十回对贾府结局的「温柔化」处理——给悲剧添加一个光明的尾巴。但多数红学家认为这与曹雪芹「落了片白茫茫大地真干净」的原意相悖。宝钗的「独守空房」虽大体符合《终身误》的预言，但其「有子而守」的写法与原稿的彻底幻灭感存在差异。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_lin_daiyu_xue_baochai",
+      "from": "character_lin_daiyu",
+      "to": "character_xue_baochai",
+      "type": "情敌 / 知己 / 金兰契",
+      "nature": [
+        "friendship",
+        "rivalry"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "全书最复杂的女性关系。前期因「金玉良缘」与「木石前盟」之争，黛玉视宝钗为情敌，言语多有尖刻。第四十二回「兰言解疑癖」后关系转折，第四十五回「金兰契」互剖心迹，从敌对走向知己，共同经历了大观园最绚烂的诗意时期。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "情敌暗斗",
+          "chapter": 8,
+          "description": "黛玉以「我来的不巧了」暗讽，此后多次交锋。"
+        },
+        {
+          "stage": 2,
+          "title": "兰言解疑癖——关系转折",
+          "chapter": 42,
+          "description": "宝钗私下规劝，黛玉「心下暗服」。"
+        },
+        {
+          "stage": 2,
+          "title": "兰言解疑癖",
+          "chapter": 42,
+          "description": "宝钗私下拉黛玉「审问」其酒令中引用的禁书词句，以自身经历规劝黛玉。黛玉心生感激，第一次对宝钗产生信任。"
+        },
+        {
+          "stage": 3,
+          "title": "金兰契——走向知己",
+          "chapter": 45,
+          "description": "黛玉坦诚「往日竟是我错了」，二人结为金兰之契。"
+        },
+        {
+          "stage": 3,
+          "title": "金兰契互剖金兰语",
+          "chapter": 45,
+          "description": "宝钗探望病中黛玉，黛玉坦诚「往日竟是我错了」，二人结为金兰之契。宝钗赠燕窝，黛玉以真心相报。二人关系从对立走向真挚友谊。"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_baochai_enters_jia_ch4",
+          "description": "宝钗进贾府——为钗黛关系的开端"
+        },
+        {
+          "event_id": "event_chai_dai_reconcile_ch42",
+          "description": "兰言解疑癖——关系转折"
+        },
+        {
+          "event_id": "event_golden_words_ch45",
+          "description": "金兰契——走向知己"
+        },
+        {
+          "event_id": "event_gold_lock_ch8",
+          "description": "「我来的不巧了」——钗黛第一次交锋"
+        }
+      ],
+      "impact": "钗黛关系的演变是全书女性情谊书写的高峰。二人从情敌到知己，从对立到和解，既反映了贵族少女在封建礼教下的生存策略，也展现了超越情感纠葛的精神理解。部分红学家将此视为曹雪芹「钗黛合一」设计的叙事线索。"
+    },
+    {
+      "id": "relationship_xue_baochai_jia_tanchun",
+      "from": "character_xue_baochai",
+      "to": "character_jia_tanchun",
+      "type": "表姐妹（理家搭档）",
+      "nature": [
+        "kinship",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "探春理家期间宝钗协理——「敏探春」的革新与「时宝钗」的调和互补。二人互相欣赏：探春赞宝钗「真真宝姐姐」，宝钗赞探春「我们姑娘」。抄检大观园后宝钗搬离，探春说「很好」——理解并支持她的选择。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "协理家事——珠联璧合",
+          "chapter": 56,
+          "description": "探春兴利除弊，宝钗小惠全大体。两种治家理念互补共存。"
+        },
+        {
+          "stage": 2,
+          "title": "抄检大观园——同声相应",
+          "chapter": 74,
+          "description": "探春怒打王善保家的，宝钗次日搬离。二人以不同方式对抗同一场羞辱。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_baochai_haitang",
+      "title": "咏白海棠",
+      "work_type": "七律",
+      "chapter_number": 37,
+      "fact_type": "canonical_text_fact",
+      "summary": "「珍重芳姿昼掩门，自携手瓮灌苔盆。胭脂洗出秋阶影，冰雪招来露砌魂。淡极始知花更艳，愁多焉得玉无痕。欲偿白帝凭清洁，不语婷婷日又昏。」",
+      "symbolic_notes": "「淡极始知花更艳」——以白海棠自喻：极简淡素雅中的极美，正是宝钗的美学宣言。「珍重芳姿昼掩门」的自我约束与其「守拙」人格呼应。"
+    },
+    {
+      "id": "poem_baochai_pangxie",
+      "title": "螃蟹咏",
+      "work_type": "七律",
+      "chapter_number": 38,
+      "fact_type": "canonical_text_fact",
+      "summary": "「桂霭桐阴坐举觞，长安涎口盼重阳。眼前道路无经纬，皮里春秋空黑黄。酒未敌腥还用菊，性防积冷定须姜。于今落釜成何益，月浦空余禾黍香。」",
+      "symbolic_notes": "「眼前道路无经纬，皮里春秋空黑黄」——讽刺横行者的冷峻之作，众人评为「食蟹绝唱」。"
+    },
+    {
+      "id": "poem_baochai_liuxu",
+      "title": "临江仙·柳絮",
+      "work_type": "词",
+      "chapter_number": 70,
+      "fact_type": "canonical_text_fact",
+      "summary": "「白玉堂前春解舞，东风卷得均匀。蜂团蝶阵乱纷纷。几曾随逝水，岂必委芳尘。万缕千丝终不改，任他随聚随分。韶华休笑本无根。好风凭借力，送我上青云！」",
+      "symbolic_notes": "「好风凭借力，送我上青云」——宝钗罕见地袒露雄心。与黛玉「飘泊亦如人命薄」的柳絮词形成命运观的根本对照：一个要借力上青云，一个哀叹命薄漂泊。"
+    },
+    {
+      "id": "poem_baochai_panjuan",
+      "title": "判词与《终身误》曲",
+      "work_type": "判词/曲",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "判词（与黛玉合用）：「可叹停机德，堪怜咏絮才。玉带林中挂，金簪雪里埋。」《终身误》：「都道是金玉良姻，俺只念木石前盟。空对着，山中高士晶莹雪；终不忘，世外仙姝寂寞林。叹人间，美中不足今方信：纵然是齐眉举案，到底意难平。」",
+      "symbolic_notes": "「停机德」典出乐羊子妻断织劝夫——宝钗之德。「金簪雪里埋」——「雪」谐「薛」，宝钗如金簪被埋于雪中。「齐眉举案」写宝钗婚后之贤，却「到底意难平」。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_baochai_love_baoyu",
+      "title": "宝钗到底爱不爱宝玉？",
+      "slug": "does-baochai-love-baoyu",
+      "question_type": "character_emotion",
+      "importance_weight": 95,
+      "heat_weight": 95,
+      "neutral_overview": "宝钗对宝玉的感情是全书最大的悬念之一。她到底爱不爱宝玉？是爱他这个人、爱「宝二奶奶」的位置、还是根本不爱只是服从家族安排？不同读者从同一文本中读出了截然相反的答案。",
+      "viewpoint_ids": [
+        "vp_baochai_love",
+        "vp_baochai_not_love",
+        "vp_baochai_ambiguous"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_baochai_love",
+          "title": "爱——但爱的方式是「劝」",
+          "summary": "宝钗是爱宝玉的，只是她的爱是「为他好」式的爱——劝他读书、劝他上进、劝他远离是非。这种爱在形式上与黛玉的「知己之爱」不同，但情感强度未必更弱。她对宝玉的诸多关怀细节（送药、陪坐、关心其仕途）都超过了客套的需要。",
+          "evidence": [
+            "第八回宝钗细看通灵玉的专注；第三十四回宝玉挨打后宝钗「手托着丸药走进来」探望；第三十六回宝钗坐在宝玉床边绣鸳鸯肚兜——这个细节常被引为宝钗对宝玉有情之证"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_baochai_not_love",
+          "title": "不爱——她爱的是「宝二奶奶」这个位置",
+          "summary": "宝钗对宝玉的感情本质上是「制度的感情」而非「个人的感情」。她要的不是宝玉这个人，而是「宝二奶奶」的身份与责任。她从不因宝玉的喜怒而心乱，也不因宝玉的薄情而心碎——这与黛玉的「轰雷掣电」形成鲜明对比。她始终冷静、得体、分寸感十足，因为她从未真正投入感情。",
+          "evidence": [
+            "宝钗面对金玉之论的暧昧态度从未有过黛玉式的情感波动；抄检大观园后她果断搬离——对宝玉的处境几乎没有留恋"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_baochai_ambiguous",
+          "title": "复杂论——她自己也无法定义",
+          "summary": "宝钗对宝玉的感情处在一个她自己也无法完全定义的灰色地带：有少女的朦胧好感（扑蝶时的天真、看玉时的专注），有长姐式的责任感（规劝、照料），也有对「金玉良缘」这一命运安排的无意识认同。这种复杂性正是曹雪芹不写心理独白的深意——他让读者永远无法确定。",
+          "evidence": [
+            "全书从未直接描写宝钗对宝玉的内心独白——这是一个刻意的叙事留白"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_baochai_advise_baoyu",
+      "title": "宝钗为什么总劝宝玉读仕途经济之书？",
+      "slug": "why-baochai-advises-baoyu",
+      "question_type": "character_motivation",
+      "importance_weight": 85,
+      "heat_weight": 80,
+      "neutral_overview": "宝钗多次劝宝玉留心仕途经济——「你就不愿意去考举人进士的，也该常常的会会这些为官做宰的人们」。宝玉因此与她生分。宝钗为什么反复劝谏？",
+      "viewpoint_ids": [
+        "vp_advise_sincere",
+        "vp_advise_selfinterest"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_advise_sincere",
+          "title": "真诚说——「为他好」的传统式爱",
+          "summary": "宝钗的劝谏出于真诚的关怀——在她的价值观中，读书做官是男人唯一的正路，劝宝玉走这条路就是「为他好」。这种爱与王夫人「为你好」的控制一脉相承——她们爱宝玉的方式就是改造宝玉。",
+          "evidence": [
+            "宝钗劝宝玉的话语气恳切，且多次重复——若非真心，无需反复劝一个「劝不动」的人"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_advise_selfinterest",
+          "title": "利益说——为「宝二奶奶」的未来打算",
+          "summary": "宝钗劝宝玉读书的直接利益关联是：如果她嫁给宝玉（金玉良缘），宝玉的功名就是她的保障。「夫贵妻荣」是封建女性的唯一出路。她劝的不仅是宝玉的前途，更是自己的前途。",
+          "evidence": [
+            "宝钗的身份使她只能通过丈夫获取社会地位——她没有「自己」的事业路径"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_advise_value",
+          "title": "价值论——她真心相信这套价值观",
+          "summary": "宝钗劝宝玉不是策略而是信仰——她自己就是「停机德」的化身（乐羊子妻断织劝夫）。在她的认知框架中，仕途经济不是庸俗而是正途，是唯一能让男人「立」起来的道路。她无法理解宝玉的反抗，正如宝玉无法理解她的规劝。",
+          "evidence": [
+            "「停机德」判词；宝钗对「女子无才便是德」的认同——「咱们女孩儿家不认得字的倒好」"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_baochai_leng",
+      "title": "宝钗的「冷」究竟是性格还是处世方式？",
+      "slug": "is-baochais-coldness-personality",
+      "question_type": "character_personality",
+      "importance_weight": 85,
+      "heat_weight": 85,
+      "neutral_overview": "宝钗的「冷」是她的标志性标签——冷香丸、雪洞般的蘅芜苑、金钏死后的冷静、尤三姐自刎后的无动于衷、「任是无情也动人」的花签。但这种「冷」是她的天性是她的处世面具？",
+      "viewpoint_ids": [
+        "vp_leng_nature",
+        "vp_leng_mask",
+        "vp_leng_both"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_leng_nature",
+          "title": "天性说——先天的冷",
+          "summary": "宝钗的「冷」是先天禀赋——她生来带有「热毒」（从胎里带来的一股热毒），需以冷香丸抑制。这个神话设定隐喻她的天性中本有炽热的情感，但被后天的理性与礼教彻底冷却。「冷」是她人格的底色而非面具。",
+          "evidence": [
+            "第七回冷香丸神话——「从胎里带来的一股热毒」；「任是无情也动人」的花签定评"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_leng_mask",
+          "title": "面具说——自我保护与利益计算",
+          "summary": "宝钗的「冷」是处世的策略——「不干己事不张口，一问摇头三不知」。对金钏之死的冷静是因为「不干己事」；抄检后迅速搬离是为了「明哲保身」。她的冷是精确计算的产物，热（对湘云、黛玉、岫烟的好）也是策略的一部分。",
+          "evidence": [
+            "对金钏之死对王夫人的劝慰话术（「不过多赏他几两银子」）——情绪管理与场面话的高度理性"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_leng_both",
+          "title": "辩证说——冷中有热，热中有冷",
+          "content": "宝钗的冷与热是辩证统一的：她对「外人」（金钏、尤三姐）冷，对「自己人」（母亲、湘云、黛玉和解后）热；对「无用的事」冷（风月闲情），对「有用的事」热（学问、家计、仕途经济）。这种冷热分明的分配方式本身就是她理性人格的体现。",
+          "evidence": [
+            "冷香丸「热毒」与「冷香」的对立统一；扑蝶的天真（热）与金蝉脱壳的冷静（冷）在同一场景中并存"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiamu_support_baodai",
+      "title": "贾母究竟支持宝黛还是金玉？",
+      "slug": "jiamu-support-baodai-or-jinyu",
+      "question_type": "character_relationship",
+      "importance_weight": 90,
+      "heat_weight": 95,
+      "neutral_overview": "贾母对宝黛关系与金玉良缘的态度是全书最大的悬念之一。前八十回证据明确显示贾母支持宝黛，但后四十回（gaoe）写她批准掉包计、选择宝钗。",
+      "viewpoint_ids": [
+        "vp_jiamu_baodai_strong",
+        "vp_jiamu_compromise"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_jiamu_baodai_strong",
+          "title": "贾母明确支持木石前盟",
+          "summary": "前八十回文本证据：1）安排宝黛同住碧纱橱；2）清虚观张道士提亲时以「和尚说宝玉命里不该早娶」婉拒；3）紫鹃试玉后贾母流泪感叹二人情深；4）对宝钗始终是「客人式」的礼遇而非「家人式」的疼爱。多数红学家据此认定曹雪芹原意中贾母是宝黛支持者。",
+          "evidence": [
+            "第三回碧纱橱；第二十九回清虚观拒亲；第五十七回贾母对宝黛情深的反应"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiamu_compromise",
+          "title": "家族利益下的最终妥协",
+          "summary": "后四十回写贾母在宝玉失玉痴呆后同意掉包计。若接受此叙事，则贾母的选择体现了「制度理性对个人情感的碾压」——她对黛玉的爱再深，也敌不过「冲喜救宝玉」的现实需求。",
+          "evidence": [
+            "第九十六回掉包计的决策过程"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe。与前八十回证据存在张力。"
+        }
+      ]
+    },
+    {
+      "id": "question_baochai_reputation",
+      "title": "宝钗的「好」是真诚的还是伪装的？",
+      "slug": "is-baochais-goodness-genuine",
+      "question_type": "character_morality",
+      "importance_weight": 85,
+      "heat_weight": 85,
+      "neutral_overview": "宝钗获得贾府上下一致好评——「品格端方，容貌丰美，人多谓黛玉所不及」。但她的「好」到底出自本心还是出自算计？这是评价宝钗最核心的道德难题。",
+      "viewpoint_ids": [
+        "vp_good_genuine",
+        "vp_good_calculated"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_good_genuine",
+          "title": "真诚论——「好」是她的修养而非表演",
+          "summary": "宝钗的「好」是长期修养的自然流露：对湘云、岫烟、黛玉的帮助都在无人要求的情况下主动做出，且做得细致周到。她帮岫烟赎冬衣还要「悄悄的」不让人知道——如果是表演，为何要避开观众？",
+          "evidence": [
+            "第五十七回替岫烟赎衣「悄悄的」；第四十五回赠燕窝是主动提出"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_good_calculated",
+          "title": "计算论——「好」是投资的资产",
+          "summary": "宝钗的「好」具有精确的投资属性：对湘云好获得友谊、对王夫人好获得好感、对贾母好获得地位、对下人好获得口碑。她「会做人」的名声本身就是利益。金蝉脱壳（嫁祸黛玉）证明她在关键时候会毫不犹豫地牺牲他人保全自己。",
+          "evidence": [
+            "第二十七回金蝉脱壳；对金钏之死的「不过多赏他几两银子」的冷语"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_baochai_marriage_tragedy",
+      "title": "宝钗的悲剧在哪里？「山中高士晶莹雪」的孤独如何理解？",
+      "slug": "baochais-tragedy",
+      "question_type": "character_fate",
+      "importance_weight": 85,
+      "heat_weight": 75,
+      "neutral_overview": "表面上看宝钗是「赢家」——她嫁给了宝玉、成为了宝二奶奶。但《终身误》「空对着山中高士晶莹雪」揭示了她命运的真相：她赢得了一场没有爱情的婚姻。宝钗的悲剧不在「得不到」，而在「得到了却是空的」。",
+      "viewpoint_ids": [
+        "vp_tragedy_empty",
+        "vp_tragedy_system"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_tragedy_empty",
+          "title": "空壳论——得到一切却失去意义",
+          "summary": "宝钗的悲剧是「得而非愿」——她按礼教的全部标准完成了人生（淑女→贤妻），却发现这些「完成」没有给她带来任何幸福。宝玉的出家使她的婚姻变成空壳，她守着一个名分过完余生。",
+          "evidence": [
+            "《终身误》「空对着山中高士晶莹雪」；「纵然是齐眉举案，到底意难平」"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_tragedy_system",
+          "title": "制度论——礼教吞噬了自己的完美产物",
+          "summary": "宝钗的悲剧在更深层上是制度的悲剧：她越是完美地践行礼教（端庄、贤淑、识大体），就越成为礼教的工具与牺牲品。礼教「用」完她（嫁给宝玉冲喜、生育后代）之后，她剩余的生命就只是「守」——守着贞节、守着名分、守着一个不可能回头的丈夫。",
+          "evidence": [
+            "全书对「停机德」的判词定评与宝钗结局的对照"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_baochai_xuejiaguardian",
+      "title": "薛蟠的「妹妹视角」——宝钗为什么如此「懂事」？",
+      "slug": "why-baochai-so-sensible",
+      "question_type": "character_motivation",
+      "importance_weight": 75,
+      "heat_weight": 65,
+      "neutral_overview": "宝钗的早熟与懂事远超她的年龄。父亲早亡、兄长薛蟠不争气、母亲软弱——宝钗不得不在少女时代就承担起薛家的「精神支柱」角色。这种「被迫成长」是她「冷」与「世故」的重要成因。",
+      "viewpoint_ids": [
+        "vp_sensible_family"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_sensible_family",
+          "title": "家庭重负论——早熟是生存的必然",
+          "summary": "「自父亲死后，见哥哥不能依贴母怀，她便不以书字为事，只留心针黹家计等事，好为母亲分忧解劳」——第四回这段叙述是理解宝钗的关键：她的「懂事」不是天生的，而是家庭变故（丧父、兄长无能）逼出来的。她必须成为薛家的「大人」。",
+          "evidence": [
+            "第四回宝钗出身叙述；薛蟠惹祸后宝钗屡次为家分忧（第四十七回劝母、第八十回应付夏金桂）"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_chai_dai_heyi_debate",
+      "title": "「钗黛合一」是什么意思？脂批的这个论断如何理解？",
+      "slug": "chai-dai-heyi",
+      "question_type": "version_study",
+      "importance_weight": 80,
+      "heat_weight": 75,
+      "neutral_overview": "脂砚斋第四十二回总批：「钗、玉名虽两个，人却一身，此幻笔也。」俞平伯据此提出「钗黛合一」论。这个论断如何理解？钗黛究竟是两个独立人物还是「同一个理想女性的两面」？",
+      "viewpoint_ids": [
+        "vp_heyi_two_sides",
+        "vp_heyi_independent"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "vp_heyi_two_sides",
+          "title": "一体两面论——兼美的分裂",
+          "summary": "「钗黛合一」意味着曹雪芹原初构想中可能只有一个「完美女性」（警幻之妹「兼美」——「鲜艳妩媚有似乎宝钗，风流袅娜则又如黛玉」），在创作过程中分裂为钗黛二人。宝钗代表「现实之美」（礼教认可的美），黛玉代表「理想之美」（超越礼教的美）。二者合起来才是完整的「女性理想」。",
+          "evidence": [
+            "第五回「兼美」形象；脂批「钗、玉名虽两个，人却一身」；俞平伯《红楼梦辨》"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_heyi_independent",
+          "title": "独立人物论——「合一」指人格层面的相通而非身份同一",
+          "summary": "反对者认为钗黛是完成度极高的两个独立人物——她们的价值观、性格、命运路径截然不同。「钗黛合一」应理解为二人在人格层面的最终和解（金兰契）与在悲剧层面的殊途同归（同为礼教牺牲品），而非身份上的同一。",
+          "evidence": [
+            "第四十五回金兰契；二人结局的「殊途同归」——一死于爱情、一困于婚姻"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_baochai_waiting_selection",
+      "title": "宝钗「入宫待选」为什么没了下文？",
+      "slug": "baochai-palace-selection",
+      "question_type": "character_fate",
+      "importance_weight": 70,
+      "heat_weight": 65,
+      "neutral_overview": "第四回交代宝钗进京的目的是「备选为公主郡主入学陪侍，充为才人赞善之职」，但这个设定在后续叙事中几乎消失。为什么？",
+      "viewpoint_ids": [
+        "vp_waiting_xuepan",
+        "vp_waiting_author"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_waiting_xuepan",
+          "title": "薛蟠案牵连说",
+          "summary": "有学者推测宝钗的待选失败与薛蟠的人命官司有关——犯官之妹或涉案家庭之女可能失去参选资格。薛家进京时薛蟠案已被贾雨村「葫芦僧乱判葫芦案」压下，但政治风险仍在。",
+          "evidence": [
+            "第四回薛蟠案与宝钗进京在时间上的紧邻；此后「待选」话题完全消失"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_waiting_author",
+          "title": "叙事需要说——作者主动放弃这条线索",
+          "summary": "「入宫待选」可能只是曹雪芹为宝钗进京提供的一个临时性理由，一旦宝钗进入贾府叙事（金玉良缘线），这个设定就完成了使命。这与其他被「遗忘」的叙事线索（如宝玉的年龄问题）一样，属于《红楼梦》未定稿状态的表现。",
+          "evidence": [
+            "《红楼梦》全书存在多处未定稿痕迹；「待选」设定的功能化特征明显"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_baochai_two_worlds",
+      "title": "宝钗作为「现实世界」的代表",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "余英时",
+      "year": 1970,
+      "source_title": "《红楼梦的两个世界》（余英时，1970）",
+      "description": "余英时在「两个世界论」中，将大观园视为「理想世界」（乌托邦），将外面的贾府社会视为「现实世界」。宝钗被定位为「现实世界」的代表——她的世故、理性、遵从礼教，使其成为连接现实世界与理想世界的关键人物。"
+    },
+    {
+      "id": "viewpoint_baochai_leng",
+      "title": "「冷」——宝钗性格核心论",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "王昆仑及多项综合研究",
+      "year": 1944,
+      "source_title": "《红楼梦人物论》（王昆仑，1944）",
+      "description": "王昆仑等学者将宝钗性格的核心提炼为「冷」——不仅是冷香丸所象征的，更是性格层面的冷静、理性和情感克制。这种「冷」使她在群芳中独善其身，但也注定了她无法得到宝玉真心的悲剧结局。"
+    },
+    {
+      "id": "viewpoint_baochai_rujia",
+      "title": "宝钗——儒家淑女的文学标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "冯其庸及儒家文化研究派",
+      "year": 1990,
+      "description": "冯其庸等学者从儒家文化角度解读宝钗——她是「温柔敦厚」诗教与「三从四德」妇道在文学中的最高标本。她的所有优点（博学、稳重、识大体）与所有局限（无我、压抑、工具化）都源自儒家女性理想的内在矛盾。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 16,
+    "total_relationships": 9,
+    "total_poems": 4,
+    "total_questions": 9,
+    "total_viewpoints": 3,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L3",
+    "fact_type_distribution": {
+      "canonical_text_fact": 38,
+      "text_inference": 22,
+      "scholarly_viewpoint": 14,
+      "disputed_version": 7,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 2
+  }
+}

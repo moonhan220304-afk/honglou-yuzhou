@@ -1,0 +1,805 @@
+{
+  "character": {
+    "id": "character_jia_huan",
+    "name": "贾环",
+    "slug": "jia-huan",
+    "aliases": [
+      "环三爷",
+      "三爷"
+    ],
+    "category": "荣国府公子（贾政庶三子）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾政与赵姨娘之子，荣国府庶出三公子，探春之同母弟，宝玉之异母弟。",
+      "position": "贾政庶三子，荣国府被边缘化的公子。",
+      "origin": "荣国府庶出。",
+      "generation": "与宝玉同辈"
+    },
+    "tags": [
+      "庶出",
+      "赌钱赖账",
+      "推蜡烫伤",
+      "手足眈眈",
+      "告密",
+      "茉莉粉",
+      "卖巧姐",
+      "猥琐",
+      "赵姨娘之子"
+    ],
+    "summary": {
+      "short": "贾政庶三子，赵姨娘所生。第二十回赌钱赖账被凤姐训，第二十五回推蜡烫伤宝玉，第三十三回告密害宝玉挨打，第六十回茉莉粉事件——他是「环」：宝玉的阴暗镜像，庶出制度养出的「猥琐」。",
+      "long": "贾环是荣国府公子群里最不起眼、最不讨喜的一个。他与探春同出赵姨娘，姐姐的精明与他的猥琐恰成两极。全书写他的笔法近乎残忍：第二十回与莺儿赌钱赖账，哭着回来被凤姐数落——「输了几个钱，就这么个样儿」；第二十五回他「故意装作失手」，把一盏油汪汪的蜡灯向宝玉脸上推去，烫得宝玉满脸燎泡；第三十三回「手足眈眈小动唇舌」，他借金钏之死向贾政诬告「宝玉哥哥前日在太太屋里，拉着太太的丫头金钏儿强奸不遂」，成为宝玉挨打的重要推手；第六十回他向芳官讨蔷薇硝，得的是茉莉粉——一场由他而起、由赵姨娘闹大的风波。他的每一次出场，几乎都伴随着「下作」：赌钱、烫人、告密、贪小便宜。但曹雪芹的笔始终保持着平衡——他写贾环的恶，也写他的「被塑造」：庶出的身份、赵姨娘的教养、全府的冷眼，一起把这个孩子做成了现在的样子。后四十回（gaoe）写他变本加厉，与王仁、贾芸合谋，要把巧姐卖与外藩——「记微嫌舅兄欺弱女」。红学家论贾环，多把他与宝玉对举：二人同为贾政之子，一个是「玉」（天地钟灵），一个是「环」（俗世浊物）——曹雪芹以「环」写「玉」的反面，写尽了嫡庶制度与家庭教育如何制造人间的两极化。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "猥琐——输不起的格局",
+        "fact_type": "canonical_text_fact",
+        "description": "赌钱赖账、讨蔷薇硝被换成茉莉粉、告密害兄——贾环的恶全在「小」字上：没有薛蟠的豪横，没有凤姐的手腕，只有市井气的算计与输不起的恨。他的猥琐是全书写「坏孩子」最狠的笔法。"
+      },
+      {
+        "dimension": "恨——烫向宝玉的蜡灯",
+        "fact_type": "canonical_text_fact",
+        "description": "贾环对宝玉的恨是纯粹的：宝玉得宠，他受冷；宝玉有玉，他只有「环」。第二十五回的推蜡是恨的失控——他恨的不是宝玉本人，是宝玉所拥有的一切，以及自己永远得不到的一切。"
+      },
+      {
+        "dimension": "惧——庶子的底色是怕",
+        "fact_type": "canonical_text_fact",
+        "description": "贾环怕凤姐（被训时「诺诺的跟了出来」）、怕贾政（见父如鼠）、怕宝玉（心虚告密）。他的恶大多生于惧：烫人是惧后的恨，告密是惧中的逃。一个在恐惧中长大的孩子，只能长成阴暗。"
+      },
+      {
+        "dimension": "被塑造——赵姨娘式的教育",
+        "fact_type": "canonical_text_fact",
+        "description": "贾环的教养环境是全书最糟的：生母赵姨娘只教他「下流」，嫡母王夫人冷眼不管，父亲贾政只有打骂。探春有贾母王夫人的教养，贾环只有赵姨娘的耳濡目染——姐弟之别，首先是教养之别。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jia_huan_ch20",
+        "title": "赌钱赖账被凤姐训（第二十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jia_huan_tang_ch25",
+        "title": "推蜡烫伤宝玉（第二十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jia_huan_gaomi_ch33",
+        "title": "手足眈眈小动唇舌——告密（第三十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jia_huan_molifen_ch60",
+        "title": "茉莉粉事件（第六十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_jia_huan_caiyun_ch62",
+        "title": "摔还彩云赠物（第六十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_jia_huan_qiaojie_ch118",
+        "title": "与王仁谋卖巧姐（第一一八回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch20_jia_huan_dubo",
+        "quote": "贾环……输了钱，抵赖不给，被莺儿抢白，便哭了。……凤姐道：「大正月又怎么了？……你自己顽的东西输了钱，就这么个样儿，被小人家笑话！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十回。赌钱赖账又哭——贾环的出场即定调：猥琐、输不起、被训。"
+      },
+      {
+        "source_id": "source_ch25_jia_huan_tang",
+        "quote": "贾环素日原恨宝玉……今见相离甚近，便要用热油烫瞎他的眼睛，因而故意装作失手，把那一盏油汪汪的蜡灯向宝玉脸上只一推。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十五回。一推烫伤——贾环之恶的第一次实体化：「故意装作失手」，恶与怯同在。"
+      },
+      {
+        "source_id": "source_ch33_jia_huan_gaomi",
+        "quote": "贾环便悄悄说道：「我母亲告诉我说，宝玉哥哥前日在太太屋里，拉着太太的丫头金钏儿强奸不遂，打了一顿。那金钏儿便赌气投井死了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十三回「手足眈眈小动唇舌」。半句诬告，把宝玉推进贾政的板子下——手足二字，满纸反讽。"
+      },
+      {
+        "source_id": "source_ch60_jia_huan_molifen",
+        "quote": "贾环……向芳官要蔷薇硝……芳官得了，连忙递与贾环：「这里头不是蔷薇硝，是茉莉粉。」……贾环一看，果然是茉莉粉，便笑着出去了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十回。讨蔷薇硝得茉莉粉——他分不清、认不得，反被丫鬟戏弄。他的「小」与「窘」，一个细节写尽。"
+      },
+      {
+        "source_id": "source_ch62_jia_huan_caiyun",
+        "quote": "贾环听了，将彩云凡私赠之物都拿了出来，照着彩云的脸摔了去，说：「……你如今也不用他们，不用我和我妈了？」……彩云赌气，把东西包了，扔在河里。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十二回。疑彩云与宝玉有私，摔还赠物——连最忠心的丫鬟都被他亲手推开。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "贾府玉旁辈分排行之子——珍、珠、琏、环、琮诸名皆从「玉」旁",
+      "detail": "「环」为玉旁之字，与「宝玉」之「玉」同属一系，却只是「环」——环珮之环，配饰之属。红学论者多谓「环」谐「坏」，暗示其品性；与宝玉之「玉」（通灵之石）对看：玉是天地钟灵，环是俗世浊物——名字即暗示了这对异母兄弟的两极化命运。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；探春同母弟，比探春小（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "环三爷",
+      "type": "府内称谓",
+      "context": "荣国府下人对贾环的称呼——「三爷」的尊称里没有半分尊重",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "三爷",
+      "type": "排行称谓",
+      "context": "贾政诸子中排行第三（珠、宝玉、环），故称三爷",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jia_huan_ch20",
+      "title": "赌钱赖账——出场即猥琐",
+      "event_level": "minor",
+      "chapter": {
+        "number": 20,
+        "title": "王熙凤正言弹妒意 林黛玉俏语谑娇音",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾环与莺儿等赌钱，输了赖账，被莺儿抢白：「一个作爷的，还赖我们这几个钱。」贾环哭了。凤姐路过，训斥他「大正月又怎么了」，贾环「诺诺的跟了出来」，回头又被凤姐骂了一通。赵姨娘骂他，反遭凤姐数落。"
+      },
+      "summary": {
+        "short": "贾环的第一次正式出场就是丑态：赌钱、赖账、哭鼻子、挨训。凤姐一句话点破他的格局——「输了几个钱，就这么个样儿」。猥琐，从开场就写定了。",
+        "meaning": [
+          "赖账之「小」——公子身份的彻底失格",
+          "凤姐的训斥与贾环的「诺诺」——庶子在荣国府的真实位置",
+          "「被小人家笑话」——凤姐点出的正是他的自我矮化"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "猥琐的成因",
+          "content": "贾环的猥琐不是天性：一个被生母教着「下流」、被众人冷眼、被嫡兄光环压着的孩子，只能长成输不起的样子。赌钱赖账是穷相——他缺的不是钱，是全府没有人给过他「体面」二字。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_huan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ying_er",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_huan_tang_ch25",
+      "title": "推蜡烫伤宝玉",
+      "event_level": "major",
+      "chapter": {
+        "number": 25,
+        "title": "魇魔法姊弟逢五鬼 红楼梦通灵遇双真",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院附近",
+        "specific": "贾环奉命抄《金刚咒》，见宝玉与彩霞顽笑，素日积恨爆发，故意装作失手，把油汪汪的蜡灯向宝玉脸上推去。宝玉满脸燎泡，险些烫瞎。王夫人怒骂赵姨娘。"
+      },
+      "summary": {
+        "short": "贾环之恶的第一次实体化：一盏蜡灯，满腹积恨。他「故意装作失手」——恶里带着怯，怯里藏着恨。这一推，把庶子对嫡兄的全部暗流推上了台面。",
+        "meaning": [
+          "「素日原恨宝玉」——恨的源头：得宠与失爱的差距",
+          "「故意装作失手」——恶的不彻底性：他连作恶都不敢堂堂正正",
+          "王夫人只骂赵姨娘——嫡母体系里，庶子的罪永远是生母的罪"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "恨的失格",
+          "content": "贾环的恨是真实的，表达却是猥琐的：他不敢公开与宝玉为敌，只敢「装作失手」。这一推写出了他的全部人格——有恨无胆，有恶无格。与探春（同样的恨可以化为干练）对照，更见他的教育之失。"
+        },
+        {
+          "type": "hongxue",
+          "title": "烫伤与魇魔法的递进",
+          "content": "第二十五回的结构极精巧：贾环的「灯」在前，赵姨娘的「魇」在后——母子的恶从物理伤害递进到超自然谋杀。曹雪芹把母子二人放在同一回，写尽了这个庶出阵营的恨意浓度：从烫伤到索命，只隔了几页。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_huan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_caixia",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_huan_gaomi_ch33",
+      "title": "手足眈眈小动唇舌——告密",
+      "event_level": "major",
+      "chapter": {
+        "number": 33,
+        "title": "手足眈眈小动唇舌 不肖种种大承笞挞",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾政书房外",
+        "specific": "贾政因忠顺王府索蒋玉菡与金钏之事盛怒，恰贾环路过，被贾政叫住。贾环见机诬告：「宝玉哥哥前日在太太屋里，拉着太太的丫头金钏儿强奸不遂，打了一顿。那金钏儿便赌气投井死了。」贾政大怒，宝玉遂遭毒打。"
+      },
+      "summary": {
+        "short": "第三十三回的告密是贾环之恶的顶点：一句半真半假的「强奸不遂」，成了宝玉挨打的最后一根稻草。「手足眈眈」四字，写尽这对异母兄弟的关系本质。",
+        "meaning": [
+          "「手足眈眈」——回目直接定性：兄弟即仇敌",
+          "告密的时机（贾政盛怒）与内容（强奸金钏）——恶的精准度",
+          "金钏之死的罪名被安在宝玉头上——贾环借死人的血告活人的状"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "宝玉挨打的三重导火索",
+          "content": "学者指出，宝玉挨打是忠顺王府索人、金钏投井、贾环告密三事叠加的结果——贾环的诬告是第三根、也是最后压垮骆驼的稻草。回目「手足眈眈小动唇舌」与「不肖种种大承笞挞」对举：小人的唇舌与大棒的笞挞，合谋了一场父子的血剧。"
+        },
+        {
+          "type": "character",
+          "title": "告密的快感",
+          "content": "贾环告密时的「悄悄说道」与宝玉挨打时的痛快形成对照——这是他一生罕见的「得手」时刻。庶子的全部怨毒，在这一告里找到了出口。但告密换不来任何东西：贾政打的是宝玉，冷的是贾环。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_huan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiang_yuhan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jinchuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhongshun_wang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_huan_molifen_ch60",
+      "title": "茉莉粉事件——被戏弄的讨要",
+      "event_level": "minor",
+      "chapter": {
+        "number": 60,
+        "title": "茉莉粉替去蔷薇硝 玫瑰露引来茯苓霜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "贾环向芳官讨蔷薇硝送彩云，芳官以茉莉粉搪塞。贾环分不清真假，欢欢喜喜拿去给彩云——彩云一看是茉莉粉，笑他上当。赵姨娘得知，大闹怡红院。"
+      },
+      "summary": {
+        "short": "讨蔷薇硝得茉莉粉——贾环连被戏弄都分辨不出。他的「小」在这个事件里写尽：丫鬟敢骗他，彩云笑他上当，赵姨娘替他出头又出丑。一场由他的贪小便宜引发的闹剧，最后受伤的仍是自己人。",
+        "meaning": [
+          "分不清蔷薇硝与茉莉粉——庶子的见识与他的人一样「小家子」",
+          "芳官敢骗他——贾环在丫鬟心中的分量，比丫鬟还轻",
+          "他为彩云讨东西的初衷（讨好）与结果（害彩云受牵连）的反差"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "讨好的失败",
+          "content": "贾环向芳官讨硝，本是想讨好彩云——这是他难得的一点温情。结果温情被戏弄，闹剧由母亲升级，最后彩云的心也凉了。曹雪芹对贾环的残忍正在于此：连他仅有的一点好意，都不被世界允许成立。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_huan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_huan_caiyun_ch62",
+      "title": "摔还彩云赠物",
+      "event_level": "minor",
+      "chapter": {
+        "number": 62,
+        "title": "憨湘云醉眠芍药裀 呆香菱情解石榴裙",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "玫瑰露案由宝玉应承后，贾环疑彩云与宝玉有私，把彩云私赠之物尽数拿出，照脸摔去：「你如今也不用他们，不用我和我妈了？」彩云赌气，把东西包了扔进河里。二人从此断绝。"
+      },
+      "summary": {
+        "short": "彩云是为贾环偷了王夫人东西的人，贾环却怀疑她与宝玉有私——他把唯一的真心摔在地上。这个细节是贾环人物弧线的谷底：他连分辨人心的能力都没有。",
+        "meaning": [
+          "彩云之忠（偷玫瑰露）换来的却是猜忌——贾环不配被爱",
+          "「照脸摔去」——他的怒与他的蠢，同步到达顶点",
+          "彩云弃物——庶子阵营里最后一点人情的流失"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "自毁者",
+          "content": "贾环的悲剧是自毁式的：烫宝玉（树敌）、告密（被看透）、摔彩云（失人心）——他的每一刀都砍向自己人。曹雪芹写他不是要读者恨他，而是要读者看见：被恨意喂养大的孩子，最先毁掉的是自己身边仅有的暖意。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_huan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_huan_qiaojie_ch118",
+      "title": "与王仁谋卖巧姐",
+      "event_level": "major",
+      "chapter": {
+        "number": 118,
+        "title": "记微嫌舅兄欺弱女 惊谜语妻妾谏痴人",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "后四十回（gaoe）写贾府败落后，王仁（凤姐之兄）、贾环、贾芸合谋，撺掇邢夫人把巧姐许给外藩郡王（实为拐卖）。贾环在旁帮衬推动，欲借机得利。幸刘姥姥、平儿设计，巧姐随刘姥姥避祸乡下，得脱大难。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）里，贾环的恶走向了终局：与王仁合谋卖亲侄女巧姐。从烫伤、告密到卖侄，他的恶完成了从小奸小坏到「卖人」的升级——续书给他的堕落画了最后的句号。",
+        "meaning": [
+          "「舅兄欺弱女」——回目把贾环归入「欺弱女」的阵营",
+          "与王仁合谋——他的恶终于找到了同党",
+          "巧姐得救、贾环落空——他的最后一次作恶仍以失败告终"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "续书的强化处理",
+          "content": "续书（gaoe）把贾环写成卖巧姐的帮凶，被学界视为对前八十回人物弧线的「强化推进」：他的恶从家庭内部（烫兄、告密）扩展到家族存亡（卖侄）。亦有论者认为处理过火——前八十回的贾环是「猥琐」而非「丧心病狂」，卖侄之恶有违其怯懦本性。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_huan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xing_furen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_ren",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jia_huan_baoyu",
+      "from": "character_jia_huan",
+      "to": "character_jia_baoyu",
+      "type": "兄弟（嫡庶之恨）",
+      "nature": [
+        "family",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾环与宝玉是全书最紧张的一对兄弟：嫡庶之差、宠辱之别，把血缘变成敌意。贾环的烫、告、恨全冲着宝玉；宝玉对贾环却近乎无视——最高级的轻蔑是连恨都不给。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "推蜡烫伤",
+          "chapter": 25,
+          "description": "贾环以蜡灯烫伤宝玉。"
+        },
+        {
+          "stage": 2,
+          "title": "诬告",
+          "chapter": 33,
+          "description": "贾环告密，宝玉挨打。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_huan_jia_tanchun",
+      "from": "character_jia_huan",
+      "to": "character_jia_tanchun",
+      "type": "同母姐弟",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "同出赵姨娘，探春与贾环走了相反的路：姐姐精明干练受重用，弟弟猥琐下作被鄙弃。探春对贾环从失望到疏远——她管得了他，救不了他。姐弟的对照是全书「教养决定论」的最强证据。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "维护与失望",
+          "chapter": 60,
+          "description": "茉莉粉事件后探春赶来劝架，对母亲与弟弟失望透顶。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_huan_jia_zheng",
+      "from": "character_jia_huan",
+      "to": "character_jia_zheng",
+      "type": "父子（惧与疏）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾政对贾环的态度是「不指望」：从不以他为荣，只有教训。贾环对贾政只有惧——第三十三回的告密，是在父亲盛怒下的借刀杀人。父子之间的情感几乎为零，只剩礼法。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "借刀告密",
+          "chapter": 33,
+          "description": "贾环趁贾政盛怒诬告宝玉。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_huan_wang_xifeng",
+      "from": "character_jia_huan",
+      "to": "character_wang_xifeng",
+      "type": "被训者与训斥者",
+      "nature": [
+        "conflict",
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐是全府最不把贾环当爷的人：当众训他、当面贬他。贾环对凤姐既惧且恨——赵姨娘的魇魔法首要目标就是凤姐。这对「婶侄」的敌对，是凤姐掌权体系与庶出阵营矛盾的缩影。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "当众训斥",
+          "chapter": 20,
+          "description": "凤姐数落赌钱赖账的贾环。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_huan_wang_ren",
+      "from": "character_jia_huan",
+      "to": "character_wang_ren",
+      "type": "同谋（合卖巧姐）",
+      "nature": [
+        "conflict",
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）写贾环与王仁合谋卖巧姐：王仁图财，贾环趁乱。这对「恶的同盟」标志着贾环的堕落升级——从家庭内部的猥琐，走向对弱女的犯罪。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "合谋",
+          "chapter": 118,
+          "description": "王仁撺掇邢夫人，贾环帮衬推动卖巧姐。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_huan_jia_qiaojie",
+      "from": "character_jia_huan",
+      "to": "character_jia_qiaojie",
+      "type": "叔侄（谋害与被谋害）",
+      "nature": [
+        "family",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）里，贾环把恶手伸向了亲侄女巧姐——参与谋卖外藩。巧姐之「巧」，在于刘姥姥两次相救；贾环之「环」，在于恶念终成环状回旋，砸回自己头上（谋事败露，一无所获）。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "谋卖",
+          "chapter": 118,
+          "description": "贾环参与谋卖巧姐。"
+        },
+        {
+          "stage": 2,
+          "title": "落空",
+          "chapter": 119,
+          "description": "巧姐随刘姥姥避祸，贾环阴谋破产。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jia_huan_nature",
+      "title": "贾环是天生坏种，还是被歧视逼坏的？",
+      "slug": "was-jia-huan-born-bad-or-made-bad",
+      "question_type": "character_morality",
+      "importance_weight": 76,
+      "heat_weight": 72,
+      "neutral_overview": "贾环的猥琐从出场就写定：赖账、烫兄、告密。这是他的本性，还是庶出处境与赵姨娘教养的结果？",
+      "viewpoint_ids": [
+        "vp_jia_huan_born",
+        "vp_jia_huan_environment",
+        "vp_jia_huan_shadow"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jia_huan_born",
+          "title": "先天论：猥琐自小，曹雪芹无意为他开脱",
+          "summary": "贾环的出场描写全无同情：赌钱赖账、撒泼哭闹、「故意装作失手」。曹雪芹对他的定调就是「人物委琐，举止荒疏」。他的恶是天性使然——同样庶出的探春就长成了精明强干的人。",
+          "evidence": [
+            "出场即赖账哭闹的描写",
+            "「人物委琐，举止荒疏」的作者定评"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jia_huan_environment",
+          "title": "环境论：庶出+赵姨娘的双重诅咒",
+          "summary": "贾环的成长环境是全书最恶劣的：生母教他下流，嫡母冷眼，全府鄙弃。他被所有人当「坏胚子」对待，最终长成了坏胚子——这是「标签效应」的古典案例。他需要的是与探春一样的教养机会，而制度没给。",
+          "evidence": [
+            "赵姨娘「自己不尊重」的言传身教",
+            "探春被贾母王夫人教养与贾环被弃置的对照"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jia_huan_shadow",
+          "title": "阴影论：他是宝玉光环下的畸形儿",
+          "summary": "贾环的一切恶都源于「活在宝玉的阴影里」：同是贾政之子，一个衔玉而生众星捧月，一个庶出遭嫌无人问津。他的烫与告都是对「光环」的绝望反击——他恨的不是宝玉，是自己永远的第二名。",
+          "evidence": [
+            "「素日原恨宝玉」的直白心理描写",
+            "推蜡时「故意装作失手」的怯与恨"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_jia_huan_gaomi",
+      "title": "第三十三回的告密——贾环是宝玉挨打的主因吗？",
+      "slug": "was-jia-huans-informing-the-main-cause-of-baoyus-beating",
+      "question_type": "plot_analysis",
+      "importance_weight": 74,
+      "heat_weight": 68,
+      "neutral_overview": "宝玉挨打是忠顺王府索人、金钏投井、贾环告密三事叠加。贾环的诬告占多大分量？",
+      "viewpoint_ids": [
+        "vp_jia_huan_main",
+        "vp_jia_huan_trigger",
+        "vp_jia_huan_narrative"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jia_huan_main",
+          "title": "主因论：「强奸不遂」击穿了贾政的底线",
+          "summary": "忠顺王府之事伤的是贾府体面，金钏之事伤的是贾政颜面，唯有贾环的「强奸不遂」击穿了一个父亲的道德底线——贾政大怒的峰值正由这句诬告触发。没有贾环，板子不会打得这么狠。",
+          "evidence": [
+            "贾政听告后「气的面如金纸」的直接反应",
+            "「强奸」罪名与贾政卫道士人格的冲突"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jia_huan_trigger",
+          "title": "导火索论：三事叠加，贾环只是最后一根稻草",
+          "summary": "宝玉挨打是多重罪状累积的结果：忠顺王府索蒋玉菡（勾结优伶）、金钏投井（逼淫母婢）、贾环告密（强奸未遂）——贾政的火早已被前两事点着，贾环的告密只是「火上浇油」。单论主因，忠顺王府的政治危机远重于贾环的私仇。",
+          "evidence": [
+            "贾政先因忠顺王府事「气的目瞪口呆」",
+            "金钏之死已让贾政「气的面如金纸」"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jia_huan_narrative",
+          "title": "叙事论：告密是曹雪芹的「最后一击」设计",
+          "summary": "从叙事结构看，贾环的告密安排在贾政盛怒的路上，是曹雪芹蓄意的「压轴」：忠顺王府是政治线，金钏是道德线，贾环是家庭线——三线归总于一场笞挞，才够写尽宝玉挨打的全部意义。贾环的分量不在「主因」，在于「收束」。",
+          "evidence": [
+            "回目「手足眈眈小动唇舌 不肖种种大承笞挞」的对仗设计",
+            "告密场景的时机安排（贾政盛怒的推进结构）"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_jia_huan_ending",
+      "title": "后四十回贾环卖巧姐——这个堕落可信吗？",
+      "slug": "is-jia-huans-selling-of-qiaojie-credible",
+      "question_type": "version_dispute",
+      "importance_weight": 68,
+      "heat_weight": 64,
+      "neutral_overview": "续书（gaoe）让贾环与王仁合谋卖亲侄女巧姐。前八十回的贾环猥琐而怯懦，卖侄之恶是否超出了他的人格容量？",
+      "viewpoint_ids": [
+        "vp_jia_huan_credible",
+        "vp_jia_huan_exaggerated"
+      ],
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "viewpoints": [
+        {
+          "id": "vp_jia_huan_credible",
+          "title": "可信论：积恶成性的必然升级",
+          "summary": "贾环的恶有清晰的升级线：赖账→烫兄→告密→卖侄。前八十回已埋伏「这家私不怕不是我环儿的」的贪念，家败之后他为钱卖侄，是这条线的自然终点。他的怯只对强者，对孤女巧姐，他凶得起来。",
+          "evidence": [
+            "赵姨娘「家私」之念对贾环的浸染",
+            "前八十回恶的递进轨迹"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_jia_huan_exaggerated",
+          "title": "夸张论：怯懦之人做不出卖侄之举",
+          "summary": "前八十回的贾环是「猥琐」而非「丧心病狂」：他连作恶都要「装作失手」，何来卖侄的胆量？且他与巧姐无怨无仇，卖侄动机不足。续书为制造高潮，把他写成了脸谱化的恶人，偏离了人物基座。",
+          "evidence": [
+            "推蜡时「故意装作失手」的怯懦",
+            "续书将王仁之奸与贾环之恶合并的简化倾向"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jia_huan_sacrifice",
+      "title": "贾环——庶子制度的牺牲品与「恶的成长史」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1988,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，贾环是《红楼梦》中「恶的成长史」的完整样本：从赖账到烫兄、从告密到卖侄（gaoe），曹雪芹（及续书作者）逐层展示一个被歧视、被教唆、被鄙弃的孩子如何一步步长成坏胚。他的形象价值在于双重性：既是作恶者（罪不容赦），又是制度牺牲品（其恶皆有来处）。有论者将他与探春对举，指出相同的出身、不同的教养产生截然相反的人格——曹雪芹借此把「教育」写成了决定人格的第一变量。"
+    },
+    {
+      "id": "viewpoint_jia_huan_yuhuan",
+      "title": "「环」与「玉」——嫡庶制度的两极镜像",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1993,
+      "source_title": "多项叙事结构研究",
+      "description": "学界分析贾环的叙事功能：他是宝玉的反面镜像——「环」对「玉」，浊对清，恨对痴。曹雪芹把这对异母兄弟写成同一制度下的两极产品：宝玉被捧成「玉」，贾环被踩成「环」。第三十三回回目「手足眈眈」与「不肖种种」的对举，正是这对镜像的第一次正面冲突。论者认为，贾环的存在使宝玉的形象获得制度性的纵深感——没有贾环的暗，宝玉的亮无从参照。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 7,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 31,
+      "text_inference": 7,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 10,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

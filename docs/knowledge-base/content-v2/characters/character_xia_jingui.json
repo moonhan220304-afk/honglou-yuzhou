@@ -1,0 +1,515 @@
+{
+  "character": {
+    "id": "character_xia_jingui",
+    "name": "夏金桂",
+    "slug": "xia-jin-gui",
+    "aliases": [
+      "金桂",
+      "桂花夏家小姐",
+      "河东狮"
+    ],
+    "category": "薛家媳妇（薛蟠之妻）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "桂花夏家独女——为皇宫供应桂花盆景的富商之家，自幼丧父，与寡母相依。",
+      "position": "夏家小姐→薛蟠正妻（河东狮）。",
+      "origin": "商户巨富之家（户部挂名的皇商旁支背景）。",
+      "generation": "与薛蟠同辈"
+    },
+    "tags": [
+      "河东狮",
+      "桂花夏家",
+      "改秋菱",
+      "苛待香菱",
+      "宝蟾设计",
+      "蟾宫折桂",
+      "两地生孤木",
+      "恶妇形象",
+      "自食其果"
+    ],
+    "summary": {
+      "short": "桂花夏家独女，泼辣妒悍。第七十九回「薛文龙悔娶河东狮」嫁入薛家，把香菱改名秋菱，苛待薛蟠薛姨妈；后与宝蟾设计陷害香菱。后四十回（gaoe，第一百零三回）写她下毒害香菱反毒死自己——与判词「自从两地生孤木，致使香魂返故乡」暗示的香菱结局不合。",
+      "long": "夏金桂，桂花夏家之独女——夏家专为皇宫供应桂花盆景，「桂花」是她的家徽与名号。她自幼丧父，寡母溺爱，养成「娇养太过，酿成个盗跖的性气」。第七十九回「薛文龙悔娶河东狮」：薛蟠贪其美貌与妆奁而娶，过门后金桂现出泼辣妒悍的真面目，先是把香菱改名「秋菱」（夺其名分、羞辱其地位），继而苛待薛蟠、辖制薛姨妈，闹得薛家鸡犬不宁。她与陪嫁丫鬟宝蟾合谋，设计作践香菱（第八十回「美香菱屈受贪夫棒」）。后四十回（gaoe）续写她变本加厉，欲毒死香菱，误毒自己，中毒身亡（第一百零三回）——即「施毒计金桂自焚身」。这一结局与第五回香菱判词「自从两地生孤木，致使香魂返故乡」存在张力：判词暗示香菱被金桂害死（「两地生孤木」=「桂」字，金桂出现导致香菱「返故乡」=死），而续书反写金桂毒人自毒、香菱得以善终。名字考据：金桂=「蟾宫折桂」之桂，「桂花夏家」之金桂——富贵香气与毒辣性气的一体两面。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "泼辣妒悍——「河东狮」的性气",
+        "fact_type": "canonical_text_fact",
+        "description": "第七十九回回目「薛文龙悔娶河东狮」以「河东狮」定其性气：进门即掀房顶——辖制丈夫、顶撞婆婆、作践侍妾。她的泼与凤姐不同：凤姐之泼有算计，金桂之泼是纯然的本能——占有欲与破坏欲的混合体。"
+      },
+      {
+        "dimension": "嫉妒与占有——对香菱的必欲除之",
+        "fact_type": "canonical_text_fact",
+        "description": "金桂对香菱的恨出于嫉妒：香菱之美（「生的又好」）、香菱之宠（宝钗护着、薛蟠先前爱过）。她改名「秋菱」是夺名、设计「戳死」是夺命——她的嫉妒是全书最赤裸的妻妾斗争样本。"
+      },
+      {
+        "dimension": "骄纵之源——寡母溺爱下的人格缺陷",
+        "fact_type": "canonical_text_fact",
+        "description": "夏家「桂树开花，香闻十里」，金桂生而富贵、生而骄纵：外具花柳之姿，内秉风雷之性。曹雪芹写她的「盗跖性气」与「自持刀斧」——娘家的溺爱与巨富，养成了这个把丈夫婆婆都当成可辖制之物的恶妇。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xia_jingui_marry_ch79",
+        "title": "薛文龙悔娶河东狮（第七十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xia_jingui_rename_ch79",
+        "title": "改香菱为秋菱（第七十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xia_jingui_abuse_ch80",
+        "title": "苛待薛家上下，与宝蟾设计害香菱（第八十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xia_jingui_poison_ch103",
+        "title": "毒香菱反毒死自己（第一百零三回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch79_jingui_marry",
+        "quote": "第七十九回回目：薛文龙悔娶河东狮 贾迎春误嫁中山狼",
+        "fact_type": "canonical_text_fact",
+        "note": "「河东狮」与「中山狼」对举——曹雪芹写「悍妇」与「恶夫」的双重悲剧。"
+      },
+      {
+        "source_id": "source_ch79_jingui_qiuling",
+        "quote": "（金桂）因笑道：「菱角花谁闻见香来着？……依我说，也取个什么『秋』字，倒好。」香菱道：「就依奶奶的话，叫秋菱吧。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十九回。改名秋菱——以「秋」夺「香」，香菱命运急转直下。"
+      },
+      {
+        "source_id": "source_ch80_jingui_design",
+        "quote": "第八十回回目：美香菱屈受贪夫棒 王道士胡诌妒妇方",
+        "fact_type": "canonical_text_fact",
+        "note": "金桂设计令薛蟠棒打香菱——「妒妇」作恶的巅峰。"
+      },
+      {
+        "source_id": "source_ch103_jingui_death",
+        "quote": "第一百零三回回目：施毒计金桂自焚身 昧真禅雨村空遇旧",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。金桂下毒害香菱反毒死自己——续书对其结局的处理。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「金桂」取自桂花夏家之桂花",
+      "detail": "金桂=金秋之桂：夏家专供皇宫的桂花盆景，以「金桂」命名独女，是富贵与香气的象征。判词「自从两地生孤木，致使香魂返故乡」——「两地生孤木」即「桂」字（两个「土」加一「木」），暗示金桂的出现导致香菱之死。红学家指出「金桂」之名双关：既是桂花之贵（富），又是「桂」字之毒（害）——香气与毒气同源。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 79,
+          "evidence": "香菱对宝玉介绍夏家小姐（未明写年龄）",
+          "age": "未见明文"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约17岁出嫁（text_inference：薛家说亲语境与红学推算）",
+        "story_end": "未见明文",
+        "death_age": "未见明文（后40回gaoe写毒人反自毒死）"
+      },
+      "conclusion": "原文未见明文年龄；红学通行推算出嫁时约17岁（红学观点）。",
+      "controversies": [],
+      "fact_type": "scholarly_viewpoint"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "河东狮",
+      "type": "回目称号",
+      "context": "第七十九回回目「薛文龙悔娶河东狮」——苏轼戏称陈慥妻柳氏为「河东狮吼」，后以「河东狮」代指悍妇",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "桂花夏家小姐",
+      "type": "家世称谓",
+      "context": "「桂花夏家」——京城专为皇宫供应桂花盆景的富商，金桂是其独女",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xia_jingui_marry_ch79",
+      "title": "薛文龙悔娶河东狮",
+      "event_level": "major",
+      "chapter": {
+        "number": 79,
+        "title": "薛文龙悔娶河东狮 贾迎春误嫁中山狼",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "薛蟠贪夏家富贵与金桂貌美（「色情二字」皆具），娶金桂过门。婚后月余，金桂现出「盗跖的性气」——辖制薛蟠，顶撞婆婆，薛蟠「悔之无及」。"
+      },
+      "summary": {
+        "short": "薛蟠贪色娶金桂，换来「河东狮吼」。这场婚姻是「报应」的绝妙安排：惯于欺男霸女的呆霸王，被一个更泼的悍妇踩在脚下。曹雪芹以「悔娶」二字定其性质：这桩婚事从头就是错的。",
+        "meaning": [
+          "薛蟠的「报应」：打死冯渊、强抢香菱的恶霸，成了妻妾争斗中被辖制的「软脚蟹」",
+          "金桂过门的「现形记」：月余之间从「花柳之姿」到「盗跖之性」",
+          "「悔娶」与「误嫁」（迎春）并列——第七十九回写尽婚姻制度对两性的双向残害"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「河东狮」与「中山狼」的对仗",
+          "content": "第七十九回回目把金桂（河东狮）与孙绍祖（中山狼）对举：一个泼辣害夫，一个凶暴虐妻。曹雪芹以此展示婚姻悲剧的两性对仗——薛蟠在金桂处吃到的苦，正是香菱在薛蟠处吃过的苦的「以牙还牙」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xia_jingui",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xia_jingui_rename_ch79",
+      "title": "改香菱为秋菱——夺名之战",
+      "event_level": "minor",
+      "chapter": {
+        "number": 79,
+        "title": "薛文龙悔娶河东狮 贾迎春误嫁中山狼",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "金桂以「菱角花谁闻见香来着」为由，为香菱改名「秋菱」——香菱不敢违拗。金桂又将自己的丫鬟宝蟾给薛蟠做妾，制造妻妾矛盾。"
+      },
+      "summary": {
+        "short": "金桂的「夺名之战」从改名字开始：香菱→秋菱，夺走的是香菱最后一点自我的标记。「香」是香菱命运的题眼（判词「香魂返故乡」），金桂偏要抹掉这个「香」字。",
+        "meaning": [
+          "改名是权力宣示：正妻对侍妾的第一项权力就是命名权",
+          "「香」字被夺——香菱的名字、香气、命运一起被金桂碾碎",
+          "给宝蟾纳妾是「以妾制妾」——金桂把妻妾制度玩成自己的棋局"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "嫉妒的仪式感",
+          "content": "金桂对香菱的迫害从「名」开始：她不先打骂，先改名——「香菱」二字里藏着甄士隐之女、英莲之香的全部身世。金桂的改名是一种仪式性的羞辱：先夺其名，再夺其命。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xia_jingui",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_baodan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xia_jingui_abuse_ch80",
+      "title": "苛待薛家上下，与宝蟾设计害香菱",
+      "event_level": "major",
+      "chapter": {
+        "number": 80,
+        "title": "美香菱屈受贪夫棒 王道士胡诌妒妇方",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "金桂设计：让薛蟠误入香菱房中，再装病诬陷香菱「用魔法害人」。薛蟠不问青红皂白棒打香菱——「美香菱屈受贪夫棒」。金桂继而苛待薛姨妈，闹得薛家「鸡犬不宁」。"
+      },
+      "summary": {
+        "short": "金桂与宝蟾合谋，以「撞破奸情+魔法害人」的连环计让薛蟠棒打香菱。第八十回回目「美香菱屈受贪夫棒」——美的被污、屈的无告、贪夫的盲打，构成全书最黑暗的妻妾斗争场景。",
+        "meaning": [
+          "宝蟾是金桂的「剑」——与凤姐借秋桐之刀同构：妻妾制度的连环利用",
+          "薛蟠的「贪夫棒」：不辨是非的丈夫是最趁手的凶器",
+          "香菱之屈：被设计、被打、被弃——她的「香魂」在此回开始枯萎"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「妒妇方」的反讽",
+          "content": "回目下句「王道士胡诌妒妇方」：薛蟠为治金桂的妒病求方，王道士胡诌「疗妒汤」。曹雪芹以喜剧笔法写悲剧事实——妒无药可治，正如妻妾制度无药可救。金桂之妒不是病，是这个制度的必然产物。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xia_jingui",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_baodan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xia_jingui_poison_ch103",
+      "title": "施毒计金桂自焚身（后四十回）",
+      "event_level": "major",
+      "chapter": {
+        "number": 103,
+        "title": "施毒计金桂自焚身 昧真禅雨村空遇旧",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "薛家",
+        "specific": "金桂欲毒死香菱，将砒霜下在汤中，不料香菱未饮，金桂自己误饮毒汤，中毒身亡——「自焚身」即自食其果。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）安排金桂「毒人自毒」而死：她给香菱下砒霜，自己误饮身亡。这是续书最直白的「善恶有报」处理——让恶妇自食其果，让香菱逃出生天。",
+        "meaning": [
+          "「自焚身」的报应逻辑：续书以因果报应为金桂收场",
+          "香菱因此得以幸存——与判词「致使香魂返故乡」产生直接矛盾",
+          "此结局是续书「大团圆/报应分明」审美取向的典型样本"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "判词与续书的冲突",
+          "content": "第五回香菱判词「自从两地生孤木，致使香魂返故乡」明确暗示香菱死于金桂之手（两地生孤木=桂字）。续书却让金桂毒人自毒、香菱幸存。红学家多认为曹雪芹原意是金桂害死香菱——「香魂返故乡」即香菱之死。续书的改写在道德上痛快，在伏线上却违背了判词的预言。"
+        },
+        {
+          "type": "character",
+          "title": "「自焚身」的讽刺完成",
+          "content": "金桂之死完成其形象闭环：一生以毒害人，最终死于己毒。但即便这个「报应」结局成立，也无法回答一个更深的问题：是谁把她养成这样的？寡母溺爱、皇商家世、妻妾制度——金桂的毒，是整个环境的分泌物。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xia_jingui",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xia_jingui_xue_yima",
+      "from": "character_xia_jingui",
+      "to": "character_xue_yima",
+      "type": "婆媳（顶撞与辖制）",
+      "nature": [
+        "family",
+        "enemies"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "金桂过门即顶撞薛姨妈——「辖治薛蟠，摆布香菱，连薛姨妈也给他气病」。她打破了婆媳秩序的最后底线：薛姨妈在媳妇面前毫无权威，薛家的礼法彻底崩坏。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "顶撞",
+          "chapter": 79,
+          "description": "金桂对薛姨妈无礼，薛姨妈气病。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xia_jingui_baochan",
+      "from": "character_xia_jingui",
+      "to": "character_baochan",
+      "type": "主仆（合谋与利用）",
+      "nature": [
+        "social_alliance",
+        "enemies"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝蟾是金桂的陪嫁丫鬟，也是她害香菱的「剑」：金桂先让宝蟾给薛蟠做妾以分香菱之宠，再与宝蟾合谋陷害香菱。主仆合谋的模式与凤姐借秋桐同构。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "纳妾",
+          "chapter": 79,
+          "description": "金桂将宝蟾给薛蟠，制造妻妾矛盾。"
+        },
+        {
+          "stage": 2,
+          "title": "合谋",
+          "chapter": 80,
+          "description": "宝蟾配合金桂设计陷害香菱。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_xia_jingui_ending",
+      "title": "金桂「毒人自毒」的结局符合判词预言吗？",
+      "slug": "does-jingui-death-fit-judgment-poem",
+      "question_type": "version_dispute",
+      "importance_weight": 78,
+      "heat_weight": 75,
+      "neutral_overview": "判词「自从两地生孤木，致使香魂返故乡」暗示香菱死于金桂之手；后四十回（gaoe）却让金桂毒人自毒、香菱幸存。哪个结局更符合曹雪芹原意？",
+      "viewpoint_ids": [
+        "vp_xia_jingui_judgment",
+        "vp_xia_jingui_gaoe"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_xia_jingui_judgment",
+          "title": "判词派：香菱死于金桂之手是原意",
+          "summary": "「自从两地生孤木」用拆字法即「桂」——金桂进薛家门后，「致使香魂返故乡」即香菱被折磨致死（返回故乡=魂归故里=死）。脂批亦提示香菱「平生遭际实堪伤」的惨终。曹雪芹原意应是金桂害死香菱——妻妾制度的受害者死于妻妾制度。",
+          "evidence": [
+            "判词「两地生孤木」的拆字（桂）",
+            "脂评对香菱结局的提示"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xia_jingui_gaoe",
+          "title": "续书派：自食其果的报应美学",
+          "summary": "续书（gaoe）让金桂自食其果，符合传统读者的道德期待（恶有恶报），也让香菱获得「扶正」的善终（与薛蟠生子、被立为正妻）。从阅读心理上，这是「痛快」的结局；但从伏笔系统看，它违背判词预言，是续书「报应分明」审美对曹雪芹悲剧精神的稀释。",
+          "evidence": [
+            "第一百零三回「施毒计金桂自焚身」",
+            "续书中香菱被扶正的安排"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "question_xia_jingui_fengjie",
+      "title": "夏金桂与王熙凤：谁是《红楼梦》第一悍妇？",
+      "slug": "jingui-vs-fengjie-fiercest-woman",
+      "question_type": "character_comparison",
+      "importance_weight": 66,
+      "heat_weight": 62,
+      "neutral_overview": "金桂与凤姐都以泼辣著名，但凤姐之泼有章法，金桂之泼是本能。二者的「悍」有何本质区别？",
+      "viewpoint_ids": [
+        "vp_xia_jingui_compare"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xia_jingui_compare",
+          "title": "权术之悍 vs 本能之悍",
+          "summary": "凤姐之悍是「权术型」：害人有章法（借剑杀人）、有节奏（先礼后兵）、有伪装（装贤惠）；金桂之悍是「本能型」：辖制丈夫、顶撞婆婆、陷害香菱，全凭性气横冲直撞。所以凤姐之毒是「杀人于无形」，金桂之毒是「见人就咬」。曹雪芹写两个悍妇，一个死于权术反噬（凤姐），一个死于自食其毒（金桂）——悍妇的结局都指向毁灭。",
+          "evidence": [
+            "凤姐害尤二姐的连环计（第六十八、六十九回）",
+            "金桂害香菱的直白手段（第七十九、八十回）"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch79_jingui_guihua",
+      "quote": "（夏家）如今太爷也没了，只有一个太婆婆……因长安城里，上至王侯，下至买卖人，都称他家是「桂花夏家」。……合长安城，上自王侯，下至百姓，谁不晓得「桂花夏家」。",
+      "fact_type": "canonical_text_fact",
+      "note": "第七十九回。「桂花夏家」——金桂家世：皇商背景、富甲一方。"
+    },
+    {
+      "source_id": "source_ch79_jingui_qiuling_detail",
+      "quote": "金桂道：「菱角花谁闻见香来着？若说菱角香了，正经那些香花放在那里？可是不通之极。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第七十九回。金桂以「菱角不香」为由夺香菱之名。"
+    },
+    {
+      "source_id": "source_ch5_xiangling_judgment",
+      "quote": "判词：「根并荷花一茎香，平生遭际实堪伤。自从两地生孤木，致使香魂返故乡。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第五回香菱判词。「两地生孤木」=桂——香菱命运与金桂的判词关联。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xia_jingui_system",
+      "title": "夏金桂——妻妾制度养出的「恶之花」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1990,
+      "source_title": "红学人物专题研究",
+      "description": "红学界多将夏金桂视为「妻妾制度的产物」而非天生的恶人：她的泼辣妒悍是妻妾制度下女性的应激形态——制度赋予正妻「辖制侍妾」的权力，金桂只是把这份权力用到极致。学者指出，金桂与凤姐、夏金桂与赵姨娘构成「悍妇谱系」：凤姐之悍因掌权，赵姨娘之悍因失权，金桂之悍因「新妇争权」——三者的共同点是都被制度逼出了攻击性。"
+    },
+    {
+      "id": "viewpoint_xia_jingui_judgment_debate",
+      "title": "金桂结局的判词之争",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合版本学研究",
+      "year": 1996,
+      "source_title": "《红楼梦》后四十回研究",
+      "description": "关于金桂结局，「判词说」占据主流：学者依据「两地生孤木」的拆字与脂批线索，认定曹雪芹原意是香菱被金桂折磨致死；续书「金桂自焚身」是程高本对悲剧结局的道德化改造。亦有论者辩护续书写法：金桂之死自有其文学价值——「毒人自毒」完成了一个完整的人物弧光，且使香菱结局与甄士隐「好防佳节元宵后」的家族悲剧形成对位。此争议是后四十回研究的标准案例。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 7,
+    "citation_coverage": 0.93,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 22,
+      "text_inference": 5,
+      "scholarly_viewpoint": 4,
+      "disputed_version": 7,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 2
+  }
+}

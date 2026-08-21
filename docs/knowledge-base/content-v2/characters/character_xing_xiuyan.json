@@ -1,0 +1,499 @@
+{
+  "character": {
+    "id": "character_xing_xiuyan",
+    "name": "邢岫烟",
+    "slug": "xing-xiu-yan",
+    "aliases": [
+      "岫烟",
+      "邢姑娘"
+    ],
+    "category": "邢家小姐（邢夫人侄女，薛蝌未婚妻）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "邢夫人之侄女，家境贫寒（父亲邢忠）。",
+      "position": "邢家小姐→寄居大观园→许配薛蝌。",
+      "origin": "邢家寒门（与邢夫人同族，非显贵之支）。",
+      "generation": "与宝钗、黛玉同辈"
+    },
+    "tags": [
+      "当衣",
+      "半师半友妙玉",
+      "妙玉女弟子",
+      "端雅稳重",
+      "薛蝌定亲",
+      "穷而有节",
+      "浓淡由他冰雪中",
+      "白海棠",
+      "大观园寒门"
+    ],
+    "summary": {
+      "short": "邢夫人侄女，家贫（曾当衣度日）。第四十九回与宝琴等同进贾府，与妙玉有旧（半师半友），诗才端雅（「浓淡由他冰雪中」）；薛姨妈做媒许配薛蝌，第六十三回黛玉湘云笑称其为「妙玉之女弟子」。穷而有节，是全书最淡雅的一道「寒烟」。",
+      "long": "邢岫烟是邢夫人的侄女，家境贫寒——进大观园后月例二两银子还被邢夫人克扣一两，冬无皮衣，大雪天只穿单薄的旧毡斗篷，冷得「拱肩缩背」，后靠当衣周济度日。但她穷而有节、端雅稳重：不卑不亢、不争不怨，众姊妹无不称其「端雅」。她与妙玉有旧——曾在蟠香寺做过邻居，「妙玉常教他认字读书」，二人半师半友；妙玉入大观园栊翠庵后，岫烟仍常去拜访，是唯一能「破」妙玉孤高的人。第四十九回她与宝琴、李纹、李绮同进贾府，加入诗社，作红梅花诗「浓淡由他冰雪中」——被评为众作中「压尾」却最见性情。第五十七回薛姨妈做媒，将岫烟许配薛蝌——「天生的牛郎织女」一对；第六十三回黛玉湘云玩笑道她：「我们那有这个大福气做你妙玉的女弟子」。她的婚姻是全书少有的「两情相悦+门当户对」的安稳婚事。名字考据：岫=山穴（白云出岫）——穷而有节，淡而有致；烟=烟霞——她的形象是「浓淡由他冰雪中」的一缕寒烟。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "穷而有节——寒门女儿的尊严",
+        "fact_type": "canonical_text_fact",
+        "description": "岫烟的贫是全书写实最狠的一笔：克扣月钱、当衣度日、雪中单衣。但她从不哭穷、从不乞怜——当衣也当得从容（「衣裳是旧的，却从不失体统」）。她的「节」不是清高，是贫寒中养出的自重：穷，但不下作；淡，但不卑微。"
+      },
+      {
+        "dimension": "端雅稳重——大观园的「定盘星」",
+        "fact_type": "canonical_text_fact",
+        "description": "凤姐观察岫烟：「温厚可疼」——与邢夫人的「左性」完全不同。她不参与任何派系、不卷入任何是非，众姊妹（包括尖刻的黛玉）都敬她。她的稳是「贫而不改其乐」的稳：看透世情，却不为世情所动。"
+      },
+      {
+        "dimension": "妙玉的知音——半师半友的独特关系",
+        "fact_type": "canonical_text_fact",
+        "description": "岫烟是全书唯一能接近妙玉的人：蟠香寺邻居时妙玉教她识字读书（半师），大观园重逢后二人旧谊不断（半友）。妙玉孤高到连黛玉都嫌其俗，却对岫烟另眼相看——因为岫烟是唯一「见过她从前的人」且不奉承她的人。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xing_xiuyan_enter_ch49",
+        "title": "进贾府，加入诗社（第四十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xing_xiuyan_pawn_ch57",
+        "title": "当衣度日（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xing_xiuyan_betrothal_ch57",
+        "title": "薛姨妈做媒许配薛蝌（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xing_xiuyan_miaoyu_ch63",
+        "title": "「妙玉之女弟子」之谑（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch57_xiuyan_pawn",
+        "quote": "岫烟道：「……我到想着姑妈家去了，这里人多……谁知他们既得的月钱，拿去赌钱吃酒……我妈妈又给我使唤的那个丫头……到月底月钱不足，还得自己当衣裳……」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回岫烟向宝钗倾诉当衣之苦——寒门女儿在大观园的真实处境。"
+      },
+      {
+        "source_id": "source_ch57_xiuyan_betrothal",
+        "quote": "薛姨妈道：「……不如把你妹妹（岫烟）说与他（薛蝌）作配，恰好是一对儿。」……贾母命尤氏婆媳：「……把这事儿给定下来吧。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回。薛姨妈做媒、贾母做主，岫烟许配薛蝌。"
+      },
+      {
+        "source_id": "source_ch63_xiuyan_miaoyu",
+        "quote": "黛玉湘云玩笑道：「我们那有这个大福气做你妙玉的女弟子。」（岫烟答：「他也未必真心要我这个笨徒弟。」）",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十三回。黛玉湘云戏称岫烟为「妙玉之女弟子」——岫烟与妙玉的半师半友关系自此公开。"
+      },
+      {
+        "source_id": "source_ch50_xiuyan_poem",
+        "quote": "岫烟《咏红梅花》：「桃未芳菲杏未红，冲寒先喜笑东风。看来岂是寻常色，浓淡由他冰雪中。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十回。「浓淡由他冰雪中」——岫烟的自况：任他冰雪，我自浓淡。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「岫烟」取自陶渊明「云无心以出岫」（《归去来兮辞》）与烟霞意象",
+      "detail": "岫=山穴，烟=云气——「岫烟」即山间之烟霞，出岫之云。名字意境：淡、远、清、寒。红学家指出其名与「浓淡由他冰雪中」的自况诗呼应：她是大观园的一缕寒烟——不浓不淡、不争不抢，穷而有节。与妙玉（玉）、宝琴（琴）等「贵重」之名不同，岫烟之名取「自然之气」，暗合她与妙玉「山中岁月」的渊源。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约18岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；红学推算约十八岁（红学观点）。",
+      "controversies": [],
+      "fact_type": "scholarly_viewpoint"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "邢姑娘",
+      "type": "家世称谓",
+      "context": "贾府上下称其「邢姑娘」——邢夫人的侄女",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "岫烟",
+      "type": "名字",
+      "context": "本名邢岫烟，诗社中以「岫烟」行",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xing_xiuyan_enter_ch49",
+      "title": "随邢家进府——大观园的寒门新人",
+      "event_level": "minor",
+      "chapter": {
+        "number": 49,
+        "title": "琉璃世界白雪红梅 脂粉香娃割腥啖膻",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/大观园",
+        "specific": "邢家进京，岫烟随父母投靠邢夫人，与宝琴、李纹、李绮同批进府。众人雪中赏梅作诗，岫烟着一件旧毡斗篷，「拱肩缩背」——与宝琴的凫靥裘形成刺目对照。"
+      },
+      "summary": {
+        "short": "同一天进府的四位姑娘，岫烟最寒酸：宝琴有凫靥裘，岫烟只有旧毡斗篷。曹雪芹故意把「富」与「贫」并置在同一场雪里——岫烟的登场就是一部「寒门生存实录」的开篇。",
+        "meaning": [
+          "与宝琴的对照：同样的雪，凫靥裘与旧毡斗篷——大观园贫富分层的直观展示",
+          "「拱肩缩背」四字写尽寒门女儿在富贵丛中的窘迫",
+          "她的入场是「低调」的——正合她一生的基调：不引人注目地活着"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "一件旧毡斗篷的叙事",
+          "content": "曹雪芹不写岫烟的穷（「贫」字全文未直说），只写一件旧毡斗篷与「拱肩缩背」的身姿——以物写穷、以身写窘，胜过千言万语。这个开场为她后文的「当衣」情节蓄满了情感势能。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_xiuyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xing_furen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baoqin",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_li_qi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xing_xiuyan_pawn_ch57",
+      "title": "当衣度日——向宝钗的倾诉",
+      "event_level": "major",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（岫烟住处→宝钗处）",
+        "specific": "岫烟的月钱被邢夫人克扣一两、被下人讹诈，冬天当掉棉衣度日。宝钗发现她穿的竟是当票上的衣裳，追问之下岫烟倾吐实情。宝钗代她赎回衣物，并嘱她「以后有难处只管来找我」。"
+      },
+      "summary": {
+        "short": "岫烟被姑姑克扣、被下人勒索，只能当衣度日——这是大观园底层生存的最真实记录。她向宝钗倾诉时「不哭不闹」，只说事实——这份平静里的酸楚，比任何眼泪都重。",
+        "meaning": [
+          "邢夫人克扣侄女月钱——「亲情」在利益面前的赤裸裸",
+          "当衣的细节：富丽的大观园里，有人靠当衣服过冬——曹雪芹的阶级写实",
+          "宝钗的救济：大观园中仅有的温暖之一——也为薛家说亲埋下伏笔"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "穷的尊严",
+          "content": "岫烟当衣是全书「穷」写得最体面的一例：她不当首饰不当月钱，只当自己的旧衣——宁可挨冻，不欠人情。她向宝钗倾诉也不是乞怜，是「问到了才说」。穷而体面，是岫烟的人格底线。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_xiuyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xing_furen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xing_xiuyan_betrothal_ch57",
+      "title": "薛姨妈做媒——许配薛蝌",
+      "event_level": "major",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "薛姨妈见薛蝌尚未娶亲、岫烟端雅稳重，向贾母提亲将岫烟许配薛蝌。贾母做主说定。二人本已「先有意」，婚事遂成——全书少有的两厢情愿的婚姻。"
+      },
+      "summary": {
+        "short": "岫烟与薛蝌的婚事是《红楼梦》中罕见的「双向奔赴」：薛姨妈做媒之前，二人已彼此中意（岫烟「心中先已满意」，薛蝌亦「欢天喜地」）。这场门当户对（寒门对落魄）的婚事，是全书婚姻叙事中最暖的一笔。",
+        "meaning": [
+          "「天生的一对」：薛蝌忠厚、岫烟端雅——性格与境遇的双重匹配",
+          "薛姨妈的做媒动机：报答宝钗对岫烟的照拂之情，也为薛蝌寻一门「可靠」的亲",
+          "贾母做主：寒门之女获得最高权威的婚姻背书——岫烟命运的转机"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "反衬式的婚姻样本",
+          "content": "曹雪芹在宝黛爱情的煎熬（同回「试忙玉」）之侧，安排岫烟薛蝌的顺利定亲——两桩婚事同回并置：一个难如登天，一个水到渠成。岫烟的「顺」反衬宝黛的「难」：婚姻的成败从来不取决于爱情深浅，而取决于「名分门第」的匹配。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_xiuyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_ke",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xing_xiuyan_miaoyu_ch63",
+      "title": "「妙玉之女弟子」——半师半友的渊源",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "岫烟往栊翠庵访妙玉。黛玉湘云得知二人旧谊，玩笑道「我们那有这个大福气做你妙玉的女弟子」。岫烟自述渊源：曾与妙玉在蟠香寺做过十年邻居，妙玉「常教他认字读书」——半师半友。"
+      },
+      "summary": {
+        "short": "岫烟是全书唯一能自由出入妙玉世界的人：蟠香寺的十年邻里，妙玉教她识字读书。黛玉湘云的玩笑（「女弟子」）点破这段关系——岫烟是妙玉孤高世界里唯一的「故人」。",
+        "meaning": [
+          "妙玉对岫烟的特殊：孤高到拒人千里的妙玉，唯独给岫烟留了门",
+          "「半师半友」：不是师徒、不是闺蜜，是「山中岁月」共同体的幸存者",
+          "岫烟的「懂」：她见过妙玉的从前，所以不奉承她的现在"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "知音的另一种形态",
+          "content": "岫烟与妙玉的关系是全书「知音」叙事中最独特的一种：她们不是宝黛式的知己（灵魂相认），而是「渊源型」知音（岁月相认）。岫烟不陪妙玉参禅、不学她孤高，只是「记得她的从前」——这份记得，是妙玉最稀缺的奢侈品。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xing_xiuyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_miao_yu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xing_xiuyan_xue_baochai",
+      "from": "character_xing_xiuyan",
+      "to": "character_xue_baochai",
+      "type": "知心姐姐（周济与体恤）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝钗是岫烟在大观园最温暖的依靠：发现当衣秘密后替她赎衣、嘱她有难处只管开口；岫烟也敬宝钗之稳。宝钗对岫烟的照拂直接促成薛姨妈的做媒——「先有恩后有亲」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赎衣",
+          "chapter": 57,
+          "description": "宝钗发现岫烟当衣，代为赎回。"
+        },
+        {
+          "stage": 2,
+          "title": "成亲缘",
+          "chapter": 57,
+          "description": "薛家因宝钗与岫烟之谊，说定岫烟配薛蝌。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_xiuyan_red_plum",
+      "title": "咏红梅花（岫烟）",
+      "content": "桃未芳菲杏未红，冲寒先喜笑东风。看来岂是寻常色，浓淡由他冰雪中。",
+      "fact_type": "canonical_text_fact",
+      "note": "第五十回。「浓淡由他冰雪中」——岫烟自况：任凭冰雪，我自浓淡。红学多以此为岫烟人格的题眼。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_xing_xiuyan_miaoyu",
+      "title": "邢岫烟为什么能成为妙玉唯一的「故人」？",
+      "slug": "why-xiuyan-can-approach-miaoyu",
+      "question_type": "relationship_analysis",
+      "importance_weight": 68,
+      "heat_weight": 60,
+      "neutral_overview": "妙玉孤高到「万人不入他目」，却对岫烟另眼相看——教她识字、容她拜访。岫烟凭什么打破妙玉的孤高？",
+      "viewpoint_ids": [
+        "vp_xing_xiuyan_origin",
+        "vp_xing_xiuyan_character"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xing_xiuyan_origin",
+          "title": "渊源论：「故人」身份的不可替代",
+          "summary": "妙玉对岫烟的特殊源于「渊源」：蟠香寺十年邻里，岫烟见过妙玉「未被大观园包装」的从前——她认得的是妙玉这个人，而不是「栊翠庵的世外高人」。在奉承者环绕的妙玉眼里，只有岫烟的「旧眼」不含势利。故人之情，妙玉无法拒绝。",
+          "evidence": [
+            "「我和他做过十年的邻居」的自述",
+            "妙玉教岫烟识字的旧事"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xing_xiuyan_character",
+          "title": "人格论：不卑不亢的「淡」是通行证",
+          "summary": "岫烟的「淡」与妙玉的「傲」形成互补：她不奉承妙玉的孤高（不像拜帖的众人），也不刺痛妙玉的自尊（不像嫌其俗的黛玉）。她的穷而有节、端雅稳重，让妙玉感到「安全」——一个无求于她的人，才配做她的朋友。",
+          "evidence": [
+            "岫烟从不以「女弟子」身份自居的从容",
+            "她探望妙玉不带任何功利目的"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xing_xiuyan_betrothal",
+      "title": "岫烟与薛蝌的婚事为什么能成？——「顺」的婚姻样本",
+      "slug": "why-xiuyan-xueke-marriage-works",
+      "question_type": "character_analysis",
+      "importance_weight": 66,
+      "heat_weight": 58,
+      "neutral_overview": "宝黛的爱情障碍重重，岫烟薛蝌的婚事却水到渠成。这场「顺」婚透露了曹雪芹怎样的婚姻观？",
+      "viewpoint_ids": [
+        "vp_xing_xiuyan_match",
+        "vp_xing_xiuyan_contrast"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xing_xiuyan_match",
+          "title": "匹配论：门当户对+性格相合=婚姻成立",
+          "summary": "岫烟薛蝌的婚事满足传统婚姻的全部「可成立条件」：门当户对（寒门对落魄）、长辈做主（薛姨妈提、贾母准）、性格相合（端雅对忠厚）、两情相悦（先有意后说亲）。它证明：在曹雪芹笔下，婚姻悲剧的根源不是婚姻制度本身，而是「不匹配」——强行匹配（宝黛之理想爱vs家族之政治婚）才产生悲剧。",
+          "evidence": [
+            "二人「先有意」后成亲的细节",
+            "薛姨妈「天生一对」的评价"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xing_xiuyan_contrast",
+          "title": "反衬论：以「顺」写「难」的叙事策略",
+          "summary": "岫烟薛蝌的顺利婚事是曹雪芹的叙事反衬：同回（第五十七回）宝黛正在「试忙玉」的痛苦中煎熬，而岫烟的婚事「三言两语」即成。作者以这桩「顺婚」照见宝黛「难婚」的本质——不是爱情不够，而是没有长辈的成全。岫烟是宝黛的「对照镜」：她拥有的一切，正是黛玉缺失的一切。",
+          "evidence": [
+            "第五十七回「试忙玉」与「定亲岫烟」的同回并置",
+            "贾母对两桩婚事的不同态度"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch57_xiuyan_pawn_detail",
+      "quote": "宝钗道：「你也是……这里薛姨妈又把你妹妹说与薛蝌……你不如……把衣裳赎回来吧。」岫烟道：「当日说给我的月钱，二两银子，姑妈说先使了去，倒省得费事……若没有，我也是这样过的。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第五十七回。月钱被克扣、「这样过」的淡然——穷而有节的直接证据。"
+    },
+    {
+      "source_id": "source_ch63_xiuyan_origin",
+      "quote": "岫烟道：「我和他（妙玉）做过十年的邻居，只一墙之隔。他在蟠香寺修炼，我家原寒素，赁的是他庙里的房子……他常教我们认字读书。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第六十三回。岫烟自述与妙玉的渊源——半师半友的确证。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xing_xiuyan_cold_cloud",
+      "title": "邢岫烟——「穷而有节」的寒门人格典范",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1993,
+      "source_title": "红学人物专题研究",
+      "description": "红学界多视岫烟为「穷而有节」的人格典范：她的贫寒（当衣、克扣、单衣）与她的端雅（不卑、不怨、不乞）形成全书最动人的张力。学者指出，岫烟形象的价值在于「稀缺性」：大观园众女儿或富或贵或才，唯有岫烟示范了「贫困中的尊严」——她的「浓淡由他冰雪中」不是认命，是以淡定拒绝被贫穷定义。"
+    },
+    {
+      "id": "viewpoint_xing_xiuyan_miaoyu_key",
+      "title": "岫烟——理解妙玉的一把钥匙",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1998,
+      "source_title": "红学人物专题研究",
+      "description": "学者指出，岫烟是理解妙玉的关键入口：妙玉的孤高在岫烟面前失效，说明妙玉的「怪」不是本性，是处境（寄人篱下+修行者身份）的产物。岫烟之「淡」与妙玉之「傲」互为注脚：一个把贫寒活成从容，一个把孤高活成枷锁。二人的友谊是曹雪芹对「同类相惜」的温柔书写——两个从蟠香寺来的人，在大观园彼此作证。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 1,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.92,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 22,
+      "text_inference": 7,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 1
+  }
+}

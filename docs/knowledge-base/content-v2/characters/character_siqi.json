@@ -1,0 +1,573 @@
+{
+  "character": {
+    "id": "character_siqi",
+    "name": "司棋",
+    "slug": "si-qi",
+    "aliases": [],
+    "category": "荣国府丫鬟（迎春丫鬟）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "贾府家生奴才之女，外祖母是邢夫人陪房王善保家的，表弟（一作表兄）潘又安。父母姓名不详。",
+      "position": "迎春房中首席大丫鬟。",
+      "origin": "贾府家生子奴才体系，自幼入府当差。",
+      "generation": "与鸳鸯、袭人、晴雯等同侪的丫鬟阶层"
+    },
+    "tags": [
+      "大闹厨房",
+      "鸳鸯女无意遇鸳鸯",
+      "绣春囊",
+      "抄检大观园",
+      "撞墙殉情",
+      "潘又安",
+      "私情",
+      "琴棋书画组",
+      "王善保家的"
+    ],
+    "summary": {
+      "short": "迎春房中首席大丫鬟，全书丫鬟里最「烈」的一个。第六十一回为一碗鸡蛋羹砸了柳家的厨房；第七十一回与表弟潘又安园中幽会被鸳鸯撞见；第七十四回抄检大观园，从她箱中抄出潘又安的定情书信与同心如意；第七十七回被逐出园。后四十回（gaoe）写潘又安发财归来求娶，她撞墙殉情，潘又安随后自刎。",
+      "long": "司棋是迎春房中的首席大丫鬟，外祖母是邢夫人的陪房王善保家的——这个出身给了她泼天的大胆，也埋下了她的死局。第六十一回，她让莲花儿去厨房要一碗蒸鸡蛋，柳家的推三阻四，司棋带小丫头们把厨房「乱翻乱掷」砸了个底朝天——这一砸，把丫鬟世界里的等级、体面、伙食政治全砸了出来。第七十一回，她与表弟潘又安在大观园山石后幽会，被鸳鸯无意撞见；司棋跪下哀求「你若果然不告诉一个人，你就是我的亲娘一样」，鸳鸯赌咒发誓替她遮掩——回目「鸳鸯女无意遇鸳鸯」，她的私情是全书唯一一对被正面写出的丫鬟恋情。第七十四回抄检大观园，王善保家的撺掇起的这场抄家，抄到自己外孙女头上：司棋箱中抄出男子锦袜缎鞋、同心如意与潘又安的情书（信中「外特寄香袋二个」等语，学界多认为绣春囊即由此而来）——搬起石头砸了自己的脚。第七十七回，司棋被逐出园，迎春懦弱，一句硬话也不敢说。后四十回（gaoe）写潘又安出门发财归来，故意装穷试探司棋，司棋之母辱骂潘又安，司棋一头撞墙而死，潘又安亦自刎殉情。司棋之死是全书「女儿之烈」的又一注脚：迎春之懦衬她之烈，而烈如司棋，也只剩「撞墙」一条路——她撞的不是墙，是那个不给丫鬟私情一寸活路的世界。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "烈——丫鬟世界里的火",
+        "fact_type": "canonical_text_fact",
+        "description": "司棋之烈在全书丫鬟中数一数二：砸厨房、抄检时「并无畏惧惭愧之意」。她的烈是奴婢阶层里罕见的「不肯忍」——但烈没有出路时，就变成了死。"
+      },
+      {
+        "dimension": "痴——丫鬟的私情也是情",
+        "fact_type": "canonical_text_fact",
+        "description": "司棋与潘又安的私情是全书唯一一段被正面铺写的丫鬟爱情：园中幽会、情书定情、同心如意。她的痴不输任何一位小姐——只是小姐们的情有人写诗，丫鬟的情只配被抄检。"
+      },
+      {
+        "dimension": "傲——首席丫鬟的体面",
+        "fact_type": "canonical_text_fact",
+        "description": "司棋敢闹厨房，仗的是迎春房里首席的地位与邢夫人陪房外孙女的身份。她处处要体面，却不知道在这个体系里，奴婢的体面是最脆弱的东西——一次抄检就足以全部没收。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_siqi_ch61",
+        "title": "大闹厨房——为一碗鸡蛋羹砸了柳家的（第六十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_siqi_ch71",
+        "title": "与潘又安园中幽会被鸳鸯撞见（第七十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_siqi_ch74",
+        "title": "抄检大观园——私情败露（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_siqi_ch77",
+        "title": "被逐出大观园（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_siqi_ch92",
+        "title": "撞墙殉情——潘又安自刎（第九十二回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch61_siqi_kitchen",
+        "quote": "司棋听了，不免心头起火。……司棋便喝命小丫头子动手：「凡箱柜所有的菜蔬，只管丢出来喂狗，大家赚不成！」小丫头子们巴不得一声，七手八脚抢上去，一顿乱翻乱掷的。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十一回。厨房是大观园丫鬟世界的权力场——司棋砸的是一碗鸡蛋羹，也是柳家的对她的「怠慢」。"
+      },
+      {
+        "source_id": "source_ch71_siqi_rendezvous",
+        "quote": "（鸳鸯）刚转过石后，只听一阵衣衫响，吓了一惊不小。……司棋一把拉住鸳鸯，便双膝跪下，只说：「好姐姐，千万别嚷！」……「你若果然不告诉一个人，你就是我的亲娘一样。从此后我活一日是你给我一日。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十一回「鸳鸯女无意遇鸳鸯」。全书最惊险的幽会现场——丫鬟的爱情被发现，就是「死罪」。"
+      },
+      {
+        "source_id": "source_ch74_siqi_copy",
+        "quote": "（抄检司棋箱中）又有一个小包袱，打开看时，里面有一个同心如意并一个字帖儿。……「上月你来家后，父母已觉察你我之意。……外特寄香袋二个，略表我心。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回。抄检抄出的不是财物，是一段爱情的全部物证——「同心如意」与情书，在抄家人眼里只是「赃物」。"
+      },
+      {
+        "source_id": "source_ch92_siqi_death",
+        "quote": "（司棋）一头撞在墙上，把脑袋撞破，鲜血直流，竟死了。……潘又安……把买的一口小刀，往脖子里一抹，也就自刎了。",
+        "fact_type": "disputed_version",
+        "note": "第九十二回（attribution=gaoe）。司棋殉情、潘又安自刎——后四十回为这段私情补的结局。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「司棋」——四春丫鬟「琴棋书画」组（迎春善棋）",
+      "detail": "元迎探惜四春的大丫鬟以「琴棋书画」命名：抱琴（元春）、司棋（迎春）、侍书（探春）、入画（惜春）——「司棋」即「掌棋」之侍女，与迎春善棋对应。「司棋」二字也是全书的一着谶棋：第七十三回她与潘又安遗落的绣春囊，正是引发抄检大观园的「一着错棋」；她本人也从「司棋」（掌管棋局）变成了「棋局中的棋子」——抄检、被逐、殉情，一步步都是别人布下的局。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；迎春首席丫鬟，约十八九岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_siqi_ch61",
+      "title": "大闹厨房——为一碗鸡蛋羹砸了柳家的",
+      "event_level": "major",
+      "chapter": {
+        "number": 61,
+        "title": "投鼠忌器宝玉瞒赃 判冤决狱平儿行权",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园厨房",
+        "specific": "司棋让莲花儿去厨房要蒸鸡蛋，柳家的推说没有鸡蛋，莲花儿当场翻出鸡蛋。司棋听后心头起火，带小丫头们冲进厨房，把箱柜菜蔬乱翻乱掷，砸了个底朝天。"
+      },
+      "summary": {
+        "short": "第六十一回的厨房大战是丫鬟世界的「权力拓扑图」：司棋要的不是鸡蛋，是「迎春房首席」该有的待遇。柳家的敢怠慢她，是看准了迎春懦弱——而司棋用「砸」来纠正这个判断。",
+        "meaning": [
+          "厨房的伙食分配是丫鬟等级的晴雨表",
+          "司棋之烈与迎春之懦——主仆错位：奴才比主子更在乎体面",
+          "「大家赚不成」——她的破坏是绝望式的：既拿不到，就谁都别想好"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "烈的起点",
+          "content": "司棋的出场戏就是「砸」——这是曹雪芹给她的性格定调。晴雯撕扇是「娇」，司棋砸厨房是「烈」：一个在主子面前使性，一个在奴才堆里争权。她的烈一以贯之：幽会、殉情，都是同一个「司棋」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_siqi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lianhua_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_siqi_ch71",
+      "title": "鸳鸯女无意遇鸳鸯——园中幽会",
+      "event_level": "major",
+      "chapter": {
+        "number": 71,
+        "title": "嫌隙人有心生嫌隙 鸳鸯女无意遇鸳鸯",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "鸳鸯夜间穿园而过，在山石后撞见司棋与表弟潘又安幽会。潘又安惊走，司棋跪求鸳鸯保密，鸳鸯赌咒发誓不说。回目以「鸳鸯」双关：鸳鸯（人名）撞见鸳鸯（野鸭，喻情侣）。"
+      },
+      "summary": {
+        "short": "第七十一回的撞破是全书的转轴：司棋私情暴露在即，绣春囊事件由此埋下引信。鸳鸯的许诺救得了她一时，救不了她一世——那一夜的慌张，日后成了抄检大观园的「罪证」。",
+        "meaning": [
+          "回目双关「鸳鸯」——人名与鸟名的命运重合",
+          "丫鬟的爱情没有合法空间：园中山石后是唯一的「鸳鸯福地」",
+          "鸳鸯的仗义保密——丫鬟之间的义气，是全书最温暖的暗流"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "私情的发现学",
+          "content": "曹雪芹写司棋的幽会只用「一阵衣衫响」：不见人，先闻声——丫鬟的私情连正面描写的资格都没有，只能以「撞见」的方式进入叙事。这与宝黛的诗词往来形成残酷对照：同一座园子，爱情的两套语法。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_siqi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_pan_youan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_yuanyang",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_siqi_ch74",
+      "title": "抄检大观园——私情败露",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（迎春房）",
+        "specific": "王善保家的撺掇抄检大观园，抄到司棋箱中，抄出男子锦袜缎鞋、同心如意与潘又安情书。王善保家的「只恨没地缝儿钻进去」——抄检抄出自己外孙女的私情，自打嘴巴。司棋「低头不语，也并无畏惧惭愧之意」。"
+      },
+      "summary": {
+        "short": "第七十四回是全书的「审判日」，而司棋的私情是这场审判最意外的战利品：王善保家的本想抄别人的罪，抄出了自己外孙女的爱情。司棋的坦然与被逐，构成抄检大观园最重的一击。",
+        "meaning": [
+          "「搬起石头砸自己的脚」——王善保家的与司棋的血缘，让抄检变成命运的自我报复",
+          "司棋「并无畏惧惭愧之意」——全书对私情最勇敢的一次「认账」",
+          "绣春囊疑案坐实——潘又安情书中「香袋」与抄检的互证"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "抄检的讽刺闭环",
+          "content": "抄检大观园的导火索是绣春囊，绣春囊疑来自司棋与潘又安，抄检的执行者是司棋的外祖母——整场「清剿风化」的闹剧，最后清算到发起者自家头上。抄检者与被抄者本是同一种人，礼教的「大义灭亲」是一场彻头彻尾的讽刺。"
+        },
+        {
+          "type": "character",
+          "title": "不惭愧的刚烈",
+          "content": "私情败露，司棋「并无畏惧惭愧之意」——这一笔写尽她的烈：她爱得不觉得自己有罪。她的悲剧正在于此：一个不觉得自己有罪的人，生活在一个把她的爱定为罪的世界里。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_siqi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_shanbao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_pan_youan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_siqi_ch92",
+      "title": "撞墙殉情——司棋之死与潘又安之死",
+      "event_level": "major",
+      "chapter": {
+        "number": 92,
+        "title": "评女传巧姐慕贤良 玩母珠贾政参聚散",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "司棋家",
+        "specific": "后四十回（gaoe）写潘又安出门做生意发财归来，故意装穷试探司棋心意。司棋之母嫌贫爱富，辱骂潘又安，司棋力不能抗，一头撞墙而死；潘又安验明她至死未变心后，买刀自刎殉情。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）给司棋潘又安补的结局：一个撞墙、一个自刎。两人用自己的命完成了全书最惨烈的丫鬟之恋——这段补写流传极广，但「装穷试探」等细节的写法学界多有批评。",
+        "meaning": [
+          "撞墙——司棋之烈最后的、也是唯一的出口",
+          "潘又安的自刎——丫鬟之恋以双亡收场，与小姐们的爱情（黛死钗嫁）互为镜像",
+          "司棋之母的势利——把女儿的爱情定价，是这个世界的通行货币"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "续书补写之辨",
+          "content": "司棋潘又安殉情是后四十回（gaoe）流传最广的情节之一，其「死节」主题与探佚研究走向大体相合（被逐丫鬟的私情没有出路），但「潘又安装穷试探」的细节被学者批评为市井传奇笔法，削弱了前文的悲剧力量。此段宜作gaoe文本理解，不宜作为曹雪芹原笔引用。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_siqi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_pan_youan",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_siqi_yingchun",
+      "from": "character_siqi",
+      "to": "character_jia_yingchun",
+      "type": "主仆（烈奴与懦主）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "司棋之烈与迎春之懦是全书最刺眼的主仆错位：迎春被乳母偷累金凤不敢吭声，司棋为一碗鸡蛋砸了厨房；司棋被逐，迎春「含泪似有不舍之意」却一句硬话不敢说。奴才活成了主子的胆，主子活成了奴才的影。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "首席丫鬟",
+          "chapter": 61,
+          "description": "司棋以迎春房首席身份大闹厨房。"
+        },
+        {
+          "stage": 2,
+          "title": "被逐",
+          "chapter": 77,
+          "description": "司棋被逐，迎春不敢保她。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_siqi_panyouan",
+      "from": "character_siqi",
+      "to": "character_pan_youan",
+      "type": "恋人（表姐弟私情）",
+      "nature": [
+        "romantic",
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "司棋与表弟潘又安的私情是全书唯一被正面写出的丫鬟爱情：园中幽会、情书往来、同心如意定情，直至绣春囊败露、双双殉情（gaoe）。他们的爱每一步都在刀尖上——丫鬟的爱情没有退路，只有撞墙。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "园中幽会",
+          "chapter": 71,
+          "description": "山石后幽会被鸳鸯撞见。"
+        },
+        {
+          "stage": 1,
+          "title": "幽会",
+          "chapter": 71,
+          "description": "园中幽会被鸳鸯撞见。"
+        },
+        {
+          "stage": 2,
+          "title": "私情败露",
+          "chapter": 74,
+          "description": "抄检抄出情书与同心如意。"
+        },
+        {
+          "stage": 2,
+          "title": "败露",
+          "chapter": 74,
+          "description": "情书被抄出，司棋被逐。"
+        },
+        {
+          "stage": 3,
+          "title": "双双殉情",
+          "chapter": 92,
+          "description": "司棋撞墙、潘又安自刎。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 3,
+          "title": "殉情",
+          "chapter": 92,
+          "description": "司棋撞墙，潘又安自刎。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_siqi_wangshanbao",
+      "from": "character_siqi",
+      "to": "character_wang_shanbao",
+      "type": "祖孙（抄检自抄）",
+      "nature": [
+        "kinship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王善保家的是司棋的外祖母，也是抄检大观园的头号推手——她抄检抄出自己外孙女的私情，「只恨没地缝儿钻进去」。这对祖孙是抄检大观园最大的讽刺：加害者与受害者血脉相连，礼教的刀子先割了自己人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "抄检出丑",
+          "chapter": 74,
+          "description": "王善保家的抄出外孙女司棋私情。"
+        },
+        {
+          "stage": 1,
+          "title": "抄检",
+          "chapter": 74,
+          "description": "王善保家的抄出外孙女司棋的私情物证。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_siqi_lianhuaer",
+      "from": "character_siqi",
+      "to": "character_lianhua_er",
+      "type": "主使（闹厨房的帮手）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "莲花儿是迎春房的小丫头，第六十一回受司棋差遣去厨房要鸡蛋，受柳家的气后回来「添了一篇话」，点燃司棋的火气，随司棋砸了厨房。她与司棋一挑一炸，是丫鬟世界底层争食的缩影。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "厨房风波",
+          "chapter": 61,
+          "description": "莲花儿挑动司棋大闹厨房。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_siqi_kitchen",
+      "title": "司棋为一碗鸡蛋羹砸厨房，是烈性还是奴婢的「体面」逻辑？",
+      "slug": "why-did-siqi-smash-the-kitchen",
+      "question_type": "character_motivation",
+      "importance_weight": 66,
+      "heat_weight": 60,
+      "neutral_overview": "第六十一回，司棋让莲花儿去要蒸鸡蛋，柳家的推说没有，司棋带人砸了厨房。这碗鸡蛋羹背后，是性格还是制度？",
+      "viewpoint_ids": [
+        "vp_siqi_fire",
+        "vp_siqi_face"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_siqi_fire",
+          "title": "烈性论：她的性格就是这样一点就着",
+          "summary": "司棋之烈是全书丫鬟之最：抄检时「并无畏惧惭愧之意」，幽会被撞见也只跪不软。砸厨房是她性格的总爆发——曹雪芹用一个「砸」字给她立传。",
+          "evidence": [
+            "第六十一回「喝命小丫头子动手」的行动派作风",
+            "第七十四回私情败露时的坦然"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_siqi_face",
+          "title": "体面论：鸡蛋羹是丫鬟等级制度的试纸",
+          "summary": "厨房的伙食分配是大观园丫鬟世界的权力场：柳家的敢怠慢司棋，是看准迎春懦弱、好欺负。司棋砸的是「怠慢」本身——首席丫鬟的体面不容挑衅。她闹的不是饭，是地位。",
+          "evidence": [
+            "柳家的对司棋与怡红院丫鬟待遇有别",
+            "司棋倚仗的外祖母是邢夫人陪房"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_siqi_xichun_nang",
+      "title": "绣春囊到底是不是司棋与潘又安的？",
+      "slug": "did-the-embroidered-pouch-belong-to-siqi",
+      "question_type": "version_dispute",
+      "importance_weight": 72,
+      "heat_weight": 74,
+      "neutral_overview": "第七十三回傻大姐拾到的绣春囊引发抄检大观园，第七十四回从司棋箱中抄出潘又安的信，信中提及「香袋」。绣春囊的归属是红学悬案之一。",
+      "viewpoint_ids": [
+        "vp_siqi_nang_yes",
+        "vp_siqi_nang_no"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_siqi_nang_yes",
+          "title": "归属论：绣春囊即潘又安所赠之香袋",
+          "summary": "主流看法：第七十一回司棋与潘又安幽会慌乱中遗落绣春囊，潘又安信中「外特寄香袋二个」与绣春囊互证，第七十四回抄检从司棋处搜出物证，是曹雪芹设计的因果闭环。",
+          "evidence": [
+            "第七十一回幽会地点与第七十三回拾获地点相近",
+            "潘又安情书「香袋」之语与抄检结果互证"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_siqi_nang_no",
+          "title": "存疑论：正文并未明言绣春囊出自司棋",
+          "summary": "谨慎的看法：正文始终未直接交代绣春囊归属，「香袋」是否即绣春囊无定论，绣春囊亦可能另有来源（有研究者归之于其他人事）。曹雪芹的留白是有意为之。",
+          "evidence": [
+            "第七十三、七十四回均未明写绣春囊归属",
+            "「香袋」与「绣春囊」是否同物各本无注"
+          ],
+          "fact_type": "disputed_version",
+          "note": "绣春囊归属为学界悬案（前八十回内文本留白问题）"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch74_siqi_tanran",
+      "quote": "凤姐……只瞅着他（司棋）嘻嘻的笑。司棋也只瞅着他笑。……（抄检时司棋）低头不语，也并无畏惧惭愧之意。",
+      "fact_type": "canonical_text_fact",
+      "note": "第七十四回。败露之后的坦然——司棋之烈最见精神的一笔。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_siqi_lie",
+      "title": "司棋——「丫鬟之烈」的标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1992,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，司棋是《红楼梦》丫鬟群像中「烈」的极致：鸳鸯烈于抗婚（抗的是主子），晴雯烈于自洁（守的是清白），司棋烈于私情（要的是爱情）——三段「烈」构成丫鬟反抗的递进谱系。司棋砸厨房写「烈之形」，抄检时「并无畏惧惭愧之意」写「烈之魂」，撞墙殉情（gaoe）写「烈之终」。她的悲剧性在于：全书唯一敢为爱情而死的丫鬟，爱的却是全书最不配拥有爱情的阶层。"
+    },
+    {
+      "id": "viewpoint_siqi_xiuchunnang",
+      "title": "绣春囊事件的结构功能",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学结构研究",
+      "year": 2001,
+      "source_title": "多项结构分析研究",
+      "description": "研究者强调绣春囊事件的结构意义：傻大姐（拾获）→邢夫人（收缴）→王夫人（震怒）→王善保家的（撺掇）→抄检（司棋败露），一串因果链条把全书最大的一场内乱绑定在一个丫鬟的私情上。抄检大观园标志着大观园理想国的终结，而司棋是这场终结的第一个牺牲品——她以一人之罪，为全园的崩溃拉开序幕。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.85,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 19,
+      "text_inference": 3,
+      "scholarly_viewpoint": 2,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

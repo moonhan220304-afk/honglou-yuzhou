@@ -1,0 +1,524 @@
+{
+  "character": {
+    "id": "character_wang_ziteng",
+    "name": "王子腾",
+    "slug": "wang-zi-teng",
+    "aliases": [
+      "王舅老爷（宝玉之舅）"
+    ],
+    "category": "四大家族·王家（金陵王）",
+    "importance_level": "major",
+    "content_level": "L1",
+    "identity": {
+      "family": "都太尉统制县伯之后；王夫人、薛姨妈之兄；王熙凤之叔。",
+      "position": "京营节度使→九省统制→九省都检点——四大家族中官职最高者，贾府在朝中的最大靠山。",
+      "origin": "金陵王家（护官符：「东海缺少白玉床，龙王来请金陵王」）。",
+      "generation": "与贾政同辈"
+    },
+    "tags": [
+      "四大家族",
+      "金陵王",
+      "九省都检点",
+      "贾府靠山",
+      "京营节度使",
+      "官场支柱"
+    ],
+    "summary": {
+      "short": "四大家族王家掌门，王夫人薛姨妈之兄、凤姐之叔。京营节度使起家，累升九省统制、九省都检点，是贾府在朝中最大的靠山。后四十回（gaoe）写其赴任途中暴亡——他一死，贾府失去最后屏障，随即被抄。",
+      "long": "王子腾是「金陵王」家的当代掌门：都太尉统制县伯之后，王夫人、薛姨妈的长兄，王熙凤的叔父。他出场极少（全书无一句直接对话），却无处不在——薛蟠的人命案靠他压（第四回护官符），贾雨村的复职与升迁靠他「累上保本」（第四回），贾元春省亲时他已升九省统制（第十六回），第五十三回再提「王子腾升了九省都检点」。他是四大家族在官场的顶点，也是贾府真正的政治屏障：只要王子腾在朝，贾府便可「百足之虫，死而不僵」。正因如此，后四十回（gaoe）写其赴任途中暴亡（第九十六回），成为贾府大厦倾颓的直接导火索。他的名字即其家族的写照——「子腾」者，子孙腾达之意。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "官场柱石——不露面的保护者",
+        "fact_type": "canonical_text_fact",
+        "description": "王子腾通部无一句正面描写，其存在感完全通过他人之口与家族命运体现：薛蟠案「有王子腾护着」，雨村升迁「赖王子腾累上保本」。这种「缺席的在场」写法，恰说明他之于四大家族的分量——他是那个「外面」的人，负责把家族的根基扎在朝廷里。"
+      },
+      {
+        "dimension": "王家联姻网的枢纽",
+        "fact_type": "text_inference",
+        "description": "王家两代女儿嫁入贾家（王夫人、王熙凤），一个嫁入薛家（薛姨妈）——王子腾是这张联姻网背后的娘家支柱。红学有观点认为王家借女儿联姻「反客为主」渗透贾府，王子腾在京营节度使任上接替的正是贾家的旧职，是王家取代贾家的象征。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_wangziteng_rising_ch4",
+        "title": "护官符上的王家（第四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_wangziteng_promote_ch16",
+        "title": "升九省统制（第十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_wangziteng_inspector_ch53",
+        "title": "升九省都检点（第五十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_wangziteng_death_ch96",
+        "title": "赴任途中暴亡（第九十六回，后四十回）",
+        "fact_type": "disputed_version"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch4_huguanguan",
+        "quote": "贾不假，白玉为堂金作马。阿房宫，三百里，住不下金陵一个史。东海缺少白玉床，龙王来请金陵王。丰年好大雪，珍珠如土金如铁。",
+        "note": "第四回门子所呈护官符——王家之富冠于四族。"
+      }
+    ],
+    "name_etymology": {
+      "origin": "「子腾」者，子孙腾达之意。",
+      "detail": "王子腾之名未见于原文解释。就字面论，「腾」为升腾、飞黄腾达——其一生官职步步高升（节度使→九省统制→九省都检点），与「腾」字恰相印证；而其暴亡后王家与贾府同时坠落，又构成「腾」之反讽（文本推断）。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "status": {
+      "review": "verified",
+      "confidence": 95,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；王夫人薛姨妈之兄，中年（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "王舅老爷",
+      "alias_type": "family_address",
+      "context": "宝玉、薛蟠之舅",
+      "source_id": "source_ch4_huguanguan",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_wangziteng_rising_ch4",
+      "title": "护官符上的王家",
+      "event_level": "minor",
+      "chapter": {
+        "number": 4,
+        "title": "薄命女偏逢薄命郎 葫芦僧乱判葫芦案",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "应天府",
+        "specific": "门子呈护官符"
+      },
+      "summary": {
+        "short": "门子向贾雨村呈护官符，「东海缺少白玉床，龙王来请金陵王」——薛蟠案因王子腾之势而判。",
+        "meaning": [
+          "四大家族一荣俱荣一损俱损的政治联盟",
+          "王子腾虽未出场，其权势已是官场潜规则的核心"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_ziteng",
+          "role": "被提及者（薛蟠的靠山）"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "听护官符者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch4_huguanguan",
+          "quote": "东海缺少白玉床，龙王来请金陵王。",
+          "note": "第四回护官符——王子腾之王家。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "缺席的在场",
+          "content": "王子腾通部几乎无正面戏份，其权势却决定了第四回葫芦案的走向：薛蟠杀人而逍遥，靠的正是「金陵王」三个字。曹雪芹写王子腾，用的是「缺席的在场」笔法——人不在场，势在场。",
+          "fact_type": "text_inference"
+        }
+      ],
+      "related_events": [],
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_wangziteng_promote_ch16",
+      "title": "升九省统制",
+      "event_level": "micro",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "荣国府",
+        "specific": "提及"
+      },
+      "summary": {
+        "short": "贾元春封妃前后，王子腾升任九省统制——王家与贾府同沐皇恩。",
+        "meaning": [
+          "元春封妃带来的家族政治红利",
+          "王子腾的升迁与贾府兴衰同步"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_ziteng",
+          "role": "升迁者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch16_wangziteng",
+          "quote": "（第十六回）王子腾升了九省统制……",
+          "note": "第十六回王熙凤等议论中提及。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "官场步点",
+          "content": "王子腾的每一次升迁都紧跟着贾府的荣枯：元春封妃他升九省统制，省亲之后他又升九省都检点——王家踩着贾家的台阶往上走，直到王子腾一死，贾府的天也就塌了。",
+          "fact_type": "text_inference"
+        }
+      ],
+      "related_events": [],
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 95,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_wangziteng_inspector_ch53",
+      "title": "升九省都检点",
+      "event_level": "micro",
+      "chapter": {
+        "number": 53,
+        "title": "宁国府除夕祭宗祠 荣国府元宵开夜宴",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "贾府",
+        "specific": "年节提及"
+      },
+      "summary": {
+        "short": "第五十三回再提王子腾升了九省都检点——其官职到达顶点。",
+        "meaning": [
+          "王家权势的顶峰",
+          "贾府靠山的最后辉煌"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_ziteng",
+          "role": "升迁者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch53_wangziteng",
+          "quote": "（第五十三回）王子腾升了九省都检点。",
+          "note": "年节闲谈中提及。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "盛极而衰的节奏",
+          "content": "王子腾升九省都检点是王家权势的顶点，也是倒数的开始——此后（后四十回gaoe）他赴任暴亡，贾府随之被抄。「腾」到最高处，即是坠落处。",
+          "fact_type": "text_inference"
+        }
+      ],
+      "related_events": [],
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 95,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_wangziteng_death_ch96",
+      "title": "赴任途中暴亡",
+      "event_level": "major",
+      "chapter": {
+        "number": 96,
+        "title": "瞒消息凤姐设奇谋 泄机关颦儿迷本性",
+        "attribution": "gaoe"
+      },
+      "location": {
+        "name": "赴任途中",
+        "specific": "未到任而亡"
+      },
+      "summary": {
+        "short": "王子腾奉调赴任，途中染病暴亡——贾府失去最后的朝廷靠山，大厦将倾。",
+        "meaning": [
+          "贾府政治屏障的消失",
+          "「树倒猢狲散」的导火索"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_ziteng",
+          "role": "暴亡者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch96_wangziteng",
+          "quote": "（第九十六回）王子腾……在路上没了。",
+          "note": "[后四十回] 王子腾之死，gaoe。红学认为贾府靠山之死是抄家的前奏。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "靠山之死与抄家",
+          "content": "王子腾一死，四大家族在朝中再无强力庇护，贾府随即被抄（第一百零五回，gaoe）。脂批体系中，贾府之败另有政治原因（站错队、子弟不肖），王子腾之死是续书给出的最直接解释。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "related_events": [],
+      "fact_type": "disputed_version",
+      "status": {
+        "review": "verified",
+        "confidence": 90,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_wang_ziteng_wang_furen",
+      "from": "character_wang_ziteng",
+      "to": "character_wang_furen",
+      "type": "兄妹",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "summary": "王子腾是王夫人之兄，王家与贾家的第一条联姻纽带。",
+      "stages": [],
+      "evidence_events": [],
+      "impact": "王家-贾家联盟的基石。",
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "relationship_wang_ziteng_xue_yima",
+      "from": "character_wang_ziteng",
+      "to": "character_xue_yima",
+      "type": "兄妹",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "summary": "王子腾是薛姨妈之兄，薛蟠案即靠他庇护。",
+      "stages": [],
+      "evidence_events": [],
+      "impact": "王家-薛家联盟的基石。",
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "relationship_wang_ziteng_wang_xifeng",
+      "from": "character_wang_ziteng",
+      "to": "character_wang_xifeng",
+      "type": "叔侄（凤姐之叔，一说伯父）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "summary": "王子腾是王熙凤的叔父（一说伯父），凤姐「假充男儿教养」即出自王家门风。",
+      "stages": [],
+      "evidence_events": [],
+      "impact": "凤姐在贾府的底气来自王家。",
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 95,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "relationship_wang_ziteng_jia_yucun",
+      "from": "character_wang_ziteng",
+      "to": "character_jia_yucun",
+      "type": "提携者与被提携者",
+      "nature": [
+        "political"
+      ],
+      "direction": "mutual",
+      "summary": "贾雨村靠王子腾「累上保本」复职升迁，是王家的官场盟友。",
+      "stages": [],
+      "evidence_events": [],
+      "impact": "贾雨村后来的落井下石与王子腾之死同构贾府之败。",
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 95,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_wangziteng_death_impact",
+      "title": "王子腾之死是贾府败落的直接原因吗？",
+      "short_summary": "王子腾是贾府最大靠山，他的死（后40回gaoe）与贾府被抄的关系。",
+      "neutral_overview": "王子腾是四大家族官职最高者。后四十回（gaoe）写其赴任途中暴亡，贾府随即被抄。但脂批体系暗示贾府之败另有政治根源——王子腾之死究竟是因是果，存在争议。",
+      "question_type": "character",
+      "importance_weight": 6,
+      "heat_weight": 55,
+      "viewpoints": [
+        {
+          "title": "靠山倒塌说",
+          "summary": "王子腾一死，贾府失去朝中屏障，政敌遂敢动手抄家。",
+          "argument_body": "后四十回（gaoe）的时间线：王子腾暴亡（96回）→贾府被抄（105回）。王子腾是四大家族在官场的顶点，他活着政敌投鼠忌器，他一死「墙倒众人推」，抄家水到渠成。",
+          "stance_type": "support",
+          "fact_type": "disputed_version",
+          "confidence": 80,
+          "source_ids": []
+        },
+        {
+          "title": "政治站队说",
+          "summary": "贾府之败根在站错队与子弟不肖，王子腾之死只是同步事件。",
+          "argument_body": "前八十回伏笔显示贾府卷入忠顺亲王与四王八公的党派之争（茜香罗、鹡鸰香念珠等），加上贾赦石呆子扇案、凤姐弄权等恶行，早已被参被劾。王子腾之死与贾府之败是同一政治风暴的两面，而非因果。",
+          "stance_type": "oppose",
+          "fact_type": "text_inference",
+          "confidence": 70,
+          "source_ids": []
+        }
+      ],
+      "evidence": [],
+      "fact_type": "disputed_version",
+      "status": {
+        "review": "verified",
+        "confidence": 90,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "source_ch4_huguanguan",
+      "type": "original_text",
+      "title": "第四回护官符",
+      "chapter_number": 4,
+      "description": "门子向贾雨村呈护官符，四大家族势压官府。",
+      "authority": "通行本原文（人民文学出版社程乙本校注本）",
+      "controversial": false,
+      "verification": "护官符四句与通行本一致。",
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "updated_at": "2026-08-15T00:00:00Z"
+      }
+    },
+    {
+      "id": "source_ch16_wangziteng",
+      "type": "original_text",
+      "title": "第十六回王子腾升九省统制",
+      "chapter_number": 16,
+      "description": "元春封妃前后王子腾升迁之语。",
+      "authority": "通行本原文",
+      "controversial": false,
+      "verification": "与通行本一致。",
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 95,
+        "updated_at": "2026-08-15T00:00:00Z"
+      }
+    },
+    {
+      "id": "source_ch53_wangziteng",
+      "type": "original_text",
+      "title": "第五十三回王子腾升九省都检点",
+      "chapter_number": 53,
+      "description": "年节闲谈提及王子腾升任。",
+      "authority": "通行本原文",
+      "controversial": false,
+      "verification": "与通行本一致。",
+      "fact_type": "canonical_text_fact",
+      "status": {
+        "review": "verified",
+        "confidence": 95,
+        "updated_at": "2026-08-15T00:00:00Z"
+      }
+    },
+    {
+      "id": "source_ch96_wangziteng",
+      "type": "original_text",
+      "title": "第九十六回王子腾暴亡",
+      "chapter_number": 96,
+      "description": "王子腾赴任途中病亡（后四十回）。",
+      "authority": "程本后四十回（gaoe）",
+      "controversial": true,
+      "verification": "后四十回情节，标 attribution=gaoe。",
+      "fact_type": "disputed_version",
+      "status": {
+        "review": "verified",
+        "confidence": 90,
+        "updated_at": "2026-08-15T00:00:00Z"
+      }
+    }
+  ],
+  "viewpoints": [],
+  "coverage": {
+    "events": 4,
+    "relationships": 4,
+    "questions": 1,
+    "sources": 4,
+    "name_etymology": 1,
+    "age": 1
+  }
+}

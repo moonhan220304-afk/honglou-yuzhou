@@ -1,0 +1,996 @@
+{
+  "character": {
+    "id": "character_pinger",
+    "name": "平儿",
+    "slug": "ping-er",
+    "aliases": [
+      "平姑娘",
+      "平姐姐"
+    ],
+    "category": "荣国府丫鬟（王熙凤陪房/贾琏通房）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "王熙凤的陪嫁丫鬟，自幼随凤姐入贾府；后收为贾琏的通房丫鬟（「屋里人」）。",
+      "position": "王熙凤陪房丫鬟；贾琏通房丫鬟；协助凤姐理家的实际二把手。",
+      "origin": "王家陪嫁出身。",
+      "generation": "与凤姐同代的丫鬟阶层"
+    },
+    "tags": [
+      "软语救贾琏",
+      "理妆",
+      "虾须镯",
+      "判冤决狱",
+      "夹缝生存",
+      "周全妥帖",
+      "凤姐的影子",
+      "扶正争议",
+      "善良",
+      "情商"
+    ],
+    "summary": {
+      "short": "王熙凤的陪房、贾琏的通房丫鬟。身处「凤姐之威」与「贾琏之俗」的夹缝中，以善良与周全化解无数风波——软语救贾琏、理妆劝凤姐、情掩虾须镯、判冤决狱，是全书「夹缝中的人性微光」。",
+      "long": "平儿是王熙凤的四陪房之一，四个陪房里死的死、嫁的嫁，只剩她一个——后来被收为贾琏的通房丫鬟（「屋里人」）。她的处境是全书最艰难的：既要伺候妒妇凤姐（动辄打骂，第四十四回被无辜泼醋殴打），又要周旋色鬼贾琏（第二十一回替他藏匿多姑娘的头发），还要在凤姐管家之威下主持公道（第六十一回「判冤决狱平儿行权」）。她以罕见的善良与情商把每一道夹缝都走成了生路：第二十一回「软语救贾琏」——藏起贾琏的把柄，保住一桩婚姻；第四十四回被凤姐贾琏两头殴打，反被宝玉让进怡红院「理妆」——宝玉叹她「极聪明极清俊的上等女孩儿」却「薄命比黛玉犹甚」；第五十二回「俏平儿情掩虾须镯」——坠儿偷了她的镯子，她为顾全宝玉房里的体面而隐瞒；第六十一回玫瑰露茯苓霜案，她以「投鼠忌器」之计两全其美，救了五儿等人；第六十九回尤二姐被凤姐折磨，她暗中周济、落泪相怜——全书唯一给尤二姐送过饭的人。她是凤姐的影子（兴儿说她「原是凤姐的钥匙」），却与凤姐善恶分明——凤姐的「威」靠她来收，凤姐的「债」靠她来还。后四十回（gaoe）写她在凤姐死后照顾巧姐、护孤救孤，最后被贾琏「扶了正」——这个结局红学界有争议：有人认为「扶正」符合她的人品与资历，有人则认为平儿的「善」恰恰不该以「升职」来奖赏。无论结局如何，平儿都是读者心中「千红一哭」里最暖的一笔——她证明了在权力的泥沼里，善良可以是一种生存方式。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "善良——权力体系中的微光",
+        "fact_type": "canonical_text_fact",
+        "description": "平儿是贾府权力圈里唯一被公认「善良」的人：下人们求情都找平儿，宝玉敬她，黛玉湘云与她亲近，连尤二姐临死都只记得她的好。她的善良不是软弱——是在凤姐的「威」之外，为世界保留的一条活路。"
+      },
+      {
+        "dimension": "周全妥帖——夹缝中的生存艺术",
+        "fact_type": "canonical_text_fact",
+        "description": "平儿的「周全」是一种高度智慧：救贾琏而不纵贾琏（藏起头发又点醒他）、劝凤姐而不犯凤姐（理妆时反劝凤姐保重）、查案而不揭案（虾须镯、茯苓霜皆以「遮掩」结案）。她的每个动作都同时保全多方体面——这是丫鬟层的最高情商。"
+      },
+      {
+        "dimension": "夹缝人格——凤姐与贾琏之间的平衡木",
+        "fact_type": "canonical_text_fact",
+        "description": "平儿是全书最典型的「夹缝人格」：凤姐善妒，她得避嫌（与贾琏一年到头难到一处）；贾琏好色，她得周旋（藏头发、救情债）。她在「醋瓮」与「色罐」之间走钢丝，走出了一套独特的生存伦理：既不违背凤姐，也不忍心害人。"
+      },
+      {
+        "dimension": "行权——仁慈的权力使用者",
+        "fact_type": "canonical_text_fact",
+        "description": "「判冤决狱平儿行权」——平儿是全书唯一被授予「行权」字样的丫鬟。她的权力行使与凤姐截然相反：凤姐用权「立威」，平儿用权「解冤」。玫瑰露案她以「息事宁人」了结，救出无辜的五儿——权力在她手中变成了慈悲的工具。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_pinger_jiulian_ch21",
+        "title": "软语救贾琏（第二十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_pinger_hair_ch44",
+        "title": "凤姐泼醋——宝玉理妆（第四十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_pinger_zhuo_ch52",
+        "title": "情掩虾须镯（第五十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_pinger_judge_ch61",
+        "title": "判冤决狱平儿行权（第六十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_pinger_youerjie_ch69",
+        "title": "暗中照料尤二姐（第六十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_pinger_protect_ch119",
+        "title": "护巧姐出虎口（第一一九回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 7,
+        "event_id": "event_pinger_fuzheng_ch120",
+        "title": "扶正（后四十回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch21_pinger_jiulian",
+        "quote": "平儿收拾贾琏在外的衣服铺盖，不承望枕套中抖出一绺青丝来。……平儿会意，忙拽在袖内，笑道：「这是我的心肝儿。」……凤姐搜检时，平儿只指着鼻子，晃着头笑道：「这件事怎么回谢我呢？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十一回平儿藏起贾琏与多姑娘的定情物（青丝）。「软语救贾琏」——以玩笑掩护，救下一场家庭风暴。"
+      },
+      {
+        "source_id": "source_ch44_pinger_lickong",
+        "quote": "宝玉……便说：「我们兄弟姊妹都一样。他们得罪了人，我替他赔个不是也是应该的。」又对平儿道：「好姐姐，别伤心，我替他两个赔不是罢。」平儿笑道：「与你什么相干？」……宝玉叹道：「平儿并无父母兄弟姊妹，独自一人，供应贾琏夫妇二人。贾琏之俗，凤姐之威，他竟能周全妥贴。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十四回宝玉让平儿理妆，叹她「贾琏之俗，凤姐之威，他竟能周全妥贴」——这是全书对平儿处境的权威概括。"
+      },
+      {
+        "source_id": "source_ch52_pinger_zhuo",
+        "quote": "平儿道：「……那日洗手时不见了，二奶奶就不许吵嚷……幸而二奶奶没有在屋里，你们这里的宋妈妈去了，拿着这支镯子……谁知镯子褪了口，丢在草根底下，雪深了没看见……只求你们以后……别再放人乱进去。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十二回平儿情掩虾须镯——为顾全宝玉房里体面，把「偷窃」说成「丢失」。"
+      },
+      {
+        "source_id": "source_ch61_pinger_judge",
+        "quote": "平儿道：「何苦来操这心！『得放手时须放手』，什么大不了的事，乐得不施恩呢。依我说，纵在这屋里操上一百分的心，终久咱们是那边屋里去的。没的结些小人仇恨，使人含怨。如今乘早儿见一半不见一半的，也倒罢了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十一回平儿处理玫瑰露案的方针。「得放手时须放手」——她的处事哲学。"
+      },
+      {
+        "source_id": "source_ch69_pinger_youerjie",
+        "quote": "平儿看不过，自拿了钱出来弄菜与他吃，或是有时只说和他园中去顽，在园中厨内另做了汤水与他吃。也无人敢回凤姐。……平儿不禁滴下泪来，说道：「想来都是我坑了你。我原是一片痴心，从没瞒他的话……谁知生出这些个事来。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十九回平儿暗中照料被折磨的尤二姐，并为自己的「告密」（把尤二姐之事告诉凤姐）悔恨落泪。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "平＝平衡——贾琏凤姐之间的平衡者",
+      "detail": "回目「判冤决狱平儿行权」点其「平」的作用——持平断冤；宝玉叹她于「贾琏之俗，凤姐之威」之间竟能「周全妥贴」（第四十四回）。「情平」（民间十二丫环情字批）",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；凤姐陪嫁丫鬟，比凤姐略小，约十七八岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "平姑娘",
+      "type": "丫鬟称呼",
+      "context": "贾府上下对平儿的通行称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "平姐姐",
+      "type": "亲近称呼",
+      "context": "宝玉、探春、湘云等对平儿的亲近称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "钥匙",
+      "type": "比喻",
+      "context": "兴儿说「她原是凤姐的钥匙」——平儿掌握着凤姐的私密与管家细节，是凤姐最贴身的人",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_pinger_jiulian_ch21",
+      "title": "软语救贾琏",
+      "event_level": "major",
+      "chapter": {
+        "number": 21,
+        "title": "贤袭人娇嗔箴宝玉 俏平儿软语救贾琏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（贾琏院）",
+        "specific": "巧姐出痘，贾琏凤姐分房。贾琏与多姑娘私通，留了一绺头发在枕套里。平儿收拾时发现，藏入袖中。凤姐进来搜检，平儿以「这是我的心肝儿」遮掩过去，又趁机要挟贾琏「怎么回谢我」。"
+      },
+      "summary": {
+        "short": "平儿发现贾琏的「罪证」（多姑娘的头发），悄悄藏起。凤姐搜检时她掩护过去，救下贾琏——回目「俏平儿软语救贾琏」。这一「救」，救了贾琏的脸，也救了凤姐的心（她若知道，必闹得家翻宅乱）。",
+        "meaning": [
+          "平儿的「救」是双向的：救贾琏免祸，也救凤姐免痛",
+          "「软语」——她的处事方式：以玩笑化风波，以温柔息干戈",
+          "回目「俏」字——她的俏皮是与生俱来的护身符"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「救」的伦理——平儿的第三条路",
+          "content": "平儿面对贾琏的出轨有两个选择：告密（凤姐会闹得天翻地覆，她自己也难脱干系）或沉默（纵容贾琏）。她选了第三条路：藏起罪证、点醒贾琏、趁机要挟（让贾琏欠她人情）。这不是是非不分，是夹缝中人的最优解——她既保住了家庭的表面和平，又给贾琏立了把柄。"
+        },
+        {
+          "type": "literary",
+          "title": "一绺头发的重量",
+          "content": "曹雪芹用「一绺青丝」写尽了平儿的处境：她的袖子里同时藏着贾琏的秘密、凤姐的醋意、自己的风险。这根头发是「夹缝」的物化——平儿一生都在替别人「藏头发」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ping_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_dengguniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_pinger_hair_ch44",
+      "title": "凤姐泼醋——宝玉理妆",
+      "event_level": "major",
+      "chapter": {
+        "number": 44,
+        "title": "变生不测凤姐泼醋 喜出望外平儿理妆",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/怡红院",
+        "specific": "凤姐生日，贾琏与鲍二家的偷情被撞破。凤姐怒打平儿，贾琏也打平儿——「平儿急了，便跑出来找刀子要寻死」。贾母劝架后，宝玉让平儿进怡红院，服侍她洗脸换衣理妆（「喜出望外平儿理妆」）。宝玉叹她「薄命比黛玉犹甚」。"
+      },
+      "summary": {
+        "short": "凤姐生日泼醋：撞破贾琏奸情，夫妻两头拿平儿出气——凤姐打她，贾琏也打她。平儿寻死不成，被宝玉让进怡红院理妆。宝玉心想：「平儿并无父母兄弟姊妹……贾琏之俗，凤姐之威，他竟能周全妥贴。今儿还遭荼毒，想来此人薄命，比黛玉犹甚。」",
+        "meaning": [
+          "两头挨打——夹缝处境的极端展示：她是谁的人，谁都可以打",
+          "「比黛玉犹甚」——宝玉的论断：平儿之薄命，在「无处可诉」",
+          "理妆事件是平儿与宝玉友谊的起点——他给了她全书唯一一次「被服侍」的体面"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「被服侍」的平儿",
+          "content": "平儿一生服侍人，只有宝玉服侍过她——理妆一节是全书最温柔的反转：一个「屋里人」第一次被当作「人」来对待。宝玉的「喜出望外」不是轻浮，是他为「女儿」尽心的最高形式：给受委屈的女儿一个梳洗的机会，一份被尊重的体面。"
+        },
+        {
+          "type": "literary",
+          "title": "「比黛玉犹甚」的薄命论",
+          "content": "宝玉把平儿的薄命排在黛玉之上：黛玉之痛尚有人知（宝玉知），平儿之痛无人可诉——她没有父母、没有地位、没有退路，连挨打都没有人为她做主。贾母事后让凤姐给她赔不是，但「赔不是」恰恰说明：平儿的委屈，只值一句赔不是。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ping_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_pinger_zhuo_ch52",
+      "title": "俏平儿情掩虾须镯",
+      "event_level": "major",
+      "chapter": {
+        "number": 52,
+        "title": "俏平儿情掩虾须镯 勇晴雯病补雀金裘",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园/怡红院",
+        "specific": "平儿洗手时丢了虾须镯（凤姐所赐），查出是宝玉房里的坠儿偷的。平儿怕伤宝玉及袭人等体面，只与麝月说明：「等袭人回来，你们商议着，变个法子打发出去就完了。」——对外只说镯子丢在雪里找到了。"
+      },
+      "summary": {
+        "short": "平儿的虾须镯被坠儿偷去。她查明真相后选择「情掩」——不声张、不报凤姐，只嘱麝月悄悄打发坠儿了事，顾全了怡红院的体面。回目「俏平儿情掩虾须镯」——她的「掩」是全书最温柔的一次包庇。",
+        "meaning": [
+          "镯子是凤姐所赐——丢镯子本身就可能连累众人，平儿把风险自己消化了",
+          "「情掩」的「情」——对宝玉的敬、对袭人的义、对坠儿的「留面」",
+          "她的善良与晴雯的刚烈对照：晴雯要「戳手立撵」，平儿要「变个法子打发」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「掩」的智慧——体面的经济学",
+          "content": "平儿深谙「体面」的价值：坠儿被当众撵出，伤的不只坠儿一人，还有怡红院全体的脸（宝玉、袭人的管教之责）。她的「掩」用最小代价解决最大问题——这是管家人才的顶级素养。对比晴雯的「撵」与凤姐的「治」，平儿的「掩」是第三种管理哲学：以恕止恶。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ping_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_sheyue",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_pinger_judge_ch61",
+      "title": "判冤决狱平儿行权",
+      "event_level": "major",
+      "chapter": {
+        "number": 61,
+        "title": "投鼠忌器宝玉瞒赃 判冤决狱平儿行权",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园厨房/议事处",
+        "specific": "玫瑰露与茯苓霜案：柳五儿被疑偷窃，凤姐要严办（打板子撵出去配人）。平儿查得实情——玫瑰露系彩云私送贾环、柳五儿之霜系芳官所赠。平儿「投鼠忌器」（怕伤探春体面），与宝玉商议「瞒赃」，救下五儿；又对凤姐劝以「得放手时须放手」。凤姐服其言，平儿「行权」了结全案。"
+      },
+      "summary": {
+        "short": "玫瑰露茯苓霜案中，平儿查明真相却选择「瞒赃息事」：宝玉认下玫瑰露之「罪」，彩云之过不究（免伤探春脸面），五儿洗清冤屈。凤姐本要严办，平儿以「得放手时须放手」相劝——凤姐竟听了她的。回目「判冤决狱平儿行权」——丫鬟行权，全书仅此一次。",
+        "meaning": [
+          "「判冤决狱」——平儿以丫鬟之身主持了一场公道",
+          "「投鼠忌器」——她的判断处处顾全大局（探春的体面、宝玉的善名、五儿的性命）",
+          "凤姐听她的——全书唯一能劝住凤姐的人"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「得放手时须放手」——仁慈的权术",
+          "content": "平儿的「行权」与凤姐的「弄权」构成全书最鲜明的权力对照：凤姐用权杀人（张金哥、尤二姐），平儿用权救人（五儿、彩云）。同一种权力工具，两种使用方式——平儿证明权力不必是凶器。她的「放手」哲学包含深刻的自知：「纵在这屋里操上一百分的心，终久咱们是那边屋里去的」——权力是借来的，善才是自己的。"
+        },
+        {
+          "type": "literary",
+          "title": "「瞒赃」的道德张力",
+          "content": "平儿的「判冤决狱」以「瞒赃」（宝玉认下偷窃之名）为代价——真相被体面掩盖。这个处理方式引发读者两种评价：赞者见其仁（救五儿、全探春），疑者见其滑（真相被掩、彩云之过被放）。曹雪芹不裁判，只展示——「周全」的代价，从来是「真相」的让步。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ping_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_wuer",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_pinger_youerjie_ch69",
+      "title": "暗中照料尤二姐——唯一的温情",
+      "event_level": "major",
+      "chapter": {
+        "number": 69,
+        "title": "弄小巧用借剑杀人 觉大限吞生金自逝",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（尤二姐处）",
+        "specific": "尤二姐被凤姐骗进贾府后备受折磨（饭食不继、秋桐辱骂、胡太医打胎）。平儿看不过，自掏钱为二姐弄菜，带她到园中厨内吃饭，无人敢回凤姐。二姐死后，平儿偷出二百两银子给贾琏办丧事。此前平儿曾为自己把二姐之事告知凤姐而悔恨：「想来都是我坑了你。」"
+      },
+      "summary": {
+        "short": "尤二姐被折磨时，平儿是唯一暗中周济她的人：自掏腰包弄菜、带她到园中吃饭、落泪相怜。二姐吞金死后，又是平儿偷出银子助贾琏办丧。她的善良与悔恨（曾把二姐之事告诉凤姐）构成全书最复杂的「共谋者之痛」。",
+        "meaning": [
+          "平儿的「暗济」是尤二姐绝望处境中唯一的人性微光",
+          "她的悔恨（「想来都是我坑了你」）——忠仆在「忠」与「义」之间的撕裂",
+          "偷银子办丧——平儿对凤姐之恶的持续「还债」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "共谋者之痛",
+          "content": "平儿把贾琏偷娶尤二姐之事告诉凤姐（她的职责），间接开启了二姐的死路。她因此陷入全书最深的道德困境：忠仆的义务与良心的谴责不可兼得。她的暗中周济是赎罪，也是自白——她救不了二姐，只能用几顿饭、几两银子证明自己「没想害她」。"
+        },
+        {
+          "type": "literary",
+          "title": "尤二姐之死的平儿视角",
+          "content": "尤二姐之死是凤姐全书最大的恶，而平儿的存在使这场恶有了「内部证人」：凤姐之「威」与平儿之「善」在同一个受害者身上同时作用——一个杀人，一个递饭。曹雪芹用平儿的视角告诉读者：恶的深渊里也有人挣扎着行善，而正是这种挣扎让恶显得更加深重。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ping_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qiu_tong",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_pinger_protect_ch119",
+      "title": "护巧姐出虎口",
+      "event_level": "major",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府→刘姥姥庄上",
+        "specific": "王仁、贾环等合谋卖巧姐。平儿闻讯，急告王夫人，又与刘姥姥定计：让巧姐扮作村姑，随刘姥姥暂避乡间。平儿亲自护送巧姐出城。事后贾琏归来，深谢平儿护孤之恩。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写巧姐被卖之祸起，平儿挺身护主：通风报信、定计避祸、亲送巧姐出城。她把对凤姐的忠诚延续到其女身上——凤姐已死，平儿成了巧姐最有力的守护者。",
+        "meaning": [
+          "平儿之忠不随主死而亡——「忠」的延续性在护孤事件中完成",
+          "她在危机中展现的决断力（定计、护送）——多年管家历练的集中爆发",
+          "凤姐一生害人无数，平儿一生救人——护巧姐是「救」的最终形态"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "忠义的代际传递",
+          "content": "平儿护巧姐是「忠」的升华：她对凤姐的忠诚，在凤姐死后转化为对巧姐的庇护。这与刘姥姥的报恩形成双线——凤姐生前身后的「善果」（巧姐获救），由她生命里仅有的两个「好人」（平儿与刘姥姥）共同完成。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ping_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_ren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_pinger_fuzheng_ch120",
+      "title": "扶正——结局的争议",
+      "event_level": "minor",
+      "chapter": {
+        "number": 120,
+        "title": "甄士隐详说太虚情 贾雨村归结红楼梦",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "凤姐死后，贾琏将平儿「扶了正」。贾府败落后，平儿以主母身份协助料理家务，善待众人。续书以此作为对平儿「善有善报」的收束。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写平儿被贾琏扶正——「善有善报」式的收束。但红学界对此结局有争议：有人认为扶正符合平儿的人品资历，是「熬出头」的合理归宿；有人认为平儿之善的价值恰恰不该以「升职」兑现——她的好，不需要一个「名分」来奖赏。",
+        "meaning": [
+          "扶正是丫鬟阶层的最高「晋升」——平儿一生的「周全」最终兑现为名分",
+          "「善有善报」的收束与全书悲剧基调的张力",
+          "从「屋里人」到「主母」——平儿完成了丫鬟阶层的全部上升通道"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "扶正之争",
+          "content": "支持者认为：平儿之扶正符合情理（凤姐已死、她多年主持家务、护孤有功），且前八十回已有铺垫（鲍二家的曾说「你那平姑娘是个好的，不如把他扶了正」——虽系戏言，亦是伏笔）。质疑者认为：续书「扶正」以名分奖赏善良，反而弱化了平儿的悲剧性——她的价值本不在于「熬出头」，而在于「在污泥里守住干净」。扶正使一个悲剧人物变成了励志故事的主角。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ping_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_pinger_wang_xifeng",
+      "from": "character_pinger",
+      "to": "character_wang_xifeng",
+      "type": "主仆（一体两面）",
+      "nature": [
+        "master_servant",
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "平儿与凤姐是全书最复杂的主仆关系：凤姐信任平儿（唯一能劝住她的人）、依赖平儿（管家的实际执行者），也伤害平儿（泼醋时打她、放利钱时用她的名头）。平儿对凤姐既有忠诚（「钥匙」式的贴身），也有不满（「终久咱们是那边屋里去的」的清醒）。二人构成「威与慈」的一体两面——凤姐的恶由平儿的善来缓冲，凤姐的债由平儿的善来还。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "陪房之忠",
+          "chapter": 21,
+          "description": "平儿替凤姐搜检贾琏、遮掩家丑——「钥匙」的角色。"
+        },
+        {
+          "stage": 2,
+          "title": "泼醋之痛",
+          "chapter": 44,
+          "description": "凤姐误打平儿——主仆关系的裂缝。"
+        },
+        {
+          "stage": 3,
+          "title": "行权之信",
+          "chapter": 61,
+          "description": "凤姐听平儿「得放手时须放手」之劝——全书唯一一次凤姐被劝服。"
+        },
+        {
+          "stage": 4,
+          "title": "身后之忠",
+          "chapter": 119,
+          "description": "凤姐死后平儿护其女——忠诚的延续。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_pinger_jia_lian",
+      "from": "character_pinger",
+      "to": "character_jia_lian",
+      "type": "通房（有名无实的夫妻）",
+      "nature": [
+        "master_servant",
+        "marriage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "平儿是贾琏的通房丫鬟（「屋里人」），但因凤姐善妒，二人「一年到头难到一处」。平儿对贾琏周旋多过亲近：替他藏头发（21回）、被他殴打（44回）、为他操办尤二姐丧事（69回）。贾琏对平儿是「色」与「亏欠」的混合。后四十回（gaoe）写贾琏扶正平儿——这段有名无实的关系，最终以名分收场。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "藏发救急",
+          "chapter": 21,
+          "description": "平儿替贾琏藏起多姑娘的头发。"
+        },
+        {
+          "stage": 2,
+          "title": "泼醋受辱",
+          "chapter": 44,
+          "description": "贾琏与凤姐两头打平儿。"
+        },
+        {
+          "stage": 3,
+          "title": "扶正",
+          "chapter": 120,
+          "description": "凤姐死后贾琏扶正平儿。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_pinger_jia_baoyu",
+      "from": "character_pinger",
+      "to": "character_jia_baoyu",
+      "type": "敬重与体恤",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉对平儿既敬且怜：叹她「贾琏之俗，凤姐之威，他竟能周全妥贴」「薄命比黛玉犹甚」；泼醋事件后让平儿进怡红院理妆——「素日因平儿是贾琏的人，不能亲近，今日倒像得了个意外之喜」。平儿也敬宝玉的为人（处理玫瑰露案时与宝玉商议「瞒赃」）。二人是全书最纯粹的一段「敬而不狎」的情谊。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "理妆之敬",
+          "chapter": 44,
+          "description": "宝玉服侍平儿理妆——「喜出望外」。"
+        },
+        {
+          "stage": 2,
+          "title": "瞒赃之盟",
+          "chapter": 61,
+          "description": "平儿与宝玉合谋「瞒赃」，救下五儿。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_pinger_you_erjie",
+      "from": "character_pinger",
+      "to": "character_you_erjie",
+      "type": "怜护（施恩与受惠）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "平儿与尤二姐的关系始于「告密」（她把贾琏偷娶之事告知凤姐），终于「怜护」：二姐被折磨时，平儿暗中送饭、落泪相怜、悔恨自责；二姐死后，平儿偷银助丧。这段关系是全书最揪心的道德困境样本——一个「忠仆」如何在义务与良心的夹缝中挣扎。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "告密之悔",
+          "chapter": 67,
+          "description": "平儿把尤二姐之事告诉凤姐——「我原是一片痴心，从没瞒他的话」。"
+        },
+        {
+          "stage": 1,
+          "title": "照应",
+          "chapter": 69,
+          "description": "二姐被作践，平儿暗中周济。"
+        },
+        {
+          "stage": 2,
+          "title": "暗济之怜",
+          "chapter": 69,
+          "description": "平儿自掏腰包为二姐弄饭，落泪自责。"
+        },
+        {
+          "stage": 2,
+          "title": "助葬",
+          "chapter": 69,
+          "description": "平儿偷私房银二百两助贾琏安葬二姐。"
+        },
+        {
+          "stage": 3,
+          "title": "助丧之义",
+          "chapter": 69,
+          "description": "平儿偷出二百两银子给贾琏办丧事。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_pinger_jia_tanchun",
+      "from": "character_pinger",
+      "to": "character_jia_tanchun",
+      "type": "理家协作（互相欣赏）",
+      "nature": [
+        "friendship",
+        "political"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "探春理家期间，平儿是她的重要协作对象：凤姐派平儿辅助探春，平儿处处维护探春的权威（赵国基事件中她先声夺人、代探春立威）。探春欣赏平儿（「我原以为她是凤丫头的人……谁知她倒明白」），平儿敬重探春。二人是管家层中「理」与「和」的默契搭档。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "辅助理家",
+          "chapter": 55,
+          "description": "平儿协助探春理家，在赵国基事件中为其立威。"
+        },
+        {
+          "stage": 2,
+          "title": "玫瑰露案",
+          "chapter": 61,
+          "description": "平儿处理玫瑰露案时「投鼠忌器」——首要顾及探春的体面。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_pinger_liu_laolao",
+      "from": "character_pinger",
+      "to": "character_liu_laolao",
+      "type": "赠物之谊（温厚的对接）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "平儿是刘姥姥二进时的主要「对接人」：她给刘姥姥收拾赠物（一百两银子、衣物、绸缎、果子），事无巨细、一样样交代清楚——「这两包每包里头五十两……以后再别求亲靠友的」。她的温厚与凤姐的倨傲对照鲜明。后四十回（gaoe）巧姐获救，平儿与刘姥姥正是救孤计划的两个执行者。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赠物",
+          "chapter": 42,
+          "description": "平儿为刘姥姥收拾赠物，嘱咐「以后再别求亲靠友」。"
+        },
+        {
+          "stage": 2,
+          "title": "共谋救孤",
+          "chapter": 119,
+          "description": "平儿与刘姥姥定计救巧姐。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_xifeng_pinger",
+      "title": "王熙凤对平儿到底是什么感情？",
+      "slug": "what-does-xifeng-really-feel-for-pinger",
+      "question_type": "relationship_analysis",
+      "importance_weight": 80,
+      "heat_weight": 75,
+      "neutral_overview": "凤姐打平儿、用平儿、也离不开平儿。她对平儿的感情，是主仆之忠、姐妹之谊，还是工具之需？",
+      "viewpoint_ids": [
+        "viewpoint_xifeng_pinger_trust",
+        "viewpoint_xifeng_pinger_guarding",
+        "viewpoint_xifeng_pinger_mutual"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_xifeng_pinger_trust",
+          "title": "依赖论：平儿是凤姐唯一信任的人",
+          "summary": "凤姐一生疑人，唯信平儿：放利钱（平儿经手）、管家事（平儿执行）、把柄秘密（平儿保管——「凤姐的钥匙」）。泼醋事件中凤姐打平儿，恰恰因为「太近」——只有最信任的人才能让她在暴怒中「顺手」发泄。信任与伤害在凤姐身上是同一种关系。",
+          "evidence": [
+            "平儿经手凤姐放利钱的秘密（第39回）",
+            "凤姐听平儿之劝（第61回）——全书唯一"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "viewpoint_xifeng_pinger_guarding",
+          "title": "利用论：平儿是凤姐管理贾琏的「安全阀」",
+          "summary": "平儿的「通房」身份是凤姐的策略：以「自己人」占住贾琏的妾位（堵住外人进门的口子），以平儿之善缓冲自己的苛酷之名。凤姐对平儿是「用」多于「爱」——她需要的是一个「听话的屋里人」与「背锅的管家」，平儿恰好都是。",
+          "evidence": [
+            "凤姐不许平儿与贾琏亲近（「一年到头难到一处」）",
+            "凤姐放利钱用平儿的名义",
+            "泼醋时拿平儿出气——工具的两头挨打"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_xifeng_pinger_mutual",
+          "title": "共生论：凤姐与平儿是互相成全的「一体两面」",
+          "summary": "凤姐与平儿不可分割：凤姐的「威」需要平儿的「慈」来平衡（否则下人反噬），平儿的生存需要凤姐的「威」来庇护（否则被欺）。平儿是凤姐的影子，也是凤姐的「另一半」——凤姐之恶因平儿之善而留有回旋，平儿之善因凤姐之威而得以施展（行权）。二人共同构成贾府管家系统的完整人格。",
+          "evidence": [
+            "「判冤决狱平儿行权」——平儿的权力来自凤姐的授权",
+            "凤姐死后平儿接续其管家职能（护巧姐、被扶正）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_pinger_zhouquan",
+      "title": "平儿为什么能「周全妥贴」？",
+      "slug": "how-does-pinger-stay-untouched-in-the-crack",
+      "question_type": "character_analysis",
+      "importance_weight": 75,
+      "heat_weight": 68,
+      "neutral_overview": "宝玉叹她「贾琏之俗，凤姐之威，他竟能周全妥贴」。夹在两个极端主人之间的平儿，凭什么活成了「人见人爱」的样子？",
+      "viewpoint_ids": [
+        "vp_pinger_wisdom",
+        "vp_pinger_crack_survival",
+        "vp_pinger_power"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_pinger_wisdom",
+          "title": "智慧论：她的周全来自极高的情商与分寸感",
+          "summary": "平儿的「周全」是技术活：对凤姐——忠而不谄（能劝能谏）；对贾琏——周旋而不失节（藏发救人却不同流）；对下人——威而不酷（行权结案以恕为先）；对同侪——义而不党（护坠儿之「掩」、助尤二姐之「暗」）。每个方向的力度都恰到好处，这是全书丫鬟中最高级别的社交艺术。",
+          "evidence": [
+            "软语救贾琏、情掩虾须镯、判冤决狱的分寸把握",
+            "她与宝玉、探春、湘云、刘姥姥等各色人等的融洽关系"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_pinger_crack_survival",
+          "title": "夹缝论：她的周全是被逼出来的生存术",
+          "summary": "平儿没有退路：四个陪房只剩她一个——死与嫁的教训教会她「活」的法则。她的周全不是天赋，是夹缝求生的必需品：不周全者（如尤二姐）已被碾碎，周全如她才活了下来。她的「妥贴」里有多少心酸，只有她自己知道（「我原是一片痴心」）。",
+          "evidence": [
+            "四陪房只剩其一的背景",
+            "两头挨打（44回）的处境",
+            "「终久咱们是那边屋里去的」的自知"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_pinger_power",
+          "title": "权力论：她的周全靠的是「借来的权力」",
+          "summary": "平儿的「周全」有一个常被忽略的前提——她有实权：凤姐的「钥匙」身份使她成为管家的二把手，下人们敬她三分、求她三分。她的善良之所以「有效」（能救人、能结案），正因背后有权力的支撑。一个无权的善良丫鬟，周全不了任何人。",
+          "evidence": [
+            "「判冤决狱平儿行权」——她的行权能力来自凤姐授权",
+            "下人们有事「先求平儿」的惯例"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_pinger_shan",
+      "title": "平儿的「善」是本性还是策略？",
+      "slug": "is-pingers-kindness-nature-or-strategy",
+      "question_type": "character_morality",
+      "importance_weight": 75,
+      "heat_weight": 70,
+      "neutral_overview": "平儿的善良（救贾琏、护坠儿、济二姐、判冤狱）无可置疑。但身处权力核心的她，「善」是否也是一种精算过的生存策略？",
+      "viewpoint_ids": [
+        "vp_pinger_shan_nature",
+        "vp_pinger_shan_strategy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_pinger_shan_nature",
+          "title": "本性论：她的善发自天性",
+          "summary": "平儿的善常在没有「用处」的时刻流露：尤二姐已必死，她仍送饭落泪（无利可图）；偷银子办丧（冒凤姐之大不韪）；被两头打后仍不记恨。她的善是「看不过去」——天性中的不忍，而非精算后的选择。宝玉叹她「极聪明极清俊」，她的善是「聪明」之外的「清」。",
+          "evidence": [
+            "对尤二姐的暗济（无利且冒险）",
+            "被殴打后仍维护家庭体面",
+            "对坠儿的「留面」（对她自己毫无好处）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_pinger_shan_strategy",
+          "title": "策略论：她的善是「收人心」的高级经营",
+          "summary": "平儿的「善」有极高的政治回报：下人们视她为「青天」（有事求平儿），同侪敬她（宝玉探春皆与其结盟），连凤姐都离不开她。她的每一次「救」（贾琏、坠儿、五儿、巧姐）都收获一方的死忠。她的善与凤姐的恶构成互补经营——凤姐立威，平儿收心，二人合起来统治贾府的下人世界。",
+          "evidence": [
+            "下人们对平儿的普遍拥戴（「青天」式口碑）",
+            "她「救」过的对象都成为她的支持者",
+            "「得放手时须放手」——「施恩」是她的原话"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_pinger_fuzheng",
+      "title": "平儿被「扶正」的结局合理吗？",
+      "slug": "is-pingers-promotion-a-reasonable-ending",
+      "question_type": "version_dispute",
+      "importance_weight": 70,
+      "heat_weight": 65,
+      "neutral_overview": "后四十回（gaoe）写平儿被贾琏扶正。这个「熬出头」的结局，是善有善报，还是对平儿悲剧性的消解？",
+      "viewpoint_ids": [
+        "vp_pinger_fuzheng_yes",
+        "vp_pinger_fuzheng_no"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_pinger_fuzheng_yes",
+          "title": "合理论：扶正是平儿一生「周全」的自然兑现",
+          "summary": "平儿扶正有充分的文本逻辑：凤姐已死、她多年实际管家、护巧姐有功、贾琏对她有亏欠。前八十回亦有伏笔（鲍二家的戏言「把你那平姑娘扶了正」）。「善有善报」的收束给平儿线画上暖色句号——在「千红一哭」中保留一点暖意，正是曹雪芹对平儿的偏爱（此结局的处理方向与判词系统无冲突，平儿本无判词）。",
+          "evidence": [
+            "鲍二家的「扶正」戏言（第44回）的伏笔",
+            "平儿的资历与功劳",
+            "attribution=gaoe"
+          ],
+          "fact_type": "disputed_version"
+        },
+        {
+          "id": "vp_pinger_fuzheng_no",
+          "title": "存疑论：「扶正」消解了平儿的悲剧性",
+          "summary": "平儿的价值本不在于「熬出头」——她的动人之处恰是在「贾琏之俗，凤姐之威」中守住善良本身。扶正以「名分」奖赏善良，把她的悲剧改写成了励志故事：仿佛善良的意义在于最终获得回报。而平儿之善的珍贵，恰恰在于它不求回报（暗济尤二姐时尤二姐已必死）。续书的处理低估了平儿的文学深度。",
+          "evidence": [
+            "平儿之善的「无利」时刻（济二姐、助丧）",
+            "「扶正」与全书悲剧基调的张力",
+            "attribution=gaoe"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_pinger_guanghui",
+      "title": "平儿——「夹缝中的微光」与善良的可能",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1985,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者普遍将平儿视为《红楼梦》对「善良如何可能」的回答：在贾府权力核心的污泥中，平儿证明善良不是弱者的专利，而是一种可行的高级生存方式——她的「救」（贾琏、坠儿、五儿、尤二姐、巧姐）与她自己的「全」（终身周旋而未坠）同时实现。有论者称平儿为「无判词的副册人物」：她没有判词、没有曲文，说明曹雪芹未给她安排「薄命司」的固定归宿——这或许正是一种怜惜：她不属于「千红一哭」的册页，因为她以善良为自己挣得了一个例外。"
+    },
+    {
+      "id": "viewpoint_pinger_xingquan",
+      "title": "「判冤决狱平儿行权」——仁慈权力的叙事实验",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1994,
+      "source_title": "多项叙事与权力研究",
+      "description": "学者分析第六十一回的「平儿行权」是曹雪芹的一次「仁慈权力」实验：同一个管家系统，凤姐使用权力的方式是「治」（打、卖、杀），平儿是「解」（瞒、放、恕）。玫瑰露案的「瞒赃」处理被学者反复讨论：它展示了「体面政治」的运作逻辑——真相让位于和谐，公正让位于保全。平儿的「得放手时须放手」因此具有双重性：既是仁慈，也是权力体系自我维护的高级技巧。曹雪芹通过平儿证明：仁慈并不天然正义，它也有代价（真相被掩、作恶者被放）——但相比凤姐式的严酷，它至少挽救了无辜者的命。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 7,
+    "total_relationships": 7,
+    "total_poems": 0,
+    "total_questions": 4,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 31,
+      "text_inference": 8,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 11,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

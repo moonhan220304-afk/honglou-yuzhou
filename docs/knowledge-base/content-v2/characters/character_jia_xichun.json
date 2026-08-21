@@ -1,0 +1,974 @@
+{
+  "character": {
+    "id": "character_jia_xichun",
+    "name": "贾惜春",
+    "slug": "jia-xichun",
+    "aliases": [
+      "四姑娘",
+      "四妹妹",
+      "藕榭",
+      "藕丫头",
+      "冷小姐"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "宁国府贾敬之女，贾珍之胞妹；贾府第四代年纪最小的小姐，与迎春、探春并称「三春」。",
+      "position": "贾府四小姐；大观园蓼风轩（暖香坞）居所。",
+      "origin": "金陵人氏，宁国府出身。",
+      "generation": "贾府第四代（与贾宝玉同辈）"
+    },
+    "tags": [
+      "勘破三春",
+      "杜绝宁国府",
+      "善画",
+      "出家",
+      "虚花悟",
+      "冷面冷心",
+      "佛前海灯",
+      "宁府污浊",
+      "矢孤介"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一。宁国府贾敬之女，善画。看破宁国府的污浊与三春的悲剧，最终「缁衣顿改昔年妆」，出家为尼——是十二钗中最决绝的「逃离者」。",
+      "long": "贾惜春是宁国府贾敬之女、贾珍胞妹，因贾母疼爱，自幼在荣国府长大。第三回出场时「身量未足，形容尚小」——她是三春中最小的一个。善画，第四十至四十二回贾母命她画《大观园行乐图》，为此诗社还放她长假。她的「冷」在第七回已有伏笔——幼年与智能儿玩耍时就说「明儿也剃了头同她做姑子去」。第七十四回抄检大观园，从她的丫鬟入画箱中搜出宁国府违禁之物，她为自证清白而「矢孤介杜绝宁国府」，坚决撵走入画——这是她与宁国府决裂的标志。她看透宁国府的污浊（贾珍贾蓉父子的荒淫），也看透三春的结局：「勘破三春景不长」。判词「勘破三春景不长，缁衣顿改昔年妆。可怜绣户侯门女，独卧青灯古佛旁」与《虚花悟》曲「将那三春看破，桃红柳绿待如何」，预示其遁入空门。后四十回（gaoe）写她第一一五回「惑偏私惜春矢素志」决意出家，第一一八回带发修行、住进栊翠庵，紫鹃随侍。惜春的出家不是宗教皈依，而是对污浊世界的终极切割——以「空」为盾，拒绝被宁国府的名声染污。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "冷——防御性的冷酷",
+        "fact_type": "text_inference",
+        "description": "惜春的「冷」（撵入画、杜绝宁国府）不是天性凉薄，而是防御机制：她自幼生长于声名狼藉的宁国府边缘，兄长贾珍的荒淫让她对「名声」极度敏感。撵入画是她对「清白」的极端维护——与其被污名牵连，不如先割断一切。"
+      },
+      {
+        "dimension": "孤介——矢孤介杜绝宁国府",
+        "fact_type": "canonical_text_fact",
+        "description": "第七十四回回目「矢孤介杜绝宁国府」点明她的性格核心：「矢孤介」——立誓孤高介直。她与尤氏当面对质时说出「我清清白白的一个人，为什么教你们带累坏了我」——为了清白，她可以断绝一切人伦关系。"
+      },
+      {
+        "dimension": "勘破——最年幼的觉悟者",
+        "fact_type": "canonical_text_fact",
+        "description": "惜春是十二钗中最年幼的「勘破者」。《虚花悟》「将那三春看破」——她看破的不只是三个姐姐的悲剧，更是整个「桃红柳绿」世界的虚幻。她的出家是全书「色空」主题的最年轻样本。"
+      },
+      {
+        "dimension": "艺术人格——画者之眼",
+        "fact_type": "canonical_text_fact",
+        "description": "惜春善画，被贾母指定绘制《大观园行乐图》。她的「画者身份」意味深长：画家是旁观者——惜春始终以旁观者的眼睛注视大观园与宁国府，画下繁华，也看穿繁华的虚幻。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xichun_judgment_ch5",
+        "title": "判词与《虚花悟》曲（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xichun_intro_ch3",
+        "title": "初见黛玉——「身量未足，形容尚小」（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xichun_zhineng_ch7",
+        "title": "幼年戏言「做姑子去」（第七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xichun_riddle_ch22",
+        "title": "灯谜——佛前海灯（第二十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xichun_paint_ch42",
+        "title": "画大观园行乐图（第四十至四十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_xichun_renounce_ch74",
+        "title": "矢孤介杜绝宁国府（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_xichun_vow_ch115",
+        "title": "惑偏私惜春矢素志（第一一五回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 8,
+        "event_id": "event_xichun_nun_ch118",
+        "title": "出家栊翠庵（第一一八回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_xichun_judgment",
+        "quote": "勘破三春景不长，缁衣顿改昔年妆。可怜绣户侯门女，独卧青灯古佛旁。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回惜春判词。册页画着「一所古庙，里面有一美人在内看经独坐」。「绣户侯门女」与「青灯古佛旁」的巨大落差即是她的命运。"
+      },
+      {
+        "source_id": "source_ch05_xichun_song",
+        "quote": "[虚花悟]将那三春看破，桃红柳绿待如何？把这韶华打灭，觅那清淡天和。说什么，天上夭桃盛，云中杏蕊多。到头来，谁把秋捱过？……闻说道，西方宝树唤婆娑，上结着长生果。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回《虚花悟》曲。「将那三春看破」——三个姐姐的悲剧（也有解为三个春天）成为她勘破的教材。"
+      },
+      {
+        "source_id": "source_ch74_xichun_renounce",
+        "quote": "惜春道：「……我只知道保得住我就够了，不管你们。从此以后，你们有事别累我。」尤氏道：「可知你是个心冷口冷心狠意狠的人。」惜春道：「古人曾也说的，『不作狠心人，难得自了汉。』我清清白白的一个人，为什么教你们带累坏了我！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回惜春与尤氏决裂。「不作狠心人，难得自了汉」——她的出家哲学的最早宣言。"
+      },
+      {
+        "source_id": "source_ch22_xichun_riddle",
+        "quote": "惜春的灯谜是：「前身色相总无成，不听菱歌听佛经。莫道此生沉黑海，性中自有大光明。」贾政心内忖道：「此物还倒有限。……皆非永远福寿之辈。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十二回惜春灯谜（佛前海灯）。「不听菱歌听佛经」——小小年纪，谜中已见佛门。"
+      },
+      {
+        "source_id": "source_ch07_xichun_zhineng",
+        "quote": "惜春笑道：「我这里正和智能儿说，我明儿也剃了头同她做姑子去呢，可巧又送了花儿来；若剃了头，可把这花儿戴在哪里呢？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回惜春幼年戏言。「做姑子去」的玩笑在曹雪芹笔下从来不是玩笑——是她命运的第一次泄露。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "四春第四，谐「息」",
+      "detail": "惜春谐「息」——「原应叹息」之一环。别号藕榭（居藕香榭）。「惜」字与其最终出家为尼的命运呼应——四大皆空、息心入道",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉眼中：第三个身量未足，形容尚小",
+          "age": "尚小（约6岁上下）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约6岁（第3回「形容尚小」）",
+        "story_end": "约14岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第3回「身量未足，形容尚小」为明文（四春最小）；前八十回末约十四五岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "四姑娘",
+      "type": "家族称呼",
+      "context": "贾府四小姐的通行称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "四妹妹",
+      "type": "姐妹称呼",
+      "context": "宝玉、迎春、探春等对惜春的称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "藕榭",
+      "type": "雅号",
+      "context": "海棠诗社雅号，因蓼风轩临近藕香榭而得名",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "藕丫头",
+      "type": "昵称",
+      "context": "贾母对惜春的爱称（「藕丫头」），因其雅号「藕榭」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "冷小姐",
+      "type": "评语",
+      "context": "尤氏评她「心冷口冷心狠意狠」——「冷」成为惜春的公认标签",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xichun_intro_ch3",
+      "title": "初见黛玉——「身量未足，形容尚小」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 3,
+        "title": "贾雨村夤缘复旧职 林黛玉抛父进京都",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "黛玉初见三春，惜春最小——「第三个身量未足，形容尚小」。"
+      },
+      "summary": {
+        "short": "惜春出场时只有八个字：「身量未足，形容尚小」。她是三春中最小的妹妹，一个尚未长成的女孩——而她未来的命运（出家）在第五回的判词里已经写好。",
+        "meaning": [
+          "「身量未足」的幼弱与「勘破三春」的早熟形成惊人反差",
+          "十二钗中出场时最「小」的人，最终却走向最「老」的归宿（青灯古佛）"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "最小的身体，最冷的眼睛",
+          "content": "曹雪芹特意写惜春「小」——她的身体从未在书中真正「长大」，她的心灵却最早「老去」。一个还没长成的女孩就看破了世界，这是惜春悲剧最锋利的地方：她连青春的滋味都没尝过，就直接进入了虚无。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_xichun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xichun_zhineng_ch7",
+      "title": "幼年戏言——「明儿也剃了头同她做姑子去」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "周瑞家的送宫花，惜春正与水月庵小尼姑智能儿玩耍，笑道「明儿也剃了头同她做姑子去」。"
+      },
+      "summary": {
+        "short": "惜春幼年与水月庵小尼姑智能儿玩耍，戏言「剃了头做姑子去」。这句童言在全书谶语系统中格外刺目——它是最早泄露惜春命运的句子，比第五回判词在叙事时间上更早（第七回发生在宝玉入梦之后，但以人物话语的自然性看，这玩笑「轻」得惊人）。",
+        "meaning": [
+          "曹雪芹的「童言成谶」手法——最天真的话语说出最冰冷的命运",
+          "惜春与智能儿的友谊暗示她对佛门的天然亲近",
+          "「若剃了头，可把这花儿戴在哪里呢」——女儿之美的舍弃，一语双关"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "宫花与佛门——美的两种去向",
+          "content": "周瑞家的送宫花时，惜春正说「做姑子去」。宫花（世俗之美）与姑子（弃绝之美）在同一个场景相遇。惜春的笑语「剃了头花戴哪儿呢」看似天真，实则是曹雪芹的暗笔：她终将用「缁衣」换下「宫花」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_xichun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhi_neng_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhou_rui",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xichun_riddle_ch22",
+      "title": "灯谜——佛前海灯「性中自有大光明」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 22,
+        "title": "听曲文宝玉悟禅机 制灯谜贾政悲谶语",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "惜春的灯谜谜底是佛前海灯——「前身色相总无成，不听菱歌听佛经。莫道此生沉黑海，性中自有大光明。」"
+      },
+      "summary": {
+        "short": "惜春的灯谜是三春中最直白的自我预言：谜面写海灯（佛前灯），「不听菱歌听佛经」明写弃世向佛。贾政读之更觉「皆非永远福寿之辈」。",
+        "meaning": [
+          "海灯是惜春命运的物化——她的结局是一盏佛前的灯",
+          "「前身色相总无成」——对尘世之美的彻底否定",
+          "「性中自有大光明」——她在佛门中寻找的光明"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "海灯的孤独",
+          "content": "海灯是供佛的灯——它存在的意义是「照亮别人」，自己却永远困在佛前。惜春的归宿「独卧青灯古佛旁」正与此呼应：她以出家的方式完成了对自己的「放逐」，成为照亮贾府败相的一盏孤灯。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_xichun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xichun_paint_ch42",
+      "title": "画大观园行乐图——「画中人」与「执笔人」",
+      "event_level": "major",
+      "chapter": {
+        "number": 42,
+        "title": "蘅芜君兰言解疑癖 潇湘子雅谑补余香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "第四十回刘姥姥赞大观园「比那画儿还强十倍」，贾母便命惜春画《大观园行乐图》。第四十二回李纨等商议放她长假，宝钗论画具颜料，黛玉打趣她「慢慢地画」。惜春由此获得诗社的「请假条」，专心作画。"
+      },
+      "summary": {
+        "short": "贾母命惜春绘制大观园行乐图。为此诗社特准她告假一年。宝钗大谈绘画章法材料，黛玉妙语打趣。这幅画成为大观园鼎盛时期的「全景纪录」——而执笔人惜春，最终成为看破繁华的出家者。",
+        "meaning": [
+          "惜春是「大观园盛景」的官方记录者——她的画是理想国的存照",
+          "画家的旁观者身份与惜春的「冷眼」人格高度同构",
+          "刘姥姥一句「比那画儿还强十倍」引出的画画任务，暗示盛景难留——只能靠画存真"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "以画存园——繁华的定格与虚幻的显影",
+          "content": "贾母命惜春作画的动机是「留存盛景」，但「留存」本身即是不祥——只有将逝之物才需要定格。惜春的画永远画不完（书至八十回仍未画成），暗示盛景的不可挽留：画布上的大观园未完成，真实的大观园已开始崩塌。"
+        },
+        {
+          "type": "character",
+          "title": "「大观园的画师」——旁观者人格的确立",
+          "content": "惜春的「善画」使她成为大观园的旁观者：别人活在景中，她执笔在景外。这种距离感解释了她后来的决绝——她从来不是「园中人」心态，而是随时准备「出园」的观察者。画画是她的天赋，也是她的隐喻。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_xichun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xichun_renounce_ch74",
+      "title": "矢孤介杜绝宁国府",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "蓼风轩（暖香坞）",
+        "specific": "抄检大观园时，从惜春丫鬟入画箱中搜出她哥哥（宁府仆役）私传的银镊子与男人鞋袜。入画解释是贾珍赏给哥哥的，尤氏也作证情有可原。惜春却坚决要撵走入画，并与尤氏激烈争吵，扬言与宁国府断绝往来。"
+      },
+      "summary": {
+        "short": "抄检大观园在入画箱中搜出违禁之物。惜春非但不保丫鬟，反而要求严办，说「这里我决不再住，且你传我话给大爷（贾珍）……如今我也大了，连我也不便往你们那边去了」。尤氏说她「心冷口冷」，她以「不作狠心人，难得自了汉」回敬。",
+        "meaning": [
+          "惜春的「绝情」是对宁国府名声的恐惧——「我清清白白的一个人，为什么教你们带累坏了我」",
+          "撵入画是自证清白的仪式——宁可伤害无辜，也要与污名切割",
+          "「杜绝宁国府」标志惜春与原生家庭的彻底决裂——为出家铺平道路"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「清白焦虑」——宁国府污名的阴影",
+          "content": "惜春的激烈反应必须放在宁国府的背景下理解：贾珍贾蓉父子的荒淫（爬灰、聚麀等传闻）使「宁国府」三个字在京城就是丑闻。惜春作为宁府小姐，自幼背负污名阴影。入画事件触发了她的「清白焦虑」——她要用最决绝的方式证明自己与宁府的丑闻无关。她的冷酷不是无情，是长期恐惧的爆发。"
+        },
+        {
+          "type": "literary",
+          "title": "「不作狠心人，难得自了汉」——自了哲学",
+          "content": "惜春引用的这句禅语是她人格的钥匙：「自了」——只求自身解脱。她的撵入画、绝宁府、后来出家，都是「自了」逻辑的一贯推演。曹雪芹借尤氏之口批评她「心冷口冷」，又让她说出「不作狠心人」的自辩——惜春的冷，是读者无法简单谴责的冷。"
+        },
+        {
+          "type": "hongxue",
+          "title": "撵入画的是非之争",
+          "content": "入画之过极轻（替哥哥保管赏赐之物），尤氏已证其清白。惜春仍执意撵逐，读者多与探春的护仆对照，批评惜春冷酷。但也有学者指出：惜春对入画说的「若说传进小姐房里的东西，你们好生拣看，再有一件坏样，看是怎么处」——她真正恐惧的不是入画的「罪」，而是宁府「坏样」的传染。惜春撵的不是入画，是宁国府。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_xichun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ru_hua",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xichun_vow_ch115",
+      "title": "惑偏私惜春矢素志——决意出家",
+      "event_level": "major",
+      "chapter": {
+        "number": 115,
+        "title": "惑偏私惜春矢素志 证同类宝玉失相知",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾府渐败，甄宝玉来访使贾宝玉再度痴迷。惜春目睹家族衰败、兄长堕落，坚执出家之志。王夫人等苦劝，惜春誓死不改。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写惜春在贾府败象已露时坚执出家之志，任谁劝说都不改。她明确表示宁可「绞了头发做姑子去」，也不愿留在贾府这个「是非场」中。王夫人无奈，准其带发修行。",
+        "meaning": [
+          "惜春的出家意志在家族衰败中愈发坚定——她是贾府败亡最清醒的「目击者」",
+          "「矢素志」呼应第七十四回的「矢孤介」——她的决绝一以贯之"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "出家动机的版本差异",
+          "content": "后四十回（gaoe）将惜春出家处理为目睹家族败亡后的主动抉择，动机偏「避祸」与「勘破」。但脂批系统与判词暗示的惜春出家更多与「宁国府的丑闻恐惧」及「三春悲剧」的刺激相关。续书的处理基本沿袭判词方向，但把「冷」的层次简化了。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_xichun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhen_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xichun_nun_ch118",
+      "title": "出家栊翠庵——「缁衣顿改昔年妆」",
+      "event_level": "major",
+      "chapter": {
+        "number": 118,
+        "title": "记微嫌舅兄欺弱女 惊谜语妻妾谏痴人",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "栊翠庵",
+        "specific": "惜春带发修行，住进栊翠庵。紫鹃自请随侍。贾府上下苦留不住，惜春从此青灯古佛。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写惜春最终带发修行、住进栊翠庵——妙玉旧居。紫鹃因感黛玉之情、看破世事，自请随侍惜春。判词「缁衣顿改昔年妆」「独卧青灯古佛旁」正式兑现。",
+        "meaning": [
+          "「缁衣顿改昔年妆」——侯门千金到尼姑的转换终于完成",
+          "紫鹃随侍——两个「伤心人」在栊翠庵相依为命",
+          "惜春是十二钗中唯一以「主动选择」完成判词命运的人"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "栊翠庵的继承——惜春接替妙玉的位置",
+          "content": "惜春住进栊翠庵意味深长：妙玉被劫后（后四十回），惜春接替了她在栊翠庵的位置。两个「世难容」的女子先后在同一处青灯下——一个被迫修行（妙玉「云空未必空」），一个主动出家。栊翠庵成为「勘破」者的接力站。"
+        },
+        {
+          "type": "character",
+          "title": "紫鹃随侍——两个失去世界的人",
+          "content": "紫鹃随惜春出家是后四十回最动人的一笔：紫鹃因黛玉之死心灰意冷，惜春因看破家族污浊而出世——两个被大观园放逐的人，在栊翠庵互相取暖。这一安排也呼应了紫鹃的「忠」：她的忠不随主死而亡，而是转寄于另一种形式的陪伴。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_xichun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_miao_yu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zijuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xichun_judgment_ch5",
+      "title": "太虚幻境判词——《虚花悟》",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "宝玉见惜春册页：画着「一所古庙，里面有一美人在内看经独坐」。判词与《虚花悟》曲随之揭示其出家结局。"
+      },
+      "summary": {
+        "short": "惜春的册页画着古庙美人看经——「缁衣」「青灯」「古佛」的结局在最开始就被画定。判词「勘破三春景不长」把三个姐姐的悲剧写成她看破红尘的教材。",
+        "meaning": [
+          "古庙看经的画与「独卧青灯古佛旁」的判词——十二钗中最明确的佛门预言",
+          "「勘破三春」双关：既是三个姐姐（迎春探春及元春），也是三个春天",
+          "「可怜」二字——曹雪芹对惜春的同情：她的出家不是解脱，是可怜"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「勘破三春」的双重指涉",
+          "content": "「三春」历来有两解：一指元春、迎春、探春三个姐姐（惜春作为四妹「勘破」她们的悲剧）；二指「三个春天」（美好时光的易逝）。两种解读在文本中可并存：惜春既看破了姐姐们的命运，也看破了春光的虚幻。无论哪解，结论一致——她是最早「看破」的人。"
+        },
+        {
+          "type": "literary",
+          "title": "「可怜」——判词中的同情底色",
+          "content": "判词特用「可怜绣户侯门女」——曹雪芹对惜春的出家并非颂扬。「可怜」一词表明：在作者看来，一个侯门千金被逼到青灯古佛，不是觉悟的美谈，而是世界的失败。惜春的「悟」是伤口结痂，不是修行圆满。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_xichun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xichun_jia_jing",
+      "from": "character_jia_xichun",
+      "to": "character_jia_zhen",
+      "type": "胞兄妹（决裂）",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾珍是惜春胞兄，但二人几乎没有正常的兄妹之情。贾珍的荒淫使宁国府声名狼藉，惜春视之为耻辱与威胁。第七十四回她借入画事件公开与宁国府决裂——「连我也不便往你们那边去了」。贾珍代表她拼命逃离的污浊世界。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "入画事件——公开决裂",
+          "chapter": 74,
+          "description": "惜春借入画之事向尤氏宣言与宁府断绝往来——「你们有事别累我」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xichun_you_shi",
+      "from": "character_jia_xichun",
+      "to": "character_you_shi",
+      "type": "姑嫂（当面对峙）",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤氏是惜春之嫂。第七十四回二人因入画之事当面对峙：尤氏说情（「入画其实没有不是」），惜春冷言回绝，尤氏怒斥「心冷口冷心狠意狠」，惜春以「不作狠心人，难得自了汉」回敬。这场争吵是惜春与宁国府决裂的公开仪式。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "姑嫂对峙",
+          "chapter": 74,
+          "description": "尤氏为入画说情被拒，姑嫂撕破脸。尤氏讥「心冷」，惜春辩「自了」。"
+        },
+        {
+          "stage": 1,
+          "title": "杜绝宁国府——彻底决裂",
+          "chapter": 74,
+          "description": "惜春对尤氏说出「我若再过去，连我也编派上了」，以最尖锐的言辞与宁国府切断关系。尤氏忍气吞声而去。"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_xichun_ruhua_ch74",
+          "description": "撵入画后当面指责尤氏"
+        }
+      ],
+      "impact": "惜春与尤氏的决裂是全书中最激烈的姑嫂冲突之一。惜春以一个未出阁的少女之口，当众撕开了宁国府道德外衣的最后一针——这是她对整个家族腐败的最直接宣战。"
+    },
+    {
+      "id": "relationship_xichun_ruhua",
+      "from": "character_jia_xichun",
+      "to": "character_ruhua",
+      "type": "主仆（被放弃的丫鬟）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "入画是惜春的贴身丫鬟，自幼服侍。抄检大观园时因替哥哥保管财物被逐。惜春非但不保她，反而坚决撵逐——「或打，或杀，或卖，我一概不管」。入画临走叩头哭求，惜春不肯松口。这段主仆关系是惜春「冷」的最直接证据，也是她的清白焦虑的牺牲品。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "被逐",
+          "chapter": 74,
+          "description": "入画因私藏哥哥之物被逐，尤氏作证情有可原，惜春仍坚持撵出。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xichun_miao_yu",
+      "from": "character_jia_xichun",
+      "to": "character_miao_yu",
+      "type": "知己（佛缘相通）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "惜春与妙玉性情相投——一个自幼有佛缘，一个带发修行。第八十七回妙玉至惜春处下棋，听琴心动而「走火入魔」，惜春认为妙玉「邪魔缠身」、惜春则自叹「我还没她那样洁净」。后四十回（gaoe）惜春出家后正住进妙玉的栊翠庵。二人构成「出世」主题的双声部：妙玉被迫修行而尘心未断，惜春主动出家而心冷如灰。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "下棋论佛",
+          "chapter": 87,
+          "description": "妙玉至惜春处下棋，谈禅论道，惜春对妙玉的「走火入魔」有自己的看法。"
+        },
+        {
+          "stage": 2,
+          "title": "栊翠庵的接续",
+          "chapter": 118,
+          "description": "惜春带发修行住进栊翠庵——接替了妙玉的位置。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xichun_jia_mu",
+      "from": "character_jia_xichun",
+      "to": "character_jia_mu",
+      "type": "祖孙",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "惜春因贾母疼爱，自幼在荣国府长大，得以远离宁国府的污浊。贾母唤她「藕丫头」，命她画大观园行乐图。但贾母的庇护也挡不住她目睹三春悲剧后的心冷。后四十回（gaoe）写贾母死后惜春出家之心更坚。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "荣府养育",
+          "chapter": 3,
+          "description": "惜春自幼由贾母接到荣国府养大。"
+        },
+        {
+          "stage": 2,
+          "title": "命画行乐图",
+          "chapter": 42,
+          "description": "贾母命惜春画《大观园行乐图》。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xichun_sanchun",
+      "from": "character_jia_xichun",
+      "to": "character_jia_yingchun",
+      "type": "姐妹（三春命运共同体）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "惜春与迎春、探春并称「三春」，但关系并不亲密。她与二姐姐、三姐姐保持距离——这种距离感与她的「旁观者人格」一致。「勘破三春景不长」——三个姐姐的结局（迎春被虐死、探春远嫁、元春薨逝）先后成为她「看破」的教材。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "旁观三春悲剧",
+          "chapter": 79,
+          "description": "迎春出嫁、探春远嫁——惜春默默注视姐姐们的命运，心中的出世之志随之成熟。",
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_xichun_judgment_song",
+      "title": "判词与《虚花悟》曲",
+      "work_type": "判词/曲",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "判词：「勘破三春景不长，缁衣顿改昔年妆。可怜绣户侯门女，独卧青灯古佛旁。」《虚花悟》：「将那三春看破，桃红柳绿待如何？把这韶华打灭，觅那清淡天和。……闻说道，西方宝树唤婆娑，上结着长生果。」",
+      "symbolic_notes": "「缁衣」对「昔年妆」——出家即换装，命运即更衣；「长生果」的西方宝树是她想象中的终极避难所。"
+    },
+    {
+      "id": "poem_xichun_riddle",
+      "title": "灯谜（佛前海灯）",
+      "work_type": "灯谜（七绝）",
+      "chapter_number": 22,
+      "fact_type": "canonical_text_fact",
+      "summary": "「前身色相总无成，不听菱歌听佛经。莫道此生沉黑海，性中自有大光明。」",
+      "symbolic_notes": "「不听菱歌听佛经」——弃世向佛的自我预言；海灯意象与判词「青灯古佛」呼应。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_xichun_monastic",
+      "title": "惜春为什么最终走向出家？",
+      "slug": "why-does-xichun-become-a-nun",
+      "question_type": "character_motivation",
+      "importance_weight": 80,
+      "heat_weight": 70,
+      "neutral_overview": "惜春的出家不是心血来潮：第七回的戏言、第二十二回的灯谜、第七十四回的决裂，步步铺垫。她出家的真正动机是什么——信仰、避祸，还是彻底的失望？",
+      "viewpoint_ids": [
+        "viewpoint_xichun_disgust",
+        "viewpoint_xichun_homeless",
+        "viewpoint_xichun_awakening"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_xichun_disgust",
+          "title": "决绝论：出家是对「宁国府污浊」的终极切割",
+          "summary": "惜春出家的第一动力是宁国府的污名恐惧——贾珍贾蓉的荒淫使「宁府」二字成为她的原罪。撵入画、绝宁府、出家是同一逻辑的三步：先切割丫鬟，再切割家族，最终切割尘世。「我清清白白的一个人」——她的出家是清白的终极自证。",
+          "evidence": [
+            "第七十四回「为什么教你们带累坏了我」",
+            "她对宁国府的公开决裂宣言"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "viewpoint_xichun_homeless",
+          "title": "无依论：出家是她「无家可归」状态的唯一出口",
+          "summary": "惜春在贾府是「无家之人」：宁国府是她的「家」，她不能回也不愿回；荣国府是寄居之地。父亲贾敬弃家修道、母亲早逝、兄长荒淫——她没有可以回去的地方。大观园解散、贾母死后，她在尘世已无立锥之地，佛门是唯一收留她的地方。",
+          "evidence": [
+            "贾敬修道弃家、惜春自幼寄养荣府",
+            "后四十回贾母死后她出家之心更坚",
+            "attribution=gaoe"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_xichun_awakening",
+          "title": "觉悟论：惜春的出家是全书「勘破」主题的最年轻样本",
+          "summary": "惜春的出家有精神觉醒的成色：「勘破三春景不长」——她从三个姐姐的悲剧中看透了「桃红柳绿」的虚幻。《虚花悟》「把这韶华打灭，觅那清淡天和」不是绝望者的逃避，而是觉悟者的选择。她以最小的年纪完成了最深的精神超越。",
+          "evidence": [
+            "判词与《虚花悟》曲的「勘破」表述",
+            "「不作狠心人，难得自了汉」的禅学自证"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_xichun_cold",
+      "title": "惜春真的「冷」吗？她的冷酷该如何理解？",
+      "slug": "is-xichun-really-cold",
+      "question_type": "character_analysis",
+      "importance_weight": 78,
+      "heat_weight": 72,
+      "neutral_overview": "尤氏骂她「心冷口冷心狠意狠」，读者也常因撵入画而批评她冷血。但「冷」真的是惜春的本质吗？",
+      "viewpoint_ids": [
+        "vp_xichun_cold_nature",
+        "vp_xichun_cold_defense",
+        "vp_xichun_cold_structural"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xichun_cold_nature",
+          "title": "天性论：她的冷是与生俱来的",
+          "summary": "惜春自幼孤介：第七回童言出家、对姊妹疏离、对世事冷漠——这些在宁府丑闻爆发前就已存在。曹雪芹写她「形容尚小」而心已冷，说明冷是她的天性底色，宁府的污浊只是加强了它。",
+          "evidence": [
+            "第七回幼年戏言「做姑子去」",
+            "她与姊妹们一贯的疏离姿态"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xichun_cold_defense",
+          "title": "创伤防御论：冷是长期恐惧的铠甲",
+          "summary": "惜春的冷是被宁国府的丑闻「冻」出来的：作为贾珍的妹妹，她比任何人都清楚家族名声的真相。她的「冷」是自我保护——在污名环境下长大的女孩，唯一的自救方式是「不沾边」。撵入画不是无情，是创伤后的过度防御。",
+          "evidence": [
+            "入画事件中她对「带累」的极度恐惧",
+            "宁国府丑闻的环境背景（焦大骂街等）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xichun_cold_structural",
+          "title": "结构论：她的「冷」是对制度冷漠的镜像反射",
+          "summary": "惜春的冷是贾府制度的镜像：父亲弃家（对子女的冷）、兄长荒淫（对伦理的冷）、抄检大观园（对女儿的冷）。在一个以「冷」为底色的家族里，惜春只是把环境的冷变成了自己的武器。她的冷是环境冷的精确回声。",
+          "evidence": [
+            "贾敬弃家修道、贾珍荒淫、贾府抄检的自毁逻辑"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xichun_vs_miaoyu",
+      "title": "惜春与妙玉——两个「出世者」有何不同？",
+      "slug": "xichun-vs-miaoyu-two-renouncers",
+      "question_type": "comparative_analysis",
+      "importance_weight": 72,
+      "heat_weight": 65,
+      "neutral_overview": "妙玉带发修行却「云空未必空」，惜春冷眼看世而终入空门。曹雪芹为何在十二钗中安排两个与佛门有关的女子？",
+      "viewpoint_ids": [
+        "vp_miaoyu_xichun_contrast"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_miaoyu_xichun_contrast",
+          "title": "镜像论：被迫的空与主动的空",
+          "summary": "妙玉是「被迫出世」：因体弱多病而入佛门，身在空门而心在红尘（对宝玉的微妙情愫、对梅花雪水的执念）。惜春是「主动出世」：看破污浊后自觉选择空门，身在红尘而心已先空。二人互为镜像：妙玉证明「身入空门不能自空」，惜春证明「心空则处处是空」。曹雪芹用这对镜像拆穿了「出家即解脱」的幻象——妙玉被劫（后四十回）、惜春孤灯，出世者也没有出路。",
+          "evidence": [
+            "妙玉「云空未必空」的判词与走火入魔情节",
+            "惜春「矢孤介」「矢素志」的两次立誓",
+            "后四十回惜春入住栊翠庵接替妙玉的位置",
+            "attribution=gaoe"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xichun_gaoe",
+      "title": "后四十回对惜春出家结局的处理合理吗？",
+      "slug": "is-the-gaoe-treatment-of-xichuns-end-reasonable",
+      "question_type": "version_dispute",
+      "importance_weight": 70,
+      "heat_weight": 65,
+      "neutral_overview": "后四十回（gaoe）写惜春带发修行、住进栊翠庵、紫鹃随侍。这一处理与判词、脂批的线索是否吻合？",
+      "viewpoint_ids": [
+        "vp_xichun_gaoe_ok",
+        "vp_xichun_gaoe_loss"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_xichun_gaoe_ok",
+          "title": "合理论：基本兑现了判词系统",
+          "summary": "「缁衣顿改昔年妆」「独卧青灯古佛旁」在后四十回得到完整兑现；紫鹃随侍的细节与紫鹃「忠仆」的性格弧线吻合；带发修行（而非正式剃度）也符合侯门千金的身份现实。就判词兑现而言，惜春是后四十回处理得较好的金钗之一。",
+          "evidence": [
+            "判词「缁衣」「青灯古佛」的对应",
+            "紫鹃随侍的合理性与感染力"
+          ],
+          "fact_type": "disputed_version"
+        },
+        {
+          "id": "vp_xichun_gaoe_loss",
+          "title": "简化论：丢掉了「宁府污浊」这一核心动机",
+          "summary": "续书把惜春出家的动机简化为「家族败亡后的勘破」，淡化了她与宁国府丑闻的纠葛（第七十四回的核心矛盾）。判词与《虚花悟》暗示的出家是「杜绝宁国府」逻辑的完成，续书的处理则偏向泛泛的「看破红尘」。此外，续书让惜春「带发修行」而非正式为尼，被认为有替贾府留体面之嫌。",
+          "evidence": [
+            "第七十四回决裂动机在续书中的弱化",
+            "「带发修行」与「缁衣」的落差"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xichun_huajia",
+      "title": "画者惜春——旁观者人格与「存真」的隐喻",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学意象研究",
+      "year": 1988,
+      "source_title": "多项意象与人物研究",
+      "description": "学者注意到「善画」是惜春最重要的功能设定：她以画家身份获得旁观者视角——别人活在盛景中，她执笔记录盛景。有论者认为惜春的《大观园行乐图》是全书「以画存真」主题的核心道具：大观园终将烟消云散，唯有画（与书）可以留存。「画大观园」与曹雪芹「写大观园」构成元叙事层面的同构——惜春是小说内部的「曹雪芹」，她的画未完成，正如《红楼梦》未完成。"
+    },
+    {
+      "id": "viewpoint_xichun_ziliao",
+      "title": "「自了汉」的伦理困境——惜春批判与辩护的两难",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学伦理研究",
+      "year": 1995,
+      "source_title": "多项人物伦理研究",
+      "description": "惜春是十二钗中读者评价分歧最大的人物之一：批评者以撵入画、绝尤氏为据，认定她自私冷酷（「自了汉」哲学的本质是逃避责任）；辩护者则指出，惜春的处境使她根本「无责可负」——一个连自己都保护不了的庶女，谈何保护丫鬟？「不作狠心人，难得自了汉」的困境是：在污浊环境中，洁身自好是否本身就是一种罪？惜春的伦理困境至今没有定论，这正是她的文学价值所在。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 8,
+    "total_relationships": 6,
+    "total_poems": 2,
+    "total_questions": 4,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 35,
+      "text_inference": 8,
+      "scholarly_viewpoint": 5,
+      "disputed_version": 7,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

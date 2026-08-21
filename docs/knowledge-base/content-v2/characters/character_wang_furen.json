@@ -1,0 +1,1281 @@
+{
+  "character": {
+    "id": "character_wang_furen",
+    "name": "王夫人",
+    "slug": "wang-furen",
+    "aliases": [
+      "贾王氏",
+      "太太",
+      "二太太"
+    ],
+    "category": "核心人物",
+    "importance_level": "core",
+    "content_level": "L2",
+    "identity": {
+      "family": "金陵王家（四大家族之王家）之女，王子腾之妹、薛姨妈之姐。贾政之妻。生贾珠（早亡）、贾元春（贵妃）、贾宝玉。贾兰之祖母。",
+      "position": "荣国府二房太太，贾府内务的实际最高管理者（家务委托侄女王熙凤执行）。宝玉之母——其身份决定了她在全书婚姻线与丫鬟线中的枢纽地位。",
+      "origin": "金陵王家小姐。刘姥姥记忆中「着实响快，会待人，倒不拿大」的王家二小姐。",
+      "generation": "贾府第三代（与贾政同辈）"
+    },
+    "tags": [
+      "金玉良缘推动者",
+      "抄检大观园",
+      "逐晴雯",
+      "金钏之死",
+      "佛口蛇心",
+      "袭人内定",
+      "面善心狠",
+      "吃斋念佛",
+      "薛家联盟",
+      "混世魔王",
+      "绣春囊",
+      "宝玉之母"
+    ],
+    "summary": {
+      "short": "贾政之妻、宝玉之母。她吃斋念佛、乐善好施（刘姥姥口中「怜贫恤老，最爱斋僧敬道」），却也是全书最冷酷的执行者——一掌逐金钏致其投井、一口咬定晴雯是「狐狸精」、主导抄检大观园、内定袭人为准姨娘。她以「为宝玉好」的名义，亲手摧毁了宝玉最珍视的一切。",
+      "long": "王夫人是《红楼梦》中最复杂的「母亲」形象，也是争议最大的人物之一。她的形象分两面：一面是「善」——刘姥姥说她「怜贫恤老，最爱斋僧敬道，舍米舍钱」，她吃斋念佛、抄《金刚经》、赏赐刘姥姥一百两银子；另一面是「狠」——金钏与她儿子调笑，她一个嘴巴把金钏撵出门导致其投井（第30、32回）；晴雯「眉眼像林妹妹」，她认定是「妖精似的东西」，在晴雯病重时将其撵出大观园致死（第74、77回）；她主导抄检大观园（第74回），把司棋、芳官、四儿等一并清除。她的行为逻辑在她自己的体系内完全自洽：她是「宝玉的母亲」，她的一切冷酷都是「保护宝玉」的极端形式——赶走「勾引」宝玉的丫鬟、选择「笨笨的」袭人、推动「金玉良缘」（宝钗路线），每一步都以「为儿子好」为名。这种「以保护为名的伤害」使她成为全书最深刻的悲剧人物之一：她不是坏人，她是「制度的好人」——而制度的好人恰是制度最忠实的杀人工具。脂评与后世学者对她的评价两极：「佛口蛇心」的指控与「封建卫道士的尽责」的辩护并存。她与贾母的路线之争（王夫人-薛家-金玉 vs 贾母-史家/林家-木石）构成了全书最隐蔽的权力暗战。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "以保护为名的控制——母亲权力的暴力性",
+        "description": "王夫人对宝玉的爱是真实的（挨打时「我的苦命的儿」的哭喊），但她的爱始终以「控制」的形式表达：她认定什么对宝玉「好」，就以暴力（撵人、驱逐）强制执行。她的悲剧在于：她从未想过问宝玉「你要什么」——在她的世界里，「母亲认为的好」就是「好」的全部定义。",
+        "evidence_events": [
+          "event_wangfuren_jinchuan_ch30",
+          "event_wangfuren_qingwen_ch74_77"
+        ]
+      },
+      {
+        "dimension": "制度的卫道士——礼教的忠实执行者",
+        "description": "王夫人是贾府中礼教执行力最强的人：她最痛恨「妖精似的东西」（有性吸引力的女性），认为她们会「勾引坏了」宝玉。她的「卫道」有真诚的成分——她真心相信「规矩」能保护她的儿子和家族。但这种真诚恰恰是可怕的：一个真诚的卫道士在执行礼教时不会有任何犹豫。",
+        "evidence_events": [
+          "event_wangfuren_chaosou_ch74",
+          "event_wangfuren_qingwen_ch74_77"
+        ]
+      },
+      {
+        "dimension": "佛口蛇心？——善与狠的一体两面",
+        "description": "王夫人的「善」（斋僧敬道、怜贫恤老）与「狠」（逐金钏、逐晴雯）是同一套价值体系的产物：她善待「符合规矩的弱者」（刘姥姥、贫苦僧道），冷酷对待「破坏规矩的丫鬟」（金钏、晴雯）。她的「善」有清晰的边界——边界之内是慈悲，边界之外是清除。这不是虚伪，而是「有条件的善」的极限样本。",
+        "evidence_events": [
+          "event_wangfuren_jinchuan_death_ch32",
+          "event_wangfuren_liulaolao_ch39"
+        ]
+      },
+      {
+        "dimension": "薛家联盟的枢纽——金玉良缘的推动者",
+        "description": "王夫人是「金玉良缘」最坚定的推动者：宝钗是她的亲外甥女（薛姨妈之妹），薛家联盟（王家+薛家）在她手中握有贾府的财政与人事。她内定袭人（宝钗的影子）为准姨娘、欣赏宝钗的「稳重和平」、厌弃黛玉的「孤高自许」——她的婚姻路线与她的人事路线完全一致。",
+        "evidence_events": [
+          "event_wangfuren_xiren_ch36",
+          "event_wangfuren_diaobaoji_ch96"
+        ]
+      },
+      {
+        "dimension": "沉默的权力——从幕后到台前",
+        "description": "王夫人的权力运作方式是「不动声色的决断」：她很少大声说话，但她的每一次出手都精准致命。前期她躲在幕后（通过凤姐、袭人执行），后期她走到台前（亲自抄检、亲自逐人）。这个「从幕后到台前」的过程，正是她与贾母权力消长的过程——贾母越老，王夫人的声音越大。",
+        "evidence_events": [
+          "event_wangfuren_chaosou_ch74"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_wangfuren_daiyu_ch3",
+        "title": "黛玉进府时的嘱咐——「混世魔王」（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_wangfuren_jinchuan_ch30",
+        "title": "撵金钏（第三十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_wangfuren_jinchuan_death_ch32",
+        "title": "金钏投井——赏银掩饰（第三十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_wangfuren_baoyu_beaten_ch33",
+        "title": "哭救宝玉——哭贾珠（第三十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_wangfuren_xiren_ch36",
+        "title": "内定袭人——准姨娘月例（第三十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_wangfuren_liulaolao_ch39",
+        "title": "怜贫恤老——施恩刘姥姥（第三十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_wangfuren_chaosou_ch74",
+        "title": "主导抄检大观园（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_wangfuren_qingwen_ch74_77",
+        "title": "赶走晴雯（第七十四至七十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 9,
+        "event_id": "event_wangfuren_siqi_ch77",
+        "title": "逐司棋、芳官、四儿等（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 10,
+        "event_id": "event_wangfuren_diaobaoji_ch96",
+        "title": "支持掉包计（第九十六至九十七回）",
+        "fact_type": "disputed_version",
+        "note": "后四十回，attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch03_hunshimowang",
+        "quote": "王夫人因说：「你只以后不要睬他，你这些姊妹都不敢沾惹他的……他嘴里一时甜言蜜语，一时有天无日，一时又疯疯傻傻，只休信他。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三回。王夫人向黛玉介绍宝玉——「混世魔王」的画像出自母亲之口，奠定她对儿子的基本认知：需要管束的危险品。"
+      },
+      {
+        "source_id": "source_ch30_jinchuan",
+        "quote": "王夫人翻身起来，照金钏儿脸上就打了个嘴巴子，指着骂道：「下作小娼妇，好好的爷们，都叫你教坏了。」……虽金钏儿苦求，亦不肯收留，到底唤了金钏儿之母白老媳妇来领了下去。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十回。宝玉调笑金钏，王夫人只罚金钏——「教坏了」的罪名由丫鬟承担而非少爷承担。"
+      },
+      {
+        "source_id": "source_ch32_jinchuan_death",
+        "quote": "王夫人道：「原是前儿他把我一件东西弄坏了，我一时生气，打了他几下，撵了他下去……我只说气他两天，还叫他上来，谁知他这么气性大，就投井死了。岂不是我的罪过。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十二回。王夫人对宝钗的「忏悔」——以「弄坏东西」的谎言替代真相，以「我的罪过」的自责掩饰「你的罪过」的事实。"
+      },
+      {
+        "source_id": "source_ch36_xiren",
+        "quote": "王夫人道：「……我就把他（袭人）交给你了，好歹留心，保全了他，就是保全了我。我自然不辜负你。」……「把我每月的月例二十两银子里，拿出二两银子一吊钱来给袭人。以后凡事有赵姨娘周姨娘的，也有袭人的。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十六回。王夫人自掏月例将袭人升为准姨娘——「保全了他，就是保全了我」是全书对「母亲-丫鬟」政治最露骨的表达。"
+      },
+      {
+        "source_id": "source_ch39_wangfuren_shan",
+        "quote": "刘姥姥道：「他家的二小姐着实响快，会待人，倒不拿大。如今现是荣国府贾二老爷的夫人。听得说，如今上了年纪，越发怜贫恤老，最爱斋僧敬道，舍米舍钱的。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十九回。刘姥姥眼中的王夫人——「善」的一面被外人铭记。这是评价王夫人不可忽略的文本证据。"
+      },
+      {
+        "source_id": "source_ch74_qingwen_face",
+        "quote": "王夫人道：「上次我们跟了老太太进园逛去，有一个水蛇腰，削肩膀，眉眼又有些像你林妹妹的，正在那里骂小丫头。我心里很看不上那狂样子……我一生最嫌这样人……好好的宝玉，倘或叫这蹄子勾引坏了，那还了得！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回。王夫人对晴雯的判定——「眉眼像林妹妹」是全书最著名的「影子结构」文本证据，也暗示王夫人对黛玉的潜在态度。"
+      },
+      {
+        "source_id": "source_ch77_qingwen_expel",
+        "quote": "（王夫人）「你干的事，打量我不知道呢……先时还藏着掖着，只这丫头们欺负我不知情！」……晴雯四五日水米不曾沾牙，恹恹弱息，如今现从炕上拉了下来，蓬头垢面，两个女人才架起来去了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回。病重中的晴雯被撵出大观园——王夫人对「妖精」的清除毫无怜悯。"
+      },
+      {
+        "source_id": "source_ch77_xifuren",
+        "quote": "王夫人道：「唱戏的女孩子，自然是狐狸精了！……难道我通共一个宝玉，就白放心凭你们勾引坏了不成！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回。逐芳官等时的话——「通共一个宝玉」是王夫人全部行为逻辑的最终解释：她的一切冷酷都服务于「保护唯一的儿子」。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 92,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "金陵王家之女；未取闺名（以夫姓＋夫人称）",
+      "detail": "王夫人为金陵王家之女（王子腾之妹、薛姨妈之姐），书中始终未提其闺名，仅以「王夫人」（夫姓＋夫人）称之——象征其作为贾府女主人的身份消解：她是「贾政之妻」而非独立个体。其兄王子腾、侄女王熙凤皆有名姓，独王夫人无名，凸显「母以夫贵」的宗法逻辑",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 33,
+          "evidence": "哭贾珠：我如今已五十岁的人（打宝玉时）",
+          "age": "约50岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约47-50岁",
+        "story_end": "约53岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第33回「我如今已五十岁」为明文锚点。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "贾王氏",
+      "type": "本姓称谓",
+      "context": "金陵王家之女嫁入贾家后的正式称谓",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "太太",
+      "type": "家族称呼",
+      "context": "贾府上下对王夫人的日常称呼（区别于邢夫人的「大太太」）",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "二太太",
+      "type": "家族称呼",
+      "context": "因贾政行二而称，与贾赦之妻邢夫人（大太太）相区别",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_wangfuren_daiyu_ch3",
+      "title": "黛玉进府时的嘱咐——「混世魔王」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 3,
+        "title": "贾雨村夤缘复旧职 林黛玉抛父进京都",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "黛玉初进贾府，王夫人嘱咐她：「你只以后不要睬他，你这些姊妹都不敢沾惹他的……他嘴里一时甜言蜜语，一时有天无日，一时又疯疯傻傻，只休信他。」——这是母亲对宝玉的「官方介绍」：一个需要提防的「混世魔王」。",
+        "meaning": [
+          "王夫人对儿子的基本定性：危险品——需要所有女性「不要睬他」",
+          "「你只以后不要睬他」——王夫人对黛玉的第一句话就是「远离我的儿子」，这句话几乎预言了宝黛婚姻的结局",
+          "母亲眼中的宝玉（混世魔王）与祖母眼中的宝玉（心肝儿肉）形成全书第一组婆媳认知分裂"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "嘱咐者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "受嘱者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「不要睬他」——王夫人对黛玉的第一句话",
+          "content": "王夫人对黛玉说的第一段长话就是「不要睬他（宝玉）」——这个细节常被忽略，却几乎是全书婆媳线、宝黛线的总预言：王夫人从第一天起就把「黛玉与宝玉的关系」预设为「需要隔离的危险」。这不是对黛玉的敌意（此时她尚未形成立场），而是她的本能反应——任何接近她儿子的女性都是潜在威胁。这句话与后来她撵金钏（「教坏了」）、逐晴雯（「勾引坏了」）的逻辑完全一致：问题从来不在她儿子，而在「接近她儿子的女人」。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_jinchuan_ch30",
+      "title": "撵金钏——一个嘴巴引发的投井",
+      "event_level": "major",
+      "chapter": {
+        "number": 30,
+        "title": "宝钗借扇机带双敲 龄官划蔷痴及局外",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "王夫人午睡，宝玉与丫鬟金钏儿调笑（「我明日和太太讨你，咱们在一处罢」）。王夫人假寐中听得，翻身坐起照金钏脸上一个嘴巴：「下作小娼妇，好好的爷们，都叫你教坏了！」当即命人撵出。金钏跪求无果，被母亲领回，两天后投井自尽。",
+        "meaning": [
+          "性道德的双重标准：调笑的少爷无罪，被调笑的丫鬟被逐——「教坏」的罪名永远由弱者承担",
+          "王夫人的「护子逻辑」第一次杀人——金钏之死是她「以保护为名」的暴力的第一个牺牲品",
+          "此事成为宝玉挨打的导火索之一（贾环告密），也撕开了王夫人「慈善」面具的一角"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "驱逐者"
+        },
+        {
+          "character_id": "character_jinchuan",
+          "role": "受害者——投井"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "调笑者——事发后逃离"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch30_jinchuan",
+          "summary": "王夫人一个嘴巴、一句「下作小娼妇」、一条驱逐令——金钏的生命由此进入倒计时。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「都叫你教坏了」——嫁祸的逻辑",
+          "content": "王夫人骂金钏「好好的爷们，都叫你教坏了」——这句话的逻辑结构是全书的阶级缩影：宝玉是「好好的」（天生的好），金钏是「教坏」的（主动的坏）。性骚扰者与受害者的责任被完全倒置。这种倒置不是王夫人的个人发明，而是封建性道德的通用语法：少爷永远是「被勾引的」，丫鬟永远是「勾引人的」。王夫人的可怖不在于她的恶，而在于她执行这套语法时的自然——她没有丝毫犹豫，因为在她看来这根本不是「冤枉」，而是「常识」。"
+        },
+        {
+          "type": "literary",
+          "title": "金钏之死的叙事裂变",
+          "content": "金钏之死是全书中「死亡传播链」最长的悲剧：撵金钏（30回）→金钏投井（32回）→贾环告密（33回）→宝玉挨打（33回）→黛玉题帕（34回）→宝钗探望（34回）……一个嘴巴引发了一连串的蝴蝶效应。而在这条链的最顶端，是宝玉的一句玩笑——王夫人的一个嘴巴。曹雪芹以此展示了「无心的恶」的传播力：没有人「故意」杀死金钏，但金钏死了。这个结构正是全书悲剧观的浓缩：悲剧不需要坏人，只需要「各有道理的人」。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_jinchuan_death_ch32",
+      "title": "金钏投井——赏银掩饰",
+      "event_level": "major",
+      "chapter": {
+        "number": 32,
+        "title": "诉肺腑心迷活宝玉 含耻辱情烈死金钏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "金钏投井自尽，王夫人垂泪。她向宝钗掩饰真相：「原是前儿他把我一件东西弄坏了，我一时生气，打了他几下……谁知他这么气性大，就投井死了。岂不是我的罪过。」宝钗劝慰并主动捐出自己的新衣为金钏装裹。王夫人赏银五十两、两套衣裳，又提出要以「女儿」之礼为金钏送葬。",
+        "meaning": [
+          "「弄坏东西」——王夫人以「物」替代「事」的语言操作：一个生命被轻描淡写为一件损坏的物件",
+          "「岂不是我的罪过」——她知道是她的罪过，但她的「忏悔」只停留在自问自答",
+          "赏银与送葬的慷慨恰恰暴露了愧疚——她的「善举」是「恶果」的遮盖布"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "悔恨者——掩饰与补救"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "劝慰者——捐衣"
+        },
+        {
+          "character_id": "character_jinchuan",
+          "role": "死者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch32_jinchuan_death",
+          "summary": "王夫人的谎言与自责并存——「弄坏东西」的替代叙事与「我的罪过」的自我指认。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "谎言与忏悔的并存——王夫人的道德弹性",
+          "content": "王夫人对宝钗撒了谎（「弄坏东西」），但她也说了真话（「岂不是我的罪过」）。谎言是为了保全体面（她不能承认儿子调笑丫鬟的丑事），真话是良心的自然反应。这个「谎中带真」的细节是理解王夫人的关键：她不是没有良心（她垂泪、自责、厚葬），但她的良心永远屈从于体面——当良心与体面冲突时，她选择体面。这是封建贵妇的道德弹性：对「事实」可以妥协，对「面子」绝不妥协。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_baoyu_beaten_ch33",
+      "title": "哭救宝玉——哭贾珠",
+      "event_level": "major",
+      "chapter": {
+        "number": 33,
+        "title": "手足耽耽小动唇舌 不肖种种大承笞挞",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "贾政痛打宝玉，王夫人赶来抱住板子：「先勒死我，再勒死他！」又哭道：「若有你（贾珠）活着，便死一百个我也不管了。」她哭诉自己年近半百只有这一个孽障，若宝玉死了她「将来靠谁」。",
+        "meaning": [
+          "王夫人的母爱是真实的——她愿意为宝玉去死",
+          "「将来靠谁」暴露了这份母爱的底层逻辑——母爱与「依靠」的绑定，宝玉是她的保障而非独立的人",
+          "哭贾珠是全书最凄凉的细节之一——她哭的不是死去的大儿子，而是「死掉的体面」"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "哭救者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "打人者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "被打者"
+        },
+        {
+          "character_id": "character_jia_mu",
+          "role": "最终制止者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「将来靠谁」——母爱的利益结构",
+          "content": "王夫人哭救宝玉时说「将来靠谁」——这四个字是理解她全部行为的钥匙。她对宝玉的爱从来不是纯粹的母爱，而是「依靠之爱」：宝玉是她在贾府地位的保障（元春已入宫、贾珠已死，宝玉是她唯一的儿子）。所以她必须「保护」宝玉——保他的命（挨打时哭救）、保他的名声（赶走「勾引者」）、保他的前途（逼他走仕途经济）。这种「依靠之爱」的悲剧在于：宝玉作为「依靠」越重要，她施加的控制就越严厉——她不是在保护一个儿子，而是在保护自己的未来。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_xiren_ch36",
+      "title": "内定袭人——准姨娘月例",
+      "event_level": "major",
+      "chapter": {
+        "number": 36,
+        "title": "绣鸳鸯梦兆绛芸轩 识分定情悟梨香院",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "王夫人与凤姐商议，从自己月例中拨出二两银子一吊钱给袭人，待遇与赵姨娘、周姨娘等同——袭人事实上被内定为宝玉的准姨娘。王夫人对袭人的评价：「比我的宝玉强十倍……谁知他竟和宝玉好。」并嘱托：「保全了他，就是保全了我。我自然不辜负你。」",
+        "meaning": [
+          "内定袭人是王夫人「宝钗路线」的丫鬟版执行——她选中的是「笨笨的」温顺型而非贾母属意的晴雯",
+          "「保全了他，就是保全了我」——袭人被定位为宝玉的「第二母亲」，继续执行王夫人的规训",
+          "此决定绕过了贾母——王夫人第一次在宝玉人事上行使「母亲专权」"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "决策者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "受益者——准姨娘"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "执行者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "袭人与晴雯——王夫人的人事哲学",
+          "content": "王夫人选袭人弃晴雯，是她全部价值观的浓缩：「笨笨的倒好」——她要的是温顺、本分、可控（袭人的「贤」）；她怕的是灵性、锋芒、不可控（晴雯的「烈」）。这与贾母的标准（「模样爽利言谈针线」）完全对立。更深一层：袭人是宝钗的影子（贤惠、稳重、劝导宝玉走正途），晴雯是黛玉的影子（率直、灵秀、至死不屈）——内定袭人就是王夫人「金玉路线」在丫鬟层的落地。她向袭人交代的「保全了他，就是保全了我」则暴露了这桩安排的私心：她要的不是儿子的幸福，而是儿子的「听话」。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_liulaolao_ch39",
+      "title": "怜贫恤老——施恩刘姥姥",
+      "event_level": "minor",
+      "chapter": {
+        "number": 39,
+        "title": "村姥姥是信口开河 情哥哥偏寻根究底",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "刘姥姥二进荣国府，王夫人命人赏她一百两银子，并嘱她「拿去或者做个小本买卖，或者置几亩地，以后再别求亲靠友」。刘姥姥对王夫人的记忆是：「着实响快，会待人，倒不拿大。如今上了年纪，越发怜贫恤老，最爱斋僧敬道，舍米舍钱的。」",
+        "meaning": [
+          "王夫人的「善」真实存在——一百两银子的慷慨与「以后别再求亲靠友」的体谅都是真心的",
+          "她的善有明确边界：施予「规矩之内的弱者」（刘姥姥），清除「规矩之外的妖孽」（晴雯）",
+          "刘姥姥的感恩最终救了巧姐——王夫人的善在命运的链条上间接结出了善果"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "施恩者"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "受恩者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「有条件的善」——王夫人人格的完整性",
+          "content": "刘姥姥眼中的王夫人与读者眼中的王夫人几乎是两个人：一个怜贫恤老的活菩萨，一个逐丫鬟致死的刽子手。但这两个形象并不矛盾——它们是同一套价值体系的两个侧面：王夫人的「善」只施予「符合规矩的人」（贫苦而本分的刘姥姥），她的「狠」只用于「破坏规矩的人」（「勾引」少爷的金钏晴雯）。在「规矩」这条分界线内，她可以是最慈悲的人；越过分界线，她可以是最冷酷的人。理解了这个结构，就能理解她的全部行为——她不是伪君子，她是「有条件的善」的极端样本。而这种「有条件的善」，恰恰是全书对封建道德最深刻的批判：一种把「规矩」置于「人」之上的道德，无论施善还是行恶，都是非人的。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_chaosou_ch74",
+      "title": "主导抄检大观园",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "绣春囊事件爆发。邢夫人借王善保家的将绣春囊递给王夫人——「王夫人听了，含泪」大惊。王善保家的趁机告倒晴雯，王夫人亲自主持抄检：命凤姐、王善保家的等连夜搜查大观园各房。抄检结果：司棋处抄出情书表记（潘又安之物）、入画处抄出兄嫂寄存之物。王夫人对探春之怒、惜春之孤皆感难堪，但抄检已成事实。",
+        "meaning": [
+          "抄检大观园是全书内部矛盾的第一次总爆发——一个绣春囊引爆了贾府所有潜藏的裂痕",
+          "王夫人绕过贾母发动抄检——她的权威在此完成对贾母权威的事实性取代",
+          "「惑奸谗」的回目定性：抄检的本质是「谗言」（王善保家的告密）驱动下的恐慌性清洗"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "主导者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "执行者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "反抗者——「一个个不像乌眼鸡」"
+        },
+        {
+          "character_id": "character_wang_shanbao_jia",
+          "role": "谗言者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "恐慌中的决断——王夫人的「护子」总动员",
+          "content": "抄检大观园的深层动机是王夫人的「护子恐慌」：绣春囊意味着大观园里存在「性」的污染源，而她的宝玉就住在这个园子里。她的逻辑链清晰而偏执：绣春囊→园里有妖精→妖精会勾引宝玉→必须清洗。这个逻辑链的每一环在她的体系内都成立，唯独漏掉了一环——她从未想过绣春囊可能是贾赦、贾琏等成年男子的。她的恐慌永远指向女性（丫鬟），因为在她眼中「性」的罪永远属于「勾引人的女性」。抄检大观园因此不只是一次治安行动，而是王夫人价值观的一次总爆发：以「保护」为名，对整个少女世界的审判。"
+        },
+        {
+          "type": "literary",
+          "title": "抄检的叙事意义——大观园世界的崩塌起点",
+          "content": "抄检大观园是《红楼梦》叙事的转折点：此夜之前，大观园是诗社、夜宴、联句的乐园；此夜之后，大观园开始流血（司棋被逐、晴雯之死、芳官出家）。探春在抄检中的预言「你们别忙，自然连你们抄的日子有呢」「咱们家渐渐的来了」正是这场灾难的注脚——王夫人以为她在「清洗污染」，实际上她打开了潘多拉的盒子：抄检的斧子砍向丫鬟，最终会回砍向贾府自己。这个结构的残酷在于：抄检者的「正义」与抄检的「后果」完全背道而驰。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_qingwen_ch74_77",
+      "title": "赶走晴雯——「眉眼像林妹妹」",
+      "event_level": "major",
+      "chapter": {
+        "number": 77,
+        "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "第七十四回王夫人先召见晴雯训斥：「好个美人！真像个病西施了。你天天作这轻狂样儿给谁看？」第七十七回她亲临怡红院「清剿」：将四五日水米不曾沾牙、恹恹弱息的晴雯从炕上拉下来撵出，只准带走贴身衣裳。晴雯不久病死。王夫人的理由：「一个水蛇腰，削肩膀，眉眼又有些像你林妹妹的……我一生最嫌这样人……好好的宝玉，倘或叫这蹄子勾引坏了，那还了得！」",
+        "meaning": [
+          "「眉眼像林妹妹」——王夫人对晴雯的厌恶之下是对黛玉的潜在厌弃，这是全书最著名的「影子结构」证据",
+          "撵病危之人——王夫人的「清除」已经超越了「管教」的边界，进入「消灭」",
+          "晴雯之死直接引爆了宝玉的《芙蓉女儿诔》——王夫人以为她清除的是一个丫鬟，实际她催生了全书最伟大的悼亡文"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "驱逐者"
+        },
+        {
+          "character_id": "character_qing_wen",
+          "role": "被逐者——病死"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "目睹者——无力反抗"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch74_qingwen_face",
+          "summary": "王夫人对晴雯的画像与定性——「眉眼有些像你林妹妹的」「我一生最嫌这样人」。"
+        },
+        {
+          "source_id": "source_ch77_qingwen_expel",
+          "summary": "病重的晴雯被从炕上拉下来撵走——王夫人清除手段的极端化。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「我一生最嫌这样人」——王夫人的审美恐惧",
+          "content": "王夫人对晴雯的憎恶是「审美性」的：她嫌的不是晴雯的「恶」（晴雯并无恶行），而是晴雯的「样子」——水蛇腰、削肩膀、眉眼像黛玉、病西施。这种对「美」本身的恐惧，根源于她的性焦虑：在她的世界观里，美貌=轻狂=勾引=威胁。她对晴雯的「病西施」嘲讽尤其阴毒——一个病弱的美人在她眼中依然是「轻狂样儿」。而「眉眼像林妹妹」这句话泄露了天机：她嫌的从来不只是晴雯——晴雯只是黛玉的「替身攻击」对象。她对黛玉从未说过一句重话（碍于贾母与礼数），但她的立场在「嫌晴雯」这件事上暴露无遗。"
+        },
+        {
+          "type": "literary",
+          "title": "「影子结构」——王夫人亲口说出的叙事密码",
+          "content": "「眉眼有些像你林妹妹的」——曹雪芹让驱逐晴雯的人亲口说出晴雯与黛玉的同一性，这是全书「影子叙事」的巅峰设计。这句话的叙事功能三重：其一，为晴雯之死赋谶（晴雯死=黛玉死的预演）；其二，为王夫人的立场定性（反晴雯=反黛玉型人格）；其三，为《芙蓉女儿诔》的「明祭晴雯，实谶黛玉」埋下最直接的文本接口。红学界公认：王夫人逐晴雯是「金玉路线」对「木石路线」最露骨的一次暴力执行——而执行者自己说出了暴力的真实对象。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_siqi_ch77",
+      "title": "逐司棋、芳官、四儿等——怡红院的清洗",
+      "event_level": "minor",
+      "chapter": {
+        "number": 77,
+        "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "与晴雯同日被逐的还有：司棋（与表兄潘又安私定终身，被逐后撞墙而死）、芳官、藕官、蕊官（因「唱戏的女孩子，自然是狐狸精了」被逐，后出家为尼）、四儿（因「同日生日就是夫妻」的玩笑被逐）。王夫人宣言：「难道我通共一个宝玉，就白放心凭你们勾引坏了不成！」",
+        "meaning": [
+          "「通共一个宝玉」——王夫人的全部逻辑浓缩成一句话：一切清洗都是为了「唯一的儿子」",
+          "「同日生日就是夫妻」的玩笑成为驱逐罪名——王夫人的清洗标准已近乎文字狱",
+          "这场清洗的规模之大（数名丫鬟同日出局）标志怡红院世界的终结"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "清洗者"
+        },
+        {
+          "character_id": "character_siqi",
+          "role": "被逐者——撞墙而死"
+        },
+        {
+          "character_id": "character_fang_guan",
+          "role": "被逐者——出家"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "清洗的荒谬性——「莫须有」的罪名",
+          "content": "王夫人逐四儿的罪名是「同日生日就是夫妻」的玩笑话——这句话是丫鬟之间的打趣，到她耳中就成了「私情」的证据。这个细节暴露了王夫人清洗的本质：她不查证、不听辩（「先时还藏着掖着，只这丫头们欺负我不知情」），她只凭「嫌疑」定罪。她的逻辑是典型的「宁可错杀」：为了保护宝玉，错杀一万个丫鬟也在所不惜。而宝玉「太太，你自己说（袭人）的坏话多着呢」的反驳被她置若罔闻——她的「保护」不需要儿子的配合。"
+        }
+      ]
+    },
+    {
+      "id": "event_wangfuren_diaobaoji_ch96",
+      "title": "支持掉包计（后四十回）",
+      "event_level": "major",
+      "chapter": {
+        "number": 96,
+        "title": "瞒消息凤姐设奇谋 泄机关颦儿迷本性",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "summary": {
+        "short": "宝玉失玉痴呆，王夫人与薛姨妈、凤姐商议冲喜。凤姐设掉包计，王夫人是坚定的支持者——她对贾母说：「（宝钗）身体好，长得福相，又是亲上加亲」。掉包计执行之日，黛玉焚稿断痴情而死，宝玉揭开盖头发现是宝钗。",
+        "meaning": [
+          "王夫人支持掉包计完全符合她前八十回的人物逻辑——她是「金玉良缘」最坚定的推动者",
+          "「亲上加亲」——王夫人选宝钗的核心理由：宝钗是自己的外甥女，这场婚姻是「王薛联盟」的制度化",
+          "与贾母参与掉包计的争议不同，王夫人的参与几乎没有逻辑障碍——这正是她在全书婚姻悲剧中「真凶」地位的来源"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_furen",
+          "role": "支持者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "设奇谋者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "新娘"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "牺牲者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「真凶」的完成——王夫人路线的最终胜利",
+          "content": "在宝黛钗的婚姻悲剧中，王夫人的角色是贯穿始终的「推手」：撵金钏（清除「勾引者」）→内定袭人（宝钗路线的丫鬟版）→逐晴雯（清除黛玉的影子）→支持掉包计（路线的最终落地）。这条线的每一步都符合她的「护子逻辑」：她真心相信宝钗是「对宝玉最好」的妻子——健康、稳重、会劝他走正途。她的悲剧在于：她的一切「为宝玉好」加起来，最终杀死了她儿子最爱的女人，也杀死了她儿子。「通共一个宝玉」的她，用一生的「保护」换来了宝玉的出家。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_wang_furen_baoyu",
+      "from": "character_wang_furen",
+      "to": "character_jia_baoyu",
+      "type": "母子",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人对宝玉的母爱属于「以保护为名的控制」。她爱宝玉（以命相保免其被打死），但她更确信什么对宝玉是「好」的——赶走金钏、赶走晴雯、选择宝钗——每一步都是以「为宝玉好」的名义在伤害宝玉。她是金玉良缘最坚定的推动者。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "爱与控制——「混世魔王」的定性",
+          "chapter": 3,
+          "description": "王夫人向黛玉介绍宝玉为「混世魔王」——母亲眼中的儿子是需要管束的危险品。"
+        },
+        {
+          "stage": 1,
+          "title": "爱与控制",
+          "chapter": 33,
+          "description": "王夫人在宝玉挨打时抱住贾政哭喊「我的苦命的儿」——她的母爱是真实的，但这母爱总是以干预和驱逐的方式表达。"
+        },
+        {
+          "stage": 2,
+          "title": "以命相保——哭救挨打",
+          "chapter": 33,
+          "description": "「我的苦命的儿」——母爱是真实的，但这份爱总是以干预和驱逐的方式表达。"
+        },
+        {
+          "stage": 2,
+          "title": "赶走晴雯",
+          "chapter": 74,
+          "description": "王夫人认为「眉眼像林妹妹」的晴雯会「勾引」宝玉，决然将其赶出大观园——这是她以母爱为名的暴力。"
+        },
+        {
+          "stage": 3,
+          "title": "清洗怡红院——逐晴雯",
+          "chapter": 74,
+          "description": "以「勾引坏了」为名清除宝玉身边所有「妖精似的东西」——以母爱为名的暴力。"
+        },
+        {
+          "stage": 3,
+          "title": "选择宝钗",
+          "chapter": 96,
+          "description": "王夫人是掉包计最坚定的支持者——她认为宝钗才是「配得上宝玉」的妻子。",
+          "fact_type": "disputed_version",
+          "note": "后四十回，attribution=gaoe"
+        },
+        {
+          "stage": 4,
+          "title": "选择宝钗——掉包计",
+          "chapter": 96,
+          "description": "王夫人是掉包计最坚定的支持者——她认为宝钗才是「配得上宝玉」的妻子。",
+          "fact_type": "disputed_version",
+          "note": "后四十回，attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        "event_wangfuren_jinchuan_ch30",
+        "event_wangfuren_baoyu_beaten_ch33",
+        "event_wangfuren_qingwen_ch74_77"
+      ]
+    },
+    {
+      "id": "relationship_wang_furen_lin_daiyu",
+      "from": "character_wang_furen",
+      "to": "character_lin_daiyu",
+      "type": "舅母与外甥女",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "王夫人对黛玉的态度是全书最隐晦的敌意：她从未对黛玉说过重话，但「你只以后不要睬他」（对宝玉的隔离令）、「眉眼有些像你林妹妹的」（对晴雯的嫌恶）等细节，暴露了她对黛玉型人格的深层排斥。她支持金玉良缘的立场使黛玉成为她婚姻路线上的最大障碍。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "客套的疏离",
+          "chapter": 3,
+          "description": "王夫人对黛玉的第一句话是「不要睬他（宝玉）」——从第一天起就把黛玉定位为「需要隔离的对象」。"
+        },
+        {
+          "stage": 1,
+          "title": "客套的接纳",
+          "chapter": 3,
+          "description": "黛玉进府时王夫人告诫她「你只以后不要睬他（宝玉）」——表面提醒，实则划界。"
+        },
+        {
+          "stage": 2,
+          "title": "隐秘的排斥——「眉眼像林妹妹」",
+          "chapter": 74,
+          "description": "王夫人嫌恶晴雯的理由是「眉眼像林妹妹」——她对黛玉型人格的厌弃在晴雯身上完成替身攻击。"
+        },
+        {
+          "stage": 2,
+          "title": "隐性的排斥",
+          "chapter": 74,
+          "description": "王夫人对「眉眼像林妹妹」的晴雯的厌恶，是其对黛玉态度的一次间接泄露——她讨厌的正是黛玉式的性情。"
+        },
+        {
+          "stage": 3,
+          "title": "路线的对决",
+          "chapter": 96,
+          "description": "王夫人推动金玉良缘、支持掉包计——黛玉成为这场婚姻政治的第一个牺牲品。",
+          "fact_type": "disputed_version",
+          "note": "后四十回，attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        "event_wangfuren_daiyu_ch3",
+        "event_wangfuren_qingwen_ch74_77"
+      ]
+    },
+    {
+      "id": "relationship_wang_furen_xue_baochai",
+      "from": "character_wang_furen",
+      "to": "character_xue_baochai",
+      "type": "姨母与外甥女（金玉同盟）",
+      "nature": [
+        "kinship",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人是宝钗的亲姨母，也是「金玉良缘」最坚定的推动者。她欣赏宝钗的端庄稳重，视其为理想的儿媳人选。宝钗对王夫人恭顺有加——金钏死后宝钗劝慰王夫人的一番话（「不过多赏他几两银子发送他」），既展现了她的冷静，也展现了她与王夫人立场的一致。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "欣赏的形成",
+          "chapter": 32,
+          "description": "金钏死后宝钗捐衣劝慰——「稳重和平」的性格深得王夫人之心。"
+        },
+        {
+          "stage": 2,
+          "title": "路线的确认",
+          "chapter": 36,
+          "description": "内定袭人（宝钗的影子）——王夫人的人事选择与其婚姻选择同构。"
+        },
+        {
+          "stage": 3,
+          "title": "「亲上加亲」的落地",
+          "chapter": 96,
+          "description": "王夫人力主宝钗冲喜——「亲上加亲」是王薛联盟的制度化。",
+          "fact_type": "disputed_version",
+          "note": "后四十回，attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        "event_wangfuren_jinchuan_death_ch32",
+        "event_wangfuren_diaobaoji_ch96"
+      ]
+    },
+    {
+      "id": "relationship_wang_furen_xiren",
+      "from": "character_wang_furen",
+      "to": "character_xiren",
+      "type": "主仆同盟（赏识与进言）",
+      "nature": [
+        "master_servant",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人是袭人的靠山：第三十四回袭人进言「搬出园子」大得王夫人之心，王夫人连称「我的儿」，第三十六回即给准姨娘待遇。二人构成利益同盟：王夫人需要一双眼睛盯着宝玉，袭人需要一个靠山扶她上位。这个同盟的代价是晴雯们的命运。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "结盟的起点——进言",
+          "chapter": 34,
+          "description": "袭人向王夫人进言「男女之分」，深得王夫人之心——「保全了他，就是保全了我」。"
+        },
+        {
+          "stage": 1,
+          "title": "进言结盟",
+          "chapter": 34,
+          "description": "宝玉挨打后袭人向王夫人进言，建议宝玉搬出大观园——王夫人大悦。"
+        },
+        {
+          "stage": 2,
+          "title": "准姨娘的内定",
+          "chapter": 36,
+          "description": "王夫人自掏月例升袭人——同盟的制度化。"
+        },
+        {
+          "stage": 2,
+          "title": "准姨娘待遇",
+          "chapter": 36,
+          "description": "王夫人提升袭人月例至二两一吊。"
+        }
+      ],
+      "evidence_events": [
+        "event_wangfuren_xiren_ch36"
+      ]
+    },
+    {
+      "id": "relationship_wang_furen_jinchuan",
+      "from": "character_wang_furen",
+      "to": "character_jinchuan",
+      "type": "主仆（驱逐与被驱逐）",
+      "nature": [
+        "master_servant",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "金钏是王夫人房中第一人，服侍多年；一朝触怒，被掌掴撵逐。王夫人的「我的罪过」与五十两赏银构成「凶手式善后」——她杀死的不是金钏的命，是金钏的「体面」，而体面对丫鬟而言就是命。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "多年的主仆",
+          "chapter": 30,
+          "description": "金钏是王夫人房中的大丫鬟——多年的信任被一个嘴巴摧毁。"
+        },
+        {
+          "stage": 1,
+          "title": "首席之宠",
+          "chapter": 23,
+          "description": "金钏与王夫人房中的日常亲厚。"
+        },
+        {
+          "stage": 2,
+          "title": "一掌之祸",
+          "chapter": 30,
+          "description": "王夫人撵金钏——「下作小娼妇」的罪名与投井的结局。"
+        },
+        {
+          "stage": 2,
+          "title": "掌掴撵逐",
+          "chapter": 30,
+          "description": "王夫人掌掴金钏并撵出。"
+        },
+        {
+          "stage": 3,
+          "title": "悔与饰",
+          "chapter": 32,
+          "description": "王夫人垂泪、说谎（「弄坏东西」）、厚葬——忏悔与掩饰并存。"
+        },
+        {
+          "stage": 3,
+          "title": "哭与赏",
+          "chapter": 32,
+          "description": "金钏死后王夫人赏五十两，自道「我的罪过」。"
+        }
+      ],
+      "evidence_events": [
+        "event_wangfuren_jinchuan_ch30",
+        "event_wangfuren_jinchuan_death_ch32"
+      ]
+    },
+    {
+      "id": "relationship_wang_furen_qing_wen",
+      "from": "character_wang_furen",
+      "to": "character_qing_wen",
+      "type": "主仆（驱逐关系）",
+      "nature": [
+        "master_servant",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人与晴雯几乎无直接往来，却将其定性为「妖精似的东西」并撵出致其病死。晴雯至死不解：「我死也不甘心的：我虽生的比别人略好些，并没有私情密意勾引你怎样，如何一口死咬定了我是个狐狸精！」",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "一面之缘的定罪",
+          "chapter": 74,
+          "description": "王夫人凭一面之见（水蛇腰、削肩膀、骂小丫头）将晴雯定性为「妖精」。"
+        },
+        {
+          "stage": 2,
+          "title": "病中的驱逐",
+          "chapter": 77,
+          "description": "晴雯水米不进四日，被从炕上拉下撵出——王夫人的清除手段的极端化。"
+        }
+      ],
+      "evidence_events": [
+        "event_wangfuren_qingwen_ch74_77"
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_wangfuren_banish_qingwen",
+      "title": "王夫人为什么赶走晴雯？",
+      "slug": "why-did-wang-furen-banish-qingwen",
+      "question_type": "character_motivation",
+      "importance_weight": 92,
+      "heat_weight": 88,
+      "neutral_overview": "王夫人赶走晴雯的表面理由是「妖精似的东西勾引宝玉」，但深层原因存在多种解读：礼教卫道（清除「轻狂」）、权力政治（对抗贾母路线）、以及「影子清算」（晴雯像黛玉——对黛玉的替身攻击）。",
+      "related_characters": [
+        "character_wang_furen",
+        "character_qing_wen",
+        "character_lin_daiyu",
+        "character_jia_mu"
+      ],
+      "related_events": [
+        "event_wangfuren_qingwen_ch74_77"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_qingwen_ritual_defense",
+          "title": "卫道论：王夫人在执行她真心信仰的礼教",
+          "summary": "王夫人赶走晴雯不是出于私怨，而是出于「护子卫道」的真诚——她真心相信晴雯的「轻狂样儿」会勾引坏宝玉，「水蛇腰削肩膀」的美本身就是危险。",
+          "evidence": [
+            "「我一生最嫌这样人」——嫌恶的对象是「类型」而非个人",
+            "「好好的宝玉，倘或叫这蹄子勾引坏了，那还了得」——护子逻辑的真诚性",
+            "她的卫道没有私利成分——她认为自己在做正确的事，这正是她可怕的地方"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_qingwen_power_politics",
+          "title": "权力论：逐晴雯是王夫人对贾母路线的清算",
+          "summary": "晴雯是贾母内定的宝玉屋里人（78回贾母明言），王夫人赶走晴雯是对贾母人事布局的推翻——「婆媳暗战」的丫鬟层决战。",
+          "evidence": [
+            "第七十八回贾母：「将来只他还可以给宝玉使唤得」——晴雯是贾母的人选",
+            "王夫人先斩后奏、逐后才汇报——权力的示威",
+            "晴雯（黛玉影子）vs袭人（宝钗影子）——路线之争的人事化"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_qingwen_daiyu_shadow",
+          "title": "影子论：逐晴雯是对黛玉的替身攻击",
+          "summary": "王夫人亲口说晴雯「眉眼有些像你林妹妹的」——她对晴雯的嫌恶本质上是她对黛玉型人格（灵性、孤高、不驯）的排斥。碍于贾母她不能动黛玉，晴雯成为替身。",
+          "evidence": [
+            "「眉眼有些像你林妹妹的」——王夫人自己说出的叙事密码",
+            "王夫人对黛玉从无重话但立场冷淡——「不要睬他」的初始隔离令",
+            "逐晴雯、选宝钗是同一条路线的两个动作"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_wangfuren_trusts_xiren",
+      "title": "王夫人为什么更信任袭人而不是晴雯？",
+      "slug": "why-does-wang-furen-trust-xiren-over-qingwen",
+      "question_type": "character_relationship",
+      "importance_weight": 80,
+      "heat_weight": 74,
+      "neutral_overview": "袭人「笨笨的」却深得王夫人信任（内定准姨娘），晴雯「聪明伶俐」却被驱逐。王夫人的选人标准（温顺可控 vs 灵性锋芒）是她全部价值观的浓缩。",
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_xiren_trust_values",
+          "title": "价值观论：袭人的「贤」与王夫人的「礼」同构",
+          "summary": "王夫人要的是「管得住宝玉的人」——袭人的规劝、稳重、本分正是王夫人心中「贤妻良妾」的模板。「笨笨的倒好」不是贬低，是王夫人的选人纲领：温顺即美德。",
+          "evidence": [
+            "第三十四回袭人进言「男女之分」——深得王夫人之心",
+            "「比我的宝玉强十倍」——王夫人对袭人「贤」的最高认证",
+            "「保全了他，就是保全了我」——袭人被定位为宝玉的「第二母亲」"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_qingwen_threat",
+          "title": "威胁论：晴雯的「美与锋芒」让王夫人恐惧",
+          "summary": "王夫人对晴雯的排斥是审美性的——「水蛇腰削肩膀」的美在她眼中是「轻狂样儿」。她恐惧的不是晴雯的行为，而是晴雯的存在方式本身。",
+          "evidence": [
+            "「我一生最嫌这样人」——嫌的是「样子」",
+            "晴雯并无任何实际劣迹（连抄检都没抄出问题）——「莫须有」的驱逐",
+            "晴雯临终的不甘：「并没有私情密意勾引你怎样」"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_xiren_trust_utilitarian",
+          "title": "功利论：袭人是「有用」的，晴雯是「无用」的",
+          "summary": "王夫人的选择有清晰的功利计算：袭人能替她「管」宝玉（进言、规劝、监控），晴雯只会「惯」宝玉（撕扇子、装病不上工）。对王夫人而言，宝玉的「听话」就是她的「安全」。",
+          "evidence": [
+            "袭人向王夫人通风报信——情报价值",
+            "晴雯纵容宝玉的任性（撕扇事件）——威胁价值",
+            "「通共一个宝玉」——儿子是王夫人唯一的「资产」，一切选择服务于资产安全"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_wangfuren_foshe",
+      "title": "王夫人是「佛口蛇心」吗？",
+      "slug": "is-wang-furen-a-hypocrite",
+      "question_type": "character_analysis",
+      "importance_weight": 84,
+      "heat_weight": 82,
+      "neutral_overview": "「佛口蛇心」是读者对王夫人最流行的判词：吃斋念佛、怜贫恤老（善的一面）与逐金钏、逐晴雯（狠的一面）并存。但这两面是「虚伪」还是「同一个人格的两个侧面」，值得深究。",
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_wangfuren_hypocrite",
+          "title": "虚伪论：她的善是表演，她的狠是本性",
+          "summary": "王夫人的「慈善」是贵族太太的体面工程（赏银、厚葬、吃斋），她的「狠」才是真实反应（一个嘴巴、撵病危之人）。「佛口」服务于社交体面，「蛇心」服务于真实立场。",
+          "evidence": [
+            "金钏死后她先撒谎（「弄坏东西」）再忏悔——忏悔本身也是体面的一部分",
+            "「岂不是我的罪过」的自问自答——说完就翻篇，没有任何实质补救",
+            "晴雯病中被撵——「佛」的形象从不影响她的执行效率"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_wangfuren_honest",
+          "title": "真诚论：她的善与狠都是真心的",
+          "summary": "王夫人不是伪君子——她的「怜贫恤老」是真的（刘姥姥的感恩可证），她的「护子清洗」也是真的（她的恐惧是真的）。她的人格不是「两面派」，而是「有条件的善」：规矩之内慈悲，规矩之外清除。",
+          "evidence": [
+            "刘姥姥记忆中的「着实响快，会待人」——年轻时的王家二小姐",
+            "一百两银子赏刘姥姥并嘱「别再求亲靠友」——体谅是真心的",
+            "她的「狠」同样没有伪装——她当众说「我一生最嫌这样人」",
+            "这种「有条件的善」才是封建道德的真实形态——对它的批判比对「虚伪」的批判更深刻"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_wangfuren_victim",
+          "title": "悲剧论：她也是制度的受害者",
+          "summary": "王夫人自身也是封建制度的牺牲品：她的全部价值系于「儿子」——元春入宫、贾珠早亡后，宝玉是她唯一的存在意义。她的「护子」偏执源于制度对女性的压榨（母以子贵）。她迫害丫鬟的同时，自己也是「母职」的囚徒。",
+          "evidence": [
+            "「将来靠谁」——她的生存焦虑全系于宝玉",
+            "「通共一个宝玉」——宝玉是她唯一的「资产」",
+            "她的冷酷与恐惧成正比——越怕失去，越要控制"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_wangfuren_jinchuan",
+      "title": "金钏之死，王夫人应该承担多少责任？",
+      "slug": "how-responsible-is-wang-furen-for-jinchuans-death",
+      "question_type": "character_judgment",
+      "importance_weight": 78,
+      "heat_weight": 72,
+      "neutral_overview": "金钏之死的责任链涉及三人：宝玉（调笑者）、王夫人（驱逐者）、金钏自己（投井者）。王夫人的责任大小取决于一个判断：撵出丫鬟在当时是否等同于「逼死丫鬟」。",
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jinchuan_responsible",
+          "title": "主责论：驱逐即杀人",
+          "summary": "对封建丫鬟而言，「被撵出」就是社会性死亡：名声尽毁、无家可归、终生蒙羞。王夫人作为当家主母深知这一点——她的驱逐与金钏的死之间不是「意外」而是「必然」。",
+          "evidence": [
+            "「下作小娼妇」的罪名——名誉上的死刑",
+            "金钏「苦求」无果——王夫人明知后果仍执行",
+            "晴雯、司棋、芳官——被撵者的死亡率之高证明「驱逐=死亡」的等式"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jinchuan_shared",
+          "title": "共责论：宝玉的逃离与制度的共谋",
+          "summary": "责任不只在王夫人一人：宝玉「早一溜烟去了」——他在关键时刻逃走了；而真正「杀死」金钏的是制度——少爷调笑无罪、丫鬟受罚有理的阶级道德。王夫人是执行者而非发明者。",
+          "evidence": [
+            "宝玉事发后逃离——没有为金钏说一句话",
+            "「教坏了」的罪名永远由丫鬟承担——制度性的责任倒置",
+            "换一个主母，同样会撵金钏——悲剧的必然性说明凶手是制度"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jinchuan_karma",
+          "title": "报应论：金钏之死是王夫人命运的转折点",
+          "summary": "金钏之死是王夫人「清洗链」的第一环，它打开了潘多拉的盒子：金钏之死→贾环告密→宝玉挨打→贾母怒→抄检→晴雯之死→宝玉出家。王夫人以「保护」为名的每一次暴力，都在加速她最恐惧的结局。",
+          "evidence": [
+            "金钏之死引发宝玉挨打——王夫人第一次尝到自己暴力的苦果",
+            "「岂不是我的罪过」——她知道，但无法停止",
+            "她一生保护的儿子最终出家——所有「保护」的终极失败"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_wangfuren_baodai",
+      "title": "王夫人为什么对宝黛感情如此防备？",
+      "slug": "why-is-wang-furen-wary-of-baoyu-and-daiyu",
+      "question_type": "character_motivation",
+      "importance_weight": 76,
+      "heat_weight": 70,
+      "neutral_overview": "王夫人对黛玉始终礼貌而疏离，对宝钗始终亲近而推崇——她的婚姻立场背后是「王薛联盟」的利益计算，还是对「黛玉型人格」的天然排斥？",
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_wangfuren_baodai_interest",
+          "title": "利益论：王薛联盟的婚姻落地",
+          "summary": "王夫人选宝钗的核心理由是利益：宝钗是她的外甥女（亲上加亲）、薛家是贾府的经济盟友（皇商财富）、宝钗的健康与持家能力符合「母亲需求」。黛玉则是「没有嫁妆的孤女」，娶黛玉意味着贾府要永久赡养一个病人。",
+          "evidence": [
+            "「亲上加亲」——王夫人的原话",
+            "薛家的经济实力与贾府财政危机的互补",
+            "黛玉「素日多病」、无家族依靠——婚姻市场上的劣势"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_wangfuren_baodai_aesthetic",
+          "title": "审美论：她天然排斥「黛玉型」人格",
+          "summary": "王夫人「一生最嫌」的就是晴雯（黛玉型）——水蛇腰、病西施、轻狂样儿。她对黛玉的疏离与她对晴雯的嫌恶同源：她恐惧一切「灵性的、不可控的、有锋芒的」女性。",
+          "evidence": [
+            "「眉眼有些像你林妹妹的……我一生最嫌这样人」",
+            "她要的儿媳模板是宝钗：稳重、温顺、会劝宝玉走正途",
+            "黛玉的「孤高自许」与她的「规矩」世界观根本冲突"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_wangfuren_buddhist",
+      "title": "王夫人的「吃斋念佛」与她的冷酷矛盾吗？",
+      "slug": "does-wang-furens-buddhism-contradict-her-cruelty",
+      "question_type": "character_analysis",
+      "importance_weight": 70,
+      "heat_weight": 64,
+      "neutral_overview": "王夫人吃斋念佛、抄写经书、斋僧敬道——佛教的慈悲教义与她「撵人致死」的行为形成巨大反差。这种反差是「伪善」的证据，还是清代贵族佛教的真实形态？",
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_wangfuren_buddhist_form",
+          "title": "形式论：她的佛教是「仪式性信仰」",
+          "summary": "清代贵族妇女的佛教多是「祈福性」的——吃斋是为了积福，念佛是为了保平安，其核心是「交易」而非「慈悲」。王夫人的佛教从不干涉她的世俗决策：该撵人撵人，该抄检抄检。",
+          "evidence": [
+            "她的斋戒服务于「宝玉平安」的愿望——交易型信仰",
+            "佛教的「众生平等」从未进入她的丫鬟政策",
+            "「清虚观打醮」等活动中她的关注点是家族福祉而非教义"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_wangfuren_buddhist_class",
+          "title": "阶级论：她的佛教有清晰的施予边界",
+          "summary": "王夫人的「慈悲」遵循封建阶级逻辑：施予「外面的穷人」（刘姥姥、贫苦僧道）是积德，清除「家里的妖精」（丫鬟）是家法——二者在她的世界观中并行不悖。佛教在她这里不解决「阶级」问题，只解决「心安」问题。",
+          "evidence": [
+            "对刘姥姥的慷慨与对晴雯的无情——同一个人格的两个输出端",
+            "「怜贫恤老」的「贫老」都是「圈外人」——慈悲不进入「家务事」",
+            "金钏死后她赏银厚葬——以「体面的善后」替代「制度的反思」"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_wangfuren_system_executor",
+      "title": "王夫人——封建制度的完美执行者",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "红学界综合研究",
+      "year": 1985,
+      "description": "红学界对王夫人的主流定位是「制度的执行者而非制度的发明者」：她的一切冷酷（逐金钏、逐晴雯、抄检）都不是个人恶意的产物，而是封建礼教「主母职责」的标准操作。她的可怖之处正在于她的「正常」——一个完全符合时代道德标准的人，可以毫无心理障碍地执行杀人命令。这种「平庸之恶」的文学表达，使王夫人成为中国古典小说中最早的「制度人」形象之一。"
+    },
+    {
+      "id": "viewpoint_wangfuren_mother",
+      "title": "王夫人与中国文学中的「恶母」谱系",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "红学界综合研究",
+      "year": 1998,
+      "description": "王夫人被置于中国文学「恶母」谱系（焦仲卿母、陆游母等）中考察：她们共同的特征是「以母权行使暴力」——不是不爱儿子，而是以「爱」的名义行使绝对控制。王夫人的独特之处在于：她的暴力对象不是儿子（不像焦母逼死儿媳）而是「接近儿子的女性」（丫鬟、以及潜在的黛玉）——她通过清除儿子周边的女性来「保护」儿子，结果恰恰毁灭了儿子。这种「通过毁灭他者来守护一人」的母权逻辑，使她的形象超越了「恶母」的扁平化而进入深刻的悲剧层次。"
+    },
+    {
+      "id": "viewpoint_wangfuren_route",
+      "title": "「金玉路线」的总枢纽——王夫人与贾府权力结构",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "红学界综合研究",
+      "year": 2005,
+      "description": "王夫人是贾府「王薛联盟」的枢纽：王家（王子腾的官场势力）+薛家（薛家的经济实力）通过王夫人一人接入贾府的核心。她在贾府的权力运作遵循「联盟逻辑」：内定袭人（36回）→支持宝钗（全书）→主导抄检（74回）→逐晴雯（77回）→支持掉包计（96回，续书）——一条清晰的「金玉路线」执行链。她与贾母的暗战因此不只是婆媳之争，而是「王薛联盟」与「史林残余」（贾母的娘家史家+黛玉的林家）之间的家族政治战争。这场战争的结果（宝钗上位）看似王夫人胜利，实际是贾府内部平衡的彻底破坏——这正是贾府衰亡的内因之一。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 10,
+    "total_relationships": 11,
+    "total_poems": 0,
+    "total_questions": 6,
+    "total_viewpoints": 3,
+    "total_sources": 8,
+    "citation_coverage": 0.9,
+    "total_content_chars": 0,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 34,
+      "text_inference": 24,
+      "scholarly_viewpoint": 12,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

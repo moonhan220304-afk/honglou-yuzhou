@@ -1,0 +1,856 @@
+{
+  "character": {
+    "id": "character_jia_zhen",
+    "name": "贾珍",
+    "slug": "jia-zhen",
+    "aliases": [
+      "珍大爷",
+      "珍哥"
+    ],
+    "category": "宁国府家长",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾敬之子，宁国府第三代袭爵人。尤氏之夫，贾蓉之父，秦可卿之公公。",
+      "position": "宁国府家长，世袭三品爵威烈将军——宁荣二府的族长（贾氏宗族族长）。",
+      "origin": "宁国府嫡长一脉——「造衅开端实在宁」的宁府之主。",
+      "generation": "贾府第三代（「代」字辈之子）——与贾赦、贾政同辈"
+    },
+    "tags": [
+      "威烈将军",
+      "爬灰",
+      "焦大醉骂",
+      "秦可卿之丧",
+      "义忠亲王棺木",
+      "聚麀",
+      "守制聚赌",
+      "发配海疆"
+    ],
+    "summary": {
+      "short": "宁国府家长，世袭三品爵威烈将军，贾氏宗族族长。他「一味高乐」：与儿媳秦可卿的乱伦暗线（焦大醉骂「爬灰」）、可卿之丧的奢华僭越（义忠亲王老千岁棺木）、国孝家孝中聚赌玩妓、与贾蓉父子聚麀尤氏姐妹。他是「造衅开端实在宁」的活注解，后四十回（gaoe）获罪发配海疆。",
+      "long": "贾珍是宁国府的主宰，也是贾府罪恶体系中最深的一环。宁府与荣府不同：荣府尚有贾政的「正」、宝玉的「情」、凤姐的「才」，宁府则几乎是纯粹的腐败——而腐败的核心就是贾珍。他袭三品爵威烈将军，又为贾氏宗族族长（族中祭祀、义学、家庙皆由他主理），手握双重权力，却「只一味高乐不了，把宁国府竟翻了过来，也没有人敢来管他」。他的「乱」是全方位的：与儿媳秦可卿的关系是全书最大的隐秘——第五回判词「情天情海幻情身，情既相逢必主淫」、第七回焦大醉骂「爬灰的爬灰，养小叔子的养小叔子」、第十三回可卿之丧中贾珍「哭的泪人一般」、不惜一切操办丧事，都指向这层乱伦暗线（脂批有「秦可卿淫丧天香楼」回目的透露，曹雪芹后删改）。可卿之丧是贾珍权势的巅峰展示：他买义忠亲王老千岁预定的樯木棺材（僭越）、为贾蓉捐龙禁尉（买官）、请凤姐协理（揽权）——一场丧事花尽宁府积蓄，也把贾府「鲜花着锦」的排场推到顶峰。此后他每况愈下：第六十三回贾敬因吞金服砂而亡（死金丹），他于国孝家孝之中，与贾蓉父子二人对尤二姐尤三姐「聚麀之诮」；第七十五回守制期间招娈童、赌钱吃酒，「天天宰猪割羊，屠鹅戮鸭」，惹得祠堂异兆（墙下有人长叹）。他是「造衅开端实在宁」判词（秦可卿判词末句）的承担者——脂批与学者普遍认为，贾珍的乱伦与豪奢是贾府获罪的最深层原因。后四十回（gaoe）写贾府抄家时，贾珍获罪发配海疆效力赎罪——这个结局与前八十回的伏笔（可卿之丧的僭越、焦大之骂、异兆悲音）一脉相承。贾珍形象的特殊性在于：他不是简单的「恶少」，而是「末世族长」——他越放纵，宁府的灭亡越快；他的每一场高乐，都在为贾府的末日敲钟。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "乱——伦理秩序的破坏者",
+        "fact_type": "canonical_text_fact",
+        "description": "贾珍之「乱」是全书伦理崩塌的最深样本：翁媳（可卿）、父子（与贾蓉同狎二尤）、主仆（娈童）、国孝家孝（聚赌玩妓）——他几乎破坏了封建伦理的每一个层级。焦大醉骂「爬灰」是全书对伦理之恶最直白的指控。"
+      },
+      {
+        "dimension": "奢——丧仪的僭越与排场",
+        "fact_type": "canonical_text_fact",
+        "description": "可卿之丧是贾珍「奢」的极致：义忠亲王老千岁的樯木棺材（亲王规格）、四十九日法事、三百和尚道士、为贾蓉捐五品龙禁尉——一场葬礼超越了宁府的身份边界。他的奢不是讲排场，是僭越：在礼制森严的时代，僭越就是找死。"
+      },
+      {
+        "dimension": "昏——无能的族长",
+        "fact_type": "canonical_text_fact",
+        "description": "贾珍手握宗族大权，却毫无治理之才：义学乌烟瘴气（顽童闹学堂他管不了）、家庙侵吞（净虚尼姑、庙产管理混乱）、宁府「除了那两个石头狮子干净，只怕连猫儿狗儿都不干净」（柳湘莲语）。他的昏与他的乱互为因果：无能所以乱来，乱来更加无能。"
+      },
+      {
+        "dimension": "惧——浪荡子对死亡的畏惧",
+        "fact_type": "text_inference",
+        "description": "贾珍并非全无心肝：可卿死时他「哭的泪人一般」（真情或作态，或兼而有之）；祠堂异兆时他「毛发倒竖」（心虚）；第七十五回墙下叹息后他不敢再闹（胆寒）。他的放纵里有深深的末世恐惧——知道死期将至，所以加倍高乐。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jiazhen_intro_ch2",
+        "title": "冷子兴演说——宁府世袭（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jiaozu_curse_ch7",
+        "title": "焦大醉骂「爬灰」（第七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_keqing_funeral_ch13",
+        "title": "秦可卿之丧——奢华僭越（第十三至十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jiazhen_jujiao_ch63",
+        "title": "守制聚赌·聚麀二尤（第六十三至六十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_jiazhen_night_feast_ch75",
+        "title": "开夜宴异兆发悲音（第七十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_jiazhen_punish_gaoe",
+        "title": "获罪发配海疆（后四十回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch07_jiaozu_curse",
+        "quote": "焦大越发连贾珍都说出来，乱嚷乱叫说：「我要往祠堂里哭太爷去。那里承望到如今生下这些畜牲来！每日家偷狗戏鸡，爬灰的爬灰，养小叔子的养小叔子，我什么不知道？咱们『胳膊折了往袖子里藏』！」众小厮听他说出这些没天日的话来，唬的魂飞魄散，也不顾别的了，便把他捆起来，用土和马粪满满的填了他一嘴。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回。焦大醉骂「爬灰的爬灰」——指向贾珍与秦可卿的乱伦暗线，全书最大胆的家族丑闻书写。"
+      },
+      {
+        "source_id": "source_ch13_jiazhen_funeral",
+        "quote": "贾珍哭的泪人一般，正和贾代儒等说道：「合家大小，远亲近友，谁不知我这媳妇比儿子还强十倍。如今伸腿去了，可见这长房内绝灭无人了。」……（问棺材价时）贾珍听说，忙谢不尽，即命解锯糊漆。贾政因劝道：「此物恐非常人可享者，殓以上等杉木也就是了。」此时贾珍恨不能代秦氏之死，这话如何肯听。……（买官）贾珍心中打算定了主意，因而趁便就说要与贾蓉捐个前程的话。",
+        "fact_type": "canonical_text_fact",
+        "note": "第十三回。「哭的泪人一般」「恨不能代秦氏之死」——公公对儿媳之死的反常悲痛，是爬灰暗线的最强文本证据。"
+      },
+      {
+        "source_id": "source_ch63_jiazhen_jushou",
+        "quote": "贾珍下了马，和贾蓉放声大哭，从大门外便跪爬进来，至棺前稽颡泣血，直哭到天亮喉咙都哑了方住。……（守制中）贾珍贾蓉此时为礼法所拘，不免在灵旁籍草枕块，恨苦居丧。人散后，仍乘空寻他小姨子们厮混。……贾珍又笑道：「我听见你姐妹俩说我的园子里没有什么好玩儿的。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十三回。贾敬灵前「稽颡泣血」，人散后「寻小姨子厮混」——孝的表演与淫的实质并置，贾珍之伪与乱的同时曝光。"
+      },
+      {
+        "source_id": "source_ch75_jiazhen_haozhai",
+        "quote": "原来贾珍近因居丧，每不得游顽旷荡，又不得观优闻乐作遣。无聊之极，便生了个破闷之法。日间以习射为由，请了各世家弟兄及诸富贵亲友来较射。……这些来的皆系世袭公子，人人家道丰富，且都在少年，正是斗鸡走狗，问柳评花的一干游荡纨裤。因此大家议定，每日轮流作晚饭之主，每日来射，不便独扰贾珍一人之意。于是天天宰猪割羊，屠鹅戮鸭，好似临潼斗宝一般。……（夜宴后）忽听那边墙下有人长叹之声。大家明明听见，都悚然疑畏起来。……贾珍酒已醒了一半，只比别人撑持得住些，心下也十分疑畏。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十五回「开夜宴异兆发悲音」。居丧期间「习射」变「聚赌」，墙下长叹——宁府末世将至的凶兆。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名珍，宁国府贾敬之子",
+      "detail": "「珍」——珍宝、珍重。以「珍」为名的贾珍是全书最不知「珍」的人：不珍祖业（一味高乐）、不珍名节（爬灰聚麀）、不珍子嗣（与贾蓉同狎二尤）——「珍」成了最大的反讽。贾府「玉」字辈之上一代（贾敬、贾赦、贾政）的谐音群：贾敬＝假敬（假恭敬，一心求仙弃家）、贾赦＝假赦（假宽仁）、贾政＝假正（假正经）——宁荣两府的三个顶梁柱，名中三德（敬、赦、政）全部成假。贾珍本人则是下一代的「珍而不珍」——从「敬」到「珍」，宁府的败落从名字上就已注定。",
+      "fact_type": "text_inference",
+      "disputes": [
+        {
+          "title": "贾珍之乱的定评",
+          "content": "脂批与判词「造衅开端实在宁」指向宁府之罪为贾府获罪总根源；焦大「爬灰」是否确指贾珍可卿，学界普遍认可，但亦有论者认为「爬灰」或另有所指（如贾蓉贾蔷之疑）。",
+          "proponent": "主流红学 / 少数异说"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴言其子贾蓉已十六岁",
+          "age": "据贾蓉16岁推算"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约34岁（text_inference：据贾蓉16岁推算）",
+        "story_end": "约42岁",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；据贾蓉十六岁（第2回）推算约三十四五岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "珍大爷",
+      "type": "府内称呼",
+      "context": "宁荣两府对贾珍的尊称——「大爷」与「琏二爷」「宝二爷」并列为贾府第四代男性称呼系统",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "威烈将军",
+      "type": "爵衔",
+      "context": "世袭三品爵威烈将军——「威烈」二字与他「一味高乐」的实际形成巨大反差",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jiazhen_intro_ch2",
+      "title": "冷子兴演说——宁府「一味高乐」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府（转述）",
+        "specific": "冷子兴介绍宁府：贾敬袭官后一心好道，让官于子贾珍袭三品爵威烈将军。贾珍「这珍爷那里肯读书，只一味高乐不了，把宁国府竟翻了过来，也没有人敢来管他」。"
+      },
+      "summary": {
+        "short": "冷子兴用一句话给贾珍定性：「一味高乐不了，把宁国府竟翻了过来」。宁府之乱从第二回就被预告——贾珍的「高乐」是宁府败亡的引擎。",
+        "meaning": [
+          "「一味高乐不了」——贾珍的人生纲领：除了享乐，别无他事",
+          "「把宁国府竟翻了过来」——「翻」字极重：宁府的秩序在他手里整个颠倒",
+          "「也没有人敢来管他」——贾敬出家、无人辖制，贾珍的自由是「无父无君」的自由"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_zhen",
+          "role": "被介绍者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "宁荣对照——曹雪芹的家族实验设计",
+          "content": "宁荣两府是曹雪芹设置的对照实验：荣府尚有贾政之正、凤姐之才、宝玉之灵，内部张力丰富；宁府则几乎是「纯腐败样本」——贾敬弃家、贾珍乱伦、贾蓉纨绔，三代直线堕落。宁府的功能是「预演」：荣府最后的结局（抄家、离散）先在宁府预演（爬灰、异兆、败象）。贾珍作为宁府核心，是这场预演的总导演。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiaozu_curse_ch7",
+      "title": "焦大醉骂——「爬灰的爬灰」",
+      "event_level": "major",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府（大门口）",
+        "specific": "宝玉会秦钟后夜归，焦大因夜派送人而醉骂：先骂管家赖二，再骂贾蓉，最后把贾珍也说出来——「爬灰的爬灰，养小叔子的养小叔子」。众小厮填他马粪。凤姐责斥，宝玉问「爬灰」何意，被宝钗湘云劝止。"
+      },
+      "summary": {
+        "short": "宁府老仆焦大的醉骂是全书最大胆的家族丑闻揭露：「爬灰的爬灰，养小叔子的养小叔子」——宁府的乱伦与暧昧，被一个「胳膊折了往袖子里藏」的老仆人当街骂穿。",
+        "meaning": [
+          "「爬灰」——翁媳乱伦的市井黑话，指向贾珍与秦可卿",
+          "焦大是宁府「功臣」——他骂的不是闲话，是「从死人堆里把太爷背出来」的资格",
+          "马粪填嘴——真相的待遇：宁府对「说真话的人」的经典处置"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_zhen",
+          "role": "被骂者——「爬灰」主角（暗示）"
+        },
+        {
+          "character_id": "character_jiao_da",
+          "role": "焦大——醉骂者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch07_jiaozu_curse",
+          "summary": "焦大醉骂全文——「爬灰的爬灰，养小叔子的养小叔子」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "焦大之骂——脂批体系中的「淫丧天香楼」线索",
+          "content": "焦大醉骂是「秦可卿淫丧天香楼」公案的核心文本：脂批透露曹雪芹原稿有「秦可卿淫丧天香楼」一回，写贾珍与可卿的乱伦（遗簪、更衣诸文），后因畸笏叟之命删去。删改后留下的痕迹就是焦大之骂与判词「情既相逢必主淫」——曹雪芹把明写改为暗线，反而使宁府之罪更深：越是讳莫如深，越是众所周知。"
+        },
+        {
+          "type": "literary",
+          "title": "「马粪填嘴」——真话在贾府的命运",
+          "content": "焦大被填马粪的细节是全书最有力的政治寓言：说真话的待遇就是马粪。焦大的资格（救过太爷的命）与下场（夜派、填粪）的反差，写尽「忠臣无好报」的末世逻辑。而他的骂在叙事上的功能是「揭幕」——第七回就骂穿宁府之乱，此后读者看可卿之丧、看贾珍高乐，都带着「已被告知」的知情视角。"
+        }
+      ]
+    },
+    {
+      "id": "event_keqing_funeral_ch13",
+      "title": "秦可卿之丧——奢华僭越的巅峰",
+      "event_level": "major",
+      "chapter": {
+        "number": 13,
+        "title": "秦可卿死封龙禁尉 王熙凤协理宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府",
+        "specific": "秦可卿病逝，贾珍「哭的泪人一般」，倾其所有操办丧事：买义忠亲王老千岁预定的樯木棺材（贾政劝止不听）、为贾蓉捐五品龙禁尉、停灵四十九日、请凤姐协理宁府。出殡之日「压地银山一般」——全书最奢华的葬礼。"
+      },
+      "summary": {
+        "short": "贾珍为儿媳办了一场亲王规格的葬礼：老千岁的樯木棺材、四十九日道场、为儿子买官、请凤姐揽权——一场丧事把宁府的家底与贾府的排场同时推到顶峰，也把「僭越」的罪名钉死在宁府头上。",
+        "meaning": [
+          "义忠亲王老千岁的棺木——亲王规格，贾政「此物恐非常人可享者」的劝止恰是判决",
+          "「恨不能代秦氏之死」——公公的异常悲痛，乱伦暗线的又一处实证",
+          "凤姐协理——这场葬礼成就了凤姐的「威权首秀」，也预演了贾府的末日排场"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_zhen",
+          "role": "丧主——哭的泪人一般"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "凤姐——协理宁国府"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "贾政——劝止僭越而不被听"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch13_jiazhen_funeral",
+          "summary": "贾珍哭媳、买棺、捐官——「恨不能代秦氏之死」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "可卿之丧的政治隐喻",
+          "content": "义忠亲王老千岁的棺木是全书最敏感的政治细节：义忠亲王「坏了事」（获罪）才使棺木流落，贾珍敢买敢用——这场葬礼的僭越规格（亲王之棺、五品之官、四十九日之丧）后来成为贾府获罪的重要把柄（gaoe抄家时旧账重翻）。学界多认为，曹雪芹以可卿之丧写贾府与「坏了事」的亲王的潜在牵连，为「家亡」埋下政治伏笔。"
+        },
+        {
+          "type": "character",
+          "title": "「恨不能代秦氏之死」——悲痛的真伪",
+          "content": "贾珍对儿媳之死的悲痛是全书的灰色地带：是真情（乱伦之爱）还是表演（掩盖丑闻）？文本的证据——哭的泪人一般、不惜一切、比儿子更痛——指向「有真情的成分」。但这份情越是真，罪就越重：一个公公对儿媳如此，伦理的堤坝已经塌了。曹雪芹不写可卿死因、不写二人实情，让这场丧事在「真情」与「丑闻」之间悬置——这种悬置正是全书最深的批判。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiazhen_jujiao_ch63",
+      "title": "死金丹之后——守制聚赌、聚麀二尤",
+      "event_level": "major",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府（贾敬灵前）",
+        "specific": "贾敬吞金服砂而死。贾珍闻讯与贾蓉从铁槛寺「放声大哭，跪爬进来，稽颡泣血」，哭到天亮。居丧期间，他邀集世袭公子以「习射」为名聚赌；又与贾蓉同狎尤二姐尤三姐——父子聚麀，丑态百出。"
+      },
+      "summary": {
+        "short": "父亲贾敬暴亡，贾珍灵前「稽颡泣血」——人散后就「寻小姨子们厮混」；居丧期间以「习射」为名聚众豪赌。回目「死金丹独艳理亲丧」，「独艳」二字写尽宁府的荒诞：守丧的是戏，作乐的是真。",
+        "meaning": [
+          "「稽颡泣血」与「寻小姨子厮混」的并置——孝的表演与淫的实质，相隔不过一个「人散后」",
+          "父子聚麀——贾珍贾蓉同狎二尤，宁府伦理的彻底崩塌",
+          "「习射」变「聚赌」——礼法的每一个出口都被贾珍改造成了享乐的通道"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_zhen",
+          "role": "居丧者——表演与作乐"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "贾蓉——与父同狎二尤"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch63_jiazhen_jushou",
+          "summary": "贾珍灵前泣血、人后厮混——「为礼法所拘」的反讽。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「为礼法所拘」——曹雪芹的反讽笔法",
+          "content": "「贾珍贾蓉此时为礼法所拘，不免在灵旁籍草枕块，恨苦居丧。人散后，仍乘空寻他小姨子们厮混」——这段文字是全书反讽的巅峰：「为礼法所拘」的「拘」字，写尽封建礼教的失效：它只能拘住白天的身体，拘不住人散后的灵魂。贾珍的「居丧」与「厮混」之间没有任何心理转换——因为在他的世界里，礼法从来就没有真正存在过。"
+        },
+        {
+          "type": "hongxue",
+          "title": "贾敬之死与宁府之乱的因果",
+          "content": "贾敬（死金丹）之死是宁府故事的枢纽：他的弃家修道，是贾珍「无人管束」的制度原因（父不父，则子不子）；他的暴亡，又给了贾珍「守制」的新舞台（聚赌、聚麀）。有学者指出，贾敬贾珍父子的关系是全书「家庭教育失败」的极端样本：父亲的缺席（求仙）与儿子的放纵（高乐）互为因果——宁府的崩塌，从贾敬出家的那天就开始了。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiazhen_night_feast_ch75",
+      "title": "开夜宴异兆发悲音——墙下的叹息",
+      "event_level": "major",
+      "chapter": {
+        "number": 75,
+        "title": "开夜宴异兆发悲音 赏中秋新词得佳谶",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府（会芳园）",
+        "specific": "贾珍居丧无聊，以「习射」为名聚众夜宴赌钱，八月十四夜在会芳园摆酒作乐。夜深人静时，忽听祠堂方向墙下有人长叹之声——众人悚然，贾珍「酒已醒了一半」。次日入祠堂查看，并无异状——「异兆发悲音」成了宁府末世的凶兆。"
+      },
+      "summary": {
+        "short": "宁府夜宴正酣，祠堂墙下传来一声长叹——无人的叹息。「异兆发悲音」：宁府的祖先在墙外叹气，贾珍们的末世已在门口。",
+        "meaning": [
+          "祠堂墙下的叹息——祖先之灵对不肖子孙的最后警告",
+          "贾珍「酒已醒了一半」——他的恐惧是真的：他比谁都清楚自己做了什么",
+          "次日查看无异状——凶兆无迹可寻，正如贾府的衰败：看得见的是叹息，看不见的是因果"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_zhen",
+          "role": "夜宴主——悚然疑畏"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch75_jiazhen_haozhai",
+          "summary": "习射聚赌、夜宴高乐、墙下长叹——「异兆发悲音」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「异兆」——宁府的丧钟第一次敲响",
+          "content": "墙下长叹是全书「灵异」系统中最重要的凶兆之一（与第五回警幻、第七十五回中秋冷月并置）：它不是鬼神，是「历史的叹息」——宁荣二府的开创者（宁国公荣国公）在祠堂里叹出的「后继无人」。曹雪芹用一声叹息完成对贾珍的全部审判：人间的惩罚可以推迟，祖先的叹息不会迟到。此后宁府再无「高乐」的兴致，衰亡进入倒计时。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiazhen_punish_gaoe",
+      "title": "获罪发配海疆——「造衅开端实在宁」的兑现",
+      "event_level": "major",
+      "chapter": {
+        "number": 107,
+        "title": "散余资贾母明大义 复世职政老沐天恩",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "京中/海疆",
+        "specific": "后四十回（gaoe）写贾府被抄，贾珍因「引诱世家子弟赌博」「强占良民妻女为妾」等罪获罪，革去世职，发往海疆效力赎罪。宁府一败涂地——「造衅开端实在宁」的判词最终兑现。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写贾珍数罪并罚、发配海疆——他的「高乐」账单一并清算。宁府之败是全书的败落样板：从爬灰到发配，贾珍用一生的放纵换来了判词里写好的结局。",
+        "meaning": [
+          "「引诱世家子弟赌博」——第七十五回「习射」聚赌的旧账被翻出",
+          "「强占良民妻女」——二尤之事的余波：宁府的淫乱最终成为罪状",
+          "发配海疆——从「威烈将军」到海疆罪囚，贾珍的爵位与自由一并清零"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_zhen",
+          "role": "获罪者——革职发配"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "贾珍获罪——续书对「造衅开端实在宁」的落实",
+          "content": "贾珍发配海疆（gaoe）是对秦可卿判词「造衅开端实在宁」的直接落实：宁府之罪（爬灰、聚赌、强占）成为贾府获罪的「开端」。学界评价：这个结局与前八十回伏笔吻合度较高（第七回焦大之骂、第十三回丧仪僭越、第六十三回聚赌、第七十五回异兆都是铺垫），是后四十回中较有根据的人物收束之一。也有论者指出，曹雪芹原稿中贾珍之败可能更惨烈（宁府「一败涂地」的彻底程度或超过续书所写）。"
+        },
+        {
+          "type": "character",
+          "title": "贾珍的「末世狂欢」与「不赦之罪」",
+          "content": "贾珍的完整弧线是一场「末世狂欢」：他比谁都清楚宁府的危机（可卿托梦凤姐说的就是「月满则亏」），也比谁都更用力地挥霍——他的高乐不是不知道后果，而是「知道后果所以更及时行乐」。发配海疆的结局完成了对他「狂欢哲学」的判决：末世不是狂欢的许可证，而是清算的倒计时。"
+        }
+      ]
+    },
+    {
+      "id": "event_wujinxiao_jiaozu_ch53",
+      "title": "乌进孝交租——经济枯竭的真相",
+      "event_level": "minor",
+      "chapter": {
+        "number": 53,
+        "title": "宁国府除夕祭宗祠 荣国府元宵开夜宴",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "宁国府",
+        "specific": "贾珍书房"
+      },
+      "summary": {
+        "short": "黑山村庄头乌进孝年关交租，贾珍嫌少，乌进孝诉天灾与庄上赔累，透出贾府经济入不敷出。",
+        "meaning": [
+          "贾府经济衰败的显性证据",
+          "「外面的架子虽未甚倒，内囊却也尽上来了」的印证"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_zhen",
+          "role": "主子（嫌租太少）"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "在场"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch53_wujinxiao",
+          "quote": "贾珍道：「我算定了你至少也有五千两银子来，这够作什么的！」",
+          "note": "第五十三回乌进孝缴租单上各物折算。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "经济视角的贾珍",
+          "content": "贾珍平日一味高乐，唯有面对缴租时才露出对家计的真实焦虑——「比你们别处的」虽多，却已撑不起宁府的排场。这一回的账目细节是全书最具体的贵族经济档案。",
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "type": "hongxue",
+          "title": "乌进孝的谐音",
+          "content": "「乌进孝」谐音「无进效」——庄头缴租只是表象，政治上的「进孝」无路可走才是根本。索隐派另有影射曹家亏空之说。",
+          "fact_type": "text_inference"
+        }
+      ],
+      "related_events": [],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      },
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "id": "event_jici_zongci_ch53",
+      "title": "除夕祭宗祠",
+      "event_level": "minor",
+      "chapter": {
+        "number": 53,
+        "title": "宁国府除夕祭宗祠 荣国府元宵开夜宴",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "宁国府",
+        "specific": "贾珍书房"
+      },
+      "summary": {
+        "short": "贾府除夕在宗祠祭祖，全族按辈分行礼，礼法排场与日渐亏空的现实形成反差。",
+        "meaning": [
+          "贾府礼法制度的最后展示",
+          "排场与亏空的反讽"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_zhen",
+          "role": "族长主祭"
+        },
+        {
+          "character_id": "character_jia_mu",
+          "role": "率女眷行礼"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch53_zongci",
+          "quote": "「贾母……众人方是一齐跪下」——祭宗祠的礼法规制。",
+          "note": "第五十三回宁国府除夕祭宗祠。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "盛极而衰的节点",
+          "content": "第五十三回以最隆重的祭祖写最后的排场：黑山村租单上的账目与宗祠里的香火并列，经济破产与礼法空壳互为表里，是全书的转折枢纽。",
+          "fact_type": "text_inference"
+        }
+      ],
+      "related_events": [],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-15T00:00:00Z",
+        "embedding_status": "pending"
+      },
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jiazhen_jia_jing",
+      "from": "character_jia_zhen",
+      "to": "character_jia_jing",
+      "type": "父子（弃养与被弃）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾敬弃家修道，把宁府和贾珍一起丢下——贾珍的「无人管束」由此而来。贾敬之死（死金丹）时贾珍「跪爬进来，稽颡泣血」——这套哭丧的规格越足，越衬出他平日对父亲修道的不解与利用。贾敬求仙求的是自己的长生，贾珍高乐求的是眼前的快活——父子两代人的自私，合力毁掉了宁府。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "父弃家修道",
+          "chapter": 2,
+          "description": "贾敬让官于贾珍，进玄真观。"
+        },
+        {
+          "stage": 1,
+          "title": "让爵弃家",
+          "chapter": 2,
+          "description": "贾敬让官于贾珍，进城外玄真观。"
+        },
+        {
+          "stage": 2,
+          "title": "哭父守制",
+          "chapter": 63,
+          "description": "贾敬暴亡，贾珍泣血居丧——表演与作乐并行。"
+        },
+        {
+          "stage": 2,
+          "title": "哭父演戏",
+          "chapter": 63,
+          "description": "贾敬死，贾珍跪爬泣血后即聚麀。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiazhen_you_furen",
+      "from": "character_jia_zhen",
+      "to": "character_you_furen",
+      "type": "夫妻（形同虚设）",
+      "nature": [
+        "spouse"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤氏是贾珍的填房，「一味怕事，推耳盗铃」——对丈夫的爬灰、聚麀、聚赌一概装聋作哑。贾珍对她也毫无尊重。这对夫妻是宁府「无纲常」的写照：夫不夫（乱伦高乐）、妻不妻（纵容默许），宁府的「翻了过来」正是从夫妻纲常的颠倒开始。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "装聋作哑",
+          "chapter": 63,
+          "description": "尤氏对贾珍父子的丑行视而不见。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiazhen_you_erjie",
+      "from": "character_jia_zhen",
+      "to": "character_you_erjie",
+      "type": "狎弄（聚麀之诮）",
+      "nature": [
+        "illicit_affair"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾珍与尤二姐（妻妹）早有暧昧——「素日因同他两个姨妹有情」。贾敬丧期他仍与二尤狎昵，甚至默许贾蓉撮合贾琏娶二姐（自己「不时续旧」的算盘）。他对二尤只有狎弄、毫无责任——与贾琏的「偷娶」相比，贾珍连「娶」的勇气与情分都没有。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "狎昵二尤",
+          "chapter": 63,
+          "description": "居丧期间与二尤厮混。"
+        },
+        {
+          "stage": 2,
+          "title": "默许出嫁",
+          "chapter": 65,
+          "description": "贾珍纵贾蓉撮合贾琏娶二姐，图「不时续旧」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiazhen_wang_xifeng",
+      "from": "character_jia_zhen",
+      "to": "character_wang_xifeng",
+      "type": "堂叔嫂（借才与交易）",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "可卿之丧中贾珍请凤姐协理宁国府——这是他唯一的「用人之明」：凤姐之才被他借来撑场子，凤姐之威被他借来镇府事。二人是「各取所需」的叔嫂同盟：贾珍要体面，凤姐要权力。这场合作也让读者看清：贾珍不是不会用人，是只把「才」用在办丧事上。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "托付协理",
+          "chapter": 13,
+          "description": "贾珍以「不看侄儿，只看侄儿媳妇」之语恳请凤姐协理。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jiazhen_keqing",
+      "title": "贾珍与秦可卿真的是乱伦吗？「爬灰」之谜怎么解？",
+      "slug": "jiazhen-keqing-incest-mystery",
+      "question_type": "character_relationship",
+      "importance_weight": 88,
+      "heat_weight": 90,
+      "neutral_overview": "焦大醉骂「爬灰的爬灰」、判词「情既相逢必主淫」、贾珍为儿媳之死的反常悲痛——贾珍与秦可卿的乱伦是《红楼梦》最大的暗线之一，也是红学最具争议的公案。",
+      "viewpoint_ids": [
+        "vp_jiazhen_keqing_yes",
+        "vp_jiazhen_keqing_no",
+        "vp_jiazhen_keqing_text"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_jiazhen_keqing_yes",
+          "title": "乱伦论（主流）：证据链完整，脂批佐证",
+          "summary": "主流观点认为乱伦属实：①焦大之骂「爬灰」指向明确（宁府之乱唯有贾珍当得起此骂）；②判词「情天情海幻情身，情既相逢必主淫」的「淫」字定调；③贾珍为儿媳之死「恨不能代秦氏之死」、哭得比儿子更痛，超出翁媳之礼；④脂批透露原稿有「秦可卿淫丧天香楼」回目（遗簪、更衣等情节后被删）。四条证据链完整，学界接受度最高。",
+          "evidence": [
+            "焦大之骂",
+            "判词「必主淫」",
+            "贾珍的反常悲痛",
+            "脂批「淫丧天香楼」的透露"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_jiazhen_keqing_no",
+          "title": "存疑论：「爬灰」或另有所指",
+          "summary": "少数论者认为「爬灰」未必指贾珍：①「爬灰」系焦大醉语，可能泛指宁府上下之乱（贾蓉贾蔷之暧昧亦有「养小叔子」之说）；②可卿之死书内明写为「病」，「淫丧」只存在于被删的原稿（删改后现行文本不能作直接证据）；③贾珍的悲痛也可能是「失一臂助」的政治表演（可卿有「重孙媳中第一得意之人」的地位）。",
+          "evidence": [
+            "现行文本无明写",
+            "焦大醉语的泛指可能",
+            "「养小叔子」另有所指的歧义"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_jiazhen_keqing_text",
+          "title": "文本论：删改本身即是最大的证据",
+          "summary": "更精细的看法聚焦「删改」行为本身：曹雪芹（从畸笏叟命）删去「淫丧天香楼」的明写，恰恰证明这段乱伦「必须隐去」——若无所隐，何必删改？焦大之骂、可卿判词、贾珍悲痛都是删改后留下的「残痕」。因此乱伦作为「暗线」不仅存在，而且是全书最重要的「不写之写」——读者读到的每一处反常，都是原稿的影子。",
+          "evidence": [
+            "脂批对删改的记载",
+            "删改后文本的「残痕」分析",
+            "可卿之死前后宁府氛围的异常"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_jiazhen_funeral",
+      "title": "秦可卿的葬礼为什么那么奢华？贾珍在隐藏什么？",
+      "slug": "why-was-keqings-funeral-so-extravagant",
+      "question_type": "character_motivation",
+      "importance_weight": 80,
+      "heat_weight": 74,
+      "neutral_overview": "一个孙媳妇的葬礼，规格直逼亲王（老千岁棺木、四十九日道场、捐官、全城出殡）。贾珍的铺张是痛悔、赎罪，还是另有深意？",
+      "viewpoint_ids": [
+        "vp_jiazhen_funeral_guilt",
+        "vp_jiazhen_funeral_politics",
+        "vp_jiazhen_funeral_face"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiazhen_funeral_guilt",
+          "title": "赎罪论：排场是乱伦之罪的补偿",
+          "summary": "贾珍「恨不能代秦氏之死」的悲痛与倾家荡产的葬礼，被视为乱伦者的赎罪：他给不了可卿名分，就给她最隆重的丧仪；他洗不清自己的罪，就试图用银子淹没它。「哭的泪人一般」的真情与「解锯糊漆」的僭越，都是同一个心理的两面——越痛越铺张，越铺张越暴露。",
+          "evidence": [
+            "「恨不能代秦氏之死」",
+            "丧仪规格与宁府身份的落差",
+            "贾政劝止而贾珍不听的执拗"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiazhen_funeral_politics",
+          "title": "政治论：一场葬礼是宁府的权力展示",
+          "summary": "政治视角认为葬礼是宁府（贾珍）的「权力秀」：买老千岁的棺木是宣示与宗室旧贵的关系、为贾蓉捐官是巩固世袭、四十九日道场与全城出殡是向官场展示贾府的体量。可卿之死只是由头，贾珍要办的是「宁府的面子工程」——一场葬礼办下来，宁府的政治资本账面上风光无两（北静王路祭即是回报），而「僭越」的隐患也已种下。",
+          "evidence": [
+            "义忠亲王棺木的政治含义",
+            "北静王路祭的规格",
+            "为贾蓉捐官的官场操作"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiazhen_funeral_face",
+          "title": "体面论：封建家族的「面子经济」",
+          "summary": "更普遍的解释落在「体面」二字：封建大家族的丧礼是「面子经济」的核心——葬礼的规格等于家族的地位。贾珍作为族长，办的不仅是儿媳的丧，更是宁府的「形象工程」：棺材、道场、出殡，每一项都是给「亲戚朋友们」看的资产负债表。这场葬礼的奢华与后来的抄家形成因果——体面透支了家底，排场招来了灾祸。",
+          "evidence": [
+            "「便是死了的，也体面些」的家族心态",
+            "凤姐协理时铺张的账目细节",
+            "贾府后来「内囊尽上来了」与丧事透支的关系"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiazhen_vs_she",
+      "title": "贾珍与贾赦：谁是贾府最坏的人？",
+      "slug": "jiazhen-vs-jiashe",
+      "question_type": "comparative_analysis",
+      "importance_weight": 70,
+      "heat_weight": 64,
+      "neutral_overview": "贾珍（爬灰、聚麀、聚赌）与贾赦（讨鸳鸯、夺古扇、卖女儿）是宁荣两府之恶的代表。二人之恶有何异同？",
+      "viewpoint_ids": [
+        "vp_jiazhen_vs_she_degree",
+        "vp_jiazhen_vs_she_type"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiazhen_vs_she_degree",
+          "title": "程度论：贾珍之恶更深（乱伦+族长）",
+          "summary": "就恶的程度，贾珍更深：贾赦之恶是「私欲」（夺扇、讨妾、卖女），贾珍之恶是「乱伦」（爬灰、聚麀）——破坏的是人伦底线；且贾珍身兼宗族族长，他的恶是「体制性的恶」：族长的放纵等于贾氏宗族的集体堕落。判词「造衅开端实在宁」把贾府之败的总根源定在宁府，正是对贾珍之恶的最终判决。",
+          "evidence": [
+            "爬灰与夺扇的伦理程度差",
+            "贾珍的族长身份",
+            "「造衅开端实在宁」的判词"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiazhen_vs_she_type",
+          "title": "类型论：一为「色之恶」，一为「财之恶」",
+          "summary": "就恶的类型，二人各擅一场：贾赦是「财之恶」（夺扇、卖女、图私房——一切向钱看），贾珍是「色之恶」（爬灰、聚麀、养娈童——一切向欲看）。合起来恰是「皮肤滥淫」的两个变体：财欲与肉欲。曹雪芹让宁荣两房各出一个「恶」的标本，覆盖了贵族罪恶的主要类型。",
+          "evidence": [
+            "贾赦恶行的「财」线索（扇、债、私房）",
+            "贾珍恶行的「色」线索（爬灰、聚麀、娈童）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jiazhen_nation",
+      "title": "贾珍——「造衅开端实在宁」的承担者",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学结构研究",
+      "year": 1988,
+      "source_title": "多项结构与脂批研究",
+      "description": "学者指出，秦可卿判词「造衅开端实在宁」是全书败亡叙事的总纲，而其承担者就是贾珍：宁府之乱（爬灰、聚赌、僭越）是贾府「家亡人散」的第一因。贾珍的叙事功能是「造孽」——他为贾府积累的全部罪状（伦理、政治、经济），最终都在抄家时一并清算。脂批所谓「宁府之败，珍之过也」式的判断，使贾珍成为全书唯一「结构性恶人」：他的恶不只毁自己，还毁全族。"
+    },
+    {
+      "id": "viewpoint_jiazhen_shadow",
+      "title": "贾珍的「末世狂欢」心理",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学心理研究",
+      "year": 1996,
+      "source_title": "多项人物心理研究",
+      "description": "心理视角的研究关注贾珍的「末世狂欢」心态：可卿托梦凤姐的「月满则亏，水满则溢」是全书最清醒的预警，而发出预警的人（可卿）恰恰死于贾珍之乱。学者认为贾珍并非不知道宁府的危机——正因知道，所以加倍放纵：他的每一场高乐都是对死亡的提前预支，「异兆发悲音」时他的「酒已醒了一半」正是这种末日意识的泄漏。贾珍是「清醒的堕落者」：明知悬崖，纵马疾驰。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 6,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 4,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 26,
+      "text_inference": 16,
+      "scholarly_viewpoint": 7,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "events": 2,
+    "age": 1,
+    "relationships": 4
+  }
+}

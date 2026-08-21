@@ -1,0 +1,1054 @@
+{
+  "character": {
+    "id": "character_xiren",
+    "name": "袭人",
+    "slug": "hua-xiren",
+    "aliases": [
+      "花袭人",
+      "珍珠",
+      "花大姐姐",
+      "贤袭人",
+      "花大奶奶"
+    ],
+    "category": "金陵十二钗又副册",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "本姓花，因家贫被卖入贾府；母兄仍在（后家境好转曾议赎身）。",
+      "position": "贾母之婢（珍珠）→宝玉首席丫鬟；王夫人私许的「准姨娘」。",
+      "origin": "平民出身，卖入荣国府。",
+      "generation": "与宝玉同辈的丫鬟阶层"
+    },
+    "tags": [
+      "贤袭人",
+      "花解语",
+      "准姨娘",
+      "似桂如兰",
+      "袭为钗副",
+      "告密争议",
+      "茜香罗",
+      "蒋玉菡",
+      "温柔和顺",
+      "尽忠职守"
+    ],
+    "summary": {
+      "short": "宝玉的首席丫鬟，判词「枉自温柔和顺，空云似桂如兰。堪羡优伶有福，谁知公子无缘」。以「贤」立身，终身谋划成为宝玉之妾，最终却阴差阳错嫁给了优伶蒋玉菡。",
+      "long": "花袭人本姓花，原名珍珠，是贾母的丫鬟，因「心地纯良，克尽职任」被拨给宝玉，宝玉据陆游「花气袭人知昼暖」诗句改其名为袭人。她是宝玉房里的大总管：侍候起居、管理丫鬟、调解纷争，「这袭人亦有些痴处：伏侍贾母时，心中眼中只有一个贾母；如今服侍宝玉，心中眼中又只有一个宝玉」。第十九回「情切切良宵花解语」，她以赎身之说试探宝玉，劝他改掉「爱红的毛病儿」等三件事——这是全书第一次正面写她对宝玉的规劝。第二十一回「娇嗔箴宝玉」，她以柔情警之。第三十回被宝玉误踢吐血，自知「少年吐血，年月不保，纵然命长，终是废人」——「争荣夸耀之心」尽灰。第三十六回王夫人将其月例提到二两银子一吊钱，享受准姨娘的待遇——她在「准姨娘」竞赛中胜出，同时把晴雯等「妖精似的东西」的威胁报告了王夫人（告密争议之源）。第二十八回蒋玉菡与宝玉互赠汗巾，宝玉把茜香罗系在袭人腰上——脂批点明这是她与蒋玉菡姻缘的伏线。后四十回（gaoe）写宝玉出家后，袭人由薛姨妈等作主嫁与蒋玉菡，洞房中见对方腰系的正是自己的松花汗巾——「堪羡优伶有福，谁知公子无缘」终成谶。二百年来，「贤袭人」与「告密者」之争从未停歇：脂批赞她「袭卿」，称其箴言「骂死宝玉，却是自悔」；近代读者则多因晴雯之死而对她持负面评价。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "贤与忠——职业伦理的完美执行者",
+        "fact_type": "canonical_text_fact",
+        "description": "袭人的「贤」首先是一种职业伦理：服侍贾母时心中只有贾母，服侍宝玉时心中只有宝玉。她的周到、细致、克己，是贾府丫鬟体系中最标准的产出。她不是天生的贤人，而是被制度训练出的「最好的丫鬟」。"
+      },
+      {
+        "dimension": "向上攀登的妾室之路",
+        "fact_type": "text_inference",
+        "description": "袭人的一生有清晰的上升路径：贾母之婢→宝玉首席丫鬟→准姨娘→（原计划的）正式妾室。她的规劝、告密、隐忍，都与这条路径有关——「争荣夸耀之心」在误踢吐血后才「灰」了大半。她的「贤」里掺着她自己的前途。"
+      },
+      {
+        "dimension": "礼教的传声筒",
+        "fact_type": "canonical_text_fact",
+        "description": "袭人是大观园里最自觉的礼教代言人：劝宝玉读仕途经济、远离女儿脂粉、行为检点。她的价值观与王夫人、宝钗同构——这也是「袭为钗副」的含义之一。她对宝玉的「爱」以改造宝玉为表达方式。"
+      },
+      {
+        "dimension": "温柔中的强势",
+        "fact_type": "canonical_text_fact",
+        "description": "袭人的「温柔和顺」不是软弱——她以赎身要挟宝玉（情感绑架）、以告密影响王夫人（信息权力）、以「初试云雨」绑定宝玉（身体契约）。她的温柔是策略，和顺是武器。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xiren_intro_ch3",
+        "title": "出场——「心地纯良，克尽职任」（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xiren_judgment_ch5",
+        "title": "判词（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xiren_yunyu_ch6",
+        "title": "初试云雨情（第六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xiren_persuade_ch19",
+        "title": "情切切良宵花解语——赎身试探（第十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xiren_jiaochen_ch21",
+        "title": "娇嗔箴宝玉（第二十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_xiren_hanjin_ch28",
+        "title": "茜香罗汗巾——姻缘伏线（第二十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_xiren_kicked_ch30",
+        "title": "被宝玉误踢（第三十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_xiren_promoted_ch36",
+        "title": "准姨娘待遇（第三十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 9,
+        "event_id": "event_xiren_marry_ch120",
+        "title": "嫁蒋玉菡（第一二〇回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_xiren_judgment",
+        "quote": "枉自温柔和顺，空云似桂如兰。堪羡优伶有福，谁知公子无缘。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回袭人判词（又副册第二）。「枉自」「空云」二字定调：她的温柔和顺、似桂如兰，终究「白费」——公子无缘。"
+      },
+      {
+        "source_id": "source_ch03_xiren_intro",
+        "quote": "原来这袭人亦是贾母之婢，本名珍珠。贾母因溺爱宝玉，生恐宝玉之婢无竭力尽忠之人，素喜袭人心地纯良，克尽职任，遂与了宝玉。宝玉因知他本姓花，又曾见旧人诗句上有「花气袭人」之句，遂回明贾母，更名袭人。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三回袭人出场。「花气袭人知昼暖」——陆游诗句；名字即伏「花气」（花氏）与「袭人」（贴身）的双关。"
+      },
+      {
+        "source_id": "source_ch19_xiren_persuade",
+        "quote": "袭人道：「……说几件千叮万嘱的事：第一件，你果然是个真心……总不要胡行乱作，在外头胡混……第二件，你真喜读书也罢，假喜也罢，只是别再在老爷跟前说嘴……第三件，不可毁僧谤道，调脂弄粉……只是最要紧的一件事——再不许弄花儿、粉儿、吃人嘴上擦的胭脂了罢。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十九回袭人规劝宝玉「三件事」。脂批称「花解语」——她的温柔劝诫如花解语。"
+      },
+      {
+        "source_id": "source_ch36_xiren_promote",
+        "quote": "王夫人想了半日，向凤姐儿道：「明儿挑一个好丫头送去老太太使，补袭人，把袭人的一分裁了。把我每月的月例二十两银子里，拿出二两银子一吊钱来给袭人。以后凡事有赵姨娘周姨娘的，也有袭人的。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十六回王夫人给袭人准姨娘待遇——月例二两一吊，与赵姨娘等齐。这是王夫人与袭人同盟的正式缔结。"
+      },
+      {
+        "source_id": "source_ch28_xiren_hanjin",
+        "quote": "宝玉……将琪官所赠茜香罗系在袭人腰里。脂批：茜香罗、红麝串写于一回，盖琪官虽系优人，后回与袭人供奉玉兄宝卿得同终始者，非泛泛之文也。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十八回汗巾伏线。脂批明言蒋玉菡（琪官）日后与袭人「同终始」——姻缘早在汗巾交换时注定。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "姓花，原名珍珠/蕊珠，宝玉取陆游诗「花气袭人知骤暖」改名",
+      "detail": "宝玉取陆游「花气袭人知骤暖」诗句为其改名「袭人」（第三回）。欧丽娟《袭人之命名探论》：花气袭人＋解语花双典，香与暖的人格特质。「袭为钗副」（脂批）——袭人是宝钗之副影；判词「枉自温柔和顺，空云似桂如兰」——桂兰皆香",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 62,
+          "evidence": "袭人与黛玉同生日（二月十二）",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "约19-20岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文年龄；比宝玉大数岁（第19回袭人姨表妹17岁、宝玉尚幼的旁证推算，text_inference）。",
+      "controversies": [
+        {
+          "title": "大丫鬟年龄之谜",
+          "detail": "人民网刊文指出：按年推算第3回袭人仅约9岁，与其「每每规谏宝玉，心中着实忧郁」的言行不符；作者似有意让小者增大、大者减小，统合于「十五六七岁」标准。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "花袭人",
+      "type": "姓+名",
+      "context": "本姓花，「花气袭人知昼暖」——宝玉据陆游诗为其更名",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "珍珠",
+      "type": "原名",
+      "context": "贾母之婢时的名字，拨给宝玉后更名袭人",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "花大姐姐",
+      "type": "丫鬟称呼",
+      "context": "怡红院众丫鬟对袭人的尊称（「花大姐姐」）",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "贤袭人",
+      "type": "回目称号",
+      "context": "第二十一回回目「贤袭人娇嗔箴宝玉」——「贤」是曹雪芹的定评",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "花大奶奶",
+      "type": "戏称",
+      "context": "晴雯等戏称袭人（「花大奶奶」），讥其摆主子款",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xiren_yunyu_ch6",
+      "title": "初试云雨情",
+      "event_level": "minor",
+      "chapter": {
+        "number": 6,
+        "title": "贾宝玉初试云雨情 刘姥姥一进荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "宝玉梦游太虚幻境后醒来，袭人替他整衣时发现异常。宝玉讲述梦中之事，「遂强袭人同领警幻所训云雨之事」。袭人「素知贾母已将自己与了宝玉的，今便如此，亦不为越礼」，遂与宝玉偷试。"
+      },
+      "summary": {
+        "short": "宝玉梦游幻境后，与袭人偷试云雨情。袭人的心理依据是「贾母已将自己与了宝玉」——她认为自己已经是宝玉的人了。从此「宝玉视袭人更比别个不同，袭人待宝玉更为尽心」。",
+        "meaning": [
+          "袭人以身体完成与宝玉的绑定——她是宝玉事实上的第一个女人",
+          "「亦不为越礼」的自我说服——她与宝玉的关系获得了「准合法」的定位",
+          "这段关系使袭人的「规劝」「管束」获得了妻子的资格感"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「不为越礼」的合法性建构",
+          "content": "袭人的自我论证（贾母把我给了宝玉→我不是越礼）展示了她与晴雯的本质区别：晴雯直到死都是「虚担了虚名」，而袭人要的是名正言顺。她与宝玉的关系从一开始就走「合法化」路线——这是她一生所有行为（规劝、告密、隐忍）的逻辑起点。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiren",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiren_persuade_ch19",
+      "title": "情切切良宵花解语——赎身试探",
+      "event_level": "major",
+      "chapter": {
+        "number": 19,
+        "title": "情切切良宵花解语 意绵绵静日玉生香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（袭人家/怡红院）",
+        "specific": "袭人母亲接她回家吃年茶，其兄花自芳议及赎身之事，袭人哭闹拒绝。回府后她以「我家要赎我出去」试探宝玉，见宝玉伤心，便趁机规劝他「三件事」，并说「你要果然都依了，便拿八人轿也抬不出我去了」。"
+      },
+      "summary": {
+        "short": "袭人回娘家时坚决拒绝赎身之议，回府后却用「要赎身」试探宝玉。宝玉痛心疾首，她趁机提出「三件事」：不再说狠话、装喜读书、不毁僧谤道调脂弄粉。宝玉满口应承。袭人道「你要果然都依了，便拿八人轿也抬不出我去了」。",
+        "meaning": [
+          "袭人以「离开」为筹码，换取了宝玉的承诺——温柔的胁迫",
+          "「三件事」全部指向「改造成人」——她与宝玉的爱情观本质冲突的第一次公开化",
+          "脂批「花解语」——她是宝玉的「解语花」，也是他的规训者"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "赎身试探——情感操控的温柔版本",
+          "content": "袭人拒绝赎身是真，试探宝玉也是真。她用「离开」的恐惧逼宝玉「听话」——这种以爱为名的规训，正是她「贤」的底色：她认为爱宝玉的方式是改造他。这与黛玉的「爱其所是」形成全书最根本的爱情观对照：袭人要宝玉成为「应该成为的人」，黛玉要宝玉成为「他自己」。"
+        },
+        {
+          "type": "hongxue",
+          "title": "脂批的辩护——「骂死宝玉，却是自悔」",
+          "content": "脂砚斋对袭人的规劝大加赞赏，批曰其言「骂死宝玉，却是自悔」——认为袭人字字为宝玉好。脂批系统的「袭人观」与近代读者的「袭人观」截然对立：脂批视其为忠贤之典范，近代读者则多嫌其以爱为名的控制。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiren",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiren_jiaochen_ch21",
+      "title": "娇嗔箴宝玉",
+      "event_level": "minor",
+      "chapter": {
+        "number": 21,
+        "title": "贤袭人娇嗔箴宝玉 俏平儿软语救贾琏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "宝玉清晨即往黛玉处梳洗，袭人不满，以冷脸相待。宝玉赌气不理她，她反以柔情软语相劝：「你心里还不明白，还等我说呢！」——以退为进，令宝玉服软。"
+      },
+      "summary": {
+        "short": "宝玉往黛玉湘云处梳洗，袭人吃醋冷落宝玉。宝玉赌气，袭人又以柔情化解。回目称「贤袭人娇嗔箴宝玉」——她的「醋」与「劝」都贴着「贤」字。",
+        "meaning": [
+          "袭人对黛玉的警惕——她忧虑的不只是梳洗，而是宝玉的心",
+          "「娇嗔」是她规劝的高级形态：以情动人而非以理压人",
+          "回目「贤」字——曹雪芹对袭人式「劝夫」的定调"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「醋」里的婚姻意识",
+          "content": "袭人对宝玉去黛玉处梳洗的敏感，暴露了她的「妻子意识」——她以准妾室自居，本能地警惕「情敌」。她的醋意藏在「贤」的面具下：不敢明争，只能冷脸。这种半明半暗的醋，正是妾室处境的写照。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiren",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiren_hanjin_ch28",
+      "title": "茜香罗汗巾——蒋玉菡姻缘的伏线",
+      "event_level": "minor",
+      "chapter": {
+        "number": 28,
+        "title": "蒋玉菡情赠茜香罗 薛宝钗羞笼红麝串",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "冯紫英家/怡红院",
+        "specific": "宝玉与蒋玉菡（琪官）互换汗巾：蒋玉菡得宝玉的松花汗巾，宝玉得蒋玉菡的茜香罗。归家后袭人发现宝玉腰里系的是别人的汗巾，宝玉趁夜把茜香罗系在袭人腰里。脂批：「茜香罗、红麝串写于一回，盖琪官虽系优人，后回与袭人供奉玉兄宝卿得同终始者。」"
+      },
+      "summary": {
+        "short": "宝玉与蒋玉菡互换汗巾——本属于蒋玉菡的茜香罗，最终系在了袭人身上。脂批明言：这条汗巾是蒋玉菡与袭人「同终始」的伏线。宝玉无意中成了自己妾室与好友的「媒人」。",
+        "meaning": [
+          "汗巾互换=姻缘互换——曹雪芹用贴身之物完成命运的转手",
+          "宝玉亲手把袭人的「定情物」系在她身上——他既是当事者又是命运的工具",
+          "脂批「同终始」——袭人与蒋玉菡的姻缘在第二十八回就已注定"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "汗巾的三角交换",
+          "content": "松花汗巾（袭人→宝玉→蒋玉菡）与茜香罗（蒋玉菡→宝玉→袭人）构成一个完美的交换闭环：宝玉与蒋玉菡互换友情信物，同时互换了自己最贴身之人的信物。曹雪芹用两条汗巾预告了最终结局：宝玉出家，蒋玉菡与袭人结为夫妻——宝玉与琪官交换的不是汗巾，是人生。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiren",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiang_yuhan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiren_kicked_ch30",
+      "title": "被宝玉误踢——「争荣夸耀之心」尽灰",
+      "event_level": "minor",
+      "chapter": {
+        "number": 30,
+        "title": "宝钗借扇机带双敲 龄官划蔷痴及局外",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园/怡红院",
+        "specific": "宝玉雨中跑回怡红院，门久叫不开，怒中一脚踢去——踢中的正是前来开门的袭人。夜间袭人吐血，想起「少年吐血，年月不保，纵然命长，终是废人」，不觉「素日想着后来争荣夸耀之心尽皆灰了」。宝玉慌了手脚，侍候了她一夜。"
+      },
+      "summary": {
+        "short": "宝玉误踢袭人，袭人夜间吐血，自叹命薄：「少年吐血，年月不保，纵然命长，终是废人。」她的「争荣夸耀之心」——做姨娘、享荣华的半生筹划——被这一脚踢醒了大半。",
+        "meaning": [
+          "误踢事件是袭人命运的一次「内伤」——她第一次感到前途虚妄",
+          "「争荣夸耀之心尽皆灰了」——她的向上意志出现裂缝",
+          "宝玉的无心之脚，恰恰踢在最爱他的人身上——温柔的讽刺"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "野心的降温与忠心的升温",
+          "content": "吐血事件后袭人的心态发生微妙变化：她对「准姨娘」的执念降温，对宝玉的「侍候」升温。此后她的告密（第三十四回向王夫人进言）更像「为了宝玉好」而非「为了自己上位」——当然，两种动机在她身上从来无法彻底分离。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiren",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiren_promoted_ch36",
+      "title": "准姨娘待遇——王夫人的认可",
+      "event_level": "major",
+      "chapter": {
+        "number": 36,
+        "title": "绣鸳鸯梦兆绛芸轩 识分定情悟梨香院",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "王夫人与凤姐商议，将袭人的月例提到二两银子一吊钱，与赵姨娘、周姨娘同等待遇，「只是先混着」。王夫人此举的前提是第三十四回袭人向她进言「怎么个变法儿，以后竟还教二爷搬出园外来住就好了」——大得王夫人之心。"
+      },
+      "summary": {
+        "short": "宝玉挨打后（第三十三至三十四回），袭人向王夫人进言：为避嫌疑，让宝玉搬出大观园。王夫人大受感动，连呼「我的儿」，第三十六回即提升其月例至准姨娘标准。袭人「此时惟有在太太跟前尽力而已」。",
+        "meaning": [
+          "准姨娘待遇是王夫人与袭人同盟的正式缔结——袭人站队成功",
+          "她进言的时机（宝玉挨打之后）与内容（搬出园子）正中王夫人下怀",
+          "这次晋升使她与晴雯等的「竞争关系」从暗转明"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "进言与告密的边界",
+          "content": "袭人向王夫人进言「搬出园子」是全书「告密争议」的核心文本：支持者认为她只是尽忠言（未点名任何人，且为宝玉名声考虑）；批评者认为这次进言开启了王夫人对大观园「狐狸精」的清查，为晴雯、四儿、芳官之逐埋下祸根。进言与告密的边界，正是袭人评价分歧的分水岭。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiren",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiren_marry_ch120",
+      "title": "嫁蒋玉菡——「谁知公子无缘」",
+      "event_level": "major",
+      "chapter": {
+        "number": 120,
+        "title": "甄士隐详说太虚情 贾雨村归结红楼梦",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "贾府外/蒋玉菡家",
+        "specific": "宝玉出家后，袭人既未守节之理、又无殉情之份，薛姨妈等作主将她嫁与蒋玉菡。洞房之夜，二人发现对方腰系彼此旧汗巾——茜香罗与松花汗巾重逢，方知姻缘前定。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写宝玉出家后，袭人被迫改嫁蒋玉菡。洞房中两人才发现对方就是汗巾的原主——「堪羡优伶有福，谁知公子无缘」就此兑现。续书赞袭人「不得不委屈自己」「真贤惠」；脂批系统则早有「琪官与袭人同终始」的伏线。",
+        "meaning": [
+          "袭人半生经营的「姨娘梦」以改嫁优伶告终——「枉自」「空云」的判词落地",
+          "两条汗巾的重逢证明：姻缘早定，人事徒劳",
+          "「优伶有福」——蒋玉菡（社会底层的优伶）反而是她的良配"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "版本差异：续书与脂批的袭人结局",
+          "content": "后四十回（gaoe）写袭人「不得已」改嫁（先有寻死之念，见蒋家厚待方罢了），并辩白「不是有心背主」——续书极力维护袭人的「贤」。而脂批线索（「琪官与袭人同终始」）显示：曹雪芹原意中袭人与蒋玉菡的姻缘是「前定」而非「被迫」，且二人日后还「供奉玉兄宝卿」（接济落魄的宝玉宝钗）——续书删去了这一笔，改写了袭人结局的质地。"
+        },
+        {
+          "type": "literary",
+          "title": "汗巾重逢——全书最精巧的「谶」",
+          "content": "第二十八回的两条汗巾，在第一百二十回的洞房重逢——曹雪芹（及续书作者）用八十多回的跨度完成了一次信物闭环。宝玉当年无意中的一系，系定了袭人的终身。这是「信物伏线」手法的极致运用。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiren",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiang_yuhan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xiren_judgment_ch5",
+      "title": "太虚幻境判词——又副册第二",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "宝玉在「薄命司」先开又副册：第一页是晴雯，第二页是袭人——画着一簇鲜花，一床破席。判词「枉自温柔和顺，空云似桂如兰。堪羡优伶有福，谁知公子无缘」。"
+      },
+      "summary": {
+        "short": "袭人位列又副册第二（晴雯之后）。册画「一簇鲜花，一床破席」——「花」谐其姓，「席」谐「袭」。判词「枉自」「空云」宣判她的温柔贤德终归白费，「优伶有福」「公子无缘」点明最终归宿。",
+        "meaning": [
+          "「鲜花破席」——花（姓）与席（袭）的姓名暗码",
+          "又副册第二的位次——她与晴雯并列构成丫鬟层的「钗黛对照」",
+          "「枉自」「空云」——曹雪芹对她「贤」的终极评价是徒劳"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "又副册的位次学",
+          "content": "晴雯居又副册第一、袭人居第二，这个位次本身即是表态：在曹雪芹的价值序列里，晴雯（真率）高于袭人（贤顺）。但也有人指出，位次可能仅按「出场顺序」或「与宝玉的贴近度」排列。位次之争是袭晴比较的起点。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xiren",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_bo_ming",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xiren_jia_baoyu",
+      "from": "character_xiren",
+      "to": "character_jia_baoyu",
+      "type": "主仆（事实上的妾）",
+      "nature": [
+        "master_servant",
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "袭人是宝玉首席丫鬟与第一个女人。「宝玉视袭人更比别个不同」——他依赖她的照料，也反感她的规劝。袭人对宝玉的感情混合着忠诚、母性与前途算计。二人关系的本质冲突是「改造与反改造」：袭人要把宝玉改造成「成器」的人，宝玉只要做他自己。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "初试云雨——事实婚姻的开始",
+          "chapter": 6,
+          "description": "袭人以「贾母已将自己与了宝玉」为由与宝玉偷试。"
+        },
+        {
+          "stage": 1,
+          "title": "初试云雨情",
+          "chapter": 6,
+          "description": "宝玉与袭人偷试云雨，自此「视袭人更与别人不同」——袭人成为宝玉生活中最亲密的女性之一。"
+        },
+        {
+          "stage": 2,
+          "title": "规劝与试探",
+          "chapter": 19,
+          "description": "赎身试探与「三件事」之约。"
+        },
+        {
+          "stage": 2,
+          "title": "情切切良宵花解语",
+          "chapter": 19,
+          "description": "袭人以「要回家」试探宝玉，趁机规劝宝玉改过迁善——这是她对宝玉最精心的一次「改造」尝试。"
+        },
+        {
+          "stage": 3,
+          "title": "误踢与照顾",
+          "chapter": 30,
+          "description": "宝玉误踢袭人，又衣不解带地照顾了她一夜——依赖与伤害并存。"
+        },
+        {
+          "stage": 4,
+          "title": "出家后的离散",
+          "chapter": 120,
+          "description": "宝玉出家，袭人改嫁蒋玉菡——「谁知公子无缘」。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiren_qingwen",
+      "from": "character_xiren",
+      "to": "character_qingwen",
+      "type": "同侪（贤与真的对照）",
+      "nature": [
+        "conflict",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "袭人与晴雯是怡红院的一对镜像：袭人「贤」而晴雯「真」；袭人温柔和顺，晴雯掐尖要强；袭人走「合法化」路线（准姨娘），晴雯走「真性情」路线（不屑告密）。晴雯骂袭人「连个姑娘还没挣上去呢」「便是你们鬼鬼祟祟干的那事儿，也瞒不过我去」；晴雯被逐时，袭人被疑为告密者。二人之争是丫鬟层「钗黛之争」的投影。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "明争暗斗",
+          "chapter": 31,
+          "description": "晴雯撕扇、讥刺袭人「连个姑娘还没挣上去」——二人矛盾公开化。"
+        },
+        {
+          "stage": 1,
+          "title": "公开讥刺",
+          "chapter": 31,
+          "description": "晴雯当众揭袭人「鬼鬼祟祟」与「姑娘」身份之短。"
+        },
+        {
+          "stage": 2,
+          "title": "告密疑云",
+          "chapter": 77,
+          "description": "晴雯被逐，宝玉疑袭人告密：「怎么人人的不是太太都知道，单不挑出你和麝月秋纹来？」",
+          "fact_type": "text_inference"
+        },
+        {
+          "stage": 2,
+          "title": "生死分野",
+          "chapter": 77,
+          "description": "晴雯被逐而死，袭人安然无恙——「真」亡「贤」存，宝玉质问袭人。",
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiren_xue_baochai",
+      "from": "character_xiren",
+      "to": "character_xue_baochai",
+      "type": "同调者（袭为钗副）",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "脂批「袭为钗副」——袭人是宝钗的丫鬟版投影：同样的贤惠、理性、礼教意识、对宝玉的规劝立场。二人互相欣赏：宝钗欣赏袭人的「深可敬爱」，袭人敬服宝钗的「有涵养」。她们在「规训宝玉」上立场完全一致。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "互相欣赏",
+          "chapter": 21,
+          "description": "宝钗听袭人说话「深可敬爱」——钗袭同盟的精神基础。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiren_lin_daiyu",
+      "from": "character_xiren",
+      "to": "character_lin_daiyu",
+      "type": "微妙的相处",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "袭人与黛玉关系微妙：黛玉曾打趣她「好嫂子」（第三十一回），半是玩笑半是试探；袭人则认为黛玉「不是咱们家」的人、且疑其难相处（背地里与湘云议论黛玉）。但后四十回（gaoe）宝玉宝钗成婚后，袭人又常开解黛玉之死的悲戚。她的态度始终以「宝玉的利益」为轴心转动。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "「好嫂子」的玩笑",
+          "chapter": 31,
+          "description": "黛玉戏称袭人「好嫂子」——半真半假的地位确认与试探。"
+        },
+        {
+          "stage": 2,
+          "title": "背后的议论",
+          "chapter": 32,
+          "description": "袭人与湘云背地议论黛玉不做针线、性子难缠——她的黛玉观并不友善。",
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiren_jia_mu",
+      "from": "character_xiren",
+      "to": "character_jia_mu",
+      "type": "旧主",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母是袭人的旧主——「素喜袭人心地纯良，克尽职任，遂与了宝玉」。但贾母心中宝玉的妾室人选是晴雯（「将来只他还可以给宝玉使唤得」），王夫人私抬袭人时甚至先斩后奏（把袭人从贾母名下「裁了」）。贾母与王夫人在袭人问题上的分歧，是婆媳之争的又一暗线。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "拨给宝玉",
+          "chapter": 3,
+          "description": "贾母将袭人（珍珠）拨给宝玉。"
+        },
+        {
+          "stage": 2,
+          "title": "被「裁」出贾母名下",
+          "chapter": 36,
+          "description": "王夫人将袭人从贾母名下转出，贾母后知后觉。",
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_xiren_judgment",
+      "title": "判词（又副册）",
+      "work_type": "判词",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "「枉自温柔和顺，空云似桂如兰。堪羡优伶有福，谁知公子无缘。」",
+      "symbolic_notes": "「鲜花破席」的册画谐「花」「袭」；「似桂如兰」评其品性，「优伶有福」指蒋玉菡，「公子无缘」指宝玉——她一生的两条路都被判词写尽。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_xiren_qingwen_comparison",
+      "title": "袭人与晴雯为什么经常被放在一起比较？",
+      "slug": "why-compare-xiren-and-qingwen",
+      "question_type": "comparative_analysis",
+      "importance_weight": 85,
+      "heat_weight": 80,
+      "neutral_overview": "同为宝玉身边最重要的丫鬟，袭人「贤」、晴雯「真」。二百年来，「袭晴之争」是《红楼梦》接受史的核心战场之一。",
+      "viewpoint_ids": [
+        "viewpoint_xiren_qingwen_mirror",
+        "viewpoint_xiren_qingwen_moral",
+        "viewpoint_xiren_qingwen_readers"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_xiren_qingwen_mirror",
+          "title": "镜像论：她们是钗黛之争的丫鬟层投影",
+          "summary": "脂批「袭为钗副」「晴有林风」——袭人是宝钗的影子，晴雯是黛玉的影子。二人的对峙是钗黛对峙的下沉版：礼教的贤 vs 个性的真；对宝玉的「规训」vs「成全」。读懂了袭晴，就读懂了钗黛。",
+          "evidence": [
+            "脂批「袭为钗副」「晴有林风」",
+            "袭人劝宝玉改过（规训）与晴雯纵宝玉撕扇（成全）的行为对照"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "viewpoint_xiren_qingwen_moral",
+          "title": "道德辩论论：她们的分野是「对宝玉好」的两种定义",
+          "summary": "袭人认为对宝玉好是让他「学好」（读书、检点、上进）；晴雯认为对宝玉好是让他「快活」（撕扇、嬉笑、真性情）。两种「好」定义了两种价值观——这场辩论至今没有标准答案，因为「好」本身就没有标准定义。",
+          "evidence": [
+            "第十九回袭人劝「三件事」 vs 第三十一回晴雯撕扇",
+            "袭人：你要成器；晴雯：你只要快乐"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_xiren_qingwen_readers",
+          "title": "读者论：二百年来的「袭晴之争」是《红楼梦》接受史的核心战场",
+          "summary": "清代读者多尊袭（「贤袭人」符合主流价值观）；五四以后，读者多扬晴（个性解放话语下晴雯成为「反封建英雄」，袭人成为「奴才典型」）；当代则出现「理解袭人」的再评价潮流。读者对二人的褒贬，往往折射的是一代人自己的价值观。",
+          "evidence": [
+            "清代评点（脂批、王希廉等）尊袭的立场",
+            "鲁迅「袭人者，贾府之奴才也」类评语的流传（鲁迅对奴性批判）",
+            "当代「袭人也是可怜人」的再评价"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_wangfuren_trusts_xiren",
+      "title": "王夫人为什么更信任袭人而不是晴雯？",
+      "slug": "why-wangfuren-trusts-xiren-over-qingwen",
+      "question_type": "character_motivation",
+      "importance_weight": 80,
+      "heat_weight": 75,
+      "neutral_overview": "王夫人抬举袭人为准姨娘，驱逐晴雯致死。她对两个丫鬟的天壤之别，暴露了她的用人标准与深层焦虑。",
+      "viewpoint_ids": [
+        "viewpoint_xiren_trust_values",
+        "viewpoint_qingwen_threat",
+        "viewpoint_xiren_trust_utilitarian"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_xiren_trust_values",
+          "title": "价值观论：王夫人信任的是「与自己同构的人」",
+          "summary": "王夫人的核心价值观是「礼」：儿子要读书、要检点、要远离「狐狸精」。袭人的规劝立场与王夫人的焦虑完全同频——她们都认为宝玉「学好」是第一位的。信任源于价值观的共振：王夫人在袭人身上看到了自己（对宝玉的规训意志）。",
+          "evidence": [
+            "第三十四回袭人进言后王夫人连呼「我的儿」",
+            "袭人「三件事」与王夫人对宝玉的期待完全一致"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_qingwen_threat",
+          "title": "威胁论：晴雯的「美而自由」是王夫人最深的威胁",
+          "summary": "王夫人厌恶晴雯的「水蛇腰、削肩膀、眉眼像林妹妹」——晴雯的美貌与自由气质让王夫人想起年轻时的赵姨娘们（美而获宠的妾室）。她驱逐的不是晴雯，而是「美而自由」所代表的秩序威胁。袭人的「笨笨的」（王夫人语）恰好安全。",
+          "evidence": [
+            "王夫人骂晴雯「病西施」「轻狂样儿」",
+            "「笨笨的倒好」——王夫人对袭人的安全认定"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "viewpoint_xiren_trust_utilitarian",
+          "title": "实用论：王夫人需要的是「管理者」而非「美人」",
+          "summary": "王夫人的选择本质上是管理学的：她需要一个能管住宝玉房里、能向她汇报、能维护秩序的人——袭人是最佳人选。晴雯的价值（美丽、灵巧、真性情）在管理维度上是负资产。王夫人的选择是理性管理者的选择，而非审美的选择。",
+          "evidence": [
+            "袭人管理怡红院的实际成效",
+            "王夫人「笨笨的倒好」的管理学表述"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xiren_gaomi",
+      "title": "袭人到底有没有告密？",
+      "slug": "did-xiren-betray-her-peers",
+      "question_type": "character_morality",
+      "importance_weight": 85,
+      "heat_weight": 85,
+      "neutral_overview": "晴雯、四儿、芳官被逐，宝玉当面质问袭人：「怎么人人的不是太太都知道，单不挑出你和麝月秋纹来？」袭人的告密嫌疑是红学史上最著名的悬案之一。",
+      "viewpoint_ids": [
+        "vp_xiren_gaomi_yes",
+        "vp_xiren_gaomi_no",
+        "vp_xiren_gaomi_ambiguous"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xiren_gaomi_yes",
+          "title": "告密说：她是王夫人在怡红院的眼线",
+          "summary": "王夫人对晴雯「与宝玉同年同月同日生」的私语、四儿的玩笑、芳官的行径都了如指掌——这些只有怡红院内部人知道。袭人既是最大受益者（晴雯死后她稳坐首席），又有第三十四回进言的先例。宝玉的质问（「单不挑出你和麝月秋纹来」）就是作者的暗示。",
+          "evidence": [
+            "王夫人掌握的内部细节（第四十八回/第七十七回）",
+            "袭人是逐晴雯事件的最大受益者",
+            "宝玉的当面质问"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xiren_gaomi_no",
+          "title": "冤屈说：王夫人的信息另有来源",
+          "summary": "怡红院的眼线未必是袭人——王善保家的等婆子、赵姨娘一党都可能告密；王夫人撵四儿时提到「同日生日」等细节，也可能来自抄检大观园时的搜检记录。袭人若真告密，晴雯死前不会还把她当知己（晴雯被逐后住在表哥家，袭人还暗中送衣物）。袭人的人品有脂批系统的背书（「袭卿」的尊称）。",
+          "evidence": [
+            "晴雯被逐后袭人暗中送物的细节",
+            "王善保家的等婆子的告密动机与通道",
+            "脂批系统对袭人的一贯称赏"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_xiren_gaomi_ambiguous",
+          "title": "模糊说：曹雪芹故意不写死——真相在暧昧中",
+          "summary": "曹雪芹对袭人的告密始终「不写实」：不写她告密的场景，也不写她洗清的证据。这种暧昧是刻意的——袭人既不能是干净的（她确有进言动机），也不能是脏的（她不是主动害人者）。真相的悬置使「袭人评价」永远处于争议中，这正是这个人物的文学魅力所在。",
+          "evidence": [
+            "文本对告密细节的有意留白",
+            "宝玉质问后袭人「低头半日」的无言反应"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xiren_marriage",
+      "title": "袭人改嫁蒋玉菡——是背叛还是善终？",
+      "slug": "was-xirens-remarriage-betrayal-or-good-end",
+      "question_type": "character_fate",
+      "importance_weight": 75,
+      "heat_weight": 70,
+      "neutral_overview": "判词「堪羡优伶有福」似乎是祝福，但「枉自」「空云」又全是叹息。袭人的改嫁结局，究竟该怎么评价？",
+      "viewpoint_ids": [
+        "vp_xiren_marry_good",
+        "vp_xiren_marry_irony"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_xiren_marry_good",
+          "title": "善终论：蒋玉菡是她最好的归宿",
+          "summary": "「堪羡优伶有福」——蒋玉菡温文有礼、重情重义（琪官与宝玉的友情），且对袭人极尽体贴（后四十回）。相较于宝玉出家（袭人必被「打发」或守活寡），嫁蒋玉菡是她可能的结局里最好的一个。判词「堪羡」二字近乎祝福。",
+          "evidence": [
+            "「堪羡优伶有福」的判词表述",
+            "蒋玉菡的人品铺垫（与宝玉的情谊）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xiren_marry_irony",
+          "title": "讽刺论：她的半生经营全盘落空",
+          "summary": "袭人一生为「宝玉之妾」的目标而活：规劝、进言、隐忍、经营。结果宝玉出家，「姨娘梦」碎，她「枉自温柔和顺，空云似桂如兰」——判词前两句的否定语气说明：她的一切「贤」都没能换来想要的结局。改嫁优伶（社会地位低于贾府妾室）是她命运的巨大讽刺。",
+          "evidence": [
+            "「枉自」「空云」的判词否定",
+            "她「争荣夸耀之心」与结局的落差"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xiren_xian",
+      "title": "「贤袭人」——她的「贤」该如何理解？",
+      "slug": "how-to-understand-xirens-virtue",
+      "question_type": "character_analysis",
+      "importance_weight": 78,
+      "heat_weight": 72,
+      "neutral_overview": "回目称「贤袭人」，脂批赞「袭卿」，近代读者却多斥其为奴性。同一个「贤」字，为什么评价如此两极？",
+      "viewpoint_ids": [
+        "vp_xiren_xian_loyal",
+        "vp_xiren_xian_slave",
+        "vp_xiren_xian_system"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xiren_xian_loyal",
+          "title": "忠贤论：她的贤是尽忠职守的美德",
+          "summary": "在封建伦理的框架内，袭人的贤无可挑剔：服侍谁就忠于谁、规劝主子学好、维护房内秩序、顾全大局。脂批赞她「袭卿」，视其为「痴忠」的典范。她的贤是那个时代最好的奴婢所能达到的道德高度。",
+          "evidence": [
+            "「伏侍贾母时心中眼中只有一个贾母」的痴忠描写",
+            "脂批系统对「袭卿」的称赏"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xiren_xian_slave",
+          "title": "奴性论：她的贤是制度规训的产物",
+          "summary": "现代视角下，袭人的「贤」充满奴性：她以主子的价值观为自己的价值观（劝宝玉读书上进）、以主子的利益为自己的利益（告密维护秩序）、以「妾」为人生最高理想。她的贤不是美德，是奴隶道德的内化——她爱宝玉的方式，恰恰是帮制度驯化宝玉。",
+          "evidence": [
+            "她对「姨娘」身份的执念",
+            "她的规劝内容与贾政王夫人的期待完全同构"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_xiren_xian_system",
+          "title": "制度论：她只是一个「想活下去」的丫鬟",
+          "summary": "袭人没有选择的奢侈：卖身入府、无家可归、青春只有一次「姨娘」的上升通道。她的贤、她的规劝、她的进言，都是一个丫鬟在制度内活下去的最优策略。苛责袭人奴性，是把制度的罪过算在受害者头上——她是被制度塑造的标准产品，不是主动的道德堕落者。",
+          "evidence": [
+            "她家贫被卖的出身（第十九回赎身之议的背景）",
+            "丫鬟上升通道的唯一性（姨娘是最高理想）"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xiren_chafu",
+      "title": "「袭为钗副」——脂批体系中的袭人定位",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "脂砚斋",
+      "year": 1754,
+      "source_title": "《脂砚斋重评石头记》批语",
+      "description": "脂批对袭人的总评是「袭为钗副」——袭人是宝钗的投影：同样的贤惠、理性、礼教意识与规训立场。脂砚斋对袭人的态度总体尊重（「袭卿」），称其规劝之言「骂死宝玉，却是自悔」。但脂批也承认她的局限——她与宝钗一样，是「时宝钗」「贤袭人」的制度内贤者，而非宝玉的精神同类。脂批体系提示：理解袭人必须放在「钗系」价值谱系中，她与晴雯（黛影）的对位关系是曹雪芹的自觉设计。"
+    },
+    {
+      "id": "viewpoint_xiren_xihan",
+      "title": "「茜香罗」伏线——汗巾姻缘的叙事工艺",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1989,
+      "source_title": "多项伏线叙事研究",
+      "description": "学者将「茜香罗事件」视为《红楼梦》「草蛇灰线，伏脉千里」工艺的典范：第二十八回两条汗巾的交换，在结构上同时完成三个任务——写宝玉与蒋玉菡的友情、写袭人与蒋玉菡的姻缘伏笔、写「信物」在全书谶语系统中的枢纽作用。脂批「琪官与袭人供奉玉兄宝卿得同终始者」更透露：原著伏线中袭人蒋玉菡婚后还接济落魄的宝玉宝钗——「有福」的不只优伶，还有这桩姻缘本身的报恩意义。"
+    },
+    {
+      "id": "viewpoint_xiren_accept",
+      "title": "袭人评价史——从「贤袭人」到「争议人物」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学接受史研究",
+      "year": 1998,
+      "source_title": "多项接受史研究",
+      "description": "袭人的评价史是《红楼梦》接受史的一个缩影：清代评点家（脂批、王希廉、张新之）普遍尊袭，视其为「痴忠」典范；五四至二十世纪中叶，鲁迅等对奴性文化的批判波及袭人，「奴才」评价流行；八十年代以来，随着对封建制度整体性批判的深化，「袭人也是制度受害者」的再评价兴起。评价的摆动说明：袭人身上浓缩的「忠与奴」「贤与伪」「制度与个人」的矛盾，至今没有简单答案。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 8,
+    "total_relationships": 7,
+    "total_poems": 1,
+    "total_questions": 5,
+    "total_viewpoints": 3,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 38,
+      "text_inference": 13,
+      "scholarly_viewpoint": 9,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

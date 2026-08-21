@@ -1,0 +1,916 @@
+{
+  "character": {
+    "id": "character_zhen_shiyin",
+    "name": "甄士隐",
+    "slug": "zhen-shi-yin",
+    "aliases": [
+      "甄费"
+    ],
+    "category": "结构人物（全书引子）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "姑苏乡宦，姓甄名费字士隐。妻封氏（情性贤淑），独女英莲。岳父封肃。",
+      "position": "阊门外十里街仁清巷葫芦庙旁的中等乡宦。乡宦→破落户→寄人篱下→出家道人。",
+      "origin": "姑苏阊门（苏州）——「东南形胜之地」的普通望族。",
+      "generation": "第一回人物，与贾雨村并立为全书「真假」结构的两个原点"
+    },
+    "tags": [
+      "真事隐",
+      "好了歌注",
+      "葫芦庙",
+      "英莲之父",
+      "资助雨村",
+      "跛足道人",
+      "度脱",
+      "全书引子",
+      "真假对照"
+    ],
+    "summary": {
+      "short": "姑苏乡宦甄费，字士隐——「真事隐」去。禀性恬淡，不以为名为念。资助贾雨村五十两进京，元宵失女、三月火毁、投亲被辱，勘破世情后为《好了歌》作注，随跛足道人飘然而去。他是全书第一个「了悟者」，也是荣国府故事的缩影与引子。",
+      "long": "甄士隐是《红楼梦》全书第一个完整的悲剧主人公，也是整个大观园故事的「微缩预演」。他姓甄名费字士隐——「真事隐」；住姑苏阊门外十里街（势利街）仁清巷（人情巷）葫芦庙旁——街巷之名已经预告了「势利人情」的主题，葫芦庙则是「葫芦案」的伏笔。他禀性恬淡、不以功名为念，每日观花修竹、酌酒吟诗，是全书唯一「神仙一流人品」的凡人。第一回他白日一梦，梦见一僧一道携着通灵宝玉（甄宝玉之玉）去太虚幻境销号，还听见了神瑛侍者与绛珠仙草「还泪」的因由——一个梦，把全书神话层的秘密全部托出，而他自己却「识不通灵」。他两度接济贫居葫芦庙的贾雨村：先以五十两白银、两套冬衣助其进京应试，后者高吟「玉在椟中求善价，钗于奁内待时飞」——「求善价」「待时飞」都是势利之语，恩义与势利在此埋下全书第一组对照。命运的连环打击随之而来：元宵节女儿英莲被拐（霍启=祸起）；三月十五葫芦庙炸供，油锅火起，把甄家烧成一片瓦砾场（因他家紧邻葫芦庙）；携妻投奔岳父封肃（风俗），田产折卖仅存之银被半哄半赚地拿去，备受冷言讥讽——「贫居闹市无人问」。在绝望中，跛足道人唱着《好了歌》走过，士隐「心中早已彻悟」，为《好了歌》作注：「陋室空堂，当年笏满床；衰草枯杨，曾为歌舞场……」——这是全书最伟大的诗篇之一，写尽荣枯无常。注罢，他便将道人肩上的褡裢抢过来背上，竟不回家，同着疯道人飘飘而去。后四十回（gaoe）又写他在急流津觉迷渡与贾雨村重会，详说太虚情、归结红楼梦。甄士隐的意义远超一个失意乡宦：他的小家庭（好女儿被拐、家业被焚、投亲被辱、本人出家）就是荣国府大悲剧的预演；他的「真事隐」与贾雨村的「假语存」构成全书叙事的两极——曹雪芹以甄家小败落，为贾家大败落定调。关于他的影射对象，学界有南明王朝、清初亲王、荣国府缩影三说，皆存争议。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "恬淡——不以功名为念的神仙人品",
+        "fact_type": "canonical_text_fact",
+        "description": "曹雪芹给甄士隐的定评是「禀性恬淡，不以为名为念，每日只以观花修竹、酌酒吟诗为乐」。他资助贾雨村不求回报、见疯僧疯道不恼不怒——这种恬淡使他在全书的势利世界中像一个异类，也使他具备「彻悟」的先天气质。"
+      },
+      {
+        "dimension": "善——两度资助寒士的仁厚",
+        "fact_type": "canonical_text_fact",
+        "description": "士隐对贾雨村的态度是全书「知遇」主题的开端：初见即赠五十两白银、两套冬衣，还为其择日写荐书。他的善是真诚的、无算计的——与贾雨村后来的「知恩不报」（乱判葫芦案）构成全书最尖锐的恩义对照。"
+      },
+      {
+        "dimension": "悟——从家破到彻悟的度脱之路",
+        "fact_type": "canonical_text_fact",
+        "description": "士隐的「悟」经历了完整的辩证法：梦见仙缘而「识不通灵」（懵懂）；失女、焚家、被辱（苦难）；听《好了歌》而「心中早已彻悟」（超越）。他不是天生出世的哲人，而是被世俗逐出世俗的悟者——他的悟是苦难的结晶。"
+      },
+      {
+        "dimension": "弱——不通世务的多余人",
+        "fact_type": "text_inference",
+        "description": "士隐虽善却弱：元宵让家仆抱女出门（疏忽）、家业管理一窍不通（田产尽变卖）、投亲后「不惯生理稼穑等事」（无能）。他的弱使他无法在「势利人情」的俗世生存——曹雪芹以此说明：好人未必有好的生存能力，末世容不下恬淡者。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_zhen_dream_ch1",
+        "title": "梦幻识通灵（第一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_zhen_sponsor_ch1",
+        "title": "资助贾雨村五十两（第一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xiangling_abducted_ch1",
+        "title": "元宵失女——英莲被拐（第一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_zhen_fire_ch1",
+        "title": "葫芦庙大火——家业成灰（第一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_zhen_fengsu_ch1",
+        "title": "投奔岳父封肃遭冷遇（第一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_zhen_hao_liao_ch1",
+        "title": "解注《好了歌》出家（第一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_zhen_conclude_ch120",
+        "title": "急流津觉迷渡详说太虚情（第一二〇回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch01_zhen_dream",
+        "quote": "一日，炎夏永昼，士隐于书房闲坐，至手倦抛书，伏几少憩，不觉朦胧睡去。梦至一处，不辨是何地方。忽见那厢来了一僧一道……那僧笑道：「此事说来好笑，竟是千古未闻的罕事。只因西方灵河岸上三生石畔有绛珠草一株……今欲求你去下世造历幻缘，你如听见他这事情，就把那蠢物（通灵宝玉）给那绛珠仙子……带到警幻仙子案前，给他挂了号。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第一回甄士隐之梦。全书神话总纲（神瑛、绛珠、还泪、通灵宝玉）首次被「完整讲述」，听众却是个懵懂的乡宦。"
+      },
+      {
+        "source_id": "source_ch01_zhen_sponsor",
+        "quote": "士隐便说：「兄何不早言。愚每有此心，但每遇兄时，兄并未谈及，愚故未敢唐突。今既及此，愚虽不才，义利二字却还识得。且喜明岁正当大比，兄宜作速入都，春闱一战，方不负兄之所学也。其盘费余事，弟自代为处置，亦不枉兄之谬识矣！」当下即命小童进去，速封五十两白银，并两套冬衣。",
+        "fact_type": "canonical_text_fact",
+        "note": "第一回。「义利二字却还识得」——士隐以「义」待雨村，雨村后来以「利」报之，全书恩义主题的开端。"
+      },
+      {
+        "source_id": "source_ch01_zhen_fire",
+        "quote": "不想这日三月十五，葫芦庙中炸供，那些和尚不加小心，致使油锅火逸，便烧着窗纸……只可怜甄家在隔壁，早已烧成一片瓦砾场了。……士隐只得将田庄都折变了，便携了妻子与两个丫鬟投他岳丈家去。",
+        "fact_type": "canonical_text_fact",
+        "note": "第一回。紧邻葫芦庙是甄家被焚的直接原因——「近朱者赤近墨者黑」的地理寓言，亦是「城门失火殃及池鱼」的宿命注脚。"
+      },
+      {
+        "source_id": "source_ch01_zhen_fengsu",
+        "quote": "他岳丈名唤封肃，本贯大如州人氏，虽是务农，家中都还殷实。今见女婿这等狼狈而来，心中便有些不乐。……那封肃便半哄半赚，些须与他些薄田朽屋。士隐乃读书之人，不惯生理稼穑等事，勉强支持了一二年，越觉穷了下去。封肃每见面时，便说些现成话，且人前人后又怨他们不善过活，只一味好吃懒作等语。",
+        "fact_type": "canonical_text_fact",
+        "note": "第一回。「封肃」谐「风俗」——势利之风俗；「大如州」谐「大意州」（大意失荆州）。士隐被俗世彻底放逐。"
+      },
+      {
+        "source_id": "source_ch01_hao_liao",
+        "quote": "士隐听了，便迎上来道：「你满口说些什么？只听见些『好』『了』『好』『了』。」那道人笑道：「你若果听见『好』『了』二字，还算你明白。可知世上万般，好便是了，了便是好。若不了，便不好；若要好，须是了。我这歌儿便名《好了歌》。」……士隐本是有宿慧的，一闻此言，心中早已彻悟。……将道人肩上褡裢抢了过来背上，竟不回家，同了疯道人飘飘而去。",
+        "fact_type": "canonical_text_fact",
+        "note": "第一回。士隐「抢」褡裢「竟不回家」——全书第一个「悬崖撒手」者，为宝玉的最终出家提供预演。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名甄费，字士隐",
+      "detail": "「甄士隐」＝「真事隐」——将真事隐去，是曹雪芹全书叙事策略的自报家门（甲戌本凡例：「作者自云：因曾历过一番梦幻之后，故将真事隐去，而借通灵之说撰此《石头记》」）；「甄费」谐「真废」——真事废（不可明言）；其名与贾雨村（假语存）合成「真事隐去，假语存焉」的叙事总纲。居住地名亦入谐音系统：十里街＝势利街、仁清巷＝人情巷、葫芦庙＝糊涂庙，岳父封肃＝风俗、大如州＝大意州。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "甄士隐的影射对象三说",
+          "content": "①南明王朝说：甄家焚毁＝南明覆灭，英莲被拐＝明朝江山易主；②清初亲王说：有论者指其为某位亲王的隐写；③荣国府缩影说：甄家小败落即贾家大败落的预演，士隐即宝玉的前身。三说皆为推测，无定论。",
+          "proponent": "索隐派学者 / 探佚派学者"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 1,
+          "evidence": "年已半百，膝下无儿",
+          "age": "约50岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约50岁（第1回「年已半百」）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第1回明文「年已半百」。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "甄费",
+      "type": "本名",
+      "context": "「真废」——真事废弃不可言说，与「士隐」二字互为注脚",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "甄士隐",
+      "type": "字",
+      "context": "「真事隐」——将真事隐去，全书叙事总纲的第一半",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhen_dream_ch1",
+      "title": "梦幻识通灵——甄士隐的白日一梦",
+      "event_level": "major",
+      "chapter": {
+        "number": 1,
+        "title": "甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "姑苏甄家书房（梦中至太虚幻境牌坊下）",
+        "specific": "炎夏永昼，士隐伏几少憩入梦。梦见一僧一道议论神瑛侍者与绛珠仙草还泪因由，并携通灵宝玉欲下世。士隐要看那玉，不及细看，已到「太虚幻境」牌坊，被一声霹雳惊醒。"
+      },
+      "summary": {
+        "short": "甄士隐的白日梦里，全书的神话总纲第一次完整呈现：神瑛侍者灌溉绛珠仙草、绛珠还泪、通灵宝玉下世。他被霹雳惊醒——「识不通灵」，与仙机擦肩而过。",
+        "meaning": [
+          "甄士隐之梦是全书第一个「梦」——神话层与写实层在此接榫",
+          "他「识不通灵」——最接近仙缘的人反而错过仙缘，暗喻凡人皆有眼不识真",
+          "梦中玉上「太虚幻境」四字——为宝玉第五回梦游太虚幻境作远伏"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_shiyin",
+          "role": "梦者——识不通灵"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "全书叙事的「引子」结构",
+          "content": "甄士隐之梦在叙事上承担三重功能：一是「托出总纲」——还泪神话、通灵宝玉、太虚幻境三大设定一次交代；二是「建立对照」——士隐是全书第一个「梦者」，宝玉是最后一个，梦的序列从甄家开到贾家收；三是「设置悬念」——士隐没看清的玉上文字，要等第二回冷子兴、第八回宝钗细看才揭晓。甄士隐「识不通灵」四字，正是全书读者「入局」的姿态提示：此书通灵，识者自识。"
+        },
+        {
+          "type": "hongxue",
+          "title": "甄士隐＝贾宝玉的「外传」预演",
+          "content": "甄士隐与贾宝玉的结构同构性极强：都做仙梦（士隐梦太虚幻境牌坊，宝玉梦游太虚幻境全境）、都经历家败（甄家焚于火，贾家败于抄家）、都被僧道度化（跛足道人对癞头和尚）、都抛妻弃家而去（士隐「竟不回家」，宝玉「悬崖撒手」）。学者普遍认为士隐是宝玉的「小型预演」——以小见大，先演一遍给读者看。"
+        }
+      ]
+    },
+    {
+      "id": "event_zhen_sponsor_ch1",
+      "title": "资助贾雨村——五十两白银的恩义",
+      "event_level": "major",
+      "chapter": {
+        "number": 1,
+        "title": "甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "姑苏甄家（中秋家宴后）",
+        "specific": "中秋夜，士隐邀寄居葫芦庙的贾雨村小酌。雨村吟「玉在椟中求善价，钗于奁内待时飞」抒怀。士隐当即封五十两白银、两套冬衣相赠，并欲修书两封为其引荐。雨村次日五鼓即不辞而别赴京。"
+      },
+      "summary": {
+        "short": "中秋夜士隐赠贾雨村五十两白银与冬衣，助其进京赶考——全书第一次「知遇之恩」。雨村得钱次日即走，连辞行都免了。",
+        "meaning": [
+          "五十两白银——恩义的具体重量，也是后来「葫芦案」中良心的价码",
+          "雨村「求善价」「待时飞」的联句——受恩者在接受恩义时已暴露势利之心",
+          "士隐「义利二字却还识得」——全书以「义」待人的第一人，与雨村以「利」报人形成正反对照"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_shiyin",
+          "role": "资助者——义利分明"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "受助者——次日不辞而别"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch01_zhen_sponsor",
+          "summary": "士隐赠银五十两、冬衣两套；雨村「不过略谢一语，并不介意，仍是吃酒谈笑」——受恩者的轻慢。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "恩义与势利的第一次交割",
+          "content": "甄士隐资助贾雨村是全书「恩义—势利」结构的起点：士隐识才惜才，倾囊相赠，不图回报；雨村受之「略谢一语」，次日五鼓不辞而别——在他看来，这是「读书人彼此相赠」的寻常事。曹雪芹的深意藏在第四回：当恩人之女英莲落在他手中时，他「徇情枉法」。恩义的重量在势利面前轻如鸿毛，这正是全书反复书写的主题。"
+        },
+        {
+          "type": "literary",
+          "title": "「求善价」「待时飞」——联句的双关预言",
+          "content": "雨村所吟「玉在椟中求善价，钗于奁内待时飞」出自《论语》与《礼记》典故，表面是怀才不遇的自我推销，深层却是曹雪芹的双关谶语：「求善价」谐「求善贾」（攀附贾府），「待时飞」中藏着雨村的字「时飞」——他在求的是自己的飞黄腾达。更妙的是「钗」字，与后文宝钗之「钗」遥相呼应。一次中秋联句，把雨村一生的投机本质与全书主要人物线索都埋了进去。"
+        }
+      ]
+    },
+    {
+      "id": "event_zhen_fire_ch1",
+      "title": "葫芦庙大火——烧成瓦砾场",
+      "event_level": "major",
+      "chapter": {
+        "number": 1,
+        "title": "甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "葫芦庙（甄家紧邻）",
+        "specific": "失女后，三月十五葫芦庙炸供，和尚大意油锅火逸，烧着窗纸，连街烧去——甄家因与葫芦庙隔壁，被烧成一片瓦砾场。士隐夫妇抱头痛哭，只得将田庄折变，投奔岳父。"
+      },
+      "summary": {
+        "short": "女儿被拐两个月后，葫芦庙大火把甄家烧成瓦砾场。士隐变卖田产投亲——「烟消火灭」的谶语第二重兑现。",
+        "meaning": [
+          "「葫芦庙」＝「糊涂庙」——一场因和尚「不加小心」而起的大火，烧掉的却是隔壁无辜的甄家",
+          "「烟消火灭」——僧道谶语的全部兑现：人（英莲）失了，家（甄家）灭了",
+          "甄家之焚是贾家之败的缩影——「白茫茫大地真干净」的第一次小型预演"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_shiyin",
+          "role": "受灾者——家业尽毁"
+        },
+        {
+          "character_id": "character_feng_shi",
+          "role": "封氏——与夫抱头痛哭"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch01_zhen_fire",
+          "summary": "三月十五炸供起火，甄家成瓦砾场——「好防佳节元宵后，便是烟消火灭时」的完整应验。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "火——全书「毁家」意象的开端",
+          "content": "《红楼梦》中「火」是最重要的毁灭意象：甄家毁于葫芦庙之火（第一回）、贾家败于抄家（后四十回，gaoe）、大观园最终「落了片白茫茫大地真干净」。甄家之焚是这套火意象的起点——火起于「糊涂」（葫芦），烧于「大意」（炸供失慎），这组因果正是全书败家原因的浓缩：糊涂+大意=覆灭。"
+        },
+        {
+          "type": "hongxue",
+          "title": "甄家小败落＝贾家大败落的缩微模型",
+          "content": "甄士隐的败落四部曲（失女→焚家→投亲→出家）与贾府的大败落四部曲（失势→抄家→流散→出家）严格同构。曹雪芹在全书第一回就用一个小家庭完整演练了一遍大家族的覆灭过程，使读者在进入贾府之前已经知道了「故事的形状」——这是《红楼梦》「宿命感」的技术来源：悲剧不是发生时才被发现，而是从一开始就被预演过。"
+        }
+      ]
+    },
+    {
+      "id": "event_zhen_fengsu_ch1",
+      "title": "投奔封肃——势利风俗的最后放逐",
+      "event_level": "minor",
+      "chapter": {
+        "number": 1,
+        "title": "甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大如州（岳父封肃家）",
+        "specific": "士隐携妻与丫鬟投奔岳父封肃。封肃见其狼狈心中不乐，半哄半赚地把余银折成薄田朽屋。士隐不惯稼穑，一二年越穷，封肃人前人后怨其「好吃懒作」。士隐「贫病交攻」，渐入绝境。"
+      },
+      "summary": {
+        "short": "岳父封肃（风俗）半哄半赚盘剥女婿的余财，冷言冷语日日相讥。士隐「贫病交攻」——被亲情出卖，是压垮他的最后一根稻草。",
+        "meaning": [
+          "「封肃」谐「风俗」——势利是那个时代的风俗，连至亲都不能幸免",
+          "「贫居闹市无人问」——士隐经历的不是天灾，而是人祸：亲情与风俗的联合绞杀",
+          "投亲被辱后士隐才「心中早已彻悟」——他的出家不是参透，而是绝望"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_shiyin",
+          "role": "投亲者——贫病交攻"
+        },
+        {
+          "character_id": "character_feng_su",
+          "role": "封肃——半哄半赚、冷言相讥"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch01_zhen_fengsu",
+          "summary": "封肃半哄半赚、怨其「好吃懒作」——「大如州」谐「大意州」，士隐大意失荆州。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "岳父的盘剥——世俗凉薄的最深一刀",
+          "content": "天灾（火）毁了他的家，人祸（岳父）毁了他的念想：封肃对亲生女儿女婿半哄半赚、冷语相讥，是全书最寒心的亲情书写之一。它证明士隐所处的世界没有一处暖色——家园烧了，亲人卖了，风俗冷了。曹雪芹写这一节几乎不用形容词，白描之冷更甚于火场之烈，为士隐的出家提供了完全的逻辑。"
+        }
+      ]
+    },
+    {
+      "id": "event_zhen_hao_liao_ch1",
+      "title": "解注《好了歌》——随跛足道人出家",
+      "event_level": "major",
+      "chapter": {
+        "number": 1,
+        "title": "甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大如州街市",
+        "specific": "士隐拄了拐挣挫到街前散心，忽见跛足道人疯癫落脱，口中念着《好了歌》。士隐迎上前询问，道人答「好便是了，了便是好」。士隐「一闻此言，心中早已彻悟」，当场为《好了歌》作注。注罢，将褡裢抢过来背上，「竟不回家，同了疯道人飘飘而去」。"
+      },
+      "summary": {
+        "short": "跛足道人一曲《好了歌》，点醒贫病交攻的甄士隐。士隐即席作注——「陋室空堂，当年笏满床」——注罢抢过褡裢，与道人飘飘而去。全书第一个度脱者诞生。",
+        "meaning": [
+          "《好了歌》的辩证——「好便是了，了便是好」，欲望与解脱的同一性",
+          "士隐的注比歌更冷——他用具体的人生图景（笏满床→陋室空堂）证明「万境归空」",
+          "「抢」褡裢——他的出家不是从容选择，是被命运逼到墙角后的纵身一跃"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_shiyin",
+          "role": "彻悟者——作注后出家"
+        },
+        {
+          "character_id": "character_lame_daoist",
+          "role": "跛足道人——度化者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch01_hao_liao",
+          "summary": "士隐闻歌彻悟，作注抢褡裢出家——「同了疯道人飘飘而去」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "《好了歌注》——全书悲剧哲学的第一篇总纲",
+          "content": "《好了歌注》是《红楼梦》最重要的诗篇之一：「陋室空堂，当年笏满床；衰草枯杨，曾为歌舞场。蛛丝儿结满雕梁，绿纱今又糊在蓬窗上」——它以十组对照写尽荣枯无常，把「盛衰循环」的哲学用最具体的意象钉进读者心里。这篇注不仅是士隐个人命运的总结，更是贾府命运的预告：大观园的每一处繁华，都在注里预支了荒凉。"
+        },
+        {
+          "type": "hongxue",
+          "title": "度脱结构——甄士隐是宝玉出家的「前身」",
+          "content": "红学家普遍指出，甄士隐的出家是「度脱结构」的第一次完成：被僧道点化→经历人生幻灭→抛家随道而去。这一结构将在宝玉身上完整重演——癞头和尚跛足道人两次送玉救玉、宝玉经历大观园兴衰、最终悬崖撒手。士隐与宝玉构成「小悟」与「大悟」的呼应：士隐悟于中年家败，宝玉悟于一世情灭。脂批所谓「此书从士隐开，从士隐结」正指这一结构。"
+        }
+      ]
+    },
+    {
+      "id": "event_zhen_conclude_ch120",
+      "title": "急流津觉迷渡——详说太虚情、归结红楼梦",
+      "event_level": "major",
+      "chapter": {
+        "number": 120,
+        "title": "甄士隐详说太虚情 贾雨村归结红楼梦",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "急流津觉迷渡口",
+        "specific": "后四十回（gaoe）写贾雨村获罪后路过急流津觉迷渡，在草庵中重会已出家的甄士隐。士隐详说太虚情缘、英莲「产难完劫」、宝玉「情缘完结」等前因后果，最终点明「福善祸淫，古今定理」。二人别后，一僧一道携宝玉归彼大荒山青埂峰。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）让甄士隐在全书结尾重现：为贾雨村详说太虚情、交代英莲与宝玉的归册结局——「从士隐开，从士隐结」的结构就此完成。",
+        "meaning": [
+          "甄士隐首尾呼应——第一回第一个出场，第一二〇回负责收束，结构上的闭环",
+          "「觉迷渡」——渡口之名点题：全书是「觉」与「迷」之间的摆渡",
+          "士隐对雨村说教「福善祸淫」——续书的道德总结与前八十回「万境归空」的苍凉存在气质的差异"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_zhen_shiyin",
+          "role": "详说者——归结全书"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "听者——觉迷渡口的梦醒人"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「从士隐开，从士隐结」的版本学意义",
+          "content": "脂批有「此书从士隐开」之语，第一二〇回让甄士隐归结全书，符合「真假结构」的对称设计：甄士隐（真事隐）开头，贾雨村（假语存）收尾——真假二人最后在觉迷渡口会合，暗示「真事」与「假语」的合一。但也有学者指出，曹雪芹原稿结尾（若为「情榜」）未必由士隐担任总结者，此回的处理是gaoe根据脂批提示的补写。"
+        },
+        {
+          "type": "character",
+          "title": "士隐的最终形象——从悟者到说书人",
+          "content": "第一回的士隐是「被度者」，第二二〇回的士隐成了「度人者」：他向雨村宣讲因果、解释英莲与宝玉的归册。这个转变有得有失：得在完成结构闭环，失在把「彻悟者」变成了「传道者」——前八十回的士隐抢褡裢「飘飘而去」是沉默的、苍凉的，后四十回的他开口讲道理，其说教感（「福善祸淫」）与前文气质不完全协调，这是gaoe在处理「悟者」形象时常见的弱化。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_zhen_yinglian",
+      "from": "character_zhen_shiyin",
+      "to": "character_xiangling",
+      "type": "父女（失散之缘）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "士隐与英莲的父女情只有三年：他抱着她听僧道谶语、带她看社火花灯，然后永远失去她。女儿被拐是他命运的转折点——从此家破、投亲、出家。而英莲的一生也始终背着「甄家小姐」的失落身份。后四十回（gaoe）借士隐之口点出英莲「产难完劫」——父女至死未能相认。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "掌上明珠",
+          "chapter": 1,
+          "description": "士隐抱英莲闲玩，僧道点「有命无运」。"
+        },
+        {
+          "stage": 2,
+          "title": "元宵失女",
+          "chapter": 1,
+          "description": "英莲被拐，士隐「昼夜啼哭，几乎不曾寻死」。"
+        },
+        {
+          "stage": 2,
+          "title": "元宵永诀",
+          "chapter": 1,
+          "description": "英莲被拐，士隐寻女不得，甄家败落。"
+        },
+        {
+          "stage": 3,
+          "title": "生死两茫",
+          "chapter": 120,
+          "description": "士隐对雨村言英莲「产难完劫」——永诀。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhen_yucun",
+      "from": "character_zhen_shiyin",
+      "to": "character_jia_yucun",
+      "type": "恩主与受恩者（知遇与负义）",
+      "nature": [
+        "benefactor",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "士隐是贾雨村的大恩人：识其才、赠其银、欲修书荐之。雨村发迹后却两度负义——第4回乱判葫芦案把恩人之女判给薛家，第一二〇回（gaoe）重逢时士隐以「福善祸淫」点他。甄（真事隐）与贾（假语存）的对照核心就是这层恩义关系：真者施恩不求报，假者受恩而忘恩。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赠银资助",
+          "chapter": 1,
+          "description": "中秋夜赠五十两白银、两套冬衣。"
+        },
+        {
+          "stage": 1,
+          "title": "赠银结恩",
+          "chapter": 1,
+          "description": "士隐赠五十两白银，雨村中举。"
+        },
+        {
+          "stage": 2,
+          "title": "忘恩乱判",
+          "chapter": 4,
+          "description": "雨村乱判葫芦案，将恩人之女判给薛家。"
+        },
+        {
+          "stage": 2,
+          "title": "负义卖女",
+          "chapter": 4,
+          "description": "雨村乱判葫芦案，将恩人之女判给薛家。"
+        },
+        {
+          "stage": 3,
+          "title": "觉迷重逢",
+          "chapter": 120,
+          "description": "渡口重会，士隐详说太虚情。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 3,
+          "title": "渡口点化",
+          "chapter": 120,
+          "description": "觉迷渡重会，士隐详说太虚情。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhen_lame_daoist",
+      "from": "character_zhen_shiyin",
+      "to": "character_lame_daoist",
+      "type": "度化者与被度者",
+      "nature": [
+        "spiritual_guide"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "跛足道人是士隐的度化者：第一回街头唱《好了歌》点醒士隐，携其飘飘而去。二人关系是全书「度脱结构」的原型——僧道（癞头和尚、跛足道人）在全书反复出场度人（宝玉、凤姐、贾瑞等），士隐是第一个被成功度化的凡人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "街头点化",
+          "chapter": 1,
+          "description": "跛足道人唱《好了歌》，士隐彻悟。"
+        },
+        {
+          "stage": 2,
+          "title": "携去云游",
+          "chapter": 1,
+          "description": "士隐背褡裢随道人而去。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhen_feng_su",
+      "from": "character_zhen_shiyin",
+      "to": "character_feng_su",
+      "type": "翁婿（被盘剥者与势利岳父）",
+      "nature": [
+        "family_tension"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "封肃（风俗）是士隐的岳父，也是压垮他的最后一根稻草：半哄半赚盘剥余银、人前人后怨其「好吃懒作」。这段翁婿关系是全书「亲情亦势利」的标本——血亲在利益面前的凉薄，比陌生人的伤害更致命。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "投亲",
+          "chapter": 1,
+          "description": "士隐携妻投奔封肃。"
+        },
+        {
+          "stage": 2,
+          "title": "被辱",
+          "chapter": 1,
+          "description": "封肃盘剥冷遇，士隐贫病交攻。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhen_feng_shi",
+      "from": "character_zhen_shiyin",
+      "to": "character_feng_shi",
+      "type": "夫妻（患难相守）",
+      "nature": [
+        "spouse"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "封氏「情性贤淑，深明礼义」：失女后与士隐相守，火毁后随夫投亲，士隐出家后她留在娘家做针线过活，两个丫鬟（娇杏被雨村要走）只剩她一人苦度。士隐出家时「竟不回家」——抛下的不只是功名，还有患难之妻，这一笔写尽了「悟」的代价。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "失女同悲",
+          "chapter": 1,
+          "description": "英莲被拐，夫妇昼夜啼哭。"
+        },
+        {
+          "stage": 2,
+          "title": "投亲苦守",
+          "chapter": 1,
+          "description": "士隐出家后，封氏与丫鬟依封肃过活。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhen_jia_baoyu",
+      "from": "character_zhen_shiyin",
+      "to": "character_jia_baoyu",
+      "type": "结构镜像（小悟与大悟）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "甄士隐与贾宝玉是全书「度脱结构」的两端：士隐之梦是宝玉之梦的预演（太虚幻境牌坊→梦游太虚幻境全境），士隐之悟是宝玉之悟的缩微（家败出家→悬崖撒手），士隐的《好了歌注》是宝玉一生的预告诗。第一二〇回（gaoe）士隐在渡口送别「宝玉」——完成小悟者接引大悟者的最终仪式。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "梦的预演",
+          "chapter": 1,
+          "description": "士隐梦太虚幻境牌坊——宝玉第五回梦游全境的伏笔。"
+        },
+        {
+          "stage": 2,
+          "title": "悟的接引",
+          "chapter": 120,
+          "description": "渡口重会，僧道携宝玉归大荒山。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_zhen_hao_liao_zhu",
+      "title": "《好了歌》注",
+      "work_type": "歌注（长篇韵文）",
+      "chapter_number": 1,
+      "fact_type": "canonical_text_fact",
+      "summary": "「陋室空堂，当年笏满床；衰草枯杨，曾为歌舞场。蛛丝儿结满雕梁，绿纱今又糊在蓬窗上。说什么脂正浓、粉正香，如何两鬓又成霜？……乱烘烘你方唱罢我登场，反认他乡是故乡。甚荒唐，到头来都是为他人作嫁衣裳！」",
+      "symbolic_notes": "全书悲剧哲学的第一篇总纲：十组荣枯对照预写贾府兴衰与全书人物命运。「乱烘烘你方唱罢我登场」一句，是四大家族「其兴也勃焉，其亡也忽焉」的写照；「反认他乡是故乡」与香菱判词「香魂返故乡」遥相呼应。"
+    },
+    {
+      "id": "poem_zhen_dream_poem",
+      "title": "梦中太虚幻境对联",
+      "work_type": "对联",
+      "chapter_number": 1,
+      "fact_type": "canonical_text_fact",
+      "summary": "「假作真时真亦假，无为有处有还无。」（士隐梦中所见太虚幻境牌坊对联）",
+      "symbolic_notes": "全书「真假」「有无」哲学的最高概括。士隐在梦初醒之际只见此联——真与假、有与无的辩证，正是甄（真）贾（假）结构的哲学底座。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_zhen_structure",
+      "title": "甄士隐在全书结构中起什么作用？",
+      "slug": "zhen-shiyin-structural-role",
+      "question_type": "narrative_structure",
+      "importance_weight": 88,
+      "heat_weight": 70,
+      "neutral_overview": "甄士隐只在第一回正面出场，却被视为全书最重要的「引子人物」。他的小家庭悲剧与贾府的大悲剧是什么关系？",
+      "viewpoint_ids": [
+        "vp_zhen_structure_miniature",
+        "vp_zhen_structure_frame",
+        "vp_zhen_structure_philosophy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhen_structure_miniature",
+          "title": "缩影论：甄家是贾府的微缩模型",
+          "summary": "甄士隐的四段式败落（失女→焚家→投亲→出家）与贾府的四段式败落（失势→抄家→流散→出家）严格同构。曹雪芹在开篇先演一遍「小败落」，让读者带着「预知结构」进入大观园——之后贾府的每一步下坠，读者都能在甄家找到对应的前奏。这是古典小说中罕见的「结构预演」手法。",
+          "evidence": [
+            "甄贾两家败落的四段同构",
+            "僧道谶语「烟消火灭」与贾府结局的对应"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhen_structure_frame",
+          "title": "框架论：真事隐与假语存的叙事总纲",
+          "summary": "「甄士隐」与「贾雨村」两个名字本身就是叙事方法论：「将真事隐去，用假语村言」。士隐负责「真」的一极——神话、宿命、了悟；雨村负责「假」的一极——仕途、势利、幻梦。全书在真假两极之间展开，第一回两个人物登场即定下全书的叙事语法。",
+          "evidence": [
+            "甲戌本凡例「将真事隐去」的夫子自道",
+            "士隐（真）与雨村（假）的处处对照"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhen_structure_philosophy",
+          "title": "哲学论：他是全书「色空观」的第一个实证",
+          "summary": "甄士隐的人生是「色→空」的完整实证：繁华（乡宦）→幻灭（家破）→勘破（出家）。他先于一切人物完成这条路线，为全书提供哲学样板。第五回警幻之语、第二十二回宝玉参禅、第七十八回芙蓉诔的苍凉，都能回溯到士隐的「了悟」——他是曹雪芹哲学立场的第一个代言人。",
+          "evidence": [
+            "《好了歌注》的「万境归空」主题",
+            "士隐出家与宝玉悬崖撒手的同构"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_zhen_haoliaozhu",
+      "title": "如何理解《好了歌注》？它预言了什么？",
+      "slug": "interpretation-of-haoliaozhu",
+      "question_type": "poem_analysis",
+      "importance_weight": 85,
+      "heat_weight": 80,
+      "neutral_overview": "《好了歌注》是全书公认最重要的诗篇之一。它只是甄士隐个人感慨，还是曹雪芹的全书预言？",
+      "viewpoint_ids": [
+        "vp_haoliao_prophecy",
+        "vp_haoliao_philosophy",
+        "vp_haoliao_jiayu"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_haoliao_prophecy",
+          "title": "谶语论：十组对照预写全书人物命运",
+          "summary": "注中「笏满床→陋室空堂」预写贾家败落，「脂正浓、粉正香→两鬓成霜」预写十二钗红颜老死，「金满箱、银满箱→乞丐人皆谤」预写宝玉落魄（呼应脂批「寒冬噎酸虀，雪夜围破毡」），「正叹他人命不长→那知自己归来丧」预写凤姐等人之死。整篇注是第五回判词系统之外的又一套「命运总目录」。",
+          "evidence": [
+            "脂批对《好了歌注》的逐句批注（多处点明「为某回作引」）",
+            "注文意象与后文情节的对应关系"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_haoliao_philosophy",
+          "title": "哲学论：好与了的辩证——全书色空观的浓缩",
+          "summary": "《好了歌》的「好便是了，了便是好」不是虚无主义，而是曹雪芹的解脱论：人在「好」（欲望满足）中永无安宁，只有「了」（放下）才能彻底解脱。士隐的注用具体意象把这一哲学戏剧化——「乱烘烘你方唱罢我登场，反认他乡是故乡」点破世人颠倒。这一哲学将贯穿全书：宝玉最终的悬崖撒手，就是「了」的完成。",
+          "evidence": [
+            "「好便是了，了便是好」的原文",
+            "宝玉出家与「了」的对应"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_haoliao_jiayu",
+          "title": "自况论：曹雪芹家世之痛的隐写",
+          "summary": "曹雪芹家族本身经历了从「钟鸣鼎食」到「举家食粥」的巨变。学者指出《好了歌注》的「当年笏满床」等句，带着曹家兴衰的自况痕迹——士隐（真事隐）之注，正是作者「真事」的隐写。注中「昨怜破袄寒，今嫌紫蟒长」的循环观，既是普遍哲理，也是作者对自身家族史的刻骨总结。",
+          "evidence": [
+            "曹家家世史料与注文意象的对应",
+            "「真事隐」的自述性质"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_zhen_allegory",
+      "title": "甄士隐影射谁？索隐派的三种说法有道理吗？",
+      "slug": "who-does-zhen-shiyin-allegorize",
+      "question_type": "allegorical_reading",
+      "importance_weight": 68,
+      "heat_weight": 60,
+      "neutral_overview": "甄士隐的谐音系统（真事隐、真废）与家破情节，引得索隐派提出多种影射说：南明王朝、清初亲王、荣国府缩影。这些说法各有什么依据与问题？",
+      "viewpoint_ids": [
+        "vp_zhen_allegory_ming",
+        "vp_zhen_allegory_prince",
+        "vp_zhen_allegory_miniature"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "vp_zhen_allegory_ming",
+          "title": "南明说：甄家焚毁＝明朝覆亡",
+          "summary": "索隐派以甄士隐家的「火」为明亡之喻：葫芦庙之火三月十五起（李自成进京为甲申三月），烧甄家（灭明），英莲被拐（江山易主），士隐出家（遗民逃禅）。此说把甄家的一切情节对应南明史事，虽有细节巧合，但过度索隐之弊明显——将文学叙事逐字坐实为历史代码，缺乏文本内证。",
+          "evidence": [
+            "甄家焚于三月十五与甲申之变的日期巧合",
+            "英莲失女与「失天下」的类比"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_zhen_allegory_prince",
+          "title": "亲王说：指向某位清初宗室的隐写",
+          "summary": "有学者据「甄费」与清代某宗室子弟的别号、经历相近，提出士隐影射某失势亲王：家毁、投亲、出家的经历与清初宗室遗裔相似。但此说证据链薄弱，学界认可度低——曹雪芹「真事隐」的自述恰恰说明他不愿被坐实为某人某事。",
+          "evidence": [
+            "个别宗室档案与士隐经历的表面相似",
+            "「真事隐」自述的反坐实立场"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_zhen_allegory_miniature",
+          "title": "缩影说（主流）：士隐不是隐射某人，而是贾府的预演",
+          "summary": "主流红学不取索隐路径，而认为甄士隐的功能是「结构预演」：他的小败落是贾府大败落的缩影，他本人是宝玉出家的前身。此说以文本内证为基（脂批、结构同构、人物镜像），不假外求，是当代学界接受度最高的解释。士隐的价值不在「像谁」，而在「预示什么」。",
+          "evidence": [
+            "甄贾败落四段同构",
+            "士隐梦与宝玉梦的对应",
+            "脂批「此书从士隐开」"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_zhen_dream",
+      "title": "甄士隐为什么「识不通灵」？他的梦有什么深意？",
+      "slug": "zhen-shiyin-dream-significance",
+      "question_type": "mythology",
+      "importance_weight": 76,
+      "heat_weight": 62,
+      "neutral_overview": "甄士隐梦见一僧一道与通灵宝玉，却未及细看便被惊醒。一个「识不通灵」的梦，为何要放在全书开头？",
+      "viewpoint_ids": [
+        "vp_zhen_dream_reader",
+        "vp_zhen_dream_metaphor"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhen_dream_reader",
+          "title": "读者论：士隐的「不识」是给读者的入局提示",
+          "summary": "士隐「识不通灵」的梦是一个叙事装置：梦的内容（还泪、通灵、太虚幻境）是给读者看的「说明书」，士隐的懵懂则是替读者发问、替读者惋惜。曹雪芹用士隐的「错过」制造张力——读者知道了仙机，人物还不知道，这种信息差让全书的第一段叙事就充满宿命的酸楚。",
+          "evidence": [
+            "梦中僧道对话的「说明书」性质",
+            "士隐「意欲再问」而被打断的细节"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhen_dream_metaphor",
+          "title": "隐喻论：「识不通灵」是凡人处境的普遍写照",
+          "summary": "士隐之梦的深意在于「不识」二字：仙缘就在眼前，凡人却「识不通灵」——这既是士隐个人的命运（他终将被迫「识通灵」才能解脱），也是全书凡人群像的写照：宝玉衔玉而不识玉、贾政见子而不识子、世人见「真」而不识「真」。「通灵」是全书的通关密码，而「不识通灵」是所有人的起点。",
+          "evidence": [
+            "「识不通灵」四字的原文",
+            "通灵宝玉在全书中的「识者」演变（僧道→士隐→宝钗→宝玉）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_zhen_yinfan",
+      "title": "甄士隐——「隐」字美学的第一人",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1990,
+      "source_title": "多项红学结构研究",
+      "description": "学者提出，甄士隐确立了《红楼梦》「隐」的叙事美学：真事隐去、以假写真、以梦写实。士隐的姓名（真事隐）、住地（势利街人情巷）、命运（家破出家）全部是「编码文本」——每个细节都是寓言。这种「隐」不是逃避审查，而是曹雪芹的自觉美学：最深的痛不可直说，只能隐于谐音、隐于梦境、隐于谶语。甄士隐是这套美学的第一个载体。"
+    },
+    {
+      "id": "viewpoint_zhen_xiao_haohan",
+      "title": "甄士隐的「小悟」与全书的「大悟」体系",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学度脱结构研究",
+      "year": 1995,
+      "source_title": "度脱主题专项研究",
+      "description": "甄士隐被归入全书「度脱人物谱系」的第一环：士隐（悟于家败）→妙玉（修于畸零）→惜春（绝于家族）→宝玉（彻于情灭）→湘莲（醒于冤案）。这条谱系中士隐是原型：他证明「悟」不是天资，而是苦难的加工产物。他的《好了歌注》为整条谱系提供了哲学歌词——此后每个度脱者都在重复演唱这首注。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 6,
+    "total_poems": 2,
+    "total_questions": 4,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 28,
+      "text_inference": 16,
+      "scholarly_viewpoint": 9,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

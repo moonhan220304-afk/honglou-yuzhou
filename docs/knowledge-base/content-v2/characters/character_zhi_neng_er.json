@@ -1,0 +1,447 @@
+{
+  "character": {
+    "id": "character_zhi_neng_er",
+    "name": "智能儿",
+    "slug": "zhi-neng-er",
+    "aliases": [
+      "智能"
+    ],
+    "category": "水月庵（馒头庵）小尼姑",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "自幼在荣国府走动、水月庵（馒头庵）出家的小尼姑，父母家世不详。",
+      "position": "水月庵（馒头庵）小尼姑；净虚之徒。",
+      "origin": "自幼出家为尼，与贾府多有往来。",
+      "generation": "与宝玉同辈的僧尼阶层"
+    },
+    "tags": [
+      "秦鲸卿得趣馒头庵",
+      "水月庵",
+      "馒头庵",
+      "私奔",
+      "被逐",
+      "秦钟",
+      "净虚",
+      "佛门风月",
+      "渐知风月"
+    ],
+    "summary": {
+      "short": "水月庵（馒头庵）小尼姑，自幼常来贾府。第十五回与秦钟「得趣馒头庵」，第十六回私逃进城寻秦钟，被秦业逐出——她的私奔直接气死了秦业，也把自己逼进了绝路。",
+      "long": "智能儿是水月庵（因馒头蒸得好，又称馒头庵）的小尼姑，师父是静虚。她自幼在荣国府走动，与宝玉、秦钟等人混得极熟——第七回周瑞家的送宫花时，她与惜春玩笑「剃了头可把这花儿戴在那里」，全无出家人的拘谨。秦钟初会她时，二人「眉眼传情」，情根已种。第十五回凤姐弄权铁槛寺，夜宿水月庵，秦钟寻到智能儿房内，「秦鲸卿得趣馒头庵」——二人云雨未毕，被宝玉撞破，秦钟说「你要怎样我都依你」，宝玉笑道「等一会睡下，再细细的算账」——全书的「情」在佛门净地里演成喜剧。智能儿自诉苦处：「除非等我出了这牢坑，离了这些人，才依你。」第十六回智能儿私逃进城，「找至秦钟家下看视秦钟」，被秦业知觉，逐出家门；秦钟被父亲打了一顿，秦业气死。此后智能儿下落不明——一个私奔的小尼姑，在那个社会里只剩死路。智能儿是全书「佛门不清」主题的第一个注脚：馒头庵（「纵有千年铁门槛，终须一个土馒头」）里发生的是最不「清净」的事——她的悲剧与秦钟之死、秦业之死连成一条「情孽」链，而她的「牢坑」之叹与龄官如出一辙：佛门与戏班，都是女儿被制度占有的地方。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "痴——身在佛门，心在红尘",
+        "fact_type": "canonical_text_fact",
+        "description": "智能儿「如今大了，渐知风月」，与秦钟眉眼传情、私许终身。她的痴是对佛门的反叛：青灯古佛关不住少女的心。但她的痴没有出路——一个尼姑的爱情在礼法社会里是双重死罪。"
+      },
+      {
+        "dimension": "烈——私奔的孤勇",
+        "fact_type": "canonical_text_fact",
+        "description": "智能儿是全书丫鬟尼姑中少有的「行动派」：秦钟病重，她敢私逃进城去探——这一步踏出去，她的佛门身份、她的师父、她的名声全部不要了。她的私奔与龄官的拒唱、晴雯的撕扇同属「不肯忍」的女性谱系，只是她的反抗代价最重。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_zhi_neng_er_ch7",
+        "title": "自幼在荣国府走动（第七回送宫花场景）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_zhi_neng_er_ch15",
+        "title": "得趣馒头庵——与秦钟云雨（第十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_zhi_neng_er_ch16",
+        "title": "私奔秦家被逐——秦业气死（第十六回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch15_zhi_neng_er_dequ",
+        "quote": "（智能儿）如今大了，渐知风月，便看上了秦钟人物风流。那秦钟也极爱他妍媚，二人虽未上手，却已情投意合了。……（夜间）二人云雨未毕，只见一人进来，将他二人按住，也不则声。……却是宝玉。",
+        "fact_type": "canonical_text_fact",
+        "note": "第十五回「秦鲸卿得趣馒头庵」。佛门净地的偷情喜剧——全书对僧尼世界的第一次正面嘲讽。"
+      },
+      {
+        "source_id": "source_ch15_zhi_neng_er_laokeng",
+        "quote": "智能道：「你想怎样？除非等我出了这牢坑，离了这些人，才依你。」……智能急的跺脚道：「这算什么！再这么我就叫唤。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十五回。「牢坑」——智能儿与龄官同词同叹：佛门、戏班都是关押女儿的地方。"
+      },
+      {
+        "source_id": "source_ch16_zhi_neng_er_elopement",
+        "quote": "那智能儿私逃进城，找至秦钟家下看视秦钟，不意被秦业知觉，将智能逐出，将秦钟打了一顿。",
+        "fact_type": "canonical_text_fact",
+        "note": "第十六回。私奔探病被逐——智能儿用自己的全部孤勇，撞上了小官僚的全部体面。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「智能」——佛门法名，反讽其「不能」",
+      "detail": "「智能」是佛家「般若」的汉译之一（智能＝般若之智）——一个叫「智能」的小尼姑，却「渐知风月」、为情私奔：名与行构成最刺眼的反讽。曹雪芹的讽刺链在此闭环：水月庵（水月镜花）里住着「智能」（却无智）、馒头庵（终须一个土馒头）里演着「风月」——每个名字都在拆自己的台。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；水月庵小尼姑，与秦钟年龄相近约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "智能",
+      "type": "省称",
+      "context": "文中常省「儿」字称「智能」",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhi_neng_er_ch7",
+      "title": "自幼在荣国府走动——「剃了头可把这花儿戴在哪里」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（惜春处）",
+        "specific": "周瑞家的送宫花，惜春正与智能儿玩耍。惜春玩笑说「我明儿也剃了头同他作姑子去呢，可巧又送了花儿来……可把这花儿戴在哪里呢」——智能儿与贾府小姐们的熟稔由此可见。"
+      },
+      "summary": {
+        "short": "智能儿的日常身份是「贾府的熟人小尼姑」：她能跟惜春说笑，能在宁荣两府自由走动。这个「自由」是她的福，也是她的祸——她与秦钟的相识，就发生在这种走动的亲密里。",
+        "meaning": [
+          "惜春的玩笑「剃了头作姑子」——一语成谶，惜春后文真的出家",
+          "智能儿出入贾府的熟稔——僧尼与豪门的共生关系",
+          "花与尼姑——「可把这花儿戴在哪里」是全书画风最刺的一问"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "宫花与僧门的谶",
+          "content": "「送宫花」一节是全书的谶语集锦：惜春对着智能儿说「剃了头作姑子」，后文她果然出家（gaoe）；智能儿接了这朵「无处可戴」的花——她的一生就是这朵花：生在佛门，命属红尘，无处安放。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhi_neng_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhou_rui",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_xichun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zhi_neng_er_ch15",
+      "title": "得趣馒头庵——与秦钟云雨",
+      "event_level": "major",
+      "chapter": {
+        "number": 15,
+        "title": "王凤姐弄权铁槛寺 秦鲸卿得趣馒头庵",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "水月庵（馒头庵）",
+        "specific": "凤姐夜宿水月庵，秦钟趁夜寻智能儿，二人云雨，被宝玉撞破。智能儿叹「除非等我出了这牢坑」；秦钟对宝玉说「你要怎样我都依你」。次日凤姐秦钟等回府，净虚师徒送出山门。"
+      },
+      "summary": {
+        "short": "回目「秦鲸卿得趣馒头庵」——全书最「脏」的禅房喜剧：尼姑庵里偷情，还闹到被宝玉当场按住。曹雪芹让「得趣」二字落在「馒头庵」，把佛门的面纱扯得干干净净。",
+        "meaning": [
+          "「得趣」与「牢坑」——秦钟得的是趣，智能儿叹的是命",
+          "宝玉撞破却不声张——「你要怎样我都依你」的同盟玩笑",
+          "净虚此时正在前院与凤姐谈「弄权」——佛门的交易与风月同时进行"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "佛门的双重讽刺",
+          "content": "同一天夜里：前院，净虚拿三千两银子撺掇凤姐「弄权」；后院，智能儿与秦钟「得趣」。金钱与情欲把「水月庵」的匾额踩在脚下——曹雪芹对宗教虚伪的批判，在这一回里完成了正面合围。"
+        },
+        {
+          "type": "character",
+          "title": "智能儿的「半推半就」",
+          "content": "智能儿的矛盾写得极真：她「渐知风月」渴望爱情，又深知自己是尼姑；她骂秦钟「这算什么」，又舍不得推开他。「除非等我出了这牢坑」——她唯一的希望是「出去」，而全书没有一个女儿能真的出去。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhi_neng_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jingxu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zhi_neng_er_ch16",
+      "title": "私奔秦家被逐——秦业气死",
+      "event_level": "major",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秦业家",
+        "specific": "秦钟病重，智能儿私逃进城探视，被秦业知觉，逐出家门；秦钟挨打，秦业气病而死。智能儿被逐后下落不明——全书未再交代她的结局。"
+      },
+      "summary": {
+        "short": "智能儿的私奔是全书最勇敢、也最绝望的行动：她烧掉了自己的「尼姑身份」去探一个病人，换来的是一顿逐出与两条人命（秦业、秦钟）。她的结局被曹雪芹留白——而留白比死讯更冷。",
+        "meaning": [
+          "私奔探病——全书「痴情女子」行动的极致，也是「无路可走」的证明",
+          "被逐——她为秦钟赌上一切，秦家连门都不让她进",
+          "下落不明——一个出逃的尼姑，在礼法社会的「处理结果」不言自明"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「牢坑」内外的绝路",
+          "content": "智能儿的完整弧线是：在庵里盼「出了这牢坑」→私奔出庵→被逐出秦家→消失。她真的「出了牢坑」，才发现外面的世界比庵里更不留人。曹雪芹用一个留白告诉读者：女儿的绝路，在庵里庵外都一样。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhi_neng_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_ye",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_zhi_neng_er_qin_zhong",
+      "from": "character_zhi_neng_er",
+      "to": "character_qin_zhong",
+      "type": "恋人",
+      "nature": [
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "智能儿与秦钟之恋是全书最「越界」的恋情：尼姑与公子、佛门与情网。二人的关系从眉眼传情到庵中云雨、再到私奔探病，节奏极快——因为他们的爱没有未来，只能拼尽全力在「被抓住」之前完成。秦钟之死让这段情以双亡收场：他临终悔悟「自误了」，智能儿却连悔悟的机会都没有。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "情投意合",
+          "chapter": 15,
+          "description": "「二人虽未上手，却已情投意合」。"
+        },
+        {
+          "stage": 2,
+          "title": "得趣馒头庵",
+          "chapter": 15,
+          "description": "庵中云雨，被宝玉撞破。"
+        },
+        {
+          "stage": 3,
+          "title": "私奔被逐",
+          "chapter": 16,
+          "description": "智能儿私逃探秦钟，被秦业逐出。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhi_neng_er_jingxu",
+      "from": "character_zhi_neng_er",
+      "to": "character_jingxu",
+      "type": "师徒",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "净虚是智能儿的师父——一个把佛门做成「中介生意」的老尼姑（撺掇凤姐弄权、代张金哥退婚）。智能儿在「牢坑」里的每一日，都是净虚的「资产」：她逃走，等于净虚的资产流失。这段师徒关系写尽了「庵里庵外」的两种堕落：老的是金钱，小的是情欲。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "师父的生意",
+          "chapter": 15,
+          "description": "净虚与凤姐谈弄权生意，智能儿与秦钟庵中得趣。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhi_neng_er_jia_baoyu",
+      "from": "character_zhi_neng_er",
+      "to": "character_jia_baoyu",
+      "type": "故人（撞破者）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "智能儿自幼与宝玉相识，庵中云雨被宝玉当场撞破——宝玉以玩笑化解，替二人保密。她是宝玉「闺友」谱系里的特殊一员：一个「不该有情的」尼姑，在宝玉面前无须遮掩。宝玉的态度（不评判、只玩笑）正是他「女儿观」的延伸：连尼姑的情，他都护着。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "撞破",
+          "chapter": 15,
+          "description": "宝玉按住秦钟智能儿，玩笑了事。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_zhi_neng_er_elopement",
+      "title": "智能儿私奔是被爱情冲昏，还是清醒的绝望突围？",
+      "slug": "was-zhinengers-elopement-blind-or-conscious",
+      "question_type": "character_motivation",
+      "importance_weight": 70,
+      "heat_weight": 66,
+      "neutral_overview": "一个自幼出家的小尼姑，明知私奔是死罪，还是逃出庵门去看秦钟——这一步是痴女的昏招，还是绝境中的清醒选择？",
+      "viewpoint_ids": [
+        "vp_zhi_neng_er_blind",
+        "vp_zhi_neng_er_conscious"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhi_neng_er_blind",
+          "title": "昏招论：爱情让她失去基本判断",
+          "summary": "智能儿的私奔在现实层面毫无胜算：秦钟家有老父、门禁森严，她一个尼姑现身秦宅，被逐是必然。她「渐知风月」的痴劲压过了生存理性——文本写她「私逃」「找至秦钟家下」，行动链全凭一时热血。她的下场（被逐、失踪）是冲动少女的悲剧样本。",
+          "evidence": [
+            "第十五回「渐知风月，便看上了秦钟」——情感驱动的一贯性",
+            "私奔的时机选择（秦钟病重、秦业在堂）毫无策略可言"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_zhi_neng_er_conscious",
+          "title": "突围论：「牢坑」之内本无路，逃是唯一清醒",
+          "summary": "智能儿对自己的处境看得极清——「除非等我出了这牢坑，离了这些人」：她早知佛门是牢坑、师父是监管、庵里的日子没有尽头。私奔是她计算过的唯一变数：秦钟病重，若不去，她将「在牢坑里等消息等一辈子」。她的逃不是昏招，是一个被制度占有的女性对命运的一次正面冲锋——失败是必然，冲锋是尊严。",
+          "evidence": [
+            "「除非等我出了这牢坑」——出逃意识在先，私奔在后",
+            "她与龄官（「牢坑」同词）同属清醒认知自身处境的女儿"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_zhi_neng_er_ending",
+      "title": "智能儿的结局：曹雪芹为什么让她「下落不明」？",
+      "slug": "why-is-zhinengers-ending-left-blank",
+      "question_type": "theme_analysis",
+      "importance_weight": 66,
+      "heat_weight": 62,
+      "neutral_overview": "第十六回之后，智能儿从书中消失——没有死讯，没有下文。这个「留白」是疏忽，还是笔法？",
+      "viewpoint_ids": [
+        "vp_zhi_neng_er_blank"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhi_neng_er_blank",
+          "title": "留白论：她的消失即是判决",
+          "summary": "曹雪芹对小人物的处理常有「突然消失」之笔（如茜雪被逐后再无正面出场）：智能儿的失踪不是疏忽——一个被逐出庵门又无家可归的私奔尼姑，社会给她准备的结局无非三种（被捉回、沦为流妓、自尽），无论写哪种都太实、太惨，不如留白。且她的故事功能已完成：她与秦钟、秦业构成「情孽三连环」，秦氏一门死绝，她的存在已无叙事必要——「消失」本身就是最轻的、也是最重的判决。",
+          "evidence": [
+            "第十六回后全书再无智能儿任何消息",
+            "同为小人物，茜雪等也以「突然消失」方式处理"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch15_zhi_neng_er_tea",
+      "quote": "（宝玉要茶）智能儿抿嘴笑道：「一碗茶也争，我难道手里有蜜！」",
+      "fact_type": "canonical_text_fact",
+      "note": "第十五回。智能儿的娇俏与大胆——全书尼姑形象中最「活」的一句台词。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_zhi_neng_er_buddhism",
+      "title": "智能儿与「佛门不清」主题",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学宗教研究",
+      "year": 1993,
+      "source_title": "多项宗教主题研究",
+      "description": "学者指出，《红楼梦》的宗教世界分两层：上层是太虚幻境式的「真」宗教（一僧一道、警幻仙姑），下层是水月庵、清虚观式的「假」宗教（净虚、马道婆、智能儿）。智能儿的「得趣」与净虚的「弄权」同回并写，构成「佛门虚伪」的双重证据：老尼姑卖人情换银子，小尼姑献身体换爱情——佛门的「空」在她们身上彻底被「色」与「钱」填满。而曹雪芹对智能儿的态度又比对净虚温柔得多：她的情是真的，只是无处安放——「牢坑」二字，是作者借她之口对女儿命运的又一声叹息。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 20,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

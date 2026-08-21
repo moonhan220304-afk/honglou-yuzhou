@@ -1,0 +1,253 @@
+{
+  "character": {
+    "id": "character_jia_qiaojie",
+    "name": "贾巧姐",
+    "aliases": [
+      "大姐儿",
+      "巧哥儿"
+    ],
+    "category": "金陵十二钗正册",
+    "identity": {
+      "family": "贾琏与王熙凤之女。荣国府长房之长孙女（贾赦之孙）。",
+      "position": "贾府小姐（年龄最小者），叙事中几乎不独立出现。七月初七生（乞巧日）。",
+      "origin": "金陵人氏，荣国府出身。",
+      "generation": "贾府第五代"
+    },
+    "tags": [
+      "薄命",
+      "被救",
+      "因果报应",
+      "乞巧",
+      "小人儿",
+      "巧得遇恩人"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一。贾琏与王熙凤之女，金陵十二钗中最年幼者。判词「偶因济刘氏，巧得遇恩人」——凤姐偶然施恩刘姥姥，日后刘姥姥救巧姐于危难。",
+      "long": "贾巧姐为贾琏与王熙凤之独女，生于七月初七（乞巧日），故刘姥姥为她取名「巧哥儿」——「日后大了，各人成家立业，或一时有不遂心的事，必然是遇难成祥，逢凶化吉，都从这『巧』字上来」。她是十二钗中最年幼者，前八十回中几乎不独立参与叙事——唯一有关联的事件是刘姥姥为她取名（第四十二回）。她的存在似乎纯粹是为了完成一个因果报应的叙事闭环：母亲凤姐一生作恶无数，唯独对刘姥姥有偶然的善意施恩；当日这份卑微的恩情在贾府败落后转化为女儿巧姐唯一的活路——「势败休云贵，家亡莫论亲。偶因济刘氏，巧得遇恩人」。后四十回（gaoe）写贾府败落后，巧姐被狠舅王仁（凤姐之兄）与奸兄贾环（一说贾芸）卖至烟花巷，刘姥姥千里赶来，以土地和银两将巧姐赎出。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "最小的牺牲品——无辜的承受者",
+        "description": "巧姐是全十二钗中唯一没有成年的人物——她的悲剧不是自己造成的，她唯一的「罪」就是生在贾府末世。她的存在是凤姐一生恶行的「债务镜像」——凤姐害死了多少别人的孩子，自己的女儿最终也差点被人害死。",
+        "evidence_events": [
+          "event_qiaojie_sold_ch118"
+        ]
+      },
+      {
+        "dimension": "因果报应的叙事工具",
+        "description": "巧姐的最重要功能不是作为一个独立的人物，而是作为全书「因果报应」主题的最集中体现。凤姐对刘姥姥的施恩与刘姥姥对巧姐的救赎形成了一个完美的因果闭环——这是曹雪芹在毁灭一切之后留给人间的最后一根稻草。",
+        "evidence_events": [
+          "event_qiaojie_name_ch42",
+          "event_qiaojie_rescued_ch119"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_qiaojie_name_ch42",
+        "title": "刘姥姥取名「巧姐」（第四十二回）"
+      },
+      {
+        "order": 2,
+        "event_id": "event_qiaojie_sold_ch118",
+        "title": "狠舅奸兄卖巧姐（第一百十八回，gaoe）"
+      },
+      {
+        "order": 3,
+        "event_id": "event_qiaojie_rescued_ch119",
+        "title": "刘姥姥救巧姐（第一百十九回，gaoe）"
+      }
+    ],
+    "related_characters": [],
+    "sources": [
+      {
+        "source_id": "source_ch05_qiaojie_judgment",
+        "quote": "势败休云贵，家亡莫论亲。偶因济刘氏，巧得遇恩人。",
+        "note": "第五回巧姐判词。点明巧姐被救的因果链条——凤姐偶然施恩刘氏（刘姥姥），最终女儿「巧」遇恩人获救。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-10T00:00:00Z",
+      "embedding_status": "pending"
+    }
+  },
+  "events": [
+    {
+      "id": "event_qiaojie_name_ch42",
+      "title": "刘姥姥为巧姐取名",
+      "event_level": "minor",
+      "chapter": {
+        "number": 42,
+        "title": "蘅芜君兰言解疑癖 潇湘子雅谑补余香",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "凤姐院中",
+        "specific": "刘姥姥临走时，凤姐请她为女儿取名。因女儿生于七月初七（乞巧日），刘姥姥以「以毒攻毒，以火攻火」之说，赐名「巧哥儿」。"
+      },
+      "summary": {
+        "short": "刘姥姥二进大观园后临去向凤姐辞行，凤姐请她为女儿取名。刘姥姥得知孩子生于七月初七（乞巧日），便说「就叫她巧哥儿。这叫作『以毒攻毒，以火攻火』的法子。……日后大了，各人成家立业，或一时有不遂心的事，必然是遇难成祥，逢凶化吉，都从这『巧』字上来。」",
+        "meaning": [
+          "巧姐的名字是全书最重要的伏笔之一——「巧」字将在日后救她性命",
+          "刘姥姥以「以毒攻毒」为巧姐命名，暗示她的一生将充满凶险但总能化吉",
+          "凤姐在此刻的无心施恩与日后的报恩形成全书最完整的因果闭环"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "请刘姥姥为女儿取名"
+        },
+        {
+          "character_id": "character_liu_laolao",
+          "role": "赐名者"
+        },
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "被命名者（不在叙事现场中独立出现）"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch42_name",
+          "quote": "凤姐儿道：「……你就给她起个名字。……她还没个名字，你就给她起个名字，借借你的寿。……你们是庄家人，不怕你恼，到底贫苦些，你贫苦人起个名字，只怕压的住她。」",
+          "note": "第四十二回凤姐请刘姥姥为女儿取名。凤姐在此处表现出罕见的「不自信」——要让「贫苦人」的名字来压住富贵女儿的命。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "命名仪式——从「大姐儿」到「巧姐」的转变",
+          "content": "巧姐在被刘姥姥取名之前一直被称为「大姐儿」——这是一个没有名字的存在。刘姥姥的命名使她第一次获得了属于自己的姓名和命运预言。这一命名仪式构成了全书最核心的「施恩-报恩」叙事结构：刘姥姥取了名字，日后便以「赎」的方式将这个名字还给了它的主人。"
+        }
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_qiaojie_sold_ch118",
+      "title": "狠舅奸兄卖巧姐",
+      "event_level": "major",
+      "chapter": {
+        "number": 118,
+        "title": "记微嫌舅兄欺弱女 惊谜语妻妾谏痴人",
+        "attribution": "gaoe"
+      },
+      "location": {
+        "name": "贾府外",
+        "specific": "贾府败落后，凤姐入狱，巧姐被其舅王仁（凤姐之兄）与族兄贾环或贾芸合谋卖至烟花巷。"
+      },
+      "summary": {
+        "short": "贾府被抄后，凤姐被收监，贾琏在外未归。巧姐的舅舅王仁（凤姐之兄）伙同贾家族人，趁乱将巧姐以「给藩王做偏房」之名骗出贾府，实卖至烟花巷。判词「势败休云贵，家亡莫论亲」在此冷酷兑现——亲人比外人更可怕。",
+        "meaning": [
+          "「势败休云贵，家亡莫论亲」——巧姐被亲人出卖是对封建家族制度最尖锐的揭露",
+          "凤姐一生害人无数，最终报应落在了女儿被亲人拐卖上",
+          "狠舅奸兄——「狠」与「奸」二字道尽了末世家族的道德败坏"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "被卖者"
+        },
+        {
+          "character_id": "character_wang_ren",
+          "role": "狠舅——凤姐之兄，主谋之一"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch118_sold",
+          "quote": "那王仁……同着贾芸，把巧姐儿哄出荣国府，卖到那藩王处了。",
+          "note": "[后四十回] 第一百十八回巧姐被舅舅和族兄合谋卖出。判词「家亡莫论亲」在此应验。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「狠舅奸兄」的多种可能",
+          "content": "后四十回写「狠舅」为王仁（凤姐之兄），「奸兄」一说为贾芸、一说为贾环。脂批在第二十四回等处曾暗示贾芸「此人后来大有作为」，故部分探佚学者认为「奸兄」应为贾环而非贾芸。这一争议因前八十回未完而成为定论之外的红学悬案。"
+        }
+      ],
+      "related_events": [
+        "event_qiaojie_rescued_ch119"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_qiaojie_rescued_ch119",
+      "title": "刘姥姥救巧姐",
+      "event_level": "major",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "location": {
+        "name": "烟花巷 / 刘姥姥家",
+        "specific": "刘姥姥闻讯后，千里奔波寻到巧姐，变卖田产将其从烟花巷赎出，带回家中抚养。后巧姐嫁与刘姥姥村子里的周姓富家。判词「偶因济刘氏，巧得遇恩人」在此完成。"
+      },
+      "summary": {
+        "short": "刘姥姥听说巧姐被卖，千里奔波找到烟花巷，变卖田产将巧姐赎出。带回家中后，将巧姐许配给村里的周姓富家（一说为板儿）。「偶因济刘氏，巧得遇恩人」——凤姐当日施给刘姥姥的银两衣物，刘姥姥以全部家产相报，完成了全书最震撼的因果闭环。",
+        "meaning": [
+          "刘姥姥救巧姐是全书中唯一一道穿透黑暗的光——善有善报的因果律在此被最终确认",
+          "「以德报德」——封建社会中最卑微的村妇完成了一种比所有贵族都要高的道德行为",
+          "凤姐一生不信「阴司地狱报应」，但她唯一的善行却在最黑暗的时刻救了女儿的命"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_liu_laolao",
+          "role": "救赎者——变卖田产赎巧姐"
+        },
+        {
+          "character_id": "character_jia_qiaojie",
+          "role": "被救者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch119_rescued",
+          "quote": "刘姥姥……便带了巧姐儿，到自己庄上，……将巧姐儿许给庄上姓周的人家。",
+          "note": "[后四十回] 第一百十九回刘姥姥救出巧姐并为她安排婚事。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "报恩——全书最后的善之微光",
+          "content": "在「落了片白茫茫大地真干净」的全书终局中，刘姥姥救巧姐成为了曹雪芹留给世界的最后一点暖意。一个被贾府上下取笑为「母蝗虫」的乡下穷婆子最终完成了连贵族亲属都做不到的道德壮举。曹雪芹以这个结局暗示：真正的人性不在于阶级、财富、教养，而在于在最黑暗时刻是否仍然记得——曾经受过谁的恩。"
+        }
+      ],
+      "related_events": [
+        "event_qiaojie_sold_ch118",
+        "event_qiaojie_name_ch42"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    }
+  ],
+  "relationships": [],
+  "sources": [],
+  "viewpoints": []
+}

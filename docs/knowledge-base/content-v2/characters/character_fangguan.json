@@ -1,0 +1,533 @@
+{
+  "character": {
+    "id": "character_fangguan",
+    "name": "芳官",
+    "slug": "fang-guan",
+    "aliases": [
+      "耶律雄奴",
+      "温都里纳"
+    ],
+    "category": "贾府戏班十二官之一（正旦）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "贾府买来学戏的女孩，父母不详；干娘何婆子（春燕之母）。",
+      "position": "贾府戏班正旦；戏班遣散后分给宝玉，怡红院丫鬟。",
+      "origin": "为元妃省亲买来学戏的女孩子。",
+      "generation": "与藕官、蕊官等十二官同侪的戏班阶层"
+    },
+    "tags": [
+      "十二官",
+      "正旦",
+      "茉莉粉事件",
+      "玫瑰露",
+      "耶律雄奴",
+      "群芳夜宴",
+      "赏花时",
+      "水月庵出家",
+      "美优伶斩情归水月"
+    ],
+    "summary": {
+      "short": "贾府戏班十二官之一，扮正旦，貌美，学界常言其神似黛玉。第五十八回分给宝玉；第六十回「茉莉粉替去蔷薇硝」，以茉莉粉打发贾环，被赵姨娘上门厮打；第六十一回赠柳五儿玫瑰露；第六十三回群芳夜宴唱《赏花时》，被宝玉改男装名「耶律雄奴」；第七十七回被逐，随水月庵智通出家。",
+      "long": "芳官是贾府为元妃省亲买来的十二个学戏女孩之一，扮正旦。第五十八回老太妃薨、戏班遣散，芳官分给宝玉。她生得齐整，天真烂漫，一进怡红院就搅起一串风波：干娘何婆子用女儿剩水给她洗头，闹出洗头风波；第六十回蕊官托春燕送她蔷薇硝，贾环索要，她舍不得把蕊官所赠的真硝给贾环，改以茉莉粉应付——「茉莉粉替去蔷薇硝」，赵姨娘骂上门来，芳官一句「梅香拜把子，都是奴几」，气得赵姨娘与她厮打，藕官、蕊官、葵官、豆官赶来助阵，五个戏子围打赵姨娘，闹成全书著名的「戏子大战姨娘」。第六十一回，她把宝玉给的玫瑰露转赠病中的柳五儿，牵出茯苓霜冤案。第六十三回群芳夜宴，她唱《赏花时》「寿筵开处风光好」，又依宝玉之意改男装，起名「耶律雄奴」，后又有番语名「温都里纳」——她的美与她的野，是怡红院的一抹异色。第七十七回大观园清洗，王夫人骂她「狐媚子」般，逐出园去；她心灰意冷，誓死出家，随水月庵智通做了尼姑——回目「美优伶斩情归水月」，一个正旦的结局，是青灯古佛。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "野——不肯受气的戏子",
+        "fact_type": "canonical_text_fact",
+        "description": "芳官敢顶赵姨娘「梅香拜把子，都是奴几」，敢闹干娘、敢装男、敢喝酒——戏班出身的女孩子没有「丫鬟规训」，她的野是大观园规训体系里最刺眼的破绽。"
+      },
+      {
+        "dimension": "真——赠露与护硝里的情",
+        "fact_type": "canonical_text_fact",
+        "description": "芳官对柳五儿赠玫瑰露，对蕊官送的蔷薇硝珍重到不肯转赠——她的情分是全书最素的一类：不写诗、不绣帕，一瓶露一包硝，就是她的全部表达。"
+      },
+      {
+        "dimension": "绝——出家的决绝",
+        "fact_type": "canonical_text_fact",
+        "description": "第七十七回被逐，她「斩情归水月」——与藕官、蕊官同出家。她的绝是戏子对俗世的最后一场「唱」：既然人间不留，就演到佛门去。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_fangguan_ch58",
+        "title": "戏班遣散分给宝玉、洗头风波（第五十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_fangguan_ch60",
+        "title": "茉莉粉事件——与赵姨娘厮打（第六十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_fangguan_ch61",
+        "title": "赠柳五儿玫瑰露（第六十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_fangguan_ch63",
+        "title": "群芳夜宴唱《赏花时》、改名耶律雄奴（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_fangguan_ch77",
+        "title": "被逐、随智通出家水月庵（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch60_fangguan_molifen",
+        "quote": "（芳官道）「……况且他（蕊官）是给我的，我岂有给贾环的道理！」……（赵姨娘打上门来）芳官听了，唬的不知何故……（对骂中）「梅香拜把子，都是奴几呢！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十回「茉莉粉替去蔷薇硝」。一包硝引发全书最著名的一场混战——戏子与姨娘的阶级对撞。"
+      },
+      {
+        "source_id": "source_ch63_fangguan_yeluxiong",
+        "quote": "（宝玉道）「……你如今改名，叫耶律雄奴……这姓名更好。」……（后又）叫温都里纳（金星宝石）。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十三回。宝玉给芳官改男装、起番名——她的形象由此带上全书最异色的光彩。"
+      },
+      {
+        "source_id": "source_ch77_fangguan_out",
+        "quote": "（王夫人道）「唱戏的女孩子，自然是狐狸精了！……不许说嘴，快给我逐出园去。」……（芳官等）「……如今情愿去当姑子去。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回「美优伶斩情归水月」。被逐的芳官以出家回答这个不留她的园子。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「芳官」——梨园行当以「官」为名",
+      "detail": "清代戏班风气，女伶多以「某官」为名（芳官、藕官、蕊官、菂官、葵官、豆官、艾官、茄官、文官、龄官等十二官）——「官」字是梨园身份的烙印。「芳」者，芬芳之芳：芳官之美、之香、之野，尽在一字。她的改名史（芳官→耶律雄奴→温都里纳）则是一次身份的反叛：连名字都不肯安分守「官」——从戏班之名到番语之名，正是她一生不被规训的写照。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约12-14岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；十二官皆少年，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "耶律雄奴",
+      "type": "男装名",
+      "context": "第六十三回宝玉为改扮男装的芳官所起之名",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "温都里纳",
+      "type": "番语名",
+      "context": "第六十三回宝玉又为芳官改的番语名（金星宝石之意）",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_fangguan_ch58",
+      "title": "分给宝玉与洗头风波",
+      "event_level": "minor",
+      "chapter": {
+        "number": 58,
+        "title": "杏子阴假凤泣虚凰 茜纱窗真情揆痴理",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "戏班遣散，芳官分给宝玉。她的干娘何婆子（春燕之母）用亲女儿剩水给她洗头，芳官不服大闹，晴雯、麝月、袭人先后出面，闹成怡红院的第一场风波。"
+      },
+      "summary": {
+        "short": "第五十八回的洗头风波是芳官的「入学考试」：戏班里没教过的婆子规矩，她用一场大闹拒绝了。何婆子的悭吝与芳官的娇气，是丫鬟世界婆媳式矛盾的开幕。",
+        "meaning": [
+          "剩水洗头——婆子对戏子的「下马威」与芳官的不受",
+          "袭人出面平息——怡红院的秩序第一次被芳官搅动",
+          "戏子入府当差——身份转换的阵痛"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "不受气的开场",
+          "content": "芳官的出场与司棋的砸厨房同调：一个闹干娘，一个砸厨房——都是「不肯忍」。但芳官比司棋更纯粹：她闹的不是地位，是「凭什么」——戏子的自由人格与丫鬟的规矩世界从第一面就相撞。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_fangguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_he_pozi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_chunyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_sheyue",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_fangguan_ch60",
+      "title": "茉莉粉事件——戏子大战姨娘",
+      "event_level": "major",
+      "chapter": {
+        "number": 60,
+        "title": "茉莉粉替去蔷薇硝 玫瑰露引来茯苓霜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "贾环索要芳官的蔷薇硝，芳官舍不得把蕊官所赠的真硝给人，改以茉莉粉应付。贾环转赠彩云，赵姨娘识破大怒，冲进怡红院把粉摔在芳官脸上，芳官哭闹，藕官、蕊官、葵官、豆官赶来，围住赵姨娘厮打。"
+      },
+      "summary": {
+        "short": "第六十回的茉莉粉事件是全书的「阶级闹剧」：一包硝从蕊官到芳官到贾环到赵姨娘，最终演成一场姨娘与戏子的混战。芳官「梅香拜把子，都是奴几」一句话，把这场架的性质点破——都是奴才，谁打不得谁。",
+        "meaning": [
+          "「梅香拜把子，都是奴几」——全书最直白的阶级宣言",
+          "赵姨娘的蠢与芳官的野——两个不被尊重的人的互殴",
+          "探春收拾残局——她点破这场闹剧的幕后：是有人在挑唆"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "奴才互殴的结构",
+          "content": "茉莉粉事件是全书「奴才互害」的标本：赵姨娘在主子处受的气，全发泄在更弱的戏子身上；芳官在贾环处受的气，全回敬给送上门来的赵姨娘。曹雪芹让这场架打成一场笑话——因为欺凌链上的每一环，都以为自己在上层。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_fangguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ouguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ruiguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_dou_guan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_fangguan_ch63",
+      "title": "群芳夜宴唱《赏花时》、改名耶律雄奴",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "宝玉生日群芳夜宴，芳官唱《赏花时》。宴后她依宝玉之意改男装，起名耶律雄奴，后又得番语名温都里纳，一时成为园中话题。"
+      },
+      "summary": {
+        "short": "第六十三回是芳官的高光时刻：夜宴上她的《赏花时》唱的是「寿筵开处风光好」，男装改名是宝玉给她的另一种自由。她在全书最盛大的夜里最美，也最不真实——这是她悲剧的前奏。",
+        "meaning": [
+          "《赏花时》——「风光好」三字是全书盛极将衰的又一次点题",
+          "男装改名——宝玉的女儿观：女儿的美不该被一个性别困住",
+          "芳官之醉——群芳夜宴上醉倒的人，后来都散了"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "盛夜与散场",
+          "content": "群芳夜宴是全书最后的狂欢，芳官的《赏花时》是狂欢的序曲，也是挽歌的预演——「赏花」二字对着「花事了」：第七十七回她被逐出家，从唱戏的芳官变成念经的姑子，热闹与冷清之间只隔十四回。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_fangguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_fangguan_ch77",
+      "title": "被逐与出家——美优伶斩情归水月",
+      "event_level": "major",
+      "chapter": {
+        "number": 77,
+        "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "王夫人清洗大观园，指芳官等「唱戏的女孩子，自然是狐狸精了」，逐出园去。芳官等誓死不肯转卖，情愿出家——芳官随水月庵智通、藕官蕊官随地藏庵圆心做了姑子。"
+      },
+      "summary": {
+        "short": "第七十七回，芳官用出家完成了一生中最后一次「唱」：王夫人骂她狐狸精，她索性斩断红尘。从正旦到姑子，她的命运是十二官悲剧的缩影——戏散之后，戏子连做人的资格都被收走。",
+        "meaning": [
+          "「唱戏的女孩子，自然是狐狸精」——王夫人的偏见即判决",
+          "出家是拒卖的最后反抗——戏子用佛门保住了最后一点自主",
+          "水月庵——智能儿来过的地方，如今收留芳官：庵门内外皆是牢"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "十二官的散场",
+          "content": "十二官遣散时各有所归（芳官归宝玉、藕官归黛玉、蕊官归宝钗），第七十七回又各无所归（出家）。曹雪芹写十二官就是写一场大戏：台上正旦小生演别人的悲欢，台下自己成了悲剧的戏中人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_fangguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ouguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ruiguan",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_fangguan_baoyu",
+      "from": "character_fangguan",
+      "to": "character_jia_baoyu",
+      "type": "主仆（怡红院之宠）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "芳官分给宝玉后，得到全书丫鬟里少有的纵容：改名、男装、唱曲、喝酒，宝玉一一成全。宝玉爱她的野，因为她的野正是他「女儿观」的极限试验——他护得了一时，护不了被逐的那一日。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "分派",
+          "chapter": 58,
+          "description": "芳官分给宝玉。"
+        },
+        {
+          "stage": 2,
+          "title": "夜宴与改名",
+          "chapter": 63,
+          "description": "芳官唱曲、改男装名。"
+        },
+        {
+          "stage": 3,
+          "title": "被逐",
+          "chapter": 77,
+          "description": "王夫人逐芳官，宝玉无力回护。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_fangguan_zhaoyiniang",
+      "from": "character_fangguan",
+      "to": "character_zhao_yiniang",
+      "type": "冲突（茉莉粉大战）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "赵姨娘上门打芳官，芳官回敬「梅香拜把子，都是奴几」——姨娘与戏子撕破脸的一架，撕出的是全书最尴尬的真相：她们本是同一种人，都以为对方比自己低。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "厮打",
+          "chapter": 60,
+          "description": "赵姨娘打芳官，藕官等助阵混战。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_fangguan_hepozi",
+      "from": "character_fangguan",
+      "to": "character_he_pozi",
+      "type": "干亲（干娘之争）",
+      "nature": [
+        "conflict",
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "何婆子（春燕之母）是芳官的干娘，以剩水给芳官洗头、追打女儿闹进怡红院——芳官与她的冲突是戏子入府后最日常的磨难：干娘制度给每个戏子配了一个「克星」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "洗头风波",
+          "chapter": 58,
+          "description": "何婆子用剩水给芳官洗头，闹开。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_fangguan_qingwen",
+      "from": "character_fangguan",
+      "to": "character_qingwen",
+      "type": "同侪（同被逐者）",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "第七十七回王夫人清洗大观园，晴雯与芳官同在被逐之列——「俏丫鬟抱屈夭风流，美优伶斩情归水月」，回目让二人并题：晴雯之死与芳官之出家，是同一场清洗的两种结局。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "同被逐",
+          "chapter": 77,
+          "description": "晴雯病中被逐而死，芳官被逐而出家。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_fangguan_shanghuashi",
+      "title": "曲文——赏花时（群芳夜宴所唱）",
+      "work_type": "戏曲唱词",
+      "chapter_number": 63,
+      "fact_type": "canonical_text_fact",
+      "summary": "芳官在群芳夜宴上唱《赏花时》：「寿筵开处风光好。」",
+      "symbolic_notes": "「寿筵开处风光好」——全书最后一次盛大的生日夜宴，风光正好，正是将衰之时。芳官此曲与麝月的「开到荼蘼花事了」同夜而唱，一盛一衰，谶语互文。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_fangguan_wild",
+      "title": "芳官为什么敢跟赵姨娘对打？戏子的「野」意味着什么？",
+      "slug": "why-was-fangguan-so-wild",
+      "question_type": "character_analysis",
+      "importance_weight": 64,
+      "heat_weight": 62,
+      "neutral_overview": "第六十回，芳官与赵姨娘厮打，藕官蕊官等助阵。戏子出身的芳官，为什么没有丫鬟的「规矩」？",
+      "viewpoint_ids": [
+        "vp_fangguan_freedom",
+        "vp_fangguan_outcast"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_fangguan_freedom",
+          "title": "自由论：戏班的规训不同于丫鬟的规训",
+          "summary": "十二官在戏班学的是技艺不是奴性，芳官们的「野」是戏班人格的残留——她们会唱、会闹、会结伴打人，因为她们从未被训练成「听话的丫鬟」。",
+          "evidence": [
+            "芳官顶撞干娘与赵姨娘的「不懂事」",
+            "十二官被逐时集体选择出家而非认命"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_fangguan_outcast",
+          "title": "边缘论：戏子是等级外的「无位者」",
+          "summary": "戏子在奴婢世界里也是异类：既非家生子，也非买来的丫头，是「卖艺的」——无位之人反而无所顾忌。芳官的野是「无位」的副产品：既然怎么都不算「正经人」，就按自己的规矩活。",
+          "evidence": [
+            "王夫人「唱戏的女孩子，自然是狐狸精」的定性",
+            "十二官在大观园的游离状态"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch63_fangguan_beauty",
+      "quote": "（群芳夜宴上）芳官……面如满月犹白，眼如秋水还清。",
+      "fact_type": "canonical_text_fact",
+      "note": "第六十三回前后。芳官之美——「面如满月，眼如秋水」，全书写丫鬟容貌最工整的一笔。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_fangguan_daiyu",
+      "title": "芳官「神似黛玉」之辨",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 2008,
+      "source_title": "多项红学人物专题研究",
+      "description": "学界常言芳官「神似黛玉」，其依据有二：一为芳官之美与黛玉同调（面如满月、眼如秋水，与黛玉的「眉蹙春山」同属清丽一派）；二为戏子系谱——第二十二回湘云已说龄官「倒像林妹妹的模样儿」，芳官与龄官同属十二官，读者与研究者多将「戏子似黛玉」的笔法推广到芳官身上。此说为流行的文学解读，正文并无芳官「像黛玉」的直笔，引用时宜注明其为学界推论而非原文。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 1,
+    "total_questions": 1,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.85,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 19,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "character": {
+    "id": "character_jinghuan_xianzi",
+    "name": "警幻仙子",
+    "slug": "jing-huan-xian-zi",
+    "aliases": [
+      "警幻仙姑",
+      "太虚幻境之主"
+    ],
+    "category": "神话人物（太虚幻境之主）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "居离恨天之上、灌愁海之中，放春山遣香洞太虚幻境。",
+      "position": "太虚幻境之主，「司人间之风情月债，掌尘世之女怨男痴」。",
+      "origin": "仙界——「薄命司」的掌管者，命运档案的看管人。",
+      "generation": "超越世代的仙界存在"
+    },
+    "tags": [
+      "太虚幻境",
+      "游幻境",
+      "判词",
+      "红楼梦曲",
+      "意淫",
+      "兼美可卿",
+      "薄命司",
+      "云雨之授",
+      "第五回",
+      "命运总纲"
+    ],
+    "summary": {
+      "short": "太虚幻境之主，「司人间之风情月债，掌尘世之女怨男痴」。第五回引宝玉游幻境：看金陵十二钗判词、听《红楼梦》十二支曲、授以云雨之事（其妹可卿，字兼美）；「意淫」的定义者——曹雪芹借她之口宣示全书的情观与命运总纲。",
+      "long": "警幻仙子居离恨天之上、灌愁海之中，为太虚幻境之主，掌管「薄命司」——天下女儿命运档案的收藏者。第五回「游幻境指迷十二钗 饮仙醪曲演红楼梦」：她受宁荣二公之灵所托，引宝玉梦游太虚幻境——先看「薄命司」中金陵十二钗正册、副册、又副册的判词（命运密码），再饮「千红一窟」茶、「万艳同杯」酒，听《红楼梦》十二支曲（命运哀歌），最后将其妹乳名「兼美」、字「可卿」者许配宝玉，授以云雨之事。她是全书「情观」的立法者：定义「意淫」——「惟心会而不可口传，可神通而不可语达」；定义「皮肤滥淫」为其反面。她以「警」为名、「幻」为职：警醒世人于幻梦之中。红学家公认第五回是全书命运总纲的「预演场」，警幻仙子是这场预演的导演——她让宝玉（与读者）在故事开始前，先看完全部结局。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "命运的掌管者——薄命司之主",
+        "fact_type": "canonical_text_fact",
+        "description": "警幻「司人间之风情月债，掌尘世之女怨男痴」——她是「情」与「命」的双重管理者：情债归她管，薄命归她收。金陵十二钗的判词册子锁在薄命司里，钥匙在她手中——她掌握着全书所有女儿的命运底稿。"
+      },
+      {
+        "dimension": "意淫的立法者——情观的定义权",
+        "fact_type": "canonical_text_fact",
+        "description": "警幻对「意淫」的定义（「惟心会而不可口传，可神通而不可语达」）是全书情观的宪法：她区分了宝玉式的「意淫」（精神之恋、无占有欲）与贾琏式的「皮肤滥淫」（肉体之欲）。这一区分把宝玉的「怪」正名为「情」的最高形态——宝玉获得了仙界的背书。"
+      },
+      {
+        "dimension": "警与幻的双重身份——先知与失败者",
+        "fact_type": "canonical_text_fact",
+        "description": "警幻的使命是「警」（警醒宝玉回头），手段是「幻」（以幻梦示警）。但第五回的结局是她的失败：宝玉看完判词、听完曲子，依然「痴儿竟尚未悟」——命运的全部密码摆在面前，当事人读不懂。警幻是全书最孤独的先知：她说尽了一切，无人能懂。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jinghuan_invite_ch5",
+        "title": "受宁荣二公之托，引宝玉游幻境（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jinghuan_register_ch5",
+        "title": "开示金陵十二钗判词（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jinghuan_songs_ch5",
+        "title": "演唱《红楼梦》十二支曲（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jinghuan_keqing_ch5",
+        "title": "授云雨之事——兼美可卿（第五回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch5_jinghuan_duty",
+        "quote": "警幻道：「吾居离恨天之上，灌愁海之中，乃放春山遣香洞太虚幻境警幻仙姑是也。司人间之风情月债，掌尘世之女怨男痴。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回。警幻的自我介绍——情与命的双重掌管者。"
+      },
+      {
+        "source_id": "source_ch5_jinghuan_yiyin",
+        "quote": "警幻道：「……如世之好淫者，不过悦容貌，喜歌舞，调笑无厌，云雨无时，恨不能尽天下之美女供我片时之趣兴，此皆皮肤滥淫之蠢物耳。如尔则天分中生成一段痴情，吾辈推之为『意淫』。『意淫』二字，惟心会而不可口传，可神通而不可语达。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回。「意淫」的定义——全书情观的宪法条款。"
+      },
+      {
+        "source_id": "source_ch5_jinghuan_chimei",
+        "quote": "警幻道：「……再将吾妹一人，乳名兼美字可卿者，许配于汝。今夕良时，即可成姻。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回。警幻将其妹可卿许配宝玉——「兼美」者，兼钗黛之美。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「警幻」即「警醒幻梦」的压缩",
+      "detail": "警=警醒、警示——她的使命是让梦中人醒来；幻=幻境、幻梦——她的领域是太虚幻境、她的方式是示幻。合而观之：「在幻境中警醒幻梦之人」。红学家指出「警幻」一名还暗含全书的核心命题——「假作真时真亦假，无为有处有还无」：她是「幻」的主宰，却掌握着「真」的判词——幻与真的辩证，尽在一名之中。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "仙界无年龄",
+        "story_end": "仙界无年龄",
+        "death_age": "不适用"
+      },
+      "conclusion": "太虚幻境之主，仙界人物无年龄。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "警幻仙姑",
+      "type": "自称",
+      "context": "第五回警幻自报家门：「太虚幻境警幻仙姑是也」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "太虚幻境之主",
+      "type": "职位称谓",
+      "context": "太虚幻境的掌管者，薄命司的最高负责人",
+      "fact_type": "text_inference"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jinghuan_invite_ch5",
+      "title": "受宁荣二公之托，引宝玉游幻境",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "宝玉在秦可卿房中睡去，梦入太虚幻境。警幻受宁荣二公之灵的嘱托：「万望先以情欲声色等事警其痴顽，或能使彼跳出迷人圈子」，故引宝玉遍游幻境、观册听曲。"
+      },
+      "summary": {
+        "short": "警幻引宝玉游幻境是全书命运总纲的「预演场」：宁荣二公求她「警醒」宝玉，她便以判词、曲子、云雨、迷津四重「教材」施教——但宝玉到底没醒。这场梦是《红楼梦》全部悲剧的「预告片」。",
+        "meaning": [
+          "宁荣二公之托：祖先对不肖子孙的最后挽救——警幻是家族命运与仙界秩序的中介",
+          "「以情欲声色警其痴顽」的教育法：先让他尝尽（幻），才能让他看破（警）",
+          "宝玉的「竟尚未悟」：预言的宿命——命运的剧本即使剧透，当事人也演不出别的结局"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「预叙」的仙界装置",
+          "content": "曹雪芹把全书的结局（判词与曲子）提前放进第五回的梦里——警幻是这套「预叙装置」的操作者。读者从此「知其结局」地看完全书：每个女儿的登场，都带着她判词的阴影。警幻的幻境，是作者为全书建造的「命运档案馆」。"
+        },
+        {
+          "type": "hongxue",
+          "title": "前五回总纲说",
+          "content": "红学界公论：前五回是全书总纲，第五回是总纲中的总纲——警幻游幻境一回，把「情」的哲学（意淫）、「命」的档案（判词）、「戏」的底本（曲子）一次性交给读者。警幻仙子的叙事地位因此独一无二：她是全书唯一掌握全部命运的人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinghuan_xianzi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinghuan_register_ch5",
+      "title": "开示金陵十二钗判词——薄命司的档案",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境·薄命司",
+        "specific": "警幻引宝玉至「薄命司」，先看「金陵十二钗又副册」（晴雯、袭人判词），再看副册（香菱判词），最后看正册——十二钗判词与判画尽数展示。宝玉「尚未觉悟」，警幻叹「痴儿竟尚未悟」。"
+      },
+      "summary": {
+        "short": "薄命司的册子是全书命运的密码本：每个女儿的判词都是她一生的压缩包。警幻让宝玉「开卷」，宝玉却读不懂——「痴儿竟尚未悟」是警幻对整个人类的叹息：命运的秘密可以展示，但无法传授。",
+        "meaning": [
+          "「薄命司」三字即全书主题：千红一哭，万艳同悲——女儿皆是薄命",
+          "册分三等（又副册、副册、正册）：曹雪芹以册籍等级暗写女儿们的命运等级",
+          "判词的诗谶传统：以诗预叙命运——中国古典小说「谶纬美学」的巅峰"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "判词的阅读契约",
+          "content": "曹雪芹与读者之间有一份秘密契约：判词可以剧透，但剧透的语言是「谜语体」（拆字、用典、隐喻）——读者要到全书读完才能回头破解。警幻开示判词，等于把谜底提前给出，把解谜的乐趣留到最后。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinghuan_xianzi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_bo_ming",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinghuan_songs_ch5",
+      "title": "《红楼梦》十二支曲——命运的哀歌",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "警幻命舞女演唱《红楼梦》十二支曲：引子、终身误、枉凝眉、恨无常、分骨肉、乐中悲、世难容、喜冤家、虚花悟、聪明累、留余庆、晚韶华、好事终、收尾飞鸟各投林。宝玉听曲「甚无趣味」，警幻叹其「痴儿竟尚未悟」。"
+      },
+      "summary": {
+        "short": "十二支曲是全书最完整的「命运交响乐」：从「终身误」（宝黛钗）到「飞鸟各投林」（总收束），每个女儿的命运都被谱成一首歌。警幻让宝玉「听戏」，宝玉只听出「无趣味」——命运的悲歌，需要命运降临才能听懂。",
+        "meaning": [
+          "《终身误》《枉凝眉》——宝黛钗命运的音乐化：曲子比判词更「剧透」（直接点名情节）",
+          "《飞鸟各投林》「落了片白茫茫大地真干净」——全书结局的提前公布",
+          "「饮仙醪」的「千红一窟」「万艳同杯」——谐音「千红一哭」「万艳同悲」：主题的谐音密码"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「曲演红楼梦」的书名回响",
+          "content": "回目「饮仙醪曲演红楼梦」——「红楼梦」三字在此回是曲名，全书也因此得名。警幻命演《红楼梦》曲，等于在书中演奏了「书」本身——这部书的主题、结构、结局，都在这场梦中预演完毕。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinghuan_xianzi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinghuan_keqing_ch5",
+      "title": "授云雨之事——兼美可卿",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "警幻将其妹乳名兼美、字可卿者许配宝玉，授以云雨之事。次日二人游至迷津，被夜叉海鬼拖拽，宝玉大呼「可卿救我」而醒。"
+      },
+      "summary": {
+        "short": "警幻的「性启蒙」是全书最惊世的一笔：她亲手把「云雨」教给宝玉——先以欲动之，再以幻警之。兼美（兼钗黛之美）与可卿（秦可卿之幻影）合体，指向宝玉生命中最重要的两个女人。迷津的失足，则预告了「情」的凶险。",
+        "meaning": [
+          "「兼美」的深意：宝玉的初恋对象同时具有钗之美与黛之灵——他后来爱上的正是「兼美」的两半",
+          "可卿之名与秦可卿的呼应：仙界之妹与尘世之媳同名——「真事隐去」的又一层密码",
+          "迷津失足：「迷津」即情海——警幻最后一句「作速回头要紧」，宝玉没听"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「兼美」与钗黛合一的猜想",
+          "content": "红学家对「兼美可卿」有著名解读：警幻之妹兼钗黛之美，暗示宝玉理想中的妻子是「钗黛合一」——这个理想在尘世不可实现（钗黛分裂为两个女人），只能在幻境中存在。可卿之名又与秦可卿重叠，指向「秦可卿兼有钗黛之美」的暗写。此说（钗黛合一论）是红学的重要分支观点。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinghuan_xianzi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jinghuan_jia_baoyu",
+      "from": "character_jinghuan_xianzi",
+      "to": "character_jia_baoyu",
+      "type": "点化者与痴儿（导师与学生）",
+      "nature": [
+        "teacher_student",
+        "symbolic_parallel"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "警幻与宝玉的关系是「先知与痴儿」：她受二公之托，以判词、曲子、云雨、迷津四重点化，宝玉「竟尚未悟」。这场师生关系是全书精神结构的缩影：仙界想救凡间，凡间听不进仙语——命运的悲剧在于「剧透无效」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "受托",
+          "chapter": 5,
+          "description": "警幻受宁荣二公之托点化宝玉。"
+        },
+        {
+          "stage": 2,
+          "title": "施教",
+          "chapter": 5,
+          "description": "观册、听曲、授云雨、游迷津。"
+        },
+        {
+          "stage": 3,
+          "title": "失败",
+          "chapter": 5,
+          "description": "宝玉「竟尚未悟」，警幻叹「痴儿」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jinghuan_keqing",
+      "from": "character_jinghuan_xianzi",
+      "to": "character_qin_keqing",
+      "type": "仙姑之妹与尘世之媳（同名呼应）",
+      "nature": [
+        "siblings",
+        "symbolic_parallel"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "警幻之妹乳名兼美、字可卿——与秦可卿同名。红学界据此推断：秦可卿是「兼美」的尘世投影（兼钗黛之美），警幻是她的仙界原型。这段关系是全书「仙界—尘世」镜像系统的最重要一环。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "命名",
+          "chapter": 5,
+          "description": "警幻将其妹可卿许配宝玉。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jinghuan_twelve_jinchai",
+      "from": "character_jinghuan_xianzi",
+      "to": "character_lin_daiyu",
+      "type": "命运的掌管者与档案中人",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "警幻掌管薄命司——金陵十二钗（正册、副册、又副册）的判词都在她的档案里。她是全书所有女儿命运的「登记员」：每个女儿的一生，在故事开始前就已被写入她的册子。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "建档",
+          "chapter": 5,
+          "description": "宝玉翻看薄命司各册判词。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jinghuan_yiyin",
+      "title": "警幻定义的「意淫」到底是什么？",
+      "slug": "what-is-yiyin-defined-by-jinghuan",
+      "question_type": "concept_analysis",
+      "importance_weight": 82,
+      "heat_weight": 76,
+      "neutral_overview": "警幻以「意淫」正名宝玉的痴情：「惟心会而不可口传，可神通而不可语达」。「意淫」是赞美还是贬义？它如何区分于「皮肤滥淫」？",
+      "viewpoint_ids": [
+        "vp_jinghuan_yiyin_affirm",
+        "vp_jinghuan_yiyin_tension"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jinghuan_yiyin_affirm",
+          "title": "正名论：意淫是情的最高形态",
+          "summary": "警幻的「意淫」是赞词：宝玉对女儿的痴（体贴、尊重、忘我）不是肉体之欲，是「天分中生成一段痴情」——一种不占有的爱。警幻把这种爱从「淫」（贬义）中救出，正名为「意淫」（精神之恋），并宣布它是「皮肤滥淫」的对立面。这是曹雪芹为「情」建立的价值秩序：意淫（精神）高于滥淫（肉体），宝玉因此成为「天下古今第一淫人」——淫的最高境界。",
+          "evidence": [
+            "「天分中生成一段痴情」的定义",
+            "与「皮肤滥淫之蠢物」的对照"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jinghuan_yiyin_tension",
+          "title": "张力论：「意淫」藏着情的危险",
+          "summary": "「意淫」仍是「淫」——警幻在正名的同时埋下警告：意淫「可心会而不可口传」，却可能「流于皮肤滥淫」（迷津的失足正是此意）。宝玉的意淫在大观园的实际展开中屡屡越界（对丫鬟的狎昵、对女儿的痴缠）。警幻之「警」正在于此：意淫是高处，也是悬崖——她的幻境既授云雨（引他上来），又设迷津（吓他回去），情的高贵与危险一体两面。",
+          "evidence": [
+            "迷津失足的情节设置",
+            "警幻「作速回头要紧」的警告"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jinghuan_failure",
+      "title": "警幻的点化为什么失败？——「痴儿竟尚未悟」的深意",
+      "slug": "why-jinghuan-enlightenment-fails",
+      "question_type": "theme_analysis",
+      "importance_weight": 70,
+      "heat_weight": 62,
+      "neutral_overview": "警幻让宝玉看完了全部判词与曲子，宝玉却「竟尚未悟」。这场注定失败的点化，透露了曹雪芹怎样的命运观？",
+      "viewpoint_ids": [
+        "vp_jinghuan_fate"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jinghuan_fate",
+          "title": "宿命论：「剧透」不能改变剧本",
+          "summary": "警幻的失败是宿命论的最强表达：命运的全部信息（判词）都提前交给当事人，当事人依然走向宿命——这不是宝玉的愚钝，是命运的不可逃。曹雪芹以此回答一个终极问题：如果预知结局，人能改变命运吗？他的答案是否定的——「悟」需要经历而非知识，宝玉必须自己把判词活一遍，才能真正读懂。警幻的失败因此是必然的：先知救不了梦中人，只有梦碎才能唤醒梦中人。",
+          "evidence": [
+            "「痴儿竟尚未悟」的叹息",
+            "判词在后续情节中的逐一应验"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch5_chapter_title",
+      "quote": "第五回回目：游幻境指迷十二钗 饮仙醪曲演红楼梦",
+      "fact_type": "canonical_text_fact",
+      "note": "「指迷」「曲演」——警幻幻境的双重功能：指命运之迷、演命运之曲。"
+    },
+    {
+      "source_id": "source_ch5_jinghuan_fail",
+      "quote": "（宝玉翻完册子）警幻道：「……痴儿竟尚未悟！」",
+      "fact_type": "canonical_text_fact",
+      "note": "第五回。警幻点化的失败——全书宿命论的宣言。"
+    },
+    {
+      "source_id": "source_ch5_jinghuan_qianhong",
+      "quote": "（茶名「千红一窟」、酒名「万艳同杯」）警幻道：「此茶出在放春山遣香洞，又以仙花灵叶上所带之宿露而烹，此茶名曰『千红一窟』……此酒乃以百花之蕊，万木之汁，加以麟髓之醅、凤乳之曲酿成，因名为『万艳同杯』。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第五回。「千红一哭」「万艳同悲」的谐音——全书主题以茶酒之名宣示。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jinghuan_philosophy",
+      "title": "警幻仙子——曹雪芹情观与命运观的立法者",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学主题研究",
+      "year": 1992,
+      "source_title": "红学主题思想研究",
+      "description": "学者指出，警幻仙子是曹雪芹哲学思想的「立法者」形象：她掌握着「情」的定义权（意淫/滥淫的区分）、「命」的档案权（薄命司判词）、「悟」的引导权（点化宝玉）。她的存在把《红楼梦》从「世情小说」升格为「哲学小说」：全书的情观（情为何物）、命观（命不可逃）、空观（幻境即真相）都在第五回由她一次性宣示。警幻与甄士隐（第一回）、空空道人（第一回）构成全书的「仙界三角」——一个是情的立法者，一个是梦的启梦人，一个是书的传抄者。"
+    },
+    {
+      "id": "viewpoint_jinghuan_taixu",
+      "title": "太虚幻境——曹雪芹的「命运档案馆」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1986,
+      "source_title": "红学叙事结构研究",
+      "description": "学者将太虚幻境视为全书的「命运档案馆」：薄命司的册子（判词）、仙醪（千红一窟/万艳同杯）、曲子（红楼梦十二支）构成完整的「档案系统」——每个女儿的命运在此登记、在此预演。警幻作为馆长，其功能是「开卷」：让宝玉（与读者）在故事开始前阅读档案。这一设计的文学意义在于「倒叙的悬念」：知道结局后的阅读，所有过程都成为「走向已知结局」的挽歌——太虚幻境是曹雪芹为整部《红楼梦》建造的「悼亡框架」。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 3,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.93,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 21,
+      "text_inference": 6,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

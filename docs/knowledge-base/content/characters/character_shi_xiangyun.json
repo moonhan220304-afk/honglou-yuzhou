@@ -1,0 +1,461 @@
+{
+  "character": {
+    "id": "character_shi_xiangyun",
+    "name": "史湘云",
+    "aliases": [
+      "枕霞旧友",
+      "云妹妹",
+      "史大姑娘"
+    ],
+    "category": "金陵十二钗正册",
+    "identity": {
+      "family": "贾母之侄孙女（史家）；保龄侯史鼐之侄女。父母双亡于襁褓中，依叔婶过活。",
+      "position": "贾府常客（史家人，常居大观园）。大观园中居无定所。",
+      "origin": "金陵人氏（金陵四大家族之史家「阿房宫，三百里，住不下金陵一个史」）。",
+      "generation": "贾府第四代（与贾宝玉同辈）"
+    },
+    "tags": [
+      "豪爽豁达",
+      "英气勃勃",
+      "才思敏捷",
+      "锦心绣口",
+      "父母双亡",
+      "海棠花"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一。贾母侄孙女，襁褓中父母双亡。性格豪爽不让须眉，才思敏捷不让黛玉。醉卧芍药裀为全书最美画面之一。判词「湘江水逝楚云飞」预示飘零命运。",
+      "long": "史湘云为金陵史家小姐，贾母的内侄孙女。父母自幼双亡（「襁褓之间父母违」），由叔父保龄侯史鼐家抚养长大。她虽出身侯门却自幼需做针线活到深夜——「我们家嫌费用大，竟不用那些针线上的人，差不多的东西多是他们娘儿们动手」。与黛玉同为寄人篱下却性格截然相反——黛玉敏感多疑，湘云豪爽阔达。她才思极为敏捷：海棠诗社中以两首海棠诗技惊四座；芦雪庵联诗一人一气联出十二句力压全场；凹晶馆联诗以「寒塘渡鹤影」应黛玉「冷月葬花魂」。性喜男装、醉后卧于芍药花裀中酣睡——「业经香梦沉酣，四面芍药花飞了一身」。第三十一回拾得金麒麟后与宝玉的金麒麟成为全书重要伏线之一。判词「展眼吊斜晖，湘江水逝楚云飞」以湘江、楚云之逝去喻其飘零不偶的命运。后四十回（gaoe）写其婚后丈夫早逝，流落江湖。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "英豪阔大——不让须眉的巾帼",
+        "description": "湘云是十二钗中最具「英气」的人物。她爱穿男装、烤鹿肉、醉卧花茵、出口成诗——这些行为在当时的贵族小姐规范中皆属「出格」。但她不是叛逆，而是天生气质如此——「是真名士自风流」。脂批赞其「女中荆、聂」。",
+        "evidence_events": [
+          "event_xiangyun_roast_deer_ch49",
+          "event_xiangyun_drunk_ch62"
+        ]
+      },
+      {
+        "dimension": "才思敏捷——诗才不让黛钗",
+        "description": "湘云的诗才以「快」著称——芦雪庵联诗一人狂联十二句力压全场，凹晶馆联诗「寒塘渡鹤影」应对敏捷。她的诗风与黛玉不同——黛玉以情胜，湘云以气胜。海棠诗社中她晚到却两首并作，众人大赞「这个不枉作了海棠诗」。",
+        "evidence_events": [
+          "event_haitang_she_ch37",
+          "event_reeds_pavilion_ch49",
+          "event_concave_crystal_ch76"
+        ]
+      },
+      {
+        "dimension": "苦中作乐——贫寒中养出的韧性",
+        "description": "湘云虽出身侯门，但因父母早亡在叔婶家中实为「隐形丫鬟」——深夜做针线劳作，经济拮据到连请客的银两都拿不出（第三十七回需宝钗相助）。但她从不以悲苦示人，永远以最灿烂的笑容面对世界。这种「以笑掩苦」的生存方式令人心疼。",
+        "evidence_events": [
+          "event_chrysanthemum_plan_ch37"
+        ]
+      },
+      {
+        "dimension": "「醉卧芍药」——生命的最高诗意",
+        "description": "湘云醉卧芍药裀是《红楼梦》中最美的画面之一，也是全书「诗意人生」达到顶点的象征时刻。她不是醉酒失态，而是以最自然、最天真、最不设防的姿态拥抱大观园的理想生活——「业经香梦沉酣」。",
+        "evidence_events": [
+          "event_xiangyun_drunk_ch62"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xiangyun_first_ch20",
+        "title": "首次出场（第二十回）"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xiangyun_kylin_ch31",
+        "title": "拾金麒麟（第三十一回）"
+      },
+      {
+        "order": 3,
+        "event_id": "event_chrysanthemum_plan_ch37",
+        "title": "蘅芜苑夜拟菊花题（第三十七回）"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xiangyun_roast_deer_ch49",
+        "title": "芦雪庵烤鹿肉联诗（第四十九回）"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xiangyun_drunk_ch62",
+        "title": "憨湘云醉眠芍药裀（第六十二回）"
+      },
+      {
+        "order": 6,
+        "event_id": "event_xiangyun_willow_ch70",
+        "title": "偶填柳絮词（第七十回）"
+      },
+      {
+        "order": 7,
+        "event_id": "event_concave_crystal_ch76",
+        "title": "凹晶馆联诗（第七十六回）"
+      }
+    ],
+    "related_characters": [],
+    "sources": [
+      {
+        "source_id": "source_ch05_xiangyun_judgment",
+        "quote": "富贵又何为，襁褓之间父母违。展眼吊斜晖，湘江水逝楚云飞。",
+        "note": "第五回湘云判词。极写其出身富贵却自幼失去父母，飘零如湘江之水流逝、楚云之飞散。"
+      },
+      {
+        "source_id": "source_ch63_xiangyun_flower",
+        "quote": "湘云掣出一根签来，一面画着一枝海棠，题着「香梦沉酣」四字，那面诗道是「只恐夜深花睡去」。",
+        "note": "第六十三回湘云抽得海棠花签——「香梦沉酣」与第六十二回醉卧芍药裀形成完美呼应。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-10T00:00:00Z",
+      "embedding_status": "pending"
+    }
+  },
+  "events": [
+    {
+      "id": "event_xiangyun_first_ch20",
+      "title": "湘云首次出场——笑倒门槛",
+      "event_level": "minor",
+      "chapter": {
+        "number": 20,
+        "title": "王熙凤正言弹妒意 林黛玉俏语谑娇音",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "贾母处",
+        "specific": "湘云来到贾府，「大说大笑的」进到贾母屋里。宝黛二人正在闹别扭，湘云一来气氛顿然活跃起来。"
+      },
+      "summary": {
+        "short": "湘云首次正式出场，以「大说大笑」的姿态闯入贾母屋里——与黛玉进贾府时的「步步留心、时时在意」形成鲜明对比。她一出现便以爽朗的笑声和敏捷的对话活跃了全场气氛。",
+        "meaning": [
+          "湘云的出场方式与黛玉形成人设上的强对比——一个是「步步留心」，一个是「大说大笑」",
+          "这个出场奠定了湘云在全书中的气质基调：爽朗、明亮、不拘一格"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "初次出场"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "在场——形成性格对比"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch20_first",
+          "quote": "只见史湘云大说大笑的，忙问好厮见。",
+          "note": "第二十回湘云首次正面出场。「大说大笑」四字奠定其性格基调。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "笑声作为人物登场仪式",
+          "content": "与其他金钗或「步步留心」或「谦恭温厚」的出场不同，湘云是以笑声闯入的。曹雪芹在湘云的第一次描写中就为她定了基调——这是一个不拘礼节、天性自由的灵魂。脂砚斋批「大说大笑」四字：「恰好写出湘云。」"
+        }
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_xiangyun_kylin_ch31",
+      "title": "拾金麒麟——伏线千里",
+      "event_level": "minor",
+      "chapter": {
+        "number": 31,
+        "title": "撕扇子作千金一笑 因麒麟伏白首双星",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "大观园蔷薇架下",
+        "specific": "湘云与丫鬟翠缕在园中论阴阳之理，行至蔷薇架下，翠缕拾得一个赤金点翠的麒麟——正是宝玉前日从张道士处得来的。"
+      },
+      "summary": {
+        "short": "湘云与翠缕在蔷薇架下论阴阳，翠缕忽然拾到一个赤金点翠的麒麟（比湘云自佩的略大）。湘云「伸手擎在掌上，只是默默不语，正自出神」。这正是宝玉前日从清虚观张道士处得来的。",
+        "meaning": [
+          "金麒麟一对——全书最重要的伏线之一，暗示湘云与宝玉可能的情感线",
+          "湘云「默默不语，正自出神」是全书中她唯一一次陷入沉思的静默时刻",
+          "「因麒麟伏白首双星」——部分学者据此推测湘云最终与宝玉有某种特殊命运关联"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "拾麒麟者"
+        },
+        {
+          "character_id": "character_cui_lv",
+          "role": "丫鬟——实际捡到麒麟者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch31_kylin",
+          "quote": "湘云举目一验，却是文彩辉煌的一个金麒麟，比自己佩的又大又有文彩。湘云伸手擎在掌上，只是默默不语，正自出神。",
+          "note": "第三十一回湘云拾得宝玉遗失的金麒麟。脂批此处称「金玉姻缘已定，又写一金麒麟」，引发对湘云与宝玉关系的多种解读。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "金麒麟——第三条情感线索？",
+          "content": "「因麒麟伏白首双星」是全书中最神秘的回目之一。脂批在湘云拾麒麟处留下扑朔迷离的批语：「后数十回若兰在射圃所佩之麒麟，正此麒麟也。」部分学者据此推测曹雪芹原意中湘云与卫若兰有某种因麒麟而结缘的命运。也有学者认为「白首双星」是指湘云与宝玉最终在贫寒中相遇白头。这一伏线因前八十回未完而成为红学最大悬案之一。"
+        }
+      ],
+      "related_events": [],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_xiangyun_roast_deer_ch49",
+      "title": "芦雪庵烤鹿肉",
+      "event_level": "minor",
+      "chapter": {
+        "number": 49,
+        "title": "琉璃世界白雪红梅 脂粉香娃割腥啖膻",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "芦雪庵",
+        "specific": "大雪天湘云与宝玉在芦雪庵外烤鹿肉吃，「割腥啖膻」。黛玉笑话他们糟蹋了芦雪庵，湘云反唇相讥：「是真名士自风流！」"
+      },
+      "summary": {
+        "short": "大雪天气，湘云与宝玉在芦雪庵外烤鹿肉吃。黛玉笑话他们「芦雪庵遭劫，生生被云丫头作践了」。湘云回道：「你知道什么！『是真名士自风流』，你们都是假清高，最可厌的。我们这会子腥膻大吃大嚼，回来却是锦心绣口。」",
+        "meaning": [
+          "「是真名士自风流」——湘云以此语确立了自身在大观园中最不羁的灵魂定位",
+          "烤鹿肉在贵族审美中属于「粗鄙」行为，湘云以反叛的姿态解构了贵族少女的精致规范",
+          "腥膻大吃之后果真锦心绣口——芦雪庵联诗湘云力压全场"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "烤鹿肉者——「是真名士自风流」"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "同烤者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "嘲笑者——被湘云反呛"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch49_deer",
+          "quote": "湘云冷笑道：「你知道什么！『是真名士自风流』，你们都是假清高，最可厌的。我们这会子腥膻大吃大嚼，回来却是锦心绣口。」",
+          "note": "第四十九回湘云的回击。腥膻大吃对应「名士风流」是湘云最经典的人生态度宣言。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "魏晋名士精神在闺阁中的回响",
+          "content": "「是真名士自风流」本应出自竹林七贤，却在数百年前的大观园中被一位闺阁少女说出。湘云的「名士风流」不是学来的，而是天性如此——她不因规矩而压抑本能，不因他人眼光而伪装精致。在众钗中，唯有她真正践行了魏晋名士「越名教而任自然」的精神理想。"
+        }
+      ],
+      "related_events": [
+        "event_reeds_pavilion_ch49"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_xiangyun_drunk_ch62",
+      "title": "憨湘云醉眠芍药裀",
+      "event_level": "major",
+      "chapter": {
+        "number": 62,
+        "title": "憨湘云醉眠芍药裀 呆香菱情解石榴裙",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "大观园芍药栏中",
+        "specific": "宝玉生日宴后，众人不见湘云。遍寻后在一座假山后的芍药栏中发现——湘云卧于石凳上业已香梦沉酣，四面芍药花飞了一身，满头脸衣襟上皆是红香散乱。"
+      },
+      "summary": {
+        "short": "宝玉生日宴后众人发现湘云不见了。一个小丫头走来说在山子石后芍药栏中看见湘云——躺在石凳上睡熟了。众人赶去一看：湘云在一个石凳上「业经香梦沉酣，四面芍药花飞了一身，满头脸衣襟上皆是红香散乱。手中的扇子在地下，也半被落花埋了。一群蜂蝶闹穰穰的围着她」。",
+        "meaning": [
+          "全书最具诗意的画面——一位贵族少女在花丛中酣睡如林间精怪",
+          "湘云的醉卧不是醉酒失态，而是彻底融入自然的最高形态的诗意生存",
+          "与黛玉葬花形成对比：黛玉是清醒的悲凉，湘云是无意识的沉醉"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "醉卧者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "寻找者之一"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch62_drunk",
+          "quote": "果见湘云卧于山石僻处一个石凳子上，业经香梦沉酣，四面芍药花飞了一身，满头脸衣襟上皆是红香散乱。手中的扇子在地下，也半被落花埋了。一群蜂蝶闹穰穰的围着她。",
+          "note": "第六十二回「憨湘云醉眠芍药裀」。此段为全书中最具诗意的场景描写之一。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "大观园诗意的最高顶点",
+          "content": "醉卧芍药裀是大观园从「建筑空间」到「理想国」再到「仙境」的最后一跃。湘云在这一刻不再是依叔婶过活的孤女，不再是夜夜做针线到深夜的苦命小姐——她是芍药花丛中的精灵，是大观园最完美、最纯粹、最美的一瞬。这个画面之后，大观园便开始无可挽回地走向「千红一哭」的衰败。"
+        },
+        {
+          "type": "character",
+          "title": "「憨」的美学——天真是最高级的聪明",
+          "content": "湘云回目中以「憨」字为修饰——这是曹雪芹对她最高的赞美。在她那个因聪明而憔悴、因敏感而早夭的大观园中，「憨」是一种稀缺的品质——它不是愚蠢，而是对世界的毫无设防。湘云不需要用冷漠来保护自己，不需要用尖刺来对抗世界——她只需要醉倒在花丛中，让蜂蝶来围着她转。"
+        }
+      ],
+      "related_events": [
+        "event_flower_sign_party_ch63"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_concave_crystal_ch76",
+      "title": "凹晶馆联诗——「寒塘渡鹤影」",
+      "event_level": "major",
+      "chapter": {
+        "number": 76,
+        "title": "凸碧堂品笛感凄清 凹晶馆联诗悲寂寞",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "凹晶馆",
+        "specific": "中秋之夜，黛玉与湘云在凹晶馆水边联句赋诗。二人从「三五中秋夕」联起，黛玉出「冷月葬花魂」，湘云对「寒塘渡鹤影」。妙玉从暗处走出，续完全诗。"
+      },
+      "summary": {
+        "short": "中秋夜黛玉与湘云两人在凹晶馆水边联句赋诗。湘云出「寒塘渡鹤影」，黛玉以「冷月葬花魂」对之——两句各自谶示了二人命运的终局。妙玉从暗处走出，以「钟鸣栊翠寺，鸡唱稻香村」续完全诗。",
+        "meaning": [
+          "「寒塘渡鹤影」——湘云的命运谶语：鹤影掠过寒塘，倏忽即逝，不知所踪",
+          "「冷月葬花魂」——黛玉的命运谶语：冷月之下花魂已葬，命不久长",
+          "两句联诗分别为两人画像：黛玉的「葬」是凝固的死亡，湘云的「渡」是流动的飘零"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "联诗者——出「寒塘渡鹤影」"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "联诗者——对「冷月葬花魂」"
+        },
+        {
+          "character_id": "character_miao_yu",
+          "role": "续诗者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch76_concave",
+          "quote": "湘云方欲联时，黛玉指池中黑影与湘云看道：「你看那河里怎么像个人在黑影里去了？」……湘云笑道：「……我有了一句——「寒塘渡鹤影」。」黛玉听了，又叫好，又跺足，说：「了不得，这鹤真是助她的了！……我也有了——「冷月葬花魂」。」",
+          "note": "第七十六回凹晶馆联诗。两句联诗分别谶示二人命运——黛玉的葬花与湘云的渡鹤。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「渡」与「葬」——两种悲剧模式",
+          "content": "黛玉的形象核心是「葬」——葬花、葬诗、葬情、最终葬自己。这是一个静止的、埋葬的、终结的意象。湘云的形象核心是「渡」——渡鹤、渡人生、最终不知所渡何方。这是一个流动的、飘零的、无定所的意象。二人在同一页纸上以两句诗完成了两个截然不同却又同样悲剧的命运书写。"
+        }
+      ],
+      "related_events": [
+        "event_daiyu_death_ch98"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    }
+  ],
+  "relationships": [],
+  "sources": [
+    {
+      "id": "source_ch62_xiangyun_drunk_full",
+      "type": "original_text",
+      "title": "第六十二回——湘云醉卧芍药裀",
+      "chapter_number": 62,
+      "description": "湘云醉倒芍药花丛中酣睡的唯美场景描写。全书最佳画面之一。",
+      "author": null,
+      "year": null,
+      "authority": "通行本原文",
+      "controversial": false,
+      "verification": "已与通行本逐字核对。",
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "updated_at": "2026-08-10T00:00:00Z"
+      }
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xiangyun_baoyu",
+      "title": "「因麒麟伏白首双星」——湘云结局探佚",
+      "type": "disputed",
+      "author": "周汝昌等考据派学者",
+      "year": 1953,
+      "source_title": "《红楼梦新证》（周汝昌）等",
+      "description": "「因麒麟伏白首双星」是全书最难解的回目之一。部分学者（尤其是周汝昌）通过脂批线索推测：曹雪芹原意中湘云最终嫁给了卫若兰，但卫若兰早逝，湘云与宝玉在贫困潦倒中重逢并结为夫妇（「白首双星」）。这一推断基于脂批「后数十回若兰在射圃所佩之麒麟，正此麒麟也。提纲伏于此回中，所谓草蛇灰线在千里之外」。但此说争议极大。",
+      "related_event_ids": [
+        "event_xiangyun_kylin_ch31"
+      ],
+      "opinions": [
+        {
+          "side": "支持者（周汝昌等）",
+          "content": "脂批明确指出若兰曾佩此麒麟，而「白首双星」暗示二人白头偕老。结合第一回「蓬牖茅椽，绳床瓦灶」的伏笔，湘云与宝玉在贫困中共度晚年的可能性极高。",
+          "proponent": "周汝昌、部分探佚派红学者"
+        },
+        {
+          "side": "反对者",
+          "content": "脂批原意不明，「白首双星」可能是另有所指（如牛郎织女的两地分居）。且湘云在十二钗判词和花签中均无与宝玉结为夫妇的暗示。过度解读一条脂批将其与宝玉结婚，证据不足。",
+          "proponent": "主流考据谨慎派"
+        }
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 80,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z"
+      }
+    }
+  ]
+}

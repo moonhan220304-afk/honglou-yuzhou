@@ -1,0 +1,267 @@
+{
+  "_meta": {
+    "title": "RedMansion Knowledge Base V1 — Phase 0 Sample Data",
+    "description": "第一批示例数据：林黛玉完整档案、葬花事件、宝黛关系（含完整stages）。格式与 03-json-templates.md 严格一致。",
+    "created": "2026-08-10",
+    "version": "1.0.0"
+  },
+
+  "characters": [
+    {
+      "id": "character_lin_daiyu",
+      "name": "林黛玉",
+      "aliases": ["颦颦", "颦儿", "潇湘妃子", "绛珠仙子", "林妹妹", "玉儿"],
+      "category": "金陵十二钗正册",
+      "identity": {
+        "family": "贾母之外孙女；父林如海（探花出身，巡盐御史），母贾敏（贾母幼女）；父母双亡，无兄弟姊妹。",
+        "position": "贾府寄居之表小姐；大观园潇湘馆居所。",
+        "origin": "姑苏（今苏州）人氏，生于扬州。",
+        "generation": "贾府第四代（与贾宝玉同辈）"
+      },
+      "tags": ["才情冠绝", "多愁善感", "孤高清傲", "敏感细腻", "病态美", "叛逆精神", "诗人气质"],
+      "summary": {
+        "short": "金陵十二钗之首（与宝钗并列）。贾母外孙女，前世为绛珠仙草，以泪还灌溉之恩。才华横溢、诗冠大观园，与贾宝玉知己相爱，最终泪尽而逝。",
+        "long": "林黛玉为《红楼梦》第一女主角。前身为西方灵河岸三生石畔绛珠仙草，受神瑛侍者（宝玉前世）甘露灌溉，修成女体后随其下凡，以一生之泪偿还灌溉之恩。父林如海为前科探花、巡盐御史，母贾敏为荣国府贾母幼女。黛玉六岁丧母，十岁丧父，寄居贾府。她才情卓绝，所作《葬花吟》《秋窗风雨夕》《桃花行》等为全书最佳诗篇。性格孤高敏感，与薛宝钗构成「双峰对峙」格局。与宝玉虽为知己恋人，终因封建礼教与家族利益而不得善终——后四十回写其在宝玉与宝钗成婚之夜泪尽焚稿而亡（第97回，gaoe）。"
+      },
+      "personality_analysis": [
+        {
+          "dimension": "诗才与灵性",
+          "description": "诗才为全书之冠，以诗寄情、以诗言志。《葬花吟》以花喻人，表达对命运悲剧的深切感知与对纯洁的坚守。",
+          "evidence_events": ["event_bury_flowers_ch27", "event_autumn_poem_ch45", "event_peach_poem_ch70"]
+        },
+        {
+          "dimension": "孤高敏感",
+          "description": "因寄人篱下，对周遭人事高度敏感，常以刻薄之语自护。然本性率真，一旦认人为知己，便倾心相待。",
+          "evidence_events": ["event_send_flowers_ch7", "event_bite_purse_ch18", "event_golden_words_ch45"]
+        },
+        {
+          "dimension": "叛逆精神",
+          "description": "不认同「女子无才便是德」和仕途经济之道。从不劝宝玉考取功名，与宝玉在精神上真正同频。",
+          "evidence_events": ["event_read_west_chamber", "event_heartfelt_words_ch32"]
+        },
+        {
+          "dimension": "深情执着",
+          "description": "对宝玉之爱纯粹而无功利，以命相许。为情生病、为情而死，是「情情」的化身。",
+          "evidence_events": ["event_heartfelt_words_ch32", "event_zijuan_tests_yu_ch57"]
+        }
+      ],
+      "timeline": [
+        { "order": 1, "event_id": "event_daiyu_enters_jia", "title": "黛玉进贾府（第三回）" },
+        { "order": 2, "event_id": "event_read_west_chamber", "title": "共读西厢（第二十三回）" },
+        { "order": 3, "event_id": "event_bury_flowers_ch27", "title": "葬花吟（第二十七回）" },
+        { "order": 4, "event_id": "event_heartfelt_words_ch32", "title": "诉肺腑（第三十二回）" },
+        { "order": 5, "event_id": "event_autumn_poem_ch45", "title": "风雨夕闷制风雨词（第四十五回）" },
+        { "order": 6, "event_id": "event_golden_words_ch45", "title": "金兰契互剖金兰语（第四十五回）" },
+        { "order": 7, "event_id": "event_zijuan_tests_yu_ch57", "title": "紫鹃试玉（第五十七回）" }
+      ],
+      "related_characters": [],
+      "sources": [
+        {
+          "source_id": "source_ch02_daiyu_birth",
+          "quote": "今只有嫡妻贾氏，生得一女，乳名黛玉，年方五岁。",
+          "note": "第二回冷子兴演说荣国府，交代黛玉身世。"
+        },
+        {
+          "source_id": "source_ch03_daiyu_appearance",
+          "quote": "两弯似蹙非蹙罥烟眉，一双似泣非泣含情目。态生两靥之愁，娇袭一身之病。泪光点点，娇喘微微。闲静时如姣花照水，行动处似弱柳扶风。心较比干多一窍，病如西子胜三分。",
+          "note": "第三回黛玉初入贾府，宝玉眼中所见。"
+        },
+        {
+          "source_id": "source_ch03_name_origin",
+          "quote": "《古今人物通考》上说：「西方有石名黛，可代画眉之墨。」况这林妹妹眉尖若蹙，用取这两个字，岂不两妙！",
+          "note": "第三回宝玉为黛玉取字「颦颦」"
+        }
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "redmansion-kb-v1",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    }
+  ],
+
+  "events": [
+    {
+      "id": "event_bury_flowers_ch27",
+      "title": "黛玉葬花",
+      "event_level": "major",
+      "chapter": { "number": 27, "title": "滴翠亭杨妃戏彩蝶 埋香冢飞燕泣残红", "attribution": "caoxueqin" },
+      "location": { "name": "大观园花冢", "specific": "沁芳闸桥边，昔日与宝玉葬桃花的去处。宝玉兜花登山渡水而至。" },
+      "summary": {
+        "short": "芒种节饯花神之日，黛玉独自至花冢葬花，吟《葬花吟》，悲花伤己。宝玉于山坡后偷听，闻诗恸倒。",
+        "meaning": [
+          "以葬花象征薄命红颜的命运悲剧——「千红一哭，万艳同悲」",
+          "「质本洁来还洁去，不教污淖陷渠沟」表达对纯洁人格的坚守",
+          "「一朝春尽红颜老，花落人亡两不知」预言自身与大观园群芳的凋零",
+          "为全书黛玉命运的纲领性篇章"
+        ]
+      },
+      "participants": [
+        { "character_id": "character_lin_daiyu", "role": "主角（葬花人、吟诗人）" },
+        { "character_id": "character_jia_baoyu", "role": "旁听者（花冢山坡后偷听）" }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch27_zanghua_yin",
+          "quote": "花谢花飞飞满天，红消香断有谁怜？……侬今葬花人笑痴，他年葬侬知是谁？试看春残花渐落，便是红颜老死时。一朝春尽红颜老，花落人亡两不知！",
+          "note": "《葬花吟》全文五十二句，此为首尾核心选段。通行本第二十七回原文。"
+        },
+        {
+          "source_id": "source_ch27_baoyu_react",
+          "quote": "宝玉在山坡上听见，先不过点头感叹；次后听到「侬今葬花人笑痴，他年葬侬知是谁」……不觉恸倒山坡之上，怀里兜的落花撒了一地。",
+          "note": "第二十七回宝玉听《葬花吟》的反应。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "黛玉命运纲领",
+          "content": "《葬花吟》不仅是黛玉的自我悲叹，更是全书「千红一哭，万艳同悲」的缩影，以花喻人，预示大观园群芳的凋零命运。脂批称此诗「是大观园诸艳之归源小引」。"
+        },
+        {
+          "type": "literary",
+          "title": "两次葬花的对照",
+          "content": "第二十三回宝黛合葬桃花，温馨浪漫；第二十七回黛玉独葬落花，凄凉萧索。两次葬花形成鲜明对照，标志宝黛关系从甜蜜走向深沉悲凉。"
+        }
+      ],
+      "related_events": ["event_read_west_chamber", "event_flower_god_festival"],
+      "status": { "review": "verified", "confidence": 100, "verified_by": "redmansion-kb-v1", "updated_at": "2026-08-10T00:00:00Z", "embedding_status": "pending" }
+    }
+  ],
+
+  "relationships": [
+    {
+      "id": "relationship_lin_daiyu_jia_baoyu",
+      "from": "character_lin_daiyu",
+      "to": "character_jia_baoyu",
+      "type": "表兄妹 / 情人 / 知己",
+      "nature": ["kinship", "romantic"],
+      "direction": "mutual",
+      "summary": "全书最核心爱情线。前世绛珠仙草与神瑛侍者的还泪之约，今生青梅竹马、灵魂知己，最终以泪尽焚稿、黛死宝娶的悲剧收场。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "初遇——似曾相识",
+          "chapter": 3,
+          "description": "黛玉初进荣国府，宝玉一见便道「这个妹妹我曾见过的」，「今日只作远别重逢」。二人一见面便有一种超越凡俗的熟悉感。宝玉问黛玉「可也有玉没有」，闻之无玉即摔通灵宝玉，初示对黛玉的在意。"
+        },
+        {
+          "stage": 2,
+          "title": "青梅竹马——两小无猜",
+          "chapter": 5,
+          "description": "贾母安排二人同住碧纱橱内外，「日则同行同坐，夜则同止同息」。亲密无间之状为贾府上下所默认。"
+        },
+        {
+          "stage": 3,
+          "title": "共读西厢——心心相印",
+          "chapter": 23,
+          "description": "三月中，桃花树下共读《会真记》（《西厢记》）。宝玉以书中「你就是那倾国倾城貌，我就是那多愁多病身」试探黛玉，黛玉面红耳赤后，二人会心一笑。在禁止恋爱的时代，通过禁书建立精神共鸣。"
+        },
+        {
+          "stage": 4,
+          "title": "葬花听吟——灵魂震颤",
+          "chapter": 27,
+          "description": "宝玉在山坡后偷听黛玉葬花吟，闻「花落人亡两不知」而恸倒山坡。宝黛在不知对方在场的情况下完成最深的精神共振。"
+        },
+        {
+          "stage": 5,
+          "title": "诉肺腑——情定今生",
+          "chapter": 32,
+          "description": "宝玉对黛玉说出「你放心」三字，黛玉「如轰雷掣电，细细思之，竟比自己肺腑中掏出来的还觉恳切」。黛玉走后，宝玉误将袭人当作黛玉说出「睡里梦里也忘不了你」的肺腑之言。二人终于确认彼此心意，不再互相试探。"
+        },
+        {
+          "stage": 6,
+          "title": "赠帕题诗——以心传心",
+          "chapter": 34,
+          "description": "宝玉挨打后，遣晴雯送两条旧手帕给黛玉。黛玉初不解，后「思忖一时，方大悟过来」，提笔写下三首题帕诗，情感至深至痛。"
+        },
+        {
+          "stage": 7,
+          "title": "紫鹃试玉——生死以之",
+          "chapter": 57,
+          "description": "紫鹃以「林妹妹回苏州」试探宝玉，宝玉如遭雷击、痴病发作、死去活来，以生命证明了对黛玉的执着。事后紫鹃对黛玉说「万两黄金容易得，知心一个也难求」。"
+        },
+        {
+          "stage": 8,
+          "title": "通灵失玉——命运转折",
+          "chapter": 94,
+          "description": "宝玉通灵宝玉丢失，从此精神恍惚、失魂落魄，为后续掉包计埋下伏笔。",
+          "note": "后四十回，attribution=gaoe"
+        },
+        {
+          "stage": 9,
+          "title": "黛死钗嫁——阴阳永隔",
+          "chapter": 97,
+          "description": "王熙凤设掉包计：对宝玉伪称娶林妹妹，实则娶宝钗。黛玉从傻大姐口中得知消息，一病不起，焚旧帕诗稿，「把眼一睁，叫了声宝玉，你好……」，泪尽而逝。与此同时宝玉正在迎娶宝钗，揭开盖头方知被骗。",
+          "note": "后四十回，attribution=gaoe。红学界对掉包计是否为曹雪芹原意存在重大争议。"
+        }
+      ],
+      "evidence_events": [
+        { "event_id": "event_first_meet_ch3", "description": "宝黛初会——摔玉认旧" },
+        { "event_id": "event_read_west_chamber", "description": "共读西厢——精神共鸣" },
+        { "event_id": "event_bury_flowers_ch27", "description": "葬花吟——灵魂共振" },
+        { "event_id": "event_heartfelt_words_ch32", "description": "诉肺腑——情定今生" },
+        { "event_id": "event_gift_handkerchief_ch34", "description": "赠帕题诗——以心传心" }
+      ],
+      "impact": "宝黛爱情是全书最核心的情感线索。前世今生的双重设定赋予了这一爱情悲剧超越世俗的神话维度。二人的悲剧既是个人性格的悲剧（敏感多疑与痴狂执着），更是封建婚姻制度的必然结果——代表理想与现实的永恒冲突。鲁迅评：「悲凉之雾，遍被华林，然呼吸而领会之者，独宝玉而已。」",
+      "status": { "review": "verified", "confidence": 100, "verified_by": "redmansion-kb-v1", "updated_at": "2026-08-10T00:00:00Z", "embedding_status": "pending" }
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "source_ch03_daiyu_appearance",
+      "type": "original_text",
+      "title": "第三回——林黛玉外貌描写",
+      "chapter_number": 3,
+      "description": "黛玉初入荣国府，宝玉眼中所见之林黛玉外貌与神韵。",
+      "author": null,
+      "year": null,
+      "authority": "通行本原文（人民文学出版社程乙本校注本）",
+      "controversial": false,
+      "verification": "已与通行本逐字核对，原文无误。",
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-10T00:00:00Z" }
+    },
+    {
+      "id": "source_ch27_zanghua_yin",
+      "type": "original_text",
+      "title": "第二十七回——葬花吟全文",
+      "chapter_number": 27,
+      "description": "《红楼梦》第二十七回「埋香冢飞燕泣残红」中林黛玉所吟之《葬花吟》，全书最著名的诗作之一，共五十二句。",
+      "author": null,
+      "year": null,
+      "authority": "通行本原文（程乙本为底本）",
+      "controversial": false,
+      "verification": "已与通行本逐字核对，引文经过检索验证。",
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-10T00:00:00Z" }
+    },
+    {
+      "id": "source_ch32_heartfelt_words",
+      "type": "original_text",
+      "title": "第三十二回——诉肺腑心迷活宝玉",
+      "chapter_number": 32,
+      "description": "宝玉对黛玉说出「你放心」三字，并误将袭人当作黛玉说出肺腑之言：「睡里梦里也忘不了你！」",
+      "author": null,
+      "year": null,
+      "authority": "通行本原文",
+      "controversial": false,
+      "verification": "已与通行本核对「你放心」等关键词句。",
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-10T00:00:00Z" }
+    }
+  ],
+
+  "chapters_sample": [
+    { "number": 3, "title": "贾雨村夤缘复旧职 林黛玉抛父进京都", "attribution": "caoxueqin" },
+    { "number": 23, "title": "西厢记妙词通戏语 牡丹亭艳曲警芳心", "attribution": "caoxueqin" },
+    { "number": 27, "title": "滴翠亭杨妃戏彩蝶 埋香冢飞燕泣残红", "attribution": "caoxueqin" },
+    { "number": 32, "title": "诉肺腑心迷活宝玉 含耻辱情烈死金钏", "attribution": "caoxueqin" },
+    { "number": 34, "title": "情中情因情感妹妹 错里错以错劝哥哥", "attribution": "caoxueqin" },
+    { "number": 45, "title": "金兰契互剖金兰语 风雨夕闷制风雨词", "attribution": "caoxueqin" },
+    { "number": 57, "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦", "attribution": "caoxueqin" },
+    { "number": 94, "title": "宴海棠贾母赏花妖 失宝玉通灵知奇祸", "attribution": "gaoe" },
+    { "number": 97, "title": "林黛玉焚稿断痴情 薛宝钗出闺成大礼", "attribution": "gaoe" },
+    { "number": 98, "title": "苦绛珠魂归离恨天 病神瑛泪洒相思地", "attribution": "gaoe" }
+  ]
+}

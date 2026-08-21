@@ -1,0 +1,414 @@
+{
+  "character": {
+    "id": "character_qiuwen",
+    "name": "秋纹",
+    "slug": "qiu-wen",
+    "aliases": [],
+    "category": "荣国府丫鬟（宝玉丫鬟）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "贾府丫鬟，父母姓名不详。",
+      "position": "怡红院大丫鬟之一（袭人、晴雯、麝月之下）。",
+      "origin": "贾府丫鬟体系。",
+      "generation": "与麝月、碧痕等同侪的怡红院丫鬟阶层"
+    },
+    "tags": [
+      "怡红院",
+      "送花得赏",
+      "晴雯讥刺",
+      "麝月秋纹",
+      "时令组",
+      "骂小红"
+    ],
+    "summary": {
+      "short": "怡红院大丫鬟之一，常与麝月并提。第二十四回与碧痕撞见小红给宝玉倒茶，骂了她一顿；第三十七回送桂花得王夫人两件旧衣赏赐，回院炫耀被晴雯讥「没见世面」；第五十四回与麝月园中说话，宝玉蹑足避开。她是怡红院丫鬟梯队里「不上不下」的一层，最见丫鬟世界的内部竞争。",
+      "long": "秋纹是怡红院的大丫鬟，排在袭人、晴雯、麝月之后。她的出场戏第二十四回就不体面：她与碧痕提水回来，撞见小红趁空给宝玉倒茶，两人把小红骂得狗血喷头——「你也拿那镜子照照，配递茶递水不配！」怡红院的丫鬟等级，先由丫鬟自己执行。第三十七回，她替宝玉送桂花给王夫人，得了几件旧衣赏赐，回院炫耀，晴雯冷笑：「那是把好的给了人，挑剩下的才给你，你还充有脸呢」——她的得意与晴雯的讥刺，写出了丫鬟世界的「赏赐政治」。第五十四回元宵夜，宝玉回园小解，见秋纹与麝月在说笑，便蹑足潜踪避开，不忍惊散她们——这是秋纹最温暖的一笔。秋纹没有大事，却处处在场：她是怡红院丫鬟梯队「中层」的标本——往上够不着袭人的位子，往下压得住小红的头。学者论她，多与麝月对看：麝月「稳」，秋纹「浮」——一个守到散场，一个在赏赐里起落。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "矜——赏赐里的体面",
+        "fact_type": "canonical_text_fact",
+        "description": "秋纹得王夫人旧衣赏赐便「充有脸」炫耀，被晴雯讥破：她争的不是衣服，是「在主子面前有脸」的证明。丫鬟的体面全系于赏赐——这是她这一层的生存逻辑。"
+      },
+      {
+        "dimension": "压——向下抢位的狠",
+        "fact_type": "canonical_text_fact",
+        "description": "第二十四回秋纹碧痕骂小红，是丫鬟世界最典型的「向下竞争」：她自己上不去，先把要上来的人踩下去。曹雪芹写她骂人时「脸憋的通红」，把「争」字写透。"
+      },
+      {
+        "dimension": "浮——不上不下的中间层",
+        "fact_type": "canonical_text_fact",
+        "description": "秋纹与麝月常并提，性格恰成对照：麝月稳，秋纹浮。她是怡红院丫鬟梯队「中层焦虑」的化身——不是首席，不甘末席，一生在「脸面」上打转。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_qiuwen_ch24",
+        "title": "与碧痕骂小红（第二十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_qiuwen_ch37",
+        "title": "送花得赏——被晴雯讥「没见世面」（第三十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_qiuwen_ch54",
+        "title": "元宵夜与麝月说笑，宝玉蹑足避开（第五十四回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch24_qiuwen_scold",
+        "quote": "（秋纹、碧痕见小红给宝玉倒茶）秋纹听了，兜脸啐了一口，骂道：「没脸的下流东西！正经叫你催水去，你说有事故，倒叫我们去，你可等着做这个巧宗儿。……你也拿镜子照照，配递茶递水不配！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十四回。怡红院的丫鬟等级由丫鬟自己执法——秋纹的骂是「争位」的残酷现场。"
+      },
+      {
+        "source_id": "source_ch37_qiuwen_reward",
+        "quote": "（秋纹得赏回来，说起王夫人赏衣）晴雯道：「呸！好没见世面的小蹄子！那是把好的给了人，挑剩下的才给你，你还充有脸呢。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十七回。秋纹的得意与晴雯的讥刺——赏赐政治的两面。"
+      },
+      {
+        "source_id": "source_ch54_qiuwen_moon",
+        "quote": "（宝玉）回至园中……只见秋纹、麝月两个在那里说话。宝玉便不进园去，蹑足潜踪的走过，恐惊散了他两个。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十四回。「麝月秋纹」并提的温暖一笔——宝玉不忍惊散丫鬟们的闲暇。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「秋纹」——怡红院丫鬟命名的时令物象组",
+      "detail": "怡红院丫鬟之名多取「时令物象」：春燕（春之燕）、秋纹（秋之纹）、碧痕（碧波之痕）、麝月（月下之香）——「秋纹」即秋日水纹云纹，与春燕合成「春秋」。有意思的是：名为「秋」的秋纹，性格却是怡红院里最「争春」的一个（争赏、争位）——名与行又是一层反讽；且「秋」字应着全书「秋尽花残」的时序，众女儿散去时，秋纹们也各归其位。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；与麝月年龄相近（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_qiuwen_ch24",
+      "title": "与碧痕骂小红——怡红院的争位现场",
+      "event_level": "minor",
+      "chapter": {
+        "number": 24,
+        "title": "醉金刚轻财尚义侠 痴女儿遗帕惹相思",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "秋纹与碧痕提水回来，撞见小红趁宝玉独处时给他倒了茶，二人醋意大发，骂小红「没脸的下流东西」，讥她「配递茶递水不配」。小红因此心灰，日后得凤姐赏识离开怡红院。"
+      },
+      "summary": {
+        "short": "第二十四回的这顿骂，是怡红院丫鬟竞争的显微镜：小红想上位，秋纹碧痕守位。曹雪芹用「兜脸啐了一口」六个字，写尽底层女儿互相倾轧的狠。",
+        "meaning": [
+          "「你也拿镜子照照」——丫鬟的等级壁垒，由丫鬟自己砌",
+          "小红被骂后改投凤姐——怡红院失去了一个人才，留下了几个「守位者」",
+          "秋纹之骂是「生存焦虑」——她怕的不是小红，是自己的位置"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "向下竞争的残酷",
+          "content": "大观园的丫鬟世界分两层：对上是奴隶，对下是敌人。秋纹骂小红与司棋砸厨房是同一个逻辑的两面——底层不是铁板一块，底层内部的厮杀往往最凶。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qiuwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiaohong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiuwen_ch37",
+      "title": "送花得赏——被晴雯讥「没见世面」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 37,
+        "title": "秋爽斋偶结海棠社 蘅芜苑夜拟菊花题",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "秋纹替宝玉送桂花去给王夫人，王夫人赏她两件旧衣。她回院得意炫耀，晴雯冷笑讥她「没见世面」——好衣服早已给了人，挑剩下的才给她，她还「充有脸」。"
+      },
+      "summary": {
+        "short": "第三十七回的赏衣风波是丫鬟世界的「赏赐政治」：秋纹把旧衣当荣耀，晴雯把旧衣当羞辱。同一件赏赐，两种认知——秋纹的浅与晴雯的傲，一笔写尽。",
+        "meaning": [
+          "赏赐是主子管理丫鬟的货币——旧衣足以让秋纹「有脸」",
+          "晴雯的讥刺——「把好的给了人，挑剩下的才给你」，丫鬟的体面最怕点破",
+          "秋纹的满足是真实的——底层女儿的「脸」，本就这么薄"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "浅的悲凉",
+          "content": "秋纹不可笑——她的满足背后是丫鬟世界全部的匮乏：一件旧衣，是她能拿到的最高荣耀。晴雯笑她「没见世面」，可秋纹见到的世面本就只有这么大。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qiuwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qiuwen_ch54",
+      "title": "元宵夜与麝月说笑——宝玉蹑足避开",
+      "event_level": "minor",
+      "chapter": {
+        "number": 54,
+        "title": "史太君破陈腐旧套 王熙凤效戏彩斑衣",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "元宵夜宝玉回园，见秋纹与麝月在说话，便不进园去，蹑足潜踪走开，怕惊散二人。此后「麝月秋纹」在书中常并提，为怡红院的留守搭档。"
+      },
+      "summary": {
+        "short": "第五十四回是全书写秋纹最温柔的一笔：她与麝月的闲谈，被宝玉珍重地避开。「麝月秋纹」并提从此成为怡红院日常的固定词组——她的「浮」也有安静的片刻。",
+        "meaning": [
+          "宝玉的蹑足——全书最动人的「不打扰」",
+          "秋纹与麝月——浮与稳的并提，怡红院丫鬟的两副面孔",
+          "元宵夜的说笑——大观园日常幸福感的最后库存"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "并提的意义",
+          "content": "秋纹与麝月并提，是曹雪芹的梯队写法：袭人之下、晴雯之侧，需要两个「日常者」撑住怡红院的每一天。麝月撑的是「守」，秋纹撑的是「活」——她的浅与她的真，都是日常。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qiuwen",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_sheyue",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_qiuwen_baoyu",
+      "from": "character_qiuwen",
+      "to": "character_jia_baoyu",
+      "type": "主仆",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "秋纹是宝玉房中丫鬟，替宝玉跑腿送花、日常伺候。宝玉对她的态度全在第五十四回那一「蹑足」——他不评判她的浅，只护着她的闲。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "日常伺候",
+          "chapter": 37,
+          "description": "秋纹替宝玉送花、领赏。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qiuwen_qingwen",
+      "from": "character_qiuwen",
+      "to": "character_qingwen",
+      "type": "同侪（被讥刺）",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "晴雯是秋纹的对照：秋纹把旧衣当脸，晴雯把好衣都不放在眼里（撕扇）。晴雯的讥刺是全书对「丫鬟体面」最锋利的批评——她与秋纹同房共事，却是两种活法。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "讥刺",
+          "chapter": 37,
+          "description": "晴雯讥秋纹「没见世面」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qiuwen_sheyue",
+      "from": "character_qiuwen",
+      "to": "character_sheyue",
+      "type": "同侪（常并提的搭档）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "「麝月秋纹」是全书最常见的丫鬟并提：一个稳，一个浮；一个守到最后，一个在赏赐里起落。二人并提的场景（54回说笑、日常差事）构成怡红院最普通的日常图景。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "并提日常",
+          "chapter": 54,
+          "description": "秋纹麝月园中说笑，宝玉蹑足避开。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qiuwen_xiaohong",
+      "from": "character_qiuwen",
+      "to": "character_xiaohong",
+      "type": "压迫者与被压迫者（骂小红）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "秋纹碧痕骂小红，是小红离开怡红院的直接推力——被压的人去了凤姐处，骂人的人留在原地。日后小红在凤姐处「攀上高枝」，秋纹仍在怡红院争旧衣：曹雪芹用二人的岔路写尽丫鬟世界的两种命运。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "骂逐",
+          "chapter": 24,
+          "description": "秋纹碧痕骂小红，促其改投凤姐。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_qiuwen_level",
+      "title": "秋纹在怡红院丫鬟梯队里是什么位置？她为什么「不上不下」？",
+      "slug": "qiuwens-place-in-the-hierarchy",
+      "question_type": "character_analysis",
+      "importance_weight": 60,
+      "heat_weight": 54,
+      "neutral_overview": "怡红院丫鬟各有定位：袭人贤、晴雯勇、麝月稳——秋纹呢？她凭什么在大丫鬟之列，又为什么总被讥刺？",
+      "viewpoint_ids": [
+        "vp_qiuwen_middle",
+        "vp_qiuwen_contrast"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_qiuwen_middle",
+          "title": "中层论：她是丫鬟世界的「大多数」",
+          "summary": "不是每个丫鬟都能成为袭人晴雯——秋纹代表丫鬟的「中层多数」：能干活、想出头、够不着顶。曹雪芹写她，是要在贤、勇、稳之外，补上丫鬟生态里最普遍的一格。",
+          "evidence": [
+            "她在大丫鬟之列却无标志性品质",
+            "她的「争」都是鸡毛蒜皮（赏衣、骂小红）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_qiuwen_contrast",
+          "title": "对照论：她是晴雯麝月的镜子",
+          "summary": "秋纹的功能是对照：她的浅衬晴雯的傲，她的浮衬麝月的稳。曹雪芹把她「并提」在麝月旁，正是要让读者在并提里看出高下——她不是没戏份，是戏份全在反衬。",
+          "evidence": [
+            "「麝月秋纹」并提的频次",
+            "第三十七回与晴雯的直接对照"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch37_qiuwen_hua",
+      "quote": "（秋纹道）「你们知道，太太素日不大同我说话的，有些不入他老人家的眼的。那日竟叫人拿几百钱给我，说：『这是赏你的。』……如今二奶奶（赏衣）……」（晴雯）「呸！」",
+      "fact_type": "canonical_text_fact",
+      "note": "第三十七回。秋纹自述得赏的「光荣史」——她的体面全建立在主子的眼皮子上。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_qiuwen_naming",
+      "title": "怡红院丫鬟的命名体系与人物分层",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学命名研究",
+      "year": 1995,
+      "source_title": "多项命名学研究",
+      "description": "学者分析怡红院丫鬟命名：袭人（花气）、晴雯（云彩）、麝月（香品）、秋纹、碧痕、春燕（时令物象）构成一套「物化」命名系统——既是贵族生活美学的投射，也暗示丫鬟「房中陈设」的命运。秋纹之「秋」与春燕之「春」对举，暗合全书「春秋代序、众芳零落」的时序主题：名为「秋」的秋纹在第三十七回「秋爽斋结社」回目里登台得赏，未必是巧合。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 1,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.85,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 17,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

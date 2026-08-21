@@ -1,0 +1,567 @@
+{
+  "character": {
+    "id": "character_jia_jing",
+    "name": "贾敬",
+    "slug": "jia-jing",
+    "aliases": [
+      "敬老爷"
+    ],
+    "category": "宁国府家长（出家修道者）",
+    "importance_level": "minor",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾代化次子（长子贾敷早夭），贾珍之父，贾蓉之祖父。",
+      "position": "乙卯科进士→袭宁国公之爵→弃爵修道（玄真观）→死封五品之职（追赐）。",
+      "origin": "宁国府嫡派——「箕裘颓堕皆从敬」的宁府弃家者。",
+      "generation": "贾府第三代（「代」字辈之子）——与贾赦、贾政同辈"
+    },
+    "tags": [
+      "乙卯科进士",
+      "一味好道",
+      "玄真观",
+      "弃爵",
+      "死金丹",
+      "吞金服砂",
+      "独艳理亲丧",
+      "箕裘颓堕"
+    ],
+    "summary": {
+      "short": "宁府贾代化次子，乙卯科进士，袭爵后却「一味好道」，让官于子贾珍，自己住进玄真观烧丹炼汞。第六十三回他吞金服砂而死——「死金丹」。他的弃家修道，是宁府「无人管束」的根源；他的暴亡，是全书对炼丹求仙最刻毒的讽刺。",
+      "long": "贾敬是贾府「文字辈」三兄弟中最特殊的一个：贾赦袭爵纵欲、贾政入仕守礼，而他——考中乙卯科进士（贾府三代人中唯一的科甲正途出身）、袭了宁国公之爵，却「一味好道」，把官爵让给儿子贾珍，自己搬到城外玄真观，与道士们胡羼，整日烧丹炼汞。这个「弃家」的决定是宁府命运的转折点：宁府从此落入贾珍之手——「箕裘颓堕皆从敬」的判词（秦可卿判词）把他定为宁府败落的「第一因」：是贾敬的缺席，放出了贾珍的高乐、贾蓉的浪荡、可卿的悲剧。他的修道修得极彻底：连孙媳妇秦可卿病重将死，他也不肯回家看一眼，只捎话说「我是清净惯了的，我不愿意往你们那是非场中去闹去」——「清净」与「是非」的划分里，是道学式的冷漠。第六十三回他的结局到来：他在玄真观「吞金服砂」而亡——肚中坚硬似铁，脸皮嘴唇烧的紫绛皱裂——「死金丹」三字成了他的墓志铭。讽刺层层加码：他求长生，死于长生药；他避是非，死在是非之外；他弃家，家在他身后被抄。更妙的是后事：皇帝念其祖父之功「追赐五品之职」，贾珍却在他灵前「稽颡泣血」，转头聚赌聚麀——一场丧事，父亲被追封，儿子在演戏，宁府的荒诞在贾敬的葬礼上完成了最后的展览。贾敬形象的意义在于「出世者的失败」：他代表士大夫对末世的一种逃避方案（出家、求仙、不问世事），而曹雪芹的判决是残酷的——逃避不是解脱，是另一种死亡；服丹不是登仙，是「肚中坚硬似铁」的尸检报告。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "儒——进士出身的读书人底子",
+        "fact_type": "canonical_text_fact",
+        "description": "贾敬是贾府三代中唯一凭科甲出身的（乙卯科进士）——这个出身使他的「弃世」更有分量：他不是不学无术的愚夫愚妇（如贾赦），而是正经读书人主动选择的求仙。有学者指出，明清士大夫「由儒入道」是一条常见的精神退路——贾敬正是这条退路上的样本。"
+      },
+      {
+        "dimension": "冷——清净之外的冷漠",
+        "fact_type": "canonical_text_fact",
+        "description": "贾敬的「清净」是彻底的冷漠：儿子不教（放任贾珍）、孙子不管（任凭贾蓉）、孙媳将死不问（「不愿往是非场中去」）。他的修道修掉了一切责任——求仙成了他逃避父亲、家长、族长三重责任的最体面借口。"
+      },
+      {
+        "dimension": "愚——服丹求仙的愚行",
+        "fact_type": "canonical_text_fact",
+        "description": "一个进士死于「吞金服砂」——这是全书最尖锐的智力讽刺：读书人的聪明（考中进士）与愚昧（相信丹汞）可以并存于一人。贾敬之愚不是无知，是「知识分子的愚」：用最精致的理论（丹道）包装最荒诞的实践（服毒）。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jiajing_intro_ch2",
+        "title": "冷子兴演说——进士让爵好道（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jiajing_birthday_ch10",
+        "title": "可卿病重——「不愿往是非场中去」（第十至十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jiajing_death_ch63",
+        "title": "死金丹——吞金服砂而亡（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jiajing_funeral_ch63",
+        "title": "独艳理亲丧——追赐五品（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch02_jiajing_intro",
+        "quote": "宁公死后，贾代化袭了官，也养了两个儿子：长名贾敷，至八九岁上便死了，只剩了次子贾敬袭了官，如今一味好道，只爱烧丹炼汞，余者一概不在心上。幸而早年留下一子，名唤贾珍，因他父亲一心想作神仙，把官倒让他袭了。他父亲又不肯回原籍来，只在都中城外和道士们胡羼。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二回。贾敬的完整画像：袭官、好道、让爵、胡羼——宁府「当家者缺席」的起点。"
+      },
+      {
+        "source_id": "source_ch10_jiajing_birthday",
+        "quote": "（贾珍对尤氏说）「我方才到了太爷那里去请安，兼请太爷来家来受一受一家子的礼。太爷因说道：『我是清净惯了的，我不愿意往你们那是非场中去闹去。你们必定说是我的生日，要叫我去受众人些头，莫过你把我从前注的《阴骘文》给我令人好好的写出来刻了，比叫我无故受众人的头还强百倍呢。』」……（可卿病重时贾珍说）「方才冯紫英来瞧我，他提起他有一个幼时从学的先生，姓张名友士……我们倒不如寻这个人看看。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十回。贾敬拒绝回家受礼——「是非场」三字是弃家者的自我辩护，也是孙媳之死的冷漠背景。"
+      },
+      {
+        "source_id": "source_ch63_jiajing_death",
+        "quote": "忽见东府中几个人慌慌张张跑来，说：「老爷宾天了！」……大夫们见人已死，何处诊脉来，素知贾敬导气之术总属虚诞，更至参星礼斗，守庚申，服灵砂等，妄作虚为，过于劳神费力，反因此伤了性命的。如今虽死，肚中坚硬似铁，面皮嘴唇烧的紫绛皱裂。……众人道：「原是老爷秘法新制的丹砂吃坏事，小道们也曾劝说『功行未到且服不得』，不承望老爷于今夜守庚申时悄悄的服了下去，便升仙了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十三回。「死金丹」——贾敬死于自己炼的丹砂，「肚中坚硬似铁」的尸检报告是全书最冷的讽刺。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名敬，宁国府贾代化次子",
+      "detail": "「敬」——敬天法祖、敬业乐群之「敬」。贾府「文字辈」三兄弟谐音群：贾敬＝假敬——他的「敬」是假的：不敬祖（弃家离祠）、不敬业（弃爵让官）、不敬亲（孙媳将死不问），唯一「敬」的只有烧丹炼汞（敬神仙）。与贾赦（假赦＝假宽仁）、贾政（假正＝假正经）并立，三兄弟名中三德（敬、赦、政）全部成假——贾府第三代的道德塌方，从名字上即已完成。「贾敬」又与「嘉靖」（明世宗年号）音近，嘉靖帝亦以崇道炼丹药闻名（死于服用方士丹药的争议），学者多认为曹雪芹此名暗含对明代皇帝服丹风气的讥刺。",
+      "fact_type": "text_inference",
+      "disputes": [
+        {
+          "title": "「贾敬」与「嘉靖」的影射",
+          "content": "一说贾敬之名暗射明世宗嘉靖帝（崇道、炼丹、避居西苑，死于丹药），为索隐派论据之一；主流红学多视之为「服丹风气」的泛指，不坐实为影射。",
+          "proponent": "索隐派 / 主流红学"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文（第63回吞金服砂而死）",
+        "death_age": "未见明文（约60岁上下）"
+      },
+      "conclusion": "原文未见明文；乙卯科进士、贾珍之父，约六十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "敬老爷",
+      "type": "府内称呼",
+      "context": "宁府上下对贾敬的称呼——「老爷」的体面犹在，人却已在城外与道士胡羼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "太爷",
+      "type": "贾珍对其父的称呼",
+      "context": "贾珍称贾敬为「太爷」——父子之间隔着道观与红尘，「太爷」的敬称里全是距离",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jiajing_intro_ch2",
+      "title": "冷子兴演说——进士弃爵、一味好道",
+      "event_level": "minor",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府/玄真观（转述）",
+        "specific": "冷子兴介绍：贾敬袭官后一味好道，只爱烧丹炼汞，「一心想作神仙」，把官让给贾珍，自己在城外与道士们胡羼，不肯回原籍。"
+      },
+      "summary": {
+        "short": "贾敬的人生在第二回被一句话概括：袭官、弃爵、求仙。宁府的当家者自我流放——「箕裘颓堕皆从敬」的悲剧齿轮由此启动。",
+        "meaning": [
+          "「一心想作神仙」——他的弃世是主动的、彻底的：连原籍都不回",
+          "让官于贾珍——宁府权力交接的灾难性决定：贾珍从此无人辖制",
+          "「和道士们胡羼」——「胡羼」二字写尽他的修道成色：不是清修，是厮混"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_jing",
+          "role": "被介绍者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch02_jiajing_intro",
+          "summary": "贾敬袭官、好道、让爵、胡羼——宁府「当家者缺席」的起点。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「箕裘颓堕皆从敬」——弃家者的判决",
+          "content": "秦可卿判词「箕裘颓堕皆从敬」把宁府败落的「第一因」判给贾敬：他的弃家使宁府失去最后的约束——贾珍的高乐、贾蓉的浪荡、可卿的悲剧，都在「当家者缺席」的真空里发生。脂批与学者普遍认为，曹雪芹写贾敬不是闲笔：宁府之乱需要一个人来「开闸」，这个人就是贾敬——他求自己的仙，放出了一府的鬼。"
+        },
+        {
+          "type": "literary",
+          "title": "进士与神仙——明清士大夫的精神退路",
+          "content": "贾敬「乙卯科进士」的出身被一笔带过，但这一笔极重：一个凭真才实学考出来的读书人，最后选择炼丹求仙——这是明清士大夫「由儒入道」退路的文化写真（功名无望或看破世情后遁入佛道）。曹雪芹写贾敬不写其「为何弃世」（留白），只写其「如何死去」（服丹）——他关心的不是贾敬的动机，是这条退路的结局：死亡。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiajing_birthday_ch10",
+      "title": "「不愿往是非场中去」——孙媳将死的冷漠",
+      "event_level": "minor",
+      "chapter": {
+        "number": 10,
+        "title": "金寡妇贪利权受辱 张太医论病细穷源",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "玄真观（转述）",
+        "specific": "贾敬寿日，贾珍来请其回家受礼。贾敬拒绝：「我是清净惯了的，我不愿意往你们那是非场中去闹去。」宁可要贾珍把他注的《阴骘文》刻了，也不愿受头。此时可卿已病重——贾敬连孙媳妇的死活也不问。"
+      },
+      "summary": {
+        "short": "可卿病重将死，贾敬拒绝回家——「我是清净惯了的，不愿意往你们那是非场中去闹」。他把自己的家庭称为「是非场」，把弃亲责任称为「清净」：修道者的冷漠在此达到顶点。",
+        "meaning": [
+          "「是非场」——一个父亲、祖父对自己家的定义：家只是是非之地",
+          "《阴骘文》——他要刻的是劝善文，行的却是弃亲事：修行与修德的彻底分离",
+          "可卿之死的背景板——孙媳病危与祖父避世并置，宁府的亲情真空暴露无遗"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_jing",
+          "role": "拒归者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "贾珍——请安请归的儿子"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch10_jiajing_birthday",
+          "summary": "贾敬拒归——「是非场」之语与可卿之病的并置。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「清净」的代价",
+          "content": "贾敬的「清净」是全书最昂贵的清净：他以「清净」为名，拒付了全部家庭责任——儿子的教育、孙媳的死活、宁府的兴衰，统统是「是非」。而他的清净最终也没保住：他死于自己炼的丹（不清净的死法），他的葬礼被贾珍办成聚赌聚麀的由头（不清净的结局）。曹雪芹以此判决：拒绝是非的人，死在是非之外；逃避责任的人，被责任清算。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiajing_death_ch63",
+      "title": "死金丹——吞金服砂而亡",
+      "event_level": "major",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "玄真观",
+        "specific": "贾敬于玄真观吞服新制的丹砂暴亡：「肚中坚硬似铁，面皮嘴唇烧的紫绛皱裂」。道士们说「老爷秘法新制的丹砂吃坏事」，贾敬「于今夜守庚申时悄悄的服了下去，便升仙了」。"
+      },
+      "summary": {
+        "short": "求仙者死于仙丹：贾敬吞金服砂而亡，「肚中坚硬似铁」。回目「死金丹」——一个「死」字是曹雪芹对炼丹求仙的全部判决。",
+        "meaning": [
+          "「肚中坚硬似铁」——全书最冷的尸检报告：长生之药就是速死之毒",
+          "「便升仙了」——道士的掩饰之语与尸体的惨状并置，讽刺入骨",
+          "「悄悄的服了下去」——他死时也是悄悄的：与他一生的「清净」呼应"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_jing",
+          "role": "死者——吞金服砂"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch63_jiajing_death",
+          "summary": "贾敬暴亡的尸检与道士的说辞——「死金丹」的讽刺。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "服丹而死——明代风气的文学审判",
+          "content": "贾敬之死是对明代服丹风气的文学审判：明代帝王（世宗、光宗等）与士大夫多有服食丹药而死者，曹雪芹以一个宁府进士的「肚中坚硬似铁」为这场风气作了最直白的尸检。学者指出，「死金丹」一节是全书写「求仙」主题的巅峰：甄士隐随道人去是真悟，贾敬服丹死是假修——一悟一死，曹雪芹把「度脱」与「愚昧」两条求仙路对照得清清楚楚。"
+        },
+        {
+          "type": "character",
+          "title": "贾敬之死——宁府的最后一场「礼」",
+          "content": "贾敬之死引出第六十三回后半的「独艳理亲丧」：贾珍父子灵前泣血、人后聚麀，一场丧事办成了宁府最后的狂欢。父亲的死没有唤回儿子的天良，反而给了儿子新的高乐舞台——贾敬一生弃家，死后连「被哀悼」的资格都被儿子的表演污染。宁府至此完成了「敬—珍—蓉」三代人的全部表演：祖父假修，父亲假孝，孙子假悲。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiajing_funeral_ch63",
+      "title": "独艳理亲丧——追赐五品",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府/铁槛寺",
+        "specific": "贾敬死后，皇上「念其祖父之功」追赐五品之职，准子孙扶柩归葬。尤氏独自主持丧事（贾珍贾蓉赴任未归），「独艳理亲丧」。贾珍父子赶回，「从大门外跪爬进来，稽颡泣血」——转头就与尤氏姐妹厮混。"
+      },
+      "summary": {
+        "short": "贾敬死后的葬礼是一场「礼的展览」：皇上追赐五品、尤氏独艳理丧、贾珍跪爬泣血——而「礼」的每一环都在被表演者污染：追赐给死人，泣血给活人看。",
+        "meaning": [
+          "追赐五品——皇恩追到了棺材里：贾敬生前弃的爵，死后又回来",
+          "尤氏理丧——全书唯一一次宁府女性挑大梁：「独艳」二字既写其能，也写其孤",
+          "贾珍的跪爬泣血——全书最隆重的孝的表演，与最迅速的孝的背叛"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_jing",
+          "role": "亡者——追赐五品"
+        },
+        {
+          "character_id": "character_you_furen",
+          "role": "尤氏——独艳理亲丧"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "贾珍——跪爬泣血后即聚麀"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「独艳理亲丧」——回目的对照美学",
+          "content": "回目「死金丹独艳理亲丧」上下两半构成完美对照：死金丹（父亲的死——丑）与独艳理（儿媳的丧——艳）；上句写愚（服丹），下句写能（理丧）；上句是宁府之荒诞，下句是宁府之体面。曹雪芹把贾敬的死与尤氏的丧并置一联，让读者在同一回目里看尽宁府的两面：老人糊涂赴死，妇人独力撑家——而真正该在的男人们（贾珍父子）在演完泣血后直奔小姨子。"
+        },
+        {
+          "type": "hongxue",
+          "title": "贾敬之丧与可卿之丧——两场葬礼的对照",
+          "content": "贾敬之丧与秦可卿之丧构成全书葬礼系统的对照：可卿之丧奢华僭越（公公为儿媳倾家荡产），贾敬之丧虽有追赐却潦草收场（儿子忙着聚麀）——一个是「情」（乱伦之情）办的假葬礼，一个是「礼」（孝道之礼）办的假葬礼。两场葬礼的对照揭示宁府的真实状态：无论情还是礼，在宁府都只剩表演。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jiajing_jia_mu",
+      "from": "character_jia_jing",
+      "to": "character_jia_mu",
+      "type": "族亲（妯娌辈分）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾敬与贾母同辈（贾敬为贾代化之子，贾母为贾代善之妻）。贾母对这位堂侄辈的修道者不闻不问——贾府的分裂从「敬」一代开始：宁府求仙、荣府享福，两府各自败落。贾敬之死时贾母的关切也止于礼数，可见两府的疏离。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "分道",
+          "chapter": 2,
+          "description": "宁府修道、荣府持家——两府从贾敬弃家起渐行渐远。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiajing_you_furen",
+      "from": "character_jia_jing",
+      "to": "character_you_furen",
+      "type": "翁媳（被托付的理丧人）",
+      "nature": [
+        "family"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾敬死时，贾珍贾蓉俱不在家，尤氏独自主持丧事——「独艳理亲丧」。这个翁媳关系的讽刺在于：贾敬一生避「是非场」，死后却把全部是非（丧事、家事）压在一个儿媳身上。尤氏的能干反衬了宁府男人们的集体缺席——贾敬弃家、贾珍赴任、贾蓉随行，宁府的担子从来都压在女人肩上。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "独艳理丧",
+          "chapter": 63,
+          "description": "尤氏独自主持贾敬丧事。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiajing_daoist",
+      "from": "character_jia_jing",
+      "to": "character_xuanzhen_daoists",
+      "type": "道友（被蛊惑者）",
+      "nature": [
+        "spiritual_guide"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "玄真观的道士们是贾敬「求仙」的伴当：陪他导气、参星、守庚申，最后给他的丹砂「吃坏了事」。贾敬死后道士们的说辞（「功行未到且服不得」「便升仙了」）写尽这类「方士」的嘴脸——他们不是渡人的仙师，是陪葬的帮闲。贾敬一生的「清净」，就是与这些人胡羼出来的清净。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "胡羼",
+          "chapter": 2,
+          "description": "贾敬与道士们混在城外。"
+        },
+        {
+          "stage": 2,
+          "title": "死丹",
+          "chapter": 63,
+          "description": "道士的新制丹砂要了贾敬的命。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jiajing_abandon",
+      "title": "贾敬为什么弃家修道？「箕裘颓堕皆从敬」如何理解？",
+      "slug": "why-did-jiajing-abandon-family",
+      "question_type": "character_motivation",
+      "importance_weight": 76,
+      "heat_weight": 62,
+      "neutral_overview": "一个乙卯科进士、袭爵之尊，为什么抛家弃爵去炼丹？判词「箕裘颓堕皆从敬」把他定为宁府败落的第一因——这个判决公平吗？",
+      "viewpoint_ids": [
+        "vp_jiajing_abandon_escape",
+        "vp_jiajing_abandon_sentence",
+        "vp_jiajing_abandon_way"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiajing_abandon_escape",
+          "title": "逃避论：求仙是读书人对末世的退路",
+          "summary": "贾敬的弃家是明清士大夫「出世退路」的写照：科甲无望（或看破世情）的读书人遁入佛道，求的是「清净」。他把家庭称为「是非场」，说明他的出走带着明确的厌弃——不是被逐，是自逐。他的问题不在出走本身，而在于出走的方式：把官爵、家业、子教全部丢给一个浪荡儿子，退路变成了逃债。",
+          "evidence": [
+            "「是非场」的自我表白",
+            "让官于贾珍的后果",
+            "明清士大夫遁入佛道的文化背景"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiajing_abandon_sentence",
+          "title": "判决论：判词的「皆从敬」是因果判决",
+          "summary": "判词「箕裘颓堕皆从敬」是因果判决：贾珍之乱、贾蓉之浪、可卿之死——溯因到最后，都是贾敬的缺席。作为宁府的家长，他弃的不是「家」，是「责任」：家长的职能（约束、教育、掌舵）在他出走的那一刻全部真空，宁府从此成为无主之地。这个判决在家族伦理框架内完全成立：家长弃家，罪莫大焉。",
+          "evidence": [
+            "贾敬弃家后宁府的乱象",
+            "「皆从敬」的判词",
+            "贾珍无拘与贾敬缺席的因果关系"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiajing_abandon_way",
+          "title": "退路论：他的「求仙」本身也是病态",
+          "summary": "更深的读法质疑「求仙」本身：贾敬的修道不是清修（导气、服砂、胡羼），是另一种「高乐」——他把求仙当成贾赦的好色、贾政的举业一样的执念。曹雪芹写他死于自炼的丹，就是判定这条「退路」也是死路：末世之人，无处可逃——入世是烂，出世是死。贾敬的悲剧不在选错了路，在于根本没有路。",
+          "evidence": [
+            "贾敬「服灵砂」等妄作虚为的细节",
+            "死金丹的讽刺判决",
+            "与甄士隐真悟的对照"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiajing_death",
+      "title": "「死金丹」的讽刺有多深？曹雪芹为什么让贾敬死于丹药？",
+      "slug": "significance-of-jiajing-death",
+      "question_type": "literary_analysis",
+      "importance_weight": 74,
+      "heat_weight": 60,
+      "neutral_overview": "贾敬「肚中坚硬似铁，面皮嘴唇烧的紫绛皱裂」的尸检描写，是全书最露骨的死亡书写。曹雪芹为何如此处理一个求仙者之死？",
+      "viewpoint_ids": [
+        "vp_jiajing_death_satire",
+        "vp_jiajing_death_contrast"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiajing_death_satire",
+          "title": "讽刺论：长生之药即速死之毒",
+          "summary": "贾敬之死是全书对炼丹求仙的终极讽刺：他求长生，死于长生药；他信丹汞，丹汞烧裂了他的肚腹。曹雪芹用一份尸检报告（「肚中坚硬似铁」）代替一切道德说教——医学事实比任何批判都锋利。而道士们「便升仙了」的掩饰之词，让这份讽刺又添了一层人间喜剧。",
+          "evidence": [
+            "尸检描写的写实笔法",
+            "道士说辞与尸体惨状的反差"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiajing_death_contrast",
+          "title": "对照论：贾敬之死与甄士隐之悟",
+          "summary": "贾敬之死需要与甄士隐的出家对照读：士隐「彻悟」后随道人而去——是精神的度脱；贾敬「假修」后死于丹药——是肉体的毁灭。两个求仙者，一个得道（解脱），一个得死（教训）。曹雪芹以此区分「真悟」与「假修」：悟者放下（士隐弃家而心净），修者执着（贾敬求丹而身亡）——求仙的差别不在形式，在「执」与「放」。",
+          "evidence": [
+            "甄士隐随跛足道人出家的情节",
+            "贾敬服丹而死的细节",
+            "「悟」与「修」的哲学对照"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiajing_jinshi",
+      "title": "贾敬的「乙卯科进士」身份有什么用意？",
+      "slug": "jiajing-jinshi-significance",
+      "question_type": "character_analysis",
+      "importance_weight": 66,
+      "heat_weight": 52,
+      "neutral_overview": "曹雪芹特意给贾敬安排了一个「乙卯科进士」的出身——贾府三代人中唯一的科甲正途。这个细节有什么深意？",
+      "viewpoint_ids": [
+        "vp_jiajing_jinshi_irony",
+        "vp_jiajing_jinshi_dynasty"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiajing_jinshi_irony",
+          "title": "反讽论：最聪明的人做最愚的事",
+          "summary": "进士（全国性的考试精英）死于自炼的丹药——这是曹雪芹精心设计的智力反讽：读书人的聪明（考中进士）与愚昧（相信丹汞）并不互斥，甚至互相成就——正因他读得进丹书、悟得透玄理，才把「服丹升仙」信得比谁都深。贾敬的进士身份让「死金丹」的讽刺升级：这不是愚夫愚妇的迷信，是知识分子的自我说服。",
+          "evidence": [
+            "乙卯科进士与服丹而死的对照",
+            "他注《阴骘文》的「读书人修道」形态"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiajing_jinshi_dynasty",
+          "title": "家世论：贾府「科甲梦」的唯一实现者",
+          "summary": "贾府三代人的「科甲梦」（贾政原欲以科甲出身、宝玉被逼举业）在贾敬这里实现过一次——他是贾府唯一考中进士的人。而这个唯一实现者的结局是弃爵修道、服丹而死——这个安排是对「科甲」本身的消解：考中了又怎样？进士的最后归宿是玄真观的丹炉。曹雪芹以贾敬的弃世，嘲讽了贾府（乃至整个士林）对功名的执念：功名的终点，不过是另一个执念。",
+          "evidence": [
+            "贾府三代人的科甲梦（贾政、宝玉）",
+            "贾敬考中而弃世的对照"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jiajing_system",
+      "title": "贾敬——「弃家」主题的开端与家族崩溃的引信",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学结构研究",
+      "year": 1992,
+      "source_title": "多项家族结构研究",
+      "description": "学者指出，贾敬是《红楼梦》「弃家」主题的第一个实施者：甄士隐弃家是「悟」（家败后出家），贾敬弃家是「逃」（家兴时求仙），宝玉弃家是「彻」（情灭后撒手）——三个弃家者构成一条递进的度脱链。而贾敬的特殊性在于他的弃家直接引发家族的失控：宁府之乱、可卿之死、贾府之败，都可溯源到玄真观里的那尊丹炉。有论者称贾敬为「不在场的在场者」——全书不写他，却处处是他的后果。"
+    },
+    {
+      "id": "viewpoint_jiajing_dan",
+      "title": "服丹而死——对明代「丹药文化」的文学审判",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学文化史研究",
+      "year": 1998,
+      "source_title": "多项文化史研究",
+      "description": "文化史视角的研究把「死金丹」置于明代丹药文化的大背景下：明世宗嘉靖帝崇道炼丹、避居西苑二十年；士大夫阶层风行服食、导引之术。曹雪芹以贾敬（进士、袭爵、崇道、服丹而死）浓缩了这一整段风气史，并用「肚中坚硬似铁」的尸检为这场风气写下最直白的注脚——求仙文化的真相，是铅汞中毒。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 3,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 18,
+      "text_inference": 14,
+      "scholarly_viewpoint": 5,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

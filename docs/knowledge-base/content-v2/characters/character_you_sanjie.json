@@ -1,0 +1,588 @@
+{
+  "character": {
+    "id": "character_you_sanjie",
+    "name": "尤三姐",
+    "slug": "you-san-jie",
+    "aliases": [
+      "三姐",
+      "尤三姨"
+    ],
+    "category": "宁国府姻亲（尤氏之妹，柳湘莲未婚妻）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "尤老娘之女，尤二姐之妹，尤氏继母带来的妹妹。",
+      "position": "尤家三姐→柳湘莲定亲（鸳鸯剑为聘）→自刎而死。",
+      "origin": "寒素之家，随母依附宁国府。",
+      "generation": "与尤氏、凤姐同辈"
+    },
+    "tags": [
+      "怒戏珍琏",
+      "嫖了男人",
+      "五年痴等",
+      "折断玉簪",
+      "鸳鸯剑",
+      "揉碎桃花",
+      "刚烈",
+      "版本洁化之争",
+      "庚辰本",
+      "程乙本"
+    ],
+    "summary": {
+      "short": "尤二姐之妹，容貌风流标致，性格刚烈如火。第六十五回怒戏贾珍贾琏（「嫖了男人」），择定柳湘莲后折簪立誓、五年痴等；第六十六回柳湘莲赠鸳鸯剑定亲又反悔，三姐以剑自刎——「揉碎桃花红满地，玉山倾倒再难扶」。",
+      "long": "尤三姐是尤二姐之妹，容貌风流标致，性情刚烈。第六十五回贾珍贾琏在花枝巷轻薄，三姐发怒戏耍二人——「谁知越有钱越操蛋」式的泼辣直骂，把两个爷们反「嫖了」，是为护姐门户之战。她自择夫婿，认定五年前戏台上一面的柳湘莲：「这人一年不来，她等一年；十年不来，等十年」——说罢折断玉簪立誓。第六十六回柳湘莲以祖传鸳鸯剑为聘定亲，三姐「喜之不尽」，将剑挂在绣房床上朝夕相对。岂料湘莲听信流言（宁府污名），反悔索剑——「东府里除了那两个石头狮子干净」——三姐闻讯还剑，雌剑出鞘自刎：「揉碎桃花红满地，玉山倾倒再难扶」。湘莲痛哭「这等标致，这等刚烈」——悔之晚矣，遂随跛足道人出家（回目「冷二郎一冷入空门」）。核心争议是版本问题：庚辰本写三姐「淫奔浪荡」（与珍琏暧昧），程乙本（高鹗）将其「洁化」为贞烈女——这是版本学的著名案例（白先勇在联合早报撰文论述此案）。名字考据：「尤」通「尤物」——姊妹皆以色立身。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "刚烈——「揉碎桃花红满地」",
+        "fact_type": "canonical_text_fact",
+        "description": "尤三姐的「烈」是全书女性形象中最极致的：她敢怒戏珍琏、敢自择夫婿、敢折簪立誓、敢一剑自刎。她的烈不是任性，而是「宁为玉碎」的生命哲学——当爱情被怀疑玷污，她以死自证清白：「我这一把剑，只认你的剑」。"
+      },
+      {
+        "dimension": "痴情——五年痴等与折簪之誓",
+        "fact_type": "canonical_text_fact",
+        "description": "「这人一年不来，她等一年；十年不来，等十年」——尤三姐的痴情以年为计、以死为底。她的爱是全书罕见的「主动之爱」：女子自择夫婿、自定终身，不靠父母之命媒妁之言。这份主动性在礼教时代是惊世骇俗的——也注定了她的悲剧。"
+      },
+      {
+        "dimension": "清醒的自我——对污名的反抗",
+        "fact_type": "canonical_text_fact",
+        "description": "三姐对宁府的污浊看得极清：她知道自己活在流言里，却偏要以最暴烈的方式宣示清白。她自刎不是为情自杀的软弱，而是「以死明志」的强硬——死是她能选择的最大的自由。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_you_sanjie_enter_ch63",
+        "title": "随母进宁府（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_you_sanjie_tease_ch65",
+        "title": "怒戏珍琏——「嫖了男人」（第六十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_you_sanjie_vow_ch65",
+        "title": "折簪立誓，五年痴等柳湘莲（第六十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_you_sanjie_sword_ch66",
+        "title": "鸳鸯剑定亲，湘莲反悔（第六十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_you_sanjie_death_ch66",
+        "title": "以剑自刎——「玉山倾倒再难扶」（第六十六回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch65_you_sanjie_vow",
+        "quote": "尤三姐道：「……姐姐说的好，我合你说了吧：……这人一年不来，他等一年；十年不来，等十年；若这人死了再不来了，他情愿剃了头当姑子去，吃长斋念佛，以了今生。」……尤三姐折了根玉簪，一掰两段，说：「一句话不真，就如这簪子一样！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十五回。折簪之誓——全书女子痴情的最强音。"
+      },
+      {
+        "source_id": "source_ch66_you_sanjie_sword",
+        "quote": "柳湘莲道：「……路上自己念想，这门亲事，原是我早已的。但断断做不得的！……你们东府里除了那两个石头狮子干净，只怕连猫儿狗儿都不干净。我不做这剩忘八。」……尤三姐……一面泪如雨下，一面取出剑来——将雌锋隐在肘内，出来说：「你们不必出去再议，还你的定礼。」……横剑自刎。……「揉碎桃花红满地，玉山倾倒再难扶」。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十六回。「石头狮子干净」名言与「揉碎桃花」绝句，均出此回。"
+      },
+      {
+        "source_id": "source_ch66_you_sanjie_xianglian_cry",
+        "quote": "柳湘莲扶棺大哭道：「我并不知道你是这等刚烈贤妻，可敬，可敬。」……「这等标致，这等刚烈」……湘莲情醒过来，掣出那股雄剑，将万根烦恼丝一挥而尽，便随那道士，不知往那里去了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十六回。湘莲一冷入空门——回目「情小妹耻情归地府 冷二郎一冷入空门」。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "尤氏之妹，「尤三姐」为排行称谓",
+      "detail": "「尤」字双关：一为姓氏，二通「尤物」——尤氏姊妹皆以美色立身、以色事人。红学家指出「尤」亦与「忧」同音：尤氏姊妹的命运充满忧患。「三姐」之「三」与其姐之「二」一样，是没有任何名字的排行——暗示她们在礼法秩序中的无名状态。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 65,
+          "evidence": "三姐：五年前我们老娘家里做生日，妈和我们到那里与老娘拜寿……我看上的（柳湘莲）",
+          "age": "五年前见湘莲"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文（约十八九岁）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；比二姐小，痴等柳湘莲五年，死时约十八九岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "尤三姨",
+      "type": "排行称谓",
+      "context": "花枝巷众人对其称谓",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "三姐",
+      "type": "家人称谓",
+      "context": "尤老娘、尤二姐称其「三姐」",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_you_sanjie_tease_ch65",
+      "title": "怒戏珍琏——「嫖了男人」的护姐之战",
+      "event_level": "major",
+      "chapter": {
+        "number": 65,
+        "title": "贾二舍偷娶尤二姨 尤三姐思嫁柳二郎",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "小花枝巷",
+        "specific": "贾珍贾琏在花枝巷吃酒，欲轻薄尤氏姊妹。尤三姐发怒，卸妆露臂、嘻笑怒骂，反客为主地戏耍二人：「把那两个泼皮嫖了个够」。"
+      },
+      "summary": {
+        "short": "尤三姐以泼辣狂态反「嫖」贾珍贾琏——把男权社会的性霸权当场倒转。这场戏是她人格的宣言：她不是猎物，是猎手；不是弱者，是「把你们嫖了」的人。",
+        "meaning": [
+          "「嫖了男人」是全书最惊世骇俗的女性宣言——以男性逻辑反制男性",
+          "三姐的放浪是策略性的：以假放浪护真尊严、护姐门户",
+          "此回建立三姐形象的「烈」，为后文的「痴」与「死」蓄势"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "放浪的策略性",
+          "content": "三姐的狂态不是自弃，是武器：她深知珍琏是「狗改不了吃屎」的浪荡子，只有比他们更浪才能镇住他们。曹雪芹写她「反嫖了」二人后，二人反不敢轻举妄动——「泼」是三姐在虎狼环伺中的生存智慧。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「嫖了男人」的版本差异",
+          "content": "此回三姐的言行在庚辰本与程乙本中差异显著：庚辰本写其放浪形骸（与珍琏有暧昧），程乙本将其改为「作践他二人」的清白烈女。这一版本差异直接关联尤三姐形象的「洁化」之争——是版本学最著名的案例之一。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_sanjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_sanjie_vow_ch65",
+      "title": "折簪立誓——五年痴等柳湘莲",
+      "event_level": "major",
+      "chapter": {
+        "number": 65,
+        "title": "贾二舍偷娶尤二姨 尤三姐思嫁柳二郎",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "小花枝巷",
+        "specific": "尤二姐与贾琏劝三姐择婿。三姐说出心事：五年前老娘做生日时，戏台上串小生的柳湘莲让她一见倾心。发誓「这人一年不来，她等一年；十年不来，等十年」，并折断玉簪为誓。"
+      },
+      "summary": {
+        "short": "尤三姐自择夫婿——五年前戏台上的一面之缘，支撑她五年的痴等。折断玉簪的誓言是全书女性爱情的最高音：爱是自选的、终身的、以命相抵的。",
+        "meaning": [
+          "「自择夫婿」在礼教社会是叛逆——女子没有选择权，三姐偏要选择",
+          "五年的痴等以「年」为计数单位——把时间熬成誓言",
+          "折簪之誓的象征：簪是女子的头面，折断簪子=押上全部的人生"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "戏台之缘——舞台美学的爱情",
+          "content": "三姐爱上的是戏台上的柳湘莲——串小生的冷二郎。这场爱情始于「看戏」，即始于审美：她爱的是那个「冷面冷心」的舞台形象。悲剧的伏笔正在这里——她爱的柳湘莲与现实中的柳湘莲，隔着戏台与生活的距离。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_sanjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_sanjie_sword_ch66",
+      "title": "鸳鸯剑定亲与反悔",
+      "event_level": "major",
+      "chapter": {
+        "number": 66,
+        "title": "情小妹耻情归地府 冷二郎一冷入空门",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府/平安州",
+        "specific": "贾琏路遇柳湘莲，说定亲事。湘莲以祖传鸳鸯剑为定礼——三姐「喜之不尽」，将剑挂在绣房床前，自念终身有靠。后湘莲进京听信流言，认定宁府「除了那两个石头狮子干净」，向贾琏索剑退婚。"
+      },
+      "summary": {
+        "short": "柳湘莲赠鸳鸯剑定亲，尤三姐把全部的希望挂在床前剑上——「终身有靠」四字是她五年痴等的回报。然而湘莲一句「石头狮子干净」，让这份希望瞬间坍塌。定亲与退亲之间，只有一柄剑的距离。",
+        "meaning": [
+          "鸳鸯剑是「成双」的象征——三姐要的不是富贵，是「成双」的归宿",
+          "湘莲反悔的理由（宁府污名）是三姐自己无法辩白的原罪——她死于流言的集体审判",
+          "退亲的打击对三姐是致命的：她的「烈」只准备了「被接受」的结局，没准备「被拒绝」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "鸳鸯剑的叙事象征",
+          "content": "鸳鸯剑雌雄两股：定亲时湘莲留下雌剑，自佩雄剑——「鸳鸯」是婚配的象征。三姐自刎用雌剑，湘莲出家挥断烦恼丝用雄剑——成双的剑，一个用来死，一个用来出家。曹雪芹以剑的「成双」写人的「离散」，是最冷冽的对照。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_sanjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_sanjie_death_ch66",
+      "title": "以剑自刎——「揉碎桃花红满地」",
+      "event_level": "major",
+      "chapter": {
+        "number": 66,
+        "title": "情小妹耻情归地府 冷二郎一冷入空门",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "尤二姐住处",
+        "specific": "湘莲索剑，三姐还剑，雌锋出鞘，横剑自刎——「揉碎桃花红满地，玉山倾倒再难扶」。湘莲扶棺大哭：「我并不知道你是这等刚烈贤妻」，遂随跛足道人出家。"
+      },
+      "summary": {
+        "short": "尤三姐以鸳鸯剑自刎——「耻情归地府」的「耻」字是回目之眼：她的死不是殉情，是雪耻——用血洗刷流言、自证清白。「揉碎桃花红满地」的绝美与惨烈，让这场死亡成为全书最壮烈的女性悲剧之一。",
+        "meaning": [
+          "「耻情」——三姐死于「情」被玷污：她可以等、可以爱，但不能被怀疑",
+          "自刎的对象是湘莲——死在负心人面前，让悔恨成为对她的祭品",
+          "湘莲的「一冷入空门」：三姐之死「度化」了湘莲——她的死改变了另一个人的命运"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "死是最大的主动权",
+          "content": "尤三姐一生都在抢主动权：抢话语权（怒戏珍琏）、抢选择权（自择夫婿）、抢证明权（以死自证）。她无法选择生，就选择死——自刎是她在礼教流言的围剿中，唯一能完全自主的动作。"
+        },
+        {
+          "type": "literary",
+          "title": "「揉碎桃花」的死亡美学",
+          "content": "「揉碎桃花红满地，玉山倾倒再难扶」——以「桃花」写血、以「玉山」写身，把死亡写成美的粉碎。曹雪芹给三姐的死最高的诗意规格：她的刚烈配得上这样的句子。对比二姐吞金之暗哑，三姐之死是「有声有色」的——她是尤氏姊妹中死得最壮烈的一个。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_sanjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lame_daoist",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_you_sanjie_liu_xianglian",
+      "from": "character_you_sanjie",
+      "to": "character_liu_xianglian",
+      "type": "定亲→悔婚（痴情与悔恨）",
+      "nature": [
+        "romantic",
+        "tragedy"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤三姐五年前在戏台上一见柳湘莲，痴等五年；湘莲以鸳鸯剑定亲又反悔。三姐自刎，湘莲大哭出家。这场爱情始于舞台审美、毁于流言、终于两败俱伤——三姐失命，湘莲失心。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "一见倾心",
+          "chapter": 65,
+          "description": "五年前戏台上见湘莲串小生，三姐暗许终身。"
+        },
+        {
+          "stage": 1,
+          "title": "定亲",
+          "chapter": 66,
+          "description": "路上受贾琏说亲，以鸳鸯剑为定。"
+        },
+        {
+          "stage": 2,
+          "title": "定亲",
+          "chapter": 66,
+          "description": "湘莲赠鸳鸯剑为定，三姐喜之不尽。"
+        },
+        {
+          "stage": 2,
+          "title": "悔婚",
+          "chapter": 66,
+          "description": "听信流言，索剑退婚。"
+        },
+        {
+          "stage": 3,
+          "title": "悔婚",
+          "chapter": 66,
+          "description": "湘莲听信流言索剑退婚，三姐自刎。"
+        },
+        {
+          "stage": 3,
+          "title": "顿悟",
+          "chapter": 66,
+          "description": "三姐自刎，湘莲大哭出家。"
+        },
+        {
+          "stage": 4,
+          "title": "出家",
+          "chapter": 66,
+          "description": "湘莲大哭后随跛足道人入空门。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_you_sanjie_jia_lian",
+      "from": "character_you_sanjie",
+      "to": "character_jia_lian",
+      "type": "姐夫的撮合者（被戏耍者）",
+      "nature": [
+        "social_alliance",
+        "family"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾琏觊觎三姐而不敢（被「嫖了」之后），转为替三姐说亲柳湘莲——三姐的婚事经贾琏之手促成。贾琏是这段姻缘的中间人，也是间接的害人者（流言环境中的一环）。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "被戏",
+          "chapter": 65,
+          "description": "贾琏与贾珍被三姐反「嫖了」。"
+        },
+        {
+          "stage": 2,
+          "title": "说亲",
+          "chapter": 66,
+          "description": "贾琏路遇湘莲，说定鸳鸯剑之聘。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_you_sanjie_jia_baoyu",
+      "from": "character_you_sanjie",
+      "to": "character_jia_baoyu",
+      "type": "知音（流言中的说漏者）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉在湘莲面前称赞尤氏姊妹是「古今绝色」，却不慎说出「真真一对尤物」之语，令湘莲起疑——宝玉无意间成了流言链上的一环。三姐之死令宝玉大恸（「揉碎桃花」的批语处宝玉泣血）。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赞誉与说漏",
+          "chapter": 66,
+          "description": "宝玉向湘莲赞二尤「绝色」，湘莲疑其「淫奔」。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_you_sanjie_version",
+      "title": "尤三姐到底是「贞烈女」还是「淫奔女」？——庚辰本与程乙本之争",
+      "slug": "you-sanjie-chaste-or-wanton-version-debate",
+      "question_type": "version_dispute",
+      "importance_weight": 88,
+      "heat_weight": 90,
+      "neutral_overview": "庚辰本写尤三姐与贾珍有染（淫奔浪荡），程乙本（高鹗整理）将其改为清白贞烈、以死明志的女子。两种版本的三姐形象截然不同——哪个更接近曹雪芹原意？",
+      "viewpoint_ids": [
+        "vp_you_sanjie_gengchen",
+        "vp_you_sanjie_chengyi"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_you_sanjie_gengchen",
+          "title": "庚辰本派：淫而后烈——曹雪芹写「回头」的悲剧",
+          "summary": "庚辰本（脂评系统）中三姐确有失身描写：曹雪芹写的是一个「曾经失足」的女子想回头而不能——她改了行止、痴等湘莲，社会却不给「回头」的机会。这比「清白被冤」深刻得多：它批判的是礼教「失足即无救」的逻辑。脂评本系统中三姐的形象更具革命性。",
+          "evidence": [
+            "庚辰本第六十五回三姐放浪描写",
+            "脂批「淫里无情」等评语"
+          ],
+          "fact_type": "disputed_version",
+          "note": "version=gengchen"
+        },
+        {
+          "id": "vp_you_sanjie_chengyi",
+          "title": "程乙本派：洁化改造——高鹗的道德修正",
+          "summary": "程乙本（高鹗）将三姐「洁化」：删去失身情节，使其成为「出淤泥而不染」的贞烈女，自刎从「悔婚自杀」变为「以死明志」。白先勇在联合早报撰文指出，这种改写迎合了清代读者的道德趣味，却削弱了曹雪芹的批判力度——把「环境逼良为娼」改成了「个人清白受冤」。多数版本学者认为庚辰本更接近原稿。",
+          "evidence": [
+            "程乙本对第六十五、六十六回的删改",
+            "白先勇《红楼梦》版本论述（联合早报）"
+          ],
+          "fact_type": "disputed_version",
+          "note": "version=chengyi, attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "question_you_sanjie_suicide",
+      "title": "尤三姐的自刎是殉情还是雪耻？",
+      "slug": "you-sanjie-suicide-love-or-honor",
+      "question_type": "character_motivation",
+      "importance_weight": 70,
+      "heat_weight": 66,
+      "neutral_overview": "回目「情小妹耻情归地府」——「耻情」二字提示三姐之死与「耻」有关。她死于爱情的幻灭，还是死于名誉的污损？",
+      "viewpoint_ids": [
+        "vp_you_sanjie_shame",
+        "vp_you_sanjie_love"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_you_sanjie_shame",
+          "title": "雪耻论：「耻情」是回目之眼",
+          "summary": "三姐之死的直接导火索是湘莲的「剩忘八」之辱——她死给他看，是让怀疑她的人亲眼见证她的刚烈。回目「耻情归地府」明确：她的死是「耻」字当头——以死洗刷名誉、以死完成自证。她不是为湘莲死，是为「被污名化的自己」死。",
+          "evidence": [
+            "还剑时「泪如雨下」的决绝",
+            "回目「耻情归地府」的定性"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_you_sanjie_love",
+          "title": "殉情论：五年痴等以死终结",
+          "summary": "三姐的爱情观是「从一而终」的极端形态：她认定了湘莲，五年痴等、折簪立誓。被退婚等于这段爱情被判死刑——她的人生规划（终身有靠）随之一并死亡。她的自刎是痴情的完成式：爱被拒绝，就以死殉了这份爱。",
+          "evidence": [
+            "「这人一年不来，她等一年；十年不来，等十年」",
+            "鸳鸯剑挂床前「终身有靠」的寄托"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch66_chapter_title",
+      "quote": "第六十六回回目：情小妹耻情归地府 冷二郎一冷入空门",
+      "fact_type": "canonical_text_fact",
+      "note": "「耻情」与「一冷」——回目同时定调三姐之死与湘莲之空。"
+    },
+    {
+      "source_id": "source_baixianyong_sanjie",
+      "quote": "白先勇在联合早报撰文论尤三姐版本问题：程乙本将尤三姐「洁化」为贞烈女，庚辰本保留其「淫奔」前史——两种版本代表两种道德立场。",
+      "fact_type": "scholarly_viewpoint",
+      "note": "版本学著名案例。白先勇论及此案的文章见于其《红楼梦》论述。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_you_sanjie_rigid",
+      "title": "尤三姐——《红楼梦》中最刚烈的女性形象",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1986,
+      "source_title": "红学人物专题研究",
+      "description": "红学界普遍将尤三姐列为全书最刚烈的女性：她的烈度超过晴雯（晴雯之烈是任性，三姐之烈是决绝）。学者指出，尤三姐形象的独特价值在于「主动性」——自择夫婿、自定终身、自证清白、自择生死，她在礼教社会的所有「不许」处都偏要「自」。有论者称她为「女儿世界的刺客」——以生命为武器，向污名化的世界复仇。"
+    },
+    {
+      "id": "viewpoint_you_sanjie_version_significance",
+      "title": "尤三姐版本之争的学术史意义",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "版本学综合研究",
+      "year": 2000,
+      "source_title": "《红楼梦》版本研究",
+      "description": "尤三姐的庚辰本/程乙本之争是版本学的标志性案例：它清晰展示了高鹗（程乙本整理者）的「道德洁化」策略——删去有损人物「贞节」的情节，使人物符合主流道德趣味。学者指出，这一案例证明版本差异不是枝节问题，而是「两个红楼梦」的实质分野：脂本系统的人物更复杂、更接近人性真实；程高系统的叙事更整饬、更符合道德预期。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.93,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 20,
+      "text_inference": 5,
+      "scholarly_viewpoint": 5,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

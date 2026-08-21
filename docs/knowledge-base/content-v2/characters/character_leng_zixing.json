@@ -1,0 +1,468 @@
+{
+  "character": {
+    "id": "character_leng_zixing",
+    "name": "冷子兴",
+    "slug": "leng-zi-xing",
+    "aliases": [
+      "冷子兴（都中古董商）"
+    ],
+    "category": "局外人（都中古董商，周瑞女婿）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "周瑞之女婿，都中古董行商人。",
+      "position": "古董商→贾雨村旧识（同乡好友）→「冷眼旁观人」。",
+      "origin": "商贾阶层（却与贾府奴才有姻亲关系）。",
+      "generation": "与贾雨村同辈"
+    },
+    "tags": [
+      "演说荣国府",
+      "百足之虫死而不僵",
+      "冷眼旁观",
+      "古董商",
+      "贾雨村旧识",
+      "第二回",
+      "兴衰之眼",
+      "周瑞女婿",
+      "结构人物"
+    ],
+    "summary": {
+      "short": "都中古董商，贾雨村的旧识好友、周瑞之女婿。第二回「冷子兴演说荣国府」——以冷眼旁观者的身份向贾雨村（与读者）纵论贾府五代兴衰，「百足之虫，死而不僵」的名言出自其口。他是全书叙事结构的钥匙：用一个局外人之口，完成了对贾府谱系与「末世」定性的总解说。",
+      "long": "冷子兴是都中古董商，与贾雨村是同乡旧识，又是周瑞（王夫人陪房）的女婿——这一身份让他既能出入贾府之门（姻亲），又能保持局外之眼（商人）。第二回贾雨村革职后游维扬，偶遇冷子兴，二人把酒「闲谈慢饮」——冷子兴由此展开全书最著名的长篇「演说」：从宁荣二公创业讲到「如今生齿日繁，事务日盛」，从贾府四代子孙（贾代化、贾敬、贾赦贾政、贾珠宝玉等）一一评点，最终点出贾府的「末世」本质：「如今外面的架子虽未甚倒，内囊却也尽上来了」，「百足之虫，死而不僵」。这场「冷眼旁观」的演说发生在全书故事正式展开之前（第三回黛玉才进府），承担着全书「总序」的功能：以局外人之口，为贾府的兴衰史预先定性。冷子兴的名字本身就是一种叙事立场——「冷眼旁观兴衰」。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "冷眼——局外人的清醒",
+        "fact_type": "canonical_text_fact",
+        "description": "冷子兴的「冷」是旁观者的清醒：他不入贾府（虽沾亲），不受其恩（虽靠其势），故能说破贾府「内囊尽上来了」的真相。这种清醒在全书是稀缺品——局中人（贾政等）看不破，局外人（冷子兴）一眼看穿。"
+      },
+      {
+        "dimension": "见微知著——古董商的行家眼光",
+        "fact_type": "canonical_text_fact",
+        "description": "冷子兴的职业（古董商）与其见识相配：古董商最懂「价值」——什么是真品、什么是败落。他看贾府如看一件古物：外架子虽在，内囊已尽，是「死而不僵」的百足之虫。以「鉴宝」之眼「鉴家」，是他的独门功夫。"
+      },
+      {
+        "dimension": "旁观者的道德距离",
+        "fact_type": "canonical_text_fact",
+        "description": "冷子兴对贾府的兴衰不带感情：衰则衰矣，他的评论是「观察报告」而非「哀悼词」。这份道德距离使他成为可靠的叙述者——曹雪芹借他的口说的不是「惋惜」，是「事实」：贾府之败，败在子弟不肖与内囊空虚。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_leng_zixing_meet_ch2",
+        "title": "偶遇贾雨村，冷子兴演说荣国府（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_leng_zixing_prophecy_ch2",
+        "title": "「百足之虫，死而不僵」——贾府末世的定性（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_leng_zixing_lawsuit_ch7",
+        "title": "因官司求周瑞家（第七回，侧写）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch2_leng_zixing_talk",
+        "quote": "子兴叹道：「……如今的这宁荣两门，也都萧疏了，不比先时的光景……外面的架子虽未甚倒，内囊却也尽上来了。这还是小事。更有一件大事：谁知这样钟鸣鼎食之家，翰墨诗书之族，如今的儿孙，竟一代不如一代了！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二回。冷子兴对贾府衰败的三层诊断：萧疏之景、空虚之囊、不肖之孙。"
+      },
+      {
+        "source_id": "source_ch2_leng_zixing_baizu",
+        "quote": "冷子兴笑道：「亏你是进士出身，原来不通！古人有云：『百足之虫，死而不僵。』如今虽说不及先年那样兴盛，较之平常仕宦之家，到底气象不同。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二回。「百足之虫，死而不僵」——全书对贾府最著名的定性名言。"
+      },
+      {
+        "source_id": "source_ch2_chapter_title",
+        "quote": "第二回回目：贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "fact_type": "canonical_text_fact",
+        "note": "「冷子兴演说荣国府」——以人名入回目，曹雪芹对这个人物的结构功能盖章确认。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「冷子兴」三字即「冷眼旁观其（贾府）兴衰」的压缩",
+      "detail": "冷=冷眼（旁观者的清醒与距离）；子=对男子的尊称（亦暗含「冷眼看者」的主体性）；兴=兴衰之「兴」——点出其叙述主题。红学家普遍认为此名是曹雪芹的「叙事立场签名」：冷子兴是作者安排在大幕拉开前的「解说员」，以「冷」为姓，以「兴」为业（演说兴衰）——人如其名，名如其职。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；都中古董商，成年（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_leng_zixing_meet_ch2",
+      "title": "偶遇贾雨村——冷子兴演说荣国府",
+      "event_level": "major",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "扬州村肆（小酒馆）",
+        "specific": "贾雨村革职后游至维扬，偶遇旧识冷子兴，二人进村肆沽酒叙旧。冷子兴遂将宁荣二府自创业至今的谱系、人物、盛衰一一「演说」——从贾演贾源到贾代善贾代化，从贾敬贾赦贾政到宝玉惜春，如数家珍。"
+      },
+      "summary": {
+        "short": "第二回的「冷子兴演说荣国府」是《红楼梦》最著名的叙事装置：在黛玉进府（第三回）之前，作者借一个局外人之口，把贾府的族谱、人物关系与衰败趋势全部预告给读者——先读「解说词」，再看「正戏」。",
+        "meaning": [
+          "「演说」的结构功能：读者带着「贾府将衰」的预期进入故事——全书的悲剧底色由此预定",
+          "冷子兴的「如数家珍」：一个古董商对贾府家谱了如指掌——贾府的衰败连外人都看得清",
+          "与贾雨村的「进士之见」对照：书生（雨村）谈仕途，商人（子兴）谈兴衰——后者更清醒"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「预叙」的叙事艺术",
+          "content": "曹雪芹以「冷子兴演说」完成全书的「预叙」：先告知结局（衰败），再展开过程（盛况）。这种「先死后生」的写法使读者从第一页就带着悼亡的眼光看大观园——所有繁华都成了「将谢之花」。冷子兴的这场酒馆闲谈，是全书悲剧基调的定音锤。"
+        },
+        {
+          "type": "hongxue",
+          "title": "局外人之眼的结构意义",
+          "content": "红学家指出，冷子兴的身份设计极为考究：他既是局外人（商人、无求于贾府之兴），又是半个局内人（周瑞女婿、靠贾府之势营生）——这种「半内半外」的位置使他既能知情（内），又能直言（外）。曹雪芹需要一个「知情且敢说」的叙述者，冷子兴的身份完美满足了这个需求。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_leng_zixing",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_jing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_xichun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_leng_zixing_prophecy_ch2",
+      "title": "「百足之虫，死而不僵」——贾府末世的定性",
+      "event_level": "major",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "扬州村肆",
+        "specific": "冷子兴驳贾雨村「荣国府不似衰败之相」的看法，指出「百足之虫，死而不僵」——贾府虽「较之平常仕宦之家到底气象不同」，实则「内囊尽上来了」「儿孙一代不如一代」。"
+      },
+      "summary": {
+        "short": "「百足之虫，死而不僵」是全书对贾府最著名的诊断：外表的威仪掩盖不了内部的掏空。冷子兴的这句话预言了贾府的全部命运——后面一百余回，都是这句话的展开与应验。",
+        "meaning": [
+          "「死而不僵」的精确性：贾府之败不是突然倒塌，是慢慢僵化——与后文「忽喇喇似大厦倾」形成辩证",
+          "三层诊断：经济（内囊尽）、人才（儿孙不肖）、结构（架子未倒）——冷子兴的「兴衰三论」",
+          "与贾雨村的争论：进士看到「气象」，商人看到「内囊」——世俗智慧胜过书斋之见"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "全书主题的提前宣布",
+          "content": "红学家视「百足之虫，死而不僵」为全书主题的提前宣布：贾府之亡是「僵」——一个失去了精神生命（儿孙不肖）与物质支撑（内囊空虚）的家族，只剩「气象」的空壳。曹雪芹借冷子兴之口说的不是预测，是「已然的观察」：在故事开始之前，贾府已经死了。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_leng_zixing",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_leng_zixing_lawsuit_ch7",
+      "title": "因官司求周瑞家（侧写）",
+      "event_level": "minor",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "周瑞家（荣府外围）",
+        "specific": "冷子兴与人打官司，其妻（周瑞之女）急来求周瑞家的。周瑞家的不以为意，说「这有什么大不了的」——晚间求求凤姐便是。"
+      },
+      "summary": {
+        "short": "第七回一笔侧写：冷子兴打官司，靠岳父周瑞（王夫人陪房）的关系求凤姐摆平。这个细节补全了冷子兴与贾府的共生关系：他「冷眼旁观」贾府兴衰，却也「热心利用」贾府权势——旁观者的清醒与寄生虫的依附集于一身。",
+        "meaning": [
+          "冷子兴与贾府的真实关系：姻亲+依附——他的「冷眼」建立在「热靠」之上",
+          "「小事一桩」的轻描淡写：贾府权势之大，连外人官司都能罩——「死而不僵」的权势证明",
+          "反讽：演说贾府将衰的人，正靠贾府之权获利——清醒者亦是局内人"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "旁观者的双面性",
+          "content": "冷子兴的形象在此回变得立体：他不是一个纯粹的「世外观察者」，而是寄生在贾府权势网络上的一个小人物。曹雪芹不讳写这一点——「冷眼」之冷，一半是清醒，一半是利益无关痛痒的从容。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_leng_zixing",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhou_rui",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_leng_zixing_jia_yucun",
+      "from": "character_leng_zixing",
+      "to": "character_jia_yucun",
+      "type": "旧识好友（叙旧与论世）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "冷子兴与贾雨村是同乡旧识，第二回村肆重逢，一谈一议之间完成「演说荣国府」。二人构成知识阶层的对照：雨村（进士、失意官僚）用「正邪两赋」论宝玉，子兴（商人、世故人）用「兴衰之眼」论贾府——一个谈「人」之怪，一个谈「家」之衰，合起来就是全书的两个总纲。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "重逢",
+          "chapter": 2,
+          "description": "村肆相遇，沽酒叙旧。"
+        },
+        {
+          "stage": 2,
+          "title": "演说",
+          "chapter": 2,
+          "description": "冷子兴演说荣国府，雨村论正邪两赋。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_leng_zixing_zhou_rui",
+      "from": "character_leng_zixing",
+      "to": "character_zhou_rui",
+      "type": "翁婿（依附贾府权势）",
+      "nature": [
+        "family"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "冷子兴是周瑞（王夫人陪房）的女婿——靠这层关系，他既获得了贾府的内幕信息（演说荣国府的情报来源），又获得了贾府的权势庇护（第七回官司求助）。他的「局外人之眼」其实是「半局内人之眼」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "联姻",
+          "chapter": 2,
+          "description": "冷子兴娶周瑞之女。"
+        },
+        {
+          "stage": 2,
+          "title": "求助",
+          "chapter": 7,
+          "description": "冷子兴官司缠身，求周瑞家的转求凤姐。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_leng_zixing_jia_family",
+      "from": "character_leng_zixing",
+      "to": "character_jia_mu",
+      "type": "旁观者（演说与被演说）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "冷子兴与贾府的关系本质是「观察」：他靠贾府之势，看贾府之衰，说贾府之病。全书的人物（从贾母到宝玉）都在他第二回的「演说」中被预先定性——他是贾府命运的「外部证人」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "演说",
+          "chapter": 2,
+          "description": "冷子兴对贾府谱系与衰败的全景评说。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_leng_zixing_role",
+      "title": "冷子兴只是「解说员」吗？——这个人物的独立价值",
+      "slug": "is-leng-zixing-just-a-narrator",
+      "question_type": "character_analysis",
+      "importance_weight": 66,
+      "heat_weight": 58,
+      "neutral_overview": "冷子兴在第二回大段「演说」后基本退场，被很多人视为纯功能性的「解说员」。他是否只是作者之口？",
+      "viewpoint_ids": [
+        "vp_leng_zixing_function",
+        "vp_leng_zixing_character"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_leng_zixing_function",
+          "title": "功能论：他是曹雪芹的「叙述装置」",
+          "summary": "冷子兴的存在首先服务于叙事：作者需要一个「知情且可直言」的人，在故事展开前交代贾府的谱系、人物与衰势——冷子兴是最优解（商人身份=世故之眼，周瑞女婿=内幕渠道）。他就像希腊戏剧的「开场白演员」：任务完成即可退场。其名字（冷眼+兴衰）也证明他是「装置」而非「人物」。",
+          "evidence": [
+            "第二回后基本退场的处理",
+            "名字与叙述功能的直接对应"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_leng_zixing_character",
+          "title": "人物论：他是「清醒的寄生虫」的完整形象",
+          "summary": "冷子兴并非纯装置：第七回的官司侧写补全了他的形象——一个靠贾府权势营生、又能冷静判断贾府必衰的商人。他的「双面性」（依附+清醒）是世态人心的精确标本：清醒不改变依附，依附不蒙蔽清醒。这种「人间观察者」的复杂性，使冷子兴超越了功能性角色，成为曹雪芹「世情写实」群像中的一员。",
+          "evidence": [
+            "第七回打官司求周瑞家的侧写",
+            "「演说」中带着商人口吻的世故评论"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_leng_zixing_baizu",
+      "title": "「百足之虫，死而不僵」——贾府何时「死」、如何「僵」？",
+      "slug": "baizu-analysis",
+      "question_type": "literary_structure",
+      "importance_weight": 70,
+      "heat_weight": 64,
+      "neutral_overview": "冷子兴的名言被全书反复验证。贾府之「死」与「僵」具体指什么？这个比喻的精确性在哪里？",
+      "viewpoint_ids": [
+        "vp_leng_zixing_baizu_analysis"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_leng_zixing_baizu_analysis",
+          "title": "「僵」的三重指涉：经济、人才、精神",
+          "summary": "「死而不僵」精确预言了贾府的败亡方式：一是经济之「僵」——内囊尽而架子在（收入断绝、排场照旧）；二是人才之「僵」——儿孙一代不如一代（贾珍贾琏之流撑不起家业）；三是精神之「僵」——礼法空转（大观园的诗礼繁华掩盖着道德腐坏）。「僵」是缓慢的、被体面掩盖的死亡——比「忽喇喇」的倒塌更符合旧世族败亡的真实形态。曹雪芹写「僵」，比写「亡」更狠。",
+          "evidence": [
+            "「内囊却也尽上来了」的经济诊断",
+            "「儿孙竟一代不如一代」的人才诊断"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch7_leng_zixing_lawsuit",
+      "quote": "（周瑞家的女儿来求）周瑞家的道：「……你男人家的事，那里有工夫管他？……晚间，自然有人回明了，就完了。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第七回侧写冷子兴官司——贾府权势遮护外人官司的「小事一桩」。"
+    },
+    {
+      "source_id": "source_ch2_leng_zixing_lineage",
+      "quote": "子兴叹道：「……当日宁国公与荣国公，是一母同胞弟兄两个……长名贾敷，至八九岁上便死了，只剩了次子贾敬，袭了官……如今代善早已去世……次子贾政……」",
+      "fact_type": "canonical_text_fact",
+      "note": "第二回。冷子兴对贾府五代谱系的完整演说——全书人物关系的第一张地图。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_leng_zixing_prologue",
+      "title": "冷子兴演说——《红楼梦》的「第二序幕」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1987,
+      "source_title": "红学叙事结构研究",
+      "description": "学者将《红楼梦》的前五回视为「五重序幕」：第一回甄士隐（神话+小荣枯），第二回冷子兴（谱系+大趋势），第三回黛玉进府（内景+主要人物登场），第四回护官符（社会关系总纲），第五回太虚幻境（命运总纲）。冷子兴演说位于第二重，其功能是把「神话」落为「现实」：从大荒山的神话世界，进入宁荣府的现实世界。论者指出，「演说」的叙述者选择（半内半外的古董商）体现了曹雪芹的叙述分层意识——他从不直接评判，而是借「恰当身份之人」之口评判。"
+    },
+    {
+      "id": "viewpoint_leng_zixing_prophecy",
+      "title": "「百足之虫」——贾府衰败的「内部论」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学主题研究",
+      "year": 1993,
+      "source_title": "红学主题思想研究",
+      "description": "学者指出，冷子兴对贾府衰败的定性是「内部论」的：他把衰因归于「内囊尽」（经济）与「儿孙不肖」（人才），而非外部打击（政治抄家）。这一判断与后四十回（gaoe）「忽喇喇似大厦倾」的抄家式崩塌形成张力——曹雪芹的原意更接近冷子兴的诊断：贾府之亡是「自亡」，抄家只是压倒骆驼的最后一根稻草。「百足之虫，死而不僵」因此是理解全书兴衰观的关键钥匙：作者要写的是「僵」（内部的、缓慢的、精神的死亡），而非「砍」（外部的、突然的、政治的死亡）。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 3,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.92,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 19,
+      "text_inference": 6,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

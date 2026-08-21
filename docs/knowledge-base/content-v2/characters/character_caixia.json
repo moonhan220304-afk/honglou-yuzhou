@@ -1,0 +1,415 @@
+{
+  "character": {
+    "id": "character_caixia",
+    "name": "彩霞",
+    "slug": "cai-xia",
+    "aliases": [
+      "彩云",
+      "彩云（文本混淆，见别名）"
+    ],
+    "category": "荣国府丫鬟（王夫人丫鬟）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "贾府丫鬟，父母姓名不详；其母曾为女儿婚事求赵姨娘。",
+      "position": "王夫人房中大丫鬟。",
+      "origin": "贾府丫鬟体系。",
+      "generation": "与金钏、玉钏、彩云等同在王夫人房中的丫鬟阶层"
+    },
+    "tags": [
+      "贾环",
+      "玫瑰露",
+      "彩云",
+      "来旺妇倚势霸成亲",
+      "凤姐说媒",
+      "金银珠玉组"
+    ],
+    "summary": {
+      "short": "王夫人房中丫鬟，与贾环相好。第二十五回宝玉与她说笑，贾环吃醋，打翻蜡油灯烫伤宝玉；第六十回玫瑰露失窃案的真贼是彩云（偷露给贾环）——彩霞与彩云在王夫人房中文本时有混淆；第七十二回凤姐说媒，把她许配给来旺之子，她不愿而无力反抗。",
+      "long": "彩霞是王夫人房中的大丫鬟，「金钏、玉钏、彩云、彩霞」构成王夫人房中的「金银珠玉」丫鬟组。她与贾环相好——第二十五回，贾环奉王夫人命抄经，宝玉与彩霞说笑，彩霞「淡淡的不大答理」宝玉，贾环看在眼里，打翻蜡油灯烫伤宝玉的脸：庶出的醋意与丫鬟的私心，酿成全书著名的「魇魔法」前奏。第六十回玫瑰露失窃，真贼是彩云——彩云偷了王夫人的玫瑰露给贾环，第六十一回平儿判冤决狱，宝玉替她瞒赃，彩云羞恶之心感发，认了偷露之事。这里有一个著名的文本问题：彩霞与彩云在王夫人房中「有时混淆」，各本抄写与情节归属说法不一，学界多认为偷露给贾环的是彩云。第七十二回「来旺妇倚势霸成亲」：来旺媳妇求凤姐说媒，要把彩霞说给来旺之子（旺儿小子酗酒赌博不成器），彩霞之母不情愿，凤姐以势强压，把彩霞配了过去；彩霞向赵姨娘求助，赵姨娘求贾政，被宝玉的事打断，再无下文。彩霞是全书「丫鬟婚配权」的活标本：她的爱情给贾环、她的终身给旺儿小子——一样都轮不到她自己作主。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "柔——淡淡的不答理",
+        "fact_type": "canonical_text_fact",
+        "description": "第二十五回彩霞对宝玉「淡淡的不大答理」——全书对丫鬟爱情最克制的一笔。她的心在贾环处，便不肯给宝玉一丝颜色。这份柔里有骨：爱的是庶子，也爱得认账。"
+      },
+      {
+        "dimension": "命——终身被定价的苦",
+        "fact_type": "canonical_text_fact",
+        "description": "第七十二回凤姐一句「说个媳妇」，她的终身就定了。彩霞不愿，母亲不愿，赵姨娘也帮不上——丫鬟的婚配是主子的恩典，不是本人的选择。她的悲剧是没有高潮的：认命就是她的全部反抗。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_caixia_ch25",
+        "title": "与贾环相好、宝玉说笑引蜡油烫伤（第二十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_caixia_ch60",
+        "title": "玫瑰露事件——偷露者是彩云（第六十、六十一回，文本混淆之辨）",
+        "fact_type": "disputed_version",
+        "note": "彩霞与彩云混淆问题（前八十回版本文字差异）"
+      },
+      {
+        "order": 3,
+        "event_id": "event_caixia_ch72",
+        "title": "来旺妇倚势霸成亲——被凤姐许配来旺之子（第七十二回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch25_caixia_jiahuan",
+        "quote": "（宝玉与彩霞说笑）彩霞淡淡的，不大答理，两眼睛只向贾环处看。……贾环素日原恨宝玉，如今又见他和彩霞闹，心中越发按不下这口毒气。……（打翻蜡灯）只听得宝玉「嗳哟」了一声，满屋里众人都唬了一跳。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十五回。彩霞的心给了贾环，贾环的醋烫了宝玉——庶出之恨以蜡油的形式泼出。"
+      },
+      {
+        "source_id": "source_ch61_caiyun_rose",
+        "quote": "（彩云）「……那玫瑰露是我偷了给环哥儿去的。」……（宝玉）「这倒难为你想的周全。……」平儿（道）「……这事咱们且瞒过去罢。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十一回。偷玫瑰露的是彩云——彩霞与彩云二名在王夫人房中时有混淆，须辨明。"
+      },
+      {
+        "source_id": "source_ch72_caixia_marriage",
+        "quote": "（旺儿媳妇求凤姐）「……他（旺儿小子）要娶亲，说是彩霞……」……凤姐道：「……我倒忘了，你如今去打发人告诉彩霞的娘，就说我的话，这门亲事就是这样定了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十二回「来旺妇倚势霸成亲」。凤姐一句话，彩霞的终身就定了——丫鬟婚配权的残酷现场。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「彩霞」——王夫人房中「金银珠玉」丫鬟组",
+      "detail": "王夫人房中的丫鬟以「金银珠玉」命名：金钏、玉钏、彩云、彩霞——「彩霞」与「彩云」同属天象组（云霞并举），故二名在抄写与情节归属中时有混淆（第六十、六十一回偷玫瑰露者、第七十二回被许配者，各本或作彩霞或作彩云）。「霞」为日暮之云——彩霞的命运也如晚霞：给贾环的心是私情，给旺儿小子的身是恩典，都随主子的意思定，转瞬即散。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        "彩霞与彩云在王夫人房中情节归属上各本有异（前八十回版本文字差异）"
+      ]
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；王夫人丫鬟，与金钏玉钏年龄相近（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "彩云",
+      "type": "文本混淆名",
+      "context": "王夫人房中「彩云」「彩霞」二名常混：第六十、六十一回偷玫瑰露给贾环者通行本多作彩云，第七十二回被许配来旺之子者通行本多作彩霞，各本有出入",
+      "fact_type": "disputed_version",
+      "note": "前八十回版本文字差异，非gaoe"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_caixia_ch25",
+      "title": "宝玉说笑、贾环蜡油烫伤",
+      "event_level": "major",
+      "chapter": {
+        "number": 25,
+        "title": "魇魔法姊弟逢五鬼 红楼梦通灵遇双真",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "王夫人房中",
+        "specific": "贾环奉王夫人命抄经，宝玉与彩霞说笑，彩霞淡淡不理，只向贾环处看。贾环吃醋，故意打翻蜡油灯，烫伤宝玉的脸——由此引出魇魔法风波。"
+      },
+      "summary": {
+        "short": "第二十五回，彩霞的一双眼睛成了全书一场大祸的引信：她看贾环，贾环恨宝玉——庶出之子的醋意借着蜡油泼出，烫出的疤日后成了宝玉与魇魔法的劫。",
+        "meaning": [
+          "「两眼睛只向贾环处看」——丫鬟私情的最高写法：全在眼神",
+          "贾环之恨——庶出的自卑与丫鬟的心，加在一起就是毒",
+          "蜡油事件→魇魔法→大观园风波——丫鬟私情牵动全书大局"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "眼神的爱",
+          "content": "彩霞对贾环的爱全书只写了一个眼神：「淡淡的不大答理」宝玉，「两眼睛只向贾环处看」。曹雪芹写丫鬟之爱比写小姐之爱更省——因为丫鬟的爱连明写的资格都没有，只有眼睛敢说真话。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_caixia",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_caixia_ch72",
+      "title": "来旺妇倚势霸成亲——终身被定",
+      "event_level": "major",
+      "chapter": {
+        "number": 72,
+        "title": "王熙凤恃强羞说病 来旺妇倚势霸成亲",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "王熙凤处",
+        "specific": "来旺媳妇求凤姐说媒，要把彩霞配给来旺之子（旺儿小子酗酒赌博）。彩霞之母嫌旺儿小子不成器不情愿，凤姐以势强压定下亲事。彩霞求赵姨娘，赵姨娘求贾政，因谈及宝玉被打断，再无下文。"
+      },
+      "summary": {
+        "short": "第七十二回是彩霞的「判决日」：她的爱情给过贾环，她的终身却由凤姐一句「这门亲事就是这样定了」拍板——定给一个酗酒赌博的旺儿小子。丫鬟的婚配权，全书再没有比这更冷的一课。",
+        "meaning": [
+          "「倚势霸成亲」——回目把「势」与「霸」直接扣在凤姐头上",
+          "彩霞之母不愿——连母亲都护不了女儿的终身",
+          "赵姨娘的求助无果——她自己的地位也保不住彩霞"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "婚配权的悲剧",
+          "content": "彩霞的婚配是全书丫鬟命运的冷缩影：想嫁的（贾环）轮不到，被配的（旺儿小子）推不掉。主子的恩典不需要丫鬟同意——「倚势霸成亲」五个字，把恩典的真相说尽：不是恩，是霸。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_caixia",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_caixia_jiahuan",
+      "from": "character_caixia",
+      "to": "character_jia_huan",
+      "type": "恋人（丫鬟与庶子）",
+      "nature": [
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "彩霞与贾环是全书最「门当户错」的一对：丫鬟配庶子，本算登对，却注定无果——贾环护不住她，赵姨娘帮不了她。她的眼神给他，她的终身给了别人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "相好",
+          "chapter": 25,
+          "description": "彩霞眼中只有贾环。"
+        },
+        {
+          "stage": 2,
+          "title": "永别",
+          "chapter": 72,
+          "description": "彩霞被配给来旺之子。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_caixia_wangfuren",
+      "from": "character_caixia",
+      "to": "character_wang_furen",
+      "type": "主仆",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "彩霞是王夫人房中丫鬟。王夫人房中「金银珠玉」四丫鬟（金钏、玉钏、彩云、彩霞）各有结局：金钏投井、玉钏独存、彩云认偷、彩霞被配——主子的房里，是丫鬟命运的集散地。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "当差",
+          "chapter": 25,
+          "description": "彩霞在王夫人房中伺候。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_caixia_wangxifeng",
+      "from": "character_caixia",
+      "to": "character_wang_xifeng",
+      "type": "被配婚者（凤姐说媒强配）",
+      "nature": [
+        "conflict",
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐替来旺之子说媒，以势压彩霞之母，把彩霞强配给旺儿小子。彩霞的终身在她手里只是一桩人情——凤姐的「恩典」以毁掉一个丫鬟的幸福为代价。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "霸成亲",
+          "chapter": 72,
+          "description": "凤姐强定彩霞与来旺之子的婚事。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_caixia_zhaoyiniang",
+      "from": "character_caixia",
+      "to": "character_zhao_yiniang",
+      "type": "求助者（指望而落空）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "彩霞被配亲后向赵姨娘求助，赵姨娘上心去求贾政，却被「宝玉的事」打断，再没能续上。彩霞指望的这层关系（贾环之母）本是她爱情的全部后路——结果后路也不通。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "求助无果",
+          "chapter": 72,
+          "description": "赵姨娘替彩霞求贾政，被打断。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_caixia_baoyu",
+      "from": "character_caixia",
+      "to": "character_jia_baoyu",
+      "type": "故人（被冷淡对待）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉与彩霞说笑，彩霞「淡淡的不大答理」——她的冷淡里有忠诚（对贾环）。宝玉不恼反笑，他不缺一个丫鬟的殷勤，贾环却缺一个丫鬟的心。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "冷淡",
+          "chapter": 25,
+          "description": "彩霞不理宝玉，只向贾环。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_caixia_caiyun",
+      "title": "偷玫瑰露给贾环的，到底是彩霞还是彩云？",
+      "slug": "caixia-or-caiyun-who-stole-the-rose-dew",
+      "question_type": "version_dispute",
+      "importance_weight": 70,
+      "heat_weight": 68,
+      "neutral_overview": "第六十、六十一回玫瑰露失窃案中，偷露给贾环的丫鬟，通行本作彩云，但历来读者与各本文字时有混淆——彩霞与彩云究竟如何区分？",
+      "viewpoint_ids": [
+        "vp_caixia_caiyun",
+        "vp_caixia_identity"
+      ],
+      "fact_type": "disputed_version",
+      "note": "前八十回版本文字差异问题",
+      "viewpoints": [
+        {
+          "id": "vp_caixia_caiyun",
+          "title": "分明论：偷露者是彩云，被配亲者是彩霞",
+          "summary": "通行本第六十一回偷玫瑰露的是彩云（与贾环相好的也是彩云），第七十二回被许配来旺之子的是彩霞——二人是王夫人房中并立的两个丫鬟，各司其段。读者须依版本细辨，不可混为一人。",
+          "evidence": [
+            "第六十一回彩云自认偷露",
+            "第七十二回作「彩霞」"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_caixia_identity",
+          "title": "混淆论：抄本流传中二名互讹，情节归属有版本差异",
+          "summary": "彩云、彩霞二名形义相近（云霞并举），各抄本在第六十、六十一回及第七十二回存在互讹与情节归属差异，故历来读者混淆不断。红学界对此有专门的校勘讨论——这是《红楼梦》版本学的一个小公案。",
+          "evidence": [
+            "各本文字出入",
+            "二名同属「金银珠玉」丫鬟组的形近关系"
+          ],
+          "fact_type": "disputed_version",
+          "note": "版本校勘问题（前八十回内）"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch72_caixia_mother",
+      "quote": "（彩霞之母）「……那旺儿小子，靠不住的，常时吃酒赌博……我姑娘……怎么肯给他？」（凤姐）「……如今管什么根配不配！……这一件事，我就依你，你日后有个好歹，可别怨我。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第七十二回。母亲的反抗与凤姐的威胁——「势」字压顶，配婚成定局。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_caixia_marriage",
+      "title": "彩霞——丫鬟婚配权的悲剧标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 2002,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，彩霞的婚配（72回）与鸳鸯的抗婚（46回）、司棋的私情（71-77回）构成丫鬟婚姻命运的三联画：鸳鸯以死抗婚，司棋以死殉情，彩霞以「不反抗」成婚——三种态度，一个结果：丫鬟的终身从来不属于自己。「来旺妇倚势霸成亲」一回，凤姐的一句「这门亲事就是这样定了」被公认为全书丫鬟婚配权最冷的一句话。彩霞与贾环的关系亦常被研究者引用，说明「丫鬟之情」在嫡庶恩怨中的位置：她的眼睛成了庶子之恨的燃料。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 2,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 1,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.85,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 15,
+      "text_inference": 0,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

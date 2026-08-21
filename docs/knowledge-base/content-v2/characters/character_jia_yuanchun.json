@@ -1,0 +1,1039 @@
+{
+  "character": {
+    "id": "character_jia_yuanchun",
+    "name": "贾元春",
+    "slug": "jia-yuanchun",
+    "aliases": [
+      "元妃",
+      "贤德妃",
+      "凤藻宫尚书",
+      "大姑奶奶",
+      "大姐姐"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "荣国府贾政之嫡长女，王夫人所生；贾宝玉之胞姐；迎春、探春、惜春之大姐。",
+      "position": "贾府大小姐；入宫为女史，后晋封凤藻宫尚书，加封贤德妃。",
+      "origin": "金陵人氏，生于正月初一（与太祖太爷同日），故取名「元春」。",
+      "generation": "贾府第四代（与贾宝玉同辈）"
+    },
+    "tags": [
+      "贤德妃",
+      "省亲",
+      "烈火烹油",
+      "政治联姻",
+      "深宫幽闭",
+      "虎兕相逢",
+      "榴花",
+      "爆竹",
+      "金玉良缘信号",
+      "家族靠山"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一。贾政长女，因「贤孝才德」入宫为妃。省亲之夜在荣耀中哭诉「骨肉各方，终无意趣」，判词「虎兕相逢大梦归」预示其死于政治风云，她的薨逝成为贾府败亡的开关。",
+      "long": "贾元春是荣国府大小姐，生于正月初一，自幼由贾母教养，曾手引口传教授幼弟宝玉读书识字。因「贤孝才德」入宫作女史，第十六回「贾元春才选凤藻宫」，晋封凤藻宫尚书、加封贤德妃。她的得势使贾府达到鼎盛——为迎接省亲，贾府倾力营建大观园，第十七至十八回省亲之盛被曹雪芹形容为「烈火烹油，鲜花着锦」。然而省亲全程以泪贯穿：元春哭诉「当日既送我到那不得见人的去处」「田舍之家，虽齑盐布帛，终能聚天伦之乐；今虽富贵已极，骨肉各方，然终无意趣」。第二十二回她所制灯谜（爆竹）「一声震得人方恐，回首相看已化灰」，被贾政视为不祥之兆。第二十八回端午赐礼，独独宝玉与宝钗同等，被普遍解读为支持「金玉良缘」的信号。判词「二十年来辨是非，榴花开处照宫闱。三春争及初春景，虎兕相逢大梦归」（甲戌本作「虎兔相逢」）、《恨无常》曲「喜荣华正好，恨无常又到」，皆预示其盛极而夭。后四十回（gaoe）写她染恙（83回）后薨逝（95回），死因与版本存在争议。元春是贾府政治地位的总开关——她的荣辱直接决定家族的兴衰，她的死则被视为贾府被抄家的前奏。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "深宫幽闭者——富贵中的囚徒",
+        "fact_type": "canonical_text_fact",
+        "description": "元春把皇宫称为「不得见人的去处」，自认「虽富贵已极，骨肉各方，终无意趣」。她是全书唯一以亲身视角控诉皇权对人性（尤其是亲情）之剥夺的皇妃形象。她的「贤德」是制度的产物，她的痛苦也是制度的产物。"
+      },
+      {
+        "dimension": "家族政治的祭品",
+        "fact_type": "text_inference",
+        "description": "元春入宫本质上是贾府的政治投资——以女儿换皇亲。她的悲欢生死不由自己，而与整个家族的荣辱捆绑。省亲中她以「国礼」压抑「家礼」的每一个细节（父女隔帘、君臣之礼），都是这一本质的显形。"
+      },
+      {
+        "dimension": "家族命运的预言者",
+        "fact_type": "canonical_text_fact",
+        "description": "元春在省亲中多次流露对家族未来的忧虑——「太奢华过费了」「此后不可太奢，此皆过分之极」。她的爆竹灯谜与《恨无常》曲「故向爹娘梦里相寻告：儿命已入黄泉，天伦呵，须要退步抽身早」，构成全书最凄厉的家族预警。"
+      },
+      {
+        "dimension": "长姐如母——与宝玉的姐弟情",
+        "fact_type": "canonical_text_fact",
+        "description": "元春与宝玉「名分虽系姊弟，其情状有如母子」——宝玉三四岁时已得元春手引口传教授读书识字。省亲时她特召宝玉，揽于怀内，抚其头颈笑道「比先竟长了好些」。这份姐弟情是元春深宫中唯一温存的人伦记忆，也是她死后宝玉「返真元」痛感的伏笔。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_yuanchun_judgment_ch5",
+        "title": "判词与《恨无常》曲（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_yuanchun_promote_ch16",
+        "title": "才选凤藻宫（第十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_yuanchun_visit_ch18",
+        "title": "省亲大观园（第十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_yuanchun_riddle_ch22",
+        "title": "制灯谜——爆竹谶（第二十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_yuanchun_gift_ch28",
+        "title": "端午赐礼——宝玉宝钗同等（第二十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_yuanchun_ill_ch83",
+        "title": "染恙（第八十三回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 7,
+        "event_id": "event_yuanchun_death_ch95",
+        "title": "薨逝（第九十五回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_yuanchun_judgment",
+        "quote": "二十年来辨是非，榴花开处照宫闱。三春争及初春景，虎兕相逢大梦归。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回元春判词。「虎兕相逢」各本或作「虎兔相逢」（甲戌本），版本差异关系其死因之谜。「榴花」暗示榴开结子却未必有后。"
+      },
+      {
+        "source_id": "source_ch05_yuanchun_song",
+        "quote": "[恨无常]喜荣华正好，恨无常又到。眼睁睁，把万事全抛。荡悠悠，把芳魂消耗。望家乡，路远山高。故向爹娘梦里相寻告：儿命已入黄泉，天伦呵，须要退步抽身早！",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回《恨无常》曲。元春在梦中向爹娘发出「退步抽身早」的预警——以死者的视角预告贾府败亡。"
+      },
+      {
+        "source_id": "source_ch18_yuanchun_weep",
+        "quote": "贾妃方忍悲强笑，安慰贾母、王夫人道：「当日既送我到那不得见人的去处，好容易今日回家娘儿们一会，不说说笑笑，反倒哭起来。一会子我去了，又不知多早晚才来！」……又隔帘含泪谓其父曰：「田舍之家，虽齑盐布帛，终能聚天伦之乐；今虽富贵已极，骨肉各方，然终无意趣！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十八回省亲。把皇宫称为「不得见人的去处」，是全书对皇权最直接的控诉之一。"
+      },
+      {
+        "source_id": "source_ch22_yuanchun_riddle",
+        "quote": "元春的灯谜是：「能使妖魔胆尽摧，身如束帛气如雷。一声震得人方恐，回首相看已化灰。」贾政心内沉思道：「娘娘所作爆竹，此乃一响而散之物。……此物还倒有限。只是小小之人作此词句，更觉不祥，皆非永远福寿之辈。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十二回元春灯谜（爆竹）。「一响而散」正是元春与贾府「烈火烹油」后速朽的谶语。"
+      },
+      {
+        "source_id": "source_ch28_yuanchun_gift",
+        "quote": "只见上等宫扇两柄，红麝香珠二串，凤尾罗二端，芙蓉簟一领。宝玉见了，喜不自胜，问：「别人的也都是这个？」袭人道：「……老太太的多着一个香如意，一个玛瑙枕。太太、老爷、姨太太的只多着一个如意。你的同宝姑娘的一样。林姑娘同二姑娘、三姑娘、四姑娘只单有扇子同数珠儿。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十八回端午赐礼。唯宝玉与宝钗同等、黛玉降等——被普遍解读为元春（宫府意志）支持「金玉良缘」的信号。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "正月初一生故得名（第二回冷子兴演说），余者从「春」字",
+      "detail": "元春生于正月初一，故名「元」春，此后迎春、探春、惜春皆从「春」字排辈。四春之名「元迎探惜」谐「原应叹息」（脂批性质，一说「原因探析」），预示四姐妹的悲剧命运",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "「元迎探惜」谐音之释",
+          "content": "「元迎探惜」谐「原应叹息」为脂批性质之说法；另有一说谐「原因探析」，两种解读并存",
+          "proponent": "脂砚斋批语 / 红学界"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "大小姐是正月初一日所生，故名元春",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（后40回gaoe写薨逝）"
+      },
+      "conclusion": "原文未见明文年龄；正月初一生。判词「二十年来辨是非」或指入宫二十年（text_inference，有争议）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "元妃",
+      "type": "宫廷称谓",
+      "context": "封妃后贾府上下对她的尊称，如「元妃省亲」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "贤德妃",
+      "type": "封号",
+      "context": "第十六回「贾元春才选凤藻宫，加封贤德妃」——「贤」「德」二字即是皇权对她的规训标签",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "凤藻宫尚书",
+      "type": "官职",
+      "context": "第十六回晋封凤藻宫尚书——「尚书」是朝廷官职名，暗示她不是普通妃嫔而是有政治身份的人物",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "大姑奶奶",
+      "type": "家族称呼",
+      "context": "贾府仆妇对元春的称呼，如周瑞家的等口称「大姑奶奶」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "大姐姐",
+      "type": "姐妹称呼",
+      "context": "迎春、探春、惜春及宝玉对元春的称呼；探春数生日时说「大年初一日也不白过，大姐姐占了去」",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_yuanchun_promote_ch16",
+      "title": "贾元春才选凤藻宫",
+      "event_level": "major",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾政生辰之日，宁荣二处人丁都齐集庆贺，忽有六宫都太监夏老爷来降旨，宣贾政入朝——元春晋封凤藻宫尚书，加封贤德妃。赖大回来说：「如今老爷又往东宫去了，速请老太太领着太太们去谢恩。」"
+      },
+      "summary": {
+        "short": "贾政生辰宴上，宫中来旨：元春晋封凤藻宫尚书、加封贤德妃。贾府上下由「心神不定」转为「得意洋洋」。随后传来皇帝恩准「妃嫔省亲」的消息，贾府开始筹划省亲别墅——大观园。",
+        "meaning": [
+          "元春封妃是贾府政治地位的巅峰——「烈火烹油，鲜花着锦」的起点",
+          "省亲制度（历史上前所未有）的宣布直接催生了大观园的营建——全书的空间核心由此而来",
+          "元春一人的荣辱牵动整个家族的神经——贾府政治依附性的集中体现"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "大观园的「出生证」",
+          "content": "大观园并非凭空出现——它是为元春省亲而建的行宫。这一设定意味深长：全书少女们的「理想国」竟然是皇家恩典的副产品。元春是唯一「合法」住进大观园的人（省亲的行宫），而大观园真正的主人却永远不能回来住。空间的归属与使用权的错位，预示了理想国终将瓦解。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「省亲」的历史依据",
+          "content": "脂批明确指出「借省亲事写南巡，出脱心中多少忆昔感今」——曹雪芹以省亲影射康熙南巡、曹家接驾的往事。周汝昌等学者据此考证元春形象与曹家历史的关系。省亲既是小说情节，也是曹氏家族记忆的文学转化。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanchun_visit_ch18",
+      "title": "元妃省亲——「烈火烹油，鲜花着锦之盛」",
+      "event_level": "major",
+      "chapter": {
+        "number": 18,
+        "title": "庆元宵贾元春归省 助情人林黛玉传诗",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "正月十五元宵夜，元春于戌初起身，至丑正三刻回宫——前后不过数小时。省亲全程：游幸题匾、受礼、与家人相会、命宝玉与众姊妹题诗、听戏、赐物。"
+      },
+      "summary": {
+        "short": "元春省亲是全书最盛大的场面。她游幸大观园题「大观园」匾额，与贾母王夫人等相见即哭，隔帘见父贾政行国礼，揽宝玉入怀细问。命众姊妹及宝玉题诗，赞赏黛玉之才。至丑正三刻，太监启请回銮，元春满眼滚泪，嘱咐「不可太奢」，登舆而去。",
+        "meaning": [
+          "省亲是贾府权势的顶点——此后贾府「外面的架子虽未甚倒，内囊却也尽上来了」",
+          "以「哭」解构「盛」——荣耀与悲凉在同一个夜晚同时发生",
+          "「当日既送我到那不得见人的去处」——全书最直接的政治控诉"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "反讽结构——一场「用眼泪完成的庆典」",
+          "content": "曹雪芹把全书最盛大的庆典写成了一场持续数小时的哭戏：见贾母王夫人「呜咽对泣」、见贾政「含泪」、别宝玉「泪如雨下」、回宫「满眼又滚下泪来」。庆典的规格越高，眼泪的浓度越大。「烈火烹油」的比喻本身即是警告——火势最旺时离熄灭最近。省亲是贾府的回光返照，是「盛」的葬礼。"
+        },
+        {
+          "type": "character",
+          "title": "「骨肉各方，终无意趣」——元春的人性证词",
+          "content": "元春隔帘对贾政说的那段话，是全书对皇权制度最深刻的批判之一：它以牺牲人的天伦之情为代价换取「富贵已极」。元春用「田舍之家」与「富贵已极」的对比，亲自否定了自己妃位的价值。一个皇家庆典的主角公开说「无意趣」，这是曹雪芹借元春之口完成的制度祛魅。"
+        },
+        {
+          "type": "hongxue",
+          "title": "省亲时辰与「末正初刻」的政治暗语",
+          "content": "细心的读者发现元春省亲的时间（戌初至丑正三刻）全在夜间——皇家只允许妃嫔夜里省亲，天亮前必须回宫。有学者指出这是对清宫制度的写实，也是对「省亲」这一「恩典」之虚伪性的讽刺：所谓天伦之乐，只能在深夜偷来几个小时。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanchun_riddle_ch22",
+      "title": "制灯谜——爆竹一响而散",
+      "event_level": "minor",
+      "chapter": {
+        "number": 22,
+        "title": "听曲文宝玉悟禅机 制灯谜贾政悲谶语",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "元春命小太监送出灯谜，让众人猜并各作一个进去。贾政看了元春的谜底（爆竹），沉思其「一响而散」「回首相看已化灰」，心中愈发烦闷悲戚。"
+      },
+      "summary": {
+        "short": "元春从宫中送出灯谜，谜底为爆竹——「能使妖魔胆尽摧，身如束帛气如雷。一声震得人方恐，回首相看已化灰」。贾政暗觉不祥：爆竹一响而散，正应「烈火烹油」之后速朽之象。此回回目「制灯谜贾政悲谶语」，贾政由元春的谜开始，把众钗的谜都读成了谶语。",
+        "meaning": [
+          "爆竹是元春命运的精确象喻——盛时「声震人恐」，散时「化灰」",
+          "贾政的「悲」构成全书的第一次集体谶语阅读",
+          "元春连制灯谜的雅兴都带着死亡气息——深宫之人，一言一行皆成谶"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "灯谜即谶语——曹雪芹的预告系统",
+          "content": "第二十二回是全书的「谶语大聚会」：元春的爆竹、迎春的算盘、探春的风筝、惜春的海灯、宝钗的更香……每个人的谜底都是命运的编码。元春的爆竹排在第一位——作为贾府的「第一把火」，她的「化灰」宣告了整场焰火的终局。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanchun_gift_ch28",
+      "title": "端午赐礼——宝玉与宝钗同等",
+      "event_level": "major",
+      "chapter": {
+        "number": 28,
+        "title": "蒋玉菡情赠茜香罗 薛宝钗羞笼红麝串",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "袭人回报端午赐礼的分配：宝玉与宝钗的礼物同等（宫扇、红麝香珠、凤尾罗、芙蓉簟），黛玉与三春同等。宝钗因「金玉良缘」之说「心里越发没意思起来」。元春还命五月初三至初五在清虚观打三天平安醮。"
+      },
+      "summary": {
+        "short": "元春端午赐礼，唯独宝玉与宝钗所得同等，黛玉只与三春同例。宝钗「羞笼红麝串」，宝玉见了「不觉就呆了」。黛玉因赐礼差异与「金玉」之说更添疑惧。清虚观打醮中张道士为宝玉提亲、贾母透露对宝玉婚姻的考虑，进一步激化宝黛钗三角矛盾。",
+        "meaning": [
+          "赐礼差异被广泛解读为元春（代表宫府与王夫人意志）支持「金玉良缘」的信号",
+          "红麝串事件（第二十八回）与清虚观提亲（第二十九回）构成「金玉」攻势的两连击",
+          "元春虽远在深宫，却通过赐礼直接参与了宝黛钗的命运博弈"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "深宫的遥控器——赐礼的政治学",
+          "content": "元春省亲时对钗黛一视同仁（赞赏黛玉诗才、也欣赏宝钗），赐礼却突然分出等差。这个变化说明元春背后有一股力量（王夫人与薛家的运作）在影响宫中的决策。一份端午礼物，成为全书婚姻政治最清晰的表决。"
+        },
+        {
+          "type": "hongxue",
+          "title": "争议：赐礼是否真为「金玉良缘」背书",
+          "content": "一派学者认为赐礼等差是元春（或宫中）明确支持金玉良缘的证据；另一派则认为这或许只是按「年例」或身份惯例（宝钗为客、年长）发放，未必有婚姻暗示。无论如何，文本效果是确定的：宝玉、黛玉、宝钗三人对这份礼物的反应，把「金玉」之争推向了白热化。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhang_dao_shi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanchun_ill_ch83",
+      "title": "元妃染恙",
+      "event_level": "minor",
+      "chapter": {
+        "number": 83,
+        "title": "省宫闱贾元妃染恙 闹闺阃薛宝钗吞声",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "皇宫",
+        "specific": "宫中来旨命贾府女眷进宫探视元妃。元春「痰塞口涎，不能言语」。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写元妃染恙，贾母王夫人等入宫探望。此后元春病情时好时坏，为第九十五回薨逝作铺垫。",
+        "meaning": [
+          "元春健康恶化是贾府「靠山将倾」的预警",
+          "后四十回以「病」处理元春之死，与判词「虎兕相逢」的政治暗示形成落差"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「病死」处理与判词的落差",
+          "content": "判词「虎兕相逢大梦归」暗示两强相争的政治风暴中元春成为牺牲品，而高鹗续书将元春之死处理为自然病死（痰厥）。这一处理被许多红学家（如刘心武等）批评为削弱了原著的政治批判性——元春之死本应是贾府卷入朝廷斗争的导火索，而非单纯的个人疾病。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanchun_death_ch95",
+      "title": "因讹成实元妃薨逝",
+      "event_level": "major",
+      "chapter": {
+        "number": 95,
+        "title": "因讹成实元妃薨逝 以假混真宝玉疯颠",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "皇宫",
+        "specific": "元妃「痰气壅塞，四肢厥冷」而薨，存年四十三岁（一说），谥「贤淑贵妃」。贾府上下「悲声大放」。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写元妃薨逝：先有谣言讹传，随后「因讹成实」。贾母王夫人等入宫哭别。元春之死标志贾府政治靠山的崩塌——此后贾府迅速滑向抄家。",
+        "meaning": [
+          "元春之死是贾府由盛转衰的分水岭",
+          "「因讹成实」的回目暗示元春之死有蹊跷——谣言先于事实，或为宫廷斗争的烟幕",
+          "她的死与贾宝玉「失玉」疯颠同回发生——家运与个人命运同时断崖"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "死因之争：病死说 vs 政治斗争说",
+          "content": "高鹗续书以「痰厥」写元春之死，但判词「虎兕相逢大梦归」、曲文「恨无常又到」都指向突发的政治变故。刘心武等学者认为曹雪芹原意中元春死于宫廷政治斗争（或与某政治集团的覆灭有关），她的死是贾府被抄的直接导因。另有学者（如蔡义江）从「虎兕」「虎兔」的版本差异考证死因线索。「二十年来辨是非」的判词首句，也被解读为她在深宫政治中二十年的惊险生存。"
+        },
+        {
+          "type": "literary",
+          "title": "四十三岁与「二十年来辨是非」的矛盾",
+          "content": "后四十回写元春存年四十三岁，与判词「二十年来辨是非」（入宫约二十年）存在推算矛盾，被部分学者视为续书与原著判词系统脱节的证据之一。判词系统显示元春之死应在青春盛年，而非四十三岁的中年。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_yuanchun_judgment_ch5",
+      "title": "太虚幻境判词——《恨无常》",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "贾宝玉梦游太虚幻境，在「薄命司」金陵十二钗正册中见元春判词与画（一张弓，弓上挂着香橼），又听《恨无常》曲。"
+      },
+      "summary": {
+        "short": "元春的册页画着「一张弓，弓上挂着香橼」——「弓」谐「宫」，「橼」谐「元」，画即名讳的拆解。判词「二十年来辨是非，榴花开处照宫闱。三春争及初春景，虎兕相逢大梦归」与《恨无常》曲共同预言：元春盛极而夭，并以死者的声音警告贾府「退步抽身早」。",
+        "meaning": [
+          "「弓上挂橼」——元春的一生被「宫」的意象锁定",
+          "「榴花」开得越艳，花期越短——元春与贾府盛衰同构",
+          "「虎兕相逢」（甲戌本「虎兔相逢」）——版本差异中藏着死因之谜"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「虎兕」还是「虎兔」——一字之差的两个世界",
+          "content": "甲戌本作「虎兔相逢大梦归」，庚辰本等作「虎兕相逢大梦归」。「虎兔」暗示生肖或时间节点（如寅卯之交）；「虎兕」（兕为猛兽）则直指两强相争的政治搏杀。一字之差，元春的死因就从时间巧合变为政治斗争。这则版本差异是红学版本研究中最著名的案例之一。"
+        },
+        {
+          "type": "literary",
+          "title": "「榴花」意象的多重解读",
+          "content": "石榴多子，旧说多以此暗示元春怀孕或生子；也有学者认为「榴花开处照宫闱」写的是元春得宠之盛。但石榴花「五月红似火」而花期即谢，与「恨无常又到」的曲文呼应——盛极即衰，花开即谢。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_bo_ming",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_yuanchun_jia_baoyu",
+      "from": "character_jia_yuanchun",
+      "to": "character_jia_baoyu",
+      "type": "胞姐弟（情状如母子）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "元春与宝玉「名分虽系姊弟，其情状有如母子」——宝玉三四岁时已得元春手引口传教授读书识字。省亲时元春特召宝玉相见，揽于怀内。元春的喜爱也是宝玉在贾府的护身符之一；而端午赐礼的安排，又使元春无意中成为宝黛爱情的外部压力。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "幼时教养",
+          "chapter": 18,
+          "description": "「那宝玉未入学堂之先，三四岁时，已得贾妃手引口传，教授了几本书、数千字在腹内了。其名分虽系姊弟，其情状有如母子。」"
+        },
+        {
+          "stage": 1,
+          "title": "幼时教养——如母般关注",
+          "chapter": 18,
+          "description": "元春入宫后时时带信出来与父母说：「千万好生扶养，不严不能成器，过严恐生不虞。」她如母亲般关注宝玉的成长和教养。"
+        },
+        {
+          "stage": 2,
+          "title": "省亲揽怀",
+          "chapter": 18,
+          "description": "元春「命快引进来」，携宝玉之手，揽于怀内，抚其头颈笑道「比先竟长了好些」。"
+        },
+        {
+          "stage": 2,
+          "title": "省亲考才——为弟正名",
+          "chapter": 18,
+          "description": "省亲之夜，元春特地将宝玉单独留下命其题咏四首——既有对幼弟学业成长的关注，也有借此在众人面前为宝玉「正名」的苦心。"
+        },
+        {
+          "stage": 3,
+          "title": "赐礼差别——姐弟情被卷入婚姻政治",
+          "chapter": 28,
+          "description": "元春的端午赐礼让宝玉与宝钗同等，姐弟情中掺入了家族政治的算计。"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_yuanchun_homecoming_ch18",
+          "description": "省亲时为宝玉单独出题"
+        }
+      ],
+      "impact": "元春与宝玉的姊弟关系是全书最温暖的亲情线之一。元春虽身处深宫，但对宝玉的关怀从未中断。她的薨逝对宝玉是致命的打击——不仅是失去了姐姐，更是在政治上失去了最重要的保护。"
+    },
+    {
+      "id": "relationship_yuanchun_jia_mu",
+      "from": "character_jia_yuanchun",
+      "to": "character_jia_mu",
+      "type": "祖孙（祖母与长孙女）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "元春省亲时见到贾母，「满眼垂泪……一手搀贾母一手搀王夫人，三个人满心里皆有许多话，只是俱说不出，只管呜咽对泣」。祖母向孙女以国礼跪拜——封建皇权对家庭伦理最彻底的反转。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "省亲重逢",
+          "chapter": 18,
+          "description": "元春一手搀贾母一手搀王夫人，「三个人满心里皆有许多话，只是俱说不出，只管呜咽对泣」。"
+        },
+        {
+          "stage": 1,
+          "title": "省亲相泣",
+          "chapter": 18,
+          "description": "元宵之夜，贾母以国礼跪迎孙女——祖母向孙女跪拜，这是封建皇权对家庭伦理最彻底的反转。"
+        },
+        {
+          "stage": 2,
+          "title": "薨逝诀别",
+          "chapter": 95,
+          "description": "元妃薨逝，贾母入宫哭别。白发人送黑发人。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_yuanchun_homecoming_ch18",
+          "description": "省亲时与贾母对泣"
+        }
+      ],
+      "impact": "元春与贾母的关系集中体现了《红楼梦》对封建伦理的批判——皇权将祖母与孙女的关系倒转为君臣，让血缘中最自然的亲情被政治体制扭曲为最不自然的礼仪。"
+    },
+    {
+      "id": "relationship_yuanchun_wang_furen",
+      "from": "character_jia_yuanchun",
+      "to": "character_wang_furen",
+      "type": "母女",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人是元春生母。省亲时母女对泣无语；元春死后王夫人痛哭欲绝。元春的「贤德」与王夫人的「慈善」互为表里——母女二人都活在礼教的模具里。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "省亲对泣",
+          "chapter": 18,
+          "description": "元春与贾母王夫人「只管呜咽对泣」——二十年分离的千言万语只化作哭声。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yuanchun_xue_baochai",
+      "from": "character_jia_yuanchun",
+      "to": "character_xue_baochai",
+      "type": "表姐妹（金玉良缘的潜在支持者）",
+      "nature": [
+        "kinship",
+        "political"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "省亲时元春对钗黛并无偏私（评诗时赞赏黛玉）。但第二十八回端午赐礼，唯独宝钗与宝玉同等——这份差别待遇使元春（或她身后的宫府意志）被视为「金玉良缘」的隐性支持者。宝钗「羞笼红麝串」的反应说明她自己也读懂了这份礼物的含义。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "省亲初识",
+          "chapter": 18,
+          "description": "元春命众人题诗，宝钗、黛玉之作俱得赞赏。"
+        },
+        {
+          "stage": 2,
+          "title": "赐礼暗示",
+          "chapter": 28,
+          "description": "端午赐礼宝玉宝钗同等——「金玉」之说获得来自宫中的「背书」。",
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "relationship_yuanchun_lin_daiyu",
+      "from": "character_jia_yuanchun",
+      "to": "character_lin_daiyu",
+      "type": "表姐妹（诗才之赏）",
+      "nature": [
+        "kinship",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "省亲时众人题诗，黛玉之才最受元春称赏：「终是薛林二妹之作与众不同」。黛玉代宝玉所写《杏帘在望》被元春指为「前三首之冠」。然而元春的赐礼等差随后让黛玉感到来自宫中的压力——赏识与压力并存。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "省亲称赏",
+          "chapter": 18,
+          "description": "元春评黛玉代作「杏帘在望」为诸作之冠，赞「非愚姊妹可同列者」。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_yuanchun_judgment_song",
+      "title": "判词与《恨无常》曲",
+      "work_type": "判词/曲",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "判词：「二十年来辨是非，榴花开处照宫闱。三春争及初春景，虎兕相逢大梦归。」《恨无常》：「喜荣华正好，恨无常又到。眼睁睁，把万事全抛。荡悠悠，把芳魂消耗。望家乡，路远山高。故向爹娘梦里相寻告：儿命已入黄泉，天伦呵，须要退步抽身早！」",
+      "symbolic_notes": "「弓上挂橼」的册画拆解名讳；「虎兕/虎兔」版本差异关系死因；「退步抽身早」是元春以死亡换取的对家族的终极警告。"
+    },
+    {
+      "id": "poem_yuanchun_daguanyuan",
+      "title": "题大观园",
+      "work_type": "七绝",
+      "chapter_number": 18,
+      "fact_type": "canonical_text_fact",
+      "summary": "「衔山抱水建来精，多少工夫筑始成。天上人间诸景备，芳园应锡大观名。」",
+      "symbolic_notes": "元春省亲时为大观园定名并题诗。「天上人间诸景备」——大观园从此成为女儿们的「天上人间」，而命名者本人永不得住。"
+    },
+    {
+      "id": "poem_yuanchun_riddle",
+      "title": "灯谜（爆竹）",
+      "work_type": "灯谜（七绝）",
+      "chapter_number": 22,
+      "fact_type": "canonical_text_fact",
+      "summary": "「能使妖魔胆尽摧，身如束帛气如雷。一声震得人方恐，回首相看已化灰。」",
+      "symbolic_notes": "爆竹一响而散——元春与贾府「烈火烹油」后速朽的自谶。贾政读之「悲谶语」。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_yuanchun_visit",
+      "title": "元春省亲为什么既荣耀又悲凉？",
+      "slug": "why-is-yuanchuns-visit-glorious-yet-tragic",
+      "question_type": "plot",
+      "importance_weight": 84,
+      "heat_weight": 72,
+      "neutral_overview": "「烈火烹油、鲜花着锦之盛」的省亲，全程却以哭声贯穿——元春一句「当日既送我到那不得见人的去处」点破了全部荣耀的虚幻。",
+      "viewpoint_ids": [
+        "viewpoint_yuanchun_paradox",
+        "viewpoint_yuanchun_political"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_yuanchun_paradox",
+          "title": "反讽论：省亲是一场「用眼泪完成的庆典」",
+          "summary": "曹雪芹以「哭」解构「盛」——省亲的全部仪仗、规格、排场，最终都被元春的眼泪证明为「空架子」。",
+          "evidence": [
+            "「当日既送我到那不得见人的去处」——皇妃把皇宫称为见不得人的去处",
+            "省亲时辰全在夜间、父女隔帘、回宫时限——天伦之乐被制度切割成几小时的偷欢"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_yuanchun_political",
+          "title": "政治论：省亲的荣耀是「政治投资」的虚妄回报",
+          "summary": "省亲的「荣耀」本质上是贾府多年政治投资的阶段性回本——元春封妃、建园、省亲构成一个完整的政治经济事件：荣耀越盛，投入越大，家族财政被掏空得越彻底。",
+          "evidence": [
+            "大观园的营建耗尽贾府财力的伏笔；元春回宫后贾府「内囊却也尽上来了」的衰相"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_yuanchun_significance",
+      "title": "元春在贾府兴衰中到底意味着什么？",
+      "slug": "what-does-yuanchun-mean-for-jia-family",
+      "question_type": "theme_analysis",
+      "importance_weight": 80,
+      "heat_weight": 68,
+      "neutral_overview": "元春封妃时贾府「烈火烹油」，元春死后贾府「树倒猢狲散」。她究竟是贾府兴衰的原因，还是兴衰的仪表？",
+      "viewpoint_ids": [
+        "viewpoint_yuanchun_trigger",
+        "viewpoint_yuanchun_symptom",
+        "viewpoint_yuanchun_symbol"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_yuanchun_trigger",
+          "title": "触因论：元春之死是贾府衰败的直接开关",
+          "summary": "贾府的政治地位完全建立在元春的妃位之上——她在，则「百足之虫」尚可支撑；她死，则宫中的庇护立即消失，抄家随即到来。元春是贾府衰败链条上的直接触因。",
+          "evidence": [
+            "元妃薨逝与贾府败亡的时间顺序（后四十回）",
+            "贾府上下「靠山」意识——元春是「政治保险」"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_yuanchun_symptom",
+          "title": "征兆论：元春的荣辱只是贾府衰败的「仪表盘」",
+          "summary": "贾府衰败的根本原因是内部的（经济崩溃、子弟堕落、政治树敌），元春的得宠与死亡只是这些深层矛盾的外在显示。她不是原因，是显示器——即使没有元春之死，贾府也必败。",
+          "evidence": [
+            "贾府的经济危机早在元春封妃前后就已显现（冷子兴演说荣国府）",
+            "抄检大观园等内部自毁行为与元春无关"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_yuanchun_symbol",
+          "title": "象征论：元春是「制度性悲剧」的样本",
+          "summary": "元春的意义不在于她具体做了什么，而在于她「被制度化了」的一生：入宫（牺牲人性）→封妃（家族荣耀）→省亲（虚假团圆）→死亡（一切归零）。她是皇权制度下贵族女性命运的标准样本，也是贾府「以女求荣」的政治逻辑的最终报应。",
+          "evidence": [
+            "判词与《恨无常》曲的完整象征系统",
+            "「骨肉各方，终无意趣」的制度控诉"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_yuanchun_death_cause",
+      "title": "元春之死的真正原因是什么？",
+      "slug": "what-killed-yuanchun",
+      "question_type": "character_fate",
+      "importance_weight": 78,
+      "heat_weight": 75,
+      "neutral_overview": "判词「虎兕相逢大梦归」暗示政治风暴，后四十回却写她病死于痰厥。元春究竟是病死还是死于政治斗争？",
+      "viewpoint_ids": [
+        "vp_yuanchun_illness",
+        "vp_yuanchun_political_death"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_yuanchun_illness",
+          "title": "病死说（后四十回的处理）",
+          "summary": "高鹗续书以「痰气壅塞，四肢厥冷」写元春之死——以自然疾病收束，规避政治风险。此说符合「贤德妃」的体面死法，但与判词的「虎兕相逢」暗示存在落差。",
+          "evidence": [
+            "第九十五回「痰厥」的直接描写",
+            "回目「因讹成实」——以讹传掩盖真相的笔法"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_yuanchun_political_death",
+          "title": "政治斗争说（判词与脂批线索）",
+          "summary": "「虎兕相逢」（两猛兽相斗）直指朝廷两派势力的搏杀，元春是斗争中的牺牲品。刘心武等学者认为元春之死与宫廷政变有关，她的死直接导致贾府被抄。甲戌本「虎兔相逢」或指寅卯之交的时间节点。",
+          "evidence": [
+            "判词「虎兕相逢大梦归」",
+            "《恨无常》「眼睁睁，把万事全抛」的突发性",
+            "元春之死与贾府被抄的因果链条"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_yuanchun_gift_signal",
+      "title": "端午赐礼是支持「金玉良缘」的信号吗？",
+      "slug": "was-yuanchuns-gift-a-signal-for-jade-marriage",
+      "question_type": "event_analysis",
+      "importance_weight": 75,
+      "heat_weight": 70,
+      "neutral_overview": "元春端午赐礼，唯宝玉与宝钗同等。这份礼物是否意味着元春（或宫府）已选定宝钗为宝二奶奶？",
+      "viewpoint_ids": [
+        "vp_yuanchun_gift_yes",
+        "vp_yuanchun_gift_no"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_yuanchun_gift_yes",
+          "title": "信号论：赐礼等差是「金玉良缘」的官方背书",
+          "summary": "宝玉宝钗同等、黛玉降等的安排不可能是随意的——它发生在「金玉」之说盛行之时，宝钗「羞笼红麝串」的反应、黛玉的疑惧、贾母后来在清虚观的回应，都说明当事人读懂了这份信号。元春代表宫府意志，为金玉良缘投了关键一票。",
+          "evidence": [
+            "宝玉问「别人的也都是这个」后得知与宝钗同等的失望/惊讶",
+            "宝钗「羞笼红麝串」——她自己读懂了",
+            "此后「金玉」攻势明显加强（清虚观提亲等）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yuanchun_gift_no",
+          "title": "惯例论：赐礼等差未必是婚姻暗示",
+          "summary": "宝钗是客居的亲戚且年长，按礼可能享受不同等例；元春省亲时对钗黛并无偏私，且黛玉代作之诗获「前三首之冠」的称赞。将赐礼视为婚姻信号可能是人物（以及读者）的过度解读——但正是这种「过度解读」本身，推动了情节发展。",
+          "evidence": [
+            "元春省亲时对黛玉诗才的高度称赞",
+            "赐礼的分配规则在文本中没有明确说明"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_yuanchun_weep_control",
+      "title": "元春对皇宫的控诉为什么由她自己说出？",
+      "slug": "why-does-yuanchun-herself-denounce-the-palace",
+      "question_type": "literary_analysis",
+      "importance_weight": 72,
+      "heat_weight": 60,
+      "neutral_overview": "「不得见人的去处」「终无意趣」——全书最尖锐的宫廷控诉出自皇妃本人之口。曹雪芹为什么让元春亲口否定自己的荣耀？",
+      "viewpoint_ids": [
+        "vp_yuanchun_testimony",
+        "vp_yuanchun_deconstruction"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_yuanchun_testimony",
+          "title": "证词论：亲历者的控诉最具力量",
+          "summary": "让皇妃亲口说皇宫「不得见人」，比任何旁观者的批判都有力——这是「局内人」的证词。元春的眼泪是制度受害者的第一手证言，曹雪芹借此完成对皇权的釜底抽薪：被制度「恩宠」的人亲口说制度之恶。",
+          "evidence": [
+            "「当日既送我到那不得见人的去处」——「送」字说明她从未自愿",
+            "「终无意趣」——对富贵价值的自我否定"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yuanchun_deconstruction",
+          "title": "解构论：荣耀的自我拆台",
+          "summary": "元春的哭诉使省亲的整场庆典变成「主角否定庆典」的荒诞剧——仪仗越隆重，主角的否定越彻底。这是曹雪芹「以盛写衰」手法的最极端运用：不是作者在批评荣耀的虚妄，而是荣耀的受益人自己拆穿了它。",
+          "evidence": [
+            "省亲全程哭与笑的反讽结构",
+            "「烈火烹油，鲜花着锦」的自我警告式比喻"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_yuanchun_nanxun",
+      "title": "省亲影射康熙南巡——曹家的家族记忆",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "脂砚斋、周汝昌等",
+      "year": 1754,
+      "source_title": "《脂砚斋重评石头记》批语、《红楼梦新证》（周汝昌，1953）",
+      "description": "脂批在省亲回明言「借省亲事写南巡，出脱心中多少忆昔感今」。周汝昌等学者据此认为，元春省亲的原型是康熙南巡时曹寅（曹雪芹祖父）接驾的家族记忆。省亲的铺张排场（建园、接驾、花钱如流水）正是曹家当年接驾的真实写照——「只预备接驾一次，把银子都花的淌海水似的」（赵嬷嬷语）。元春形象与省亲情节因此被视为曹雪芹「家史小说化」的核心证据之一。",
+      "opinions": [
+        {
+          "side": "支持者",
+          "content": "脂批是第一手线索；「省亲」在历史上并无妃嫔回家省亲之制，恰是南巡接驾的文学变形。",
+          "proponent": "周汝昌、胡适以来的考证派"
+        },
+        {
+          "side": "保留者",
+          "content": "小说不是家史的直录，省亲更应从文学结构（贾府兴衰的顶点与转折）理解，而非一一坐实历史。",
+          "proponent": "文学批评派学者"
+        }
+      ]
+    },
+    {
+      "id": "viewpoint_yuanchun_zhongjiao",
+      "title": "元春——以女求荣的家族政治祭品",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1985,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者普遍将元春定位为「家族政治祭品」：贾府送她入宫，本质是以女儿之身换取政治庇护——她的身体、情感、自由全部是交易筹码。省亲中「国礼」对「家礼」的每一次压制（隔帘、跪拜、回銮时限），都是这场交易成本的外化。元春的悲剧是封建宗法社会「以女求荣」逻辑的极端样本：女儿越「有用」，越被剥夺为人。",
+      "opinions": [
+        {
+          "side": "支持者",
+          "content": "元春的每一句话（「不得见人的去处」「终无意趣」）都在控诉自己被工具化的命运。",
+          "proponent": "多数人物分析派学者"
+        },
+        {
+          "side": "补充者",
+          "content": "元春自己也是制度的维护者——她题咏「芳园应锡大观名」、安排赐礼等差，说明她已内化了这套政治逻辑。她的悲剧在于：既是受害者，也成了规则的执行者。",
+          "proponent": "部分社会批评派学者"
+        }
+      ]
+    },
+    {
+      "id": "viewpoint_yuanchun_sanchu",
+      "title": "「三春争及初春景」——元春与三春的命运对照",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学判词研究",
+      "year": 1990,
+      "source_title": "多项判词与曲文研究",
+      "description": "判词「三春争及初春景」以「初春」（元春）与「三春」（迎春、探春、惜春）构成对照结构：元春曾拥有三春不可企及的「春景」（妃位、省亲），却最先「大梦归」。有学者进一步指出「三春」双关——既指三位妹妹，也指「三个春天」（美好的年月）：初春之景虽好，终究争不过「大梦归」的结局。元春与三春合起来构成「四春」的春景消亡史：贾府的春天，从元春的省亲开始凋零。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 7,
+    "total_relationships": 7,
+    "total_poems": 3,
+    "total_questions": 5,
+    "total_viewpoints": 3,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 31,
+      "text_inference": 15,
+      "scholarly_viewpoint": 6,
+      "disputed_version": 8,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

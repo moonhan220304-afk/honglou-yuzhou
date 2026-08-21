@@ -1,0 +1,508 @@
+{
+  "character": {
+    "id": "character_qin_ye",
+    "name": "秦业",
+    "slug": "qin-ye",
+    "aliases": [
+      "秦邦业"
+    ],
+    "category": "营缮郎（秦可卿养父）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "秦氏一门之主：养女秦可卿（养生堂抱养）、亲子秦钟。",
+      "position": "营缮郎（工部小官，一说「营缮司郎中」），年近七十。",
+      "origin": "京师小官吏，夫人早亡。",
+      "generation": "与贾政同辈的官僚阶层"
+    },
+    "tags": [
+      "营缮郎",
+      "养生堂抱养",
+      "秦可卿养父",
+      "秦钟之父",
+      "东拼西凑送子入塾",
+      "智能儿私奔",
+      "气死",
+      "情孽之始"
+    ],
+    "summary": {
+      "short": "秦可卿的养父、秦钟的生父，营缮郎小官。年近七十才得子秦钟，倾家供其入塾攀附贾府；第十六回秦钟与智能儿私情败露，他气病而死——「秦」家三代的悲剧由他一身串起。",
+      "long": "秦业是《红楼梦》中「小官僚攀附世家」的典型样本。他官居营缮郎，「年近七十，夫人早亡」；当年无儿无女，便向养生堂抱了一个儿子和一个女儿，儿子夭折，只留养女——小名可儿，即后来的秦可卿。他五旬上下才得了亲生子秦钟。秦业的全部人生策略是「攀附」：把养女嫁进宁国府（秦可卿成为贾蓉之妻，学界公认这桩「门不当户不对」的婚姻有政治与利益的内幕）；第八回又把秦钟送进贾府家塾，为凑拜师礼，「东拼西凑的恭恭敬敬封了二十四两贽见礼」。他指望儿女生儿育女、光耀门楣，结果：秦可卿与贾珍乱伦（第七回焦大醉骂影射）、第十三回早夭；秦钟第十五回在馒头庵与智能儿「得趣」，第十六回智能儿私逃进城寻秦钟，被秦业发觉，「将智能逐出，将秦钟打了一顿」——秦业自己却气得老病发作，「三五日光景，呜呼死了」。秦钟随后也病死。秦业之死是全书写「望子成龙反成空」的最浓缩篇章：他买子、嫁女、送子入塾，每一步都往上爬，每一步都踩空。更深的讽刺在于「业」字——秦业名「业」，即「孽」：他经营的产业（养女可卿、亲子秦钟）无一不是「情孽」；他一生积攒的体面，被一双儿女的情事撕得干干净净。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "攀——小官吏的向上经营",
+        "fact_type": "canonical_text_fact",
+        "description": "秦业的每一步都写在「攀」字上：抱养儿女以承香火、嫁养女入宁府、倾家送子入贾塾——他毕生经营的不是亲情，是「门第」。这种攀附是底层官僚的生存逻辑，也是「秦氏一门」悲剧的起点。"
+      },
+      {
+        "dimension": "严——老来得子的畸形管教",
+        "fact_type": "canonical_text_fact",
+        "description": "秦业对秦钟的管教严到残酷：发现秦钟私情，「将智能逐出，将秦钟打了一顿」——一个年近七旬的老人用暴力维持家声，结果打死了自己的体面，也气死了自己。他的「严」与贾代儒的「严」构成全书两代家长的镜像。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_qin_ye_adopt_past",
+        "title": "养生堂抱养可卿、五旬得子秦钟（前事）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_qin_ye_school_ch8",
+        "title": "东拼西凑送秦钟入贾府家塾（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_qin_ye_death_ch16",
+        "title": "逐智能、打秦钟——气病而死（第十六回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch8_qin_ye_intro",
+        "quote": "他父亲秦业，现任营缮郎，年近七十，夫人早亡。因当年无儿女，便向养生堂抱了一个儿子并一个女儿。谁知儿子又死了，只剩女儿，小名唤可儿……因素与贾家有些瓜葛，故结了亲，许与贾蓉为妻。那秦业至五旬之上方得了秦钟。",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回秦业身世。养生堂出身却嫁入宁府——「素与贾家有些瓜葛」一句，含尽攀附与隐情。"
+      },
+      {
+        "source_id": "source_ch8_qin_ye_fee",
+        "quote": "（秦业为秦钟入塾）东拼西凑的恭恭敬敬封了二十四两贽见礼，亲自带了秦钟，来代儒家拜见了。……秦钟此去，学业料必进益，成名可望，因此十分喜悦。",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回。二十四两贽见礼的「东拼西凑」——小官僚的体面是用牙缝里省的钱堆的。"
+      },
+      {
+        "source_id": "source_ch16_qin_ye_death",
+        "quote": "不意被秦业知觉，将智能逐出，将秦钟打了一顿。自己气的老病发作，三五日光景，呜呼死了。秦钟本自怯弱，又带病未愈，受了笞杖，今见老父气死，此时悔痛无及，更又添了许多症候。",
+        "fact_type": "canonical_text_fact",
+        "note": "第十六回。逐智能、打秦钟、气死自己——秦业之死与秦钟之病同段写尽，父子同归「情孽」。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「秦」谐「情」，「业」即「孽」——秦业者，情孽也",
+      "detail": "曹雪芹的谐音系统里，「秦」＝「情」：秦可卿（情可轻/情可倾）、秦钟（情种）、秦业（情孽）。「业」是佛家用语——业障、业报；秦业之「业」，正是他一生经营「情孽产业」的判词：抱养的养女是「孽」（乱伦而亡），亲生的儿子也是「孽」（淫奔而亡）。一说其名或作「秦邦业」——「邦业」即「国家基业」，一个小营缮郎守着家国大业的名，讽刺其家业俱丧。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（约70岁上下）"
+      },
+      "conclusion": "原文未见明文；老来得子（秦钟），约七十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "秦邦业",
+      "type": "异文名",
+      "context": "各抄本中秦业之名有「秦业」「秦邦业」之异文——「邦业」二字更显其「经营家业」的讽刺意味",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_qin_ye_adopt_past",
+      "title": "养生堂抱养可卿，五旬得子秦钟",
+      "event_level": "minor",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秦业家（追述）",
+        "specific": "第八回借秦钟之口追述：秦业年近七十、夫人早亡，向养生堂抱了一儿一女，儿子夭折，只剩可卿；因「素与贾家有些瓜葛」，把可卿许配贾蓉。五旬上才得亲生子秦钟。"
+      },
+      "summary": {
+        "short": "秦业的家庭构造是全书最奇特的「拼装家庭」：抱来的养女成了宁府少奶奶，老来得子成了贾府家塾的公子。一养一亲，都是他「向上经营」的工具——而这两个工具，最终一个淫亡、一个病亡。",
+        "meaning": [
+          "养生堂出身却能嫁入宁府——「素与贾家有些瓜葛」的背后是红学最大的谜团之一",
+          "抱养女儿+老来得子——秦业的「家庭」本质是「产业」",
+          "一养一亲的对称毁灭——秦氏一门的命运结构就此定型"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "可卿身世之谜",
+          "content": "学界对秦可卿「养生堂抱养却嫁入宁府」深表怀疑：一个抱来的女儿凭什么配国公府嫡孙？主流推断有二：一是秦业与贾府有隐情交易；二是秦可卿另有高贵出身（如废太子之女说）——无论哪说，秦业这个「养父」的攀附角色都极不简单。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_ye",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qin_ye_school_ch8",
+      "title": "东拼西凑送秦钟入塾",
+      "event_level": "minor",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秦业家/贾府家塾",
+        "specific": "为送秦钟入贾府家塾，秦业东拼西凑封了二十四两贽见礼，亲自带秦钟拜见贾代儒。他喜秦钟「学业料必进益，成名可望」。秦钟入塾后与宝玉同学，由此牵出闹学堂、馒头庵等一连串情事。"
+      },
+      "summary": {
+        "short": "二十四两银子的贽见礼，是秦业「望子成龙」的全部家当。他送秦钟入塾的那天，就是秦钟踏上「情孽」之路的那天——攀附的每一步，都通向深渊。",
+        "meaning": [
+          "「东拼西凑」——小官僚投资教育的窘迫与孤注一掷",
+          "入塾即入「情网」——秦钟在贾府家塾遇到宝玉、香怜玉爱，情孽自此开场",
+          "秦业以为送子入塾是「成名可望」，读者却知这是送子入坑"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "教育投资的讽刺",
+          "content": "秦业的悲剧是「投资型家长」的普遍悲剧：他典当家底买的「教育机会」，实则是进入了一个「除了念书什么都干」的家塾（第九回闹学堂即是证明）。曹雪芹借秦业写尽科举信仰的破产。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_ye",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_dairu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_qin_ye_death_ch16",
+      "title": "逐智能、打秦钟——气病而死",
+      "event_level": "major",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秦业家",
+        "specific": "智能儿私逃进城到秦家探秦钟，被秦业知觉：将智能逐出，将秦钟打了一顿。秦业自己气的老病发作，三五日呜呼而死。秦钟本自怯弱，受笞杖后病重，终在第十六回末夭逝。"
+      },
+      "summary": {
+        "short": "秦业的死法是全书的黑色寓言：他打的是儿子的情，断的是自己的命。逐智能、打秦钟、气死自己——三步之内，秦氏一门三代（养女可卿已先死）全部归零。",
+        "meaning": [
+          "「将智能逐出，将秦钟打了一顿」——老父用暴力维系的最后体面",
+          "「自己气的老病发作」——打儿子的是他，要命的是他自己",
+          "秦钟「悔痛无及」——迟来的悔，加速的亡"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「气死」的因果",
+          "content": "秦业之死是全书最完整的一条「业报」链：他抱养可卿（攀附之始）→可卿淫亡→送秦钟入塾（投资之续）→秦钟淫奔→气死。他的「业」不是罪大恶极的恶行，而是小人物在等级社会里每一次身不由己的攀附——曹雪芹对秦业的嘲讽里，藏着深刻的悲悯。"
+        },
+        {
+          "type": "literary",
+          "title": "秦氏三亡的节奏",
+          "content": "秦可卿（第十三回）、秦业（第十六回）、秦钟（第十六回）——三个月之内死绝，且死因皆系「情」：可卿死于情孽，秦业死于情祸（儿子的事气死），秦钟死于情病。曹雪芹用「秦（情）家」的连环死亡，为全书「情即孽」的总主题鸣锣开场。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_qin_ye",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhi_neng_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_qin_ye_qin_keqing",
+      "from": "character_qin_ye",
+      "to": "character_qin_keqing",
+      "type": "养父女",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "秦业与可卿的养父女关系是全书最「工具化」的亲子关系之一：他抱养她、养大她、把她嫁入宁府——每一步都是经营。可卿在宁府的乱伦与早夭（焦大醉骂与判词暗示），是这段「经营」结出的第一颗毒果。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "抱养",
+          "chapter": 8,
+          "description": "养生堂抱养可卿。"
+        },
+        {
+          "stage": 1,
+          "title": "抱养之恩",
+          "chapter": 8,
+          "description": "秦业抱养可卿——她一生中唯一的「家」，但这个家给不了她任何依仗。"
+        },
+        {
+          "stage": 2,
+          "title": "嫁入宁府",
+          "chapter": 8,
+          "description": "因「素与贾家有些瓜葛」，可卿许配贾蓉。"
+        },
+        {
+          "stage": 3,
+          "title": "养女之死",
+          "chapter": 13,
+          "description": "秦可卿病亡（判词暗示另有隐情）。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qin_ye_qin_zhong",
+      "from": "character_qin_ye",
+      "to": "character_qin_zhong",
+      "type": "父子（寒门赌注）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "秦钟是秦业五旬所得的爱子，倾注了他全部的希望与家财。但秦钟在馒头庵与智能儿「得趣」、私情败露，秦业「逐智能、打秦钟」，气病而死。父子俩在第十六回一前一后离世——望子成龙的父亲，被儿子的风流气死，又比儿子早走一步。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "送子入塾",
+          "chapter": 8,
+          "description": "东拼西凑二十四两贽见礼。"
+        },
+        {
+          "stage": 1,
+          "title": "凑银入塾",
+          "chapter": 8,
+          "description": "秦业东拼西凑二十四两贽见礼。"
+        },
+        {
+          "stage": 2,
+          "title": "笞子气亡",
+          "chapter": 16,
+          "description": "秦业打秦钟，气病而死。"
+        },
+        {
+          "stage": 2,
+          "title": "气死而亡",
+          "chapter": 16,
+          "description": "智能儿私逃事件后，秦业一气而亡。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qin_ye_zhi_neng_er",
+      "from": "character_qin_ye",
+      "to": "character_zhi_neng_er",
+      "type": "驱逐者与被驱逐者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "one-way",
+      "fact_type": "canonical_text_fact",
+      "summary": "智能儿私奔寻秦钟，被秦业「逐出」——这是秦业对「情孽」的最后反击，也是他气死自己的直接原因。一个老官僚驱逐一个小尼姑，保住了家声的最后一道门，却没能保住自己的命。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "逐出",
+          "chapter": 16,
+          "description": "秦业将私奔而来的智能儿逐出家门。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_qin_ye_jia_fu",
+      "from": "character_qin_ye",
+      "to": "character_jia_rong",
+      "type": "攀附者与高门",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "秦业与贾府的「瓜葛」是全书等级社会的一面镜子：嫁女入宁府、送子入家塾，他把全家绑在贾府这棵大树上。贾府给他的回报是：女儿在宁府早夭（死因暧昧），儿子在贾塾学坏——「大树底下好乘凉」变成了「大树底下好殒命」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "结亲",
+          "chapter": 8,
+          "description": "可卿许配贾蓉。"
+        },
+        {
+          "stage": 2,
+          "title": "送子",
+          "chapter": 8,
+          "description": "秦钟入贾府家塾。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_qin_ye_keqing_marriage",
+      "title": "秦可卿一个养生堂抱来的孤女，凭什么嫁进宁国府？",
+      "slug": "why-did-keqing-marry-into-ning-fu",
+      "question_type": "textual_verification",
+      "importance_weight": 78,
+      "heat_weight": 80,
+      "neutral_overview": "秦业只是个小营缮郎，秦可卿是抱养的孤儿——这桩「门不当户不对」的婚姻，是全书最大的身世谜团之一。",
+      "viewpoint_ids": [
+        "vp_qin_ye_marriage_benefit",
+        "vp_qin_ye_marriage_origin"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_qin_ye_marriage_benefit",
+          "title": "交易论：秦业与贾府之间必有隐情",
+          "summary": "「素与贾家有些瓜葛」一句极含糊——学界主流认为这是「不写之写」：秦业与贾府（或贾珍）之间存在某种利益与秘密的交换，可卿之嫁是交易的一部分。秦可卿在宁府受宠异乎寻常（贾母赞其「第一得意的重孙媳妇」），其葬礼规格更是僭越（义忠亲王棺木）——处处暗示她的身份与贾府的核心机密相连。",
+          "evidence": [
+            "「因素与贾家有些瓜葛，故结了亲」的含糊表述",
+            "可卿丧礼的僭越规格（义忠亲王老千岁的樯木板）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_qin_ye_marriage_origin",
+          "title": "身世论：可卿另有高贵出身，秦业只是掩体",
+          "summary": "有研究者（如刘心武等）推断：秦可卿的真实出身极高（或为某废王之后），托名养生堂抱养、寄于秦业名下，故能嫁入宁府且享受超规格待遇。此说能解释丧礼僭越、可卿在府中地位之谜，但缺乏直接文本证据，属于「探佚」层面的推考。",
+          "evidence": [
+            "可卿卧室陈设（武则天宝镜、赵飞燕金盘等）的皇家意象",
+            "第五回「情天情海幻情身」判词的隐晦"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=disputed"
+        }
+      ]
+    },
+    {
+      "id": "question_qin_ye_tragedy",
+      "title": "秦业之死是「望子成龙的悲剧」还是「攀附世家的报应」？",
+      "slug": "is-qinye-a-tragedy-or-a-retribution",
+      "question_type": "theme_analysis",
+      "importance_weight": 68,
+      "heat_weight": 62,
+      "neutral_overview": "秦业一生勤恳攀附：抱女、嫁女、送子入塾——结果养女淫亡、自己被气死、亲子病亡。他的死该怎么理解？",
+      "viewpoint_ids": [
+        "vp_qin_ye_tragedy",
+        "vp_qin_ye_retribution"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_qin_ye_tragedy",
+          "title": "悲悯论：小人物在等级社会的必死之路",
+          "summary": "秦业不是坏人，他只是想「向上」：抱养女儿是求嗣，嫁女是高攀，送子是求成——这些都是当时社会认可的正路。他的可悲在于：小人物每向上爬一步，都要押上更大的赌注，直到押无可押。曹雪芹写他「东拼西凑」的二十四两银子与「气的老病发作」，笔底是深沉的悲悯：他的死不是报应，是体制内小人物的必然。",
+          "evidence": [
+            "「东拼西凑」的窘迫与「成名可望」的幻想",
+            "全书对科举、联姻等「正路」的整体否定"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_qin_ye_retribution",
+          "title": "业报论：秦业者，情孽也——名字就是判决",
+          "summary": "曹雪芹给秦家三代命名「情」字辈（可卿＝情可轻、秦钟＝情种、秦业＝情孽），就是宣布这是一门「情孽之家」：秦业靠「情」（女儿的姿色）攀附，也死于「情」（儿子的风流）。他「将智能逐出、将秦钟打了一顿」的冷酷，与前文「把养女当工具」的经营一脉相承——他的死是「业」的兑现，不是偶然的不幸。",
+          "evidence": [
+            "「秦」谐「情」的命名体系（脂批「情种」「情孽」之解）",
+            "秦业对子女的「工具化」态度（抱养、攀亲、严打）"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch16_qin_ye_zhong",
+      "quote": "（秦钟临终）「以前你我见识自为高过世人，我今日才知自误了。以后还该立志功名，以荣耀显达为是。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第十六回秦钟临终遗言。秦业望子成龙的「功名话」，最终由儿子的遗言说出——迟到的认同，成了父子俩共同的墓碑铭。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_qin_ye_structure",
+      "title": "秦业：贾府「攀附网络」的微观样本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学社会研究",
+      "year": 1999,
+      "source_title": "多项社会阶层研究",
+      "description": "学者将秦业视为贾府周边「攀附网络」的微观样本：贾府是大树，周边寄生着秦业（嫁女送子）、金荣之母（走尤氏门路）、贾芹贾芸（求差事）等一群小人物。这个网络的功能是「用尊严换庇护」——而庇护的代价往往是人命（可卿、秦钟、秦业三死）。秦业一门的覆灭证明：在《红楼梦》的世界里，「攀附」没有赢家——攀得越紧，跌得越碎。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 20,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 1,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "character": {
+    "id": "character_jiao_da",
+    "name": "焦大",
+    "slug": "jiao-da",
+    "aliases": [],
+    "category": "宁国府老仆",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "宁国府世代老仆，早年跟随宁国公（贾演）出生入死。",
+      "position": "宁国府老仆；因功受宁公另眼相待，晚景凄凉，被派去夜里送客的苦差。",
+      "origin": "宁国府家奴，从宁公「出过三四回兵」。",
+      "generation": "与宁国公同辈的仆人阶层"
+    },
+    "tags": [
+      "爬灰的爬灰",
+      "养小叔子的养小叔子",
+      "醉骂宁府",
+      "死人堆里背出主子",
+      "塞马粪",
+      "功狗",
+      "秦可卿之隐",
+      "脂批"
+    ],
+    "summary": {
+      "short": "宁国府老仆，从宁公出过三四回兵、死人堆里背出过主子。第七回借醉大骂「爬灰的爬灰，养小叔子的养小叔子」，被小厮塞了一嘴马粪——他的醉话是全书中宁府乱伦（贾珍与秦可卿）最直接的「内证」。",
+      "long": "焦大是宁国府资格最老的仆人，「从小儿跟着太爷们出过三四回兵，从死人堆里把太爷背了出来，得了命；自己挨着饿，却偷了东西来给主子吃；两日没得水，得了半碗水给主子喝，他自己喝马溺」。凭这份功劳，宁国公在世时对他「另眼相待」，他却恃功而骄，老来被冷落，派去送秦钟这样的苦差。第七回晚上，焦大醉中借酒撒泼，骂总管赖二「不公道，欺软怕硬」，进而骂到贾蓉：「蓉哥儿，你别在焦大跟前使主子性儿！……别说你这样儿的，就是你爹、你爷爷，也不敢和焦大挺腰子！……我要往祠堂里哭太爷去。那里承望到如今生下这些畜牲来！每日家偷狗戏鸡，爬灰的爬灰，养小叔子的养小叔子，我什么不知道？」众小厮将他揪翻捆倒，拖往马圈，「用土和马粪满满的填了他一嘴」。脂砚斋批此回时明确点出「爬灰」指贾珍与秦可卿的乱伦——焦大的醉骂是《红楼梦》中「家丑」第一次被公开撕开的口子。这个人物出场极短，却是全书最著名的「骂人者」：他以功臣之身骂主子之淫，以老仆之口揭家族之丑，是曹雪芹安置在宁府门前的一座「活牌坊」。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "忠——功狗式的愚忠",
+        "fact_type": "canonical_text_fact",
+        "description": "焦大的「忠」是战功铸成的：死人堆里背主子、喝马溺给主子喝水——他把命卖给了宁公。但他的忠是旧式的「功狗」之忠：忠的对象是「太爷」而非现在的贾珍，所以他的忠心反过来成了辱骂的资本。"
+      },
+      {
+        "dimension": "愤——被时代抛弃的功臣",
+        "fact_type": "canonical_text_fact",
+        "description": "宁公死后，焦大的功劳无人兑现。新一代主子只把他当糟老头子使唤，他于是借酒发泄——从骂赖二到骂贾蓉再到骂出「爬灰」，层层升级的酒话里全是积压多年的愤懑。他不是真想揭丑，他是要讨回「功臣」的待遇。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jiao_da_war_past",
+        "title": "随宁公出兵、死人堆里背出主子（前事）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jiao_da_drunk_ch7",
+        "title": "醉骂宁府——「爬灰的爬灰」（第七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jiao_da_dung_ch7",
+        "title": "被塞马粪（第七回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch7_jiao_da_merit",
+        "quote": "只因他从小儿跟着太爷们出过三四回兵，从死人堆里把太爷背了出来，得了命；自己挨着饿，却偷了东西来给主子吃；两日没得水，得了半碗水给主子喝，他自己喝马溺。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回尤氏向凤姐解释焦大的来历。这段「功狗」叙事是他所有跋扈行为的资本来源。"
+      },
+      {
+        "source_id": "source_ch7_jiao_da_curse",
+        "quote": "焦大越发连贾珍都说出来，乱嚷乱叫说：「我要往祠堂里哭太爷去。那里承望到如今生下这些畜牲来！每日家偷狗戏鸡，爬灰的爬灰，养小叔子的养小叔子，我什么不知道？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回焦大醉骂。「爬灰」指公媳乱伦——脂批明点指贾珍与秦可卿。"
+      },
+      {
+        "source_id": "source_ch7_jiao_da_dung",
+        "quote": "众小厮见他太撒野不堪了，只得上来几个，揪翻捆倒，拖往马圈里去……用土和马粪满满的填了他一嘴。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回。功臣之口被塞马粪——宁府对旧勋的「封口」方式，极具象征意味。"
+      },
+      {
+        "source_id": "source_ch7_jiao_da_zhuyan",
+        "quote": "（脂批）一部《红楼》淫邪之处，恰在焦大口中揭明。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回脂砚斋批语——焦大醉骂被脂批直接坐实为宁府丑事的「揭盖子」。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「焦」字含火性——性如焦雷，一点就爆",
+      "detail": "「焦」是火字底的字，暗合他性烈如火、一点就着；一说「焦大」二字谐「骄傲自大」——他的骂正来自恃功而骄。曹雪芹未给这个老仆任何「雅」名，一个俗名即其一生：焦躁、焦灼、最终被时代烤焦的功臣。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 7,
+          "evidence": "从小儿跟着太爷们出过三四回兵（宁国公时期）",
+          "age": "老年"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "老年（第7回：从宁公出兵）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第7回明文「跟着太爷们出过三四回兵」——宁府三代数十年老仆，约六七十岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_jiao_da_war_past",
+      "title": "从宁公出兵——死人堆里背出主子",
+      "event_level": "minor",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府（尤氏口中追述）",
+        "specific": "第七回尤氏向凤姐追述焦大旧事：他从小跟着宁公出兵，死人堆里背出主子，自己挨饿偷食奉主，没水喝马溺而把清水留给主子。"
+      },
+      "summary": {
+        "short": "焦大之所以敢骂，是因为有「背主出死人堆」的战功垫底。这段追述是焦大全部行为的「合法性来源」——也是他悲剧的根源：他把旧勋当成了永久的免罪金牌。",
+        "meaning": [
+          "「功狗」叙事——焦大的价值只存在于战争记忆里，和平时代毫无用处",
+          "旧主已死，新主不认旧账——功臣与世家的双输",
+          "为第七回醉骂蓄势：没有这段功，醉骂只是撒泼；有了这段功，醉骂是控诉"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「过时的人」",
+          "content": "焦大活在宁公的时代记忆里：那个时代靠命换地位，这个时代靠血缘和银子。他骂「不公道」，是因为他没看懂——宁府现在的「公道」里已经没有他的位置。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jiao_da",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jiao_da_drunk_ch7",
+      "title": "醉骂宁府——「爬灰的爬灰」",
+      "event_level": "major",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府",
+        "specific": "夜里凤姐宝玉离席回府，焦大被派去送秦钟。焦大嫌派差不公，醉中先骂赖二，再骂贾蓉「欺软怕硬」，最后连贾珍一起骂出「爬灰的爬灰，养小叔子的养小叔子」。凤姐宝玉在车中听得清清楚楚。"
+      },
+      "summary": {
+        "short": "焦大的醉骂分三层递进：骂赖二（怨差事不公）→骂贾蓉（怨主子不敬）→骂贾珍（揭家丑「爬灰」）。酒劲越深，骂得越真——脂批明言这骂揭开了宁府的乱伦。",
+        "meaning": [
+          "「爬灰」二字撕开宁府最深的秘密——贾珍与秦可卿的乱伦从此在读者面前公开",
+          "骂在凤姐宝玉面前——等于让荣府的当家人与继承人共同见证宁府之丑",
+          "「我要往祠堂里哭太爷去」——以祖宗之灵压今世之主，老仆骂人的最高修辞"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「爬灰」与脂批",
+          "content": "脂砚斋在第七回批语中点明「爬灰」即贾珍与秦可卿乱伦——这是红学判定秦可卿「淫丧」的最关键内证之一。曹雪芹后来删去「秦可卿淫丧天香楼」的正文，却保留了焦大这一骂，等于把删掉的丑闻换了个方式重新揭出。"
+        },
+        {
+          "type": "character",
+          "title": "骂人的艺术：层层上纲",
+          "content": "焦大的骂有严格的升级逻辑：从劳务纠纷（赖二）上升到身份压迫（贾蓉），最后直捣伦理（贾珍爬灰）。他清醒地知道哪句话最致命——所以他骂得越狠，被塞马粪就越快。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jiao_da",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jiao_da_dung_ch7",
+      "title": "被塞马粪",
+      "event_level": "major",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府马圈",
+        "specific": "众小厮将焦大揪翻捆倒，拖往马圈，用土和马粪填满他的嘴。凤姐在车中嫌恶：「我何曾不知这焦大。到底是你们没主意，何不远远的打发他到庄子上去就完了！」宝玉却问凤姐「什么是『爬灰』」。"
+      },
+      "summary": {
+        "short": "说真话的嘴被塞马粪——宁府对待「清醒者」的方式就是物理消音。凤姐的态度（打发到庄子上去）与宝玉的天真发问（「什么是爬灰」）在同一场戏里并置：一个要灭口，一个在启蒙。",
+        "meaning": [
+          "马粪塞嘴——最粗糙的「删帖」：宁府宁愿捂着臭，也不愿撕开丑",
+          "凤姐的「打发他到庄子上去」——对待功臣的实用主义：不再有用，就远远扔掉",
+          "宝玉问「什么是爬灰」——纯洁与污秽的并置，曹雪芹的冷峻幽默"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「封口」的象征",
+          "content": "焦大之骂与焦大被塞马粪构成一个完整的寓言：家族的真相只能烂在肚里，谁开口谁吃粪。宁府由此完成的不是「家丑不外扬」，而是「扬过了、再封口」——丑闻已经在凤姐、宝玉、读者面前曝光。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jiao_da",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jiao_da_ning_gong",
+      "from": "character_jiao_da",
+      "to": "character_ning_guo_gong",
+      "type": "旧主（救命之恩）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "焦大与宁国公是「过命的交情」：战场上的出生入死使二者的关系超越了主仆契约。宁公在时对他另眼相待；宁公一死，这段关系就只剩焦大单方面念叨——「我要往祠堂里哭太爷去」，哭的是太爷，怨的是太爷的后人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "出生入死",
+          "chapter": 7,
+          "description": "从宁公出兵三四回，死人堆里背出主子。"
+        },
+        {
+          "stage": 2,
+          "title": "人去茶凉",
+          "chapter": 7,
+          "description": "宁公死后焦大失势，唯余「哭太爷」的资格。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiao_da_jia_zhen",
+      "from": "character_jiao_da",
+      "to": "character_jia_zhen",
+      "type": "旧仆与新主（被揭丑者）",
+      "nature": [
+        "master_servant",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "焦大与贾珍之间横着一条代沟：焦大以「你爷爷也不敢和我挺腰子」的老资格说话，贾珍则以当家人的身份让下人「捆倒塞粪」。焦大骂出的「爬灰」正指向贾珍与秦可卿的乱伦——这对关系是全书「以下犯上」的极致：奴才之口，判了主子之罪。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "醉骂揭丑",
+          "chapter": 7,
+          "description": "焦大连贾珍一起骂出「爬灰的爬灰」。"
+        },
+        {
+          "stage": 2,
+          "title": "塞粪封口",
+          "chapter": 7,
+          "description": "贾珍授意下小厮将焦大捆倒塞粪。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiao_da_qin_keqing",
+      "from": "character_jiao_da",
+      "to": "character_qin_keqing",
+      "type": "揭露者与被揭露者",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "焦大与秦可卿并无直接互动，却是揭开她秘密的人：「爬灰」二字（脂批坐实）指向她与贾珍的乱伦。秦可卿之病、之死（第十三回）都发生在焦大一骂之后——老仆的醉话成了她命运的谶语。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "一骂成谶",
+          "chapter": 7,
+          "description": "焦大醉骂点破宁府乱伦，此后秦可卿病重而死。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiao_da_wang_xifeng",
+      "from": "character_jiao_da",
+      "to": "character_wang_xifeng",
+      "type": "被嫌恶者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐对焦大的态度是彻底的实用主义：「何不远远的打发他到庄子上去就完了」——功臣在她眼里只是需要处理的「问题」。凤姐的这句话同时透出她治家的逻辑：凡是不能用的，就该被清除。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "凤姐建言",
+          "chapter": 7,
+          "description": "凤姐劝尤氏把焦大打发到庄子上去。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jiao_da_pa_hui",
+      "title": "「爬灰的爬灰」到底指谁？",
+      "slug": "who-does-pa-hui-refer-to",
+      "question_type": "textual_verification",
+      "importance_weight": 80,
+      "heat_weight": 82,
+      "neutral_overview": "焦大醉骂「爬灰的爬灰，养小叔子的养小叔子」——「爬灰」指公媳乱伦，「养小叔子」指什么？这两句骂分别指向宁府与荣府的哪桩丑事？",
+      "viewpoint_ids": [
+        "vp_jiao_da_pa_hui_zhen",
+        "vp_jiao_da_pa_hui_fengjie"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiao_da_pa_hui_zhen",
+          "title": "脂批定论：「爬灰」指贾珍与秦可卿",
+          "summary": "脂砚斋批语明确将「爬灰」坐实为贾珍与秦可卿的乱伦——这是红学最无争议的共识之一。「养小叔子」则有多种解释：一说指凤姐与贾蓉（堂嫂与小叔）的暧昧调情，一说指秦可卿与贾蔷（同为宁府），一说泛言宁荣二府的淫乱成风，不必实指。主流看法：「爬灰」实指，「养小叔子」泛写。",
+          "evidence": [
+            "第七回脂批对「爬灰」的直接点明",
+            "「秦可卿淫丧天香楼」的回目残留与第五回判词（画中美人悬梁自尽）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jiao_da_pa_hui_fengjie",
+          "title": "一说：「养小叔子」指凤姐与贾瑞",
+          "summary": "有论者将「养小叔子」与凤姐贾瑞对读：贾瑞是凤姐的族中小叔辈，凤姐的「相思局」看似毒辣，实则她「假意周旋」的言行确有「养」的嫌疑——先撩拨、再整治。此说虽非主流，但揭示了一个文本事实：曹雪芹把焦大之骂（第七回）安排在贾瑞之死（第十二回）之前，两事相隔仅数回，骂声犹在耳边。",
+          "evidence": [
+            "焦大骂时凤姐就在车上——「养小叔子」句紧接凤姐在场语境",
+            "贾瑞故事紧随其后展开，形成「骂—验」的叙事链条"
+          ],
+          "fact_type": "text_inference",
+          "note": "attribution=disputed"
+        }
+      ]
+    },
+    {
+      "id": "question_jiao_da_function",
+      "title": "焦大的叙事功能：一个只出场一次的角色为何如此重要？",
+      "slug": "why-is-jiao-da-important",
+      "question_type": "character_analysis",
+      "importance_weight": 72,
+      "heat_weight": 66,
+      "neutral_overview": "焦大在全书只完整出场一次（第七回），却是《红楼梦》最著名的「骂人者」。曹雪芹为什么需要这个角色？",
+      "viewpoint_ids": [
+        "vp_jiao_da_function_reveal"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiao_da_function_reveal",
+          "title": "「揭盖子」功能：让家丑先于情节公开",
+          "summary": "焦大的功能是「提前泄密」：秦可卿之淫、宁府之乱，正文明写时被删改遮掩，曹雪芹于是借焦大之口先骂出来，让读者带着答案去读后面的隐笔。同时，焦大的「功狗」遭遇是贾府「忘恩」史的缩影：从宁公到贾珍，家族道德从「以命报命」退化为「以粪封口」——焦大一骂，骂出了贾府道德滑坡的全过程。",
+          "evidence": [
+            "脂批「一部《红楼》淫邪之处，恰在焦大口中揭明」",
+            "焦大出场在第七回——全书「情」的叙事（太虚幻境之后）刚刚铺开之际"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch7_jiao_da_laier",
+      "quote": "焦大正骂赖二：「……不公道，欺软怕硬！有好差事派了别人，这样黑更半夜送人，就派我，没良心的忘八羔子！瞎充管家！你也不想想焦大太爷跷起一只腿，比你的头还高些。二十年头里的焦大太爷眼里有谁？」",
+      "fact_type": "canonical_text_fact",
+      "note": "第七回焦大骂赖二。「二十年头里」——他的一切尊严都属于过去时。"
+    },
+    {
+      "source_id": "source_ch7_jiao_da_baoyu",
+      "quote": "宝玉问凤姐道：「姐姐，你听他说『爬灰的爬灰』，什么是『爬灰』？」凤姐听了，连忙立眉嗔目断喝道：「少胡说！那是醉汉嘴里混唚，你是什么样的人，不说没听见，还倒细问！等我回去回了太太，仔细捶你不捶你！」",
+      "fact_type": "canonical_text_fact",
+      "note": "第七回。凤姐的「封口令」与宝玉的「真问题」——成人与少年的世界观对撞。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jiao_da_liu_lao_lao",
+      "title": "焦大与刘姥姥：贾府的两面镜子",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1992,
+      "source_title": "多项人物对照研究",
+      "description": "有学者将焦大与刘姥姥并置：二人都是贾府的「外人」（一个家奴、一个乡妪），都见证了贾府的真相——刘姥姥见其奢华，焦大揭其淫乱；刘姥姥三进荣府恰逢其衰，焦大一骂宁府预告其亡。刘姥姥是「有福的外人」（最后救巧姐），焦大是「有功的外人」（最后被塞粪）——贾府对二者的态度，就是它对自己历史的态度。"
+    },
+    {
+      "id": "viewpoint_jiao_da_political",
+      "title": "「功狗」视角下的开国记忆与末世腐败",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学主题研究",
+      "year": 2001,
+      "source_title": "多项主题研究",
+      "description": "研究者指出，焦大携带的是贾府的「开国记忆」：他身上的战场伤痕是贾家祖上「用命换江山」的物证。而宁府第三代（贾珍）的生活方式——斗鸡走狗、爬灰乱伦——与这段记忆构成最刺眼的对比。焦大的骂因此具有「历史审判」的意味：骂的是宁府，指的却是所有「从死人堆里打出来的江山，被后代糟蹋掉」的世家的共同命运。这也是焦大一骂能超越情节、成为《红楼梦》最著名骂段的原因。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 20,
+      "text_inference": 4,
+      "scholarly_viewpoint": 2,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

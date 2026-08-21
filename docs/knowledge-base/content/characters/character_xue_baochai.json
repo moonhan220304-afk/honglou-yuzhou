@@ -1,0 +1,737 @@
+{
+  "character": {
+    "id": "character_xue_baochai",
+    "name": "薛宝钗",
+    "aliases": [
+      "蘅芜君",
+      "宝姐姐",
+      "宝丫头",
+      "杨妃"
+    ],
+    "category": "金陵十二钗正册",
+    "identity": {
+      "family": "薛姨妈之女；薛蟠之妹；父早亡。金陵四大家族之薛家。",
+      "position": "贾府寄居之表小姐（薛姨妈为王夫人之妹）；大观园蘅芜苑居所。",
+      "origin": "金陵（今南京）人氏。出身皇商世家，「珍珠如土金如铁」。",
+      "generation": "贾府第四代（与贾宝玉同辈）"
+    },
+    "tags": [
+      "博学广识",
+      "温厚端庄",
+      "世故圆融",
+      "山中高士",
+      "冷美人",
+      "停机德",
+      "蘅芜君"
+    ],
+    "summary": {
+      "short": "金陵十二钗之首（与黛玉并列）。薛家之女，容貌丰美、博学稳重，有「停机德」之风。与贾宝玉最终成婚，但独守空房。",
+      "long": "薛宝钗为《红楼梦》第二女主角，与林黛玉构成「双峰对峙、二水分流」的经典人物结构。出身金陵皇商世家，为入宫待选而来京，寄居荣国府梨香院，后迁居大观园蘅芜苑。容貌「唇不点而红，眉不画而翠，脸若银盆，眼如水杏」。博学广识，诗词学问不在黛玉之下，更通医理、绘画、戏曲，有「博古通今」之美誉。性格温厚端庄、处事圆融、不干己事不张口，博得贾府上下一致好评。前八十回中与宝玉、黛玉之间的「金玉良缘」与「木石前盟」之争构成全书最核心的情感三角。第四十二回与黛玉「兰言解疑癖」、第四十五回「金兰契」后与黛玉冰释前嫌，展现了其宽厚待人的品格。后四十回中（gaoe）在王熙凤掉包计的安排下与宝玉成婚，然宝玉「空对着山中高士晶莹雪，终不忘世外仙姝寂寞林」，最终看破红尘出家，宝钗独守空房，悲剧收场。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "博学与理性",
+        "description": "博学不在黛玉之下而更呈理性之光。通诗书、医理、药理、绘画理论，对戏文典故烂熟于心，对各种典籍能信手拈来。与黛玉以诗抒情的风格不同，宝钗的知识体系更偏实用与经世。第四十二回为惜春列画画物料清单，展现其百科全书式知识储备。",
+        "evidence_events": [
+          "event_baochai_painting_ch42",
+          "event_chrysanthemum_plan_ch37"
+        ]
+      },
+      {
+        "dimension": "温厚与世故",
+        "description": "待人处事滴水不漏：对长辈恭顺体贴，对姊妹友善周全，对下人宽厚大方。为湘云办东道解围、替岫烟赎冬衣、给黛玉送燕窝——她的「好」建立在通晓人情世故的高度理性之上，而非简单的「装好人」。但「不干己事不张口」的世故也在某种程度上构成了一种冷漠。",
+        "evidence_events": [
+          "event_baochai_gift_swallow_ch45",
+          "event_baochai_help_xiangyun_ch37"
+        ]
+      },
+      {
+        "dimension": "冷与远——山中高士",
+        "description": "宝钗号「蘅芜君」，其蘅芜苑「雪洞一般，一色玩器全无」。房间如雪洞，为人亦有不可亲近之「冷」——这种冷不是无情，而是一种高度理性带来的距离感。对金钏儿之死的冷静分析、对尤三姐自刎的不动声色，都体现了她「任是无情也动人」的复杂人格。",
+        "evidence_events": [
+          "event_baochai_butterfly_ch27",
+          "event_baochai_flower_sign_ch63"
+        ]
+      },
+      {
+        "dimension": "矛盾——礼教的遵从者与被吞噬者",
+        "description": "宝钗是封建礼教最完美的产物，也是封建礼教最可悲的牺牲品。她所有的「好」——端庄、贤淑、识大体——都是按照礼教标准严格修炼的结果。然而最终她被礼教安排的婚姻吞噬：嫁给了不爱她的人，独守空房。她得到了「宝二奶奶」的位置，却失去了幸福的可能性。",
+        "evidence_events": [
+          "event_baochai_marriage_ch97",
+          "event_baochai_house_search_ch74"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_baochai_enters_jia_ch4",
+        "title": "宝钗进贾府（第四回）"
+      },
+      {
+        "order": 2,
+        "event_id": "event_gold_lock_ch8",
+        "title": "比通灵金莺微露意（第八回）"
+      },
+      {
+        "order": 3,
+        "event_id": "event_baochai_butterfly_ch27",
+        "title": "宝钗扑蝶（第二十七回）"
+      },
+      {
+        "order": 4,
+        "event_id": "event_chai_dai_reconcile_ch42",
+        "title": "兰言解疑癖（第四十二回）"
+      },
+      {
+        "order": 5,
+        "event_id": "event_golden_words_ch45",
+        "title": "金兰契互剖金兰语（第四十五回）"
+      },
+      {
+        "order": 6,
+        "event_id": "event_baochai_co_manage_ch56",
+        "title": "协理家事（第五十六回）"
+      },
+      {
+        "order": 7,
+        "event_id": "event_baochai_flower_sign_ch63",
+        "title": "群芳开夜宴花名签（第六十三回）"
+      },
+      {
+        "order": 8,
+        "event_id": "event_baochai_house_search_ch74",
+        "title": "抄检大观园后搬离蘅芜苑（第七十四回）"
+      },
+      {
+        "order": 9,
+        "event_id": "event_baochai_marriage_ch97",
+        "title": "出闺成大礼（第九十七回，gaoe）"
+      }
+    ],
+    "related_characters": [],
+    "sources": [
+      {
+        "source_id": "source_ch04_baochai_intro",
+        "quote": "还有一女，比薛蟠小两岁，乳名宝钗，生得肌骨莹润，举止娴雅。",
+        "note": "第四回介绍薛宝钗出场，交代其身世与品格。"
+      },
+      {
+        "source_id": "source_ch08_baochai_appearance",
+        "quote": "唇不点而红，眉不画而翠，脸若银盆，眼如水杏。",
+        "note": "第八回宝玉到梨香院探望宝钗时所见的宝钗面貌。"
+      },
+      {
+        "source_id": "source_ch05_chai_dai_judgment",
+        "quote": "可叹停机德，堪怜咏絮才。玉带林中挂，金簪雪里埋。",
+        "note": "第五回太虚幻境薄命司中黛玉与宝钗合用的判词。「停机德」赞美宝钗之德，「金簪雪里埋」暗喻其命运。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-10T00:00:00Z",
+      "embedding_status": "pending"
+    }
+  },
+  "events": [
+    {
+      "id": "event_baochai_enters_jia_ch4",
+      "title": "宝钗进贾府",
+      "event_level": "major",
+      "chapter": {
+        "number": 4,
+        "title": "薄命女偏逢薄命郎 葫芦僧乱判葫芦案",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "荣国府梨香院",
+        "specific": "薛姨妈率薛蟠、宝钗来京投奔贾府，王夫人安排住在荣国府东北角的梨香院。"
+      },
+      "summary": {
+        "short": "薛姨妈携子薛蟠、女宝钗进京，投奔荣国府王夫人（薛姨妈之姊）。薛家被安排在梨香院居住。宝钗「年岁虽大不多，然品格端方，容貌丰美」，入府后迅速获得贾府上下好评。",
+        "meaning": [
+          "宝钗正式进入大观园叙事体系，钗黛二元结构自此建立",
+          "「入宫待选」的叙事动机随后悄然隐去，暗示宝钗命运的转折",
+          "「人多谓黛玉所不及」——从宝钗入府开始，钗黛对比成为全书重要叙事动力"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角（初入贾府）"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "母亲"
+        },
+        {
+          "character_id": "character_wang_furen",
+          "role": "姨母——安排住宿"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch04_baochai_intro",
+          "quote": "还有一女，比薛蟠小两岁，乳名宝钗，生得肌骨莹润，举止娴雅。",
+          "note": "第四回介绍薛宝钗出场。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "钗黛二元结构的建立",
+          "content": "黛玉于第三回入贾府，宝钗于第四回入贾府——曹雪芹以紧邻的回目安排两位女主角进场，刻意制造对称。黛玉之入府在全书最精心的「冷子兴演说」铺垫后，宝钗之入府则紧接薛蟠打死人命案——二人出场方式的工拙之别，已暗示二人在作者心目中的地位差异。"
+        }
+      ],
+      "related_events": [
+        "event_daiyu_enters_jia"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_gold_lock_ch8",
+      "title": "比通灵金莺微露意",
+      "event_level": "major",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "梨香院",
+        "specific": "宝玉前来探望病中的宝钗，宝钗借机细看通灵宝玉——「莫失莫忘，仙寿恒昌」。莺儿脱口说出金锁上的「不离不弃，芳龄永继」正是一对。"
+      },
+      "summary": {
+        "short": "宝钗小恙，宝玉前来梨香院探望。宝钗借机仔细赏鉴通灵宝玉，念出其铭文「莫失莫忘，仙寿恒昌」。丫鬟莺儿（黄金莺）在旁脱口说出「我听这两句话，倒像和姑娘的项圈上的两句话是一对儿」。黛玉随后也来，以「我来的不巧了」针锋相对。",
+        "meaning": [
+          "「金玉良缘」之说首次以实物（金锁配玉）的形式在叙事中亮相",
+          "莺儿之口道出宝钗不便明说的心思——「金莺微露意」",
+          "黛玉「半含酸」——钗黛对立格局的第一次正面展现"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "主角（借机展示金锁）"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "携通灵宝玉前来"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "随后到来——「半含酸」"
+        },
+        {
+          "character_id": "character_ying_er",
+          "role": "丫鬟——揭示金玉一对"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch08_gold_jade",
+          "quote": "宝钗看毕，又重新翻过来细看，口里念道：「莫失莫忘，仙寿恒昌。」……莺儿嘻嘻笑道：「我听这两句话，倒像和姑娘的项圈上的两句话是一对儿。」",
+          "note": "第八回宝玉探望宝钗，莺儿脱口说出金玉一对。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "金玉良缘的叙事悬念",
+          "content": "「金玉良缘」之说在全书叙事中始终处于一个微妙的暧昧位置：它究竟是薛姨妈和王夫人刻意编排的联姻策略，抑或是冥冥中果真有一份「金玉」之缘？曹雪芹既未明白证实也未彻底否定，使「金玉」与「木石」之争成为全书最持久的叙事悬念。"
+        },
+        {
+          "type": "character",
+          "title": "宝钗的主动与克制",
+          "content": "宝钗「重新翻过来细看」通灵宝玉的行为，微露其内心对「金玉之说」的关注——但她自己什么也没说，是莺儿「微露意」。这种「由他人之口道我心」的表达方式，是宝钗世故精明的典型特征。"
+        }
+      ],
+      "related_events": [
+        "event_baochai_enters_jia_ch4"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_baochai_butterfly_ch27",
+      "title": "宝钗扑蝶",
+      "event_level": "minor",
+      "chapter": {
+        "number": 27,
+        "title": "滴翠亭杨妃戏彩蝶 埋香冢飞燕泣残红",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "大观园滴翠亭附近",
+        "specific": "芒种节饯花神之日，宝钗在园中看到一对玉色蝴蝶，追至滴翠亭外，偶然听到小红和坠儿的私密谈话。"
+      },
+      "summary": {
+        "short": "芒种节饯花神，宝钗独行至滴翠亭外，见一对玉色蝴蝶大如团扇，迎风翩跹。她取出扇子蹑手蹑脚前去扑蝶，追至滴翠亭外，偶然听见小红与坠儿的私密对话。为避嫌，她机智地以「颦儿（黛玉）方才在此」脱身。",
+        "meaning": [
+          "「杨妃扑蝶」是宝钗仅有的少女情怀流露——在这一刻她卸下了礼教的重担",
+          "金蝉脱壳嫁祸黛玉——暴露了宝钗利己主义的一面",
+          "与同一回中黛玉葬花形成对比：一个在扑蝴蝶（生之欢悦），一个在葬落花（死之悲哀）"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "扑蝶者、脱壳者"
+        },
+        {
+          "character_id": "character_xiao_hong",
+          "role": "被偷听者（与坠儿私语）"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch27_butterfly",
+          "quote": "宝钗刚要寻别的姊妹去，忽见前面一双玉色蝴蝶，大如团扇，一上一下的迎风翩跹，十分有趣。宝钗意欲扑了来玩耍，遂向袖中取出扇子来。",
+          "note": "第二十七回「杨妃戏彩蝶」——宝钗扑蝶场景。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "宝钗仅有的天真时刻",
+          "content": "全书中的宝钗几乎永远端庄、理性、滴水不漏——唯独扑蝶这一幕，她卸下了所有的「宝姐姐」角色，成为了一个追着蝴蝶跑的天真少女。这正是脂批所谓「冷中见热」的写法：在最冷的人物身上写最热的瞬间。"
+        },
+        {
+          "type": "character",
+          "title": "金蝉脱壳的道德争议",
+          "content": "宝钗听到小红私语后的「金蝉脱壳」之计——以「颦儿（黛玉）方才蹲在这里弄水」来洗脱自身嫌疑——是全书中宝钗受到最多道德批评的情节之一。她本能地将麻烦「嫁祸」给黛玉，暴露了在极端情境下「利己」优先于「厚道」的行为模式。但也可以理解为一个慌张的少女在瞬间做出的避险反应。"
+        }
+      ],
+      "related_events": [
+        "event_bury_flowers_ch27",
+        "event_flower_god_festival"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_chai_dai_reconcile_ch42",
+      "title": "蘅芜君兰言解疑癖",
+      "event_level": "major",
+      "chapter": {
+        "number": 42,
+        "title": "蘅芜君兰言解疑癖 潇湘子雅谑补余香",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "蘅芜苑",
+        "specific": "宝钗私下拉黛玉至蘅芜苑，以之前在酒令中黛玉脱口说出《西厢记》《牡丹亭》词句之事「审问」黛玉。"
+      },
+      "summary": {
+        "short": "刘姥姥走后，宝钗将黛玉叫到蘅芜苑中，指出她酒令中引用了《西厢记》《牡丹亭》的禁书词句，并以自身年幼时也曾偷读此类书籍的经历规劝黛玉。黛玉「心下暗服」，对宝钗的态度从此大改。",
+        "meaning": [
+          "钗黛关系从对立走向理解的第一个关键转折",
+          "宝钗展现其「以德服人」的教育方式——不是揭发，而是私下规劝",
+          "黛玉「心下暗服」标志着她对宝钗的敌意开始消解"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "规劝者——私下教导黛玉"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "被规劝者——心悦诚服"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch42_reconcile",
+          "quote": "宝钗笑道：「你还未解呢。……你当我是谁？我也是个淘气的。从小儿七八岁上也够个人缠的……诸如《西厢》《琵琶》以及『元人百种』，无所不有。」",
+          "note": "第四十二回宝钗以自身经历劝慰黛玉，攻心为上。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "宝钗的教育艺术",
+          "content": "宝钗没有当众揭发黛玉引用禁书（那将令黛玉难堪甚至受到责罚），而是私下约谈；她不说「你错了」，而说「我也读过」——以自己的「不光彩」经历来消除黛玉的防御心理。这是极其成熟的沟通策略，展现了宝钗极高的情商和善解人意的品格。"
+        },
+        {
+          "type": "literary",
+          "title": "钗黛关系的转折点",
+          "content": "脂砚斋第四十二回总批：「钗、玉名虽两个，人却一身，此幻笔也。」兰言解疑癖正是钗黛从对立走向理解的核心事件。从此回开始，黛玉不再将宝钗视为敌人，宝钗也卸下了部分防御。第四十五回「金兰契」是此回的自然延续。"
+        }
+      ],
+      "related_events": [
+        "event_golden_words_ch45"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_baochai_co_manage_ch56",
+      "title": "敏探春兴利除宿弊——宝钗协助理家",
+      "event_level": "minor",
+      "chapter": {
+        "number": 56,
+        "title": "敏探春兴利除宿弊 时宝钗小惠全大体",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "贾府议事厅",
+        "specific": "探春代理家务期间，宝钗应王夫人安排，与探春、李纨共同协理荣国府家务。"
+      },
+      "summary": {
+        "short": "凤姐病倒期间，王夫人安排探春、李纨、宝钗三人共同理家。探春兴利除弊推行大观园承包改革，宝钗以「小惠全大体」的策略——让没有承包机会的婆子也分得利益——赢得贾府上下交口称赞。",
+        "meaning": [
+          "宝钗第一次展示其治家之才——既有远见又顾及各方利益",
+          "「小惠全大体」体现了宝钗「中庸」的处事哲学",
+          "证明了宝钗如果当家绝对不输凤姐——她比凤姐更得人心"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "协理者——小惠全大体"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主导改革者"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "名义上的主持者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch56_manage",
+          "quote": "宝钗笑道：「妈妈们也别推辞了，这原是分内应当的。你们只要日夜辛苦些，别躲懒，纵放人吃酒赌钱就是了。」",
+          "note": "第五十六回宝钗以德服人，向婆子们交代大观园承包改革的利益分配。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "治家之才与为人之道",
+          "content": "宝钗在此回展现了超越探春的圆融处事的才能。探春的改革更接近商鞅式的「兴利除弊」——重在制度创新；宝钗则在制度之上增加了人情考量——让没有承包机会的婆子们也分得利益，避免引发内部矛盾。这种「惠而不费」的治家方式是儒家「中庸」理想的具体实践。"
+        }
+      ],
+      "related_events": [
+        "event_tanchun_reform_ch56"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_baochai_flower_sign_ch63",
+      "title": "寿怡红群芳开夜宴——宝钗花名签",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "怡红院",
+        "specific": "宝玉生日之夜，群芳聚饮抽花名签。宝钗抽得牡丹签——「艳冠群芳」，题「任是无情也动人」。"
+      },
+      "summary": {
+        "short": "宝玉生日，群芳开夜宴抽花名签。宝钗抽得牡丹签，签上画一枝牡丹，题「艳冠群芳」，诗云「任是无情也动人」。众人笑说「你原也配牡丹花」。芳官唱《邯郸记》「赏花时」曲。",
+        "meaning": [
+          "牡丹是「花王」——曹雪芹以牡丹喻宝钗，确认其在大观园群芳中的最高地位",
+          "「任是无情也动人」——高度凝练宝钗性格核心矛盾：冷（无情）与美（动人）的辩证统一",
+          "芳官所唱「赏花时」暗含「花开易谢」的谶语"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "抽得牡丹签"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "寿星——夜宴主人"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch63_flower",
+          "quote": "宝钗便笑道：「我占一枝牡丹。」……「任是无情也动人。」",
+          "note": "第六十三回宝钗抽得牡丹花签。「任是无情也动人」出自罗隐《牡丹花》诗。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "花签的谶语功能",
+          "content": "「任是无情也动人」是全书中对宝钗最精准的判词。宝钗之「冷」——对金钏儿之死的淡漠、对邢岫烟当冬衣的实用处理——令人无法真正亲近；然而正是这份「冷」赋予了她端庄不可侵犯的气质，使她在群芳中「艳冠群芳」。花签预言了她的命运：虽「艳冠群芳」却终究「无情」于宝玉，二人婚姻有名无实。"
+        },
+        {
+          "type": "character",
+          "title": "牡丹——宝钗的终极定位",
+          "content": "群芳中唯有宝钗配牡丹、黛玉配芙蓉（风露清愁）。在中国文化传统中，牡丹为花王，芙蓉为花中君子。曹雪芹以最高贵富丽的花对应最「世俗完美」的人，以最清高疏淡的花对应最「诗意不群」的人——花签系统本身即是人物的终极评价。"
+        }
+      ],
+      "related_events": [
+        "event_flower_sign_party_ch63"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_baochai_house_search_ch74",
+      "title": "抄检大观园后宝钗搬离",
+      "event_level": "minor",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "location": {
+        "name": "大观园",
+        "specific": "王夫人命王善保家的带队抄检大观园。宝钗所居的蘅芜苑因是亲戚处，未被抄检。但宝钗次日即借故搬离大观园。"
+      },
+      "summary": {
+        "short": "抄检大观园之夜，宝钗的蘅芜苑因是「亲戚家姑娘的屋子」而未被抄检。但宝钗次日即以「母亲身上不好」为由，果断搬离大观园。此举不仅避开了抄检的侮辱，更以最快速度与贾府风波切割。",
+        "meaning": [
+          "「未被抄检」实际上是一种羞辱——她是外人",
+          "宝钗迅速撤离展现了政治人物的敏锐——她知道大观园已不再安全",
+          "与迎春、惜春等人的被动形成鲜明对比——宝钗永远是主动选择的那一个"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "搬离者——主动切割"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch74_search",
+          "quote": "宝钗道：「……为前日因为妈身上不好，我要来也没来。……所以我告诉凤丫头，说这几日家去。」",
+          "note": "第七十四回宝钗以母亲生病为由，搬离大观园。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "政治敏感与生存智慧",
+          "content": "蘅芜苑未被抄检——不是因为宝钗是「自己人」，恰恰因为她是「亲戚家姑娘」。宝钗立刻意识到其中隐含的距离感与羞辱。她以最快速度搬离，既保护了自身清白，也避免了日后可能被卷入贾府风波的任何风险。这种敏锐的政治直觉和果断的行动力，在十二钗中独一无二。"
+        }
+      ],
+      "related_events": [
+        "event_house_search_ch74"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    },
+    {
+      "id": "event_baochai_marriage_ch97",
+      "title": "出闺成大礼",
+      "event_level": "major",
+      "chapter": {
+        "number": 97,
+        "title": "林黛玉焚稿断痴情 薛宝钗出闺成大礼",
+        "attribution": "gaoe"
+      },
+      "location": {
+        "name": "荣国府喜堂",
+        "specific": "薛宝钗在王熙凤掉包计安排下与贾宝玉成婚。宝玉满心以为自己迎娶的是林妹妹，揭开盖头方知是宝钗。"
+      },
+      "summary": {
+        "short": "王熙凤设掉包计，对宝玉伪称迎娶林妹妹，实以宝钗顶替入洞房。宝玉揭开盖头发现是宝钗，顿时「糊涂更甚」。与此同时，黛玉在潇湘馆焚稿泪尽而亡。宝钗以「宝二奶奶」身份进门的第一天，就是三人悲剧的开始。",
+        "meaning": [
+          "掉包计——贾府上下合谋欺骗宝玉，黛玉成了这场权力游戏的祭品",
+          "宝钗在知情的情况下嫁入——是顺从也是共谋",
+          "「出闺成大礼」是全书最残酷的叙事反讽：大礼即是悲剧序幕"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xue_baochai",
+          "role": "新娘——知情者（掉包计）"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "新郎——被骗者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "策划者——提出掉包计"
+        },
+        {
+          "character_id": "character_jia_mu",
+          "role": "批准者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch97_marriage",
+          "quote": "宝玉此时到底有些傻气，便走到新人跟前说道：「妹妹身上好了？好些天不见了……」……揭了盖头一看，好像宝钗。",
+          "note": "[后四十回] 第九十七回宝玉揭盖头发现新娘不是黛玉。此段写法在后四十回中有争议。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "悲剧的共谋结构",
+          "content": "掉包计动用了贾府几乎所有的权力资源：贾母批准、凤姐策划、王夫人配合、薛姨妈默许、宝钗本人顺从。黛玉不是被某一个人害死的——是整个封建家族制度以「爱护宝玉」的名义合法地杀死了她。这种「集体共谋」的悲剧结构比「个人作恶」更令人绝望。"
+        },
+        {
+          "type": "hongxue",
+          "title": "续书中宝钗出嫁的争议",
+          "content": "后四十回中宝钗在黛玉未死时即嫁入贾府、且全程知情不动的写法，使宝钗在此回中显得冷漠甚至冷酷。这与前八十回宝钗「宽厚待人」的形象有较大落差。部分学者认为曹雪芹原意中钗黛的悲剧并非以如此「戏剧化」的方式展开——宝钗的悲剧在于「嫁而不得」而非「夺人所爱」。然而这一写法在二百余年的接受史中已经深刻塑造了国人的集体记忆。"
+        }
+      ],
+      "related_events": [
+        "event_burn_manuscripts_ch97",
+        "event_daiyu_death_ch98"
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z",
+        "embedding_status": "pending"
+      }
+    }
+  ],
+  "relationships": [],
+  "sources": [
+    {
+      "id": "source_ch04_baochai_intro_full",
+      "type": "original_text",
+      "title": "第四回——薛宝钗出场介绍",
+      "chapter_number": 4,
+      "description": "交代薛宝钗身世、入京原由及品格。原本为「入宫待选」，入府后被安排在梨香院。",
+      "author": null,
+      "year": null,
+      "authority": "通行本原文（人民文学出版社程乙本校注本）",
+      "controversial": false,
+      "verification": "已与通行本逐字核对。",
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "updated_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "source_ch08_baochai_appearance_full",
+      "type": "original_text",
+      "title": "第八回——薛宝钗面貌与金锁",
+      "chapter_number": 8,
+      "description": "宝玉来梨香院探望病中宝钗，首次正面描写宝钗外貌和金锁上的铭文。",
+      "author": null,
+      "year": null,
+      "authority": "通行本原文",
+      "controversial": false,
+      "verification": "已与通行本逐字核对。",
+      "status": {
+        "review": "verified",
+        "confidence": 100,
+        "updated_at": "2026-08-10T00:00:00Z"
+      }
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_baochai_two_worlds",
+      "title": "宝钗作为「现实世界」的代表",
+      "type": "scholarly",
+      "author": "余英时",
+      "year": 1970,
+      "source_title": "《红楼梦的两个世界》（余英时，1970）",
+      "description": "余英时在「两个世界论」中，将大观园视为「理想世界」（乌托邦），将外面的贾府社会视为「现实世界」。宝钗被定位为「现实世界」的代表——她的世故、理性、遵从礼教，使其成为连接现实世界与理想世界的关键人物。黛玉代表由此出世的理想，宝钗代表由此入世的现实。",
+      "related_event_ids": [
+        "event_baochai_enters_jia_ch4",
+        "event_baochai_marriage_ch97"
+      ],
+      "opinions": [
+        {
+          "side": "支持者",
+          "content": "宝钗所有的行为逻辑都可以用「在现实世界中求生存」来解释。她的美不是超脱之美，而是在封建体系中能获得最大生存优势的「入世之美」。这正是牡丹为花王的象征含义。",
+          "proponent": "余英时、部分海外汉学家"
+        },
+        {
+          "side": "反对者",
+          "content": "将宝钗简单定位为「现实世界代表」有过度简化之嫌。宝钗也有自己的诗意时刻（如扑蝶）和不被现实理想完全统摄的丰富性。",
+          "proponent": "部分社会历史批评派"
+        }
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 90,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "viewpoint_baochai_leng",
+      "title": "「冷」——宝钗性格核心论",
+      "type": "scholarly",
+      "author": "王昆仑及多项综合研究",
+      "year": 1944,
+      "source_title": "《红楼梦人物论》（王昆仑，1944）",
+      "description": "王昆仑等学者将宝钗性格的核心提炼为「冷」——不仅是她服用的「冷香丸」所象征的，更是性格层面的冷静、理性和情感克制。她可以不动声色地应对金钏儿之死，也可以在抄检大观园后迅速搬离而不动感情。这种「冷」使她在群芳中独善其身，但也注定了她无法得到宝玉真心的悲剧结局。",
+      "related_event_ids": [
+        "event_baochai_butterfly_ch27",
+        "event_baochai_house_search_ch74",
+        "event_baochai_flower_sign_ch63"
+      ],
+      "opinions": [
+        {
+          "side": "支持者",
+          "content": "「任是无情也动人」是宝钗的官方判词。「冷」使宝钗具有独特的不可侵犯之美，但也使宝玉对她敬而远之。《终身误》曲「空对着山中高士晶莹雪」即是在「冷」（雪）与「空」之间写照。",
+          "proponent": "王昆仑、多数人物分析派红学者"
+        },
+        {
+          "side": "修正者",
+          "content": "宝钗之「冷」并非无情，而是高度道德自律的外在表现。她对黛玉送燕窝、为湘云解东道之困、劝慰邢岫烟等行为恰恰是「有情」的铁证。「冷」只是她面对有违礼教之事时的自我保护机制。",
+          "proponent": "近年部分女性主义红学批评者"
+        }
+      ],
+      "status": {
+        "review": "verified",
+        "confidence": 95,
+        "verified_by": "kb-agent-v2",
+        "updated_at": "2026-08-10T00:00:00Z"
+      }
+    }
+  ]
+}

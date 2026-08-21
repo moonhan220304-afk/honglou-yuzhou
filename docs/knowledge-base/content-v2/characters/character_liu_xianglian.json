@@ -1,0 +1,514 @@
+{
+  "character": {
+    "id": "character_liu_xianglian",
+    "name": "柳湘莲",
+    "slug": "liu-xiang-lian",
+    "aliases": [
+      "冷二郎",
+      "湘莲",
+      "柳二郎"
+    ],
+    "category": "世家子弟（落魄游侠，出家者）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "世家子弟，父母早丧，家道中落。",
+      "position": "落魄公子→游侠（好串戏、会武艺）→道士（出家）。",
+      "origin": "世家出身，混迹风月场与戏台。",
+      "generation": "与宝玉、薛蟠同辈"
+    },
+    "tags": [
+      "冷二郎",
+      "冷面冷心",
+      "痛打薛蟠",
+      "鸳鸯剑",
+      "尤三姐",
+      "一冷入空门",
+      "出家预演",
+      "救薛蟠",
+      "串戏",
+      "宝玉出家之先声"
+    ],
+    "summary": {
+      "short": "世家子弟落魄，人称「冷二郎」——冷面冷心，好串戏会武艺。第四十七回痛打调情的薛蟠（呆霸王调情遭苦打），第六十六回路遇盗匪时反救薛蟠并与之结义；以鸳鸯剑与尤三姐定亲又反悔，三姐自刎后一冷入空门——是宝玉出家的一次预演。",
+      "long": "柳湘莲，人称「冷二郎」——「冷」是他的人格招牌：冷面、冷心、冷傲。他出身世家而父母早丧，家道中落，混迹于戏台与风月场中，会武艺、好串戏（尤擅串小生），与宝玉、秦钟、蒋玉菡等相厚。第四十七回「呆霸王调情遭苦打」：薛蟠误认他为「优伶之流」，酒席上调情，被他骗至郊外痛打一顿，打得薛蟠「衣衫零碎，面目肿破」——冷二郎的「冷」中藏着烈性。第六十六回他与薛蟠路遇盗匪，以武艺相救，二人「不打不相识」而结为兄弟——其侠义之心由此见。与尤三姐的婚姻是他命运的转折：贾琏说亲，他以祖传鸳鸯剑为定；进京后听信宁府污名流言，反悔索剑——「你们东府里除了那两个石头狮子干净」。尤三姐以雌剑自刎，他扶棺大哭「这等标致，这等刚烈」，悔之晚矣，遂挥雄剑斩断烦恼丝，随跛足道人出家——回目「冷二郎一冷入空门」。红学家普遍认为柳湘莲的出家是宝玉出家的预演（先声）：他的「一冷」是情伤之冷，宝玉的「情悟」是情绝之空。名字考据：柳=留（湘莲终「留」不住），湘莲=香莲（出淤泥的莲花之喻）。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "冷面冷心——「冷」的人格面具",
+        "fact_type": "canonical_text_fact",
+        "description": "「冷二郎」的冷是双重防御：对世态的冷眼（看透世家衰败与人心势利）、对自我的冷藏（以冷面拒绝被轻视）。但他的冷中藏热：救薛蟠是热（义），为三姐大哭是热（情）——「冷」只是他保护自尊的壳。"
+      },
+      {
+        "dimension": "侠义——落魄公子的江湖气",
+        "fact_type": "canonical_text_fact",
+        "description": "柳湘莲会武艺、行侠义：痛打薛蟠是「惩恶」，路遇救薛蟠是「扶困」，对宝玉的相厚是「重情」。他是《红楼梦》中少有的「江湖人」——大观园的温柔乡外，他代表另一种男性生存方式：以拳脚和义气立足。"
+      },
+      {
+        "dimension": "悔恨与顿悟——从「冷」到「空」的转折",
+        "fact_type": "canonical_text_fact",
+        "description": "三姐之死击碎了他的「冷」：扶棺大哭「可敬，可敬」——他一生不信情，却在最不信时被情灼伤。出家是他的赎罪与顿悟：不是看破红尘，是被红尘「吓破」——他以「空门」逃避悔恨，恰是情未了的证明。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_liu_xianglian_beat_ch47",
+        "title": "痛打薛蟠（第四十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_liu_xianglian_betrothal_ch66",
+        "title": "鸳鸯剑定亲（第六十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_liu_xianglian_repent_ch66",
+        "title": "反悔索剑——「石头狮子干净」（第六十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_liu_xianglian_monk_ch66",
+        "title": "一冷入空门（第六十六回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch47_xianglian_beat",
+        "quote": "第四十七回回目：呆霸王调情遭苦打 冷郎君惧祸走他乡",
+        "fact_type": "canonical_text_fact",
+        "note": "「冷郎君」与「呆霸王」对举——曹雪芹对柳湘莲的定性。"
+      },
+      {
+        "source_id": "source_ch66_xianglian_sword",
+        "quote": "柳湘莲道：「……此剑乃祖上相传……把雄的给弟佩带，雌的让三姐收藏……如今且将那雌剑给尤三姐作定礼。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十六回。鸳鸯剑为定——剑的成双是姻缘的象征。"
+      },
+      {
+        "source_id": "source_ch66_xianglian_monk",
+        "quote": "湘莲情醒过来，掣出那股雄剑，将万根烦恼丝一挥而尽，便随那道士，不知往那里去了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十六回。挥剑断发——从「鸳鸯剑」到「烦恼丝」的出家仪式。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "姓氏「柳」+名「湘莲」，自号冷二郎",
+      "detail": "柳=「留」——柳湘莲最终什么都没留住（三姐之命、自己的红尘之心）；湘莲=「香莲」——出淤泥而不染的莲花，却生于「湘」地之浊（宁府污名毁其姻缘）。「冷二郎」之「冷」是曹雪芹对其人格的定评：冷面冷心、冷入空门。柳字亦有「折柳」送别之意——他与三姐的缘分以「折」终。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；世家子弟好串戏，约二十余岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "冷二郎",
+      "type": "自号",
+      "context": "第四十七回、第六十六回均以「冷二郎」称之；第六十六回回目「冷二郎一冷入空门」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "柳二郎",
+      "type": "排行称谓",
+      "context": "世家排行第二，江湖上称「柳二郎」",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_liu_xianglian_beat_ch47",
+      "title": "痛打薛蟠——呆霸王调情遭苦打",
+      "event_level": "major",
+      "chapter": {
+        "number": 47,
+        "title": "呆霸王调情遭苦打 冷郎君惧祸走他乡",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "赖大家花园/北门外苇子坑",
+        "specific": "赖大家设宴，薛蟠误认柳湘莲为「风月子弟」，席上调情。湘莲不动声色，将其骗至北门外苇子坑痛打一顿——「衣衫零碎，面目肿破」。薛蟠告饶求饶，湘莲方罢手，随即惧祸远走他乡。"
+      },
+      "summary": {
+        "short": "薛蟠把柳湘莲当成可狎戏的优伶，湘莲隐忍至郊外，一顿老拳把呆霸王打得告饶。这场打戏是全书最痛快的「惩恶」：冷面冷心的柳二郎，用拳脚守护了自己的尊严与门第。",
+        "meaning": [
+          "薛蟠之误认（把世家子弟当优伶）触碰了湘莲最敏感的神经——落魄者的尊严",
+          "湘莲的隐忍（先骗后打）显示其「冷」：不动声色，一击必中",
+          "「惧祸走他乡」——他打了薛蟠却不敢留，写尽世家子弟落魄的无力"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "冷面下的烈性",
+          "content": "柳湘莲的「冷」不是软弱，是克制的烈：他在席上被轻薄时不翻脸（给赖家留面子），把愤怒留到荒郊——打则打得薛蟠「滚的似泥猪一般」。曹雪芹以此写出湘莲人格的核心：冷是表，烈是里；冷是策略，烈是本质。"
+        },
+        {
+          "type": "literary",
+          "title": "「打」与「救」的伏笔",
+          "content": "第四十七回的「打」为第六十六回的「救」埋下伏笔：同样的两个人，从仇人到兄弟。曹雪芹以「打」立湘莲之烈，以「救」立湘莲之义——两笔合起来，才完成这个侠士形象的塑造。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liu_xianglian_betrothal_ch66",
+      "title": "路遇救薛蟠，结义定亲",
+      "event_level": "major",
+      "chapter": {
+        "number": 66,
+        "title": "情小妹耻情归地府 冷二郎一冷入空门",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "平安州大道",
+        "specific": "柳湘莲路遇薛蟠，薛蟠正被盗匪劫掠。湘莲挥鞭相救，二人尽释前嫌，结为生死兄弟。贾琏恰在途中，向湘莲说尤三姐亲事，湘莲以祖传鸳鸯剑为定。"
+      },
+      "summary": {
+        "short": "曾经的仇人成了被救者——柳湘莲以武艺救薛蟠，二人结义。此回同时完成两件事：立湘莲之「义」（不计前嫌），定湘莲之「亲」（鸳鸯剑为聘）。侠与情在同一条路上相遇。",
+        "meaning": [
+          "救薛蟠是「义」的试金石：他不记旧怨，只论眼前危难",
+          "定亲的草率（路上一言而决）为悔婚埋下伏笔：他没见过三姐，只听过传言",
+          "鸳鸯剑的「成双」象征与后文的「离散」构成反讽"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "侠义的温度",
+          "content": "痛打薛蟠与路救薛蟠看似矛盾，实则一致：打的是「欺人者」的薛蟠，救的是「遇难者」的薛蟠——柳湘莲的拳脚只对「不义」出手。他的人格标准始终如一：义。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_you_sanjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liu_xianglian_repent_ch66",
+      "title": "反悔索剑——「石头狮子干净」的流言审判",
+      "event_level": "major",
+      "chapter": {
+        "number": 66,
+        "title": "情小妹耻情归地府 冷二郎一冷入空门",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/宁国府",
+        "specific": "湘莲进京后见宝玉，打听尤三姐底细。宝玉赞二尤「真真一对尤物」，湘莲疑心顿起，说「你们东府里除了那两个石头狮子干净，只怕连猫儿狗儿都不干净」，决意退婚，向贾琏索回鸳鸯剑。"
+      },
+      "summary": {
+        "short": "柳湘莲以一句「石头狮子干净」否定了整个宁府——也包括尤三姐。这句名言是他对贾府污浊的总结，也是压垮三姐的流言之刃。讽刺的是：最清醒的批判者，成了最糊涂的杀人者。",
+        "meaning": [
+          "「石头狮子干净」是全书对宁府最尖锐的批判——出自一个局外人之口",
+          "湘莲的悲剧：他批判流言的社会，却用流言判了三姐的死刑",
+          "「疑邻盗斧」的心理机制：一旦起疑，所有证据都指向疑心"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "名言的双重反讽",
+          "content": "「除了那两个石头狮子干净」成为《红楼梦》最著名的名言之一。它的反讽在于：说这话的人自己也不「干净」（混迹风月场），却以卫道士的口吻审判一个痴等他的女子。曹雪芹以此写出流言社会的普遍性——无人能逃脱以流言杀人的共谋。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_you_sanjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liu_xianglian_monk_ch66",
+      "title": "一冷入空门——出家",
+      "event_level": "major",
+      "chapter": {
+        "number": 66,
+        "title": "情小妹耻情归地府 冷二郎一冷入空门",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "尤二姐住处→不知所往",
+        "specific": "三姐自刎，湘莲扶棺大哭：「我并不知道你是这等刚烈贤妻，可敬，可敬。」哭毕，掣出雄剑挥断烦恼丝，随跛足道人出家，不知所往。"
+      },
+      "summary": {
+        "short": "尤三姐之死让「冷二郎」彻底「冷」了下去——挥剑断发，一冷入空门。他的出家不是解脱，是崩溃后的逃避：悔恨太重，红尘太烫，只有「冷」下去才能活。",
+        "meaning": [
+          "「一冷入空门」的「冷」字与「冷二郎」呼应：人格的冷最终化为宗教的冷",
+          "出家是赎罪也是逃避——他无法面对三姐之死，只能离开世界",
+          "柳湘莲出家是宝玉出家的预演：情场死人的「冷」先于情场悟道的「空」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "宝玉出家的预演",
+          "content": "红学家普遍认为柳湘莲出家是宝玉出家的先声（预演）：湘莲因情伤而冷入空门，宝玉因情悟而回归大荒——前者是「逃避型出家」（冷），后者是「了悟型出家」（空）。曹雪芹以湘莲的出家为宝玉的结局提前做了一次「彩排」。"
+        },
+        {
+          "type": "character",
+          "title": "「冷」的完成",
+          "content": "柳湘莲一生的「冷」至此完成：冷面待人、冷眼观世、冷剑定亲、冷心悔婚、冷入空门。但他最后的哭（「可敬，可敬」）暴露了冷壳之下的热——他的出家是全书最悲凉的「冷」：一个怕热的人，被情烫成了冰。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lame_daoist",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_sanjie",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_liu_xianglian_jia_baoyu",
+      "from": "character_liu_xianglian",
+      "to": "character_jia_baoyu",
+      "type": "好友",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "柳湘莲为「冷二郎」，行侠仗义、容貌俊美。与宝玉友善。尤三姐自刎后，柳湘莲被跛足道人点化而去——这是全书最早的「悬崖撒手」之一，为宝玉的出家提供了「前驱」性范例。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "相厚",
+          "chapter": 47,
+          "description": "湘莲与宝玉在赖家宴上交谈相得。"
+        },
+        {
+          "stage": 2,
+          "title": "误言",
+          "chapter": 66,
+          "description": "宝玉赞二尤，湘莲起疑。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liu_xianglian_jia_lian",
+      "from": "character_liu_xianglian",
+      "to": "character_jia_lian",
+      "type": "媒人（说亲者）",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾琏路遇湘莲说定三姐亲事——他是这段姻缘的唯一推动者。湘莲悔婚时首先向贾琏索剑，贾琏劝解无果。媒人无法弥合流言造成的裂痕。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "说亲",
+          "chapter": 66,
+          "description": "贾琏说定亲事，湘莲赠剑。"
+        },
+        {
+          "stage": 2,
+          "title": "索剑",
+          "chapter": 66,
+          "description": "湘莲向贾琏索回定礼。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_liu_xianglian_cold",
+      "title": "「冷二郎」到底冷不冷？——冷面与热肠的悖论",
+      "slug": "is-liu-xianglian-really-cold",
+      "question_type": "character_analysis",
+      "importance_weight": 68,
+      "heat_weight": 60,
+      "neutral_overview": "柳湘莲人称「冷二郎」——冷面冷心。但他救薛蟠、为三姐大哭、出家前「情醒」——他的「冷」是真冷，还是热到极致后的自我保护？",
+      "viewpoint_ids": [
+        "vp_liu_xianglian_shell",
+        "vp_liu_xianglian_real_cold"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_liu_xianglian_shell",
+          "title": "外壳论：冷是落魄者的自尊面具",
+          "summary": "湘莲的冷是防御性的：家道中落、混迹风月，他只有「冷」才能拒绝被轻视（薛蟠之流）、被同情（贾府之人）。冷面之下是极热的心——救薛蟠的义、对宝玉的诚、为三姐哭的情，都是热的证据。他的悲剧恰在于「壳太硬」：对三姐的怀疑也是「冷」的逻辑惯性。",
+          "evidence": [
+            "救薛蟠、结义兄弟的热心",
+            "三姐死后扶棺大哭"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_liu_xianglian_real_cold",
+          "title": "真冷论：冷眼观世是他的世界观",
+          "summary": "湘莲的冷不只是面具，是世界观：「石头狮子干净」的批判显示他对世道人心持根本性的冷眼。他对三姐的轻易怀疑，正因他「冷」到不相信任何人——包括痴等自己五年的女子。他的出家是这种冷的世界观的逻辑终点：对人间彻底失温。",
+          "evidence": [
+            "「除了那两个石头狮子干净」的冷峻判断",
+            "轻易听信流言的冷漠"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_liu_xianglian_monk_rehearsal",
+      "title": "柳湘莲出家是宝玉出家的「预演」吗？",
+      "slug": "is-xianglian-monkhood-rehearsal-for-baoyu",
+      "question_type": "literary_structure",
+      "importance_weight": 72,
+      "heat_weight": 65,
+      "neutral_overview": "第六十六回柳湘莲「一冷入空门」远早于宝玉的出家结局。曹雪芹安排这场出家，是偶然的人物结局，还是有意的结构设计？",
+      "viewpoint_ids": [
+        "vp_liu_xianglian_rehearsal_yes"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_liu_xianglian_rehearsal_yes",
+          "title": "预演论：冷的先声与空的完成",
+          "summary": "柳湘莲出家是宝玉出家的预演：湘莲因「情伤」而冷入空门（逃避型），宝玉因「情悟」而归大荒（了悟型）。曹雪芹以湘莲试演「情→空」的转化公式，并借湘莲之「冷」反衬宝玉之「空」的更高境界。此外，湘莲出家与甄士隐出家、宝玉出家构成「三次出家」的阶梯：士隐（失去之空）→湘莲（悔恨之冷）→宝玉（彻悟之空）。",
+          "evidence": [
+            "湘莲出家情节位于前八十回中部，为宝玉结局预留伏线",
+            "甄士隐、柳湘莲、宝玉三人的出家形成结构序列"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch47_chapter_title",
+      "quote": "第四十七回回目：呆霸王调情遭苦打 冷郎君惧祸走他乡",
+      "fact_type": "canonical_text_fact",
+      "note": "「冷郎君」——曹雪芹给柳湘莲的官方称号。"
+    },
+    {
+      "source_id": "source_ch66_chapter_title",
+      "quote": "第六十六回回目：情小妹耻情归地府 冷二郎一冷入空门",
+      "fact_type": "canonical_text_fact",
+      "note": "「一冷入空门」——湘莲命运的终局定性。"
+    },
+    {
+      "source_id": "source_ch66_xianglian_stone_lions",
+      "quote": "湘莲道：「你们东府里除了那两个石头狮子干净，只怕连猫儿狗儿都不干净。我不做这剩忘八。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第六十六回。全书对宁国府最著名的批判名言。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_liu_xianglian_knight",
+      "title": "柳湘莲——大观园外的侠客标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1989,
+      "source_title": "红学人物专题研究",
+      "description": "红学界多将柳湘莲视为《红楼梦》中「侠」的代表：他不是江湖豪客，而是落魄世家的「半侠」——有武艺有义气，却无事业无根基。学者指出，柳湘莲形象的独特价值在于「边缘性」：他游离于大观园（温柔乡）与世俗（名利场）之外，以戏台与拳脚为生，是宝玉「混世」的另一种形态。他的出家因此别有意义：连「侠」都救不了世、救不了情，何况其他。"
+    },
+    {
+      "id": "viewpoint_liu_xianglian_rumor",
+      "title": "「石头狮子干净」——流言社会的自我判决",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学社会研究",
+      "year": 1995,
+      "source_title": "红学社会文化研究",
+      "description": "学者分析柳湘莲悔婚事件的深层结构：这不是个人品德问题，而是「流言机制」的完美展示——湘莲本人就是宁府流言的受害者（被误认为优伶），却在更大的流言（宁府污名）面前成了施害者。曹雪芹以此写出流言社会的「人人相食」：每个被流言所伤的人，都可能是下一轮流言的传刀者。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.93,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 21,
+      "text_inference": 6,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 2
+  }
+}

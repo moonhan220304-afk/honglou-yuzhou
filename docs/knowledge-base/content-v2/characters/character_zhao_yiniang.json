@@ -1,0 +1,812 @@
+{
+  "character": {
+    "id": "character_zhao_yiniang",
+    "name": "赵姨娘",
+    "slug": "zhao-yiniang",
+    "aliases": [
+      "愚妾"
+    ],
+    "category": "荣国府妾室（贾政之妾）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "荣国府家生之女（其兄赵国基为家生子），贾政之妾，探春、贾环之生母。",
+      "position": "贾政之妾（姨娘），荣国府最不受待见的主子之一。",
+      "origin": "贾府家生奴婢出身。",
+      "generation": "名义上与王夫人同辈的妾室阶层"
+    },
+    "tags": [
+      "愚妾",
+      "魇魔法",
+      "马道婆",
+      "五百两",
+      "辱亲女",
+      "茉莉粉",
+      "探春之母",
+      "贾环之母",
+      "中邪而死"
+    ],
+    "summary": {
+      "short": "贾政之妾，探春、贾环的生母。第二十五回请马道婆魇魔法害凤姐宝玉，第五十五回「辱亲女愚妾争闲气」，第六十回茉莉粉大闹怡红院——她是荣国府最尴尬的存在：主子不像主子，奴才不甘奴才。",
+      "long": "赵姨娘是《红楼梦》里最难让人喜欢、又最难让人简单憎恨的人物。她出身家生奴婢（兄弟赵国基是跟班的奴才），因生了一子一女（探春、贾环）升为姨娘——可她的日子没有因此好过：王夫人压着她，凤姐损着她，连亲生女儿探春都叫她「姨娘」而不认娘。她的反抗是全书最愚昧的反抗：第二十回凤姐当众训她，她只能忍气吞声；第二十五回她与马道婆合谋，以五百两欠契换魇魔法，要害死凤姐和宝玉——「把他两个绝了，明日这家私不怕不是我环儿的」——这是全书最恶毒的咒语，也是最可悲的盘算；第五十五回探春理家，她弟弟赵国基死了，她来讨赏银，被探春按例打回，母女当众决裂——「辱亲女愚妾争闲气」；第六十回茉莉粉事件，她为贾环出头大闹怡红院，被芳官等小戏子们围攻得下不来台。她的每一次出手都输，输得又难看又心酸。后四十回（gaoe）写她中邪暴死，临死前众叛亲离，连女儿儿子都不肯来。红学家论赵姨娘，多指向制度的残酷：她是妾室制度的产物——没有尊严、没有财产、没有前途，只有「争」的本能和「输」的宿命。她的恶是真实的，她的惨也是真实的；曹雪芹写她，不原谅，也不同情，只把制度的刀痕一条条刻给人看。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "愚——永远押错的一边",
+        "fact_type": "canonical_text_fact",
+        "description": "赵姨娘的愚是全方位的：魇魔法之愚（以为害死二人就能得家私）、讨赏银之愚（去碰探春理家的枪口）、茉莉粉之愚（以姨娘之尊与小戏子对撕）。她的每一次「争」都输，因为她从不评估战场。"
+      },
+      {
+        "dimension": "怨——被压抑者的恨意",
+        "fact_type": "canonical_text_fact",
+        "description": "赵姨娘满腹怨气：怨凤姐欺她、怨王夫人压她、怨探春不认她、怨宝玉碍着她儿子。她的怨是真实的——妾室制度下的她确实一无所有；但她的怨全成了自伤，恨意烧不到别人，只烧自己。"
+      },
+      {
+        "dimension": "贪——魇魔法的五百两",
+        "fact_type": "canonical_text_fact",
+        "description": "「把他两个绝了，明日这家私不怕不是我环儿的」——赵姨娘的贪是全书最赤裸的欲望宣言：她要的不是情，是家私；恨的不是人，是障碍。五百两欠契是她的全部身家押注，也是她的全部见识。"
+      },
+      {
+        "dimension": "卑——主子不像主子",
+        "fact_type": "canonical_text_fact",
+        "description": "赵姨娘的悲剧核心是「不上不下」：她有名分（姨娘），无尊严；有儿女，无亲情。她的卑使她的争显得下作，她的争使她的卑更加刺眼——荣国府里最卑微的「主子」。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_zhao_yiniang_ch20",
+        "title": "凤姐弹妒意（第二十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_zhao_yiniang_yanmafa_ch25",
+        "title": "魇魔法害凤姐宝玉（第二十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_zhao_yiniang_ch55",
+        "title": "辱亲女愚妾争闲气（第五十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_zhao_yiniang_molifen_ch60",
+        "title": "茉莉粉事件（第六十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_zhao_yiniang_meiguilu_ch61",
+        "title": "玫瑰露风波（第六十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_zhao_yiniang_zhongxie_ch112",
+        "title": "中邪暴死（第一一二回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch20_zhao_yiniang_quan",
+        "quote": "凤姐道：「……他先骂什么『自己还作起大来』？……自己不尊重，要往下流走，安着坏心，还只管怨人家偏心。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十回。凤姐当众训赵姨娘——妾室在荣国府的真实地位，从被当众数落可见一斑。"
+      },
+      {
+        "source_id": "source_ch25_zhao_yiniang_yanma",
+        "quote": "赵姨娘道：「……把他两个绝了，明日这家私不怕不是我环儿的。……只要你教给我法子，慢慢的寻……五百两，就到铺子里支现银子。若果然灵验，把两个人交给——」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十五回魇魔法。以五百两欠契雇马道婆魇害凤姐宝玉——她的贪与毒，在「家私」二字里暴露无遗。"
+      },
+      {
+        "source_id": "source_ch55_zhao_yiniang_tanchun",
+        "quote": "赵姨娘道：「……如今你舅舅死了，你多给了二三十两银子，难道太太就不依你？……探春气的脸色气噎……「谁是我舅舅？我舅舅年下才升了九省检点，那里又跑出一个舅舅来？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十五回「辱亲女」。母女为二十两赏银当众决裂——探春认王家人为舅，赵姨娘的脸面被亲生女儿撕碎。"
+      },
+      {
+        "source_id": "source_ch60_zhao_yiniang_molifen",
+        "quote": "赵姨娘……也不答话，走上来便将粉照着芳官脸上撒来……芳官那里禁得住这话，一行哭，一行说……赵姨娘反没了主意，只好乱骂。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十回茉莉粉事件。赵姨娘亲自动手与小戏子对撕，反被围攻——「自取其辱」的现场。"
+      },
+      {
+        "source_id": "source_ch112_zhao_yiniang_zhongxie",
+        "quote": "（赵姨娘）满嘴胡话，呼疼喊痛……「我饶不得你们！」……不多时，只见她躺在地下，口内白沫直流，眼睛突出，嘴都合不拢……赵姨娘中邪暴死。",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第一一二回「死雠仇赵妾赴冥曹」。续书写她中邪暴毙——因果报应的文学处理。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "书中未写其名，以娘家姓氏「赵」加「姨娘」称之",
+      "detail": "与周姨娘并称，均为贾政之妾。「赵」姓本无深意，其名字的贫乏正是身份的贫乏——她是全书唯一以「姓氏+姨娘」构成全部姓名的主子级人物。第五十五回回目「辱亲女愚妾争闲气」以「愚妾」二字为其定评。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；探春贾环之母，约三十余岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "愚妾",
+      "type": "回目称号",
+      "context": "第五十五回回目「辱亲女愚妾争闲气」——「愚」是曹雪芹对她的定评",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_zhao_yiniang_ch20",
+      "title": "凤姐正言弹妒意",
+      "event_level": "minor",
+      "chapter": {
+        "number": 20,
+        "title": "王熙凤正言弹妒意 林黛玉俏语谑娇音",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾环与莺儿赌钱赖账，哭着回来，赵姨娘骂他「下流没脸的东西」。凤姐路过听见，当众训斥赵姨娘：「自己不尊重，要往下流走。」赵姨娘不敢还嘴，忍气吞声。"
+      },
+      "summary": {
+        "short": "第二十回是赵姨娘处境的亮相：她骂儿子被凤姐听见，反遭凤姐当众数落。妾室的「教育权」都要被侄媳妇没收——她的卑微，开场即定调。",
+        "meaning": [
+          "凤姐训妾——当家奶奶与姨娘的等级关系一目了然",
+          "赵姨娘的忍气吞声——她连骂自己儿子的资格都没有",
+          "回目「弹妒意」——正言压妒意，贾府妾室管理学的常态"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "卑微的日常",
+          "content": "这个细节奠定了赵姨娘的生存基调：她的存在被允许，她的表达不被允许。骂儿子是她的「教育」，被凤姐当众打断是她的「待遇」——长年累月的这种待遇，正是她后来魇魔法之恶的土壤。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ying_er",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zhao_yiniang_yanmafa_ch25",
+      "title": "魇魔法——五百两买来的杀心",
+      "event_level": "major",
+      "chapter": {
+        "number": 25,
+        "title": "魇魔法姊弟逢五鬼 红楼梦通灵遇双真",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾环烫伤宝玉后，赵姨娘又恨又怕。马道婆来请安，赵姨娘与之合谋：许五百两欠契，求马道婆魇害凤姐与宝玉。马道婆施法，宝玉、凤姐果然中邪发狂，贾府大乱。幸癞头和尚与跛足道人前来救治，通灵玉复灵，二人得救。"
+      },
+      "summary": {
+        "short": "第二十五回的魇魔法是赵姨娘唯一的「大动作」：五百两欠契买马道婆的邪术，要绝了凤姐宝玉，为贾环争家私。这是全书最恶毒的诅咒，也是最绝望的盘算——一个妾室能想到的全部「上升通道」，就是害死别人。",
+        "meaning": [
+          "「把他两个绝了，明日这家私不怕不是我环儿的」——她的恶与她的可悲同源于此",
+          "魇魔法失灵于通灵玉——曹雪芹用神话干预保住了主人公，也保住了她的「未遂」",
+          "五百两欠契——她押上的是全副身家，赌的是全副人生"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "大观园阴暗面的总爆发",
+          "content": "学者指出，魇魔法事件是贾府内部矛盾的第一次「超自然化」爆发：赵姨娘对王夫人体系的仇恨，被马道婆的邪术点燃。事件虽以神话方式化解，但「有人想要凤姐宝玉的命」这一事实，已把荣国府的暗流摆上明面。"
+        },
+        {
+          "type": "character",
+          "title": "恶的成因",
+          "content": "赵姨娘的杀心不是天生的：她是被剥夺者——没有财产继承权、没有儿女教育权、没有尊严。她的恶是绝望的算术：害死两个，自己的儿子才能出头。曹雪芹写她的恶不掩饰，写她的穷途也不掩饰——她是「制度造恶」的活标本。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lame_daoist",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ma_daopo",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zhao_yiniang_ch55",
+      "title": "辱亲女愚妾争闲气",
+      "event_level": "major",
+      "chapter": {
+        "number": 55,
+        "title": "辱亲女愚妾争闲气 欺幼主刁奴蓄险心",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "议事厅",
+        "specific": "探春理家，适逢赵姨娘之弟赵国基死。赵姨娘来讨赏银，探春按例只给二十两。赵姨娘大闹：「你舅舅死了，你多给了二三十两银子，难道太太就不依你？」探春气极：「谁是我舅舅？我舅舅年下才升了九省检点！」——她只认王子腾为舅。母女当众决裂。"
+      },
+      "summary": {
+        "short": "第五十五回是母女决裂的现场：赵姨娘为弟弟的丧葬银大闹议事厅，探春用「谁是我舅舅」把生母的脸面撕碎。一个争的是银子，一个守的是规矩——亲母女，两本账。",
+        "meaning": [
+          "「辱亲女」——赵姨娘把女儿推到了最难堪的位置",
+          "探春认王子腾为舅——庶出制度下，生母的娘家连「亲戚」都算不上",
+          "赵姨娘的争不是贪婪，是试探——试探亲生女儿肯不肯为她破例"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "争闲气的深层",
+          "content": "赵姨娘争的不是二十两，是「脸」：她一辈子没有脸，指望做了管家的女儿给自己撑一次脸。探春的「按例」把她的最后指望也断了。母女之痛，痛在彼此都站在对方最痛的地方说话。"
+        },
+        {
+          "type": "hongxue",
+          "title": "妾室制度的伤口",
+          "content": "学者指出，探春与赵姨娘的冲突是妾室制度的集中展览：庶出的探春必须认嫡母王夫人为母、认王家为舅，而生母及其娘家被制度性地「注销」。曹雪芹让最精明的探春撞上最愚昧的赵姨娘——制度制造的伤口，由母女二人互相撕开。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_ziteng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zhao_yiniang_molifen_ch60",
+      "title": "茉莉粉事件",
+      "event_level": "major",
+      "chapter": {
+        "number": 60,
+        "title": "茉莉粉替去蔷薇硝 玫瑰露引来茯苓霜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "贾环向芳官讨蔷薇硝，芳官以茉莉粉搪塞。赵姨娘得知，认定儿子受辱，闯进怡红院，把茉莉粉照着芳官脸上撒去，出言辱骂。芳官等小戏子们一拥而上，与她大闹。赵姨娘「反没了主意」，被众人围观取笑。"
+      },
+      "summary": {
+        "short": "赵姨娘为儿子出头，亲闯怡红院撒粉骂人——结果被一群小戏子围攻，狼狈收场。以姨娘之尊跌到与小戏子对撕的田地，「愚妾」之愚，至此登峰造极。",
+        "meaning": [
+          "为贾环出头的母亲心，与出头的愚方式——她的每一次爱都办成丑闻",
+          "小戏子们敢围攻姨娘——赵姨娘在府里的实际地位连戏子都不如",
+          "「反没了主意」——她的强硬只能维持三分钟，因为她的底气只有三分钟"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "母爱的愚蠢形态",
+          "content": "赵姨娘大闹怡红院的动机是母爱：她的儿子被丫鬟骗了，她要讨个说法。但她的方式（撒粉、骂街、亲自动手）把「讨说法」变成了「出洋相」。她的悲剧在于：她只有市井的武器，却要打贵族府的仗。"
+        },
+        {
+          "type": "literary",
+          "title": "闹剧的层次",
+          "content": "曹雪芹写赵姨娘的闹剧层层递进：从凤姐训妾（20回）到魇魔法（25回）到争赏银（55回）到撒粉大战（60回）——她的「争」一次比一次低级，输得一次比一次难看。这条下降线，正是妾室命运的下降线。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zhao_yiniang_meiguilu_ch61",
+      "title": "玫瑰露风波——彩云偷露",
+      "event_level": "minor",
+      "chapter": {
+        "number": 61,
+        "title": "投鼠忌器宝玉瞒赃 判冤决狱平儿行权",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "彩云偷王夫人的玫瑰露给贾环，事发。平儿为顾全探春脸面（投鼠忌器），由宝玉应承了赃。彩云自认，赵姨娘又惊又怕。贾环却疑彩云与宝玉有私，把彩云所赠之物摔还——赵姨娘的「帮忙」又一次成了笑话。"
+      },
+      "summary": {
+        "short": "玫瑰露案里，赵姨娘是隐身的受益者：彩云为她儿子偷了主母的东西。案子被平儿「投鼠忌器」地按下，贾环却反疑彩云与宝玉有私——赵姨娘阵营连「得利」都要得成丑闻。",
+        "meaning": [
+          "「投鼠忌器」——平儿保的是探春的脸，不是赵姨娘的错",
+          "贾环摔还彩云之物——赵姨娘母子的格局，只配辜负忠心的丫鬟",
+          "案子轻放——她的「罪」连被追究的资格都没有"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "被豁免的罪恶感",
+          "content": "玫瑰露案中赵姨娘甚至没有出场——她的存在感全在「受益者」的阴影里。曹雪芹的高明正在于此：不写她的闹，只写她的默；默认偷窃、默受庇护的赵姨娘，比大闹的赵姨娘更让人心寒。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_zhao_yiniang_zhongxie_ch112",
+      "title": "中邪暴死——死雠仇赵妾赴冥曹",
+      "event_level": "major",
+      "chapter": {
+        "number": 112,
+        "title": "活冤孽妙尼遭大劫 死雠仇赵妾赴冥曹",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "后四十回（gaoe）写贾母去世后，赵姨娘突然中邪，满口胡话，自称被冤魂索命，满地打滚，最后口吐白沫暴毙。死时探春、贾环皆不在侧。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）给赵姨娘的结局是中邪暴死：冤魂索命，惨状骇人。这个结局是续书最直白的因果报应处理——她的恶，最终由她自己的命来偿。",
+        "meaning": [
+          "「死雠仇」——续书以报应逻辑收束她的魇魔法之罪",
+          "死时无人在侧——她一生争儿女，死时一个都不来",
+          "中邪的惨状与马道婆之邪术首尾呼应——恶的回旋镖"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "报应结局的评价",
+          "content": "续书（gaoe）让赵姨娘中邪暴死，被普遍视为「因果报应」式的简化处理：她的恶在前八十回有深刻的制度成因，续书却用鬼魂索命一笔了结，降低了人物的悲剧重量。亦有论者认为，众叛亲离的惨死恰符合她一生「争而不得」的逻辑。"
+        },
+        {
+          "type": "character",
+          "title": "没有人来",
+          "content": "赵姨娘死时，探春不在、贾环不在——她争了一辈子的「儿女与家私」，死时两手空空。这个细节是续书对这个人物最狠的一笔：她的一生，终究没有人愿意收场。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_zhao_yiniang_jia_huan",
+      "from": "character_zhao_yiniang",
+      "to": "character_jia_huan",
+      "type": "母子（互相拖累）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾环是赵姨娘唯一的指望：她把儿子当成翻盘的筹码（「这家私不怕不是我环儿的」），却只教他「下流」的行事。她为儿子出头的方式（撒粉大闹）让儿子更被人看不起——母亲是儿子的命运，儿子也是母亲的命运，二人一起往更低处走。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "教唆与出头",
+          "chapter": 20,
+          "description": "赵姨娘骂贾环「下流没脸」，凤姐训她——母子连挨骂都在一起。"
+        },
+        {
+          "stage": 1,
+          "title": "同挨训斥",
+          "chapter": 20,
+          "description": "贾环赖账哭回，赵姨娘骂他，凤姐训母子二人。"
+        },
+        {
+          "stage": 2,
+          "title": "为子争利",
+          "chapter": 25,
+          "description": "魇魔法——「这家私不怕不是我环儿的」。"
+        },
+        {
+          "stage": 2,
+          "title": "母子合谋",
+          "chapter": 25,
+          "description": "贾环烫伤宝玉，赵姨娘魇害宝玉——母子的恨同一节奏。"
+        },
+        {
+          "stage": 3,
+          "title": "为子出头",
+          "chapter": 60,
+          "description": "茉莉粉事件大闹怡红院。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhao_yiniang_wang_xifeng",
+      "from": "character_zhao_yiniang",
+      "to": "character_wang_xifeng",
+      "type": "死敌",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐是赵姨娘的头号仇人：当众训她、把持贾府大权、挡着贾环的路。赵姨娘的魇魔法首先瞄准凤姐——她的恨与凤姐的蔑互为因果：凤姐越踩她，她越恨；她越下作，凤姐越踩。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "当众受辱",
+          "chapter": 20,
+          "description": "凤姐正言弹妒意。"
+        },
+        {
+          "stage": 2,
+          "title": "魇害",
+          "chapter": 25,
+          "description": "赵姨娘雇马道婆魇害凤姐与宝玉。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_zhao_yiniang_wang_furen",
+      "from": "character_zhao_yiniang",
+      "to": "character_wang_furen",
+      "type": "妻妾对立",
+      "nature": [
+        "conflict",
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人是压在赵姨娘头上的天：妻妾名分之下，赵姨娘连管教儿子的资格都没有。王夫人几乎不直接对付她——因为不需要，制度已经替王夫人做完了所有事。赵姨娘的恨大半冲着王夫人体系，却只敢对丫鬟小戏子撒。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "制度性压制",
+          "chapter": 20,
+          "description": "凤姐以王夫人代言人身份训赵姨娘。"
+        },
+        {
+          "stage": 1,
+          "title": "嫡庶的战争",
+          "chapter": 25,
+          "description": "赵姨娘请马道婆魇害凤姐宝玉——妻妾矛盾的极端化。"
+        },
+        {
+          "stage": 2,
+          "title": "借道报复",
+          "chapter": 25,
+          "description": "魇魔法亦针对宝玉——王夫人的命根子。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_zhao_yiniang_evil",
+      "title": "赵姨娘的恶是被逼出来的吗？",
+      "slug": "was-zhao-yiniangs-evil-forced-out",
+      "question_type": "character_morality",
+      "importance_weight": 78,
+      "heat_weight": 74,
+      "neutral_overview": "赵姨娘魇害凤姐宝玉、大闹怡红院、逼哭亲生女儿——她的恶，是妾室制度逼出来的，还是本性如此？",
+      "viewpoint_ids": [
+        "vp_zhao_yiniang_system",
+        "vp_zhao_yiniang_nature",
+        "vp_zhao_yiniang_both"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhao_yiniang_system",
+          "title": "制度论：妾室制度的人格产物",
+          "summary": "赵姨娘的一切恶都有制度来源：没有尊严催生怨恨，没有财产催生贪欲，没有出路催生邪念。她是妾室制度的标准产品——把她换成任何人，在这个位置上都只能变恶。她的恶是制度的恶借她的手做出来的。",
+          "evidence": [
+            "妾室无继承权、无教育权的处境",
+            "她被凤姐当众训斥的日常"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_zhao_yiniang_nature",
+          "title": "本恶论：同样处境并非人人都选恶",
+          "summary": "周姨娘同为贾政之妾，一样无子无势，却不生事。赵姨娘的恶有个人选择：魇魔法之毒、撒粉之丑，都是她自己选的路。用制度为她开脱，反而低估了她作为人的自由意志。",
+          "evidence": [
+            "周姨娘安分守己的对照",
+            "魇魔法的主动筹划与付费"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_zhao_yiniang_both",
+          "title": "双重论：制度的受害者与恶的执行者",
+          "summary": "赵姨娘既是受害者（制度剥夺了她的一切），也是加害者（她选择用最恶的方式反抗）。曹雪芹写她的高明正在于不豁免任何一面：她的惨是真的，她的恶也是真的——逼与被逼之间，没有干净的答案。",
+          "evidence": [
+            "她的处境之惨与手段之毒并存",
+            "探春之「辱亲女」与赵姨娘之「愚妾」的双向定性"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_zhao_yiniang_tanchun",
+      "title": "探春为什么不认赵姨娘？",
+      "slug": "why-wont-tanchun-acknowledge-zhao-yiniang",
+      "question_type": "relationship_analysis",
+      "importance_weight": 76,
+      "heat_weight": 72,
+      "neutral_overview": "探春管王夫人叫「母亲」，管生母叫「姨娘」，还只认王子腾为舅。这是礼法的冷酷，还是探春的势利？",
+      "viewpoint_ids": [
+        "vp_zhao_yiniang_lifa",
+        "vp_zhao_yiniang_zibei",
+        "vp_zhao_yiniang_zhao"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhao_yiniang_lifa",
+          "title": "礼法论：庶出认嫡是制度规定",
+          "summary": "按宗法制度，庶出的探春必须认嫡母王夫人为母、嫡母娘家为舅——这不是探春的选择，是制度的规定。探春认「王子腾」为舅，是在执行礼法。她的「不认」不是无情，是不得不。",
+          "evidence": [
+            "「我舅舅年下才升了九省检点」的礼法逻辑",
+            "庶出子女归嫡母名下的制度"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_zhao_yiniang_zibei",
+          "title": "自卑投射论：探春厌恶的是母亲的「下作」",
+          "summary": "探春最怕的不是赵姨娘的身份，是她的行止——撒粉骂街、争银闹事、魇魔法害人。探春以「才干清明」立身，生母的每一桩丑行都在拆她的台。她疏远母亲，是自卫：这个母亲正在毁掉她的世界。",
+          "evidence": [
+            "探春对赵姨娘闹事的痛心（「何苦来！」）",
+            "「辱亲女」中探春的羞愤"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhao_yiniang_zhao",
+          "title": "赵姨娘责任论：是她自己把女儿推远",
+          "summary": "赵姨娘从不理解探春的处境：女儿理家，她去争赏银；女儿要体面，她去闹怡红院。她给女儿的全是要挟与难堪，却怨女儿不认她。母女的疏远，一半是她自己「闹」出来的。",
+          "evidence": [
+            "第五十五回当众讨赏银逼探春破例",
+            "第六十回大闹后探春「姨娘自寻苦吃」的痛语"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_zhao_yiniang_yanma",
+      "title": "魇魔法事件——赵姨娘为什么敢做这么大的事？",
+      "slug": "why-did-zhao-yiniang-dare-the-psyche-spell",
+      "question_type": "character_motivation",
+      "importance_weight": 74,
+      "heat_weight": 70,
+      "neutral_overview": "害死当家的凤姐和贾母的命根子宝玉——赵姨娘凭什么觉得这事能成、能瞒、能得利？",
+      "viewpoint_ids": [
+        "vp_zhao_yiniang_desperate",
+        "vp_zhao_yiniang_ignorant",
+        "vp_zhao_yiniang_luck"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhao_yiniang_desperate",
+          "title": "绝望论：一无所有的人敢赌一切",
+          "summary": "赵姨娘已经没有什么可失去：名分无望、财产无份、尊严全无。魇魔法是她能想到的唯一的「翻盘」——绝望的人最敢下注，因为她手里本就一无所有。",
+          "evidence": [
+            "「明日这家私不怕不是我环儿的」的全押心态",
+            "五百两欠契＝她的全部身家"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_zhao_yiniang_ignorant",
+          "title": "愚昧论：她真的相信邪术能解决问题",
+          "summary": "赵姨娘的世界观是迷信的：她相信马道婆的符咒能杀人于无形，相信害死二人后家私会归贾环。她的敢，来自无知——她根本不知道自己在赌什么、赌注有多大。",
+          "evidence": [
+            "她对马道婆邪术的深信",
+            "对家产继承的荒谬想象（还有宝玉贾兰等人）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhao_yiniang_luck",
+          "title": "侥幸论：她赌的是「神不知鬼不觉」",
+          "summary": "邪术的好处正在于不留痕迹：中邪而死，谁会怀疑到一个小妾的欠契？赵姨娘的算盘是「完美犯罪」——她的胆量来自对马道婆法术的迷信与对「报应」的无知。",
+          "evidence": [
+            "选择魇魔法而非其他手段的「无形」考量",
+            "与马道婆的秘密交易方式"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_zhao_yiniang_ending",
+      "title": "后四十回赵姨娘中邪暴死——这个结局合理吗？",
+      "slug": "is-zhao-yiniangs-ending-reasonable",
+      "question_type": "version_dispute",
+      "importance_weight": 68,
+      "heat_weight": 64,
+      "neutral_overview": "续书（gaoe）让赵姨娘中邪暴毙，死状骇人。这个「报应式」结局，符合人物逻辑吗？",
+      "viewpoint_ids": [
+        "vp_zhao_yiniang_baoying",
+        "vp_zhao_yiniang_caoshuai"
+      ],
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "viewpoints": [
+        {
+          "id": "vp_zhao_yiniang_baoying",
+          "title": "报应论：因果了结的完整闭环",
+          "summary": "赵姨娘以魇魔法害人，死于中邪——以邪术始，以邪祟终，续书用「报应」完成她的命运闭环。且众叛亲离的死法（探春贾环皆不在侧）恰是她一生「争而不得」的总结，人物逻辑自洽。",
+          "evidence": [
+            "中邪死法与魇魔法事件的呼应",
+            "死时无人在侧的凄凉"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_zhao_yiniang_caoshuai",
+          "title": "草率论：简化了制度悲剧的重量",
+          "summary": "赵姨娘的恶有深刻的制度成因，续书却用「鬼魂索命」一笔了结——把社会悲剧简化成因果报应。这种处理回避了前八十回埋下的全部问题（妾室制度、母女裂痕），使人物沦为报应叙事的道具。",
+          "evidence": [
+            "前八十回对赵姨娘处境的多层刻画",
+            "暴毙写法与全书写实基调的落差"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_zhao_yiniang_specimen",
+      "title": "赵姨娘——封建妾室制度的人格标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1985,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者普遍将赵姨娘视为妾室制度的人格标本：她集中了被压迫者的一切病灶——愚昧、怨恨、贪婪、下作。有论者指出，赵姨娘形象的特殊价值在于她的「不上不下」：既享受主子的名分，又保有奴才的行止，这种分裂正是妾室制度的本质——制度既给她幻想，又不给她出路，最终把她变成一个「丑角式的悲剧人物」。"
+    },
+    {
+      "id": "viewpoint_zhao_yiniang_yanma",
+      "title": "魇魔法——大观园阴暗面的总爆发",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1990,
+      "source_title": "多项叙事结构研究",
+      "description": "学者分析第二十五回的叙事功能：魇魔法事件把荣国府的内部矛盾推到「你死我活」的极端——赵姨娘对凤姐宝玉的杀心，是妾室阶层对掌权者的仇恨总爆发。事件的超自然色彩（邪术、通灵玉）与其社会内容（家产争夺、嫡庶斗争）互为表里：曹雪芹用神话外壳包裹了最现实的阶级暗战。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 6,
+    "total_poems": 0,
+    "total_questions": 4,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 33,
+      "text_inference": 10,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 8,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

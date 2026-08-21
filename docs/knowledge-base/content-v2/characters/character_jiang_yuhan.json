@@ -1,0 +1,514 @@
+{
+  "character": {
+    "id": "character_jiang_yuhan",
+    "name": "蒋玉菡",
+    "slug": "jiang-yu-han",
+    "aliases": [
+      "琪官",
+      "琪官儿"
+    ],
+    "category": "忠顺王府优伶",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "父母家世不详；忠顺王府家养优伶（小旦）。",
+      "position": "忠顺王府小旦；后在外置办房产（紫檀堡），自赎脱离王府。",
+      "origin": "梨园行出身，艺名琪官。",
+      "generation": "与宝玉同辈的优伶阶层"
+    },
+    "tags": [
+      "琪官",
+      "茜香罗",
+      "蒋玉菡情赠茜香罗",
+      "互换汗巾",
+      "宝玉挨打导火索",
+      "花气袭人知昼暖",
+      "堪羡优伶有福",
+      "袭人",
+      "忠顺王府"
+    ],
+    "summary": {
+      "short": "艺名琪官，忠顺王府小旦。第二十八回与宝玉互换汗巾（他赠北静王所赐茜香罗，宝玉回赠袭人的松花汗巾）——这一换，换出了第三十三回宝玉的挨打，也换出了他日后与袭人的姻缘。判词「堪羡优伶有福」的「优伶」即他。",
+      "long": "蒋玉菡艺名琪官，是忠顺王府豢养的小旦，色艺俱佳，与宝玉在冯紫英家酒宴上相识（第二十八回）。席上行酒令，他说出「花气袭人知昼暖」——「袭人」二字从此挂上他的命运。散席时他解下茜香罗汗巾赠宝玉：「这汗巾子是茜香国女国王所贡之物……昨日系于你腰里的那条是北静王给我的」；宝玉亦解下自己的松花汗巾回赠——那条汗巾本是袭人的。回家后宝玉把茜香罗转系在袭人身上。第三十三回，忠顺王府长史官登门索人：琪官「三五日不见回去」，且与宝玉交情匪浅（长史官甚至知道「红汗巾子」之事，宝玉只好供出他在紫檀堡置了房舍）——此事与金钏投井并成宝玉挨打的两大导火索。袭人判词「枉自温柔和顺，空云似桂如兰。堪羡优伶有福，谁知公子无缘」——优伶即蒋玉菡；脂批明点此句预兆袭人「终将嫁与蒋玉菡」。后四十回（gaoe）第一二〇回：宝玉出家后，袭人嫁给蒋玉菡，洞房中发现彼此腰间松花、茜香两条汗巾，方悟「姻缘前定」。蒋玉菡与宝玉是全书「同性之谊」最暧昧的一对：互赠贴身汗巾、互探下落，但曹雪芹的笔法点到即止。他的意义在于：一个优伶，在「情」的天平上与贵族公子平等——他与袭人、宝玉之间形成的「汗巾姻缘」，是全书最精巧的命运闭环。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "柔——优伶的温顺与胆怯",
+        "fact_type": "canonical_text_fact",
+        "description": "琪官身上有优伶阶层全部的「软」：与宝玉相交，他赠的是「贡品汗巾」却不敢张扬；被王府寻回，他只能躲。他的柔情是真，怯懦也是真——这种「软」使他成为宝玉世界里「无害的知己」，也使他的命运始终被人捏着。"
+      },
+      {
+        "dimension": "义——交换的信物",
+        "fact_type": "canonical_text_fact",
+        "description": "蒋玉菡的「义」体现在信物上：茜香罗是北静王给他的「贡物」，他转赠宝玉；宝玉给他的松花汗巾，他贴身带着直到多年后的洞房。优伶之交以物为凭——物在，情在；汗巾是全书最著名的「命运信物」之一。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jiang_yuhan_banquet_ch28",
+        "title": "冯紫英家宴——行令「花气袭人」、互换汗巾（第二十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jiang_yuhan_zhongshun_ch33",
+        "title": "忠顺王府索人——宝玉挨打导火索（第三十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jiang_yuhan_judgment_ch5",
+        "title": "袭人判词「堪羡优伶有福」（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jiang_yuhan_marry_ch120",
+        "title": "娶袭人——两条汗巾的姻缘（第一二〇回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch28_jiang_yuhan_handkerchief",
+        "quote": "（蒋玉菡）道：「这汗巾子是茜香国女国王所贡之物，夏天系着，肌肤生香，不生汗渍。昨日系于你腰里的那条是北静王给我的，今日才上身。……你若真心待我，把你的解下来给我。」……（宝玉）把自己一条松花汗巾解了下来，递与琪官。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十八回「蒋玉菡情赠茜香罗」。茜香罗换松花汗巾——而那条松花汗巾本是袭人的。"
+      },
+      {
+        "source_id": "source_ch28_jiang_yuhan_poem",
+        "quote": "（席上行令）蒋玉菡……拿起木樨来，念道：「花气袭人知昼暖。」……薛蟠还跳了起来，喧嚷道：「了不得，了不得！该罚，该罚！这席上并没有宝贝，你怎么念起宝贝来？」蒋玉菡怔了，说道：「何曾有宝贝？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十八回。酒令说出「袭人」二字——命运在此悄然接线。"
+      },
+      {
+        "source_id": "source_ch33_jiang_yuhan_zhongshun",
+        "quote": "那长史官便冷笑道：「……那红汗巾子怎么到了公子腰里？」宝玉听了这话，不觉轰去魂魄，目瞪口呆……只得说道：「大人既知他的底细，如何连他置买房舍这样大事倒不晓得了？听得说他如今在东郊离城二十里有个什么紫檀堡，他在那里置了几亩田地几间房舍。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十三回。忠顺府长史官以「红汗巾子」为证逼供——茜香罗成了宝玉挨打的物证。"
+      },
+      {
+        "source_id": "source_ch5_jiang_yuhan_judgment",
+        "quote": "枉自温柔和顺，空云似桂如兰。堪羡优伶有福，谁知公子无缘。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回袭人判词。「优伶」即蒋玉菡——脂批明点袭人后嫁琪官。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "本名蒋玉菡，艺名琪官——「玉菡」「琪」皆含玉",
+      "detail": "「菡」即菡萏（荷花），「玉菡」是玉中之花；艺名「琪官」，「琪」亦美玉——一个优伶，名里两处带「玉」，与宝玉（玉）、袭人（花气袭人）形成「玉—花—玉」的命名回路：判词「堪羡优伶有福」说的正是这个「带玉的优伶」。蒋姓或取「将」之谐音，学界有「蒋玉菡＝将玉含（口衔美玉）」之说——与宝玉衔玉而生的来历相映成趣。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；忠顺王府小旦，与宝玉年龄相近或略大（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "琪官",
+      "type": "艺名",
+      "context": "忠顺王府与梨园行对蒋玉菡的称呼；「琪」为美玉，与宝玉之「玉」呼应",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "琪官儿",
+      "type": "昵称",
+      "context": "宝玉、薛蟠等对蒋玉菡的口语称呼",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jiang_yuhan_banquet_ch28",
+      "title": "冯紫英家宴——「花气袭人」与互换汗巾",
+      "event_level": "major",
+      "chapter": {
+        "number": 28,
+        "title": "蒋玉菡情赠茜香罗 薛宝钗羞笼红麝串",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "冯紫英家",
+        "specific": "薛蟠做东、冯紫英作陪的酒宴上，宝玉与蒋玉菡初识。行令时蒋玉菡念「花气袭人知昼暖」——席上只有宝玉与蒋玉菡明白这四字的分量。散席时二人「离了众人」去解手，互赠汗巾：琪官赠茜香罗（北静王所赐贡物），宝玉回赠自己的松花汗巾。"
+      },
+      "summary": {
+        "short": "回目「蒋玉菡情赠茜香罗」——一场酒宴完成两桩命运伏笔：一句「花气袭人」接上袭人之名，两条汗巾交换他与宝玉、与袭人的终身。此回之后，所有悲剧都从这条茜香罗上解下。",
+        "meaning": [
+          "「花气袭人知昼暖」——优伶行令，念出的是他自己的命运",
+          "茜香罗换松花汗巾——宝玉用袭人的汗巾作「自己的东西」送人，命运早已错位",
+          "二人「离了众人」的私密感——宝玉与琪官之谊的暧昧边界"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "汗巾的叙事功能",
+          "content": "两条汗巾是全书最精巧的「信物接力」：北静王→蒋玉菡→宝玉→袭人（茜香罗）；袭人→宝玉→蒋玉菡→袭人（松花汗巾，后四十回gaoe）。汗巾绕着三个男人、一个女人转了一圈，最终把袭人与蒋玉菡系在一起——曹雪芹用贴身之物完成了命运的交错换位。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jiang_yuhan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_beijing_wang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jiang_yuhan_zhongshun_ch33",
+      "title": "忠顺王府索人——宝玉挨打的导火索",
+      "event_level": "major",
+      "chapter": {
+        "number": 33,
+        "title": "手足眈眈小动唇舌 不肖种种大承笞挞",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（政老爷书房）",
+        "specific": "忠顺王府长史官登门向贾政要人：琪官数日未归，王府查明他「相与甚厚」的是宝玉。长史官以「红汗巾子」为证逼问，宝玉供出琪官在紫檀堡置办田产房舍。此事与金钏投井两罪并发，贾政怒极，把宝玉打得死去活来。"
+      },
+      "summary": {
+        "short": "琪官的出逃让宝玉挨了全书最重的一顿打：忠顺王府是贾府都不敢得罪的政敌，宝玉「流荡优伶」私交王府逃奴，从「家事」升级为「政事」。一条茜香罗，抽断了贾府的板子。",
+        "meaning": [
+          "「红汗巾子怎么到了公子腰里」——贴身信物成为政治罪证",
+          "宝玉供出紫檀堡——为救自己出卖朋友，他的「情」在暴力面前露了怯",
+          "优伶之私，公侯之罪——等级社会里最荒诞的因果关系"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「戏子之交」的政治化",
+          "content": "蒋玉菡一案让读者看清：宝玉的世界再风雅，也悬在政治刀口上。忠顺府索人一节，把全书前半的「情」突然拉进「势」的漩涡——宝玉挨打是「情」与「势」第一次正面碰撞，而蒋玉菡就是那根导火线。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jiang_yuhan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhongshun_wang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jinchuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jiang_yuhan_marry_ch120",
+      "title": "娶袭人——两条汗巾的姻缘（gaoe）",
+      "event_level": "major",
+      "chapter": {
+        "number": 120,
+        "title": "甄士隐详说太虚情 贾雨村归结红楼梦",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "蒋玉菡家中（后四十回）",
+        "specific": "宝玉出家后，袭人本欲守节，经王夫人等安排嫁给蒋玉菡。洞房之夜，二人各自解下腰间的松花汗巾与茜香罗汗巾，方才明白「此系前定」——当年交换的两条汗巾，兜兜转转都回到了该回的人身上。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）第一二〇回：袭人嫁蒋玉菡，洞房中两条汗巾相认——「花气袭人知昼暖」的谶语与「堪羡优伶有福」的判词全部兑现。这是续书对「汗巾姻缘」的收束，也是学界公认续书少数几处「与脂批吻合」的处理之一。",
+        "meaning": [
+          "「枉自温柔和顺」——袭人一心嫁宝玉终成空，「优伶」捡了她的「福」",
+          "汗巾相认——物证闭环，命运错位二十年后复位",
+          "「公子无缘」——宝玉、袭人、琪官三人的情债以「错位姻缘」了结"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "续书对判词的执行",
+          "content": "脂批早在第二十八回就点明「茜香罗暗系袭人」「此物伏袭人后文嫁琪官」——后四十回（gaoe）的洞房汗巾一节正是照此办理。红学界虽贬低续书整体，但普遍承认这一笔「接得上」：它把前八十回的谶语系统执行得干净利落。",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jiang_yuhan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jiang_yuhan_jia_baoyu",
+      "from": "character_jiang_yuhan",
+      "to": "character_jia_baoyu",
+      "type": "知己（互赠汗巾）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉与琪官一面如故：互赠汗巾、互道名姓、互探底细。他们的交情里有「色」的暧昧，也有「情」的真切——琪官是宝玉「流荡优伶」罪状的主角，也是他「同气相求」的知己。第三十三回宝玉供出紫檀堡，这段友谊经受了全书最严酷的考验。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "家宴订交",
+          "chapter": 28,
+          "description": "互换汗巾，成为知己。"
+        },
+        {
+          "stage": 2,
+          "title": "连累挨打",
+          "chapter": 33,
+          "description": "忠顺府索人，宝玉受刑。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiang_yuhan_zhongshun_wang",
+      "from": "character_jiang_yuhan",
+      "to": "character_zhongshun_wang",
+      "type": "逃奴与主子",
+      "nature": [
+        "master_servant",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "忠顺王府对琪官有「占有权」：他出逃三日不归，王府立即登门索人。这段关系写出了优伶的处境——再红的戏子也是「会说话的物件」，逃不出主人的追索。忠顺府与贾府的政治恩怨，就从他这条「逃奴线」上打起。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "出逃",
+          "chapter": 33,
+          "description": "琪官潜出王府，置产紫檀堡。"
+        },
+        {
+          "stage": 2,
+          "title": "追索",
+          "chapter": 33,
+          "description": "长史官登门，宝玉挨打。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiang_yuhan_beijing_wang",
+      "from": "character_jiang_yuhan",
+      "to": "character_beijing_wang",
+      "type": "赐物之缘",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "蒋玉菡的茜香罗汗巾是北静王所赐——北静王是全书「情物」的源头之一（他还赐过宝玉鹡鸰香念珠）。这条「贡物—王爷—优伶—公子—丫鬟」的汗巾流转链，把北静王府、忠顺王府、荣国府串成一张命运之网。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "受赐汗巾",
+          "chapter": 28,
+          "description": "北静王赐蒋玉菡茜香罗（据蒋玉菡口述）。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiang_yuhan_xiren",
+      "from": "character_jiang_yuhan",
+      "to": "character_xiren",
+      "type": "夫妻（汗巾前定的姻缘）",
+      "nature": [
+        "romantic",
+        "symbolic_parallel",
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "袭人与蒋玉菡的姻缘是「判词+信物」的双重预定：判词「堪羡优伶有福」，信物松花汗巾（宝玉用袭人的汗巾换回茜香罗）。后四十回（gaoe）写二人洞房汗巾相认——优伶娶了公子的准妾，丫鬟嫁了王府的逃奴，命运把两个「差一点」的人配成了正果。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "伏笔",
+          "chapter": 28,
+          "description": "酒令「花气袭人」+汗巾交换（茜香罗最终系到袭人身上）。"
+        },
+        {
+          "stage": 1,
+          "title": "汗巾互换（隔空）",
+          "chapter": 28,
+          "description": "蒋玉菡与宝玉互赠汗巾，茜香罗最终系在袭人身上——隔空定情。"
+        },
+        {
+          "stage": 2,
+          "title": "成婚",
+          "chapter": 120,
+          "description": "袭人嫁蒋玉菡，洞房汗巾相认（gaoe）。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jiang_yuhan_baoyu_relation",
+      "title": "宝玉与蒋玉菡：知己还是断袖？",
+      "slug": "were-baoyu-and-jiang-yuhan-lovers",
+      "question_type": "relationship_analysis",
+      "importance_weight": 72,
+      "heat_weight": 74,
+      "neutral_overview": "互赠贴身汗巾、离席「解手」私语、宝玉挨打也因他——宝玉与琪官的关系，在「知己」与「断袖」之间留下了全书最暧昧的空间。",
+      "viewpoint_ids": [
+        "vp_jiang_yuhan_zhiji",
+        "vp_jiang_yuhan_duanxiu"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiang_yuhan_zhiji",
+          "title": "知己论：以物寄情的风雅之交",
+          "summary": "宝玉与琪官的交往是「以物传情」的君子之风：汗巾是当时的寻常佩物，互赠虽有亲昵，但全书无任何逾矩描写——对比宝玉与秦钟、与蒋玉菡都保持「点到即止」。贾政骂「流荡优伶」，骂的是「与戏子结交」的身份失格，而非肉体之事。他们的关系更接近「同气相求」的知己。",
+          "evidence": [
+            "文本只写互赠汗巾、互道名姓，无任何性事暗示",
+            "宝玉对秦钟等男伴的描写同样「发乎情止乎礼」"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jiang_yuhan_duanxiu",
+          "title": "暧昧论：曹雪芹笔下的「情」不分性别",
+          "summary": "《红楼梦》的「情」本就超越性别：宝玉「流荡优伶」「面若好女」的琪官、离席私语、贴身汗巾——这些细节在明清小说语境里就是男风的典型书写（与《品花宝鉴》同构）。且忠顺府索人时「相与甚厚」四字极重。曹雪芹不写实，是「避讳」而非「没有」——他的「意淫」世界里，琪官是宝玉男性情欲对象的候选。",
+          "evidence": [
+            "「离了众人」的私密交接与「红汗巾子」的贴身属性",
+            "明清优伶与公子的交往语境（如《品花宝鉴》）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiang_yuhan_hankin",
+      "title": "茜香罗与松花汗巾的「换手」有何深意？",
+      "slug": "what-do-the-handkerchiefs-mean",
+      "question_type": "theme_analysis",
+      "importance_weight": 66,
+      "heat_weight": 62,
+      "neutral_overview": "北静王→蒋玉菡→宝玉→袭人（茜香罗）；袭人→宝玉→蒋玉菡→袭人（松花汗巾）。两条汗巾的四次转手，转出了什么？",
+      "viewpoint_ids": [
+        "vp_jiang_yuhan_hankin_fate"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiang_yuhan_hankin_fate",
+          "title": "命运错位论：信物的流转即命运的流转",
+          "summary": "汗巾的每次转手都是一次「错位」：袭人的松花汗巾被宝玉当「自己的东西」送人——宝玉对袭人的「所有权」因此失效；琪官的茜香罗系到袭人身上——袭人与琪官之间凭空多了一条红线。曹雪芹用贴身的物写命运的不可控：人以为是自己在交换，其实是命运在调度。最终洞房相认（gaoe），两条汗巾各自归位，全书最漫长的「信物伏笔」完成闭环。",
+          "evidence": [
+            "「这汗巾子是茜香国女国王所贡之物」——信物有来历、有去向、有归宿",
+            "袭人判词「堪羡优伶有福」与汗巾伏笔的互证"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch28_jiang_yuhan_name",
+      "quote": "（宝玉问）「你今年十几岁了？」琪官道：「十八岁了。」……宝玉问道：「你可认得我吗？」蒋玉菡道：「名儿也久仰。」……蒋玉菡道：「我说一句，你倒应一句。……我们两个人，今日就拜了弟兄如何？」",
+      "fact_type": "canonical_text_fact",
+      "note": "第二十八回。初识即成弟兄——优伶与公子的「平辈化」，是全书等级松动的一个瞬间。"
+    },
+    {
+      "source_id": "source_ch33_jiang_yuhan_wangfu",
+      "quote": "那长史官听了，笑道：「……我们府里有一个做小旦的琪官，一向好好在府里，如今竟三五日不见回去。……王爷亦云：『若是别的戏子呢，一百个也罢了；只是这琪官随机应答，谨慎老诚，甚合我老人家的心，竟断断少不得此人。』」",
+      "fact_type": "canonical_text_fact",
+      "note": "第三十三回。忠顺王「断断少不得此人」——琪官的「价值」与「不自由」都在这句话里。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jiang_yuhan_rank",
+      "title": "蒋玉菡：等级社会的「情之平权」标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学主题研究",
+      "year": 1996,
+      "source_title": "多项主题研究",
+      "description": "学者指出，蒋玉菡是《红楼梦》「情」观念的关键注脚：一个优伶（最下等的「玩意儿」），在情的领域与国公府的公子完全平等——互换信物、结为弟兄、共担祸福。更妙的是他的「福」：判词说「堪羡优伶有福」——全书所有贵族的情都落空，唯有这个优伶「有福」地娶到了他想都不敢想的人。曹雪芹把「福」分配给最卑微者，是对「情有等级」的世界观的最后一击。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 6,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 21,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 3,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

@@ -1,0 +1,665 @@
+{
+  "character": {
+    "id": "character_xue_baoqin",
+    "name": "薛宝琴",
+    "slug": "xue-bao-qin",
+    "aliases": [
+      "宝琴",
+      "琴儿",
+      "薛小妹"
+    ],
+    "category": "薛家小姐（薛宝钗堂妹）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "薛宝钗堂妹，薛蝌胞妹——薛家另一支（薛蟠之堂叔家），家道中落后随兄进京。",
+      "position": "薛家小姐→贾母义女→许配梅翰林之子。",
+      "origin": "薛氏皇商家族的旁支小姐。",
+      "generation": "与宝钗、黛玉同辈"
+    },
+    "tags": [
+      "白雪红梅",
+      "琉璃世界",
+      "凫靥裘",
+      "怀古绝句十首",
+      "真真国故事",
+      "梅翰林之子",
+      "副册人物",
+      "贾母问八字",
+      "才貌双全",
+      "千红一哭之外"
+    ],
+    "summary": {
+      "short": "薛宝钗堂妹、薛蝌胞妹。第四十九回随兄进贾府，才貌双全（琉璃世界白雪红梅、凫靥裘），贾母「恨不能即刻给宝玉娶了才好」后认作义女；作怀古绝句十首、讲真真国故事（全球化视野）；已许配梅翰林之子，不入正册而结局较好——「千红一哭」中的一个例外。",
+      "long": "薛宝琴是薛宝钗的堂妹、薛蝌的胞妹，为赴梅翰林家聘嫁而随兄进京，第四十九回入贾府。她的登场是全书最惊艳的亮相之一：「琉璃世界白雪红梅」中，她披凫靥裘立于雪中，红梅白雪映衬，被众人叹为「比画儿上还好看」——贾母一见倾心，「恨不能即刻给宝玉娶了才好」（后认作义女，命其同睡暖阁）。她才思敏捷：作《怀古绝句》十首（蒲东寺、梅花观等十处古迹之诗），又讲海外「真真国」的女孩子会作中国诗的故事——以全球化视野点缀大观园的封闭世界。她已许配梅翰林之子，婚姻早定，故不入正册（属副册），判词不涉其悲剧——红学家多认为她是「千红一哭」中的一个例外：才貌最高而结局最好，是曹雪芹为红楼女儿群像保留的一个「不哭」的样本。争议焦点：贾母问宝琴八字是为宝玉说亲，还是以「已许梅家」表态拒绝金玉良缘——众说纷纭。名字考据：琴=宝琴，与宝钗之「钗」同属薛家「宝」字辈，琴为乐器中最高雅者。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "才貌双全——大观园的「天花板」",
+        "fact_type": "canonical_text_fact",
+        "description": "曹雪芹写宝琴之貌（雪中凫靥裘、红梅映衬）、宝琴之才（怀古十首、真真国故事）、宝琴之见（随父走过名山大川，「天下十停走了五六停」）——她是大观园众女儿中「阅历+才貌」的综合天花板。她的存在让宝钗黛玉的竞争显得「内卷」。"
+      },
+      {
+        "dimension": "见多识广——「全球化视野」的局外人",
+        "fact_type": "canonical_text_fact",
+        "description": "宝琴曾随父遍游天下（四山五岳），见过外国美人（真真国女孩子），会讲海外故事。她的视野是大观园众人（乃至贾府众人）无法企及的：别人读万卷书，她行万里路。曹雪芹借她给封闭的大观园开了一扇世界的窗。"
+      },
+      {
+        "dimension": "婚姻早定的「安全者」",
+        "fact_type": "canonical_text_fact",
+        "description": "宝琴已许梅翰林之子——她是众女儿中婚姻最早确定的一个。这份「已定」使她免于婚恋争夺的漩涡（不参与宝黛钗三角），也使她的命运有了「例外」的可能：不入正册、结局较好。她的存在反衬其余女儿命运的悬空。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xue_baoqin_enter_ch49",
+        "title": "琉璃世界白雪红梅——进贾府（第四十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xue_baoqin_jiamu_ch50",
+        "title": "贾母爱之，认作义女（第五十回前后）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xue_baoqin_huai_gu_ch51",
+        "title": "怀古绝句十首（第五十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xue_baoqin_zhenzhen_ch52",
+        "title": "真真国故事（第五十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xue_baoqin_mei_family",
+        "title": "许配梅翰林之子（结局暗写）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch50_baoqin_snow",
+        "quote": "（宝琴）披着凫靥裘站在雪坡上，身后一个丫鬟抱着一瓶红梅……贾母喜的忙笑道：「你们瞧，这山坡上配上他的这个人品，又是这件衣裳，后头又是这梅花，像个什么？」众人都笑道：「就像老太太屋里挂的仇十洲画的《双艳图》。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十回。雪中宝琴——全书最著名的美人定格镜头，胜过画中《双艳图》。"
+      },
+      {
+        "source_id": "source_ch50_baoqin_jiamu",
+        "quote": "贾母道：「……可惜这孩子没福，前年他父亲就没了……也别说你的话了，从今日起，咱们家就要请媒给他说亲……先时，我还说要给他作媒呢……如今我索性认他作个干女儿吧。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十回。贾母认宝琴为义女。"
+      },
+      {
+        "source_id": "source_ch51_baoqin_huai_gu",
+        "quote": "宝琴道：「我从小儿所走的地方的古迹不少……拣了十个地方的古迹，作了十首怀古的诗。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十一回。怀古绝句十首的来历——她走的路决定她作的诗。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "薛家「宝」字辈，「琴」为乐器之名",
+      "detail": "宝琴之名与宝钗相对：钗是头饰，琴是乐器——宝钗之「钗」务实（饰物），宝琴之「琴」高雅（艺术）。红学家指出「琴」亦有「琴瑟和鸣」之婚配寓意——宝琴婚姻早定、结局较好，与其名相合。又有论者以为「宝琴」谐「抱琴」——元春丫鬟名抱琴，宝琴或是元春（大观园创造者）的某种镜像。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 62,
+          "evidence": "与宝玉同日生日（生辰相近，第62回探春所言）",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "未见明文（红学推算约15岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文年龄；第62回与宝玉同日生日（text_inference约十四五岁）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "薛小妹",
+      "type": "排行称谓",
+      "context": "众姊妹称其「薛小妹」——薛家四姐妹（宝钗、宝琴及李纹李绮等结社成员）中排行靠后",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "琴儿",
+      "type": "昵称",
+      "context": "贾母等长辈对她的昵称",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xue_baoqin_enter_ch49",
+      "title": "琉璃世界白雪红梅——薛宝琴进贾府",
+      "event_level": "major",
+      "chapter": {
+        "number": 49,
+        "title": "琉璃世界白雪红梅 脂粉香娃割腥啖膻",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "宝琴随兄薛蝌进京（聘嫁梅家），与李纨寡嫂李婶娘之女李纹李绮、邢岫烟同时进贾府——大观园迎来「一干新人」。雪中宝琴披凫靥裘、丫鬟抱红梅，美不胜收。"
+      },
+      "summary": {
+        "short": "宝琴的登场是《红楼梦》最著名的美人亮相：凫靥裘、红梅、雪坡——曹雪芹调动全部意象为她的「惊艳」造势。第四十九回也是大观园最热闹的「扩员」时刻：宝琴、岫烟、李纹、李绮同来，诗社一时人才济济。",
+        "meaning": [
+          "「白雪红梅」的意象：雪（纯净）与梅（孤高）——宝琴的形象定位",
+          "凫靥裘是贾母所赐——老太太对她的宠爱从第一面就开始",
+          "宝琴的到来为大观园注入了「外部视野」——她见过整个世界"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「双艳图」之上的活人",
+          "content": "众人说雪中宝琴「像仇十洲画的《双艳图》」，贾母说「那画里哪有这件衣裳？人也不能这样好」。曹雪芹借画与人的比较，写宝琴之美超越艺术——她是大观园审美的顶点，连画都装不下她。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baoqin",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xing_xiuyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_ke",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_li_qi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_baoqin_jiamu_ch50",
+      "title": "贾母之宠——「恨不能即刻给宝玉娶了才好」与认义女",
+      "event_level": "major",
+      "chapter": {
+        "number": 50,
+        "title": "芦雪庵争联即景诗 暖香坞雅制春灯谜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾母上房/暖香坞",
+        "specific": "贾母向薛姨妈细问宝琴的年庚八字并家内景况。薛姨妈料定贾母「有求配之意」，遂答「这孩子已许了梅翰林的儿子」。贾母遂认宝琴为干女儿，命其在暖阁与自己同睡。"
+      },
+      "summary": {
+        "short": "贾母问宝琴八字——这个著名的「问八字」事件成为红学公案：她是真想为宝玉说亲，还是借宝琴之「已许梅家」婉拒金玉良缘？无论答案如何，贾母最终以「认义女」收场：宠爱至极，而不越婚姻之线。",
+        "meaning": [
+          "「问八字」是贾母对宝琴喜爱的最高表达——也是全书婚姻博弈的敏感点",
+          "「已许梅家」的答复终止了一切可能性——宝琴是「安全的欣赏对象」",
+          "认义女：贾母把宠爱合法化——不能娶进门，就收进「自己人」的范围"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「问八字」公案",
+          "content": "关于贾母问宝琴八字，红学界有两大解读：一说贾母确有意为宝玉求配（宝琴才貌冠绝，符合贾母选媳标准）；一说贾母明知宝琴已许梅家（或先打听后设问），以「问八字」向薛家表态：宁娶宝琴这样的（薛家支脉）也不娶宝钗（正脉）——婉拒金玉良缘。后说影响更大，但无定论。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baoqin",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_baoqin_huai_gu_ch51",
+      "title": "怀古绝句十首——行万里路的诗",
+      "event_level": "major",
+      "chapter": {
+        "number": 51,
+        "title": "薛小妹新编怀古诗 胡庸医乱用虎狼药",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "暖香坞",
+        "specific": "宝琴「拣了十个地方的古迹，作了十首怀古的诗」——赤壁怀古、交趾怀古、钟山怀古、淮阴怀古、广陵怀古、桃叶渡怀古、青冢怀古、马嵬怀古、蒲东寺怀古、梅花观怀古。众人都称奇道妙。"
+      },
+      "summary": {
+        "short": "宝琴的十首怀古诗全部来自她亲历的足迹——「从小儿所走的地方」。别人的诗来自书本，她的诗来自行走。十首诗后两首咏《西厢》《牡丹》故事，又引出「宝钗反对读杂书」的一段公案。",
+        "meaning": [
+          "十首怀古诗是「阅历诗学」的样本：古迹+史论+咏怀一体",
+          "咏蒲东寺、梅花观（《西厢记》《牡丹亭》典故）——宝琴公然为「禁书」题材作诗",
+          "宝钗的反对（「前八首都是史鉴上有据的，后二首却无考」）——姊妹二人阅读观的对照"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "怀古诗的预兆功能",
+          "content": "红学家研究十首怀古诗，多认为其暗含十二钗命运的伏笔（如「马嵬怀古」暗指元春、「青冢怀古」暗指探春远嫁等）。宝琴作诗，诗谶却不止为她一人——她成了曹雪芹的「预言代言人」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baoqin",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_baoqin_zhenzhen_ch52",
+      "title": "真真国故事——大观园的全球化时刻",
+      "event_level": "minor",
+      "chapter": {
+        "number": 52,
+        "title": "俏平儿情掩虾须镯 勇晴雯病补雀金裘",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "潇湘馆/怡红院",
+        "specific": "宝琴向众人讲述海外「真真国」的女孩子——金发披肩、身着洋装，却会作中国诗（「昨夜朱楼梦，今宵水国吟」）。宝琴还藏有那西洋美人的诗稿。"
+      },
+      "summary": {
+        "short": "宝琴讲的真真国故事是大观园罕见的「世界性」时刻：一个金发碧眼的西洋女子写中国诗——曹雪芹借宝琴之口，把大观园的封闭世界打开了一道缝。宝琴是唯一「见过世界」的女儿。",
+        "meaning": [
+          "「真真国」的异域想象：曹雪芹时代中西交流的文学投影",
+          "西洋美人作中国诗——「诗」作为人类共同语言的隐喻",
+          "宝琴的全球化视野与其余女儿「不出二门」的封闭形成对照"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「昨夜朱楼梦」的玄机",
+          "content": "真真国女孩子的诗「昨夜朱楼梦，今宵水国吟」被红学家反复解读：「朱楼梦」暗扣「红楼梦」——西洋美人之诗或是《红楼梦》主题的海外回响。宝琴讲述这个故事，等于在书中埋下一面「世界的镜子」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baoqin",
+          "role": "主角"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_baoqin_mei_family",
+      "title": "许配梅翰林之子——「不哭」的结局",
+      "event_level": "minor",
+      "chapter": {
+        "number": 50,
+        "title": "芦雪庵争联即景诗 暖香坞雅制春灯谜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "薛姨妈向贾母说明：宝琴已许梅翰林之子，此次进京即为聘嫁。宝琴不入正册（副册），判词不涉其悲剧——她的命运因「已许」而提前落定。"
+      },
+      "summary": {
+        "short": "宝琴的婚姻在她出场前就已定下——梅翰林之子。「已许」让她避开了大观园的婚恋风暴，也让她的结局成为「千红一哭」中的例外：才貌最高的女儿，命运最好。",
+        "meaning": [
+          "「已许」是宝琴的护身符——婚姻悬空的女儿（钗黛湘等）都在赌，她不赌",
+          "不入正册的深意：正册十二钗都是「悲剧主角」，宝琴是「例外样本」",
+          "曹雪芹保留一个「不哭」的女儿，反衬「哭」的普遍性"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「例外」的意义",
+          "content": "红学家指出，宝琴形象的功能之一是为悲剧群像提供对照：她与众人同住大观园、同结诗社、同历盛衰，却因婚姻早定而「全身而退」。曹雪芹以她的「幸运」反证「千红一哭」并非宿命，而是制度性的——不是所有女儿都命该哭，是贾府的婚姻制度让她们哭。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_baoqin",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xue_baoqin_jia_mu",
+      "from": "character_xue_baoqin",
+      "to": "character_jia_mu",
+      "type": "义母女（宠爱与保护）",
+      "nature": [
+        "family",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母对宝琴的宠爱冠绝全书：赐凫靥裘、留宿暖阁、认作义女。「恨不能即刻给宝玉娶了才好」是她对宝琴的最高评价。宝琴的「受宠」无意间构成对钗黛关系的搅动——贾母的爱，永远是大观园的晴雨表。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "初见即宠",
+          "chapter": 49,
+          "description": "贾母见宝琴即爱，命其随自己居住。"
+        },
+        {
+          "stage": 2,
+          "title": "问八字",
+          "chapter": 50,
+          "description": "贾母问宝琴八字，得知已许梅家。"
+        },
+        {
+          "stage": 3,
+          "title": "认义女",
+          "chapter": 50,
+          "description": "贾母认宝琴为干女儿。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_baoqin_xue_baochai",
+      "from": "character_xue_baoqin",
+      "to": "character_xue_baochai",
+      "type": "堂姊妹（对照与相得）",
+      "nature": [
+        "siblings",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝琴是宝钗的堂妹。二人同为薛家女儿，却构成鲜明对照：宝钗「藏拙守分」，宝琴「放怀游历」；宝钗婚姻悬空（金玉之议），宝琴婚姻已定。宝钗对宝琴有「你倒像要强的人」的姨母式关怀，宝琴则对宝钗的保守（反对咏西厢）不以为然。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "相聚",
+          "chapter": 49,
+          "description": "宝琴进府，宝钗引见诸姊妹。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_baoqin_lin_daiyu",
+      "from": "character_xue_baoqin",
+      "to": "character_lin_daiyu",
+      "type": "诗友（惺惺相惜）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "黛玉与宝琴相处极洽——宝琴进门时黛玉正对宝钗释怀，对宝琴毫无芥蒂，二人诗词往还、共同出游（第五十二回同往潇湘馆叙谈）。宝琴的到来意外地为黛玉带来一个真正的同好。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "相交",
+          "chapter": 49,
+          "description": "宝琴入诗社，与黛玉诗作相酬。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_baoqin_jia_baoyu",
+      "from": "character_xue_baoqin",
+      "to": "character_jia_baoyu",
+      "type": "干兄妹（被传婚姻的当事人）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母「问八字」风波把宝琴与宝玉短暂地推上「可能婚配」的位置——但宝琴已许梅家，风波止于义兄妹。宝玉视宝琴为「绝色」之妹，宝琴则通过宝玉认识了大观园的「女儿世界」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "干兄妹",
+          "chapter": 50,
+          "description": "贾母认宝琴为义女，二人成干兄妹。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_baoqin_huai_gu_chibi",
+      "title": "赤壁怀古",
+      "content": "赤壁沉埋水不流，徒留名姓载空舟。喧阗一炬悲风冷，无限英魂在内游。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之一（第五十一回）。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_jiaozhi",
+      "title": "交趾怀古",
+      "content": "铜铸金镛振纪纲，声传海外播戎羌。马援自是功劳大，铁笛无烦说子房。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之二（第五十一回）。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_zhongshan",
+      "title": "钟山怀古",
+      "content": "名利何曾伴汝身，无端被诏出凡尘。牵连大抵难休绝，莫怨他人嘲笑频。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之三（第五十一回）。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_huaiyin",
+      "title": "淮阴怀古",
+      "content": "壮士须防恶犬欺，三齐位定盖棺时。寄言世俗休轻鄙，一饭之恩死也知。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之四（第五十一回）。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_guangling",
+      "title": "广陵怀古",
+      "content": "蝉噪鸦栖转眼过，隋堤风景近如何。只缘占得风流号，惹得纷纷口舌多。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之五（第五十一回）。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_taoyedu",
+      "title": "桃叶渡怀古",
+      "content": "衰草闲花映浅池，桃枝桃叶总分离。六朝梁栋多如许，小照空悬壁上题。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之六（第五十一回）。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_qingzhong",
+      "title": "青冢怀古",
+      "content": "黑水茫茫咽不流，冰弦拨尽曲中愁。汉家制度诚堪叹，樗栎应惭万古羞。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之七（第五十一回）。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_mawei",
+      "title": "马嵬怀古",
+      "content": "寂寞脂痕渍汗光，温柔一旦付东洋。只因遗得风流迹，此日衣衾尚有香。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之八（第五十一回）。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_pudongsi",
+      "title": "蒲东寺怀古",
+      "content": "小红骨贱最身轻，私掖偷携强撮成。虽被夫人时吊起，已经勾引彼同行。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之九（第五十一回），咏《西厢记》故事——宝钗以此首「无考」反对。"
+    },
+    {
+      "id": "poem_baoqin_huai_gu_meihuaguan",
+      "title": "梅花观怀古",
+      "content": "不在梅边在柳边，个中谁拾画婵娟。团圆莫忆春香到，一别西风又一年。",
+      "fact_type": "canonical_text_fact",
+      "note": "怀古绝句十首之十（第五十一回），咏《牡丹亭》故事。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_xue_baoqin_bazi",
+      "title": "贾母问宝琴八字：为宝玉求配还是婉拒金玉良缘？",
+      "slug": "why-did-jiamu-ask-baoqin-bazi",
+      "question_type": "character_motivation",
+      "importance_weight": 80,
+      "heat_weight": 78,
+      "neutral_overview": "第五十回贾母向薛姨妈问宝琴年庚八字——这是全书婚姻博弈的关键细节。贾母此举的真实意图是什么？",
+      "viewpoint_ids": [
+        "vp_xue_baoqin_bazi_match",
+        "vp_xue_baoqin_bazi_reject"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_baoqin_bazi_match",
+          "title": "求配论：宝琴确实是理想人选",
+          "summary": "贾母选媳标准看中「模样儿性格儿」——宝琴才貌冠绝且性格开朗，胜过宝钗的「藏拙」与黛玉的「小性儿」。贾母未必深知宝琴已许梅家，问八字是真心试探。得知已许后认义女，是顺势收场。此说把贾母的行为理解为单纯的爱才之心。",
+          "evidence": [
+            "贾母素来「只看模样儿性格儿」的选人标准",
+            "对宝琴的宠爱程度（赐裘、留宿）远超礼节需要"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xue_baoqin_bazi_reject",
+          "title": "婉拒论：借宝琴表态拒绝金玉良缘",
+          "summary": "贾母久居贾府，对薛家动向（金玉之说）心知肚明。她问宝琴八字是「明知故问」：以对宝琴（薛家旁支）的公开求配姿态，向薛姨妈传达「我宁可娶薛家旁支之女，也不娶你们家宝钗」的婉拒信号。宝琴「已许梅家」的答复正中下怀——她得以在不撕破脸的情况下关闭金玉之门。此说在红学界影响更大。",
+          "evidence": [
+            "贾母与薛家长期博弈的背景",
+            "问八字后立即认义女（而非失望追问）的从容"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xue_baoqin_register",
+      "title": "薛宝琴为什么不入正册？",
+      "slug": "why-baoqin-not-in-main-register",
+      "question_type": "character_analysis",
+      "importance_weight": 68,
+      "heat_weight": 64,
+      "neutral_overview": "宝琴才貌双全、戏份不轻，却不在正册十二钗之列（与李纹、李绮、岫烟等同属「副册或又副册」的争议范围）。曹雪芹为何把她排除在正册之外？",
+      "viewpoint_ids": [
+        "vp_xue_baoqin_register_fate"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_baoqin_register_fate",
+          "title": "命运论：正册只收「哭」的女儿",
+          "summary": "正册十二钗的共性是「薄命」——她们都在贾府败亡中遭遇悲剧。宝琴婚姻早定、结局较好（梅家聘嫁），不是「薄命司」的「正册命」。曹雪芹以「入册」与否标示悲剧等级：宝琴不入正册，恰是她的「幸运证明」。她的存在反证了正册的本质——正册不是「最美者名录」，而是「最悲者名录」。",
+          "evidence": [
+            "宝琴已许梅翰林之子的既定婚约",
+            "正册十二钗均无善终（判词可证）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch49_chapter_title",
+      "quote": "第四十九回回目：琉璃世界白雪红梅 脂粉香娃割腥啖膻",
+      "fact_type": "canonical_text_fact",
+      "note": "「琉璃世界白雪红梅」——宝琴登场的美学背景。"
+    },
+    {
+      "source_id": "source_ch51_chapter_title",
+      "quote": "第五十一回回目：薛小妹新编怀古诗 胡庸医乱用虎狼药",
+      "fact_type": "canonical_text_fact",
+      "note": "「薛小妹新编怀古诗」——宝琴以怀古诗立传。"
+    },
+    {
+      "source_id": "source_ch52_zhenzhen_poem",
+      "quote": "宝琴道：「……那西洋的女孩子……念道：『昨夜朱楼梦，今宵水国吟。岛云蒸大海，岚气接丛林。月本无今古，情缘自浅深。汉南春历历，焉得不关心。』」",
+      "fact_type": "canonical_text_fact",
+      "note": "第五十二回。真真国女孩子的诗——「朱楼梦」暗扣「红楼梦」。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xue_baoqin_ideal",
+      "title": "薛宝琴——曹雪芹理想的「完人女儿」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1991,
+      "source_title": "红学人物专题研究",
+      "description": "红学界多视宝琴为曹雪芹理想的「完人女儿」：她有黛玉之才而无其孤、有宝钗之稳而无其冷、有湘云之爽而无其苦、有探春之识而无其争，且行万里路、通古今事——是作者按理想规格打造的「女儿极限」。学者指出，曹雪芹让她不入正册、不受悲剧，正因她是「理想」——理想不参与现实的惨烈，只负责标注现实与理想的距离。"
+    },
+    {
+      "id": "viewpoint_xue_baoqin_huai_gu",
+      "title": "怀古绝句十首的诗谶功能",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学诗词研究",
+      "year": 1985,
+      "source_title": "《红楼梦》诗词曲赋研究",
+      "description": "学者对宝琴十首怀古诗的「谜底」研究持续百年：有论者认为十诗各隐一物（谜面），有论者认为各隐一人（十二钗命运）。蔡元培《石头记索隐》曾逐首附会清初史事；主流红学倾向于「诗谶说」——十首怀古诗以历史兴亡影射贾府命运与女儿薄命（如马嵬怀古影射元春、青冢怀古影射探春等），是曹雪芹「以诗为谶」手法的集中展示。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 5,
+    "total_relationships": 5,
+    "total_poems": 10,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.94,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 30,
+      "text_inference": 8,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

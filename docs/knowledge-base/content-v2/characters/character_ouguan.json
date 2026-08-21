@@ -1,0 +1,577 @@
+{
+  "character": {
+    "id": "character_ouguan",
+    "name": "藕官",
+    "slug": "ou-guan",
+    "aliases": [],
+    "category": "贾府戏班十二官之一（小生）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "为元妃省亲从姑苏采买来的女戏子，父母姓氏不详；戏班遣散后分与黛玉房内使唤。",
+      "position": "贾府梨香院戏班小生；遣散后为黛玉房中人；第七十七回出家地藏庵。",
+      "origin": "姑苏买来的女戏子，十二官之一。",
+      "generation": "与芳官、蕊官、菂官等十二官同侪"
+    },
+    "tags": [
+      "十二官",
+      "小生",
+      "杏子阴假凤泣虚凰",
+      "菂官",
+      "续弦论",
+      "假凤虚凰",
+      "同性之恋",
+      "围殴赵姨娘",
+      "地藏庵",
+      "美优伶斩情归水月"
+    ],
+    "summary": {
+      "short": "十二官中的小生，与菂官、蕊官先后同性相恋。第五十八回「杏子阴假凤泣虚凰」烧纸祭菂官被婆子告发，宝玉庇护；她论「续弦」的一番大道理令宝玉「称奇道绝」——被学界视为宝玉日后娶宝钗的伏笔。第六十回助芳官围殴赵姨娘；第七十七回被逐，不肯被干娘转卖，与蕊官同入地藏庵出家。",
+      "long": "藕官是贾府为元妃省亲买来的十二个女戏子之一，行当小生。戏班遣散前，她的故事已经写成全书最独特的一笔：第五十八回「杏子阴假凤泣虚凰」——藕官在园中杏子阴下烧纸，被夏婆子撞见告发，宝玉赶来庇护，谎称纸钱是自己梦见杏花神叫她烧的，「他并没烧纸钱，原是林妹妹叫他来烧那烂字纸的」。原来藕官祭的是死去的菂官：戏班里她扮小生、菂官扮小旦，「常做夫妻」，「每日那些曲文排场，皆是真正温存体贴之事」，二人假戏真做，你恩我爱；菂官一死，她「哭的死去活来，至今不忘」，每节烧纸。宝玉问她不重寻一个，她说出全书著名的「续弦论」：「比如男子丧了妻，或有必当续弦者，也必要续弦为是。便只是不把死的丢过不提，便是情深意重了。若一味因死的不续，孤守一世，妨了大节，也不是理，死者反不安了。」宝玉听罢「独合了他的呆性，不觉又是喜欢，又是悲叹，又称奇道绝」。第五十八回戏班遣散，藕官分与黛玉（蕊官分与宝钗、芳官分与宝玉——这一分派正对应宝黛钗三人，学界多视为影身之笔）。第六十回赵姨娘上门打芳官，藕官与蕊官、葵官、豆官赶来，把赵姨娘团团围住厮打，闹成「戏子大战姨娘」。第七十七回大观园清洗，王夫人骂她们「唱戏的女孩子，自然是狐狸精了」，逐出园去；干娘们要转卖她们，藕官等誓死不从，情愿出家——藕官与蕊官随地藏庵圆心做了姑子。她是全书「假凤虚凰」主题的核心人物：戏台上演夫妻是假的，台下的情却是真的；她的「续弦论」更是曹雪芹「情」哲学最通达的一角——不忘死者，不误生者。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "痴——「假凤虚凰」的祭奠",
+        "fact_type": "canonical_text_fact",
+        "description": "藕官的痴是全书写得最干净的同性之恋：菂官死后她「哭的死去活来，至今不忘」，每节烧纸祭奠。两个女戏子在戏台上扮夫妻，在戏台下结真情——曹雪芹用这层「假戏真做」质问全书所有「真婚假情」的夫妻。"
+      },
+      {
+        "dimension": "理——「续弦论」的通达",
+        "fact_type": "canonical_text_fact",
+        "description": "藕官对「续弦」的议论是全书最温和又最深刻的爱情哲学：不把死的丢过不提，便是情深意重；孤守一世反让死者不安。一个戏子说出的话，令全书最痴的宝玉「称奇道绝」——她的「理」是「痴」的另一面。"
+      },
+      {
+        "dimension": "烈——围殴赵姨娘的义气",
+        "fact_type": "canonical_text_fact",
+        "description": "第六十回芳官挨打，藕官与蕊官、葵官、豆官「飞也似的赶来」助阵，把赵姨娘团团围住。她的烈与她的痴同源：对戏班姊妹的情分，是要用拳头护的。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_ouguan_weep_ch58",
+        "title": "杏子阴烧纸祭菂官，被婆子告发、宝玉庇护（第五十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_ouguan_theory_ch58",
+        "title": "论「续弦」大道理，宝玉称奇道绝（第五十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_ouguan_fight_ch60",
+        "title": "助芳官围殴赵姨娘（第六十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_ouguan_nun_ch77",
+        "title": "被逐、拒卖、出家地藏庵（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch58_ouguan_burn",
+        "quote": "只见藕官满面泪痕，蹲在那里，手里还拿着火，守着些纸钱灰作悲。……（夏婆子告发，宝玉道）「他并没烧纸钱，原是林妹妹叫他来烧那烂字纸的。你没看真，反错告了他。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十八回「杏子阴假凤泣虚凰」。烧纸祭菂官与宝玉的庇护谎言——全书写同性之恋最隐晦也最庄重的一笔。"
+      },
+      {
+        "source_id": "source_ch58_ouguan_theory",
+        "quote": "（藕官道）「比如男子丧了妻，或有必当续弦者，也必要续弦为是。便只是不把死的丢过不提，便是情深意重了。若一味因死的不续，孤守一世，妨了大节，也不是理，死者反不安了。」……（宝玉）听了这篇呆话，独合了他的呆性，不觉又是喜欢，又是悲叹，又称奇道绝。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十八回。藕官的「续弦论」——被学界反复征引为宝玉日后娶宝钗（黛玉死后续弦）的心理伏笔。"
+      },
+      {
+        "source_id": "source_ch77_ouguan_nun",
+        "quote": "（王夫人道）「唱戏的女孩子，自然是狐狸精了！……快给我逐出园去。」……（藕官等）「……如今情愿去当姑子去。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回「美优伶斩情归水月」。被逐的藕官以出家回答干娘的转卖——戏子的最后一场自主。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「藕」——荷根，与「菂」（莲子）相对成双",
+      "detail": "十二官以「某官」为艺名（梨园通例），而藕官、菂官之名在十二官中独成一格：菂是莲子，藕是荷根——同出荷花一株，根与实相对，正如小生与小旦在戏台上「常做夫妻」的配对。菂官死后补位的是蕊官（花心）——藕、菂、蕊三官之名即一段「花事」：根（藕）、实（菂）、心（蕊），暗示这段情的三个阶段。另有学人注意到：藕官分与黛玉（黛玉抽花签得芙蓉，藕即荷之根），名字与归宿暗合——「芙蓉女儿」的房里，住着荷根之名的戏子。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约12-14岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；十二官之一，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_ouguan_weep_ch58",
+      "title": "杏子阴假凤泣虚凰——烧纸祭菂官",
+      "event_level": "major",
+      "chapter": {
+        "number": 58,
+        "title": "杏子阴假凤泣虚凰 茜纱窗真情揆痴理",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（杏子阴）",
+        "specific": "藕官满面泪痕蹲在杏子阴下烧纸祭菂官，被管园婆子夏婆子撞见，正要告发，宝玉赶来救场，谎称是林黛玉叫她烧烂字纸。事后芳官向宝玉说明原委：藕官扮小生、菂官扮小旦，「常做夫妻」，戏台下的情是真的；菂官一死，藕官「哭的死去活来，至今不忘」。"
+      },
+      "summary": {
+        "short": "回目「杏子阴假凤泣虚凰」是全书写女戏子同性之恋的正题：假凤（小生）泣虚凰（小旦）——戏台上的一切都是「假」的，唯有一腔哭祭是真。宝玉的庇护与谎言，是他「女儿观」对这份情的默认与尊重。",
+        "meaning": [
+          "「假凤虚凰」——戏台的假夫妻与台下的真感情，全书「真假」主题的最柔一笔",
+          "宝玉的谎言（烂字纸、杏花神）——他替这份「犯忌」的情打掩护",
+          "烧纸被婆子告发——园中婆子与戏子丫鬟的监控关系"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "戏台内外的真假颠倒",
+          "content": "藕官与菂官「做夫妻」本是最假的事（戏），却成了全书最真的情；贾琏凤姐是真夫妻，却各怀鬼胎。曹雪芹以一对女戏子之恋完成「假作真时真亦假」的又一次点题：情的真假，从来不看名分，只看人心。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ouguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_diguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ouguan_theory_ch58",
+      "title": "续弦论——「不把死的丢过不提，便是情深意重」",
+      "event_level": "major",
+      "chapter": {
+        "number": 58,
+        "title": "杏子阴假凤泣虚凰 茜纱窗真情揆痴理",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（宝玉房中/杏子阴）",
+        "specific": "宝玉追问藕官为何既不忘菂官又与蕊官「一般的温柔体贴」，藕官以「续弦」作比：男子丧妻可以续弦，只要不把死的丢过不提便是情深意重；一味孤守反使死者不安。宝玉听罢「称奇道绝」，深以为然。"
+      },
+      "summary": {
+        "short": "藕官的一段「呆话」是全书的爱情哲学公案：她以续弦之喻自解（不忘菂官、善待蕊官），却让宝玉听出了自己的命运——黛玉死后，他如何自处？「不把死的丢过不提」八个字，是曹雪芹留给宝钗姻缘的最后一句辩护。",
+        "meaning": [
+          "「续弦论」——反「孤守」也反「得新弃旧」，是全书最通达的情理观",
+          "宝玉「称奇道绝」——藕官是继龄官之后第二个让他顿悟的戏子",
+          "蕊官补菂官之缺——情可以「续」，这正是宝钗续黛玉的戏台预演"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "宝玉的第二次情悟",
+          "content": "龄官让宝玉悟「情缘各有分定」，藕官让宝玉悟「情可以续」——两个戏子先后完成宝玉情爱观的两课。藕官之论之所以「合他的呆性」，是因为它同时安放了黛玉（不忘）与宝钗（续弦），为他日后的选择埋下伏线。"
+        },
+        {
+          "type": "theme",
+          "title": "情理的儒家式温柔",
+          "content": "藕官的情理观其实是曹雪芹「情」哲学最温和的一极：不是黛玉的痴绝，不是宝玉的痴狂，而是「守节有度、续情有义」。一个戏子以最朴素的伦理说出作者对「情」与「礼」的和解方案——尽管这个方案在书外依然难行。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ouguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ruiguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_diguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ouguan_fight_ch60",
+      "title": "助芳官围殴赵姨娘",
+      "event_level": "minor",
+      "chapter": {
+        "number": 60,
+        "title": "茉莉粉替去蔷薇硝 玫瑰露引来茯苓霜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "赵姨娘将茉莉粉摔在芳官脸上，二人厮打。藕官与蕊官、葵官、豆官闻讯赶来，「飞也似的」冲进怡红院，四人把赵姨娘团团围住厮打——「手撕头撞」，闹成全书著名的「戏子大战姨娘」。"
+      },
+      "summary": {
+        "short": "第六十回是戏班姊妹情义的总动员：芳官挨打，藕官蕊官等不顾主仆名分赶来助拳。这架打出了戏子的义气，也打出了奴婢世界的荒诞——姨娘的威风，原来压不住四个抱团的戏子。",
+        "meaning": [
+          "戏子的「飞也似的」赶来——梨香院的姊妹情比主仆等级更硬",
+          "赵姨娘被打得狼狈——全书少见的「以下犯上」喜剧",
+          "探春事后点破：闹剧背后是婆子们挑唆——底层的互害链条"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "义气对等级的冒犯",
+          "content": "藕官们的围殴在奴婢秩序里是「犯上」，但在曹雪芹笔下却写得酣畅——因为赵姨娘的「上」本就靠等级撑持，而戏子的「下」却因姊妹情而结盟。这场架的胜负说明：大观园里真正的势力不是名分，是人心。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ouguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ruiguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_dou_guan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ouguan_nun_ch77",
+      "title": "被逐、拒卖、出家地藏庵",
+      "event_level": "major",
+      "chapter": {
+        "number": 77,
+        "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（后随圆心出城入地藏庵）",
+        "specific": "王夫人清洗大观园，藕官与芳官、蕊官同被指为「狐狸精」逐出。干娘们要领她们出去「或配人、或转卖」，藕官等寻死觅活，誓死不从，情愿出家——芳官随水月庵智通，藕官、蕊官随地藏庵圆心做了姑子。"
+      },
+      "summary": {
+        "short": "第七十七回「美优伶斩情归水月」：被逐的藕官用出家拒绝了「转卖」——她为自己选择的最后身份，是青灯古佛。从扮小生的戏子到地藏庵的姑子，她的「斩情」斩的是尘缘，留下的仍是那套不肯认命的烈性。",
+        "meaning": [
+          "出家是拒卖——戏子在「配人」与「姑子」之间选择了后者，保住最后一点自主",
+          "藕官与蕊官同入地藏庵——台上的一对夫妻，台下的同门",
+          "水月庵与地藏庵收容被逐的优伶——佛门再次成为女儿无路可走时的去处（对照智能儿的「牢坑」）"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "十二官的散场",
+          "content": "十二官遣散时各有所归（藕官归黛玉、蕊官归宝钗、芳官归宝玉），第七十七回又各无所归。曹雪芹写十二官就是写一场大戏：台上的小生小旦演尽他人悲欢，散场之后，自己成了悲剧的戏中人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ouguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ruiguan",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_ouguan_diguan",
+      "from": "character_ouguan",
+      "to": "character_diguan",
+      "type": "恋人（同性之恋）",
+      "nature": [
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "藕官扮小生、菂官扮小旦，「常做夫妻」——戏台上的假夫妻结成了台下的真情，「寻常饮食起居，两个人竟是你恩我爱」。菂官早死，藕官「哭的死去活来，至今不忘」，每节烧纸祭奠。这段同性之恋是全书写得最干净、最不「脏」的一段情。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "假凤虚凰",
+          "chapter": 58,
+          "description": "戏台夫妻，台下你恩我爱。"
+        },
+        {
+          "stage": 2,
+          "title": "哭祭",
+          "chapter": 58,
+          "description": "菂官死，藕官每节烧纸，杏子阴祭奠被宝玉撞见。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ouguan_ruiguan",
+      "from": "character_ouguan",
+      "to": "character_ruiguan",
+      "type": "恋人（补缺续情）",
+      "nature": [
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "菂官死后，蕊官补了小旦之位，藕官对她也「一般的温柔体贴」。旁人问藕官是否得新弃旧，她答以「续弦论」——不忘菂官，善待蕊官。这段关系是「情可以续」的活例，与宝钗续黛玉的姻缘构成影身关系。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "补缺",
+          "chapter": 58,
+          "description": "蕊官补菂官之缺，藕官待她温柔体贴。"
+        },
+        {
+          "stage": 1,
+          "title": "补缺相恋",
+          "chapter": 58,
+          "description": "蕊官补小旦之位，与藕官你恩我爱。"
+        },
+        {
+          "stage": 2,
+          "title": "同出家",
+          "chapter": 77,
+          "description": "二人同入地藏庵为尼。"
+        },
+        {
+          "stage": 2,
+          "title": "同入地藏庵",
+          "chapter": 77,
+          "description": "二人同被逐，同出家为尼。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ouguan_jia_baoyu",
+      "from": "character_ouguan",
+      "to": "character_jia_baoyu",
+      "type": "庇护者与启蒙者",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉为烧纸的藕官撒谎庇护，藕官以「续弦论」回报他一次顿悟。二人互相成全：宝玉护她的情，她解宝玉的惑——「独合了他的呆性」一句，点明藕官是宝玉情路上与龄官并置的路标。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "庇护",
+          "chapter": 58,
+          "description": "宝玉谎称烂字纸，替藕官挡下告发。"
+        },
+        {
+          "stage": 2,
+          "title": "称奇道绝",
+          "chapter": 58,
+          "description": "宝玉听藕官续弦论，又是喜欢又是悲叹。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ouguan_lin_daiyu",
+      "from": "character_ouguan",
+      "to": "character_lin_daiyu",
+      "type": "主仆（分派与影身）",
+      "nature": [
+        "master_servant",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "戏班遣散，藕官分与黛玉房内使唤——学界常将此分派与「藕=荷根、黛玉=芙蓉」的字面呼应并观：荷根之名的戏子归了芙蓉之签的小姐，是曹雪芹名字系统的精密暗扣。藕官的「不忘死者」也与黛玉的「还泪」之痴构成对照：一放一执，皆因情真。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "分派",
+          "chapter": 58,
+          "description": "藕官分与黛玉房内。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ouguan_zhao_yiniang",
+      "from": "character_ouguan",
+      "to": "character_zhao_yiniang",
+      "type": "冲突（围殴）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "第六十回赵姨娘打芳官，藕官与蕊官等赶来助拳，把赵姨娘团团围住厮打。藕官与赵姨娘素无恩怨，此战纯粹为姊妹义气——四个戏子联手打翻一个姨娘，是全书底层「义气压等级」的绝响。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "围殴",
+          "chapter": 60,
+          "description": "藕官等四人围住赵姨娘厮打。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_ouguan_foretell",
+      "title": "藕官的「续弦论」是宝玉日后娶宝钗的伏笔吗？",
+      "slug": "is-ouguans-remarriage-theory-a-foreshadowing",
+      "question_type": "theme_analysis",
+      "importance_weight": 75,
+      "heat_weight": 72,
+      "neutral_overview": "第五十八回藕官论续弦「不把死的丢过不提，便是情深意重」，宝玉「称奇道绝」——这番话被广泛读作宝黛钗结局（黛玉死、宝玉娶宝钗）的心理伏笔。它到底是不是伏笔？",
+      "viewpoint_ids": [
+        "vp_ouguan_foreshadow",
+        "vp_ouguan_philosophy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_ouguan_foreshadow",
+          "title": "伏笔论：藕官情史是宝黛钗姻缘的戏台预演",
+          "summary": "藕官—菂官—蕊官的三角与宝玉—黛玉—宝钗的三角完全同构：菂官死（黛玉亡），蕊官补缺（宝钗续弦）；藕官烧纸不忘菂官（宝玉悼黛玉），又与蕊官「一般的温柔体贴」（与宝钗成婚）。且分派严丝合缝：藕官归黛玉、蕊官归宝钗、芳官归宝玉。宝玉听罢「独合了他的呆性」，正因这席话说进了他自己的命运。此伏笔让后文「黛玉死后宝玉娶宝钗」在情理上有了台阶——不是负心，是「不把死的丢过不提」的续弦。",
+          "evidence": [
+            "藕官、菂官、蕊官与宝、黛、钗三角关系的结构对应",
+            "第五十八回分派：藕官与黛玉、蕊官与宝钗、芳官与宝玉",
+            "宝玉「称奇道绝」的强烈反应——说中了自己的心事"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_ouguan_philosophy",
+          "title": "情理论：这是曹雪芹的情爱哲学，不必坐实为伏笔",
+          "summary": "「续弦论」的首要功能是陈述一种情理观：情之真不在殉情，而在不忘；「孤守一世」反使死者不安。这与《好了歌》的「了即是好」、宝玉「情极而空」的结局同属一套哲学——曹雪芹借戏子之口说给所有执迷的人听。把它坐实为「宝玉必娶宝钗」的伏笔，会窄化这层哲理：藕官之论安放的是「生者如何活下去」的普遍命题，宝玉只是听众之一。",
+          "evidence": [
+            "藕官的陈述口吻是讲「大道理」，不是预言",
+            "与全书「空」「了」「散」主题的呼应关系",
+            "文本未明言此论与宝玉姻缘的关联，关联系读者推演"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_ouguan_false_phoenix",
+      "title": "「假凤泣虚凰」——曹雪芹为什么写一对女戏子的同性之恋？",
+      "slug": "why-does-cao-xueqin-write-female-lovers",
+      "question_type": "theme_analysis",
+      "importance_weight": 72,
+      "heat_weight": 70,
+      "neutral_overview": "回目「杏子阴假凤泣虚凰」正面写藕官菂官的同性之恋——两个女戏子的爱情写得庄重哀婉。在礼教时代的小说里，曹雪芹为什么这样写？",
+      "viewpoint_ids": [
+        "vp_ouguan_truth",
+        "vp_ouguan_shadow"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_ouguan_truth",
+          "title": "真情论：曹雪芹的「情」不分性别与身份",
+          "summary": "曹雪芹的「情」观超越性别与身份：戏子（最「假」的人）演假夫妻，却结真爱情——他以此质问全书所有「真婚假情」的夫妻（贾琏偷腥、贾赦纳妾、贾珍乱伦）。「假凤泣虚凰」是反讽标题：假戏真做，真婚假情。让最底层、最边缘的两个女儿拥有全书最干净的爱情，是曹雪芹对「情」的最彻底的平权书写。",
+          "evidence": [
+            "回目「假凤泣虚凰」的正面庄重笔调",
+            "与贾琏凤姐等「真夫妻假情分」的并置对照",
+            "藕官之泣写得「满面泪痕」——全书哀婉场景之一"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_ouguan_shadow",
+          "title": "影身论：藕官三人是宝黛钗的戏台投影",
+          "summary": "藕官/菂官/蕊官的功能不止于写同性之恋，而是以戏台预演主三角：菂官死=黛玉逝，蕊官补=宝钗续，藕官=宝玉。曹雪芹用一组女戏子的三角恋，把全书主线结局（黛玉亡、宝钗续）提前在「假」的层面演了一遍——所以第五十八回必须与宝玉的「称奇道绝」同回完成：影身认出了本体。",
+          "evidence": [
+            "三人情史与宝黛钗三角的结构同构",
+            "第五十八回分派与宝黛钗的精确对应",
+            "「续弦论」由藕官（宝玉之影）亲口说出"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch58_ouguan_assign",
+      "quote": "（戏班遣散，各官分派）……将藕官指与黛玉，将蕊官指与宝钗，将芳官指与宝玉。",
+      "fact_type": "canonical_text_fact",
+      "note": "第五十八回。藕官归黛玉、蕊官归宝钗、芳官归宝玉——与「木石/金玉」两线严丝合缝的分派，学界视为影身笔法。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_ouguan_same_sex",
+      "title": "藕官菂官之恋：《红楼梦》同性书写的位置",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1999,
+      "source_title": "多项人物与主题研究",
+      "description": "学者将藕官菂官之恋置于中国古典小说同性书写的谱系中考察：《红楼梦》写藕官菂官、宝玉与秦钟蒋玉菡、湘莲等，是古典小说对同性之情少有的不作丑化、不作猎奇的正面书写。藕官菂官一节尤见功力：两个女戏子的恋情以「假凤虚凰」为题，写得庄重、哀婉、干净——曹雪芹的「情」观在此彻底超越性别，只问真伪。其「续弦论」更被反复征引，用以证明作者对「节烈」「孤守」的礼教观念持温和的修正态度。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 20,
+      "text_inference": 7,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

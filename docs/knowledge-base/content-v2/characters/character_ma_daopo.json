@@ -1,0 +1,481 @@
+{
+  "character": {
+    "id": "character_ma_daopo",
+    "name": "马道婆",
+    "slug": "ma-dao-po",
+    "aliases": [],
+    "category": "女巫（宝玉寄名干娘）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "家世不详；行走于各豪门府第之间的尼姑兼巫婆。",
+      "position": "宝玉寄名干娘；专营灯油、符咒、巫蛊的「佛门中介」。",
+      "origin": "市井女巫，出入贾府等世家。",
+      "generation": "与贾母同辈的宗教职业者"
+    },
+    "tags": [
+      "魇魔法",
+      "纸人青面鬼",
+      "赵姨娘",
+      "五百两欠契",
+      "寄名干娘",
+      "巫蛊",
+      "五鬼闹",
+      "通灵玉显灵",
+      "佛道中人行巫蛊"
+    ],
+    "summary": {
+      "short": "宝玉的寄名干娘，出入豪门的女巫。第二十五回收赵姨娘五百两欠契，用魇魔法（纸人青面鬼）害凤姐宝玉，闹出「五鬼闹宅」——她的巫蛊反引出通灵玉显灵，一僧一道相救。她是全书「佛道中人行邪术」最辛辣的讽刺形象。",
+      "long": "马道婆是《红楼梦》宗教世界中最黑暗的角色：她既是宝玉的「寄名干娘」，又是行走各豪门之间兜售灯油、符咒、巫蛊的「全能邪术贩子」。第二十五回她来荣府请安，先向贾母推销「点大海灯」保平安，借南安太妃、锦田侯诰命等例子，把一天的灯油钱从四十八斤香油一路砍到五斤——贾母于是每日五斤油供宝玉。随后赵姨娘找她密谋害凤姐宝玉，许她「五百两的欠契」并白花花的银子。马道婆「向裤腰里掏了半晌，掏出十个纸铰的青面鬼，并两个纸人」，教赵姨娘把凤姐宝玉的「年庚八字」写在纸人上，鬼掖在二人床下——凤姐宝玉当即疯魔：一个「拿刀弄杖，寻死觅活」，一个「益发拿刀动枪，寻死觅活」。贾府上下乱作一团，正逢癞头和尚跛足道人持通灵玉来救，把玉诵持一番，方保住二人性命。事发后无人追究马道婆。后四十回（gaoe）第八十一回补写她的下场：因别案（用魇魔法害别家）事发被官府拿问。马道婆的讽刺性在于身份与行为的极端错位：尼姑拜佛，巫婆施蛊，她的两副面孔自由切换——贾母信她的灯油，赵姨娘买她的纸人，同一个人在同一天完成「保命」与「索命」两单生意。曹雪芹借她写出了宗教外衣下的全部龌龊：佛门不是净土，是生意场与杀人铺。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "贪——把信仰做成生意的巫婆",
+        "fact_type": "canonical_text_fact",
+        "description": "马道婆的每一次出场都在做生意：灯油论斤卖，巫蛊论张卖。她向贾母开价四十八斤、成交五斤的「砍价戏」，是全书写宗教商业化的经典桥段——佛前点灯，与市井买卖无异。"
+      },
+      {
+        "dimension": "邪——佛门身份下的巫蛊之手",
+        "fact_type": "canonical_text_fact",
+        "description": "一个尼姑，随身带着「十个纸铰的青面鬼、两个纸人」——曹雪芹用这个细节完成了对马道婆的定性：她的袈裟是道具，符咒是商品，杀人是业务。全书的宗教骗子不少（净虚、王一贴），但敢把巫蛊之术卖进国公府的，只有她。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_ma_daopo_oil_ch25",
+        "title": "向贾母兜售灯油——一天四十八斤砍到五斤（第二十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_ma_daopo_curse_ch25",
+        "title": "收赵姨娘五百两，魇魔法害凤姐宝玉（第二十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_ma_daopo_judged_ch81",
+        "title": "后四十回：事发被拿问（gaoe）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch25_ma_daopo_oil",
+        "quote": "马道婆道：「……象我们庙里，比不得南安太妃、锦田侯的诰命，一日四十八斤油……那海灯也只比缸略小些。……老祖宗若果要少，也只五斤一日，也足够宝玉用的了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十五回。灯油生意经——信仰在斤两之间论价。"
+      },
+      {
+        "source_id": "source_ch25_ma_daopo_curse",
+        "quote": "（马道婆）向裤腰里掏了半晌，掏出十个纸铰的青面鬼来，并两个纸人，递与赵姨娘……又悄悄的教他道：「把他两个的年庚八字写在这两个纸人身上，一并五个鬼都掖在他们各人的床上就完了。我只在家里作法，自有效验。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十五回「魇魔法姊弟逢五鬼」。纸人青面鬼——全书最黑暗的巫蛊细节。"
+      },
+      {
+        "source_id": "source_ch25_ma_daopo_mad",
+        "quote": "（凤姐宝玉发作）只见凤姐手持一把明晃晃钢刀砍进园来，见鸡杀鸡，见狗杀狗，见人就要杀人。……宝玉益发拿刀动枪，寻死觅活。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十五回。魇魔法的「疗效」——国公府瞬间变成屠场。"
+      },
+      {
+        "source_id": "source_ch25_ma_daopo_monk",
+        "quote": "（癞头和尚跛足道人持玉诵持）「青埂峰一别，转眼已过十三载矣！……待我们持颂持颂，只怕就好了。」……至晚间，他二人竟渐渐醒来，说腹中饥饿。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十五回。巫蛊之邪引出通灵玉之灵——马道婆的黑魔法，反成就了全书第一次「玉显灵」。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「马道婆」——道婆为女巫之号，「马」为其姓（或行业号）",
+      "detail": "「道婆」即旧时串门行巫的女巫（三姑六婆之一，「道婆」亦作「虔婆」之流），其名号本身就是职业符号：她披着佛道的袍子干巫蛊的买卖。一说「马」暗合「马头鬼」「马面」之属，巫蛊行业常以牲畜为号。曹雪芹不给这个角色任何雅饰——「马道婆」三字，市井味、巫气、邪气俱全。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；宝玉寄名干娘，老年（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_ma_daopo_oil_ch25",
+      "title": "灯油生意——一天四十八斤砍到五斤",
+      "event_level": "minor",
+      "chapter": {
+        "number": 25,
+        "title": "魇魔法姊弟逢五鬼 红楼梦通灵遇双真",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（贾母处）",
+        "specific": "马道婆来请安，见宝玉被灯油烫了脸，遂借题发挥：先举南安太妃、锦田侯诰命「一天四十八斤油」的排场，再步步退让到「五斤一日也足够」。贾母应下每日五斤油的供养。"
+      },
+      "summary": {
+        "short": "马道婆的「砍价式布道」：开价四十八斤，成交五斤——她深谙「报价的艺术」，更看透了贾母的「性价比信仰」：保平安也要论斤两。这场戏为下文的巫蛊生意做了完美的「商业人设」铺垫。",
+        "meaning": [
+          "灯油论斤——信仰被完全商品化的名场面",
+          "「也足够宝玉用的了」——佛的保佑与油的数量挂钩，讽刺入骨",
+          "贾母的虔诚与马道婆的算计——虔诚是最好的客户画像"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "「点灯保平安」的黑色幽默",
+          "content": "马道婆刚卖完「保平安」的灯油，转身就收了「害人命」的定金——同一天、同一个客户家里，她同时是「佛的代理」与「鬼的代理」。曹雪芹用这一单生意的正反面，把宗教商业化的虚伪写到了底。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ma_daopo",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ma_daopo_curse_ch25",
+      "title": "魇魔法——纸人青面鬼害凤姐宝玉",
+      "event_level": "major",
+      "chapter": {
+        "number": 25,
+        "title": "魇魔法姊弟逢五鬼 红楼梦通灵遇双真",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（赵姨娘处/凤姐宝玉床下）",
+        "specific": "赵姨娘许马道婆五百两欠契与现银，马道婆掏出纸人纸鬼，教赵姨娘将凤姐宝玉年庚八字写上、鬼掖床下。凤姐宝玉双双疯魔，刀剑乱砍、寻死觅活，贾府大乱。幸癞头和尚跛足道人来，持通灵玉诵持，二人方醒。"
+      },
+      "summary": {
+        "short": "第二十五回是全书的「黑魔法之夜」：一个尼姑+一个姨娘的五百两欠契，让荣国府的两个命根子同时疯魔。巫蛊得逞、全府无策，最后是「真」宗教（一僧一道）战胜了「假」宗教（马道婆）。",
+        "meaning": [
+          "赵姨娘买凶、马道婆施蛊——庶妾与巫婆的「地下室联盟」",
+          "纸人纸鬼——魇魔法的实体化，全书唯一一次「魔法杀人」",
+          "通灵玉显灵——马道婆的邪术反证了宝玉「来历不凡」，坏事变好事"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "巫蛊与信仰的两军对垒",
+          "content": "曹雪芹在这一回完成了宗教谱系的正面交锋：马道婆（邪）vs 一僧一道（正），纸人纸鬼 vs 通灵宝玉。胜负即主题——书中的「真」宗教不是庙里的菩萨，而是太虚幻境一系的度化者；庙庵里的，多是马道婆之流。"
+        },
+        {
+          "type": "character",
+          "title": "赵姨娘的钱与马道婆的艺",
+          "content": "这场交易同时写活两个人：赵姨娘的恨（五百两是她的全部身家），马道婆的贪（敢接国公府的杀人单）。两个被贾府边缘化的人，用最下作的方式试图撬动权力格局——结果把「豪门内斗」的黑暗面撕开给所有人看。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ma_daopo",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lame_daoist",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ma_daopo_judged_ch81",
+      "title": "后四十回：事发被拿问（gaoe）",
+      "event_level": "minor",
+      "chapter": {
+        "number": 81,
+        "title": "占旺相四美钓游鱼 奉严词两番入家塾",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府（事后追述）",
+        "specific": "后四十回（gaoe）补写马道婆下场：她因替别家做魇魔法事（潘三保案）事发，被拿进刑部。贾府众人闻之，「念了声佛」——善恶报应总算落在她头上。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）给马道婆补了一个「报应」结局：因别案事发被拿。前八十回她害凤姐宝玉后全身而退，续书让她在贾府之外栽了跟头——恶人终有恶报的闭合逻辑。",
+        "meaning": [
+          "被拿的是「别案」——贾府之案（赵姨娘之谋）至终未发，豪门内斗的黑账永远烂在府里",
+          "「念了声佛」——贾府众人对恶人伏法的庆贺，讽刺地借用了佛号",
+          "续书的报应观——给马道婆的收场是「因果分明」的通俗笔法"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "续书的「补报应」",
+          "content": "前八十回的笔法是「事发了、人未罚」——马道婆施蛊后无人追究，更合现实逻辑。后四十回（gaoe）执意补上「被拿」的结局，是续书「善恶有报」的通俗化倾向。有论者认为此笔虽俗，却符合读者对马道婆的心理期待；亦有论者认为破坏了曹雪芹「白茫茫大地真干净」的无差别审判。",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ma_daopo",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_ma_daopo_zhao_yiniang",
+      "from": "character_ma_daopo",
+      "to": "character_zhao_yiniang",
+      "type": "共谋（巫蛊交易）",
+      "nature": [
+        "patronage",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "马道婆与赵姨娘是全书最黑暗的一对「商业伙伴」：一个出钱（五百两欠契），一个出术（纸人青面鬼）。她们的联盟建立在「被轻视者的复仇」上——赵姨娘恨凤姐宝玉占尽风光，马道婆要的是银子；事成后赵姨娘欢喜「你们一老一小都死绝了才好」，马道婆拿钱走人。全书最脏的买卖，由两个「边缘人」完成。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "密谋",
+          "chapter": 25,
+          "description": "赵姨娘许银，马道婆接单。"
+        },
+        {
+          "stage": 1,
+          "title": "结谋",
+          "chapter": 25,
+          "description": "五百两欠契换魇魔法。"
+        },
+        {
+          "stage": 2,
+          "title": "施蛊",
+          "chapter": 25,
+          "description": "纸人纸鬼入床，凤姐宝玉疯魔。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ma_daopo_jia_mu",
+      "from": "character_ma_daopo",
+      "to": "character_jia_mu",
+      "type": "信徒与神棍",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母是马道婆的「大客户」：寄名干娘的名分、每日五斤油的供养，都是贾母对「佛门中人」的虔诚信任。马道婆却用这份信任当掩护，在同一个屋檐下接了赵姨娘的杀人单——虔诚的信徒与黑心的神棍，构成全书对「信与骗」最刺眼的反讽。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "寄名与供养",
+          "chapter": 25,
+          "description": "马道婆卖灯油成功，贾母供养五斤一日。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ma_daopo_jia_baoyu",
+      "from": "character_ma_daopo",
+      "to": "character_jia_baoyu",
+      "type": "干娘与被害者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "马道婆是宝玉的「寄名干娘」——这个佛门名分本为「保命」，她却成了「索命」的人：前脚为宝玉推销保平安的灯油，后脚就把写着他年庚八字的纸人交给赵姨娘。干娘害干儿，是全书最彻底的「名分背叛」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "保命生意",
+          "chapter": 25,
+          "description": "马道婆为宝玉卖灯油。"
+        },
+        {
+          "stage": 2,
+          "title": "索命巫蛊",
+          "chapter": 25,
+          "description": "宝玉的八字被写上纸人。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ma_daopo_wang_xifeng",
+      "from": "character_ma_daopo",
+      "to": "character_wang_xifeng",
+      "type": "施害者与受害者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐与马道婆素无恩怨，她的被害纯粹是赵姨娘仇恨的「附赠品」——但这次巫蛊之灾，也是凤姐一生「树敌无数」的第一笔代价。凤姐疯魔时「见鸡杀鸡，见人就要杀人」的凶相，恰是她平素威风的反噬镜像。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "遭蛊",
+          "chapter": 25,
+          "description": "凤姐被魇魔法所害，疯魔持刀。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_ma_daopo_buddhism",
+      "title": "「佛道中人行巫蛊」——曹雪芹在讽刺什么？",
+      "slug": "what-is-cao-xueqin-satirizing-through-ma-daopo",
+      "question_type": "theme_analysis",
+      "importance_weight": 72,
+      "heat_weight": 68,
+      "neutral_overview": "一个尼姑，卖灯油、施巫蛊、杀人——马道婆的形象显然不只是「一个坏人」那么简单。曹雪芹借她想讽刺的是什么？",
+      "viewpoint_ids": [
+        "vp_ma_daopo_religion",
+        "vp_ma_daopo_class"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_ma_daopo_religion",
+          "title": "宗教批判论：假宗教是全书的一贯靶子",
+          "summary": "马道婆与净虚、王一贴、清虚观张道士同属「假宗教」谱系：披袈裟做生意、借佛名敛财害人。曹雪芹的讽刺有二：一是宗教职业者的虚伪（同一张嘴卖灯油又卖蛊），二是信众的功利（贾母买灯油、赵姨娘买纸人——信的都不是佛，是「灵验」）。「佛道中人行巫蛊」的荒诞，正是「功利信仰」必然长出的毒瘤。",
+          "evidence": [
+            "同回之内卖灯油与卖巫蛊并置",
+            "全书净虚弄权、王一贴卖药等同类形象群"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_ma_daopo_class",
+          "title": "阶级透视论：豪门内斗滋养出的黑市",
+          "summary": "马道婆的「市场」是贾府给的：贾母的宠溺滋生了「寄名干娘」产业链，赵姨娘的仇恨滋生了「巫蛊杀人」产业链。她的恶不是孤立的——是豪门内部矛盾的外包。曹雪芹借她写的是：贾府明面上的风光，全靠这些黑市的「服务」维持平衡（有人求平安，有人求报复）。马道婆是贾府地下世界的守门人。",
+          "evidence": [
+            "她的两单生意分别来自贾母与赵姨娘——豪门的两极需求",
+            "施蛊成功后贾府无人追究——黑市的「免责」逻辑"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_ma_daopo_real",
+      "title": "马道婆的魇魔法「真的灵」吗？",
+      "slug": "did-ma-daopos-curse-actually-work",
+      "question_type": "textual_verification",
+      "importance_weight": 66,
+      "heat_weight": 70,
+      "neutral_overview": "凤姐宝玉确实在纸人纸鬼入床后疯魔了——在马道婆的巫蛊与通灵玉的显灵之间，《红楼梦》的「魔法世界」如何自洽？",
+      "viewpoint_ids": [
+        "vp_ma_daopo_real_myth",
+        "vp_ma_daopo_real_realistic"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_ma_daopo_real_myth",
+          "title": "神话逻辑论：巫蛊与通灵玉同属太虚幻境体系",
+          "summary": "《红楼梦》的世界本就双轨：现实的宁荣二府之上有太虚幻境。马道婆的巫蛊之效，与通灵玉的显灵、一僧一道的度化同属「神话轨」——邪术能害人，正法能救人，二者在书中是同一套「灵力系统」的两极。魇魔法之「灵」，是为反衬通灵玉之「更灵」。",
+          "evidence": [
+            "癞头和尚持玉诵持后二人即醒——正邪两法的直接对决",
+            "全书一僧一道、警幻仙姑等超自然设定的一致性"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_ma_daopo_real_realistic",
+          "title": "现实逻辑论：疯魔或为癔症，巫蛊只是心理杠杆",
+          "summary": "有论者以现代眼光重读：凤姐宝玉的疯魔未必是巫蛊「生效」，而是恐惧与心理暗示的集体发作（赵姨娘的咒、众人的慌），一僧一道的「救治」则是安慰剂效应。曹雪芹并不笃信巫蛊——他写马道婆的「灵」，恰恰服务于讽刺：越「灵」，越显得这个世界的信仰机制荒谬：害人靠纸人，救人靠念珠。",
+          "evidence": [
+            "文本中并无马道婆「作法」的直接描写——一切都在「信」中发生",
+            "病愈后的描写（「说腹中饥饿」）与癔症解除的临床形态相似"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch25_ma_daopo_zhao",
+      "quote": "赵姨娘道：「……你若果然法子灵验，把他两个绝了，明日这家私不怕不是我环儿的。那时你要什么不得？」马道婆听了，低了头，半晌说道：「那时候事情妥了，又无凭据，你还理我呢！」……（赵姨娘）又摸出一个梯己来，并五百两的欠契。",
+      "fact_type": "canonical_text_fact",
+      "note": "第二十五回。赵姨娘的家产野心与马道婆的「无凭据」逻辑——黑市交易的完整谈判。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_ma_daopo_nun",
+      "title": "马道婆：宗教骗子群像中最黑的一角",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学宗教研究",
+      "year": 1993,
+      "source_title": "多项宗教主题研究",
+      "description": "学者将《红楼梦》的宗教职业者分为三层：度化者（一僧一道、警幻）——真宗教；生意人（净虚、王一贴、张道士）——灰色宗教；害人者（马道婆）——黑色宗教。马道婆之所以最黑，在于她同时踩中两条底线：身份（尼姑）与手段（巫蛊）的双重背叛。她的形象还暗合明清笔记中大量「三姑六婆」害人的社会记忆——曹雪芹写她，是对「宗教自由出入豪门」这一社会制度的警示：凡有虔诚之处，必有神棍。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 5,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 18,
+      "text_inference": 4,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 2,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

@@ -1,0 +1,771 @@
+{
+  "character": {
+    "id": "character_jia_rong",
+    "name": "贾蓉",
+    "slug": "jia-rong",
+    "aliases": [
+      "蓉哥",
+      "蓉大爷"
+    ],
+    "category": "宁国府公子",
+    "importance_level": "minor",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾珍之子，秦可卿之夫。宁国府第四代（「草」字辈）长房长孙。",
+      "position": "宁国府公子——可卿死后捐五品龙禁尉（「死封龙禁尉」）。",
+      "origin": "宁国府嫡长孙——「箕裘颓堕皆从敬，家事消亡首罪宁」的第四代继承人。",
+      "generation": "贾府第五代（「草」字辈）——贾蓉、贾兰一代"
+    },
+    "tags": [
+      "蓉大爷",
+      "龙禁尉",
+      "秦可卿之夫",
+      "玻璃炕屏",
+      "与凤姐暧昧",
+      "调戏尤二姐",
+      "花花公子"
+    ],
+    "summary": {
+      "short": "宁府公子，贾珍之子，秦可卿之夫。第六回向凤姐借玻璃炕屏时与婶子调笑，第九回与秦钟暧昧同窗，第六十三回与尤二姐调情抢砂仁——他是「上梁不正下梁歪」的活教材：父亲的爬灰、聚麀、高乐，他样样继承，且学得更轻浮。",
+      "long": "贾蓉是宁国府第五代的继承人，也是全书「纨绔子弟」的年轻样本。他的出场自带荒诞：第二回冷子兴介绍他「今年才十六岁」，已娶了秦可卿——一个少年娶了全书最神秘的女子，而这份婚姻从第一天起就笼罩在父亲贾珍的乱伦阴影之下（「爬灰」）。贾蓉的浪荡有两大舞台：一是与王熙凤的暧昧叔嫂戏——第六回刘姥姥一进荣国府，贾蓉来借玻璃炕屏，凤姐假意不借、贾蓉软语央求、凤姐「出了神」般应下又唤回，说「晚饭后你来再说」——这段欲说还休的戏被脂批反复咀嚼，是全书最暧昧的「不写之写」之一；二是与尤氏姐妹的调情——第六十三回贾敬丧期，贾蓉「抱着丫头们亲嘴」「和两个姨娘抢砂仁吃」，被尤二姐嚼得满口渣滓——他的轻浮比贾珍更浅、更无底线，是「纯娱乐型」的浪荡。他与秦钟的暧昧同窗关系（第九回学堂风波中贾蓉与秦钟「亲厚异常」）则把宁府的「乱」带进了义学。可卿之丧中他的存在感极低：父亲为「他的妻子」哭得泪人一般、倾家荡产办丧事，而他这个丈夫反而像个局外人——贾珍为他在丧礼上捐了五品龙禁尉（「死封龙禁尉」的回目，一个「死」字写尽这场买卖的荒诞）。尤二姐事件中他是幕后推手之一：怂恿贾琏偷娶（自己好「不时续旧」）、尤二姐进府后见风使舵、凤姐闹将起来时他第一个躲开——机灵有余、担当全无。后四十回（gaoe）贾府抄家，他与父亲同罪，宁府第五代的继承人最终一无所有。贾蓉形象的妙处在于「学坏学得惟妙惟肖」：贾珍的每一样恶他都有翻版（爬灰的下一代是调情、聚麀的下一代是抢砂仁、高乐的下一代是躲事），且比原版更轻浮、更怯懦——曹雪芹以这对父子写出了「坏」的遗传性：不是基因，是家风。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "浮——轻浮无骨的浪荡",
+        "fact_type": "canonical_text_fact",
+        "description": "贾蓉的浪荡是「浮」的：抱丫鬟亲嘴、抢砂仁吃、与婶子调笑——他的轻浮毫无分量，纯为消遣。与贾珍的「乱」相比，贾蓉的浮更显空壳：他没有贾珍的狠与贪，只有一身的轻——像水面上的油花，随波逐流，无根无骨。"
+      },
+      {
+        "dimension": "滑——见风使舵的机灵",
+        "fact_type": "canonical_text_fact",
+        "description": "贾蓉的「滑」是末世子弟的生存术：凤姐要闹，他先撇清；贾琏要娶，他怂恿撮合；父亲发怒，他跪下就哭。他的机灵全用在「躲」与「推」上——永远站在有利的一边，永远不承担责任。第六十三回他「忙笑道」「忙跪下」的连环动作，是全书最传神的滑头肖像。"
+      },
+      {
+        "dimension": "弱——被父权碾压的继承人",
+        "fact_type": "text_inference",
+        "description": "贾蓉的浮与滑有一个悲剧根源：他是在贾珍的碾压下长大的——父亲的乱伦夺走了他的妻子（暗线）、父亲的家暴随时降临（第二十九回因躲阴凉被命小厮啐他）。在宁府，贾蓉不是公子，是贾珍的附属品。他的轻浮是对这种处境的消极报复：既然做不成体面的继承人，就做个轻浮的败家子。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jiarong_intro_ch2",
+        "title": "冷子兴演说——十六岁娶可卿（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jiarong_kangping_ch6",
+        "title": "借玻璃炕屏——与凤姐的暧昧戏（第六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jiarong_funeral_ch13",
+        "title": "死封龙禁尉——可卿之丧（第十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jiarong_youerjie_ch63",
+        "title": "调情尤二姐——抢砂仁、亲丫鬟（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_jiarong_suoyong_ch64",
+        "title": "怂恿贾琏偷娶二姐（第六十四至六十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_jiarong_punish_gaoe",
+        "title": "与父同罪获罪（后四十回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch06_jiarong_kangping",
+        "quote": "（贾蓉）笑道：「我父亲打发我来求婶子，说上回老舅太太给婶子的那架玻璃炕屏，明日请一个要紧的客，借了略摆一摆就送过来。」凤姐道：「说迟了一日，昨儿已经给了人了。」贾蓉听说，嘻嘻的笑着，在炕沿上半跪道：「婶子若不借，又说我不会说话了，又挨一顿好打呢。婶子只当可怜侄儿罢。」……（凤姐唤回）「你回来，我还有别的事呢。……晚饭后你来再说罢。这会子有人，我也没精神了。」贾蓉应了一声，方慢慢的退去。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六回。借屏风一场戏——凤姐「出了神」、贾蓉「半跪」、唤回私语，叔嫂暧昧的「不写之写」。脂批于此多有警醒之语。"
+      },
+      {
+        "source_id": "source_ch13_jiarong_dragon",
+        "quote": "贾珍因想着贾蓉不过是个黉门监，灵幡经榜上写时不好看，便是执事也不多，因此心下甚不自在。……（大明宫掌宫内相戴权）「想是为丧礼上风光些。……（贾蓉）如今三百员龙禁尉短了两员，快写个履历来。」……（贾珍）「既是咱们的孩子要捐，快写个履历来。」……于是贾蓉领凭回来，明日灵前供用执事等物，皆换用五品职例。",
+        "fact_type": "canonical_text_fact",
+        "note": "第十三回。贾珍花一千二百两为贾蓉捐龙禁尉——回目「秦可卿死封龙禁尉」，「死封」二字写尽这场买官的荒诞。"
+      },
+      {
+        "source_id": "source_ch63_jiarong_youerjie",
+        "quote": "贾蓉且嘻嘻的望他二姨娘笑说：「二姨娘，你又来了，我们父亲正想你呢。」……贾蓉又和二姨抢砂仁吃，尤二姐嚼了一嘴渣子，吐了他一脸。贾蓉用舌头都舔着吃了。众丫头看不过，都笑说：「热孝在身上，老娘才睡了觉，他两个虽小，到底是姨娘家，你太眼里没有奶奶了。」……贾蓉撇下他姨娘，便抱着丫头们亲嘴：「我的心肝，你说的是，咱们谗他两个。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十三回。贾蓉与尤二姐抢砂仁、抱丫鬟亲嘴——热孝中的浪荡，比贾珍更浮更浅。"
+      },
+      {
+        "source_id": "source_ch64_jiarong_plan",
+        "quote": "（贾蓉）「……那时我爷爷不在家，你两个姨母（尤氏姐妹）也住在这里……叔叔只说婶子总不生育，原是为子嗣起见，所以私自在外面作成此事。就是婶子，见生米做成熟饭，也只得罢了。……又有我父亲挡着，那时我爷爷也不便再说。」……（贾琏谢时）贾蓉笑道：「……叔叔要娶，只把这件事和我说，我出主意，再买一所房子……」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十四回。贾蓉为贾琏偷娶尤二姐出全套主意——他撮合的动机是自己的「不时续旧」：撮合不是善意，是共谋。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名蓉，宁国府贾珍之子",
+      "detail": "「蓉」——芙蓉（水芙蓉即荷花）。贾蓉之名属贾府第五代「草」字辈（蓉、兰、菌、萱、芹等皆从草头）——从「水」（源、演）到「代」（代化、代善）到「文」（赦、政、敬）到「玉」（珠、珍、琏、宝玉）到「草」（蓉、兰），贾府五代的名字是一部「降格史」：水而木、木而玉、玉而草——一代不如一代。「蓉」作为芙蓉本高洁（「出淤泥而不染」），贾蓉却生于宁府之泥而「染」得最深——名与行的最大反讽。又「蓉」与「秦可卿」（秦）同与「情」谐——贾蓉秦可卿这对夫妻，名中皆藏「情」字，婚姻却恰恰无情。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴：这位珍爷已倒生了一个儿子，今年才十六岁，名叫贾蓉",
+          "age": "16岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "16岁（第2回）",
+        "story_end": "约25岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第2回明文16岁；娶秦可卿时约15岁（据第2回与第13回时间推算）。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "蓉哥",
+      "type": "府内称呼",
+      "context": "长辈与平辈对贾蓉的称呼——「哥」字带着宁府嫡长孙的体面，与他的浪荡形成反讽",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "蓉大爷",
+      "type": "下人称呼",
+      "context": "宁府下人对贾蓉的尊称——与「珍大爷」父子并列，一脉相承的「大爷」体面",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "龙禁尉",
+      "type": "官衔（捐）",
+      "context": "可卿之丧时贾珍花一千二百两捐的五品龙禁尉——「死封」而来的官，只为灵幡上好看",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jiarong_intro_ch2",
+      "title": "冷子兴演说——十六岁娶可卿",
+      "event_level": "minor",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府（转述）",
+        "specific": "冷子兴介绍宁府第四代：贾蓉今年十六岁，娶妻秦可卿（秦业抱养女）。宁府三代人（敬—珍—蓉）的家谱在此齐备。"
+      },
+      "summary": {
+        "short": "贾蓉十六岁娶秦可卿——全书最神秘的婚姻在第二回轻描淡写地建立。这对少年夫妻从出场起就笼罩在「爬灰」的阴影下：可卿的悲剧，贾蓉的浮浪，都从这桩婚姻开始。",
+        "meaning": [
+          "「今年才十六岁」——一个少年公子，一个薄命新娘：可卿之悲首先悲在所嫁非人",
+          "宁府三代谱系——敬（弃家）、珍（乱伦）、蓉（浮浪），三代堕落一条线",
+          "秦可卿出身（秦业抱养）与贾蓉门第（国公嫡孙）的落差——这桩婚姻从门第上就「不对等」"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_rong",
+          "role": "被介绍者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「蓉卿婚配」——乱伦暗线的婚姻前提",
+          "content": "贾蓉与秦可卿的婚姻是「爬灰」暗线的必要前提：正因为可卿是贾蓉之妻（贾珍之媳），乱伦才构成「爬灰」。有学者指出，曹雪芹为可卿设计了一个极低的出身（营缮郎抱养女）与极美的姿容品性，使她在宁府「无娘家可依」——这既是贾珍敢乱伦的胆量来源，也是可卿「白担了虚名」后无路可退的绝境。贾蓉在这桩婚姻里的无能与冷漠（丧礼上反而像局外人），是悲剧发生的重要条件。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiarong_kangping_ch6",
+      "title": "借玻璃炕屏——叔嫂暧昧的「不写之写」",
+      "event_level": "major",
+      "chapter": {
+        "number": 6,
+        "title": "贾宝玉初试云雨情 刘姥姥一进荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（凤姐房中）",
+        "specific": "贾蓉来借玻璃炕屏，凤姐假称「昨儿已经给了人了」，贾蓉半跪撒娇。凤姐终于应下，贾蓉刚退出去，凤姐又把他唤回——「晚饭后你来再说罢，这会子有人，我也没精神了」。贾蓉应声「慢慢的退去」。"
+      },
+      "summary": {
+        "short": "一场借屏风的小事，被曹雪芹写成了全书最暧昧的叔嫂戏：凤姐「出了神」、贾蓉「半跪」、唤回私语「晚饭后你来再说」——什么都没明写，什么都写了。",
+        "meaning": [
+          "「晚饭后你来再说」——全书最著名的「不写之写」之一：留白处全是暧昧",
+          "贾蓉的「半跪」撒娇——他对凤姐的轻浮姿态，与对父亲的畏惧形成人格的两面",
+          "借屏风是「由头」——贾蓉与凤姐的往来，从来不止于借东西"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_rong",
+          "role": "借屏者——半跪撒娇"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "凤姐——出了神、唤回私语"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch06_jiarong_kangping",
+          "summary": "借屏、半跪、唤回——「晚饭后你来再说」的暧昧留白。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "凤蓉暧昧——脂批的警觉与学界的争论",
+          "content": "凤姐与贾蓉的暧昧是红学争论热点：脂批在「晚饭后你来再说」处批「凤姐可畏」「此等文字不可与伦」，暗示曹雪芹写的是男女私情的暧昧场；而亦有论者认为，凤姐唤回贾蓉只是托办私事（如放债、跑腿），暧昧是读者的过度解读。但多数学者认为，「出了神」「半日」等神态细节与贾蓉「慢慢的退去」的动作，都在制造暧昧氛围——曹雪芹的「不写之写」在这里达到了危险而优美的平衡。"
+        },
+        {
+          "type": "character",
+          "title": "贾蓉的两张脸——对凤姐的腻与对父亲的怕",
+          "content": "借屏风一场暴露了贾蓉的人格分裂：对凤姐（平辈女性）他半跪撒娇、轻浮腻滑——这是宁府子弟对「权势女性」的本能；对贾珍（父亲）他「挨一顿好打」的恐惧——这是被父权碾压的本能。腻与怕的两张脸，是贾蓉在宁荣两府权力结构中的全部生存形态：对强者怕，对弱处腻，对利益滑。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiarong_funeral_ch13",
+      "title": "死封龙禁尉——丧礼上的局外人丈夫",
+      "event_level": "minor",
+      "chapter": {
+        "number": 13,
+        "title": "秦可卿死封龙禁尉 王熙凤协理宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府",
+        "specific": "可卿死后，贾珍为「灵幡经榜上写时好看」，花一千二百两银子为贾蓉捐五品龙禁尉。贾蓉领凭回来，灵前执事换用五品职例。整场丧事中，贾蓉这个丈夫的存在感极低——操办者是贾珍，协理者是凤姐，他只剩一个「龙禁尉」的空衔。"
+      },
+      "summary": {
+        "short": "妻子死了，贾蓉得到的是一千二百两买来的「龙禁尉」官衔——回目「秦可卿死封龙禁尉」的「死封」二字，写尽这桩婚姻的荒诞：妻子的葬礼，成了丈夫的封官礼。",
+        "meaning": [
+          "「死封」——官是「死」封的：可卿的死给贾蓉换来了五品前程",
+          "贾蓉在丧事中的缺席——丈夫的位置被父亲顶替，他成了自己婚姻的旁观者",
+          "一千二百两——龙禁尉的标价，也是宁府「卖官买官」生态的缩影"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_rong",
+          "role": "得官者——局外人丈夫"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "贾珍——买官操办者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch13_jiarong_dragon",
+          "summary": "贾珍为贾蓉捐龙禁尉——「死封」的荒诞买卖。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「死封龙禁尉」——回目的刀锋",
+          "content": "回目「秦可卿死封龙禁尉」的主语歧义极妙：字面上是「秦可卿死后被封为龙禁尉夫人」，实际上封官的是贾蓉——一个「死」字同时挂住夫妻二人：妻子死了，丈夫因妻之死而封官。曹雪芹用一个回目完成了对这场婚姻与这桩买卖的双重反讽：龙禁尉（皇宫禁卫）的头衔，靠一场乱伦之妻的死亡换来。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiarong_youerjie_ch63",
+      "title": "热孝调情——抢砂仁、亲丫鬟",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府（贾敬丧期）",
+        "specific": "贾敬丧期，尤氏姐妹来宁府守灵。贾蓉「嘻嘻的」与二姨娘调笑、抢砂仁吃，被尤二姐吐了一脸渣子，他用舌头舔着吃了；又抱丫鬟们亲嘴：「咱们谗他两个」。众人笑他「热孝在身上……眼里太没有奶奶了」。"
+      },
+      "summary": {
+        "short": "祖父热孝在身，贾蓉与姨娘抢砂仁、抱着丫鬟亲嘴——「眼里太没有奶奶了」。他的浪荡比父亲更浮：没有贾珍的狠与贪，只有轻飘飘的无耻。",
+        "meaning": [
+          "「热孝」与「亲嘴」的并置——宁府第五代的孝道与淫逸的荒诞共存",
+          "舔渣子——全书最恶心的细节之一：贾蓉的无耻已经到了「自嘲式表演」的程度",
+          "「眼里太没有奶奶了」——丫鬟的这句笑骂，就是曹雪芹对贾蓉的定评"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_rong",
+          "role": "调情者"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "尤二姐——被调戏的姨娘"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch63_jiarong_youerjie",
+          "summary": "抢砂仁、舔渣子、亲丫鬟——热孝中的浮浪。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "贾蓉的「浮」与贾珍的「乱」",
+          "content": "父子同场浪荡，质地不同：贾珍的乱有「权」的分量（族长之威、丧主之权），贾蓉的浮只有「轻」（抢砂仁、亲丫鬟——孩童式的胡闹）。曹雪芹的笔法精确：贾珍是「淫之主」，贾蓉是「淫之皮」——他的浪荡没有内容，只剩动作。这种「空心化」的浪荡，正是贾府第五代的精神状态：坏都没坏出个样子来。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiarong_suoyong_ch64",
+      "title": "怂恿偷娶——尤二姐事件的幕后推手",
+      "event_level": "minor",
+      "chapter": {
+        "number": 64,
+        "title": "幽淑女悲题五美吟 浪荡子情遗九龙珮",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府/花枝巷",
+        "specific": "贾琏看上尤二姐，贾蓉出全套主意：以「婶子总不生育、为子嗣起见」为辞在外买房偷娶，「生米做成熟饭」后凤姐也只得罢了。贾蓉的算盘是「不时续旧」——他自己也想继续亲近二姐。尤二姐进府后，贾蓉见风使舵，第一时间撇清。"
+      },
+      "summary": {
+        "short": "尤二姐事件的全套方案出自贾蓉：买房子、偷娶、拿子嗣说事——他的「聪明」全用在坏事上。而他撮合的动机是自己的「续旧」之想——撮合不是善举，是共谋。",
+        "meaning": [
+          "贾蓉出主意——尤二姐悲剧的第一推动力之一：没有他的方案，偷娶难成",
+          "「不时续旧」——他的动机比贾琏的「情」更不堪：他只是想保住自己的便宜",
+          "二姐进府后他见风使舵——出主意时最起劲，出事时躲得最快"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_rong",
+          "role": "献策者——幕后推手"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "贾琏——依计偷娶"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch64_jiarong_plan",
+          "summary": "贾蓉的偷娶全套方案——「生米做成熟饭」的算计。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "滑头贾蓉——永远站在风暴之外",
+          "content": "尤二姐事件完整展示了贾蓉的「滑」：偷娶时他是策划者（出主意最积极），二姐进府后他是旁观者（凤姐闹将起来，他「忙躲了出去」），二姐死后他是无罪者（无责一身轻）。他在这场三人（琏、凤、二姐）的悲剧中毫发无伤——不是他无辜，是他滑。曹雪芹以贾蓉写出「帮闲型恶人」的全部形态：有恶的聪明，无恶的担当；有坏的主意，无坏的报应。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiarong_punish_gaoe",
+      "title": "与父同罪——宁府第五代的结局",
+      "event_level": "minor",
+      "chapter": {
+        "number": 107,
+        "title": "散余资贾母明大义 复世职政老沐天恩",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "宁国府（抄家后）",
+        "specific": "后四十回（gaoe）写贾府抄家，贾蓉随父获罪，宁府第五代继承人一无所获——家产抄没、世职革除、家族离散。贾蓉的「草」字辈命运在此画上句号。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写贾蓉随父获罪，宁府败落——「草」字辈的继承人，最终一无所有。贾府五代的名字预言（水木玉草，一代不如一代）在贾蓉这里走到尽头。",
+        "meaning": [
+          "贾蓉之败是「世代降格」的终点——从国公到罪囚，宁府五代走到草根",
+          "他的获罪是「从犯」性质的——他的一生没有主导过任何大事，连败落都是附带的",
+          "宁府绝后之忧——贾蓉获罪无子，宁府一脉从此断绝"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_rong",
+          "role": "获罪者——随父而败"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "宁府绝后——「草」字辈的最终注解",
+          "content": "贾蓉获罪无后的结局（gaoe）完成了宁府「绝户」的书写：贾府第五代「草」字辈（蓉、兰、菌等）中，宁府一脉在贾蓉处断绝。有学者指出这符合判词「箕裘颓堕皆从敬」的谶语逻辑——宁府从贾敬弃家起就在「绝后」的路上：敬不教子、珍不教孙、蓉不生孙，三代断绝的因果链，最终由抄家执行。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jiarong_jia_zhen",
+      "from": "character_jia_rong",
+      "to": "character_jia_zhen",
+      "type": "父子（碾压与聚麀）",
+      "nature": [
+        "kinship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾珍对贾蓉是「碾压式父权」：第二十九回因躲阴凉命小厮啐他、当众辱骂；可卿之丧中父亲顶替了他作为丈夫的一切。贾蓉的回应是「继承式堕落」：父亲的爬灰他无力反抗，父亲的浪荡他样样学会。这对父子是全书「坏的教育学」样本——父之恶全数遗传，且变本加厉地浮浅化。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "辱骂啐面",
+          "chapter": 29,
+          "description": "贾珍当众命小厮啐贾蓉——父权的侮辱性展示。"
+        },
+        {
+          "stage": 1,
+          "title": "聚麀二尤",
+          "chapter": 63,
+          "description": "父子同狎尤氏姐妹。"
+        },
+        {
+          "stage": 2,
+          "title": "聚麀同恶",
+          "chapter": 63,
+          "description": "父子同狎尤氏姐妹。"
+        },
+        {
+          "stage": 2,
+          "title": "同演居丧",
+          "chapter": 63,
+          "description": "灵前泣血、人后厮混——父子的双重表演。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiarong_qin_keqing",
+      "from": "character_jia_rong",
+      "to": "character_qin_keqing",
+      "type": "夫妻（名存实亡）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾蓉与秦可卿的婚姻是全书最虚的夫妻关系：文本中二人几乎没有正面互动——可卿病时贾蓉在场却不问，可卿死时贾蓉缺席。这段婚姻的真正内容由两件事填充：贾珍的乱伦（夺妻之实）与龙禁尉的买卖（借妻之死得官）。他们的夫妻关系越空，可卿的悲剧越深。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "少年婚配",
+          "chapter": 2,
+          "description": "贾蓉十六岁娶可卿。"
+        },
+        {
+          "stage": 1,
+          "title": "形婚——文本中的零互动",
+          "chapter": 10,
+          "description": "可卿病中，贾蓉的探视与言谈完全程序化——丈夫对妻子的病情比对门房还敷衍。"
+        },
+        {
+          "stage": 2,
+          "title": "死封龙禁尉",
+          "chapter": 13,
+          "description": "可卿之死换得贾蓉的五品前程。"
+        },
+        {
+          "stage": 2,
+          "title": "死后的冷漠",
+          "chapter": 13,
+          "description": "可卿死后贾蓉忙着接旨捐官、风光的只是头衔——丈夫的哀恸甚至不及公公的十分之一。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiarong_wang_xifeng",
+      "from": "character_jia_rong",
+      "to": "character_wang_xifeng",
+      "type": "叔嫂（暧昧与效劳）",
+      "nature": [
+        "illicit_affair",
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "贾蓉与凤姐的关系暧昧而实用：借屏风一场的「晚饭后你来再说」留下暧昧疑云（脂批警示）；同时贾蓉常为凤姐跑腿办事（捉拿贾瑞就是他领人去的——第十二回）。二人是「各取所需的叔嫂」：凤姐借他的腿（办事），他借凤姐的势（靠山）。至于私情，曹雪芹留在了「不写之写」的灰区。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "借屏暧昧",
+          "chapter": 6,
+          "description": "半跪撒娇、唤回私语。"
+        },
+        {
+          "stage": 2,
+          "title": "毒局帮凶",
+          "chapter": 12,
+          "description": "贾蓉领人捉贾瑞——凤姐毒局的执行者之一。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiarong_qin_zhong",
+      "from": "character_jia_rong",
+      "to": "character_qin_zhong",
+      "type": "同窗（暧昧亲友）",
+      "nature": [
+        "friendship",
+        "illicit_affair"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾蓉与秦钟（可卿之弟）在学堂「亲厚异常」——二人关系暧昧（第九回学堂风波前后多有暗示）。这段关系使宁府的「乱」延伸进了义学：姐夫与小舅子的暧昧，让可卿的处境更加尴尬。宝玉、秦钟、贾蓉、薛蟠——义学里的一群少年，各怀各的暧昧。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "学堂亲厚",
+          "chapter": 9,
+          "description": "贾蓉与秦钟的亲厚异常，学堂风波的背景之一。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiarong_you_erjie",
+      "from": "character_jia_rong",
+      "to": "character_you_erjie",
+      "type": "调情（聚麀的晚辈版）",
+      "nature": [
+        "illicit_affair"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾蓉对尤二姐的调情（抢砂仁、舔渣子）是宁府「聚麀」格局的晚辈版：父子同狎二尤。他为贾琏偷娶出主意，动机是「不时续旧」——把二姐嫁给贾琏，是为了自己继续亲近她。这份算计比贾琏的情、贾珍的狎更不堪：情有真、狎有欲，贾蓉只有「便宜」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "热孝调情",
+          "chapter": 63,
+          "description": "抢砂仁、亲丫鬟——与姨娘狎昵。"
+        },
+        {
+          "stage": 2,
+          "title": "献策撮合",
+          "chapter": 64,
+          "description": "怂恿贾琏偷娶，图「不时续旧」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiarong_liu_laolao",
+      "from": "character_jia_rong",
+      "to": "character_liu_laolao",
+      "type": "偶遇（借屏风的在场者）",
+      "nature": [
+        "social_contact"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "刘姥姥一进荣国府时，恰好撞见贾蓉借屏风的全过程——她目睹了凤蓉二人「婶子」「侄儿」的拉锯戏。这个安排极妙：全书最底层的村妪，成了贾府最上层暧昧的第一个目击者。刘姥姥的在场与贾蓉的轻浮，共同构成第六回的「阶级对照」：有人求二十两银子难如登天，有人借一架屏风打情骂俏。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "撞见借屏",
+          "chapter": 6,
+          "description": "刘姥姥目睹凤蓉借屏风的暧昧戏。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jiarong_fengjie",
+      "title": "贾蓉与凤姐到底有没有私情？",
+      "slug": "jiarong-fengjie-affair",
+      "question_type": "character_relationship",
+      "importance_weight": 74,
+      "heat_weight": 72,
+      "neutral_overview": "第六回借屏风的「晚饭后你来再说」、凤姐「出了神」——这对叔嫂的暧昧是「不写之写」的经典公案。",
+      "viewpoint_ids": [
+        "vp_jiarong_fengjie_yes",
+        "vp_jiarong_fengjie_no",
+        "vp_jiarong_fengjie_ambiguous"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiarong_fengjie_yes",
+          "title": "私情论：脂批的暗示与细节的证据",
+          "summary": "主张有私情的证据：①脂批在「晚饭后你来再说」处批「凤姐可畏」——警示读者此中大有文章；②凤姐「出了神、半日不语」的神态超出正常叔嫂；③贾蓉的「半跪」「嘻嘻的笑着」全是调情姿态；④第十二回凤姐毒设相思局，帮手正是贾蓉贾蔷——不是心腹办不了此等私密事。多数学者倾向二人关系「超乎寻常」。",
+          "evidence": [
+            "脂批警示",
+            "「出了神」的神态细节",
+            "毒局中贾蓉的深度参与"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_jiarong_fengjie_no",
+          "title": "清白论：婶侄之间只是办事往来",
+          "summary": "反方认为：①凤姐唤回贾蓉是为办私事（放债取利之类需要跑腿）；②「这会子有人」说明她要避的是刘姥姥在场，不是私会；③凤姐之醋（对贾琏的管束）说明她极重名节，不可能自授把柄；④全书无任何二人私情的后续实写。暧昧只是读者带着「宁府皆脏」的有色眼镜。",
+          "evidence": [
+            "凤姐放债需要跑腿的设定",
+            "凤姐对名节的重视",
+            "无后续实写的文本事实"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiarong_fengjie_ambiguous",
+          "title": "留白论：曹雪芹故意保持暧昧",
+          "summary": "最稳妥的看法是「留白」：曹雪芹要的就是暧昧本身——写实了落俗套（又一段奸情），写死了伤人物（凤姐的威与贾蓉的滑都会受损）。「不写之写」的高妙在于：读者各按各的理解填空，而文本永远悬置。这种悬置使凤蓉关系成为全书「暧昧美学」的代表作：疑云本身就是效果。",
+          "evidence": [
+            "「不写之写」的笔法分析",
+            "文本悬置与读者接受史"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiarong_formation",
+      "title": "贾蓉这样的浪荡子是怎么「养成」的？",
+      "slug": "how-was-jiarong-formed",
+      "question_type": "character_formation",
+      "importance_weight": 72,
+      "heat_weight": 60,
+      "neutral_overview": "贾蓉的浮、滑、浪不是天生的——宁府给了他最坏的「教育环境」。曹雪芹通过贾蓉写出了怎样的成长悲剧？",
+      "viewpoint_ids": [
+        "vp_jiarong_formation_family",
+        "vp_jiarong_formation_system"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiarong_formation_family",
+          "title": "家风论：上梁不正下梁歪的教科书",
+          "summary": "贾蓉的养成环境是全书最恶劣的：祖父弃家（无祖教）、父亲乱伦（无父教）、母亲装聋（无母教）、妻子之死（无家感）。他的一切行为都能在宁府找到「教材」——调情学贾珍、滑头学凤姐、浪荡学贾琏。贾蓉不是学坏，是「只见过坏」：在宁府，坏就是唯一的教育内容。",
+          "evidence": [
+            "宁府三代缺席的教育链",
+            "贾蓉行为与贾珍、凤姐的对应关系"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiarong_formation_system",
+          "title": "制度论：世袭制下的「废人生产」",
+          "summary": "更深的归因指向制度：贾蓉生下来就是宁府继承人——不需要读书（有爵可袭）、不需要奋斗（有产可耗）、不需要负责（有父可赖）。世袭制度批量生产「废人」：贾蓉的浮滑不是性格缺陷，是制度的产品规格。曹雪芹让贾蓉这一代「草」字辈集体失能（蓉浪、兰幼、菌小），宣告世袭贵族的人才断代。",
+          "evidence": [
+            "贾蓉「有爵可袭」的制度地位",
+            "贾府第五代的集体失能",
+            "贾赦「用不着读书」的宣言与贾蓉的对应"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiarong_keqing",
+      "title": "贾蓉在秦可卿悲剧中扮演什么角色？",
+      "slug": "jiarong-role-in-keqings-tragedy",
+      "question_type": "character_relationship",
+      "importance_weight": 76,
+      "heat_weight": 68,
+      "neutral_overview": "可卿之死中，贾蓉几乎隐形：操办丧事的是贾珍，协理的是凤姐。这个「缺席的丈夫」该为妻子的死负什么责任？",
+      "viewpoint_ids": [
+        "vp_jiarong_keqing_victim",
+        "vp_jiarong_keqing_accomplice"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiarong_keqing_victim",
+          "title": "共悲论：贾蓉也是这桩婚姻的受害者",
+          "summary": "温和的读法把贾蓉也算受害者：十六岁娶妻，妻子却是父亲的禁脔（暗线）——一个少年承受「爬灰」的耻辱，除了装聋作哑别无他法。他的浪荡正是这桩畸形婚姻的「后遗症」：既然家不像家，就胡闹。可卿之死对他同样是打击（书中有他「痛哭」的细节），只是他的悲痛被父亲的闹剧淹没了。",
+          "evidence": [
+            "贾蓉年幼成婚的处境",
+            "爬灰暗线对他婚姻的摧毁",
+            "丧礼中他仅有的痛哭细节"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiarong_keqing_accomplice",
+          "title": "共谋论：他的漠然加速了可卿之死",
+          "summary": "严厉的读法认为贾蓉难辞其咎：可卿病中他的冷淡（书中几乎不写他探病）、丧礼上他的利益化（借妻之死得官）——他不是无力的受害者，是「便利的共谋」：默许父亲的乱伦（换取父亲的庇护与自己的自由）。龙禁尉就是这桩共谋的分红。他的「隐形」不是被排挤，是主动退场。",
+          "evidence": [
+            "可卿病中贾蓉的缺席",
+            "「死封龙禁尉」的利益事实",
+            "他与父亲共享宁府腐朽的事实"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jiarong_generation",
+      "title": "贾蓉——贾府「草」字辈的集体肖像",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1991,
+      "source_title": "多项人物谱系研究",
+      "description": "学者将贾蓉视为贾府第五代「草」字辈的集体肖像：贾府五代从「水」到「草」的名字降格，对应家族的道德与能力降格——贾蓉的浮滑、贾兰的早孤、贾菌的莽撞，都是「草根化」的一代。贾蓉尤其典型：他继承了祖辈的全部恶习、零项才能，是「最后一代贵族」的漫画像——贵族到第五代，只剩一张「贵」的皮。"
+    },
+    {
+      "id": "viewpoint_jiarong_funeral",
+      "title": "「死封龙禁尉」——买官叙事的讽刺顶点",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学制度研究",
+      "year": 1995,
+      "source_title": "多项制度史研究",
+      "description": "有论者指出，「死封龙禁尉」一节是全书买官叙事的讽刺顶点：一千二百两银子、一纸履历、太监戴权的一句话，五品官衔立等可取——而且这官是「死」封的（妻子死了才有）。曹雪芹以这场买卖写出清代的捐官制度如何把「功名」变成「商品」：龙禁尉（皇家禁卫的名号）与一个爬灰之家的丧礼互相玷污，制度的庄严与家族的肮脏同台演出。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 6,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 4,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 24,
+      "text_inference": 15,
+      "scholarly_viewpoint": 6,
+      "disputed_version": 3,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

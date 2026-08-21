@@ -1,0 +1,793 @@
+{
+  "character": {
+    "id": "character_sheyue",
+    "name": "麝月",
+    "slug": "she-yue",
+    "aliases": [
+      "开到荼蘼"
+    ],
+    "category": "荣国府丫鬟（宝玉丫鬟）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾府丫鬟（父母姓名不详），怡红院大丫鬟之一。",
+      "position": "怡红院大丫鬟（宝玉房中），袭人之后的首席。",
+      "origin": "贾府丫鬟体系。",
+      "generation": "与袭人、晴雯等同侪的丫鬟阶层"
+    },
+    "tags": [
+      "篦头",
+      "公然又是一个袭人",
+      "病补雀金裘",
+      "开到荼蘼花事了",
+      "留侍宝玉",
+      "最后之人",
+      "怡红院",
+      "脂批"
+    ],
+    "summary": {
+      "short": "怡红院大丫鬟，宝玉房中最「稳」的人。第二十回宝玉给她篦头，晴雯讥「交杯盏还没吃」；第六十三回抽花签「开到荼蘼花事了」——脂批点明：宝玉离家后「惟麝月一人」留侍，她是陪伴宝玉到最后的人。",
+      "long": "麝月是怡红院丫鬟群里最容易被忽略、却最被曹雪芹暗暗器重的一个。她没有袭人的「贤」名，没有晴雯的锋芒，却有一种难得的「稳」：第二十回元宵夜，众丫鬟都出去顽了，独她一人守着屋子——「公然又是一个袭人」，宝玉替她篦头，晴雯讽刺「交杯盏还没吃，倒上头了」。她挨得下晴雯的尖刺，压得住婆子们的胡闹（第五十九回命人请林之孝家的震慑闹事婆子），干得了袭人不在时的首席活计（第五十一回晴雯麝月值夜），也甘愿为晴雯的病补雀金裘打下手（第五十二回）。第六十三回「寿怡红群芳开夜宴」，她抽得花签「开到荼蘼花事了」——荼蘼是春天最后的花，「花事了」三字让宝玉「愁眉忙将签藏了」：众女儿如花，花事终了之时，留在最后的竟是麝月。庚辰本第二十回脂批说得更明：「袭人出嫁之后，宝玉宝钗身边还有一人，虽不及袭人周到，亦可免微嫌小敝等患……故袭人出嫁后云『好歹留着麝月』一语，宝玉便依从此话。」——脂砚斋点破：麝月是袭人的接班人，是宝玉众丫鬟中留到最后的那一个。后四十回（gaoe）写宝玉出家后，麝月留侍宝钗——与脂批遥相呼应。红学家论麝月，多聚焦她的「稳」：在怡红院的明争暗斗里，她是唯一既不争、也不倒的人——她的「开到荼蘼」不是凋零，是坚守到最后的花。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "稳——怡红院的定海神针",
+        "fact_type": "canonical_text_fact",
+        "description": "麝月的稳是全书丫鬟里少见的：不争宠（甘居袭人晴雯之后）、不惹事（不卷入是非）、不离岗（众人顽去她守屋）。这种稳使她躲过了一次次清洗，成为最后的留守者。"
+      },
+      {
+        "dimension": "辩——绵里藏针的口才",
+        "fact_type": "canonical_text_fact",
+        "description": "麝月平日不多话，关键时刻口才了得：第五十九回斥闹事婆子，句句在理、件件有据，搬出「林大娘」之威不战而屈人。她的辩不是晴雯的泼，是「以理服人」的分寸。"
+      },
+      {
+        "dimension": "义——补裘的打下手者",
+        "fact_type": "canonical_text_fact",
+        "description": "晴雯病补雀金裘，麝月在旁递线、照灯、守夜——她不计较晴雯素日的尖刻，以行动成全同伴的「勇」。这份无言的义气，是怡红院丫鬟群像里最安静的一笔。"
+      },
+      {
+        "dimension": "守——留到最后的宿命",
+        "fact_type": "canonical_text_fact",
+        "description": "「开到荼蘼花事了」——麝月的宿命是「守」：守屋子、守岗位、守到最后。脂批「惟麝月一人」的预言与后四十回（gaoe）的留侍宝钗，把这个「守」字写成了她的命运主题。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_sheyue_ch20",
+        "title": "篦头——公然又是一个袭人（第二十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_sheyue_ch51",
+        "title": "与晴雯值夜（第五十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_sheyue_ch52",
+        "title": "病补雀金裘打下手（第五十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_sheyue_ch59",
+        "title": "斥闹事婆子（第五十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_sheyue_ch63",
+        "title": "抽花签——开到荼蘼花事了（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_sheyue_ch119",
+        "title": "宝玉出家后留侍宝钗（第一一九回前后）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch20_sheyue_bitou",
+        "quote": "麝月道：「都顽去了，这屋里交给谁呢？……我在这里守着。」……宝玉拿了篦子替麝月梳篦，只篦了三五下，只见晴雯忙忙走进来取钱，一见了他两个，便冷笑道：「哦，交杯盏还没吃，倒上头了！」……宝玉道：「满屋里就只是他磨牙。」……（麝月）「公然又是一个袭人」。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十回。众人顽去，麝月守屋；宝玉篦头，晴雯讥刺——「公然又是一个袭人」，麝月的接班人身分由此定调。"
+      },
+      {
+        "source_id": "source_ch59_sheyue_chizi",
+        "quote": "麝月道：「……你且别嚷。我且问你，我们这屋里，好生的正头主子奴才都是什么样儿的？……不如叫林大娘进来，撵了他出去罢。」……那婆子听了这话，便软了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十九回。搬出管家大娘之威，不战而屈人——麝月的「以势服人」，是首席丫鬟才有的分寸。"
+      },
+      {
+        "source_id": "source_ch63_sheyue_huaqian",
+        "quote": "麝月……伸手取了一根（花签），上面一枝荼蘼花，题着「韶华胜极」四字，那边写着一句旧诗：「开到荼蘼花事了」。注云：「在席各饮三杯送春。」麝月问怎么讲，宝玉愁眉忙将签藏了说：「咱们且喝酒。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十三回。荼蘼是春末最后之花——「花事了」暗指众女儿风流云散；宝玉藏签，因为他不忍看这谶语。"
+      },
+      {
+        "source_id": "source_ch20_zhipi_sheyue",
+        "quote": "（庚辰本第二十回脂批）「……可知袭人出嫁之后，宝玉宝钗身边还有一人，虽不及袭人周到，亦可免微嫌小敝等患……故袭人出嫁后云『好歹留着麝月』一语，宝玉便依从此话。」",
+        "fact_type": "scholarly_viewpoint",
+        "note": "脂砚斋批语。麝月是袭人之后的「最后一人」——脂批是最早的探佚证据。"
+      },
+      {
+        "source_id": "source_ch52_sheyue_buqiu",
+        "quote": "（晴雯补裘时）麝月在旁……帮晴雯拈线、剪烛……直到四更天才补完。……麝月道：「这就很好，若不留心，再看不出的。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十二回。晴雯挣命补裘，麝月全程打下手——「勇晴雯」的背后，有一个安静的「稳麝月」。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名「麝月」——麝为香，月为夜，旧时闺阁香品之名",
+      "detail": "宝玉房中丫鬟多以「物」为名：袭人（花香袭人）、晴雯（晴天彩云）、麝月、秋纹、碧痕——麝月或指麝香之饼、月下之香，是梳妆香奁之物。其名的另一重命运在第六十三回花签：荼蘼「开到荼蘼花事了」——麝月（香）与荼蘼（春末之花）互证：她是怡红院「香事」与「花事」的终章，众芳散尽，她最后凋零（或最后坚守）。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；与袭人秋纹等大丫鬟年龄相近（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "开到荼蘼",
+      "type": "花签代称",
+      "context": "第六十三回花签「开到荼蘼花事了」——以花名代指其「最后之人」的命运",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_sheyue_ch20",
+      "title": "篦头——公然又是一个袭人",
+      "event_level": "major",
+      "chapter": {
+        "number": 20,
+        "title": "王熙凤正言弹妒意 林黛玉俏语谑娇音",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "元宵夜众丫鬟都出去顽了，独麝月守着屋子。宝玉替她篦头，晴雯撞见，冷笑：「哦，交杯盏还没吃，倒上头了！」宝玉笑评麝月「满屋里就只是他磨牙」，直说她是「公然又是一个袭人」。"
+      },
+      "summary": {
+        "short": "第二十回是麝月的定调回：众人顽去她守屋，宝玉篦头晴雯讥刺——「公然又是一个袭人」。她的稳、她的忠、她的接班人身分，一个场面全部写尽。",
+        "meaning": [
+          "「这屋里交给谁呢」——她的守是责任感，不是傻",
+          "晴雯的讥刺反证她的「正」——不逾矩、不越界",
+          "「公然又是一个袭人」——宝玉亲口点出她的接班定位"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "稳的出场",
+          "content": "麝月的开场白是全书丫鬟里最「无趣」也最扎实的：不顽、不闹、守着。曹雪芹用「都顽去了，我在这里守着」九个字立起她的全部人格——怡红院需要一个不散的影子，她就是。"
+        },
+        {
+          "type": "hongxue",
+          "title": "脂批的预言起点",
+          "content": "庚辰本此回脂批点明麝月的结局（袭人嫁后留麝月），使这个平淡的篦头场面成为全书重要的预言节点。学者指出：晴雯的「上头」讽刺是一语双关——麝月日后正是以「屋里人」身分留到最后的人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_sheyue",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_sheyue_ch51",
+      "title": "与晴雯值夜——首席的日常",
+      "event_level": "minor",
+      "chapter": {
+        "number": 51,
+        "title": "薛小妹新编怀古诗 胡庸医乱用虎狼药",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "袭人回家奔丧，怡红院由晴雯、麝月值夜。麝月夜里出去，晴雯淘气躲着吓她；麝月要茶水，她与宝玉晴雯同玩同守。"
+      },
+      "summary": {
+        "short": "袭人不在，麝月顶上首席之职——值夜、照看、收拾，样样周全。这个平淡的夜晚写出她的「替补能力」：怡红院离了谁都行，离了她不行。",
+        "meaning": [
+          "袭人缺席时的秩序维持者——她的价值在日常里",
+          "与晴雯的相处——一个淘气，一个纵容，怡红院的真实温度",
+          "值夜的琐碎正是「首席」的全部内容"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "替补的哲学",
+          "content": "麝月是全书最好的「替补」：袭人在时她退后半步，袭人不在她顶上全场。这种能力比锋芒更难——它需要的是持续的在场与不显眼的可靠。曹雪芹写她，用的正是这种「隐」的笔法。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_sheyue",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_sheyue_ch52",
+      "title": "病补雀金裘——打下手的人",
+      "event_level": "minor",
+      "chapter": {
+        "number": 52,
+        "title": "俏平儿情掩虾须镯 勇晴雯病补雀金裘",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "晴雯重病挣命补裘，麝月全程打下手：拈线、递针、剪烛、陪着熬夜，直到四更天补完，还赞「若不留心，再看不出的」。"
+      },
+      "summary": {
+        "short": "「勇晴雯」的名场面背后，站着打下手到四更天的麝月。回目只给了晴雯「勇」字，但补裘的完成是两个人的事——她不计较晴雯素日的尖刻，以行动成全同伴。",
+        "meaning": [
+          "她的「义」不打标签——递线剪烛就是她的全部表达",
+          "怡红院的团队协作：晴雯出技，麝月出力",
+          "「若不留心，再看不出的」——她的夸奖是内行的眼光"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "静默的成全",
+          "content": "麝月的义与紫鹃的忠不同：她不表达、不宣言，只在别人挣命时把线递上。怡红院的丫鬟群像里，她是「底色」——没有她，勇晴雯的夜会冷一半。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_sheyue",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_sheyue_ch59",
+      "title": "斥闹事婆子——绵里藏针",
+      "event_level": "minor",
+      "chapter": {
+        "number": 59,
+        "title": "柳叶渚边嗔莺咤燕 绛云轩里召将飞符",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "春燕的娘何婆子闹到怡红院，麝月出面斥责：「不如叫林大娘进来，撵了他出去罢。」一句「召将飞符」，吓得婆子立刻软了。"
+      },
+      "summary": {
+        "short": "第五十九回是麝月的「口才时刻」：她不动手、不骂街，只搬出管家大娘的招牌，就把闹事婆子镇住了。这种「以势服人」的分寸感，正是她与晴雯的最大区别。",
+        "meaning": [
+          "「叫林大娘来」——她懂得借力，这是首席的智慧",
+          "不吵不闹不伤脸——处理矛盾的性价比全书丫鬟第一",
+          "回目「召将飞符」——曹雪芹用将军调兵写她的处置之快"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "稳的锋芒",
+          "content": "麝月不常出手，出手必见效果：她的话里没有情绪，只有程序与后果。这种「稳准」的处置力使她成为怡红院事实上的二管家——袭人之下，众人之上。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_sheyue",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_he_pozi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_chunyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_sheyue_ch63",
+      "title": "抽花签——开到荼蘼花事了",
+      "event_level": "major",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "群芳夜宴抽花签：宝钗牡丹、探春杏花、黛玉芙蓉、湘云海棠……麝月抽得荼蘼——「开到荼蘼花事了」。注云「在席各饮三杯送春」。宝玉见了愁眉，忙把签藏了。"
+      },
+      "summary": {
+        "short": "群芳夜宴是全书女儿命运的谶语大会，麝月的签是其中最沉的一支：荼蘼是春天最后的花——「花事了」，众芳散尽，唯她留到最后。宝玉藏签，因为他不忍看。",
+        "meaning": [
+          "「韶华胜极」四字题在荼蘼上——盛极即衰的谶语",
+          "「花事了」三字——麝月是女儿们散场后的留守者",
+          "「送春」之饮——全席的人都在为她（也为各自的命运）送春"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "花签的谶语体系",
+          "content": "群芳夜宴的花签是全书最精密的谶语系统：宝钗牡丹（群芳之冠）、黛玉芙蓉（莫怨东风当自嗟）、麝月荼蘼（花事了）。荼蘼之签既是「最后」的谶（众花之后），也是「坚守」的谶（开到最晚）。宝玉的藏签动作，是全书对命运最温柔的一次「作弊」。"
+        },
+        {
+          "type": "hongxue",
+          "title": "与脂批互证",
+          "content": "脂批「袭人出嫁后留麝月」与荼蘼花签形成双重互证：一个从版本批语、一个从谶语文学，共同指向麝月「最后之人」的命运。学者指出，曹雪芹写麝月从不浓墨，却在最关键的两处（脂批所据的第二十回、花签的第六十三回）埋下她的宿命——最淡的笔，写最重的谶。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_sheyue",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_shi_xiangyun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_sheyue_ch119",
+      "title": "宝玉出家后——留侍宝钗",
+      "event_level": "minor",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "后四十回（gaoe）写宝玉随僧道出家后，怡红院众丫鬟散尽，麝月留侍宝钗——与脂批「好歹留着麝月」的预言吻合。她守着人去楼空的荣国府，直到宝钗生子、贾兰成器。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）兑现了脂批的预言：宝玉走后，留在宝钗身边的正是麝月。「开到荼蘼花事了」——她是那支开到最后的荼蘼。",
+        "meaning": [
+          "脂批预言与续书写法的高度吻合——「惟麝月一人」留侍",
+          "她的留是宿命式的：不因情，因稳",
+          "花事终了——她的存在本身，就是「送春」的完成"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "预言的三重印证",
+          "content": "麝月结局在脂批（惟麝月一人留侍）、花签（开到荼蘼花事了）、续书（gaoe，留侍宝钗）三处互相印证——这种一致性使麝月成为《红楼梦》结局探佚中证据链最完整的人物之一。学者多认为续书此笔有脂批为本，可信度较高。"
+        },
+        {
+          "type": "character",
+          "title": "留守者的苍凉",
+          "content": "麝月留到最后，不是胜利，是苍凉：她守的屋子空了，伺候的主子出家了，满园的女儿散了。她的「稳」最终兑付成一场漫长的留守——开到荼蘼，其实也是「开到寂寞」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_sheyue",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_sheyue_baoyu",
+      "from": "character_sheyue",
+      "to": "character_jia_baoyu",
+      "type": "主仆（从篦头到留侍）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "麝月与宝玉的关系始于篦头（第二十回），终于留侍（gaoe）：她是宝玉房中「不声不响」的守护者。宝玉评她「公然又是一个袭人」，是主子对丫鬟最实际的认可。她的情不炽烈，却最长——长到所有人都走了，她还在。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "篦头",
+          "chapter": 20,
+          "description": "宝玉替麝月篦头，「公然又是一个袭人」。"
+        },
+        {
+          "stage": 2,
+          "title": "夜宴",
+          "chapter": 63,
+          "description": "群芳夜宴上麝月抽得荼蘼签，宝玉藏签。"
+        },
+        {
+          "stage": 3,
+          "title": "留侍",
+          "chapter": 119,
+          "description": "宝玉出家，麝月留侍宝钗。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_sheyue_qingwen",
+      "from": "character_sheyue",
+      "to": "character_qingwen",
+      "type": "同侪（稳与勇的互补）",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "麝月与晴雯是怡红院的一对互补：晴雯冲锋，麝月垫后；晴雯撕扇，麝月守屋；晴雯补裘，麝月递线。晴雯的尖刺常扎向她，她从不回击——不是怯，是稳。晴雯先亡，麝月留到最后：勇者早逝，稳者长守。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "讥刺与包容",
+          "chapter": 20,
+          "description": "晴雯讥麝月「上头」，麝月不与计较。"
+        },
+        {
+          "stage": 2,
+          "title": "补裘配合",
+          "chapter": 52,
+          "description": "晴雯补裘，麝月打下手。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_sheyue_xiren",
+      "from": "character_sheyue",
+      "to": "character_xiren",
+      "type": "同侪（接班人与导师）",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "scholarly_viewpoint",
+      "summary": "麝月是袭人的「影子」与接班人：行事风格、职责担当、都学自袭人（「公然又是一个袭人」）。脂批点明袭人出嫁后「好歹留着麝月」——袭人虽去，其职其位由麝月承续。二人是怡红院「贤」之一脉的传承。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "学步",
+          "chapter": 20,
+          "description": "麝月事事效法袭人，得「公然又是一个袭人」之评。"
+        },
+        {
+          "stage": 2,
+          "title": "接班",
+          "chapter": 119,
+          "description": "袭人嫁后，麝月留侍——脂批预言的兑现。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "relationship_sheyue_baochai",
+      "from": "character_sheyue",
+      "to": "character_xue_baochai",
+      "type": "主仆（后侍之主）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）写宝玉出家后，麝月留侍宝钗，陪她守节抚孤。这段主仆关系是麝月「最后之人」命运的终点——她不是谁的知己，只是所有人的「余数」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "留侍",
+          "chapter": 119,
+          "description": "宝玉走后麝月留侍宝钗。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_sheyue_xiangling",
+      "from": "character_sheyue",
+      "to": "character_xiangling",
+      "type": "园中相识（斗草之谊）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "第六十二回「呆香菱情解石榴裙」里，香菱与芳官斗草弄脏裙子，宝玉、袭人、麝月等为之设法——麝月是怡红院女孩子们日常交往圈中的一员，与香菱有园中姐妹之谊。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "园中往来",
+          "chapter": 62,
+          "description": "香菱弄脏石榴裙，怡红院众人相助。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_sheyue_huaqian",
+      "title": "花签诗——开到荼蘼花事了",
+      "work_type": "花签诗",
+      "chapter_number": 63,
+      "fact_type": "canonical_text_fact",
+      "summary": "「开到荼蘼花事了」（签题「韶华胜极」，注云「在席各饮三杯送春」）",
+      "symbolic_notes": "荼蘼为春末最后之花——麝月是众女儿中留到最后的人；「花事了」与「韶华胜极」合看，盛极即衰，正是全书「千红一哭」的谶语总纲。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_sheyue_huaqian",
+      "title": "「开到荼蘼花事了」——麝月的花签预示了什么？",
+      "slug": "what-does-sheyues-flower-lot-foretell",
+      "question_type": "literary_analysis",
+      "importance_weight": 74,
+      "heat_weight": 70,
+      "neutral_overview": "群芳夜宴上，麝月抽中「开到荼蘼花事了」。宝玉愁眉藏签。这支签到底意味着什么？",
+      "viewpoint_ids": [
+        "vp_sheyue_last",
+        "vp_sheyue_shou",
+        "vp_sheyue_sad"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_sheyue_last",
+          "title": "结局论：她是众芳散尽后的最后之人",
+          "summary": "荼蘼是春天最后的花——「花事了」直接预示：众女儿风流云散后，留在最后的正是麝月。这与脂批「惟麝月一人留侍」、后四十回（gaoe）留侍宝钗互相印证，是全书证据链最完整的谶语之一。",
+          "evidence": [
+            "脂批「好歹留着麝月」",
+            "续书留侍宝钗的写法（attribution=gaoe）"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_sheyue_shou",
+          "title": "坚守论：开到最晚的花，守得最久的人",
+          "summary": "「开到荼蘼」不一定是凋零，也可以是坚守：别人谢了，她还开着。麝月的全部人格（守屋、守岗、留守）都指向这个「守」字——她的签是「最后的坚守者」的任命状。",
+          "evidence": [
+            "第二十回众人顽去她守屋",
+            "她「稳」的性格基调"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_sheyue_sad",
+          "title": "悲凉论：留守者的苍凉宿命",
+          "summary": "「花事了」是悲剧不是荣誉：麝月留到最后，见证的是人去楼空。她的签悲在「了」字——一切都结束了，只有她还在。开到荼蘼的她是「送春人」，送走所有人，最后送走自己。",
+          "evidence": [
+            "注云「在席各饮三杯送春」的送别意味",
+            "宝玉「愁眉忙将签藏了」的不忍"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_sheyue_zhipi",
+      "title": "脂批「惟麝月一人留侍」可信吗？",
+      "slug": "is-the-zhipi-about-sheyue-reliable",
+      "question_type": "version_dispute",
+      "importance_weight": 70,
+      "heat_weight": 66,
+      "neutral_overview": "庚辰本第二十回脂批预言：袭人出嫁后留麝月。这条批语是麝月结局的最关键证据——它可信吗？",
+      "viewpoint_ids": [
+        "vp_sheyue_zhipi_yes",
+        "vp_sheyue_zhipi_variant",
+        "vp_sheyue_zhipi_echo"
+      ],
+      "fact_type": "disputed_version",
+      "note": "脂批异文之辨（第二十回庚辰本批语，前八十回内，非续书）",
+      "viewpoints": [
+        {
+          "id": "vp_sheyue_zhipi_yes",
+          "title": "可信论：脂砚斋读过全稿，批语即证据",
+          "summary": "脂砚斋是与曹雪芹关系最近、见过原稿全貌的批书人，其批语直接透露结局走向（「好歹留着麝月」）。脂批对麝月的预言与花签谶语互相印证，可信度极高——它是探佚派研究麝月结局的基石。",
+          "evidence": [
+            "脂批「袭人出嫁之后……宝玉便依从此话」的具体细节",
+            "脂砚斋对全书结局的整体知情"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_sheyue_zhipi_variant",
+          "title": "谨慎论：批语文字各本有异，需逐条校勘",
+          "summary": "此条批语见于庚辰本，各本批语文字略有出入，其语境（针对「公然又是一个袭人」一句）也提示：脂批所言或是对人物性格的顺势推断，而非对结局的硬性预言。使用时须以校勘为基础，不可过度引申。",
+          "evidence": [
+            "各本批语的文字差异",
+            "批语依附于正文评点的语境"
+          ],
+          "fact_type": "disputed_version",
+          "note": "脂批文字各本有异（前八十回内版本校勘问题）"
+        },
+        {
+          "id": "vp_sheyue_zhipi_echo",
+          "title": "互证论：脂批、花签、续书三重印证",
+          "summary": "无论批语文字如何，麝月的结局有「三重印证」：脂批（留麝月）、花签（开到荼蘼）、续书（gaoe，留侍宝钗）。三线合一，说明「麝月留到最后」是曹雪芹原稿最确定的结局信息之一。",
+          "evidence": [
+            "脂批、花签、续书的三线重合",
+            "三重证据的独立性"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_sheyue_stay",
+      "title": "麝月为什么能留到最后？",
+      "slug": "why-could-sheyue-stay-till-the-end",
+      "question_type": "character_analysis",
+      "importance_weight": 68,
+      "heat_weight": 62,
+      "neutral_overview": "袭人嫁了，晴雯死了，司棋被逐了——怡红院风流云散，为什么留下的是麝月？",
+      "viewpoint_ids": [
+        "vp_sheyue_stable",
+        "vp_sheyue_dull",
+        "vp_sheyue_copy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_sheyue_stable",
+          "title": "稳论：不惹事、不争宠、不离岗",
+          "summary": "麝月的生存策略是「不树敌」：她不争袭人的位、不抢晴雯的锋、不卷任何是非。大观园的清洗（抄检、逐婢）针对的是「招眼」的人，而麝月从不招眼。稳，是她活到最后的原因。",
+          "evidence": [
+            "抄检大观园中她安然无恙",
+            "她处理矛盾时「借力不结怨」的风格"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_sheyue_dull",
+          "title": "钝论：没有锋芒，所以没有危险",
+          "summary": "麝月能留下，部分因为她「没有自己」：她没有晴雯的个性，没有袭人的野心，甚至没有司棋的欲望。曹雪芹对她的「钝」是双关的——钝保了她的命，也钝化了她的形象。留到最后的不一定是最优秀的人，常常是最安全的人。",
+          "evidence": [
+            "她形象在全书中的低存在感",
+            "与晴雯司棋等「有锋芒者」的命运对照"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_sheyue_copy",
+          "title": "复制论：她是袭人制度的「继任零件」",
+          "summary": "麝月是袭人培养的「影子」：袭人在时她是备件，袭人去后她补位。怡红院（乃至宝钗的新家）需要一个「袭人式」的管家丫鬟——制度需要她留下，她就留下了。她的命运说明：在这个体系里，被留下的不是「人」，是「职能」。",
+          "evidence": [
+            "「公然又是一个袭人」的定位",
+            "袭人出嫁后她无缝接班"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_sheyue_zhongjie",
+      "title": "麝月——「开到荼蘼」的终结者意象",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1990,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，麝月的文学功能是「终结者」：她以荼蘼花签成为「花事了」的象征——众女儿的命运由她收束。她形象的「淡」是曹雪芹的刻意设计：一个不抢戏的角色，才能承担「余数」的功能——所有人都退场后，她还在台上。有论者称麝月为「大观园的守夜人」：她见证繁华，也见证散场，是全书「最后一眼」的持有者。"
+    },
+    {
+      "id": "viewpoint_sheyue_mingming",
+      "title": "怡红院的命名体系——麝月与丫鬟群像的「物名」系统",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学命名研究",
+      "year": 1995,
+      "source_title": "多项命名学研究",
+      "description": "学者分析怡红院丫鬟的命名体系：袭人（花气）、晴雯（云彩）、麝月（香品）、秋纹、碧痕——皆以「物」为名，构成一套「物化」的命名系统。这套系统既是贵族生活美学的投射，也暗含丫鬟命运的残酷本质：她们是主子房中的「陈设」。麝月之名（月下之香）与她的花签（荼蘼）在「香」与「花」两个系统里遥相呼应，是命名—谶语互文的高明样本。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 5,
+    "total_poems": 1,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 27,
+      "text_inference": 6,
+      "scholarly_viewpoint": 8,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

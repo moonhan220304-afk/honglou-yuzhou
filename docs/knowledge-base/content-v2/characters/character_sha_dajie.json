@@ -1,0 +1,379 @@
+{
+  "character": {
+    "id": "character_sha_dajie",
+    "name": "傻大姐",
+    "slug": "sha-da-jie",
+    "aliases": [
+      "痴丫头"
+    ],
+    "category": "贾母房中粗使丫头",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "贾府丫鬟，父母姓名不详，十四五岁，因体肥面阔、言语直白，人皆唤「傻大姐」。",
+      "position": "贾母房中粗使丫头（专做粗笨活计）。",
+      "origin": "贾府丫鬟体系，因「傻」被贾母留在身边取乐。",
+      "generation": "与鸳鸯等同在贾母房中的丫鬟阶层"
+    },
+    "tags": [
+      "绣春囊",
+      "抄检大观园",
+      "泄机关",
+      "黛玉焚稿",
+      "无心之失",
+      "贾母房中",
+      "痴丫头"
+    ],
+    "summary": {
+      "short": "贾母房中的粗使傻丫头，全书最「傻」也最「关键」的小人物：第七十三回她在园中山石后误拾绣春囊，引发抄检大观园；后四十回（gaoe，第九十六回）她又对黛玉说出宝玉娶宝钗的消息，导致黛玉焚稿断痴情。两次无心之失，两次改变全书走向。",
+      "long": "傻大姐是贾母房中的粗使丫头，十四五岁，体肥面阔，因「一无知识、行事可笑」而得名「傻」。她干的都是提水扫地的粗笨活，却被贾母留在身边——「引她发笑」，是老封君的开心果。第七十三回，傻大姐入园玩耍，在山石后捡到一只绣春囊，不识此物，拿在手中把玩，正撞上邢夫人，绣春囊被收走——由此引出第七十四回抄检大观园：晴雯、司棋、入画、芳官等一串丫鬟的命运被改写的总引信，竟握在一个傻丫头手里。后四十回（gaoe，第九十六回）她又做了第二次「引信」：在沁芳桥边哭，黛玉问她，她直通通说出「宝二爷要娶宝姑娘」的消息——黛玉闻言魂飞，回潇湘馆焚稿断痴情，绝粒而死。红学家常把傻大姐与刘姥姥并提：一个是「真傻」的穷人，一个是「装傻」的穷人，两个「傻」都成了全书命运机器的零件。曹雪芹让她傻，恰恰因为她要传递的真相太毒——只有傻人，才会把毒真相原样说出来。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "傻——真话的天然载体",
+        "fact_type": "canonical_text_fact",
+        "description": "傻大姐的傻不是缺陷，是叙事功能：全书只有她能把「宝玉要娶宝钗」这种瞒天过海的机密原样说出来。她的傻是曹雪芹安排的一张嘴——说真话的人必须先不聪明。"
+      },
+      {
+        "dimension": "无邪——大观园最干净的一双手",
+        "fact_type": "canonical_text_fact",
+        "description": "她拾起绣春囊却不识其物，把它当好玩艺儿——全书最污的物件，落在全书最干净的人手里。这个对照是曹雪芹式的黑色幽默：污秽需要一个无邪的人来搬运。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_sha_dajie_ch73",
+        "title": "误拾绣春囊（第七十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_sha_dajie_ch74",
+        "title": "绣春囊引抄检大观园（第七十四回，间接推动）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_sha_dajie_ch96",
+        "title": "泄机关——对黛玉说出宝玉娶宝钗（第九十六回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch73_sha_dajie_pouch",
+        "quote": "傻大姐……忽在山石背后得了一个五彩绣香囊，其华丽精致，固是可爱……便拿去给人看。……（邢夫人道）「快交给我。」……邢夫人接来一看，吓得连忙死紧攥住。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十三回「痴丫头误拾绣春囊」。全书最大风波的第一个动作，由一个傻丫头完成。"
+      },
+      {
+        "source_id": "source_ch73_sha_dajie_intro",
+        "quote": "原来这傻大姐年方十四五岁，是新挑上来的与贾母这边提水桶扫院子专作粗活的一个丫头。只因他生得体肥面阔，两只大脚作粗活简捷爽利，且心性愚顽，一无知识，行事出言，常在规矩之外。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十三回。全书对傻大姐最完整的白描——「心性愚顽、一无知识」，却是最关键的叙事机关。"
+      },
+      {
+        "source_id": "source_ch96_sha_dajie_leak",
+        "quote": "傻大姐道：「我们老太太和太太二奶奶商量了，因为老爷要起身……给宝二爷娶了宝姑娘……赶着办了……还要给林姑娘说婆婆家呢。」",
+        "fact_type": "disputed_version",
+        "note": "第九十六回「泄机关颦儿迷本性」（attribution=gaoe）。傻大姐的第二次「无心之失」，直接击垮黛玉。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「傻大姐」——无名之「傻」，实为全书最要紧的命名",
+      "detail": "「傻大姐」不是本名，是绰号：体肥面阔、心性愚顽，人皆以「傻」呼之。「傻」在《红楼梦》里是个意味深长的字——全书「傻」的人（傻大姐、傻大姐式的刘姥姥、被唤「痴」的宝玉）都在关键时刻说了真话、做了大事。曹雪芹的命名逻辑在此倒转：最「傻」的名字，承担最「聪明」的叙事功能。脂评传统里也有「以痴傻写通明」的笔法论述。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 73,
+          "evidence": "贾母房中粗使丫头，年方十四五岁（痴痴傻傻）",
+          "age": "约14-15岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约14-15岁（第73回）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第73回明文约十四五岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "痴丫头",
+      "type": "回目代称",
+      "context": "第七十三回回目「痴丫头误拾绣春囊」——回目以「痴丫头」指称傻大姐",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_sha_dajie_ch73",
+      "title": "误拾绣春囊——全书最大风波的引信",
+      "event_level": "major",
+      "chapter": {
+        "number": 73,
+        "title": "痴丫头误拾绣春囊 懦小姐不问累金凤",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "傻大姐入园掏促织，在山石后拾得五彩绣春囊，不识其物，拿在手中把玩，被邢夫人撞见。邢夫人吓的脸色更变，把绣春囊收走。"
+      },
+      "summary": {
+        "short": "第七十三回是全书的「蝴蝶效应」现场：傻大姐的一次玩耍，拾起了一件将掀翻整个大观园的证物。她连绣春囊是什么都不知道——这正是曹雪芹的残酷：命运的扳机，从不挑人来扣。",
+        "meaning": [
+          "绣春囊＝抄检大观园的总导火索，而引信是一个傻丫头",
+          "「拿去给人看」——最污之物遇到最无邪之人",
+          "邢夫人的「死紧攥住」——绣春囊从此进入权力斗争链条"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "无邪者的搬运",
+          "content": "曹雪芹安排全书最「无知识」的人搬运最「有伤风化」的物件：傻大姐看不懂绣春囊，正如大观园看不懂自己头顶的刀。她的无邪是叙事的手术刀——真相通过一个不会加工它的人，原样到达读者。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_sha_dajie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xing_furen",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_sha_dajie_ch96",
+      "title": "泄机关——对黛玉说出宝玉娶宝钗",
+      "event_level": "major",
+      "chapter": {
+        "number": 96,
+        "title": "瞒消息凤姐设奇谋 泄机关颦儿迷本性",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "大观园（沁芳桥边）",
+        "specific": "后四十回（gaoe）写傻大姐因挨打啼哭，黛玉问她原由，她直说「宝二爷要娶宝姑娘」的机密。黛玉闻言「迷本性」，回潇湘馆焚稿断痴情。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）第九十六回，傻大姐第二次成为命运的信使：凤姐的掉包计瞒过了全府，却瞒不过一个傻丫头的直话。黛玉之死由她一句无心之言引爆——「泄机关」三字写尽了这个傻丫头的全部功能。",
+        "meaning": [
+          "掉包计的精密度，抵不过傻大姐的一句真话",
+          "两次无心之失：一次毁大观园，一次杀林黛玉",
+          "她的「傻」是续书最便捷的泄密装置——也是学界讨论的笔法问题"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "续书的重复装置",
+          "content": "后四十回（gaoe）让傻大姐重复第七十三回的「信使」功能，学界对此评价两极：赞者认为「痴人传毒讯」与前文一脉相承、结构工整；批者认为这是续书对曹雪芹装置的机械复用，泄密情节过于直白，黛玉之死的写法亦多争议。引用时须标注gaoe。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_sha_dajie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_sha_dajie_jiamu",
+      "from": "character_sha_dajie",
+      "to": "character_jia_mu",
+      "type": "主仆（开心果）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "傻大姐是贾母房中的粗使丫头，贾母留她是因为她「行事出言常在规矩之外」，可引一笑。贾母养着一个说真话的傻子——这本身是全书的一则寓言：真话在贾府只能以「傻」的名义存活。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "粗使丫头",
+          "chapter": 73,
+          "description": "傻大姐在贾母房中做粗活，贾母取乐留之。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_sha_dajie_xingfuren",
+      "from": "character_sha_dajie",
+      "to": "character_xing_furen",
+      "type": "撞见者（绣春囊的收缴者）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "邢夫人撞见傻大姐把玩绣春囊，吓得死紧攥住，连哄带吓把绣春囊收走。傻大姐从头到尾不知道自己手里的是什么——她与邢夫人对同一物件的两种反应（一个懵懂、一个惊怖），是全书最刺目的对照。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "收缴绣春囊",
+          "chapter": 73,
+          "description": "邢夫人收走傻大姐拾得的绣春囊。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_sha_dajie_daiyu",
+      "from": "character_sha_dajie",
+      "to": "character_lin_daiyu",
+      "type": "泄露者与承受者",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）第九十六回，傻大姐对黛玉说出宝玉娶宝钗的消息，黛玉由此迷本性、焚稿、绝粒。全书最「傻」的人把最毒的真话递给全书最「痴」的人——两个「痴傻」之名的持有者在沁芳桥边相遇，完成了黛玉悲剧的最后一环。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "泄机关",
+          "chapter": 96,
+          "description": "傻大姐泄密，黛玉焚稿断痴情。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_sha_dajie_wangfuren",
+      "from": "character_sha_dajie",
+      "to": "character_wang_furen",
+      "type": "间接触发者（抄检大观园）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "傻大姐拾得的绣春囊经邢夫人交到王夫人手中，王夫人震怒，才有一场抄检大观园。她与王夫人素无来往，却以一只香囊为媒介，改变了王夫人的全部决策——抄检、逐晴雯、驱芳官，因果源头都在傻大姐那只「华美精致」的绣春囊上。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "香囊接力",
+          "chapter": 74,
+          "description": "绣春囊由傻大姐经邢夫人之手，最终引发王夫人抄检大观园。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_sha_dajie_function",
+      "title": "傻大姐两次「无心之失」改变全书走向——曹雪芹为什么要用一个傻子做命运的扳机？",
+      "slug": "why-a-fool-as-fate-trigger",
+      "question_type": "theme_analysis",
+      "importance_weight": 70,
+      "heat_weight": 66,
+      "neutral_overview": "第七十三回拾绣春囊、第九十六回（gaoe）泄机密，傻大姐两次无心之举都引爆了全书最大的悲剧。这个设计是偶然还是深意？",
+      "viewpoint_ids": [
+        "vp_sha_dajie_contrast",
+        "vp_sha_dajie_fate"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_sha_dajie_contrast",
+          "title": "对照论：无邪是真相的唯一通道",
+          "summary": "大观园的悲剧根源是「真话无人说」：人人都聪明地瞒着，直到一个傻子把真相说出来。曹雪芹让傻大姐充当信使，因为她没有「聪明」的过滤系统——真相只有通过无邪之手才能抵达读者。",
+          "evidence": [
+            "第七十三回她「不识此物」却引发巨变",
+            "第九十六回（gaoe）机密由她一人说破"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_sha_dajie_fate",
+          "title": "宿命论：大悲剧不需要伟人来发动",
+          "summary": "曹雪芹的历史观是「小人物决定大历史」：抄检大观园不始于王夫人，而始于一个傻丫头的玩耍。命运的车轮由最不起眼的人推动——这正是《红楼梦》「一饮一啄、莫非前定」的宿命结构。",
+          "evidence": [
+            "绣春囊事件的完整因果链由最底层人物构成",
+            "全书多处「小人物大转折」的叙事惯例"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch74_sha_dajie_chain",
+      "quote": "（邢夫人）「这……这东西那里来的？」……（将绣春囊）打发人送与王夫人。……王夫人气色更变……（遂有抄检大观园）",
+      "fact_type": "canonical_text_fact",
+      "note": "第七十三至七十四回。傻大姐→邢夫人→王夫人→抄检大观园，命运链的第一环。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_sha_dajie_narrative",
+      "title": "傻大姐——「无叙事能力者」的叙事机关",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 2005,
+      "source_title": "多项叙事学研究",
+      "description": "学者指出，傻大姐是《红楼梦》「小人物叙事」的极端案例：她无知识、无立场、无叙事能力，却两次（73回、96回gaoe）充当全书最大的信息传递者。曹雪芹的反讽在于：一个最不会「讲故事」的人，反而讲出了全书最关键的两个信息（绣春囊的存在、掉包计的真相）。有论者将傻大姐与刘姥姥、贾雨村并列为「命运三部曲」的三个底层零件：刘姥姥见证兴衰，贾雨村制造兴衰，傻大姐引爆兴衰。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 2,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 1,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.85,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 13,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 3,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

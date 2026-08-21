@@ -1,0 +1,559 @@
+{
+  "character": {
+    "id": "character_jia_yun",
+    "name": "贾芸",
+    "slug": "jia-yun",
+    "aliases": [
+      "芸哥儿",
+      "芸儿"
+    ],
+    "category": "贾府旁支子弟",
+    "importance_level": "supporting",
+    "content_level": "L1",
+    "identity": {
+      "family": "贾府后廊旁支，母亲是「后廊五嫂子」；父早亡，家境贫寒。",
+      "position": "贾府族中子弟；后得大观园种树差事（管工程）。",
+      "origin": "贾府「草字辈」旁支，认贾宝玉为义父。",
+      "generation": "贾府草字辈（比宝玉低一辈）"
+    },
+    "tags": [
+      "醉金刚轻财尚义侠",
+      "借倪二银子",
+      "冰片麝香",
+      "种树差事",
+      "认宝玉为义父",
+      "遗帕情缘",
+      "后廊五嫂子之子",
+      "侠义探庵说",
+      "狠舅奸兄之争"
+    ],
+    "summary": {
+      "short": "后廊五嫂子之子，十八岁。第二十四回求贾琏差事不成，转借倪二银子买冰片麝香走凤姐的门路，得大观园种树差事；同回与小红遗帕结缘。脂批暗示后文有「仗义」之举，后四十回（gaoe）却写他勾结贾环作恶——其形象是前八十回与续书分歧最大的人物之一。",
+      "long": "贾芸是贾府旁支中的「上进青年」：父亲早亡，母子相依，家境贫寒却「最伶俐乖觉」。第二十四回他先求贾琏讨差事，贾琏口头应了种花的事，转头被凤姐拨给了贾芹——贾芸立刻看清「求人的路要找准人」，遂向泼皮倪二借了十五两三钱银子，买冰片麝香送给凤姐，一番话把凤姐奉承得受用，顺利拿到大观园种树的差事，还领了二百两银子的批银。同回他撞见宝玉，几句话就让宝玉认他作了「儿子」（贾芸十八岁，比十三四岁的宝玉还大）——「俗语说的，摇车里的爷爷，拄拐的孙孙」。进园种树时，他拾到小红的帕子，第二十六回托坠儿「还帕」传情，与小红暗结情缘。第二十六回他进怡红院见宝玉，见小红「娇声嫩语」，二人眉目传情。脂批有「仗义探庵」及狱神庙回「芸哥儿」的伏笔提示，学界多认为曹雪芹原稿中贾芸后文有仗义救主之举；后四十回（gaoe）却把他写成与贾环、王仁勾结、参与拐卖巧姐的「奸兄」——这是前后文本对同一人物最尖锐的冲突之一。贾芸是小人物在大宅门里的生存范本：会送礼、会认干亲、会看人下菜，但他借钱必还、事母至孝、与小红之恋诚挚，前八十回的贾芸底色是「义侠」而非「奸佞」。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "乖觉——最伶俐的求差事者",
+        "fact_type": "canonical_text_fact",
+        "description": "曹雪芹给他的定评是「最伶俐乖觉」：求贾琏不成，立刻改走凤姐门路；送礼不说「求」，先说「孝敬婶子」；见宝玉一面，就认了义父。他的伶俐是穷人家子弟的生存智慧——每一分乖巧背后都是生活的逼迫。"
+      },
+      {
+        "dimension": "义——借钱必还、恩怨分明",
+        "fact_type": "canonical_text_fact",
+        "description": "贾芸从泼皮倪二处借银，倪二不要利息、不要欠契，贾芸却坚持「按规矩」办事，次日领了批银便还本利。他对倪二「因人而使」、对小红「真心相待」——前八十回的贾芸处处透着一个「义」字，这正与后四十回（gaoe）的「奸兄」形象形成尖锐反差。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jia_yun_borrow_ch24",
+        "title": "求差事不成，借倪二银子买冰片麝香（第二十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jia_yun_gift_ch24",
+        "title": "送礼凤姐，得种树差事（第二十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jia_yun_handkerchief_ch26",
+        "title": "蜂腰桥还帕——与小红传情（第二十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jia_yun_huan_hou40",
+        "title": "后四十回：与贾环勾结害巧姐（gaoe）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch24_jia_yun_baoyu",
+        "quote": "贾芸道：「俗语说的，『摇车里的爷爷，拄拐的孙孙』。虽然岁数大，山高遮不过太阳。……宝叔不嫌侄儿蠢笨，认作儿子，就是我的造化了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十四回。十八岁的贾芸认十三四岁的宝玉为义父——乖觉到极致的场面。"
+      },
+      {
+        "source_id": "source_ch24_jia_yun_gift",
+        "quote": "贾芸笑道：「求叔叔的事，婶子休提，我这里正后悔呢。早知这样，我竟一起头求婶子，这会子早完了。谁承望叔叔竟不能的。」……凤姐笑道：「你倒会拉长线儿。也罢，……明儿你到午错的时候来领银子，后儿就进去种树。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十四回。贾芸送礼的话术——明捧凤姐、暗贬贾琏，冰片麝香换来了种树差事。"
+      },
+      {
+        "source_id": "source_ch24_jia_yun_ni_er",
+        "quote": "贾芸道：「老二，你果然是个好汉，我何曾不想着你，和你张口。……如今我要向你借三五两银子，多着也不要，少着也不依。」……倪二笑道：「你若要，多时带了去罢。……但只一件，你自己作了业，我的利钱，我自有我的使用。」贾芸道：「老二，你休这样说，我就按规矩利钱算，好兄弟。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十四回「醉金刚轻财尚义侠」。泼皮倪二轻财，贾芸守规矩——两个下层的「义」。"
+      },
+      {
+        "source_id": "source_ch118_jia_yun_huan",
+        "quote": "（后四十回）贾芸闻风，便和王仁等串通一气，把个巧姐儿逼得家破人散……",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第一一八回前后写贾芸参与拐卖巧姐——与前八十回「义」的底色及脂批伏笔严重冲突。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「芸」——芸香草，能辟蠹之香草",
+      "detail": "芸是古书辟蠹的香草（「芸编」「芸窗」皆指书斋）——一个旁支穷小子取名「芸」，暗含「书香清芬」的期许。一说「贾芸」谐「假云」（云者虚幻，草字辈下的小人物，其命运如浮云聚散）。脂批称其「芸哥儿」，狱神庙回伏笔中他是「义」字当先的人。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 24,
+          "evidence": "宝玉问：你今年十几岁了？贾芸道：十八岁",
+          "age": "18岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "18岁（第24回）",
+        "story_end": "约25岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第24回明文十八岁（宝玉也因此戏言「倒像我的儿子」，贾琏说宝玉才十二三岁让其叫叔叔不害臊——又一旁证）。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "芸哥儿",
+      "type": "昵称",
+      "context": "脂批与府中人对贾芸的称呼；脂批「狱神庙回有茜雪红玉一大回文字……芸哥儿」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "芸儿",
+      "type": "昵称",
+      "context": "长辈与同侪对贾芸的日常称呼",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jia_yun_borrow_ch24",
+      "title": "求差事受挫，借倪二银子",
+      "event_level": "major",
+      "chapter": {
+        "number": 24,
+        "title": "醉金刚轻财尚义侠 痴女儿遗帕惹相思",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府外/倪二家",
+        "specific": "贾芸先求贾琏，差事被凤姐半路截给贾芹；他出府借钱碰壁，遇醉中泼皮倪二，倪二仗义借银十五两三钱，不要利钱、不写欠契。贾芸却坚持按规矩还本付息。"
+      },
+      "summary": {
+        "short": "回目「醉金刚轻财尚义侠」——泼皮倪二借银不求回报，穷小子贾芸借银坚持还利。曹雪芹把「义」字给了两个最底层的人：一个醉金刚，一个穷芸哥。",
+        "meaning": [
+          "贾芸求差事的第一步失败——让他看清贾府权力结构的真相（凤姐说了算）",
+          "倪二之借——全书「仗义每多屠狗辈」的经典一幕",
+          "贾芸坚持还利——穷而不贱，为他后文（脂批）的「义侠」埋底色"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「义侠」在下层",
+          "content": "借银一节写透了曹雪芹对「义」的定位：锦衣玉食的贾琏拖着差事不办，人人厌弃的泼皮倪二倾囊相助。贾芸与倪二的交往，是全书最健康的一段「金钱关系」——有借有还，有恩有报。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ni_er",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_yun_gift_ch24",
+      "title": "冰片麝香走凤姐门路，得种树差事",
+      "event_level": "major",
+      "chapter": {
+        "number": 24,
+        "title": "醉金刚轻财尚义侠 痴女儿遗帕惹相思",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府凤姐院外",
+        "specific": "贾芸买了冰片麝香孝敬凤姐，一番「婶子身子生的单弱，大节下用冰片麝香正好」的话头滴水不漏；又抬凤姐贬贾琏：「早知这样，我竟一起头求婶子」。凤姐受用，把种树的差事给了他。"
+      },
+      "summary": {
+        "short": "贾芸求职三部曲：看清门路（凤姐掌权）→备好礼物（冰片麝香）→说话得体（贬琏捧凤）。这是《红楼梦》里最著名的「求职课」——求人办事的学问，被他一个十八岁少年玩明白了。",
+        "meaning": [
+          "送礼的艺术——不说「求差事」，只说「孝敬婶子」",
+          "「你倒会拉长线儿」——凤姐都看出他段位，却依然受用",
+          "种树差事是贾芸的「第一桶金」——二百两批银，从此进入贾府事务系统"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "穷人的世故",
+          "content": "贾芸的乖觉是「穷」教出来的：没有贾芹那样「有门路的娘」去求凤姐，他只能自己经营。他的送礼、奉承、认义父，都是为了活下去的体面——曹雪芹写他的世故不带贬义，因为每一步都有「义」的底线（还钱、报恩）。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_yun_handkerchief_ch26",
+      "title": "蜂腰桥还帕——与小红传情",
+      "event_level": "major",
+      "chapter": {
+        "number": 26,
+        "title": "蜂腰桥设言传心事 潇湘馆春困发幽情",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园蜂腰桥/怡红院",
+        "specific": "贾芸进园种树，在蜂腰桥遇小红，二人「四目相对」。贾芸拾得小红的帕子，却托坠儿把自己的帕子「还」给小红——以还帕之名行赠帕之实。后贾芸进怡红院见宝玉，与小红再次眉眼传情。"
+      },
+      "summary": {
+        "short": "回目「蜂腰桥设言传心事」——贾芸与小红在蜂腰桥完成全书的「帕缘」：你遗的帕我收了，我还你我的帕。两个上进的下层青年，用最朴素的方式定下终身之约。",
+        "meaning": [
+          "「还帕」的双关——还的是你的帕，给的是我的心",
+          "坠儿传帕——下层恋爱的「中介」体系，与大观园诗社式的恋爱互为镜像",
+          "二人皆在贾府「求职」成功后的恋爱——情与业的双重丰收，全书罕见"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「上进青年」的双赢",
+          "content": "贾芸与小红是全书写得最「暖」的一对：都出身下层、都被排挤过、都靠本事出头。他们的爱情没有眼泪，只有算计——而这份算计里有真心。红学家多认为这是曹雪芹给「薄命司」外的人留的活路。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xiaohong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_yun_huan_hou40",
+      "title": "后四十回：与贾环勾结害巧姐（gaoe）",
+      "event_level": "major",
+      "chapter": {
+        "number": 118,
+        "title": "记微嫌舅兄欺弱女 惊谜语妻妾谏痴人",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府（后四十回）",
+        "specific": "后四十回（gaoe）写贾府势败后，贾芸与王仁（狠舅）、贾环等勾结，图谋把巧姐卖与外藩——贾芸被坐实为判词「狠舅奸兄」中的「奸兄」。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）把贾芸写成了拐卖巧姐的「奸兄」——这与前八十回借钱必还、脂批「仗义」伏笔的贾芸判若两人。这是全书前后文本对同一人物最尖锐的矛盾之一。",
+        "meaning": [
+          "「奸兄」坐实——后四十回对贾芸的定性处理",
+          "与前八十回形象断裂——脂批暗示的「仗义探庵」「狱神庙」全未实现",
+          "学界主流认为：曹雪芹原稿中的贾芸，后文当是「义」不是「奸」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「侠义探庵」与「奸兄」之争",
+          "content": "脂批多处提示：狱神庙回有「芸哥儿」与小红茜雪同场仗义；另有批语涉「仗义探庵」。学界据此普遍推断，曹雪芹原稿中贾芸在贾府之难时是救主、探庵的义侠，而「奸兄」或指贾蔷、贾芹等人。后四十回（gaoe）让贾芸作「奸兄」，是续书对人物最失败的改写之一。",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_yun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_ren",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jia_yun_jia_baoyu",
+      "from": "character_jia_yun",
+      "to": "character_jia_baoyu",
+      "type": "义父义子",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "十八岁的贾芸认十三四岁的宝玉为义父——「摇车里的爷爷，拄拐的孙孙」。这桩荒诞的干亲是贾芸「找靠山」的妙笔：认了宝玉，进怡红院、沾大观园的光就有了由头。第二十六回他进怡红院见宝玉，也因此与小红重逢。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "认义父",
+          "chapter": 24,
+          "description": "贾芸认宝玉为义父。"
+        },
+        {
+          "stage": 2,
+          "title": "进怡红院",
+          "chapter": 26,
+          "description": "贾芸以义子身份进怡红院见宝玉。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_yun_wang_xifeng",
+      "from": "character_jia_yun",
+      "to": "character_wang_xifeng",
+      "type": "差事恩主",
+      "nature": [
+        "social_alliance",
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐是贾芸的「贵人」：冰片麝香换来种树差事与二百两批银。此后贾芸成为凤姐门下的「办事的人」之一。这段关系是全书「权力寻租」的正面描写——送礼者聪明，受礼者明白，事情办得利落。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "送礼得差",
+          "chapter": 24,
+          "description": "贾芸送冰片麝香，凤姐给种树差事。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_yun_ni_er",
+      "from": "character_jia_yun",
+      "to": "character_ni_er",
+      "type": "债主与借债人（义气之交）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "倪二是个放高利贷的泼皮，却对贾芸「因人而使」：不要利钱、不写欠契，纯凭义气。贾芸领了批银后按规矩还本付息——两个被社会标记为「下等」的人，完成了全书最干净的一笔借贷。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "仗义借银",
+          "chapter": 24,
+          "description": "倪二借贾芸十五两三钱银子。"
+        },
+        {
+          "stage": 2,
+          "title": "按约还银",
+          "chapter": 24,
+          "description": "贾芸领批银后还本付息。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_yun_jia_huan",
+      "from": "character_jia_yun",
+      "to": "character_jia_huan",
+      "type": "勾结（后四十回）",
+      "nature": [
+        "social_alliance",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）写贾芸与贾环、王仁勾结，图谋卖巧姐——这是续书对贾芸的「黑化」。前八十回中二人毫无交集，脂批更暗示贾芸后文「仗义」。红学界普遍认为这段关系是续书的败笔：把「义侠」改成了「奸兄」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "勾结作恶",
+          "chapter": 118,
+          "description": "贾芸与贾环等合谋卖巧姐（gaoe）。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jia_yun_good_evil",
+      "title": "贾芸到底是「义侠」还是「奸兄」？",
+      "slug": "is-jia-yun-hero-or-villain",
+      "question_type": "version_dispute",
+      "importance_weight": 80,
+      "heat_weight": 78,
+      "neutral_overview": "前八十回的贾芸借钱必还、事母至孝、恋爱真诚；后四十回（gaoe）的贾芸却与贾环勾结卖巧姐。同一个名字，两种人生——哪个才是曹雪芹的贾芸？",
+      "viewpoint_ids": [
+        "vp_jia_yun_hero",
+        "vp_jia_yun_villain",
+        "vp_jia_yun_middle"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_jia_yun_hero",
+          "title": "义侠论：脂批伏笔证明贾芸后文仗义",
+          "summary": "脂批多次提示：狱神庙回有「芸哥儿」与红玉、茜雪同场的文字，又有「仗义探庵」之批——曹雪芹原稿中的贾芸在贾府之难时是救主探庵的义侠。前八十回的底色（还钱、孝母、赠帕）全是「义」的铺垫。「奸兄」实为贾蔷或贾芹，续书张冠李戴。",
+          "evidence": [
+            "脂批「狱神庙回有茜雪红玉一大回文字」及芸哥儿伏笔",
+            "前八十回贾芸「按规矩还利」「认义父」皆非奸邪之笔"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=zhipi"
+        },
+        {
+          "id": "vp_jia_yun_villain",
+          "title": "奸兄论：判词「狠舅奸兄」需要贾芸",
+          "summary": "巧姐判词「狠舅奸兄」：狠舅是王仁，奸兄需在贾府子弟中找。贾芸「乖觉」的一面（送礼、巴结、认义父）本身就有「趋利」的底色，贾府势败后「树倒猢狲散」，他见利忘义、伙同卖巧姐，并非不可能——后四十回的处理虽粗糙，方向未必全错。",
+          "evidence": [
+            "「狠舅奸兄」判词需要「奸兄」实指",
+            "贾芸的世故与趋利一面（「摇车里的爷爷」式的攀附）"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_jia_yun_middle",
+          "title": "灰色论：贾芸是「现实的人」，义与利并存",
+          "summary": "贾芸既不是纯义侠，也不是纯奸佞：他的「义」始终有边界（对倪二守约、对母亲孝顺），他的「利」也始终有底线（求差事不害人）。曹雪芹写的是真实的底层生存者——善则善矣，不愚；世故则世故，不恶。续书把他写成「奸兄」，是把他从「人」简化成了「恶」。",
+          "evidence": [
+            "他借钱必还却不拒绝倪二的「义」——利义兼取",
+            "他拾帕传情却借坠儿为中介——连恋爱都算得仔细"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jia_yun_skill",
+      "title": "贾芸的求职术：值得学习的生存智慧，还是令人齿冷的钻营？",
+      "slug": "is-jia-yuns-job-hunting-admirable",
+      "question_type": "character_motivation",
+      "importance_weight": 70,
+      "heat_weight": 68,
+      "neutral_overview": "借银子买冰片麝香、贬贾琏捧凤姐、十八岁认十三岁少年为义父——贾芸的「求职三部曲」是穷人的智慧，还是小人物的悲哀？",
+      "viewpoint_ids": [
+        "vp_jia_yun_skill_wisdom",
+        "vp_jia_yun_skill_sad"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jia_yun_skill_wisdom",
+          "title": "智慧论：在权力结构里找到最优解",
+          "summary": "贾芸的求职是一次精准的「权力分析」：先摸清贾琏凤姐谁说了算（凤姐），再选对礼物（冰片麝香是凤姐正用的药材香料），最后设计话术（贬琏捧凤）。他不是钻营，是「按规则办事」——贾府的差事本来就靠人情，他只是玩明白了游戏规则。",
+          "evidence": [
+            "「早知这样，我竟一起头求婶子」——快速纠错的能力",
+            "凤姐的认可（「你倒会拉长线儿」）与差事的落实"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jia_yun_skill_sad",
+          "title": "悲哀论：有本事的人也得靠送礼才能吃饭",
+          "summary": "贾芸的「求职术」越成功，越显出贾府制度的悲哀：种树差事不是按能力分配，而是按「关系+礼物」分配。贾芸那么伶俐，依然要先借钱买礼、认人为父——他赢得的不是公平，而是「不公平中的最优待遇」。他的成功是全书对世家用人制度的反讽。",
+          "evidence": [
+            "贾芹不费吹灰之力得到更好的差事（母亲求凤姐）",
+            "贾芸借高利贷买礼——求职成本由穷人自己承担"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch26_jia_yun_yihong",
+      "quote": "（贾芸进怡红院）那小红……只得勉强上来，沏了一钟茶……贾芸一面瞅着那丫头，一面道：「……（宝玉）叫我……把花儿各样送进来……」二人说话时，四目恰好相对。",
+      "fact_type": "canonical_text_fact",
+      "note": "第二十六回。贾芸进怡红院，与小红重逢——「四目相对」，情已定而口不言。"
+    },
+    {
+      "source_id": "source_zhipi_jia_yun",
+      "quote": "（脂批）此回……后回……「狱神庙」回，方有茜雪红玉一大段文字……芸哥儿……",
+      "fact_type": "canonical_text_fact",
+      "note": "脂批狱神庙回伏笔——贾芸、红玉后文仗义的文本依据。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jia_yun_zhipi",
+      "title": "脂批与「仗义探庵」：贾芸原稿形象考",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学版本研究",
+      "year": 1985,
+      "source_title": "脂批伏笔研究",
+      "description": "脂批中「狱神庙」「仗义探庵」等零散批语，被学界拼合成贾芸后文的完整线索：贾府抄没、宝玉下狱后，贾芸与小红（已成夫妻或未成）联手营救，红玉、茜雪往狱神庙探监，「芸哥儿」奔走其间。研究者认为，曹雪芹给贾芸安排的结局是「义侠收束」——与醉金刚借银的「义」一脉相承。后四十回（gaoe）弃此线索，把贾芸写成奸兄，是对原稿伏笔体系的重大破坏。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 6,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 21,
+      "text_inference": 3,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 7,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

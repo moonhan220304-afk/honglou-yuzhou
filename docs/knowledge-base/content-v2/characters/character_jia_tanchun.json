@@ -1,0 +1,1141 @@
+{
+  "character": {
+    "id": "character_jia_tanchun",
+    "name": "贾探春",
+    "slug": "jia-tanchun",
+    "aliases": [
+      "蕉下客",
+      "三姑娘",
+      "三妹妹",
+      "玫瑰花",
+      "敏探春",
+      "秋爽居士"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "major",
+    "content_level": "L3",
+    "identity": {
+      "family": "贾政之庶女（赵姨娘所生）；贾宝玉之同父异母妹；贾环之同母姐；贾元春之妹。",
+      "position": "贾府三小姐；大观园秋爽斋居所。",
+      "origin": "金陵人氏，荣国府出身。",
+      "generation": "贾府第四代（与贾宝玉同辈）"
+    },
+    "tags": [
+      "精明志高",
+      "才自精明",
+      "庶出之痛",
+      "兴利除弊",
+      "远嫁海疆",
+      "玫瑰有刺",
+      "海棠社发起人",
+      "百足之虫",
+      "政治家",
+      "改革家"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一。贾政庶女，才情抱负为贾府小姐之冠。理家时兴利除弊显露治世之才，然「生于末世运偏消」，最终远嫁海疆。",
+      "long": "贾探春为荣国府贾政之庶女，生母为赵姨娘。与迎春、惜春并称「三春」，探春最为精明能干。容貌「削肩细腰，长挑身材，鸭蛋脸面，俊眼修眉，顾盼神飞，文彩精华，见之忘俗」。才情不让黛玉宝钗——第三十七回发起海棠诗社，展现了其组织才能和文化抱负。第五十五至五十六回「敏探春兴利除宿弊」是全书中庶女治家的巅峰表现——她以犀利的理家手腕革除贾府积弊，推行大观园承包改革。然庶出身份始终是她最深的伤口——亲生母亲赵姨娘的浅薄愚昧不断刺痛她、拖累她。抄检大观园时她怒打王善保家的一掌，吼出「百足之虫死而不僵」「必须先从家里自杀自灭起来才能一败涂地」的惊天预判。判词「才自精明志自高，生于末世运偏消。清明涕送江边望，千里东风一梦遥」、花名签为杏花（「日边红杏倚云栽」），均预示其远嫁海疆的命运。后四十回（gaoe）写其远嫁镇海总制周氏。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "精明与志高——治世之才",
+        "fact_type": "canonical_text_fact",
+        "description": "探春的理家之才远在凤姐之上——凤姐用「威」，探春用「理」。第五十五至五十六回推行大观园承包改革，以制度创新代替人情管理。但她「才自精明志自高，生于末世运偏消」，性别与庶出双重枷锁压制了她的抱负。"
+      },
+      {
+        "dimension": "庶出之痛——身份焦虑",
+        "fact_type": "canonical_text_fact",
+        "description": "探春一生最深的心结是庶出身份。生母赵姨娘不断以「你是我肚子里爬出来的」来道德绑架她。探春为维护自身尊严，不得不极力在制度层面切割与赵姨娘的关系——「我只管认得老爷太太两个人，别人我一概不管」。"
+      },
+      {
+        "dimension": "政治家般的预见力与烈性",
+        "fact_type": "canonical_text_fact",
+        "description": "抄检大观园时，探春是唯一一个「秉烛开门而待」的人。她打王善保家的一掌并说出「百足之虫死而不僵」的预言。这种超越个人的洞察力和敢于对抗权力的烈性，使她在十二钗中独具政治人格。"
+      },
+      {
+        "dimension": "才情与诗意——海棠社发起人",
+        "fact_type": "canonical_text_fact",
+        "description": "探春是海棠诗社的发起人——她以一封雅致的花笺邀请众人结社，将大观园的诗意生活制度化。她的诗才虽不仅黛玉空灵、宝钗浑厚，但自成格局。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_tanchun_intro_ch3",
+        "title": "初见黛玉（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_tanchun_shoes_ch27",
+        "title": "为宝玉做鞋（第二十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_haitang_she_ch37",
+        "title": "秋爽斋偶结海棠社（第三十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_tanchun_manage_ch55",
+        "title": "辱亲女愚妾争闲气——探春理家（第五十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_tanchun_reform_ch56",
+        "title": "敏探春兴利除宿弊（第五十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_tanchun_zhao_note_ch60",
+        "title": "茉莉粉蔷薇硝事件（第六十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_tanchun_flower_sign_ch63",
+        "title": "花名签杏花——「日边红杏倚云栽」（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_tanchun_slap_ch74",
+        "title": "抄检大观园怒打王善保家的（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 9,
+        "event_id": "event_tanchun_weishun_ch73",
+        "title": "为迎春讨公道（第七十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 10,
+        "event_id": "event_tanchun_marry_ch100",
+        "title": "远嫁海疆（第一百回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch05_tanchun_judgment",
+        "quote": "才自精明志自高，生于末世运偏消。清明涕送江边望，千里东风一梦遥。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回探春判词。暗示其才志与命运的巨大反差及远嫁结局。"
+      },
+      {
+        "source_id": "source_ch05_tanchun_song",
+        "quote": "[分骨肉]一帆风雨路三千，把骨肉家园齐来抛闪。恐哭损残年，告爹娘，休把儿悬念。自古穷通皆有定，离合岂无缘？从今分两地，各自保平安。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回《分骨肉》曲子，写探春远嫁时与家人诀别的场景。「分骨肉」曲名本身即点明探春命运的悲剧本质。"
+      },
+      {
+        "source_id": "source_ch03_tanchun_appearance",
+        "quote": "削肩细腰，长挑身材，鸭蛋脸面，俊眼修眉，顾盼神飞，文彩精华，见之忘俗。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三回探春外貌描写。「顾盼神飞」「见之忘俗」——与众不同的精神气象。"
+      },
+      {
+        "source_id": "source_ch74_tanchun_slap",
+        "quote": "探春道：「你们别忙，自然连你们抄的日子有呢！你们今日早起不曾议论甄家，自己家里好好的抄家，果然今日真抄了。咱们也渐渐的来了。可知这样大族人家，若从外头杀来，一时是杀不死的，这是古人曾说的『百足之虫，死而不僵』，必须先从家里自杀自灭起来，才能一败涂地！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回探春对抄检大观园的惊天预言——从甄家被抄预见贾家必败。"
+      },
+      {
+        "source_id": "source_ch55_tanchun_weeping",
+        "quote": "探春没听完，已气的脸白气噎，抽抽咽咽的一面哭，一面问道：「谁是我舅舅？我舅舅年下才升了九省检点，那里又跑出一个舅舅来？……何苦来，谁不知道我是姨娘养的，必要过两三个月寻出由头来，彻底翻腾一阵。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十五回探春被赵姨娘气哭——全书唯一一次公开承认庶出身份的伤痛。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "四春第三，谐「叹」",
+      "detail": "探春谐「叹」——「原应叹息」之一环。别号蕉下客：黛玉以「蕉叶覆鹿」典故打趣（第三十七回）——蕉鹿之梦（郑人得鹿、得失如梦）暗示其富贵如梦；判词「日边红杏倚云栽」暗示远嫁",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉眼中：第二个削肩细腰……文彩精华，见之忘俗",
+          "age": "未见明文"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约7-8岁（第3回，与黛玉相近）",
+        "story_end": "约15-16岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；第3回与黛玉同列姊妹，约七八岁；前八十回末约十五六岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "蕉下客",
+      "type": "雅号",
+      "context": "海棠诗社雅号，因秋爽斋有芭蕉梧桐。黛玉以「蕉叶覆鹿」典故打趣她",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "三姑娘",
+      "type": "家族称呼",
+      "context": "贾府三小姐（迎春之后、惜春之前）",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "三妹妹",
+      "type": "姐妹称呼",
+      "context": "宝玉等对探春的称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "玫瑰花",
+      "type": "绰号",
+      "context": "兴儿评价「三姑娘的浑名是玫瑰花……又红又香，无人不爱的，只是刺戳手」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "敏探春",
+      "type": "回目称号",
+      "context": "第五十六回回目「敏探春兴利除宿弊」——「敏」是曹雪芹对探春的定评",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "秋爽居士",
+      "type": "自拟别号",
+      "context": "探春发起海棠社时自拟的第一个别号，后因宝玉提议改「蕉下客」",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_haitang_she_ch37",
+      "title": "秋爽斋偶结海棠社",
+      "event_level": "major",
+      "chapter": {
+        "number": 37,
+        "title": "秋爽斋偶结海棠社 蘅芜苑夜拟菊花题",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秋爽斋",
+        "specific": "探春以一封花笺遍邀大观园中姊妹至秋爽斋，发起海棠诗社。"
+      },
+      "summary": {
+        "short": "探春以一封雅致的书信遍邀大观园诸钗发起海棠诗社。众人各起雅号（探春自号「蕉下客」），以海棠为题限韵赋诗。李纨任社长兼评诗人，宝钗黛玉各展诗才。海棠社是大观园诗意生活的标志性事件。",
+        "meaning": [
+          "海棠社的创立是大观园从「居住空间」升华为「理想国」的关键时刻",
+          "探春作为发起人展现其组织才能和文化抱负",
+          "雅号系统（潇湘妃子、蘅芜君、蕉下客、枕霞旧友等）赋予众钗以「诗性的存在身份」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "大观园理想国的制度化",
+          "content": "海棠诗社的创立意味着大观园从建筑空间升级为文化空间——诗社不是一次性的娱乐活动，而是一个有组织、有规则、有定期活动的「理想国」文体。探春的这封花笺，是全书中最具文化理想主义色彩的文字之一——她将一群贵族少女的消遣活动比作谢安的东山雅会，赋予女性以士大夫的品格。"
+        },
+        {
+          "type": "character",
+          "title": "组织者人格——探春的天赋所在",
+          "content": "发起诗社需要的是组织能力而非单纯的才华——探春恰好具备这种能力：写邀请函（文采）、定规矩（制度意识）、安排活动（执行力）。这种「组织者人格」在第五十五至五十六回的理家中得到更大规模的展示。诗社与理家，是同一人格的两种表达。"
+        },
+        {
+          "type": "literary",
+          "title": "「蕉下客」的典故暗语",
+          "content": "探春自号「蕉下客」，黛玉以《列子》「蕉叶覆鹿」的典故打趣——「快牵了他去，炖了脯子吃酒」——以蕉下之鹿（蕉叶下被猎取的鹿）为谶，暗示探春将来被人「猎取」（远嫁）。一个雅号即暗藏命运，这是曹雪芹诗谶手法的又一例证。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_tanchun_manage_ch55",
+      "title": "辱亲女愚妾争闲气——探春理家",
+      "event_level": "major",
+      "chapter": {
+        "number": 55,
+        "title": "辱亲女愚妾争闲气 欺幼主刁奴蓄险心",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府议事厅",
+        "specific": "凤姐病倒期间，王夫人命探春、李纨、宝钗三人共同理家。赵姨娘因其兄赵国基丧事赏银之事前来闹事。"
+      },
+      "summary": {
+        "short": "凤姐小产病倒，王夫人安排探春、李纨、宝钗三人共同代理家务。赵姨娘因其兄赵国基死后赏银太薄前来哭闹——「你只顾讨太太的疼，就把我们忘了」。探春翻出旧账按例发放，坚持「如今没有长翎毛儿就忘了根本，只拣高枝儿飞去了」是赵姨娘骂她的话。",
+        "meaning": [
+          "探春首次展示其治家之才——秉公办事、不徇私情",
+          "庶出身份与生母的矛盾在此回中达到最激烈的爆发",
+          "赵国基事件揭示封建宗法制度中「姨娘」家族的尴尬地位"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "庶出之痛的最高表达",
+          "content": "探春被赵姨娘气哭是全书中探春形象最复杂的一幕——她一面以制度理性压制赵姨娘的无理要求（按例发放银两），一面在情感上受到致命伤害。她「谁是我舅舅？我舅舅年下才升了九省检点」的哭喊，将宗法制度下庶出子女的悲愤（嫡母之兄弟才是舅舅）表达得淋漓尽致。"
+        },
+        {
+          "type": "character",
+          "title": "制度理性——探春的生存策略",
+          "content": "探春对赵姨娘的「无情」是一种高度理性的生存策略：在嫡庶分明的宗法制度中，她必须「认王夫人为母」（嫡母）才能在贾府立足。她对赵国基丧银的「按例办理」不是针对亲生母亲，而是维护制度的公正性——这种公正性恰恰是她自己的立身之本。"
+        },
+        {
+          "type": "hongxue",
+          "title": "庶出身份的制度批判",
+          "content": "探春与赵姨娘的冲突是全书对封建宗法制度最深刻的批判之一：制度把探春从赵姨娘身边「夺走」（庶出子女认嫡母为母），又让赵姨娘以血缘名义「索回」她。探春被撕裂在「制度之母」（王夫人）与「血缘之母」（赵姨娘）之间——这种撕裂是制度性的、不可和解的。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_tanchun_reform_ch56",
+      "title": "敏探春兴利除宿弊",
+      "event_level": "major",
+      "chapter": {
+        "number": 56,
+        "title": "敏探春兴利除宿弊 时宝钗小惠全大体",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府议事厅",
+        "specific": "探春在代理家务期间推动大观园承包改革——将园中花草竹木分给婆子们承包管理。"
+      },
+      "summary": {
+        "short": "探春在大观园推行承包制改革：将园中各处的花草竹木分给婆子专管，每年交租若干，其余归己。此举既省去了贾府每年维护大观园的开支，又让婆子们有了积极性。宝钗配合以「小惠全大体」。凤姐暗中赞叹：「好个三姑娘，我说她不错。」",
+        "meaning": [
+          "探春的承包改革是全书中最具经济理性的制度设计",
+          "以「责权利合一」的思路代替贾府「人情管理」的积弊",
+          "然改革虽好，「生于末世运偏消」——大观园的衰败不是小修小补能挽回的"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "超越凤姐的治家之才",
+          "content": "探春的治家与凤姐有本质区别：凤姐治家靠「威」——威慑下人、克扣银两、以私欲驱动权力；探春治家靠「理」——制度设计、责权明确、惠及各方。凤姐的经营是短期逐利的，探春的改革着眼于长期可持续发展。这正是探春「才自精明志自高」的注脚。"
+        },
+        {
+          "type": "literary",
+          "title": "承包制改革的经济学含量",
+          "content": "探春的改革设计（「一个破荷叶，一根枯草根子，都是值钱的」）包含了对产权激励的朴素理解——将公共资源承包给个人、收益分成，从而解决「公地悲剧」。这种管理智慧出现在十八世纪的中国古典小说中，令人惊叹。"
+        },
+        {
+          "type": "hongxue",
+          "title": "末世改革者的宿命",
+          "content": "探春的改革在制度设计上近乎完美，但它注定失败——因为她改革的是「大观园」而不是「贾府」，而贾府的根本问题（奢靡、腐败、子弟不肖）在制度层面向她完全封闭。判词「生于末世运偏消」预示了所有改革的徒劳。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_tanchun_slap_ch74",
+      "title": "抄检大观园——探春怒打王善保家的",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秋爽斋",
+        "specific": "王善保家的带队搜查大观园。探春「秉烛开门而待」，痛斥抄检，王善保家的上前动手，探春一掌打去。"
+      },
+      "summary": {
+        "short": "王善保家的带队抄检大观园。探春命丫鬟「秉烛开门而待」，冷嘲道「我们的丫头自然都是些贼，我就是头一个窝主」。王善保家的上前拉探春衣襟想搜身，探春大怒，「拍的一声」一掌打在王善保家的脸上，指脸痛骂，更说出「百足之虫，死而不僵」的惊人之语。",
+        "meaning": [
+          "探春是唯一一个以战斗姿态迎接抄检的小姐——秉烛开门不是示弱而是示威",
+          "打王善保家的一掌是全书中最具尊严的暴力",
+          "「百足之虫死而不僵」「从家里自杀自灭起来」——探春以极端的敏锐预见了贾府败亡的真正原因"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "小姐的尊严——奴隶的耳光",
+          "content": "王善保家的是邢夫人的陪房，在贾府等级序列中属于「有头脸的奴才」。探春这一掌打出了三重意义：一是以小姐身份维护秋爽斋的不可侵犯性；二是对王善保家的借势作威的惩罚；三是以个人暴力表达了被压抑的制度性愤怒。"
+        },
+        {
+          "type": "hongxue",
+          "title": "探春——贾府唯一的政治先知",
+          "content": "探春说的「百足之虫死而不僵，必须先从家里自杀自灭起来才能一败涂地」，是全书中最精准的家族命运预言。她不是在骂一个奴才，而是在揭示贾府（乃至一切末世权力体）的灭亡逻辑——最大的敌人不是外部，而是内部的腐败与内耗。"
+        },
+        {
+          "type": "character",
+          "title": "清醒者的痛苦",
+          "content": "探春的悲剧在于她的「清醒」——她看透了贾府的衰败却无力改变，说出了真理却无人倾听。「咱们也渐渐的来了」一句，包含着对自身命运的最冷峻预见。她是在沉船上仍试图掌舵的人——这种清醒的绝望比众人的麻木更痛苦。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_shanbao",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_tanchun_shoes_ch27",
+      "title": "为宝玉做鞋",
+      "event_level": "minor",
+      "chapter": {
+        "number": 27,
+        "title": "滴翠亭杨妃戏彩蝶 埋香冢飞燕泣残红",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "探春为宝玉做了一双极精致的鞋。宝玉得知后关心探春是否因此被赵姨娘刁难，探春怒道「我只管认得老爷太太两个人，别人我一概不管」。她请求宝玉帮她买些「朴而不俗、直而不拙」的小玩意（柳枝编的小篮子、胶泥垛的风炉儿等）。",
+        "meaning": [
+          "探春与宝玉的兄妹情——超越嫡庶的真挚亲情",
+          "「我只管认得老爷太太两个人」——探春对生母赵姨娘的疏离宣言",
+          "「朴而不俗、直而不拙」——探春审美观的自我表达"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「朴而不俗，直而不拙」——探春的人格自画像",
+          "content": "探春请宝玉买小玩意的标准——「朴而不俗、直而不拙」——正是她自己的美学与人格宣言：质朴而不平庸，直率而不粗鄙。这种审美趣味与她的「秋爽斋」布置（阔朗大气、三间屋子不曾隔断、插着白菊的汝窑花囊）完全一致。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_tanchun_weishun_ch73",
+      "title": "为迎春讨公道",
+      "event_level": "minor",
+      "chapter": {
+        "number": 73,
+        "title": "痴丫头误拾绣春囊 懦小姐不问累金凤",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "迎春的累丝金凤被奶母偷去典当，迎春懦弱不问。探春挺身而出，召来平儿为迎春讨回公道——「如今你两个病重之时，她趁事理之际藏了你的累金凤……你若不理论，她越发得寸进尺了」。",
+        "meaning": [
+          "探春对懦弱的迎春的保护——「一枝玫瑰护着另一枝病柳」",
+          "探春的「管闲事」与宝钗的「不干己事不张口」形成鲜明对照",
+          "此事发生在抄检大观园前夕——探春的保护欲与即将到来的搜查形成张力"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "姐妹之情——庶出三春的命运共同体",
+          "content": "探春为迎春出头，实质上是为「庶出女儿」这个弱势群体出头——她知道迎春的懦弱会招致更多欺辱。她与迎春（同为庶出，一个刚强、一个懦弱）构成了同一命运的两种反应方式：迎春逆来顺受最终被虐而死，探春奋起反抗却终究远嫁。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_tanchun_flower_sign_ch63",
+      "title": "花名签——杏花「日边红杏倚云栽」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "群芳开夜宴，探春抽得杏花签，题「瑶池仙品」，诗云「日边红杏倚云栽」（高蟾《上高侍郎》），注云「得此签者，必得贵婿」。众人笑道：「我们家已有了个王妃，难道你也是王妃不成？」",
+        "meaning": [
+          "「必得贵婿」的注文直接预言探春的远嫁身份——王妃级别的贵婿",
+          "众人「难道你也是王妃不成」的玩笑成为一语成谶",
+          "「日边红杏倚云栽」——「日」喻帝王，「云」喻海疆——远嫁的又一重谶语"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「必得贵婿」——群芳中唯一「吉利」的花签",
+          "content": "十二钗的花签几乎全是悲剧预言（黛玉「莫怨东风」、宝钗「任是无情」、湘云「只恐夜深」），唯独探春的杏花签「必得贵婿」表面吉利。但「远嫁海疆」的「贵婿」本身就是一种放逐——探春的「好签」恰恰预言了最深的分离之痛。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        }
+      ]
+    },
+    {
+      "id": "event_tanchun_marry_ch100",
+      "title": "远嫁海疆",
+      "event_level": "major",
+      "chapter": {
+        "number": 100,
+        "title": "破好事香菱结深恨 悲远嫁宝玉感离情",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "location": {
+        "name": "贾府",
+        "specific": "探春远嫁镇海总制周家。拜别之日，宝玉哭送，探春含泪「把骨肉家园齐来抛闪」。"
+      },
+      "summary": {
+        "short": "探春被议婚于镇海总制周家之子，需远赴海疆。拜别时宝玉泣送，「一帆风雨路三千」。探春强忍泪水登舟——「从今分两地，各自保平安」。这是十二钗中唯一以「远嫁」而非「死亡」收场的人物。",
+        "meaning": [
+          "远嫁是探春判词「清明涕送江边望，千里东风一梦遥」的正式兑现",
+          "在十二钗中，远嫁是仅次于死亡的第二悲剧——离开大观园即离开理想世界",
+          "「分两地，各自保平安」——探春以远嫁的形式完成了对自己身份的告别"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "远嫁——另一种死亡",
+          "content": "在「千红一哭」的悲剧体系中，探春的远嫁是「生离」而非「死别」。但对她而言，离开大观园意味着与少女时代的彻底割裂——她不再是秋爽斋里发起诗社的三姑娘，而是千里之外的陌生人之妻。《分骨肉》曲「从今分两地，各自保平安」表面上是在安慰家人，实则是探春对自我身份的告别。"
+        },
+        {
+          "type": "hongxue",
+          "title": "远嫁的版本差异——「和亲」说与「镇海总制」说",
+          "content": "关于探春远嫁的对象，存在版本差异：后四十回写她嫁镇海总制周家之子；但部分红学家根据「日边红杏倚云栽」「王妃」之谶，推测曹雪芹原意中探春可能是「和亲」远嫁（如嫁给外藩王公），地位更高而分离更远。「一帆风雨路三千」的《分骨肉》曲与「清明涕送江边望」的判词都更接近「海疆和亲」的意象。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_tanchun_intro_ch3",
+      "title": "初见黛玉——「文彩精华，见之忘俗」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 3,
+        "title": "贾雨村夤缘复旧职 林黛玉抛父进京都",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "summary": {
+        "short": "黛玉初入贾府拜见三春姊妹。探春以「削肩细腰，长挑身材，鸭蛋脸面，俊眼修眉，顾盼神飞，文彩精华，见之忘俗」的形象出场。三春中唯独探春的描写带有「神」与「志」的评价——与众不同的精神气象。",
+        "meaning": [
+          "「顾盼神飞」「见之忘俗」——从出场起就为探春定下「不俗」的基调",
+          "与迎春「温柔沉默」、惜春「身量未足」的描写对比鲜明"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "外貌描写即性格预言",
+          "content": "曹雪芹对三春的外貌描写极具区分度：迎春是「温柔沉默」（懦弱）、惜春是「身量未足」（幼小遁世）、探春是「顾盼神飞」（精明志高）。探春的描写中没有任何「病」「弱」「柔」的字眼——她是三春中唯一被赋予「神采」的人物，这预示了她日后作为「改革者」的形象。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jia_tanchun_wang_xifeng",
+      "from": "character_jia_tanchun",
+      "to": "character_wang_xifeng",
+      "type": "姑嫂（合作与戒备）",
+      "nature": [
+        "kinship",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "探春理家期间取代了凤姐的位置（凤姐因病暂退），凤姐对此既欣赏又戒备。凤姐对平儿说「好个三姑娘，我说她不错」，又感叹「如今有一种轻狂人，先要打听姑娘是正出庶出」。探春的理家之才让凤姐感到被挑战的压力。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "权力交接——凤姐暗中观察",
+          "chapter": 55,
+          "description": "凤姐病后安排探春代理理家，暗中令平儿观察探春。凤姐对平儿说「她虽是姑娘家，心里却事事明白……她如今要作法开端，一定是拿我开端」，表明她对探春的忌惮。"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_tanchun_reform_ch56",
+          "description": "探春改革——凤姐暗赞又忌惮"
+        }
+      ],
+      "impact": "探春与凤姐的关系集中体现了全书中最精妙的权力互动——凤姐是探春的前辈（同是理家者），但也意识到探春的天赋可能超越自己。二人之间的「欣赏-忌惮」复合关系，反映了大观园内外两种不同的女性权力模式。"
+    },
+    {
+      "id": "relationship_jia_tanchun_zhao_yiniang",
+      "from": "character_jia_tanchun",
+      "to": "character_zhao_yiniang",
+      "type": "生母女（不认的母女）",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "全书中最复杂的母女关系之一。探春的悲剧很大程度上来自于这个浅薄无知又不断搅扰她的生母。赵姨娘不断以「你是我肚子里爬出来的」来绑架探春，而探春为了在宗法体系中生存，不得不极力与生母切割——「我只管认得老爷太太两个人，别人我一概不管」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赵国基事件——母女决裂",
+          "chapter": 55,
+          "description": "赵姨娘因其兄赵国基死后丧银太少而当众哭闹，探春被气哭：「何苦来，谁不知道我是姨娘养的」。这是全书中探春唯一一次在公开场合承认庶出身份的伤痛。"
+        },
+        {
+          "stage": 1,
+          "title": "决裂",
+          "chapter": 55,
+          "description": "赵国基丧银之争，探春「谁是我舅舅」。"
+        },
+        {
+          "stage": 2,
+          "title": "茉莉粉蔷薇硝事件——旧怨重提",
+          "chapter": 60,
+          "description": "赵姨娘因茉莉粉之事与芳官等厮打，探春赶来劝解：「那些小丫头子们原是些顽意儿……你何苦来，讨这没意思？」母女间的鸿沟在琐碎纠纷中一再显现。"
+        },
+        {
+          "stage": 2,
+          "title": "牵挂与疏远",
+          "chapter": 60,
+          "description": "赵姨娘大闹怡红院，探春赶来劝她「尊重些」。"
+        },
+        {
+          "stage": 3,
+          "title": "死别",
+          "chapter": 112,
+          "description": "赵姨娘暴死，探春不在侧。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_tanchun_manage_ch55",
+          "description": "赵国基事件——母女关系的最低点"
+        }
+      ],
+      "impact": "探春与赵姨娘的关系是全书中关于「庶出」身份制度最深刻的批判——不是探春不孝，而是封建制度将这个女儿架到了不认亲娘的绝境。探春的所有「无情」背后都是制度之恶。"
+    },
+    {
+      "id": "relationship_jia_tanchun_wang_furen",
+      "from": "character_jia_tanchun",
+      "to": "character_wang_furen",
+      "type": "嫡母女（庶女与嫡母）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "探春在宗法意义上认王夫人为母——「我只管认得老爷太太两个人」。王夫人对探春也颇为赏识，将理家大权交给她（凤姐病后）。这份「嫡母赏识」是探春在贾府立足的根本保障，也是她与赵姨娘切割的制度基础。"
+    },
+    {
+      "id": "relationship_jia_tanchun_lin_daiyu",
+      "from": "character_jia_tanchun",
+      "to": "character_lin_daiyu",
+      "type": "表姐妹 / 诗友",
+      "nature": [
+        "kinship",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "探春与黛玉在诗社中互相欣赏。探春发起海棠社时黛玉是最积极的响应者之一（「潇湘妃子」雅号）。探春对黛玉的诗才真心叹服（菊花诗夺魁时探春心悦诚服），黛玉也欣赏探春的干练（「最是心里有算计的」）。"
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_tanchun_haitang",
+      "title": "咏白海棠",
+      "work_type": "七律",
+      "chapter_number": 37,
+      "fact_type": "canonical_text_fact",
+      "summary": "「斜阳寒草带重门，苔翠盈铺雨后盆。玉是精神难比洁，雪为肌骨易销魂。芳心一点娇无力，倩影三更月有痕。莫谓缟仙能羽化，多情伴我咏黄昏。」",
+      "symbolic_notes": "「玉是精神难比洁」——探春以海棠自喻清白高洁的精神。诗风介于钗黛之间，自成一格。"
+    },
+    {
+      "id": "poem_tanchun_zhanju",
+      "title": "簪菊",
+      "work_type": "七律",
+      "chapter_number": 38,
+      "fact_type": "canonical_text_fact",
+      "summary": "「瓶供篱栽日日忙，折来休认镜中妆。长安公子因花癖，彭泽先生是酒狂。短鬓冷沾三径露，葛巾香染九秋霜。高情不入时人眼，拍手凭他笑路旁。」",
+      "symbolic_notes": "「高情不入时人眼，拍手凭他笑路旁」——探春以菊花自况：不在意世俗眼光的孤高。「短鬓」「葛巾」以男子自喻，暗示其胸襟气度有男儿之风。"
+    },
+    {
+      "id": "poem_tanchun_judgment_song",
+      "title": "判词与《分骨肉》曲",
+      "work_type": "判词/曲",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "判词：「才自精明志自高，生于末世运偏消。清明涕送江边望，千里东风一梦遥。」《分骨肉》：「一帆风雨路三千，把骨肉家园齐来抛闪。恐哭损残年，告爹娘，休把儿悬念。自古穷通皆有定，离合岂无缘？从今分两地，各自保平安。」",
+      "symbolic_notes": "「清明涕送江边望」——清明节江边送别的意象预示远嫁。「分骨肉」——远嫁即与骨肉永别。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_tanchun_zhao_yiniang",
+      "title": "探春为什么对赵姨娘如此克制甚至疏离？",
+      "slug": "why-tanchun-distant-from-zhao",
+      "question_type": "character_motivation",
+      "importance_weight": 90,
+      "heat_weight": 85,
+      "neutral_overview": "探春对生母赵姨娘的疏离是全书最令人叹息的母女关系之一。她为什么「不认」亲生母亲？是势利、无情，还是被制度逼迫的生存策略？",
+      "viewpoint_ids": [
+        "vp_zhao_institutional",
+        "vp_zhao_personal",
+        "vp_zhao_tragic"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_zhao_institutional",
+          "title": "制度论——宗法制度迫使她「认嫡不认庶」",
+          "summary": "在封建宗法制度下，庶出子女认嫡母为母——王夫人才是探春制度意义上的「母亲」。探春「我只管认得老爷太太两个人」不是势利，而是对制度的服从。她若认赵姨娘为母，将在制度上失去一切（地位、婚嫁资格、继承权）。",
+          "evidence": [
+            "「谁是我舅舅？我舅舅年下才升了九省检点」——嫡母之兄（王子腾）才是她制度上的舅舅"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_zhao_personal",
+          "title": "人格论——赵姨娘的浅薄让探春「恨铁不成钢」",
+          "summary": "赵姨娘的浅薄、势利、搅闹（赵国基事件、茉莉粉事件）不断伤害探春。探春的疏离不只是制度选择，也是情感上的失望——她无法爱一个以「我肚子里爬出来的」为筹码勒索她的母亲。",
+          "evidence": [
+            "第五十五回赵姨娘闹事时探春「气的脸白气噎」；第六十回赵姨娘与丫鬟厮打让探春「又好笑又好气」"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_zhao_tragic",
+          "title": "双重悲剧论——母女都是制度的受害者",
+          "summary": "赵姨娘与探春的矛盾本质上是制度的悲剧：赵姨娘在制度中被贬低（妾室的卑微地位扭曲了她的人格），探春在制度中被撕裂（血缘与制度的冲突）。二人都不是恶人，都是被「庶出」制度毁掉的人。",
+          "evidence": [
+            "赵姨娘的卑微处境（连丫鬟都看不起她）；探春在制度与血缘间的持续挣扎"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_tanchun_reform_change",
+      "title": "探春理家真正改变了什么？",
+      "slug": "what-did-tanchun-reform-change",
+      "question_type": "theme_analysis",
+      "importance_weight": 85,
+      "heat_weight": 80,
+      "neutral_overview": "探春理家推行了大观园承包制改革——这是全书唯一一次有实质内容的「改革」。但改革究竟改变了什么？贾府因此好转了吗？",
+      "viewpoint_ids": [
+        "vp_reform_economic",
+        "vp_reform_symbolic"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_reform_economic",
+          "title": "经济成效论——有限但真实的改善",
+          "summary": "承包制改革确实带来了经济改善：大观园维护开支减少、婆子们积极性提高、每年还有固定收入。「一年可以省得几百两银子」。改革在小范围内是成功的——证明探春的方案本身没有问题。",
+          "evidence": [
+            "第五十六回探春算账的细节——「一个破荷叶，一根枯草根子，都是值钱的」"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_reform_symbolic",
+          "title": "象征论——改革改变不了任何实质",
+          "summary": "探春的改革在宏观层面毫无意义：大观园的承包收入与贾府的总体开支（奢靡、应酬、浪费）相比微不足道。改革真正改变的不是贾府的经济，而是探春自身的命运轨迹——它展示了她的才能，也证明了她才能的「无用」。",
+          "evidence": [
+            "改革后贾府的经济状况持续恶化（第七十二回凤姐典当贾母金器）；抄检大观园的发生证明内部矛盾并未缓解"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_tanchun_why_reform",
+      "title": "探春为什么想改革贾府？",
+      "slug": "why-tanchun-wants-reform",
+      "question_type": "character_motivation",
+      "importance_weight": 80,
+      "heat_weight": 75,
+      "neutral_overview": "探春是十二钗中唯一主动推行改革的人物。她改革的动力来自哪里？是志气、责任感，还是对自身命运的抗争？",
+      "viewpoint_ids": [
+        "vp_reform_responsibility",
+        "vp_reform_identity",
+        "vp_reform_talent"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_reform_responsibility",
+          "title": "责任感论——「我但凡是个男人」",
+          "summary": "探春曾感慨「我但凡是个男人，可以出得去，我必早走了，立一番事业」。她的改革动力来自一种强烈的责任感——对贾府的责任、对自身才能的责任。她是十二钗中唯一具有「家国情怀」的女性。",
+          "evidence": [
+            "第五十五回「我但凡是个男人」的感慨；改革时的主动与认真"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_reform_identity",
+          "title": "身份焦虑论——改革是庶出女儿证明自己的方式",
+          "summary": "探春的改革带有强烈的身份焦虑色彩——作为庶出女儿，她必须用「实绩」证明自己配得上贾府三小姐的地位。改革是她在制度内能做的最高级别的自我证明。",
+          "evidence": [
+            "探春理家时对「按例办事」的极度坚持——她比任何人更依赖制度的公平性"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_reform_talent",
+          "title": "天才论——才能的自然宣泄",
+          "summary": "探春改革的最根本动力是她的才能本身——「才自精明志自高」的「志」即改革的志气。她看到贾府的积弊，如良医看到病灶，本能地要开方治病。改革是她才能的自然宣泄，而非深思熟虑的政治选择。",
+          "evidence": [
+            "探春改革时的锐气与兴奋——「如今这园子是我的新创」"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_tanchun_slap_meaning",
+      "title": "探春打王善保家的一掌意味着什么？",
+      "slug": "meaning-of-tanchuns-slap",
+      "question_type": "event_analysis",
+      "importance_weight": 85,
+      "heat_weight": 85,
+      "neutral_overview": "抄检大观园时探春掌掴王善保家的，是全书最著名的「暴力场面」之一。这一掌意味着什么？",
+      "viewpoint_ids": [
+        "vp_slap_dignity",
+        "vp_slap_prophecy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_slap_dignity",
+          "title": "尊严论——小姐对奴才对小姐尊严的侵犯的反击",
+          "summary": "王善保家的「拉起探春的衣襟」是全书最大的阶级越界行为——一个奴才动手搜小姐的身。探春的一掌是对这种越界的最直接反击：维护的不仅是自己的尊严，更是整个小姐阶层不可侵犯的边界。",
+          "evidence": [
+            "「你是什么东西，敢来拉扯我的衣裳！」——探春的原话直指阶级边界"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_slap_prophecy",
+          "title": "预言论——一掌打出了贾府的衰亡预言",
+          "summary": "这一掌的更深意义在于紧随其后的预言——「百足之虫死而不僵」「必须先从家里自杀自灭起来才能一败涂地」。探春以暴力的形式表达了对「自相残杀」的愤怒：抄检大观园本身就是贾府「自杀自灭」的开始。",
+          "evidence": [
+            "第七十四回探春预言与后文贾府败亡的对应关系"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_tanchun_far_marriage",
+      "title": "探春远嫁是悲剧还是「最好的结局」？",
+      "slug": "is-tanchuns-marriage-tragic",
+      "question_type": "character_fate",
+      "importance_weight": 80,
+      "heat_weight": 80,
+      "neutral_overview": "在十二钗的结局中，探春的远嫁（而非死亡）显得「幸运」。但远嫁真的是她的幸运吗？还是另一种形式的悲剧？",
+      "viewpoint_ids": [
+        "vp_marriage_lucky",
+        "vp_marriage_tragic"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_marriage_lucky",
+          "title": "幸运算——十二钗中唯一「保全」的结局",
+          "summary": "探春远嫁虽然离别痛苦，但她在贾府败亡之前离开——避免了抄家之祸，嫁得「贵婿」，在某种意义上保全了自己。有人解读「日边红杏倚云栽」为曹雪芹对探春的「偏爱」——让她成为唯一逃出败亡命运的金钗。",
+          "evidence": [
+            "花签「必得贵婿」；探春远嫁时间在贾府彻底败亡之前"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_marriage_tragic",
+          "title": "悲剧论——远嫁即放逐，生离即死别",
+          "summary": "对大观园的女儿而言，离开大观园本身就是悲剧——《分骨肉》曲的悲恸程度不亚于任何死亡场景。探春「把骨肉家园齐来抛闪」的远嫁，意味着与自己的全部过去（诗社、秋爽斋、理想国）的彻底割裂。「清明涕送江边望」的清明节意象暗示这场离别带有死亡般的终结性。",
+          "evidence": [
+            "《分骨肉》曲全文；判词「清明涕送江边望，千里东风一梦遥」"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_tanchun_wangfei",
+      "title": "探春是否做了「王妃」？「日边红杏倚云栽」的「贵婿」是谁？",
+      "slug": "did-tanchun-become-princess",
+      "question_type": "character_fate",
+      "importance_weight": 75,
+      "heat_weight": 70,
+      "neutral_overview": "探春花签「必得贵婿」与众人「难道你也是王妃不成」的玩笑，引发了关于探春婚姻对象的猜想。后四十回写她嫁镇海总制周家之子，但红学界有多种推测。",
+      "viewpoint_ids": [
+        "vp_wangfei_zhou",
+        "vp_wangfei_heqin"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_wangfei_zhou",
+          "title": "镇海总制说（后四十回）",
+          "summary": "后四十回（gaoe）写探春嫁镇海总制周家之子。镇海总制相当于海防武官，级别不高——这与「王妃」之谶存在落差，被认为可能不符合曹雪芹原意。",
+          "evidence": [
+            "第一百回探春远嫁情节"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_wangfei_heqin",
+          "title": "和亲王妃说（脂批线索）",
+          "summary": "部分红学家根据「日边红杏倚云栽」（「日」喻帝王）、「王妃」之谶及《分骨肉》「一帆风雨路三千」的远度，推测曹雪芹原意中探春可能远嫁海外藩王或成为和亲王妃——如探春嫁给某个海外国主（周汝昌等有相关论述）。此说与「清明涕送江边望」的江边送别意象吻合。",
+          "evidence": [
+            "花签「瑶池仙品」「必得贵婿」；众人「王妃」之谶；《分骨肉》曲的远度暗示"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_tanchun_if_man",
+      "title": "「我但凡是个男人」——探春如果生为男子会怎样？",
+      "slug": "if-tanchun-were-a-man",
+      "question_type": "counterfactual",
+      "importance_weight": 75,
+      "heat_weight": 75,
+      "neutral_overview": "探春「我但凡是个男人，可以出得去，我必早走了，立一番事业」的感慨，是全书对性别束缚的最直接控诉之一。如果探春生为男子，她的命运会如何？",
+      "viewpoint_ids": [
+        "vp_man_success",
+        "vp_man_fail"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_man_success",
+          "title": "功业论——探春若为男子足以建功立业",
+          "summary": "以探春的才能（组织力、经济头脑、政治预见力），若生为男子完全可以「立一番事业」——她的承包制改革证明她有能力经营产业，她的「百足之虫」预言证明她有政治眼光。她若为男，或为贾府的中兴之臣。",
+          "evidence": [
+            "探春的全部理家才能与政治预见（第五十五至五十六回、第七十四回）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_man_fail",
+          "title": "宿命论——「生于末世运偏消」对男女一视同仁",
+          "summary": "「末世」的宿命不因性别而改变——贾府的男人们（贾赦、贾珍、贾琏）无一成器，探春若生为男子（作为庶子）的命运未必更好——她可能像贾环一样被嫡庶斗争毁掉。「生于末世」才是根本限定，「身为女性」只是第二重枷锁。",
+          "evidence": [
+            "判词「才自精明志自高，生于末世运偏消」——强调「末世」而非「女性」；贾府男性精英的集体堕落"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_tanchun_sanchun",
+      "title": "「三春」中探春与迎春、惜春的命运构成怎样的对照结构？",
+      "slug": "tanchun-yingchun-xichun-contrast",
+      "question_type": "literary_analysis",
+      "importance_weight": 75,
+      "heat_weight": 65,
+      "neutral_overview": "「三春」（迎春、探春、惜春）同为贾府小姐，命运却截然不同：迎春被虐而死、探春远嫁分离、惜春遁入空门。曹雪芹为何设计这样的对照结构？",
+      "viewpoint_ids": [
+        "vp_sanchun_structure"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_sanchun_structure",
+          "title": "三重命运论——顺从、反抗、逃离",
+          "summary": "三春的命运构成了对封建女性处境的三种回应：迎春=顺从（被制度吞噬）、探春=反抗（被制度放逐）、惜春=逃离（遁入空门）。三种策略无一成功——这证明在封建制度下，女性无论选择哪条路都是死路。三春的对照结构是全书对女性命运的最完整展示。",
+          "evidence": [
+            "迎春被孙绍祖虐死（「子系中山狼」）；探春远嫁（「清明涕送」）；惜春出家（「缁衣顿改昔年妆」）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_tanchun_reformer",
+      "title": "探春——大观园改革家的悲剧宿命",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1980,
+      "source_title": "多项红学人物专题研究",
+      "description": "探春被许多学者视为《红楼梦》中唯一的「改革家」——她的承包制改革在制度设计上近乎完美，然而「生于末世运偏消」，她所有的改革努力都被贾府不可逆转的衰败吞没。探春的悲剧是个人才华与历史大势之间的悲剧。",
+      "opinions": [
+        {
+          "side": "支持者",
+          "content": "探春的承包改革在理论上完全可以拯救贾府的财政危机——如果她不是女性、不是庶出、生于贾府的鼎盛期而非末世，她完全有可能成为贾府的中兴之臣。",
+          "proponent": "多数红学人物分析派学者"
+        },
+        {
+          "side": "补充者",
+          "content": "探春的改革虽然在制度层面合理，但她的一切权力来自王夫人（嫡母）的授权。当抄检大观园发生时，探春的「理」在「势」面前毫无还手之力。她的悲剧不仅在于末世，更在于她终究是个没有独立权力的庶女。",
+          "proponent": "部分女性主义批评者"
+        }
+      ]
+    },
+    {
+      "id": "viewpoint_tanchun_women_politics",
+      "title": "探春——十二钗中唯一的「政治人物」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "王昆仑等",
+      "year": 1944,
+      "source_title": "《红楼梦人物论》（王昆仑，1944）",
+      "description": "王昆仑指出探春是十二钗中唯一具有「政治人格」的女性——她关心家族命运、具有改革意识、敢于公开表达政治见解（「百足之虫」预言）。这种政治性使她在十二钗中独树一帜，也使她的悲剧（政治才能无处施展）具有独特的意义。"
+    },
+    {
+      "id": "viewpoint_tanchun_shuchu",
+      "title": "庶出身份论——探春悲剧的根源",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学身份研究",
+      "year": 1985,
+      "description": "部分学者认为探春所有性格特征（极度自尊、制度理性、与赵姨娘的切割）都能追溯到「庶出」身份：她的刚强是对庶出歧视的过度补偿，她的制度理性是庶出女儿在宗法制度中的生存必需，她的悲剧是制度性身份歧视的直接产物。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 10,
+    "total_relationships": 8,
+    "total_poems": 3,
+    "total_questions": 8,
+    "total_viewpoints": 3,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L3",
+    "fact_type_distribution": {
+      "canonical_text_fact": 28,
+      "text_inference": 16,
+      "scholarly_viewpoint": 10,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

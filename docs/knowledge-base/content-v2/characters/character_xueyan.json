@@ -1,0 +1,776 @@
+{
+  "character": {
+    "id": "character_xueyan",
+    "name": "雪雁",
+    "slug": "xue-yan",
+    "aliases": [],
+    "category": "荣国府丫鬟（黛玉丫鬟，林家带来）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "林家之婢（苏州带来），黛玉自幼随身的小丫鬟。",
+      "position": "黛玉自幼丫鬟（十岁随黛玉进京），潇湘馆丫鬟，后随紫鹃共侍黛玉。",
+      "origin": "林府（苏州）出身。",
+      "generation": "与黛玉同辈的丫鬟阶层"
+    },
+    "tags": [
+      "黛玉丫鬟",
+      "苏州带来",
+      "紫鹃雪雁",
+      "送手炉",
+      "掉包计",
+      "扶宝钗拜堂",
+      "孤雁",
+      "忠贞长情"
+    ],
+    "summary": {
+      "short": "黛玉从苏州带来的贴身小丫鬟。第三回随黛玉进京（时年十岁），与紫鹃共侍黛玉。后四十回（gaoe，第九十七回）她被贾母王夫人借去「扶宝钗拜堂」——掉包计里最被争议的「帮凶」还是「道具」，至今争论不休。",
+      "long": "雪雁是潇湘馆里最容易被忘记的丫鬟：紫鹃有「慧」名，晴雯有「勇」名，她似乎只有「小」——第三回随黛玉进京时她才十岁，「一团孩气」，贾母嫌她小，遂把自己的丫鬟鹦哥（紫鹃）拨给黛玉。从此潇湘馆有了两个鸟名的丫鬟：紫鹃与雪雁——曹雪芹给黛玉配了两个「鸟」，一鹃一雁，都是中国文学里最哀愁的意象：杜鹃啼血，孤雁失群。雪雁的戏份不多，但每一笔都有分量：第八回雪天里紫鹃差她给黛玉送手炉——「紫鹃姐姐怕姑娘冷」；第五十七回紫鹃试玉前后，雪雁取人参、传话、看见宝玉落泪——她是宝黛风波的现场目击者。后四十回（gaoe）里她的命运急转：第九十六回黛玉闻知宝玉婚事「迷本性」，雪雁与紫鹃满园寻找；第九十七回「林黛玉焚稿断痴情 薛宝钗出闺成大礼」，贾母王夫人为瞒过疯癫的宝玉，借雪雁去「扶宝钗拜堂」——宝玉看见「林妹妹」身边的雪雁，才信新娘是黛玉。雪雁「含泪应命」。这一笔使她成为红学公案：雪雁背叛黛玉了吗？支持者说她一个十岁起就跟着黛玉的丫鬟，被迫扶仇人之堂，是掉包计最残忍的一环；批评者说她若能像紫鹃一样拒绝，黛玉至少不会在死前知道真相（黛玉临终问「妹妹，我这里并没有亲人」——紫鹃在侧，雪雁在拜堂）。她的名字是她的命运：大雁是忠贞长情之鸟——可她的「忠贞」，在掉包计的关头被权力碾碎了。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "幼——一团孩气的陪嫁",
+        "fact_type": "canonical_text_fact",
+        "description": "雪雁随黛玉进京时才十岁，比黛玉大不了多少——她不是「能干」的丫鬟，是「一起长大」的伴。这种幼使她与黛玉的关系更像姐妹而非主仆，也使她在关键时刻没有紫鹃的胆识与分量。"
+      },
+      {
+        "dimension": "忠——雁之忠贞",
+        "fact_type": "canonical_text_fact",
+        "description": "雪雁从苏州跟到京都，从林家跟到贾府，黛玉在哪儿她在哪儿。她的忠是「跟随」式的：没有宣言，只有在场。送手炉、取人参、寻黛玉——她的忠都写在日常的细枝末节里。"
+      },
+      {
+        "dimension": "弱——权力面前的无力",
+        "fact_type": "disputed_version",
+        "description": "掉包计（gaoe，第九十七回）里，雪雁被贾母王夫人一叫就去扶宝钗拜堂——她的「弱」在此暴露：十岁起依附贾府的丫鬟，没有任何对权力的抵抗能力。attribution=gaoe",
+        "note": "attribution=gaoe"
+      },
+      {
+        "dimension": "隐——潇湘馆的暗影",
+        "fact_type": "canonical_text_fact",
+        "description": "雪雁是潇湘馆的「第二人」：紫鹃的光芒下，她永远是影子。但曹雪芹的笔从未忘记她——她的每一次出现（送炉、传话、寻人）都在提醒读者：黛玉的悲伤，不止一个人在承受。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xueyan_ch3",
+        "title": "随黛玉进京（第三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xueyan_ch8",
+        "title": "送手炉（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xueyan_ch57",
+        "title": "紫鹃试玉时的目击者（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xueyan_ch96",
+        "title": "泄机关——寻找迷本性的黛玉（第九十六回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xueyan_ch97",
+        "title": "掉包计——扶宝钗拜堂（第九十七回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch03_xueyan_intro",
+        "quote": "黛玉只带了两个人来：一个是自幼奶娘王嬷嬷，一个是十岁的小丫头，亦是自幼随身的，名唤作雪雁。贾母见雪雁甚小，一团孩气，遂将自己身边的一个二等丫头名唤鹦哥者，与了黛玉。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三回。雪雁十岁入府，「一团孩气」——贾母因此赐紫鹃。她的「小」，从开场就写定了。"
+      },
+      {
+        "source_id": "source_ch08_xueyan_shoulu",
+        "quote": "雪雁道：「紫鹃姐姐怕姑娘冷，叫我送来的。」……黛玉因笑道：「也亏你倒听他的话。我平日和你说的，全当耳旁风；怎么他说了你就依，比圣旨还快些！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回。雪天送手炉——雪雁的日常照拂，成了黛玉打趣宝玉「半含酸」的由头。"
+      },
+      {
+        "source_id": "source_ch57_xueyan_jianyu",
+        "quote": "（雪雁从王夫人处取了人参回来）……忽见宝玉在桃花树下落泪……雪雁……把「紫鹃姑娘要回苏州去」的话说了一遍……「不如我们一同回去的好。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回。雪雁撞见宝玉痴坐落泪——她是「试玉」风暴最早的现场目击者之一。"
+      },
+      {
+        "source_id": "source_ch97_xueyan_diaobao",
+        "quote": "（凤姐、王夫人命雪雁扶宝钗拜堂）……雪雁……只得含泪去了。……宝玉因看着雪雁，便信了新娘是黛玉——「今日林妹妹来了没有？」",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第九十七回。雪雁被借去扶宝钗拜堂，她的在场使宝玉信以为真——掉包计得以成立的关键一环。"
+      },
+      {
+        "source_id": "source_ch97_xueyan_houhui",
+        "quote": "雪雁道：「……我心里好过不去。原想林姑娘还叫我一声『妹妹』呢。」……（紫鹃道）「你到这会子还念这个，我们这样的人，一点真心也没有了。」",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第九十七回。雪雁事后的愧悔与紫鹃的痛斥——掉包计的伤痕，在两个丫鬟之间裂开。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名「雪雁」——雁为大雁，忠贞长情之鸟；雪为南国寒色",
+      "detail": "雁是中国文学中的忠贞之鸟：一夫一妻、传书寄意、孤雁失群。「雪雁」与「紫鹃」并立，构成潇湘馆的鸟名系统——鹃啼血，雁失群，都是哀愁的极致意象。黛玉是苏州（南方）之人，雪雁是南方之鸟，随主北迁，客居异乡——她的名字里藏着主仆二人共同的「寄居」之悲。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 3,
+          "evidence": "黛玉从苏州带来的小丫头，甚小（「一团孩气」）",
+          "age": "甚小（约10岁上下）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约10岁上下（第3回「一团孩气」）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第3回明文「一团孩气」——是黛玉进府时唯一带年龄信息的人物（刘上生指出）。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_xueyan_ch3",
+      "title": "随黛玉进京——一团孩气",
+      "event_level": "major",
+      "chapter": {
+        "number": 3,
+        "title": "贾雨村夤缘复旧职 林黛玉抛父进京都",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "苏州→京都荣国府",
+        "specific": "黛玉抛父进京，只带奶娘王嬷嬷与十岁的雪雁。贾母见雪雁「甚小，一团孩气」，把自己的丫鬟鹦哥（紫鹃）拨给黛玉。雪雁从此与紫鹃共侍黛玉。"
+      },
+      "summary": {
+        "short": "雪雁是黛玉从「家」带来的唯一丫鬟：十岁、幼小、一团孩气。贾母嫌她小，拨来紫鹃——潇湘馆的「双鸟」格局，从第三回起就位。",
+        "meaning": [
+          "雪雁＝黛玉与故乡的最后连接——她是从苏州带到京都的「家」的一部分",
+          "贾母拨紫鹃——对雪雁「小」的补位，也是对黛玉的加恩",
+          "「十岁的小丫头」——她与黛玉一同在异乡长大"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "鸟名系统的起点",
+          "content": "第三回埋下「紫鹃雪雁」的鸟名系统：贾母赐鹦哥（紫鹃），黛玉自带雪雁——一鹃一雁，都是「啼」「失群」的哀鸟。曹雪芹从黛玉进府第一天起，就在她身边布置了命运的符号。"
+        },
+        {
+          "type": "character",
+          "title": "故乡的行李",
+          "content": "对黛玉而言，雪雁不是丫鬟，是行李里的故乡：她是唯一从林家带来的人，是母亲那边的世界的最后凭证。雪雁的「小」，反而让这份陪伴更纯粹——不是服侍，是相依。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xueyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zijuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xueyan_ch8",
+      "title": "送手炉——怕姑娘冷",
+      "event_level": "minor",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院",
+        "specific": "大雪天，黛玉在宝钗处。紫鹃差雪雁送小手炉来。黛玉借题发挥，打趣雪雁「比圣旨还快些」，暗刺宝玉听宝钗的话。"
+      },
+      "summary": {
+        "short": "雪天里的手炉，是雪雁日常照拂的代表：紫鹃的细心、雪雁的执行、黛玉的机锋，一个手炉串起了潇湘馆的全部温度。",
+        "meaning": [
+          "「紫鹃姐姐怕姑娘冷」——潇湘馆的照拂链：紫鹃想，雪雁做",
+          "黛玉借手炉打趣——雪雁的忠成了小姐的「道具」",
+          "雪雁的执行力——她的「小」里也有靠谱的一面"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "照拂链的末端",
+          "content": "潇湘馆的照拂体系是「紫鹃—雪雁」的接力：紫鹃统筹（想得到），雪雁执行（跑得动）。雪雁的形象就在这些末端细节里：送炉、取参、传话——她是黛玉生活里那个「使唤得动」的人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xueyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zijuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xueyan_ch57",
+      "title": "紫鹃试玉时的目击者",
+      "event_level": "minor",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "雪雁从王夫人处取了人参回来，见宝玉在桃花树下呆呆落泪。宝玉拉住她问话，她照实说了紫鹃试玉的事，回来又学给紫鹃听。"
+      },
+      "summary": {
+        "short": "试玉风暴中，雪雁是不起眼却关键的目击者：她撞见宝玉落泪、传递消息、学话给紫鹃——宝黛风波的每一次涟漪，都经过她的眼与口。",
+        "meaning": [
+          "桃花树下的落泪——全书最著名的「痴」场面之一，由雪雁引出",
+          "她的传话功能——潇湘馆的信息枢纽之一",
+          "「不如我们一同回去的好」——她随口一句，成了紫鹃试玉的素材"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "见证者",
+          "content": "雪雁在宝黛爱情史上的角色是「见证者」：她看见宝玉的泪、听见紫鹃的诈、接过黛玉的帕子。她不曾推动历史，但历史每翻一页，她都在场——曹雪芹用她的在场，给潇湘馆的故事添了一层「日常的真实」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xueyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zijuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xueyan_ch96",
+      "title": "泄机关——寻找迷本性的黛玉",
+      "event_level": "minor",
+      "chapter": {
+        "number": 96,
+        "title": "泄机关颦儿迷本性",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "大观园",
+        "specific": "后四十回（gaoe）写黛玉从傻大姐口中得知宝玉将娶宝钗，精神崩溃，「迷本性」般在园中乱走。雪雁与紫鹃满园寻找，找到时黛玉「颜色如土」，二人忙扶回潇湘馆。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）里，雪雁是黛玉崩溃现场的寻找者：满园找小姐，扶回潇湘馆——她的「在场」见证了黛玉从「迷本性」走向「焚稿」的全过程。",
+        "meaning": [
+          "雪雁的寻找与扶持——丫鬟对小姐最后的守护",
+          "黛玉「迷本性」的惨状由她的眼睛传递",
+          "这场寻找之后，潇湘馆的悲剧进入倒计时"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "守护到最后一刻",
+          "content": "雪雁与紫鹃在黛玉最后的日夜里轮流守候：寻人、扶归、煎药、垂泪。她从未缺席黛玉的毁灭——这份「在场的忠」，正是后来她被迫扶拜堂时痛苦的根源。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xueyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_sha_dajie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_zijuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xueyan_ch97",
+      "title": "掉包计——扶宝钗拜堂",
+      "event_level": "major",
+      "chapter": {
+        "number": 97,
+        "title": "林黛玉焚稿断痴情 薛宝钗出闺成大礼",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "潇湘馆→喜堂",
+        "specific": "后四十回（gaoe）写贾母王夫人定下掉包计：借雪雁扶宝钗拜堂，以骗过疯癫的宝玉（见雪雁在侧，宝玉确信新娘是黛玉）。凤姐遣人叫雪雁，雪雁「只得含泪去了」。拜堂时宝玉掀盖头，方知是宝钗。"
+      },
+      "summary": {
+        "short": "掉包计最残忍的一环：贾府借黛玉的丫鬟雪雁，去扶宝钗拜堂——雪雁的在场，使宝玉深信新娘就是黛玉。她「含泪应命」，成了这桩婚姻骗局的道具。",
+        "meaning": [
+          "雪雁的「在场」是骗局成立的关键——贾府连黛玉的丫鬟都借走了",
+          "「只得含泪去了」——她的眼泪证明她是被押走的，不是情愿的",
+          "同一个时辰：雪雁在喜堂扶新人，黛玉在潇湘馆焚稿——掉包计的双重现场"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "道具还是帮凶——雪雁公案",
+          "content": "雪雁扶拜堂是续书（gaoe）最富争议的一笔：批评者认为这是对黛玉的背叛——十岁跟随的小丫鬟，在小姐咽气前扶仇人拜堂；辩护者认为她只是权力的道具——贾母王夫人之命，一个无依的丫鬟如何违抗？「只得含泪」四字，恰是她的无力的证明。此公案至今无解，恰是掉包计残酷性的最好注脚。",
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "type": "character",
+          "title": "弱者的代价",
+          "content": "雪雁与紫鹃在掉包计中的分野令人心酸：紫鹃有「慧」与「烈」，被黛玉留在身边（贾府不敢借她）；雪雁只有「小」与「弱」，所以被借走。两个丫鬟，两种命运——不是忠心的差别，是分量与胆识的差别。"
+        },
+        {
+          "type": "literary",
+          "title": "双鸟的离巢",
+          "content": "掉包计让「紫鹃雪雁」这对双鸟第一次分离：紫鹃在潇湘馆守黛玉的最后一口气，雪雁在喜堂扶宝钗的盖头。一鹃啼血，一雁离群——鸟名系统里的哀愁意象，在第九十七回同时兑现。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xueyan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xueyan_daiyu",
+      "from": "character_xueyan",
+      "to": "character_lin_daiyu",
+      "type": "主仆（自幼相随）",
+      "nature": [
+        "master_servant",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "雪雁与黛玉的关系始于苏州：十岁随黛玉进京，从林府到贾府，从初来到临终，她从未离开。黛玉待她宽厚，她待黛玉忠诚——这份关系没有紫鹃式的惊心动魄，却更长、更日常，像衣襟上的旧针脚。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "自幼相随",
+          "chapter": 3,
+          "description": "十岁的雪雁随黛玉进京。"
+        },
+        {
+          "stage": 2,
+          "title": "日常照拂",
+          "chapter": 8,
+          "description": "雪天送手炉等日常守护。"
+        },
+        {
+          "stage": 3,
+          "title": "临终分离",
+          "chapter": 97,
+          "description": "黛玉焚稿时雪雁被借去扶宝钗拜堂——主仆的最后一面，错身而过。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xueyan_zijuan",
+      "from": "character_xueyan",
+      "to": "character_zijuan",
+      "type": "同侪（潇湘馆搭档）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "雪雁与紫鹃是潇湘馆的「双鸟」：紫鹃主事，雪雁执行；紫鹃有慧，雪雁有忠。二人平日默契（送炉、传话、照拂），到黛玉临终时却被迫分离——掉包计（gaoe）让雪雁扶拜堂、紫鹃守灵前，两个丫鬟在黛玉生死关头站到了两个现场。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "搭档日常",
+          "chapter": 8,
+          "description": "紫鹃差雪雁送手炉——照拂的分工。"
+        },
+        {
+          "stage": 2,
+          "title": "患难相扶",
+          "chapter": 96,
+          "description": "黛玉迷本性，二人满园寻找。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 3,
+          "title": "被迫分离",
+          "chapter": 97,
+          "description": "雪雁扶拜堂，紫鹃守灵前。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xueyan_baoyu",
+      "from": "character_xueyan",
+      "to": "character_jia_baoyu",
+      "type": "主仆（见证者）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "雪雁是宝玉痴情的目击者：第五十七回桃花树下的落泪，由她看见；第九十七回（gaoe）拜堂上的「信以为真」，由她的在场成全。她与宝玉的交集不多，却都发生在宝黛爱情的关键节点上。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "撞见落泪",
+          "chapter": 57,
+          "description": "雪雁撞见宝玉桃花树下痴坐落泪。"
+        },
+        {
+          "stage": 2,
+          "title": "扶拜堂之证",
+          "chapter": 97,
+          "description": "宝玉见雪雁在侧而信新娘是黛玉。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xueyan_jia_mu",
+      "from": "character_xueyan",
+      "to": "character_jia_mu",
+      "type": "恩主（赐婢的因由）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母见雪雁「甚小，一团孩气」，遂拨紫鹃给黛玉——雪雁的「小」直接促成了紫鹃的到任。后四十回（gaoe）里，又正是贾母拍板借雪雁扶拜堂：这位老太太既是她的恩主，也是掉包计的决策者。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赐婢",
+          "chapter": 3,
+          "description": "贾母因雪雁小，拨鹦哥（紫鹃）与黛玉。"
+        },
+        {
+          "stage": 2,
+          "title": "借人",
+          "chapter": 97,
+          "description": "贾母王夫人借雪雁扶宝钗拜堂。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xueyan_baochai",
+      "from": "character_xueyan",
+      "to": "character_xue_baochai",
+      "type": "被迫侍奉（掉包计的接榫）",
+      "nature": [
+        "master_servant",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）写雪雁被迫扶宝钗拜堂——她与宝钗此前无仇，这一扶却把二人接进了全书最残酷的关系里：丫鬟扶了「鸠占鹊巢」的新娘，而旧主正在潇湘馆咽气。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "扶拜堂",
+          "chapter": 97,
+          "description": "雪雁含泪扶宝钗拜堂。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_xueyan_beipan",
+      "title": "雪雁在掉包计中算不算背叛黛玉？",
+      "slug": "did-xueyan-betray-daiyu-in-the-switch-plot",
+      "question_type": "character_morality",
+      "importance_weight": 78,
+      "heat_weight": 76,
+      "neutral_overview": "后四十回（gaoe，第九十七回）雪雁被借去扶宝钗拜堂——十岁起跟随黛玉的丫鬟，在小姐咽气前扶了「仇人」的盖头。这是背叛吗？",
+      "viewpoint_ids": [
+        "vp_xueyan_forced",
+        "vp_xueyan_betray",
+        "vp_xueyan_tool"
+      ],
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "viewpoints": [
+        {
+          "id": "vp_xueyan_forced",
+          "title": "被迫论：小小丫鬟，无力违抗贾母王夫人之命",
+          "summary": "雪雁「只得含泪去了」——她的眼泪就是她的立场。一个十岁起依附贾府的丫鬟，在贾母王夫人的直接命令面前没有任何抵抗空间。把「背叛」的罪名加给她，是把她当成了有选择权的人，而她没有。",
+          "evidence": [
+            "「只得含泪去了」的描写",
+            "命令来自贾母王夫人（最高权力）"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_xueyan_betray",
+          "title": "背叛论：忠贞之雁，最终离了群",
+          "summary": "无论是否被迫，雪雁的在场成全了骗局：宝玉因看见她而信了新娘是黛玉。她本可以像紫鹃一样拒绝（紫鹃就敢于顶撞林之孝家的），却选择了顺从。以「雁」之忠贞为名的人，在最关键的时刻背弃了旧主——这是名字与行为的最大断裂。",
+          "evidence": [
+            "紫鹃拒绝被借的对照",
+            "雪雁在拜堂现场使宝玉信以为真的关键作用"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_xueyan_tool",
+          "title": "工具论：她只是骗局的道具，不是骗局的参与者",
+          "summary": "雪雁在掉包计里的地位与一件「信物」无异：贾府借的不是她的意愿，是她的「在场」。她不需要同意，甚至不需要知情——她只是被摆到喜堂上的一件活道具。对道具谈背叛，是混淆了「在场」与「参与」。",
+          "evidence": [
+            "她被借用的方式（凤姐遣人来叫）",
+            "她在骗局中无任何自主行动的描写"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "question_xueyan_touming",
+      "title": "为什么紫鹃有「慧」名，雪雁几乎透明？",
+      "slug": "why-is-xueyan-almost-invisible-next-to-zijuan",
+      "question_type": "comparative_analysis",
+      "importance_weight": 70,
+      "heat_weight": 64,
+      "neutral_overview": "同样服侍黛玉，紫鹃名满回目（慧紫鹃），雪雁几乎无名。是她的资质不足，还是曹雪芹有意为之？",
+      "viewpoint_ids": [
+        "vp_xueyan_quality",
+        "vp_xueyan_function",
+        "vp_xueyan_age"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xueyan_quality",
+          "title": "资质论：她的「小」限制了她的戏",
+          "summary": "雪雁十岁进府，见识、胆识、手腕都不及贾母房里出来的紫鹃。贾母拨紫鹃正是对她的「补位」——潇湘馆需要一个能主事的，雪雁只能做执行的。她的透明是能力的透明。",
+          "evidence": [
+            "贾母「一团孩气」的评定",
+            "全书雪雁无主事描写的缺席"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xueyan_function",
+          "title": "叙事功能论：她是紫鹃的「衬」，也是黛玉的「根」",
+          "summary": "曹雪芹需要雪雁的透明：她的存在让紫鹃的形象立起来（对照组），也让黛玉的「无依」更真实（唯一的家生旧仆竟这么小）。她的透明是叙事的功能性设计——不是失败，是分工。",
+          "evidence": [
+            "鸟名系统的对称设计（紫鹃雪雁）",
+            "她在关键情节中的「在场而不在场」"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_xueyan_age",
+          "title": "成长论：她到黛玉死时也才二十上下",
+          "summary": "雪雁十岁进府，前八十回不过十来岁，后四十回（gaoe）也才二十上下——她全程是个「小丫鬟」。曹雪芹写的是她的成长缺席：还没来得及长大，主人就死了。她的透明是年龄的透明，也是被时代省略的透明。",
+          "evidence": [
+            "第三回十岁的设定",
+            "她始终以「小丫头」身分出现的文本事实"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_xueyan_ming",
+      "title": "「雪雁」之名有何寓意？",
+      "slug": "what-does-the-name-xueyan-mean",
+      "question_type": "name_analysis",
+      "importance_weight": 68,
+      "heat_weight": 62,
+      "neutral_overview": "雪雁与紫鹃并立为潇湘馆的鸟名丫鬟——这个「雁」字，指向什么？",
+      "viewpoint_ids": [
+        "vp_xueyan_zhongzhen",
+        "vp_xueyan_guhan",
+        "vp_xueyan_niaoming"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xueyan_zhongzhen",
+          "title": "忠贞论：大雁是忠贞长情之鸟",
+          "summary": "大雁一夫一妻、终生相随，是忠贞的象征。雪雁之名指向她的忠——十岁起跟随黛玉，直至终身。掉包计（gaoe）的「离群」之所以刺眼，正因雁之本义是忠贞。",
+          "evidence": [
+            "大雁的生物习性与文化象征",
+            "她自幼随黛玉的事实"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xueyan_guhan",
+          "title": "孤寒论：孤雁失群，主仆皆客",
+          "summary": "「雪」与「雁」合看是孤寒意象：雪中的雁，离群的雁。黛玉客居贾府，雪雁随主北迁——主仆都是「失群之雁」。她的名字暗示的不是她的命运，是黛玉的：寄人篱下的孤寒。",
+          "evidence": [
+            "孤雁失群的文学传统",
+            "黛玉寄居的处境与雪雁之「雪」的寒意"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xueyan_niaoming",
+          "title": "鸟名系统论：潇湘馆的双鸟是黛玉的双重命运",
+          "summary": "紫鹃（杜鹃啼血）与雪雁（孤雁失群）构成潇湘馆的鸟名系统：鹃啼血对应黛玉之泪尽，雁失群对应黛玉之孤死。两个丫鬟是黛玉命运的两个符号——一个预言她的泪，一个预言她的孤。",
+          "evidence": [
+            "杜鹃啼血的典故与黛玉之泪",
+            "孤雁意象与黛玉客死之孤"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xueyan_diaobao",
+      "title": "雪雁——掉包计的「道具」与读者情感的替罪羊",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学续书研究",
+      "year": 1996,
+      "source_title": "多项续书（gaoe）研究",
+      "description": "学者分析掉包计（gaoe，第九十七回）中雪雁的叙事功能：她既是骗局成立的关键道具（宝玉见她而信新娘是黛玉），也是读者愤怒的承接者。续书让雪雁「含泪应命」，既保住了她的「无过」（被迫），又让她承担了「在场」的罪感——这种双重处理使雪雁成为掉包计中最复杂的情感符号：她不是叛徒，却站上了叛徒的位置；不是帮凶，却成全了阴谋。有论者指出，雪雁之悲恰在「无辜者的在场」：历史最大的残酷，就是让无辜者充当仪式的道具。"
+    },
+    {
+      "id": "viewpoint_xueyan_niaoming",
+      "title": "紫鹃与雪雁——潇湘馆的鸟名系统与双谶",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学命名研究",
+      "year": 1994,
+      "source_title": "多项命名学研究",
+      "description": "学者指出，潇湘馆的两个丫鬟是曹雪芹精心设计的「双谶」：紫鹃（杜鹃啼血）预言黛玉之泪尽，雪雁（孤雁失群）预言黛玉之孤死。一鹃一雁，都是哀鸟；一啼一失，都是死谶。更精妙的是两鸟的「离巢」：后四十回（gaoe）里紫鹃守灵而雪雁扶堂，双谶在第九十七回同时兑现——黛玉死时，鹃在她身侧啼，雁在别处离群。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 5,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 19,
+      "text_inference": 5,
+      "scholarly_viewpoint": 5,
+      "disputed_version": 14,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

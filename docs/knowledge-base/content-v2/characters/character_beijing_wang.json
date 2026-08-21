@@ -1,0 +1,551 @@
+{
+  "character": {
+    "id": "character_beijing_wang",
+    "name": "北静王",
+    "slug": "bei-jing-wang",
+    "aliases": [
+      "水溶",
+      "北静郡王"
+    ],
+    "category": "王爵贵族",
+    "importance_level": "supporting",
+    "content_level": "L1",
+    "identity": {
+      "family": "北静王水溶，「当日惟北静王功高，及今子孙犹袭王爵」——四王（东南西北静穆…诸王）中功高显赫的一支。",
+      "position": "北静郡王，世袭王爵；与贾府为世交。",
+      "origin": "开国功臣之后，京城王爵。",
+      "generation": "与贾政平辈论交的贵胄（水溶年未弱冠）"
+    },
+    "tags": [
+      "水溶",
+      "路谒北静王",
+      "鹡鸰香念珠",
+      "龙驹凤雏",
+      "年轻贤王",
+      "臭男人拿过的",
+      "贾府政治靠山",
+      "忠奸伏线",
+      "世交"
+    ],
+    "summary": {
+      "short": "北静郡王水溶，年未弱冠、形容秀美、情性谦和。第十四回路祭秦可卿时与宝玉一见如故，赞其「龙驹凤雏」，赠圣上亲赐的鹡鸰香念珠——黛玉后嫌「什么臭男人拿过的」而拒收。他是贾府最重要的政治盟友，也是全书「政治伏线」最深的一个人物。",
+      "long": "北静王水溶是四王之中最显赫的一支：「当日惟北静王功高，及今子孙犹袭王爵。现今北静王水溶年未弱冠，生得形容秀美，情性谦和。」第十四回秦可卿出殡，北静王「不以王位自居」，亲自路祭，见了宝玉赞不绝口：「令郎真乃龙驹凤雏，非小王在世翁前唐突，将来『雏凤清于老凤声』，未可量也。」并当面邀请宝玉「常去谈会谈会」，又摘下腕上念珠相赠：「此系前日圣上亲赐鹡鸰香念珠一串，权为贺敬之礼。」第十六回宝玉把念珠转赠黛玉，黛玉掷而不取：「什么臭男人拿过的，我不要他。」——黛玉这一句，把王爵与公子的「恩物」体系整个否定了。北静王的谦和与贾府的亲密世交（书中写他与贾府「同难同荣」）使他成为贾府最重要的政治靠山：秦可卿丧礼他来路祭、贾母大寿他送来寿礼，后四十回（gaoe）写贾府被查抄时，他出面回护、缓颊。但红学界对他的「政治底色」争议极深：有人视他为「贤王」，有人视他为「冷子兴式」的政治操盘手，甚至有人把他与忠顺王并置为「逼死贾府」的两极——他的谦和是真贤，还是深不见底的政治手腕，全书没有给出答案。他的存在提醒读者：大观园的风花雪月，始终悬在「王侯」的阴影之下。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "谦——不以王位自居的贤王",
+        "fact_type": "canonical_text_fact",
+        "description": "「情性谦和」「不以王位自居」——路祭时他亲自下轿回礼，对贾政称「世交之情」，对一个少年公子赞不绝口。他的谦是全书贵族中罕见的「向下兼容」：王爵的架子在他身上被有意卸掉了。"
+      },
+      {
+        "dimension": "深——谦和之下的政治纵深",
+        "fact_type": "text_inference",
+        "description": "他的每一个「恩惠」都是政治语言：路祭是给贾府的体面，赠念珠是给宝玉的「入圈」信号，后四十回的回护是政治投资。红学争议聚焦于此：水溶的「贤」是天性，还是「贤名」本身即是政治操作？"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_beijing_wang_meet_ch14",
+        "title": "路祭秦可卿，初见宝玉赞「龙驹凤雏」（第十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_beijing_wang_beads_ch15",
+        "title": "赠鹡鸰香念珠（第十四—十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_beijing_wang_daiyu_ch16",
+        "title": "黛玉拒收念珠——「臭男人拿过的」（第十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_beijing_wang_hou40",
+        "title": "后四十回：查抄时庇护贾家（gaoe）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch14_beijing_wang_intro",
+        "quote": "原来这四王，当日惟北静王功高，及今子孙犹袭王爵。现今北静王水溶年未弱冠，生得形容秀美，情性谦和。……北静王水溶在轿内欠身含笑答礼，仍以世交称呼接待，并不妄自尊大。",
+        "fact_type": "canonical_text_fact",
+        "note": "第十四回。北静王的定场描写——「谦和」与「功高」的并置，是理解这个人物的总钥匙。"
+      },
+      {
+        "source_id": "source_ch15_beijing_wang_beads",
+        "quote": "水溶见他语言清楚，谈吐有致，一面又向贾政笑道：「令郎真乃龙驹凤雏，非小王在世翁前唐突，将来『雏凤清于老凤声』，未可量也。」……又将腕上一串念珠卸了下来，递与宝玉道：「今日初会，伧促竟无敬贺之物，此系前日圣上亲赐鹡鸰香念珠一串，权为贺敬之礼。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十四—十五回「贾宝玉路谒北静王」。圣上亲赐之物随手赠人——恩宠的展示与转授。"
+      },
+      {
+        "source_id": "source_ch16_beijing_wang_daiyu",
+        "quote": "（宝玉将念珠珍重取出来，转赠黛玉）黛玉道：「什么臭男人拿过的，我不要他。」遂掷而不取。",
+        "fact_type": "canonical_text_fact",
+        "note": "第十六回。黛玉拒收——全书对「王权恩物」最响亮的否定，从「臭男人」三字里发出。"
+      },
+      {
+        "source_id": "source_ch105_beijing_wang_hou40",
+        "quote": "（后四十回查抄宁国府时）北静王又说道：「……这也不消多虑，我自然替你想个法子。」……多所回护。",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第一〇五回前后写查抄时北静王对贾府的回护与缓颊。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "封号「北静」+名「水溶」——谦德与水德",
+      "detail": "四王八公的封号皆含方位与美德（如「东平」「西宁」……），「北静」取「北方属水、水主静」之意，与他的「谦和」互为表里。其名「水溶」纯是水象：「溶」为水之宽容——一个以「水德」命名的年轻王爷，暗合其「海纳百川」的贤名。红学界另有索隐之解（如「水溶」暗指某清朝亲王），属于争议性推考。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "issue": "索隐派有「北静王影射某清朝亲王（如庄亲王允禄等）」之说",
+          "fact_type": "disputed_version",
+          "note": "attribution=suoyinpai"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 14,
+          "evidence": "贾珍：北静王水溶……现今此王少年，才貌俱全（路祭时）",
+          "age": "少年"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "少年（第14回，约20岁上下）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第14回明文「少年」，约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "水溶",
+      "type": "本名",
+      "context": "第十四回明写「北静王水溶」——封号「北静」+名「水溶」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "北静郡王",
+      "type": "封爵全称",
+      "context": "北静郡王——郡王爵，比亲王低一级，与贾府国公门第的「世交」关系由此匹配",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_beijing_wang_meet_ch14",
+      "title": "路祭秦可卿，初见宝玉",
+      "event_level": "major",
+      "chapter": {
+        "number": 14,
+        "title": "林如海捐馆扬州城 贾宝玉路谒北静王",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秦可卿出殡路祭处",
+        "specific": "秦氏出殡，北静王设路祭。贾珍命宝玉前去拜见，北静王见宝玉「面若春花，目如点漆」，赞不绝口，向贾政道「龙驹凤雏」，并邀宝玉常去王府「谈会谈会」。"
+      },
+      "summary": {
+        "short": "回目「贾宝玉路谒北静王」——全书最隆重的政治社交与最风雅的忘年交同场完成：一个郡王亲临路祭，给足了贾府体面；一见宝玉，又给足了少年知己的诚意。北静王与宝玉的「知遇」，是贾府政治资本中最美的一笔。",
+        "meaning": [
+          "路祭的分量——北静王亲临，等于向京城宣布「贾府有靠山」",
+          "「龙驹凤雏」——王爵的背书，把宝玉抬到了「国之栋梁」的话术里",
+          "「常去谈会谈会」——向宝玉敞开王府之门，也为后文（gaoe）的政治庇护伏笔"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "出殡路上的「加冕」",
+          "content": "秦可卿之死是全书葬礼叙事的巅峰，北静王的路祭是这场葬礼的「政治天花板」——死人托起活人的社交：贾府借丧事秀肌肉，北静王借路祭秀联盟。而宝玉与北静王的初见，被安排在死亡现场，本身就有「无常中的知遇」之味。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_beijing_wang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_beijing_wang_beads_ch15",
+      "title": "赠鹡鸰香念珠",
+      "event_level": "major",
+      "chapter": {
+        "number": 15,
+        "title": "王凤姐弄权铁槛寺 秦鲸卿得趣馒头庵",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "路祭处（车上）",
+        "specific": "北静王与宝玉在车中密谈一番（内容「不写之写」），临别卸下腕上念珠相赠——「此系前日圣上亲赐鹡鸰香念珠一串」。"
+      },
+      "summary": {
+        "short": "北静王把「圣上亲赐」的鹡鸰香念珠随手赠给一个初见少年——这串念珠是全书权力之物的样本：它经过皇帝、王爷、公子之手，最后被一个孤女一句「臭男人拿过的」拒之门外。",
+        "meaning": [
+          "「鹡鸰」出《诗经》「鹡鸰在原，兄弟急难」——赠珠暗含「结为兄弟之义」",
+          "「圣上亲赐」——把皇恩转赠，恩宠的链条向下延伸",
+          "车中密谈「不写之写」——留给读者对二人政治关系的无限想象"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「鹡鸰」的政治隐喻",
+          "content": "鹡鸰是《诗经》里「兄弟急难」的意象——北静王赠此物，学界有解：或喻他与宝玉「忘年兄弟」之情，或暗藏「王子与公子结盟」的政治信号。念珠后文被黛玉拒绝，又构成「王恩被情拒」的反讽：政治世界里最贵重的礼物，在情的世界里一文不值。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_beijing_wang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_beijing_wang_daiyu_ch16",
+      "title": "黛玉拒收念珠——「什么臭男人拿过的」",
+      "event_level": "major",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（黛玉处）",
+        "specific": "宝玉珍重取出鹡鸰香念珠转赠黛玉，黛玉道：「什么臭男人拿过的，我不要他。」遂掷而不取。"
+      },
+      "summary": {
+        "short": "黛玉一句「臭男人拿过的」，把皇帝的亲赐、王爷的心意、宝玉的珍重，一并掷还。这是全书「情」对「势」最简洁的一次否决——再贵重的念珠，也不过是「臭男人」经手的东西。",
+        "meaning": [
+          "「臭男人」三字——黛玉（与曹雪芹）对男性权力世界的总评价",
+          "宝玉「珍重取出」与黛玉「掷而不取」——二人价值体系的根本差异",
+          "拒珠与「还泪」——黛玉的洁癖，从物上升为对权力体系的洁癖"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "黛玉的「洁」与北静王的「恩」",
+          "content": "黛玉的洁癖在此有了政治维度：她拒绝的不是珠子，是珠子背后「男人—权力—恩宠」的传递链。脂批有「黛玉之洁，于此见矣」之意。北静王怎么也想不到，他最高规格的礼物，会被全府最无依的孤女拒收——这预示了贾府拼命攀附的政治靠山，恰恰是黛玉（木石前盟）的对立面。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_beijing_wang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_beijing_wang_hou40",
+      "title": "后四十回：查抄时庇护贾家（gaoe）",
+      "event_level": "minor",
+      "chapter": {
+        "number": 105,
+        "title": "锦衣军查抄宁国府 骢马使弹劾平安州",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "宁国府（查抄现场）",
+        "specific": "后四十回（gaoe）写锦衣军查抄宁国府，西平王、北静王同往。北静王念及世交之情，暗中回护贾政一房，说情缓颊，使荣国府部分财产人员得以保全。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）兑现了北静王的「靠山」职能：查抄时他出面回护，贾府得以喘一口气。但这份庇护的限度也暴露了「政治友谊」的真相——能保一时，保不了一世。",
+        "meaning": [
+          "北静王的回护是「世交之情」的政治兑现",
+          "西平王查抄、北静王缓颊——朝廷的「红白脸」分工",
+          "贾府之败在「势」——北静王是全书唯一一个「势」里讲「情」的人（至少在续书写法里）"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "续书对北静王的「忠化」处理",
+          "content": "后四十回（gaoe）把北静王处理成干净的「忠臣+恩人」：查抄回护、灾中救济。但脂批体系与前八十回的伏笔暗示更复杂的走向——北静王在曹雪芹原稿中的政治角色（忠奸之间的伏线）被续书简化为「好人」。有学者认为这是续书政治叙事扁平化的典型。",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_beijing_wang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_beijing_wang_jia_baoyu",
+      "from": "character_beijing_wang",
+      "to": "character_jia_baoyu",
+      "type": "知遇（忘年之交）",
+      "nature": [
+        "friendship",
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "北静王与宝玉「一见如故」：他赞宝玉、赠宝玉、邀宝玉——一个郡王对一个国公之孙的投资，包裹在「情性谦和」的知己风范里。宝玉也仰慕他「才貌俱全，风流跌宕」。这段关系是宝玉世界最体面的「男性友谊」，也是贾府最重要的政治人脉。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "路谒订交",
+          "chapter": 14,
+          "description": "北静王赞宝玉「龙驹凤雏」，邀其常去王府。"
+        },
+        {
+          "stage": 2,
+          "title": "赠珠",
+          "chapter": 15,
+          "description": "赠鹡鸰香念珠，车中密谈。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_beijing_wang_lin_daiyu",
+      "from": "character_beijing_wang",
+      "to": "character_lin_daiyu",
+      "type": "赠物被拒者",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "北静王与黛玉从未见面，却通过一串念珠隔空交锋：他赠的「圣上亲赐」之物，被她一句「臭男人拿过的」掷还。这段关系是「势」与「情」的符号对决——全书最有权势的男人与最孤高的女儿，被一串珠子连接，也被一串珠子分开。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "拒珠",
+          "chapter": 16,
+          "description": "黛玉拒收鹡鸰香念珠。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_beijing_wang_jia_zheng",
+      "from": "character_beijing_wang",
+      "to": "character_jia_zheng",
+      "type": "世交（政治盟友）",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "北静王与贾府「同难同荣」：路祭、赠礼、后文回护（gaoe），他始终以「世交」自居。对贾政而言，北静王是府外最重要的政治资源；对北静王而言，贾府的国公旧勋亦是他的联盟资本——这段世交是全书「四大家族与四王八公」权力网络的关键节点。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "路祭示好",
+          "chapter": 14,
+          "description": "北静王路祭秦可卿，与贾政叙世交。"
+        },
+        {
+          "stage": 2,
+          "title": "查抄回护",
+          "chapter": 105,
+          "description": "后四十回查抄时北静王回护贾政（gaoe）。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_beijing_wang_zhongshun_wang",
+      "from": "character_beijing_wang",
+      "to": "character_zhongshun_wang",
+      "type": "潜在对立（政治伏线）",
+      "nature": [
+        "symbolic_parallel",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "忠顺王与北静王构成「王爵的两极」：忠顺王夺人（琪官）、逼贾府，北静王赠物（念珠）、护贾府。二人对贾府一敌一友、一压一扶——红学界有论者认为，这场「王争」才是贾府最终败落的政治根因：北静王与忠顺王的党争，贾府被裹挟其中，终成牺牲品。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "暗线对立",
+          "chapter": 33,
+          "description": "忠顺府索琪官，与北静王有涉的茜香罗成为把柄。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_beijing_wang_loyalty",
+      "title": "北静王是忠是奸？他的政治伏线通向哪里？",
+      "slug": "is-beijing-wang-loyal-or-treacherous",
+      "question_type": "character_motivation",
+      "importance_weight": 76,
+      "heat_weight": 74,
+      "neutral_overview": "前八十回的北静王「情性谦和」，后四十回（gaoe）的北静王是干净的恩人。但脂批与伏笔暗示他的角色没这么简单——北静王在曹雪芹原稿里到底站在哪一边？",
+      "viewpoint_ids": [
+        "vp_beijing_wang_loyal",
+        "vp_beijing_wang_treacherous",
+        "vp_beijing_wang_complex"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_beijing_wang_loyal",
+          "title": "贤王论：谦和是真，庇护是真",
+          "summary": "北静王的「贤」有文本支撑：出身功高而不骄、路祭世交而不倨、庇护贾府而不图报（gaoe）。他是曹雪芹理想中的「贵而不骄」的贵族——与忠顺王的跋扈形成对照。全书需要一个「好的权力」来反衬「坏的权力」，北静王就是那面好镜子。",
+          "evidence": [
+            "「情性谦和」「不以王位自居」的正面定场",
+            "后四十回查抄时的回护（gaoe）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_beijing_wang_treacherous",
+          "title": "深险论：谦和是政治表演，靠山是糖衣",
+          "summary": "北静王的一切「贤」都是政治语言的变体：路祭是笼络，赠珠是站队信号，密谈是结盟，「雏凤清于老凤声」是捧杀式投资。有论者将「水溶」与「冷子兴」式的旁观者并论——他投资的是「未来的贾府」（宝玉），而非现在的贾府；一旦贾府失去价值，他的庇护就会撤回。贾府之败，未尝没有他「见风使舵」的一分。",
+          "evidence": [
+            "车中密谈的「不写之写」——真正的政治内容被隐去",
+            "念珠「圣上亲赐」却随手转赠——恩宠的展示性远大于诚意"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_beijing_wang_complex",
+          "title": "伏线论：北静王是曹雪芹未完成的「政治篇」主角",
+          "summary": "前八十回对北静王的着墨极少却处处设伏（鹡鸰、茜香罗、密谈），说明曹雪芹原稿后文必有北静王的「政治大戏」——学界推断或涉党争、或涉抄家、或涉贾府获罪的内情。后四十回（gaoe）只写他「当好人」，是把伏笔简化成了交代。真正的北静王，应当站在忠奸之间、朝廷与贾府之间——他越模糊，越接近原稿的真相。",
+          "evidence": [
+            "前八十回关于北静王的多个未兑现伏笔",
+            "脂批对「后文」的多次暗示（政治线被续书删除）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_beijing_wang_beads",
+      "title": "「什么臭男人拿过的」——黛玉拒珠意味着什么？",
+      "slug": "why-did-daiyu-refuse-the-beads",
+      "question_type": "theme_analysis",
+      "importance_weight": 70,
+      "heat_weight": 68,
+      "neutral_overview": "北静王赠的念珠经过「皇帝→王爷→宝玉」的手，黛玉却一句「臭男人」掷还不取。这一拒，拒绝了什么？",
+      "viewpoint_ids": [
+        "vp_beijing_wang_beads_clean",
+        "vp_beijing_wang_beads_reject"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_beijing_wang_beads_clean",
+          "title": "洁癖论：黛玉之洁，洁在「不沾权力」",
+          "summary": "黛玉的「臭男人」是她的本质表达：她孤高自许、目下无尘，凡经「男人—权力—恩宠」链条的东西她都不屑。她的洁癖不是矫情，是与整个权力世界的「不兼容」——这串珠子于她是「脏」的，因为她整个人的价值体系都在权力体系之外（她是来「还泪」的，不是来攀附的）。",
+          "evidence": [
+            "「什么臭男人拿过的，我不要他」——厌恶的是「拿过」这件事本身",
+            "黛玉全书对世俗功名（如劝宝玉功名话）的一贯态度"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_beijing_wang_beads_reject",
+          "title": "政治拒绝论：拒珠是「木石前盟」对「政治联姻」的否决",
+          "summary": "念珠背后是一整条政治链：北静王与贾府的世交、贾府对王权的依附、乃至有学者推测的「北静王与黛玉」的暗线（北静王府求亲之说）。黛玉拒珠，等于提前拒绝了这条政治链对她的所有安排——她的爱情与她的死，都不属于这个体系。拒珠与拒婚（后四十回gaoe的语境）、与焚稿，同属一个「不」字。",
+          "evidence": [
+            "宝玉「珍重取出」的念珠被拒——二人对「恩物」的态度差异",
+            "前八十回黛玉与贾府政治网络始终「绝缘」"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch15_beijing_wang_invite",
+      "quote": "（北静王道）「……我府里还有几本绝版的书，你哪日到我那里去，见识见识也好。」……又向贾政道：「若令郎在家难以用功，不妨常到寒第。小王虽不才，却多蒙海上众名士凡至都者，未有不另垂青目。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第十四—十五回。向宝玉敞开王府名士圈——「海上众名士」暗示北静王延揽人才的野心。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_beijing_wang_politics",
+      "title": "北静王与「四王八公」：贾府败落的政治结构",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学政治研究",
+      "year": 1998,
+      "source_title": "多项政治结构研究",
+      "description": "学者指出，《红楼梦》的政治背景是「四王八公—四大家族」的勋旧网络：北静王是这张网的顶点之一，贾府是网中的节点。北静王对贾府的恩宠、忠顺王对贾府的逼迫，本质是朝廷新旧势力（勋旧与近臣）的角力。秦可卿出殡、元春封妃、琪官案、查抄案——贾府的每次荣辱都系于这张网。北静王因此不能只读成「好人」或「坏人」，他是贾府政治命运的「晴雨表」：他的态度，就是朝廷对勋旧集团的态度。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 5,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 19,
+      "text_inference": 7,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

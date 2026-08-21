@@ -1,0 +1,912 @@
+{
+  "character": {
+    "id": "character_xue_pan",
+    "name": "薛蟠",
+    "slug": "xue-pan",
+    "aliases": [
+      "呆霸王",
+      "薛文龙",
+      "薛大傻子"
+    ],
+    "category": "薛家公子（呆霸王）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "皇商薛家独子，薛姨妈之子，薛宝钗之兄，字文龙（一作文起）。",
+      "position": "薛家继承人（薛姨妈之子），皇商少主。",
+      "origin": "金陵四大家族「丰年好大雪」之薛家。",
+      "generation": "与宝玉同辈"
+    },
+    "tags": [
+      "呆霸王",
+      "打死冯渊",
+      "闹学堂",
+      "龙阳之兴",
+      "行酒令",
+      "柳湘莲",
+      "河东狮",
+      "香菱",
+      "杀人案"
+    ],
+    "summary": {
+      "short": "薛家独子，绰号「呆霸王」。第四回打死冯渊、强夺英莲开场，闹学堂、行酒令、调戏柳湘莲挨打、娶「河东狮」夏金桂——他是四大家族「儿孙不成器」的活标本，也是全书最坦诚的恶与最荒唐的天真。",
+      "long": "薛蟠是《红楼梦》里最著名的「坏孩子」——但也是最不伪装的。他五岁上就性情奢侈，长大后「呆霸王」之名响彻金陵：第四回为抢英莲（香菱）打死冯渊，全不当回事，随母亲姐妹进京避祸，路上还盘算着进京后的「游玩」；第九回他以「恋风流情友入家塾」——上学不为读书，为的是结交「契弟」；第二十八回行酒令，他说出「女儿悲，嫁了个男人是乌龟」的粗俗令语，把雅集变成笑场；第四十七回他调戏柳湘莲，被诱至苇塘一顿毒打，「我愿意」的求饶成了全书最解气的场面之一；第四十八回被揍后没脸见人，遂随老伙计南下经商——这个「出门」让他见识了世面，也让他第一次离了母亲的庇护；第六十六回柳湘莲救他于盗匪之手，两个仇人结为生死兄弟——薛蟠的「天真」在此显影：他坏得直白，也好得直白。第七十九回他娶了「河东狮」夏金桂，从此家宅不宁，香菱遭其夫妇虐待。后四十回（gaoe）写他再打死人（张三）获罪下狱，全赖贾王两家营救改判流刑，出狱后浪子回头，香菱扶正——续书写尽了这个「呆霸王」的败家与末路。红学家论薛蟠，多看重他的「典型性」：他集中了封建末世膏粱子弟的一切病灶——愚昧、纵欲、残忍、空虚；但他的不虚伪又使他不同于贾雨村式的伪君子。他是曹雪芹笔下「恶的写实」：恶得真实，恶得可悲。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "呆——蠢得坦荡的富贵闲人",
+        "fact_type": "canonical_text_fact",
+        "description": "「呆霸王」的「呆」是他的核心人格：不通世务、不辨好歹、说话不过脑。酒令说「乌龟」「马猴」，挨打只会喊「我愿意」——他的呆里没有伪装，这是他与贾府众伪君子最大的区别。"
+      },
+      {
+        "dimension": "霸——视人命如儿戏的恶少",
+        "fact_type": "canonical_text_fact",
+        "description": "打死冯渊「如没事人一般」，花几个臭钱就能了结——薛蟠的「霸」是四大家族特权的具象化：在他的世界里，人命有价，公道无价。第四回命案是全书对「护官符」世界的开幕控诉。"
+      },
+      {
+        "dimension": "直——爱恨都写在脸上的天真",
+        "fact_type": "canonical_text_fact",
+        "description": "薛蟠不记仇、不记打：被柳湘莲打服后敬他，被柳湘莲救后与他结拜；对母亲妹妹的关心笨拙而真诚。他的直是「呆」的光明面——全书最恶的人之一，同时也是最不虚伪的人之一。"
+      },
+      {
+        "dimension": "败——把家底吃尽的继承人",
+        "fact_type": "canonical_text_fact",
+        "description": "薛家「珍珠如土金如铁」的家业，摊上薛蟠这样的继承人注定败尽：他不事生产、挥霍无度、惹祸不断。他是四大家族「末世儿孙」的缩影——祖宗的家业，儿孙的祸源。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xue_pan_fengyuan_ch4",
+        "title": "打死冯渊夺英莲（第四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xue_pan_xuetang_ch9",
+        "title": "闹学堂（第九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xue_pan_shengri_ch26",
+        "title": "五月初三生日（第二十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xue_pan_jiuling_ch28",
+        "title": "行酒令——「女儿悲」粗俗令语（第二十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xue_pan_da_ch47",
+        "title": "调情柳湘莲遭苦打（第四十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_xue_pan_nanxia_ch48",
+        "title": "南下经商（第四十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_xue_pan_jingui_ch79",
+        "title": "娶夏金桂（第七十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_xue_pan_mingan_ch85",
+        "title": "打死张三获罪（第八十五回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch04_xue_pan_fengyuan",
+        "quote": "这薛公子学名薛蟠，表字文龙，五岁上就性情奢侈，言语傲慢。……又命家人打死冯渊……他竟自为花上几个臭钱，没有不了的。",
+        "fact_type": "canonical_text_fact",
+        "note": "第四回。打死人「花上几个臭钱没有不了的」——薛蟠的价值观在开场即定型：有钱即有命，有势即有理。"
+      },
+      {
+        "source_id": "source_ch28_xue_pan_jiuling",
+        "quote": "薛蟠道：「女儿悲，嫁了个男人是乌龟。」众人都笑起来。……「女儿愁，绣房撺出个大马猴。」……薛蟠道：「一个蚊子哼哼哼。」众人都怔了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十八回行酒令。众人行令俱风雅，独薛蟠粗俗不堪——雅集里的笑声，全是他的「呆」。"
+      },
+      {
+        "source_id": "source_ch47_xue_pan_ai",
+        "quote": "薛蟠道：「……好兄弟，好哥哥，你只饶我罢，我再也不敢了！」……薛蟠道：「我愿意！我愿意！」……只听柳湘莲道：「……你休再痴心妄想！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十七回「呆霸王调情遭苦打」。挨打时只会求饶喊「我愿意」——全书最解气的场面，也是薛蟠「呆」的顶点。"
+      },
+      {
+        "source_id": "source_ch66_xue_pan_jiebai",
+        "quote": "薛蟠道：「……我这才知道哥哥是极重义气的，救命之恩，没齿难忘。咱们今日结拜了弟兄罢！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十六回。柳湘莲平安州救薛蟠，仇人结拜——薛蟠的直与义，和他的呆一样真实。"
+      },
+      {
+        "source_id": "source_ch79_xue_pan_jingui",
+        "quote": "薛蟠道：「这有何难。……外头相与的，倒都是个把红人儿；内里，也就只一个妻。看你们，一个个都是大家子样儿！」……（夏金桂）外具花柳之姿，内秉风雷之性。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十九回「薛文龙悔娶河东狮」。薛蟠图色娶金桂，娶回一头「河东狮」——他的「悔娶」自此开始。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "学名薛蟠，字文龙（一作文起）——「蟠」为盘曲未升天之龙",
+      "detail": "「蟠」为盘踞、蟠曲之龙——与「文龙」的表字合成「龙」的意象，但薛蟠的所作所为全无龙相，唯有龙性的贪暴：名字的威风与人的猥琐形成全书最强烈的反讽之一。有版本表字作「文起」（版本异文）。「蟠」与「盘」通，亦可理解为盘踞金窟、坐吃山空。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "「文龙」vs「文起」版本异文",
+          "content": "各抄本与程本表字有「文龙」「文起」之异，第七十九回回目「薛文龙悔娶河东狮」以「文龙」为通行",
+          "proponent": "版本校勘研究"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 4,
+          "evidence": "薛公子学名薛蟠，表字文龙，今年方十有五岁",
+          "age": "15岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "15岁（第4回）",
+        "story_end": "约23岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第4回明文15岁。",
+      "controversies": [
+        {
+          "title": "程高本隐去薛蟠年龄",
+          "detail": "为弥合与宝钗十五岁生日的矛盾，程高本第4回隐去薛蟠年龄。",
+          "fact_type": "disputed_version"
+        }
+      ],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "呆霸王",
+      "type": "绰号",
+      "context": "第四十七回回目「呆霸王调情遭苦打」——「呆」与「霸」是他的一体两面",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "薛文龙",
+      "type": "表字",
+      "context": "薛蟠表字文龙，第七十九回回目「薛文龙悔娶河东狮」即用其字",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "薛大傻子",
+      "type": "绰号",
+      "context": "贾府众人对薛蟠的戏称——「傻」与「呆」互文，指其不通世务",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xue_pan_fengyuan_ch4",
+      "title": "打死冯渊夺英莲",
+      "event_level": "major",
+      "chapter": {
+        "number": 4,
+        "title": "薄命女偏逢薄命郎 葫芦僧乱判葫芦案",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "金陵",
+        "specific": "薛蟠看上被人贩子拐卖的英莲（后之香菱），与同时买下英莲的冯渊相争，命家奴将冯渊活活打死，抢走英莲，「如没事人一般」携家进京。贾雨村受门子点拨，依护官符乱判葫芦案，薛蟠毫发无损。"
+      },
+      "summary": {
+        "short": "第四回是人命案开场：薛蟠为抢英莲打死冯渊，最后「花上几个臭钱」了事。这个案子把四大家族的特权写得明明白白——人命在护官符面前，只是葫芦案里的一笔。",
+        "meaning": [
+          "薛蟠的恶是「制度性」的恶：他从未觉得打死人是大事",
+          "冯渊案是全书权力批判的开场锣——「呆霸王」背后是整个官场的「呆」",
+          "英莲从此改名香菱——受害者的命运被加害者的家所吞没"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "护官符的开幕",
+          "content": "红学界公认第四回的冯渊案是全书社会批判的起点：门子出示的护官符写明「丰年好大雪」，薛蟠的命案便在「雪」的庇荫下消解。一条人命换一纸糊涂案——曹雪芹用薛蟠开场，是要告诉读者：这个世界的恶，从最顶端开始。"
+        },
+        {
+          "type": "character",
+          "title": "恶的「天真」形态",
+          "content": "薛蟠之恶没有贾雨村的精算，也没有王夫人的伪饰：他打死了人，想的是「臭钱」；他抢了人，想的是「好玩」。这种天真之恶比阴谋之恶更可怕——因为他不觉得自己在作恶，社会也从不告诉他那是恶。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_pan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_feng_yuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_men_zi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_pan_xuetang_ch9",
+      "title": "闹学堂——龙阳之兴",
+      "event_level": "minor",
+      "chapter": {
+        "number": 9,
+        "title": "恋风流情友入家塾 起嫌疑顽童闹学堂",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府家塾",
+        "specific": "薛蟠送宝玉、秦钟入家塾，自己却不上学——「今日会酒，明日观花」，只为结交契弟（龙阳之兴）。香怜、玉爱等都是他笼络的对象，学堂乌烟瘴气，终于酿成秦钟、金荣等顽童的大闹。"
+      },
+      "summary": {
+        "short": "薛蟠入家塾不为读书，为的是「恋风流」——他花银子结交契弟，把圣贤之地搅成风流之场。第九回的学堂闹剧，他是看不见的始作俑者。",
+        "meaning": [
+          "「闹学堂」的根子在薛蟠——金钱与性欲对教育圣地的侵蚀",
+          "他的「龙阳之兴」是膏粱子弟空虚的又一表征",
+          "回目「恋风流情友入家塾」——「情友」二字极尽讽刺"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "空虚的纵欲",
+          "content": "薛蟠的荒唐是全方位的：女色（抢英莲）、男色（契弟）、酒肉、斗富。他的每一次纵欲都是对空虚的填塞——而每一次填塞都制造新的空虚。他是封建末世「富三代」精神贫瘠的完美样本。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_pan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jin_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_pan_shengri_ch26",
+      "title": "五月初三生日——请宝玉吃「大鲜藕」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 26,
+        "title": "蜂腰桥设言传心事 潇湘馆春困发幽情",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家/梨香院",
+        "specific": "薛蟠五月初三生日，得了几样稀罕吃食，特特差人骗宝玉出来请客——谎称贾政找他，宝玉出来才知是薛蟠生日宴。席间薛蟠炫耀程日兴送来的大西瓜、鲜藕，宝玉啼笑皆非。"
+      },
+      "summary": {
+        "short": "薛蟠过生日请客，为哄宝玉出来竟假传贾政之名——他的「呆」在这个小场面里活灵活现：真心实意地巴结宝玉，手段却荒唐可笑。",
+        "meaning": [
+          "假传贾政之名——薛蟠的「坏主意」永远带着孩子气的拙劣",
+          "几样吃食便郑重其事——他世界里的「大事」不过如此",
+          "五月初三生日——「蟠」之生辰，全无龙样"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "呆子的人情",
+          "content": "薛蟠请客是真心的：他得了好吃的惦记着宝玉。但他的邀请方式（谎称老爷叫）恰恰踩了宝玉最怕的雷。这个人物的喜剧感正在于此——他的好心和坏主意一样，全都「呆」得毫无分寸。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_pan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_pan_jiuling_ch28",
+      "title": "行酒令——「女儿悲」",
+      "event_level": "major",
+      "chapter": {
+        "number": 28,
+        "title": "蒋玉菡情赠茜香罗 薛宝钗羞笼红麝串",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "冯紫英家",
+        "specific": "冯紫英宴请，宝玉、薛蟠、蒋玉菡、妓女云儿行令。众人令语皆雅，唯薛蟠说出「女儿悲，嫁了个男人是乌龟」「女儿愁，绣房撺出个大马猴」，最后以「一个蚊子哼哼哼」的「哼哼韵」收场，满座哄笑。"
+      },
+      "summary": {
+        "short": "第二十八回的行酒令是薛蟠的「文学时刻」：别人的女儿令是诗，他的女儿令是笑话。这出闹剧与宝玉的《红豆词》同场，粗俗与深情正面相撞——曹雪芹的讽刺里藏着对两种人生的并置。",
+        "meaning": [
+          "「女儿」令从宝玉口中是哀，从薛蟠口中是谑——同样的字，天壤之别的灵魂",
+          "薛蟠的粗俗反衬席间众人（尤其宝玉）的雅致——对照组叙事",
+          "「哼哼韵」——粗俗的极致成了他的「名作」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "雅俗并置的讽刺结构",
+          "content": "曹雪芹在同一席上安排宝玉的「滴不尽相思血泪抛红豆」与薛蟠的「嫁了个男人是乌龟」：两个世界的「女儿观」并置——一个把女儿当神，一个把女儿当物。薛蟠的笑声越大，宝玉的悲哀越深。"
+        },
+        {
+          "type": "character",
+          "title": "粗俗即人格",
+          "content": "酒令如人格：薛蟠的令语是他整个精神世界的浓缩——满脑子乌龟马猴，肚子里没有半句风雅。但注意他的坦荡：他敢在雅集上说粗话，且不以为耻。这坦荡使他不令人恨，只令人怜。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_pan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiang_yuhan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_pan_da_ch47",
+      "title": "调情柳湘莲遭苦打",
+      "event_level": "major",
+      "chapter": {
+        "number": 47,
+        "title": "呆霸王调情遭苦打 冷郎君惧祸走他乡",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "北门外苇塘",
+        "specific": "薛蟠垂涎柳湘莲（串戏的小生），纠缠调情。柳湘莲佯作应允，诱他出城至苇塘边，一顿拳打脚踢，又逼他喝苇塘脏水。薛蟠满地乱滚，只喊「好哥哥饶命」「我愿意」，狼狈不堪，被贾蓉撞见送回。"
+      },
+      "summary": {
+        "short": "呆霸王碰上了「冷郎君」：薛蟠调情不成反被毒打，喝下苇塘泥水。这顿打是全书读者最解气的一顿打——四大家族的特权第一次在拳脚下失灵。",
+        "meaning": [
+          "柳湘莲的拳头是民间对「呆霸王」的一次审判",
+          "「我愿意」的求饶——威风尽丧的薛蟠暴露了「霸」的纸老虎本质",
+          "挨打后他羞愧躲家，为第四十八回的南行埋下伏笔"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "霸王的底色是软弱",
+          "content": "薛蟠的「霸」只在弱者面前成立：打冯渊、抢英莲、虐香菱，遇到柳湘莲的拳头立刻变成「我愿意」。这一顿打戳破了特权者的外强中干——他的蛮横从来不是勇气，只是权力。"
+        },
+        {
+          "type": "hongxue",
+          "title": "苦打的疗愈功能",
+          "content": "有学者指出，柳湘莲痛打薛蟠是全书罕见的「民间正义」时刻：为非作歹者第一次付出肉体代价。更妙的是被打后的薛蟠并未怀恨，反而敬服——曹雪芹笔下的薛蟠「坏而不毒」，这一顿打甚至打出了他性格里可救的部分，为第六十六回的结拜埋下伏笔。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_pan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_pan_nanxia_ch48",
+      "title": "南下经商——第一次离家",
+      "event_level": "minor",
+      "chapter": {
+        "number": 48,
+        "title": "滥情人情误思游艺 慕雅女雅集苦吟诗",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家→南行",
+        "specific": "挨打后薛蟠没脸见人，借口跟老伙计张德辉南下经商避羞。薛姨妈舍不得，宝钗却力主放行：「出去了左右没有助兴的人，又没有倚仗的人，到了外头，谁还怕谁。」薛蟠遂离家南行。"
+      },
+      "summary": {
+        "short": "挨打之羞让薛蟠第一次主动「出门」：跟老伙计南下学经商。这是全书薛蟠仅有的「成长时刻」——离开母亲的庇护，他第一次面对外面的世界（也将在第六十六回遭遇盗匪、被柳湘莲所救）。",
+        "meaning": [
+          "「避羞」与「学商」的结合——薛蟠的动机可笑，方向却意外正确",
+          "宝钗的力主放行——薛家对继承人的最后一次「历练」",
+          "南行铺垫了第六十六回平安州的遇盗与结拜"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "被揍出来的成长",
+          "content": "薛蟠一辈子只听两种话：拳头的话和钱的话。柳湘莲的拳头让他第一次走出温室——曹雪芹在此给了这个「呆子」一线成长的可能。可惜这线可能很快被夏金桂的婚事掐断。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_pan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_liu_xianglian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_pan_jingui_ch79",
+      "title": "悔娶河东狮——夏金桂进门",
+      "event_level": "major",
+      "chapter": {
+        "number": 79,
+        "title": "薛文龙悔娶河东狮 贾迎春误嫁中山狼",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "薛蟠看中夏家独女金桂，图其美貌与家产，速速定亲迎娶。谁知金桂「外具花柳之姿，内秉风雷之性」，进门即压薛蟠、制薛姨妈、害香菱。薛蟠从此家宅不宁，香菱遭其夫妇虐打。"
+      },
+      "summary": {
+        "short": "薛蟠娶夏金桂，是「呆」的终极代价：他图人美貌家私，娶回的却是一头河东狮。此后薛家内宅乌烟瘴气，香菱被虐，他自己也被金桂拿捏——「薛文龙悔娶河东狮」，回目里的「悔」字从此压着薛家。",
+        "meaning": [
+          "薛蟠的婚姻是他全部人生选择的缩影：只看表面，不问根底",
+          "金桂之恶与薛蟠之呆互为镜像——恶人自有恶人磨",
+          "香菱之虐由此升级——薛蟠从「夺她之人」变成「虐她之夫」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「河东狮」与「中山狼」的对仗",
+          "content": "第七十九回回目将「悔娶」与「误嫁」对举：薛蟠与迎春同回结亲，一娶一嫁皆是灾难。曹雪芹用两桩恶姻缘收束大观园的秋天——迎春之嫁是小姐层的悲剧，薛蟠之娶是纨绔层的报应。"
+        },
+        {
+          "type": "character",
+          "title": "恶的互噬",
+          "content": "薛蟠虐香菱，金桂虐香菱、制薛蟠——薛家的恶循环至此闭合：他当年抢来的英莲，如今与他一同沦为他更恶之妻的猎物。曹雪芹让恶互相吞噬，比让善来惩罚恶更残酷。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_pan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xia_jingui",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_pan_mingan_ch85",
+      "title": "打死张三获罪——呆霸王的末路",
+      "event_level": "major",
+      "chapter": {
+        "number": 85,
+        "title": "贾存周报升郎中任 薛文起复惹放流刑",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "薛家/酒店",
+        "specific": "后四十回（gaoe）写薛蟠在酒店与堂倌张三争风，失手打死张三，被拿入狱。薛姨妈卖产营救，贾府王家多方周旋，县官受贿翻案，改判流刑。后遇大赦出狱，浪子回头，香菱扶正。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）让薛蟠「复惹」命案：第四回打死冯渊花臭钱了事，第八十五回打死张三却下狱候审——四大家族的护官符失灵了。续书写他的获罪、流刑与回头，是「呆霸王」故事的收尾。",
+        "meaning": [
+          "两次命案构成薛蟠（也是薛家）命运的闭环：以命案兴，以命案败",
+          "护官符的失灵——续书让薛蟠第一次尝到「法律」的滋味",
+          "浪子回头与香菱扶正——gaoe给薛家的「善终」处理"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "首尾呼应的结构评价",
+          "content": "续书（gaoe）安排薛蟠再犯命案，被学者视为对前八十回的自觉呼应：第四回的「葫芦案」与第八十五回的「放流刑」构成薛家的命运括号。有论者肯定其结构闭环之功，亦有论者认为「复惹」一笔重复乏新意，流刑出狱、香菱扶正的「善终」更与前八十回「呆霸王」的悲剧调性不符。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_pan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xiangling",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_feng_yuan",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xue_pan_xue_baochai",
+      "from": "character_xue_pan",
+      "to": "character_xue_baochai",
+      "type": "兄妹（贤与浑的对照）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛蟠与宝钗构成全书最极端的兄妹对照：一个愚顽暴戾、无法无天；一个知书达理、谨言慎行。薛蟠屡次惹祸（打死冯渊、调戏柳湘莲挨打、娶夏金桂），宝钗一再替他收拾残局。兄长的存在是宝钗「冷」与「世故」的重要成因——家庭的重负使她过早成熟。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "浑语伤人",
+          "chapter": 34,
+          "description": "薛蟠说宝钗「护着宝玉」，宝钗哭了一夜。"
+        },
+        {
+          "stage": 2,
+          "title": "兄长的笨拙关心",
+          "chapter": 67,
+          "description": "薛蟠南行归来，给宝钗带回土仪礼物——呆子的手足情。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_pan_liu_xianglian",
+      "from": "character_xue_pan",
+      "to": "character_liu_xianglian",
+      "type": "仇人→结义兄弟",
+      "nature": [
+        "conflict",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛蟠调戏柳湘莲被毒打，是二人关系的起点；第四十七回后的薛蟠「闭门思过」，第六十六回柳湘莲于平安州从盗匪手中救下薛蟠，二人结拜为兄弟。这段「仇人变恩人」的奇缘，是薛蟠性格中「直」的证明——他不记仇，只认义。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "调情遭打",
+          "chapter": 47,
+          "description": "薛蟠调戏柳湘莲，被诱至苇塘痛打。"
+        },
+        {
+          "stage": 1,
+          "title": "结仇",
+          "chapter": 47,
+          "description": "薛蟠调情，湘莲痛打之。"
+        },
+        {
+          "stage": 2,
+          "title": "救命结拜",
+          "chapter": 66,
+          "description": "柳湘莲救薛蟠于盗匪，二人结拜。"
+        },
+        {
+          "stage": 2,
+          "title": "相救",
+          "chapter": 66,
+          "description": "湘莲救薛蟠于盗匪，结为兄弟。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_pan_xia_jingui",
+      "from": "character_xue_pan",
+      "to": "character_xia_jingui",
+      "type": "夫妻（辖制与反噬）",
+      "nature": [
+        "kinship",
+        "conflict",
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛蟠图色图财娶金桂，婚后反被金桂拿捏：「河东狮」压得「呆霸王」没脾气。金桂虐香菱、闹薛家，薛蟠只能干瞪眼。这对恶夫妻互相吞噬，是「恶人自有恶人磨」的绝佳注脚。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "速娶",
+          "chapter": 79,
+          "description": "薛蟠见金桂即求亲，悔娶河东狮。"
+        },
+        {
+          "stage": 1,
+          "title": "娶妻",
+          "chapter": 79,
+          "description": "薛蟠贪金桂之财色而娶。"
+        },
+        {
+          "stage": 2,
+          "title": "被制",
+          "chapter": 80,
+          "description": "金桂撒泼制薛蟠，薛家鸡犬不宁。"
+        },
+        {
+          "stage": 2,
+          "title": "悔娶",
+          "chapter": 79,
+          "description": "金桂性气毕露，薛蟠悔之无及。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_pan_jia_baoyu",
+      "from": "character_xue_pan",
+      "to": "character_jia_baoyu",
+      "type": "表兄弟（浑与清的对照）",
+      "nature": [
+        "family",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "薛蟠与宝玉是全书最对称的一对表兄弟：同是富贵公子，宝玉把女儿当神，薛蟠把女儿当物；宝玉雅到极致，薛蟠俗到极致。第二十八回的酒令同场，是曹雪芹有意安排的两面镜子——薛蟠之「呆」反照宝玉之「痴」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "同席行令",
+          "chapter": 28,
+          "description": "宝玉唱《红豆词》，薛蟠说「乌龟」「马猴」。"
+        },
+        {
+          "stage": 2,
+          "title": "生日请客",
+          "chapter": 26,
+          "description": "薛蟠假传贾政之名哄宝玉吃酒。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_xue_pan_jiuling",
+      "title": "行酒令（女儿悲）",
+      "work_type": "酒令",
+      "chapter_number": 28,
+      "fact_type": "canonical_text_fact",
+      "summary": "「女儿悲，嫁了个男人是乌龟。女儿愁，绣房撺出个大马猴。女儿喜，洞房花烛朝慵起。女儿乐，……」（末以「哼哼韵」收场）",
+      "symbolic_notes": "与同席宝玉「滴不尽相思血泪抛红豆」的《红豆词》形成雅俗两极的并置——同一场酒，两种灵魂。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_xue_pan_nature",
+      "title": "薛蟠是「坏」还是「蠢」？",
+      "slug": "is-xue-pan-evil-or-stupid",
+      "question_type": "character_morality",
+      "importance_weight": 72,
+      "heat_weight": 68,
+      "neutral_overview": "薛蟠打死人、抢民女、虐香菱，却又不记仇、讲义气、对家人真心。这个人物究竟是恶还是呆？",
+      "viewpoint_ids": [
+        "vp_xue_pan_evil",
+        "vp_xue_pan_stupid",
+        "vp_xue_pan_decay"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_pan_evil",
+          "title": "恶少论：他的恶是实打实的",
+          "summary": "打死冯渊、强夺英莲、虐打香菱——薛蟠的恶有血有泪，不能因他的「呆」而洗白。「呆」只是恶的表现形式：因为蠢，所以恶得更直接、更残忍、更不知反省。",
+          "evidence": [
+            "第四回打死冯渊「如没事人一般」",
+            "第八十回抄门闩毒打香菱"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xue_pan_stupid",
+          "title": "蠢呆论：他不是恶魔，是巨婴",
+          "summary": "薛蟠的一切恶行都源于「不懂」：不懂人命的分量、不懂礼法的边界、不懂他人的感受。他的恶是特权豢养的无知，而非蓄意的残忍——一个被钱和势惯坏的巨婴，罪在社会，不在心肠。",
+          "evidence": [
+            "挨打后求饶「我愿意」、与柳湘莲结拜的不记仇",
+            "酒令上的坦荡与生日请客的笨拙真心"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xue_pan_decay",
+          "title": "标本论：他是四大家族衰败的缩影",
+          "summary": "薛蟠的意义不在个体善恶，而在阶级标本：他是「护官符」制度养出的标准产品——愚昧、纵欲、残暴、空虚。读薛蟠要读他背后的制度：只要制度在，打死十个冯渊的薛蟠会源源不断地产生。",
+          "evidence": [
+            "护官符庇荫下的冯渊案",
+            "薛家「珍珠如土金如铁」与薛蟠的败家对照"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xue_pan_xiangling_feelings",
+      "title": "薛蟠对香菱有没有真情？",
+      "slug": "did-xue-pan-have-feelings-for-xiangling",
+      "question_type": "relationship_analysis",
+      "importance_weight": 70,
+      "heat_weight": 66,
+      "neutral_overview": "薛蟠为香菱打死人，收房时也「摆酒请客」，但金桂进门后却毒打香菱。他对香菱的感情究竟是什么？",
+      "viewpoint_ids": [
+        "vp_xue_pan_no_love",
+        "vp_xue_pan_limited"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_pan_no_love",
+          "title": "无情论：香菱始终只是「物」",
+          "summary": "薛蟠抢香菱如同抢一件玩器：初始的新鲜一过，香菱便与屋里的摆设无异。他从未把香菱当「人」爱过——收房是占有，虐打是弃置。他为香菱打死的不是情敌，是障碍。",
+          "evidence": [
+            "金桂进门后薛蟠对香菱的毒打",
+            "香菱之死（gaoe）时薛蟠的麻木"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xue_pan_limited",
+          "title": "有限真情论：他给过香菱「呆子式的喜欢」",
+          "summary": "薛蟠对香菱有过短暂而浅薄的喜欢：为抢她打死人、收房时郑重摆酒。但他的喜欢是消费性的——新鲜感耗尽便归于漠然。他或许从没「不爱」香菱，只是他的爱太薄，薄到经不起金桂的三句挑拨。",
+          "evidence": [
+            "第十六回收房的郑重（摆酒请客）",
+            "第八十回毒打系金桂挑唆所致"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xue_pan_jiebai",
+      "title": "薛蟠为什么能与柳湘莲结拜？",
+      "slug": "why-did-xue-pan-swear-brotherhood-with-liu-xianglian",
+      "question_type": "character_analysis",
+      "importance_weight": 66,
+      "heat_weight": 60,
+      "neutral_overview": "被柳湘莲痛打的人，却在救命之恩后与其结拜。这段奇缘说明薛蟠性格的哪一面？",
+      "viewpoint_ids": [
+        "vp_xue_pan_yiqi",
+        "vp_xue_pan_danxing"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_pan_yiqi",
+          "title": "义气论：他的「直」里有真义气",
+          "summary": "薛蟠被打后不怀恨，被救后倾心结拜——他的价值观简单粗暴：打服了我，我服你；救了我命，我认你做兄弟。这种「江湖义气」是他呆性中的闪光点：不记仇、不虚伪、知恩图报。",
+          "evidence": [
+            "第六十六回结拜时「没齿难忘」的表白",
+            "柳湘莲出家后薛蟠的伤心寻找（gaoe）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_xue_pan_danxing",
+          "title": "单纯论：他的情感只有「服」与「谢」两个频道",
+          "summary": "薛蟠的世界没有中间地带：怕了就求饶，服了就敬重，谢了就结拜。与柳湘莲的结拜不是深思熟虑的情义，而是呆子的即时反应——但正是这份简单，让「仇人变恩人」的戏码在他身上毫不违和。",
+          "evidence": [
+            "「我愿意」的求饶与「没齿难忘」的感恩如出一辙",
+            "他不曾对毒打有过任何报复之念"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xue_pan_specimen",
+      "title": "薛蟠——封建末世膏粱子弟的「恶的写实」标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1984,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者普遍将薛蟠视为《红楼梦》「恶的写实」代表：他不同于贾雨村的伪、王熙凤的毒、贾赦的昏，他的恶是赤裸裸的——愚昧、纵欲、残暴、空虚，毫无包装。这种「不加修饰的恶」具有标本价值：它证明封建末世贵族的堕落已经不需要遮羞布。同时，薛蟠的「呆」与「直」又使他保有几分可爱可悯，避免了人物脸谱化——曹雪芹写恶人的功力，正见于他给恶人留了人性。"
+    },
+    {
+      "id": "viewpoint_xue_pan_fengyuan",
+      "title": "冯渊案——护官符制度下的人命价格",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学社会批判研究",
+      "year": 1990,
+      "source_title": "多项社会批判研究",
+      "description": "第四回的冯渊案被学界视为全书社会批判的总纲：一条人命的价值，最终被折算成薛家的「几个臭钱」与贾雨村的「葫芦判断」。薛蟠在此案中的「没事人」态度，揭示的不仅是个人之恶，更是整个司法—权力体系的溃烂。学者指出，曹雪芹让薛蟠开场即杀人，是要在一开篇就宣布：这不是一部才子佳人的爱情小说，而是一部写「吃人」的书。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 8,
+    "total_relationships": 6,
+    "total_poems": 1,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 37,
+      "text_inference": 8,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

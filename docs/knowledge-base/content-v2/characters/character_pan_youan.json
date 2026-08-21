@@ -1,0 +1,403 @@
+{
+  "character": {
+    "id": "character_pan_youan",
+    "name": "潘又安",
+    "slug": "pan-you-an",
+    "aliases": [
+      "司棋之表弟"
+    ],
+    "category": "贾府男仆（司棋之表弟）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "司棋的表弟（一作表兄），贾府仆役家庭出身，父母曾觉察他与司棋之事。",
+      "position": "贾府男仆（小厮）；司棋的恋人。",
+      "origin": "贾府奴才体系，与司棋为中表之亲。",
+      "generation": "与贾府小厮同侪的奴仆阶层"
+    },
+    "tags": [
+      "司棋",
+      "鸳鸯女无意遇鸳鸯",
+      "绣春囊",
+      "情书",
+      "私情",
+      "自刎殉情",
+      "香袋",
+      "抄检大观园"
+    ],
+    "summary": {
+      "short": "司棋的表弟，全书唯一被正面写出的丫鬟私情的男主角。第七十一回与司棋园中幽会被鸳鸯撞见，他惊惶逃走，遗下绣春囊（学界多认为）成为抄检大观园的导火索；第七十四回抄检从他给司棋的情书中坐实私情。后四十回（gaoe）写他发财归来试探司棋，司棋撞墙死后，他买刀自刎殉情。",
+      "long": "潘又安是司棋的表弟，全书最「小」也最「重」的男仆之一。他的名字第一次出现在第七十一回：夜间大观园山石后，与司棋幽会，被鸳鸯撞见——他「磕头如捣蒜」，慌忙逃走，再未露面。第七十三回傻大姐拾得绣春囊，学界多推断即潘又安所赠司棋之物、幽会时遗落——一个无名男仆的慌张，成了抄检大观园、大观园崩溃的引信。第七十四回，王善保家的抄检到司棋箱中，抄出潘又安的情书：「上月你来家后，父母已觉察你我之意。……外特寄香袋二个，略表我心」——他的爱情在信中写得清清楚楚，在现实里却只敢躲在园中幽会。第七十七回司棋被逐，他始终没有出场；后四十回（gaoe）第九十二回，他出门做生意发了财归来，故意装穷试探司棋，司棋之母辱骂他，司棋撞墙而死；他验明司棋至死未变心，买刀自刎殉情，随司棋而去。潘又安之「又安」（又安＝再次平安/又何曾安），是曹雪芹给这段私情的判词：一个想「安」的人，生活在一个不让丫鬟私情「安」的世界里。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "怯——被撞破后的逃走",
+        "fact_type": "canonical_text_fact",
+        "description": "幽会被撞见，司棋跪求鸳鸯，潘又安却磕头如捣蒜、夺路而逃。他的怯与司棋的烈构成全书最不平衡的一对恋人——但怯的不是他一个人，是所有不敢爱的男仆：奴才阶层的爱情，连「留下来面对」的资格都没有。"
+      },
+      {
+        "dimension": "真——情书写得最实的人",
+        "fact_type": "canonical_text_fact",
+        "description": "潘又安的信是全书最朴素的情书：「外特寄香袋二个，略表我心」——没有诗词，只有实在的定情物。他怯于当面，却真于字里：这封信后来成了抄检大观园的铁证，也成了他爱情的墓碑。"
+      },
+      {
+        "dimension": "烈——后四十回的自刎（gaoe）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe",
+        "description": "后四十回（gaoe）写潘又安验明司棋至死未变心后买刀自刎——怯懦了一辈子的他，用死追平了司棋的烈。这段补写让「私情」以双亡收场，与全书「千红一哭」的总主题合拍，但细节笔法争议颇多。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_panyouan_ch71",
+        "title": "与司棋园中幽会被鸳鸯撞见（第七十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_panyouan_ch73",
+        "title": "绣春囊遗落（第七十三回傻大姐拾获，学界多推断为潘又安所赠）",
+        "fact_type": "text_inference"
+      },
+      {
+        "order": 3,
+        "event_id": "event_panyouan_ch74",
+        "title": "情书被抄出——私情坐实（第七十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_panyouan_ch92",
+        "title": "发财归来、司棋殉情、自刎而死（第九十二回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch71_panyouan_escape",
+        "quote": "（鸳鸯）刚转过石后，只听一阵衣衫响……（司棋与潘又安幽会）……潘又安磕头如捣蒜，吓的魂不附体。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十一回。撞破现场的两种反应：司棋跪求，潘又安磕头——男仆的怯与丫鬟的烈。"
+      },
+      {
+        "source_id": "source_ch74_panyouan_letter",
+        "quote": "「上月你来家后，父母已觉察你我之意。……外特寄香袋二个，略表我心。千万收好。表弟潘又安拜具。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十四回抄检所得情书。全书最朴素也最致命的一封信——「香袋」二字与绣春囊疑案互证。"
+      },
+      {
+        "source_id": "source_ch92_panyouan_suicide",
+        "quote": "（司棋死后）潘又安……把买的一口小刀，往脖子里一抹，也就自刎了。",
+        "fact_type": "disputed_version",
+        "note": "第九十二回（attribution=gaoe）。后四十回为潘又安补的自刎结局。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「潘又安」——「又安」之名的反讽",
+      "detail": "「又安」字面即「再度平安」。他与司棋要的只是「安」——安安稳稳地相守；结果他们的私情引发了全书最大的一场风波（绣春囊→抄检大观园），他本人「何曾安过一时」：幽会被撞、恋人被逐、自己殉情。「潘又安」三字因此成为全书命名反讽体系的又一例证：求安者不得安。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；司棋表弟，与司棋年龄相近（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "司棋之表弟",
+      "type": "身份代称",
+      "context": "第七十一回以降多以「司棋的表弟」称之，回目与正文有时径称潘又安",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_panyouan_ch71",
+      "title": "园中幽会被鸳鸯撞见",
+      "event_level": "major",
+      "chapter": {
+        "number": 71,
+        "title": "嫌隙人有心生嫌隙 鸳鸯女无意遇鸳鸯",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "潘又安与司棋夜间在大观园山石后幽会，被穿园而过的鸳鸯撞见。潘又安磕头如捣蒜、魂不附体，惊惶逃走。"
+      },
+      "summary": {
+        "short": "第七十一回是大观园命运的拐点：潘又安与司棋的幽会暴露，他仓皇逃走。这一夜之后，绣春囊事件、抄检大观园、司棋被逐接踵而至——一个男仆的慌张，掀翻了整座园子。",
+        "meaning": [
+          "「一阵衣衫响」——全书最惊险的一声，丫鬟私情的全部暴露",
+          "潘又安之逃与司棋之跪——同一场爱，两种承担",
+          "幽会地点山石后，正是日后傻大姐拾绣春囊处——空间的因果伏笔"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "structure",
+          "title": "引信人物",
+          "content": "潘又安是全书最典型的「引信人物」：他本人几乎不占篇幅，却以一次幽会、一封情书、一只香袋引爆抄检大观园。曹雪芹用最轻的笔墨写最重的人物——他越「小」，大观园崩溃的因果越见悲凉。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_pan_youan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_siqi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_yuanyang",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_panyouan_ch74",
+      "title": "情书被抄出——私情坐实",
+      "event_level": "major",
+      "chapter": {
+        "number": 74,
+        "title": "惑奸谗抄检大观园 矢孤介杜绝宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（迎春房）",
+        "specific": "抄检大观园时，从司棋箱中抄出潘又安的情书、同心如意与男子鞋袜。信中以「表弟潘又安」落款，私情铁证如山，司棋因此被逐。"
+      },
+      "summary": {
+        "short": "第七十四回，潘又安的信成了他的爱情在全书中的全部「在场」：他本人从未正面出场认账，一封信替两个人领了罪。这封信是丫鬟私情的最高浪漫，也是它的死亡判决书。",
+        "meaning": [
+          "「千万收好」——信里叮嘱收好，信外被抄检收走",
+          "情书成为「赃物」——礼教世界对爱情的定义",
+          "潘又安的缺席——所有后果由司棋一人承担"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "书信的罪证化",
+          "content": "宝黛传情靠诗帕，潘司传情靠情书——小姐的信是雅事，奴才的信是罪证。同一套文字，在不同阶级手里有完全不同的命运：这是全书对「礼」最锋利的一次揭露。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_pan_youan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_siqi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_panyouan_ch92",
+      "title": "发财归来与自刎殉情",
+      "event_level": "major",
+      "chapter": {
+        "number": 92,
+        "title": "评女传巧姐慕贤良 玩母珠贾政参聚散",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "司棋家",
+        "specific": "后四十回（gaoe）写潘又安出门经商发财归来，故意装穷试探司棋。司棋之母辱骂逐客，司棋撞墙而死。潘又安确认司棋至死未变心，买刀自刎殉情。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）为潘又安补的结局：他用「装穷」试探出司棋的真心，也用自己的死追平了她的烈。怯懦了一辈子的男仆，最后以死完成了这场私情。",
+        "meaning": [
+          "「试探」的残忍——他的谨慎害死了她，他的殉情救赎了自己",
+          "司棋之母的势利是压死女儿的最后一块石头",
+          "双亡结局与全书「千红一哭」总主题的合拍"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "续书笔法之辨",
+          "content": "后四十回（gaoe）的「装穷试探」情节被学者批评为市井传奇套路，与曹雪芹前文对这段私情的克制笔法差距明显；但「潘又安殉情」的方向与脂批及探佚研究大体一致。引用时须标注gaoe。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_pan_youan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_siqi",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_panyouan_yuanyang",
+      "from": "character_pan_youan",
+      "to": "character_yuanyang",
+      "type": "撞破者与被撞者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "鸳鸯无意撞破潘又安与司棋的幽会。潘又安仓皇磕头逃走，司棋跪求遮掩——鸳鸯以「赌咒发誓」替二人保密。她是这段私情的第一个证人，也是最温和的证人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "撞破",
+          "chapter": 71,
+          "description": "鸳鸯撞见幽会，潘又安逃走。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_panyouan_wangshanbao",
+      "from": "character_pan_youan",
+      "to": "character_wang_shanbao",
+      "type": "间接害成者（抄检抄出私情）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王善保家的（司棋外祖母）撺掇抄检大观园，亲手抄出潘又安与司棋的私情物证——本想整肃风化的她，先整垮了自己的外孙女。潘又安虽从未与她正面冲突，却是她这场抄检的直接受害者。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "抄检抄出私情",
+          "chapter": 74,
+          "description": "王善保家的抄出潘又安情书与同心如意。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_panyouan_sha_dajie",
+      "from": "character_pan_youan",
+      "to": "character_sha_dajie",
+      "type": "命运的传递（绣春囊疑案）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "学界多推断傻大姐第七十三回拾获的绣春囊即潘又安所赠司棋之物、幽会时遗落——两个全书最不起眼的小人物，一个遗落、一个拾起，联手引爆了抄检大观园。此推断为学界通行看法，正文未明言。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "遗落与拾获",
+          "chapter": 73,
+          "description": "绣春囊疑为潘又安遗落、傻大姐拾获。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_panyouan_coward",
+      "title": "潘又安幽会被撞破就逃走，是懦弱还是别无选择？",
+      "slug": "was-panyouans-flight-cowardice",
+      "question_type": "character_motivation",
+      "importance_weight": 64,
+      "heat_weight": 58,
+      "neutral_overview": "第七十一回，幽会被撞见，司棋跪求鸳鸯保密，潘又安却磕头如捣蒜、夺路而逃。这一逃，该怎么评价？",
+      "viewpoint_ids": [
+        "vp_panyouan_coward",
+        "vp_panyouan_helpless"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_panyouan_coward",
+          "title": "懦弱论：他让司棋独自面对一切",
+          "summary": "潘又安之怯与司棋之烈对照鲜明：她敢跪敢求，他只敢逃。事后司棋被逐、被母辱骂，他始终缺席，直到后四十回（gaoe）才现身。这段爱情从头到尾靠司棋一个人扛。",
+          "evidence": [
+            "第七十一回「磕头如捣蒜」与司棋的跪求对照",
+            "第七十七回司棋被逐时潘又安无踪影"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_panyouan_helpless",
+          "title": "无路论：男仆的身份让「留下」等于送死",
+          "summary": "潘又安的逃不是个人品质问题：一个男仆被撞见与丫鬟私通，留下面对的将是打死、发卖。他与司棋都没有退路，区别只在于她选「扛」，他选「逃」——两种反应，同一种绝境。",
+          "evidence": [
+            "贾府对私通奴才的处置惯例（如打板子、逐出）",
+            "潘又安「魂不附体」的恐惧描写"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch92_panyouan_ta",
+      "quote": "潘又安……故意装穷，说：「我如今穷了，配不上你了。」……（司棋死后悔之不及）",
+      "fact_type": "disputed_version",
+      "note": "第九十二回（attribution=gaoe）。装穷试探——后四十回最受争议的桥段之一。",
+      "disputes": []
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_panyouan_yinxin",
+      "title": "潘又安——全书最小的「引信人物」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学结构研究",
+      "year": 1998,
+      "source_title": "多项结构分析研究",
+      "description": "学者指出，潘又安是《红楼梦》结构上的「引信人物」：他的一次幽会（71回）→一只绣春囊（73回）→一封情书（74回）→一场抄检（74回）→一串逐婢（77回），全书最大的内乱由最小的男仆点燃。曹雪芹特意让这个人物「不在场」——抄检时他无踪影，司棋被逐时他无踪影——用缺席强化因果的冷酷：命运的扳机一旦扣下，扣扳机的人甚至不必出场。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 1,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.85,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 16,
+      "text_inference": 4,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

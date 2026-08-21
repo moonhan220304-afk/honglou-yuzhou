@@ -1,0 +1,956 @@
+{
+  "character": {
+    "id": "character_jia_lian",
+    "name": "贾琏",
+    "slug": "jia-lian",
+    "aliases": [
+      "琏二爷"
+    ],
+    "category": "荣国府公子（大房长子）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾赦之子（前妻所生），王熙凤之夫，平儿之夫主，巧姐之父。",
+      "position": "荣国府大房长公子——捐了同知，协助二房理家，「于世路上好机变」的外当家。",
+      "origin": "荣国府长房，自幼丧母（邢夫人为继室）。",
+      "generation": "贾府第四代（「玉」字辈）——与宝玉同辈"
+    },
+    "tags": [
+      "琏二爷",
+      "同知",
+      "于世路好机变",
+      "偷娶尤二姐",
+      "多姑娘",
+      "鲍二家的",
+      "休凤姐",
+      "平儿扶正"
+    ],
+    "summary": {
+      "short": "荣府长房长子，捐同知，与凤姐共掌荣府内外。「于世路上好机变」——他上得了官场（平安州、护送黛玉、协理省亲），下得了私欲（多姑娘、鲍二家的、偷娶尤二姐）。他是贾府男性中最「真实」的一个：坏得有底线，贪得不虚伪，后四十回（gaoe）休凤姐、扶正平儿。",
+      "long": "贾琏是贾府第四代男性中最复杂的一个：他没有宝玉的灵性，却有办事的本事；没有贾珍的淫乱无度，却有层出不穷的偷腥；没有凤姐的毒辣，却也不是什么好人。冷子兴对他的定评是「不肯读书，于世路上好机变，言谈去的」——「机变」二字是他全部能力的概括：贾府对外的事务（护送黛玉南归、修建省亲别墅的采购、平安州的外差、尤二姐的丧事）几乎都由他经手，他是贾府「外当家」的唯一人选。但他的人生在「能办」与「胡闹」之间摇摆：第二十一回他与多姑娘鬼混（「相离只有一箭之地」的丑闻，全靠平儿软语相救）；第四十四回凤姐生日当天他与鲍二家的偷情，被凤姐撞破，闹得阖府不宁——鲍二家的上吊，凤姐哭诉，他提剑追凤姐，贾母断案让他「赔不是」；第六十四至六十五回他偷娶尤二姐于花枝巷——「偷娶」二字是全书对他婚姻态度的判决：他娶妾要偷，因为凤姐之威不容；他真心喜欢尤二姐，却保护不了她——第六十九回尤二姐吞金自尽，他抚尸大哭，「自寻死处」般把丧事办得隆重，这是全书他最痛的时刻。他的「恶」有鲜明的世俗性：好色（但不强占）、贪财（但不出卖良心——石呆子案他说了「不算能为」的公道话而挨打）、惧内（但在凤姐死后有真心）。他与凤姐的婚姻是全书最「写实」的夫妻关系：权势的结盟、床笫的博弈、财产的算计、情感的背叛——什么都有一点，唯独爱很少。第四十四回「变生不测凤姐泼醋」是这段婚姻的高潮：一场生日宴，暴露了这对「金童玉女」式的夫妻内里的千疮百孔。他对凤姐的情感复杂：怕她（威权）、靠她（理家）、恨她（管束）、怜她（病弱）——唯独在尤二姐死后，他的恨压过了一切，埋下后四十回「休凤姐」的伏笔。后四十回（gaoe）写凤姐失势病亡，贾琏休妻、扶正平儿——这个结局与脂批「平儿后事」的透露基本吻合。贾琏的价值在于「真实」：曹雪芹借他写出一个不那么坏、也不那么好、在欲望与底线之间滑动的世俗男人——他是宝玉（灵性）与贾珍（兽性）之间的「人性」刻度。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "能——于世路机变的办事才",
+        "fact_type": "canonical_text_fact",
+        "description": "贾琏是贾府唯一「办得成事」的成年男性：护送黛玉千里往返、修建省亲别墅的采买统筹、平安州外差、尤二姐丧事——他都办得利落。凤姐理内、贾琏理外，这个分工使荣府机器正常运转。他的「机变」是世俗智慧的全部：懂官场、懂人情、懂钱。"
+      },
+      {
+        "dimension": "淫——无止境的偷腥",
+        "fact_type": "canonical_text_fact",
+        "description": "贾琏的「淫」是世俗的而非变态的：多姑娘、鲍二家的、尤二姐、秋桐——他像一条在欲望之河里打转的鱼。他的偷情有固定的模式（趁凤姐不备、事发后赔罪、下次照犯）。脂批所谓「皮肤滥淫」的典型——与宝玉的「意淫」构成全书最直接的对照。"
+      },
+      {
+        "dimension": "义——恶中有底的良心",
+        "fact_type": "canonical_text_fact",
+        "description": "贾琏与贾赦、雨村之流的分界在「底线」：石呆子案他直言「不算能为」（挨打不改口）；尤二姐死后他抚尸大哭、厚葬（真哀）；对黛玉之死他也有「可怜」之叹。他的坏是「俗坏」，不是「恶坏」——曹雪芹给他的良心留了位置。"
+      },
+      {
+        "dimension": "惧——凤姐阴影下的丈夫",
+        "fact_type": "canonical_text_fact",
+        "description": "贾琏惧内是全书的名场面：「怕」的背后是权力结构——凤姐掌内、掌钱、掌人事，贾琏的每一次偷腥都是对凤姐权力的逃逸，每一次被捉都是对逃逸的惩罚。他的惧不是懦弱，是一个「丈夫」在「女强人」妻子体系中的处境。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jialian_intro_ch2",
+        "title": "冷子兴演说——同知、好机变（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jialian_send_daiyu_ch12",
+        "title": "护送黛玉南归办丧（第十二至十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jialian_coorganize_ch16",
+        "title": "协理省亲——外当家（第十六至十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jialian_duoguniang_ch21",
+        "title": "多姑娘事件——一缕青丝（第二十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_jialian_baojia_ch44",
+        "title": "凤姐泼醋——鲍二家的之死（第四十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_jialian_shidaizi_ch48",
+        "title": "石呆子案——「不算能为」挨打（第四十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_jialian_youerjie_ch64",
+        "title": "偷娶尤二姐（第六十四至六十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_jialian_fuzheng_gaoe",
+        "title": "休凤姐、扶正平儿（后四十回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch02_jialian_intro",
+        "quote": "若问那赦公，也有二子，长名贾琏，今已二十来往了，亲上作亲，娶的就是政老爹夫人王氏之内侄女，今已娶了二年。这位琏爷身上现捐的是个同知，也是不肯读书，于世路上好机变，言谈去的，所以如今只在乃叔政老爷家住着，帮着料理些家务。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二回。贾琏的完整定评：捐同知、不肯读书、于世路机变——贾府外当家的官方简历。"
+      },
+      {
+        "source_id": "source_ch21_jialian_duoguniang",
+        "quote": "（贾琏）因那媳妇（多姑娘）故作浪语，在下说道：「你家女儿出花儿，供着娘娘，你也该忌两日，倒为我脏了身子。快离了我这里罢。」……那媳妇浪道：「你就是娘娘！我那里管什么娘娘！」……平儿收拾贾琏在外的衣服铺盖，不承望枕套中抖出一绺青丝来。平儿会意，忙拽在袖内。……平儿笑道：「这是一辈子把柄儿。好便罢，不好咱们就抖出来。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十一回「贤袭人娇嗔箴宝玉 俏平儿软语救贾琏」。多姑娘之淫与平儿之救——贾琏偷腥的第一次近景。"
+      },
+      {
+        "source_id": "source_ch44_jialian_baojia",
+        "quote": "（凤姐）蹑手蹑脚的走至窗前。往里听时，只听里头说笑。那妇人笑道：「多早晚你那阎王老婆死了就好了。」贾琏道：「他死了，再娶一个也是这样，又怎么样呢？」……凤姐听了，气得浑身乱战……回身把平儿先打了两下，一脚踢开门进去，也不容分说，抓着鲍二家的撕打一顿。……贾琏恼了，墙上拔了剑，赶着凤姐道：「不用寻死，我也急了，一齐杀了，我偿了命，大家干净。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十四回「变生不测凤姐泼醋 喜出望外平儿理妆」。生日宴上捉奸——贾琏提剑追凤姐，「一齐杀了」的狠话与平日的惧内形成爆裂反差。"
+      },
+      {
+        "source_id": "source_ch65_jialian_youerjie",
+        "quote": "贾琏道：「如今不在家，我到那边去瞧了瞧……只取今日之善，日后之事，一概不管了。」……（贾琏对尤二姐）「人人都说我们那夜叉婆齐整，如今我看来，给你拾鞋也不要。……我如今只求你们替我保守秘密，直待我死了，把那一个（凤姐）一刀两段，才完了我这口气。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十五回。偷娶尤二姐后贾琏的「情话」——「给你拾鞋也不要」的对比，是全书最著名的「丈夫怨言」。"
+      },
+      {
+        "source_id": "source_ch69_jialian_funeral",
+        "quote": "贾琏揭起衾单一看，只见这尤二姐面色如生，比活着还美貌。贾琏又搂着大哭，只叫：「奶奶，你死的不明，都是我坑了你！」……贾琏自在梨香院伴宿七日夜，天天僧道不断做佛事。……（贾琏）又见二姐儿的定情之物（九龙珮）不见了，一壁走，一壁问：「可是丢了？……我必将此事查出来。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十九回。尤二姐吞金而亡，贾琏抚尸大哭、伴宿七日、执意查凶——全书他最痛的时刻。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名琏，贾府「玉」字辈（「琏」为王字旁）",
+      "detail": "「琏」——古代宗庙盛黍稷的礼器（瑚琏之器），《论语》子贡曾以「瑚琏」自比，喻「可成大器之才」。贾琏以「琏」为名，寄托「成大器」之望，实际却是「于世路上好机变」的俗才——名与人的落差，是贾府第四代「玉」字辈的整体写照（宝玉、贾琏、贾环，琏环之「玉」皆是伪玉：琏为祭器、环为佩饰，皆非真玉——真正能「成器」的宝玉（真玉）偏偏被斥为「不成器」）。「琏二爷」之「二」——因贾琏在荣府大排行居二（珠大爷早逝，琏为第二），与「宝二爷」同「二」——两个二爷，一个掌家、一个掌情。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "贾琏之母",
+          "content": "书中仅言贾琏为贾赦「前妻所生」（一说为贾赦嫡长子，邢夫人为继室），贾琏生母身份未详，学界有「原配早逝」与「庶出」两说。",
+          "proponent": "版本研究"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 2,
+          "evidence": "冷子兴：贾琏约二十岁，娶王熙凤已二年",
+          "age": "约20岁"
+        },
+        {
+          "chapter": 62,
+          "evidence": "三月初九贾琏生日",
+          "age": "生日锚点"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约20岁",
+        "story_end": "约28岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第2回冷子兴「约二十岁」为明证，大凤姐两三岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "琏二爷",
+      "type": "府内称呼",
+      "context": "贾府大排行居二（珠大爷之后）——与「宝二爷」并称的两个二爷，一个理家一个谈情",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "同知",
+      "type": "官衔",
+      "context": "捐来的同知（正五品）——「捐」字道破其仕途的成色：不是考的，是买的",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jialian_intro_ch2",
+      "title": "冷子兴演说——「于世路上好机变」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（转述）",
+        "specific": "冷子兴介绍贾琏：二十来岁，亲上作亲娶王熙凤，捐了同知，「也是不肯读书，于世路上好机变，言谈去的」，在政老爷家帮着料理家务。"
+      },
+      "summary": {
+        "short": "贾琏的简历一句话写完：捐官、不读书、好机变、帮理家。「于世路上好机变」是他的本事，「不肯读书」是他的底子——贾府第四代外当家的全部成色。",
+        "meaning": [
+          "「亲上作亲」——贾琏与凤姐的婚姻是王贾两家的第二次结盟（贾政王夫人之后）",
+          "「捐的是个同知」——他的官职是买来的，与贾政之「赐」、雨村之「考」并列为三种仕途",
+          "「帮着料理些家务」——贾府男性的典型职业：帮闲，而真正办事的只有他一个"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lian",
+          "role": "被介绍者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch02_jialian_intro",
+          "summary": "冷子兴对贾琏的定评——同知、机变、理家。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「机变」——贾琏的能力与边界",
+          "content": "「于世路上好机变」是曹雪芹对贾琏的精确定评：他的全部才华都在「世路」上——官场应酬、商业采买、人情打点、家事周旋，他样样拿手；但「世路」之外的一切（读书、性灵、情义）他都不通。这决定了贾琏的一生：他办得成事，却活不成「人」——能力够用，灵魂缺席。与宝玉的对照在于：一个全是世路、一个毫无世路。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialian_send_daiyu_ch12",
+      "title": "护送黛玉南归——千里办丧",
+      "event_level": "minor",
+      "chapter": {
+        "number": 12,
+        "title": "王熙凤毒设相思局 贾天祥正照风月鉴",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "扬州/苏州（往返）",
+        "specific": "林如海病重，贾母命贾琏护送黛玉回扬州。如海病逝，贾琏带黛玉扶柩回苏州安葬，数月后回京——黛玉进贾府后第一次南归，由贾琏全权护送。"
+      },
+      "summary": {
+        "short": "贾琏护送黛玉往返扬州苏州数月，办完林如海的丧事——这是贾府托付给他的最重外差，他办得妥帖。回京后凤姐摆酒接风，夫妻一段「协理省亲」的对话就此展开。",
+        "meaning": [
+          "贾琏护送黛玉——贾府「外当家」的职责所系，也是他与黛玉为数不多的交集",
+          "林如海之丧的经手——「林家财产之谜」的关键人物是贾琏（红学公案）",
+          "护送期间他「在外多日」——为后文凤姐的疑忌与他自己的放荡埋线"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lian",
+          "role": "护送者——全权办丧"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "被护送者——扶柩归南"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "贾琏经手——林家财产的经手人",
+          "content": "贾琏护送黛玉办丧期间，经手了林家的后事与资产处置——这使他成为「林家财产之谜」的核心人物：林家列侯五世加巡盐御史的家产去向，全书未着一字，而唯一可能经手的贾琏回京后对此含糊其辞（第十六回凤姐问起，他只以别话岔开）。学者据此推断林家财产被贾府接收，贾琏是执行人。这也是黛玉「一无所有」之谜的钥匙。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialian_coorganize_ch16",
+      "title": "协理省亲——外当家的高光时刻",
+      "event_level": "minor",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/大观园工地",
+        "specific": "元春封妃、贾府修建省亲别墅。贾琏负责全部外务：点人丁、开册籍、监工采买、各处工程协调——与凤姐（内务）一外一内，把大观园工程运转起来。"
+      },
+      "summary": {
+        "short": "大观园工程是贾琏能力的巅峰展示：采买监工、人丁册籍、工程协调——贾府最浩大的工程由他一人外勤支撑。这是全书唯一一次把贾琏的「机变」用在正事上的集中描写。",
+        "meaning": [
+          "「点人丁、开册籍」——贾琏办事的章法：分派、立账、监工，一丝不乱",
+          "与凤姐的「内当家」配合——贾府机器最后一对能转动的齿轮",
+          "大观园的奢华——贾琏亲手把贾府送上「鲜花着锦」之巅，也埋下「盛极而衰」之因"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lian",
+          "role": "外务总管"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "内务总管——夫妻搭档"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "夫妻搭档——荣府最后的执行力",
+          "content": "省亲工程中的贾琏凤姐是全书最佳拍档：凤姐的狠辣决断配贾琏的机变周旋，贾府机器高速运转。曹雪芹的深意在于：这对「最好的搭档」恰恰是「最坏的夫妻」——他们在事务上默契十足，在情感上互相背叛。这种「能力与感情的错位」，是封建婚姻功利本质的绝妙注脚：贾府需要的从来不是恩爱夫妻，是办事机器。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialian_duoguniang_ch21",
+      "title": "多姑娘事件——枕套里的一缕青丝",
+      "event_level": "minor",
+      "chapter": {
+        "number": 21,
+        "title": "贤袭人娇嗔箴宝玉 俏平儿软语救贾琏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（贾琏书房）",
+        "specific": "凤姐与巧姐出痘，贾琏独宿书房，与多姑娘（多浑虫之妻）鬼混数日。平儿收拾铺盖时抖出多姑娘留下的一缕青丝，会意藏起。贾琏求讨，二人夺抢调笑，平儿以「把柄」相挟又替他瞒下。"
+      },
+      "summary": {
+        "short": "妻女出痘，贾琏立刻与多姑娘鬼混——「浪」到把定情青丝带回家里。平儿发现、藏起、相救——回目「俏平儿软语救贾琏」，一个「救」字写尽这场偷腥的狼狈与主仆三人的微妙。",
+        "meaning": [
+          "多姑娘——「荣宁二府之人都得入手」的荡妇，贾琏偷腥的首选",
+          "一缕青丝——偷情的物证，也是平儿对贾琏的「把柄」",
+          "平儿之救——她瞒的是凤姐，护的是贾琏，维系的是这个家的平衡"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lian",
+          "role": "偷腥者"
+        },
+        {
+          "character_id": "character_duoguniang",
+          "role": "多姑娘——相好"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "平儿——发现青丝、软语相救"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch21_jialian_duoguniang",
+          "summary": "多姑娘留青丝、平儿藏证相救。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "贾琏的「偷」——被管束的欲望",
+          "content": "贾琏的偷腥模式固定：凤姐不在（出痘、生日、外出）→立即行动→留下把柄→被人搭救。这个循环的讽刺在于：凤姐的「管」制造了偷的刺激，偷的被捉又加固了管的必要——夫妻关系陷入「管制与偷腥」的永恒循环。曹雪芹写贾琏的偷，从不写他的心理挣扎——因为他没有挣扎：在纳妾合法的时代，凤姐的独宠之妒与贾琏的偷腥之癖，是这段婚姻最真实的内核。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialian_baojia_ch44",
+      "title": "凤姐泼醋——鲍二家的之死",
+      "event_level": "major",
+      "chapter": {
+        "number": 44,
+        "title": "变生不测凤姐泼醋 喜出望外平儿理妆",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（凤姐生日宴当日）",
+        "specific": "凤姐生日，阖府庆贺。贾琏趁凤姐在席，招鲍二家的进房偷情，说「等你那阎王老婆死了」云云。凤姐回家撞破，打平儿、撕打鲍二家的；贾琏仗着酒兴提剑追凤姐，直闹到贾母跟前。贾母断案，贾琏赔不是。鲍二家的羞惧自缢，贾琏出银了结。"
+      },
+      "summary": {
+        "short": "凤姐生日当天，贾琏把鲍二家的招进家里——「变生不测」的捉奸大戏就此爆发。凤姐撒泼、平儿挨打、贾琏提剑、贾母断案——一场闹剧以鲍二家的自缢收场。",
+        "meaning": [
+          "「阎王老婆」——贾琏对凤姐的真实称呼：他们的婚姻在私下里已经烂透",
+          "平儿两头挨打——这场丑闻的真正受害者，是夹在中间的平儿",
+          "鲍二家的之死——一条人命成了生日宴的余兴，贵族之家的「干净」全靠银子擦"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lian",
+          "role": "偷情者——提剑追妻"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "凤姐——泼醋捉奸"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "平儿——两头挨打"
+        },
+        {
+          "character_id": "character_jia_mu",
+          "role": "贾母——断案了局"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch44_jialian_baojia",
+          "summary": "凤姐撞破奸情，贾琏提剑——「一齐杀了，大家干净」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「一齐杀了」——贾琏的爆发与婚姻的真相",
+          "content": "平日「怕老婆」的贾琏，被捉奸后提剑喊「一齐杀了，我偿了命，大家干净」——这场爆发暴露了这段婚姻的真相：贾琏的「怕」不是爱，是被压抑的恨。凤姐的泼醋撕碎了他的体面，他的剑指向的不是羞耻而是凤姐本人——夫妻二人在生日宴上把彼此的底牌全部摊开。贾母「什么要紧的事」的轻描淡写，则宣告了这套闹剧的日常化：贵族婚姻的崩溃，连丑闻都算不上。"
+        },
+        {
+          "type": "literary",
+          "title": "「变生不测」——回目的反讽",
+          "content": "回目「变生不测凤姐泼醋」——「不测」二字极反讽：凤姐料尽千事（放债、弄权、算计），独独没料到丈夫会在自己生日当天偷人。全书最精于算计的人，在自己的生日宴上被命运「算了」一道。这场戏与「喜出望外平儿理妆」并置——平儿在被打之后被宝玉请去理妆，得到全书唯一一次「喜出望外」的温柔：主仆三人，一个泼醋、一个提剑、一个理妆，曹雪芹用一场闹剧写尽了这个家全部的荒诞。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialian_shidaizi_ch48",
+      "title": "石呆子案——「不算能为」挨打",
+      "event_level": "minor",
+      "chapter": {
+        "number": 48,
+        "title": "滥情人情误思游艺 慕雅女雅集苦吟诗",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾赦院（平儿转述）",
+        "specific": "贾赦要石呆子的古扇，贾琏去办未成（石呆子宁死不卖）。贾雨村以官银之讹抄没其扇献上。贾赦问贾琏「人家怎么弄了来？」，贾琏说「为这点子小事，弄得人坑家败业，也不算什么能为」——被贾赦劈头痛打。"
+      },
+      "summary": {
+        "short": "石呆子案中，贾琏是全贾府唯一说了句公道话的人：「坑家败业，不算能为」——八个字让他挨了父亲的痛打。这是他恶中底线的最好证明。",
+        "meaning": [
+          "贾琏的买扇——他按「正常」手段去买（出钱、讲价），买不到就放手",
+          "「不算能为」——他看不起雨村的造冤手法：要扇可以，别要命",
+          "挨打不改口——贾琏的底线不是道德高线，却是贾府男性中罕见的一根"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lian",
+          "role": "说公道话者——挨打"
+        },
+        {
+          "character_id": "character_jia_she",
+          "role": "贾赦——得扇后怒打贾琏"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "贾琏的底线——「俗人」的道德刻度",
+          "content": "石呆子案是贾琏人性的高光：全贾府（包括清客、幕僚、凤姐）无人质疑夺扇的正当性，只有贾琏说出「不算能为」。他的底线很低（不害命即可），却真实可感——曹雪芹的笔法正在于此：不给贾琏拔高（他并非为石呆子鸣冤，只是看不起父亲的手段），只给刻度（在贾赦的恶与自己的俗之间划一条线）。这条线使贾琏成为全书最「立体」的负面人物。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialian_youerjie_ch64",
+      "title": "偷娶尤二姐——花枝巷的温柔乡",
+      "event_level": "major",
+      "chapter": {
+        "number": 64,
+        "title": "幽淑女悲题五美吟 浪荡子情遗九龙珮",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府/花枝巷",
+        "specific": "贾敬停灵期间，贾琏看上尤二姐，以九龙珮定情。贾蓉撮合，贾琏在花枝巷偷娶尤二姐，过起「家下媳妇」的小日子：给银子、买使唤、呼「奶奶」——把凤姐全然抛在脑后，甚至盼凤姐「早死」。"
+      },
+      "summary": {
+        "short": "国孝家孝期间，贾琏偷娶尤二姐——「偷娶」二字是全书对这桩婚姻的判决：不合礼、不合法、不合凤姐之威。花枝巷的日子是贾琏一生最「有家」的时光：有妻、有妾、有钱、有自由。",
+        "meaning": [
+          "九龙珮——贾琏的定情信物，与宝玉赠黛玉旧帕并列为「玉珮」两端的爱情符号",
+          "「奶奶」——贾琏对尤二姐的称呼：他给了她凤姐得不到的温存，却给不了任何保障",
+          "国孝家孝中的偷娶——一桩随时会爆的罪：贾琏为情犯忌，也为情埋祸"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lian",
+          "role": "偷娶者"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "尤二姐——花枝巷之妇"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "贾蓉——撮合者"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch65_jialian_youerjie",
+          "summary": "贾琏「只取今日之善」「给你拾鞋也不要」——偷娶后的情话与怨言。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "贾琏对尤二姐——「滥」里的真情",
+          "content": "贾琏对尤二姐算不算真爱？文本给出的是复杂的「是」：他给足钱财、温存备至、称「奶奶」、誓言报仇——比起对多姑娘鲍二家的「纯欲」，对尤二姐确有「情」的成分。但这份情的底色仍是「滥」：他娶二姐的初衷是好色（「无所不至」的贾珍也玩厌了的人），情是「娶到手」之后处出来的。二姐死后他的痛哭，一半是真情，一半是「我的人被弄死了」的物主之痛。曹雪芹不给答案——这正是贾琏之为贾琏：连真情都是浑的。"
+        },
+        {
+          "type": "literary",
+          "title": "九龙珮与玉珮——两种爱情的镜像",
+          "content": "贾琏赠尤二姐九龙珮（第六十四回）与宝玉赠黛玉旧帕（第三十四回）构成全书爱情符号的双镜像：旧帕是「旧」（长久）、是「丝」（思）——以心传心；九龙珮是「珮」（聘）——以物聘人。一个偷娶、一个暗许；一对终成悲剧（二姐吞金），一对终成遗恨（黛玉焚稿）。曹雪芹以两件信物，标出「滥」与「痴」两种爱情的全部距离。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialian_fuzheng_gaoe",
+      "title": "休凤姐、扶正平儿——贾琏的结局",
+      "event_level": "major",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "后四十回（gaoe）写凤姐失势病亡，贾琏将平儿扶正。贾府抄家后他独力支撑残局，照顾巧姐、送葬凤姐，成为败落后贾府的「收摊人」。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写凤姐死、平儿扶正——贾琏的婚姻以「休旧立新」告终。而败落后的贾府残局，恰恰是贾琏这个「于世路机变」的人独力支撑——外当家的能力，最后用在了收摊上。",
+        "meaning": [
+          "平儿扶正——脂批早有「平儿后事」的透露，gaoe的处理与脂批系统大致吻合",
+          "凤姐之死与尤二姐之死的呼应——贾琏的两任「妻」，一死于他的懦弱，一死于她的狠毒",
+          "贾琏收摊——全书「外当家」的最后职能：把败落的贾府体面地安葬"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lian",
+          "role": "休妻扶正者——支撑残局"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "平儿——扶正"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「平儿扶正」的版本评价",
+          "content": "贾琏休凤姐、扶正平儿（gaoe）与脂批系统大体一致（脂批有「平儿作正」的透露），是后四十回中较受认可的人物收束之一。凤姐的结局（哭向金陵事更哀、被休）与尤二姐之死的「一从二令三人木」判词解互证。贾琏扶正平儿的合理性在于：平儿是全书唯一在「琏凤体制」里始终保持善意的人，她的扶正不是续书的随意圆满，而是这段三角关系二十年的必然终点。"
+        },
+        {
+          "type": "character",
+          "title": "从外当家到收摊人——贾琏的弧线",
+          "content": "贾琏的完整弧线是一个反讽：他「于世路机变」的全部本事，前半生用在建设（省亲工程）、偷情（花枝巷）、周旋（平安州），后半生用在收摊——抄家后独撑残局、安葬亡妻、护送巧姐。曹雪芹（与续书）没有让贾琏像宝玉那样顿悟出走，而是让他「活到了最后」——这恰是贾琏之为贾琏：他没有灵性可以觉醒，只有世路可以走完。贾府败落后的世界，正是为他这样的「俗人」准备的。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jialian_wang_xifeng",
+      "from": "character_jia_lian",
+      "to": "character_wang_xifeng",
+      "type": "夫妻（琏凤体制）",
+      "nature": [
+        "kinship",
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾琏与凤姐是全书最写实的夫妻：亲上作亲的政治联姻、外主内主的权力分工、彼此算计的财产关系、互相背叛的情感现实。凤姐之威与贾琏之偷构成「琏凤体制」的两面——他们是最佳拍档，也是最烂夫妻。尤二姐之死使这段婚姻彻底裂开，后四十回（gaoe）以休妻扶正收束。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "共掌荣府",
+          "chapter": 16,
+          "description": "一外一内协理省亲——黄金搭档。"
+        },
+        {
+          "stage": 1,
+          "title": "夫从妻制——凤姐压倒贾琏",
+          "chapter": 7,
+          "description": "早期贾琏在凤姐面前几乎毫无发言权。凤姐以王夫人内侄女、贾母宠信的双重身份碾压贾琏的夫权。"
+        },
+        {
+          "stage": 2,
+          "title": "泼醋危机",
+          "chapter": 44,
+          "description": "凤姐捉奸、贾琏提剑——婚姻裂痕公开。"
+        },
+        {
+          "stage": 2,
+          "title": "偷娶尤二姐——婚姻裂痕暴露",
+          "chapter": 65,
+          "description": "贾琏在国孝家孝期间偷娶尤二姐——这是对凤姐最大的羞辱。凤姐表面贤惠实则在策划血腥的报复。"
+        },
+        {
+          "stage": 3,
+          "title": "二姐之死",
+          "chapter": 69,
+          "description": "凤姐借刀杀人，贾琏扶尸誓仇——彻底决裂。"
+        },
+        {
+          "stage": 3,
+          "title": "「哭向金陵」——被休弃的终局",
+          "chapter": 110,
+          "description": "贾府败落后，贾琏休弃凤姐。凤姐「哭向金陵事更哀」——当年威风八面的琏二奶奶最终被扫出贾府。",
+          "note": "后四十回，attribution=gaoe"
+        },
+        {
+          "stage": 4,
+          "title": "休妻扶正",
+          "chapter": 119,
+          "description": "凤姐亡、平儿扶正。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "evidence_events": [
+        {
+          "event_id": "event_xifeng_youerjie_ch69",
+          "description": "尤二姐事件——夫妻战争的最高潮"
+        }
+      ],
+      "impact": "凤姐与贾琏的夫妻关系揭示了封建家族中夫权与妇权之间不可调和的矛盾。凤姐的强大迫使贾琏不断以「偷腥」来维护男性自尊，而贾琏的背叛又不断触发凤姐的暴力报复。这对夫妻以最畸形的方式完成了封建婚姻的全面崩解。"
+    },
+    {
+      "id": "relationship_jialian_ping_er",
+      "from": "character_jia_lian",
+      "to": "character_ping_er",
+      "type": "主妾（相护之情）",
+      "nature": [
+        "spouse",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "平儿是贾琏的通房丫鬟，也是他的「救火队员」：多姑娘的头发她藏、鲍二家的事她劝、尤二姐的处境她怜。贾琏对平儿「情之不足、敬之有余」——他轻薄不得（凤姐之威），真心难给（他之滥），却始终信她。后四十回（gaoe）平儿扶正，是这段相护之情的水到渠成。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "软语相救",
+          "chapter": 21,
+          "description": "平儿藏青丝，救贾琏。"
+        },
+        {
+          "stage": 2,
+          "title": "两头挨打",
+          "chapter": 44,
+          "description": "平儿被琏凤双方打——三角关系的受害者。"
+        },
+        {
+          "stage": 3,
+          "title": "扶正",
+          "chapter": 119,
+          "description": "平儿继凤姐之位。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jialian_you_erjie",
+      "from": "character_jia_lian",
+      "to": "character_you_erjie",
+      "type": "偷娶之妾",
+      "nature": [
+        "kinship",
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾琏对尤二姐始于好色、终于真情：九龙珮定情、花枝巷偷娶、「奶奶」相称——他给了二姐一生最好的时光，也给了她灭顶之灾（凤姐之妒因他而起）。二姐吞金后他抚尸大哭、伴宿七日、执意查凶——这份迟到的深情，救不了死者，只证明了这个「滥人」心里确实有过一个人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "九龙珮定情",
+          "chapter": 64,
+          "description": "贾琏以九龙珮勾尤二姐。"
+        },
+        {
+          "stage": 1,
+          "title": "偷娶",
+          "chapter": 64,
+          "description": "贾琏以九龙佩定情，花枝巷偷娶。"
+        },
+        {
+          "stage": 2,
+          "title": "花枝巷偷娶",
+          "chapter": 65,
+          "description": "国孝家孝中偷娶，过小日子。"
+        },
+        {
+          "stage": 2,
+          "title": "变心",
+          "chapter": 69,
+          "description": "秋桐入门后贾琏「将那尤三姐之事撇在脑后」，二姐失宠。"
+        },
+        {
+          "stage": 3,
+          "title": "抚尸誓仇",
+          "chapter": 69,
+          "description": "二姐吞金，贾琏厚葬查凶。"
+        },
+        {
+          "stage": 3,
+          "title": "身后",
+          "chapter": 69,
+          "description": "二姐死后贾琏无钱安葬，靠平儿私房银。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jialian_lin_daiyu",
+      "from": "character_jia_lian",
+      "to": "character_lin_daiyu",
+      "type": "表兄妹（护送之谊）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾琏与黛玉的交集不多却关键：他护送黛玉千里办丧、往返照应。黛玉死后（gaoe），贾琏参与处理后事，对这位薄命表妹亦有「可怜」之叹。贾琏是贾府办事人，黛玉是贾府寄居者——二人的关系始终停在「照应」层面，没有情感交集，恰是全书「府中人」与「诗中人」之间的典型距离。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "护送办丧",
+          "chapter": 12,
+          "description": "贾琏护送黛玉回南，办林如海丧事。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jialian_duoguniang",
+      "from": "character_jia_lian",
+      "to": "character_duoguniang",
+      "type": "偷情（皮肤滥淫）",
+      "nature": [
+        "illicit_affair"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "多姑娘是贾琏偷腥的典型对象——「荣宁二府之人都得入手」的荡妇。二人鬼混数日，贾琏连她的定情青丝都带回了家。这段关系是「皮肤滥淫」的标本：纯肉欲、零情感、留物证——与宝玉的「意淫」构成全书最直接的欲望对照。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "出痘偷腥",
+          "chapter": 21,
+          "description": "凤姐出痘，贾琏与多姑娘鬼混。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jialian_morality",
+      "title": "贾琏到底是坏人还是「有人性的普通人」？",
+      "slug": "is-jia-lian-villain-or-ordinary",
+      "question_type": "character_morality",
+      "importance_weight": 78,
+      "heat_weight": 70,
+      "neutral_overview": "贾琏好色、偷情、荒唐，却在石呆子案说公道话、对尤二姐有真情。曹雪芹给他的道德定位是什么？",
+      "viewpoint_ids": [
+        "vp_jialian_ordinary",
+        "vp_jialian_villain",
+        "vp_jialian_realism"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jialian_ordinary",
+          "title": "常人论：他是贾府男性中最接近「人」的一个",
+          "summary": "贾琏的坏是「人」的坏：好色（人之欲）、偷懒（人之惰）、惧内（人之弱）——他没有宝玉的灵、贾珍的兽、贾政的僵，他是「中间值」。曹雪芹给他安排了全书最「人性化」的细节：说公道话挨打、对亡妾大哭、办丧事尽心。在群魔乱舞的贾府男性中，贾琏反而是唯一让读者觉得「真实可触」的。",
+          "evidence": [
+            "石呆子案的公道话",
+            "尤二姐之丧的真心痛哭",
+            "多姑娘、鲍二家等「人之欲」的坦率"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialian_villain",
+          "title": "坏人论：滥淫者不可因小节洗白",
+          "summary": "另一种立场认为贾琏就是坏人：他明知凤姐之妒还偷娶尤二姐（置二姐于死地）、偷情致鲍二家的自缢（人命债）、国孝家孝中娶亲（大不孝）、后四十回（gaoe）休妻。他的「底线」低得可怜——「不亲手害命」也能算美德吗？在曹雪芹的「千红一哭」里，贾琏至少要为三个女人（鲍二家的、尤二姐、间接的平儿之痛）负责。",
+          "evidence": [
+            "鲍二家的之死的因果",
+            "尤二姐之死的间接责任",
+            "「只取今日之善，日后之事一概不管」的自私宣言"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialian_realism",
+          "title": "写实论：他是曹雪芹「不美化人性」的证据",
+          "summary": "红学的主流看法是「写实」：曹雪芹故意不给贾琏定性——他不写一个悔改的浪子，也不写一个纯粹的恶棍，而是写一个「在欲望中漂浮的常人」。贾琏的价值在于证明《红楼梦》的现实主义深度：人性不是黑白，是灰；而灰的深处，既有底线（不算能为），也有深渊（偷娶害人）。读者对贾琏「恨不起来」的观感，正是曹雪芹要的效果。",
+          "evidence": [
+            "曹雪芹对贾琏不加道德评语的笔法",
+            "贾琏行为链条中「好」与「坏」的交错"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_jialian_fengjie",
+      "title": "贾琏与凤姐的婚姻是怎么走到「休妻」的？",
+      "slug": "jialian-fengjie-marriage-breakdown",
+      "question_type": "relationship_analysis",
+      "importance_weight": 80,
+      "heat_weight": 74,
+      "neutral_overview": "琏凤婚姻从「亲上作亲」的金玉良缘，到泼醋、偷娶、借刀杀人，最后休妻扶正（gaoe）。这段婚姻的崩坏过程，是曹雪芹最用力的夫妻书写之一。",
+      "viewpoint_ids": [
+        "vp_jialian_fengjie_power",
+        "vp_jialian_fengjie_youerjie",
+        "vp_jialian_fengjie_system"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jialian_fengjie_power",
+          "title": "权力论：女强男弱的错位是根源",
+          "summary": "琏凤婚姻的结构性问题是权力倒错：凤姐掌内、掌钱、掌人事，贾琏沦为「外勤」。在男权社会里，这个倒错必然产生怨气——贾琏的每次偷腥都是对凤姐权力的「反叛仪式」，凤姐的每次泼醋都是对权力的「重申」。二人的婚姻战争，本质是荣府内宅的权力战争。",
+          "evidence": [
+            "凤姐放债弄权的内当家地位",
+            "贾琏「阎王老婆」的怨言",
+            "贾琏偷腥与凤姐管束的循环"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialian_fengjie_youerjie",
+          "title": "二姐论：尤二姐之死是婚姻的死刑判决",
+          "summary": "尤二姐事件是琏凤婚姻的转折点：偷娶是贾琏对婚姻的「实质出逃」（「给你拾鞋也不要」），借刀杀人是凤姐对婚姻的「最终捍卫」（以谋杀保卫地位）。二姐死后贾琏「誓要报仇」——从这一刻起，这对夫妻的关系从「怨偶」变成「仇人」，后四十回（gaoe）的休妻只是执行了早已下达的判决。",
+          "evidence": [
+            "「只求你们替我保守秘密」的出逃心态",
+            "凤姐借刀杀人的冷血",
+            "贾琏抚尸誓仇的决裂"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialian_fengjie_system",
+          "title": "制度论：利益婚姻的必然结局",
+          "summary": "琏凤婚姻的起点是「亲上作亲」的政治联姻（王贾两家再结盟），不是爱情——这注定了它的工具性：合作办事时可以共舞（省亲工程），利益冲突时必然反目（财产、子嗣、权力）。二人的婚姻崩坏不是性格悲剧，是制度悲剧：把两个强人绑在利益机器上，机器散了，人就散了。",
+          "evidence": [
+            "「亲上作亲」的联姻本质",
+            "二人财产算计（凤姐放债、贾琏偷钱）的细节",
+            "无子（巧姐为女）在宗法下的婚姻压力"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jialian_youerjie",
+      "title": "贾琏对尤二姐是真心吗？",
+      "slug": "was-jialian-sincere-to-you-erjie",
+      "question_type": "character_emotion",
+      "importance_weight": 76,
+      "heat_weight": 72,
+      "neutral_overview": "贾琏偷娶尤二姐时的甜言蜜语（「给你拾鞋也不要」）与二姐死后的痛哭（「都是我坑了你」）形成呼应。这份感情是真的，还是滥情者的表演？",
+      "viewpoint_ids": [
+        "vp_jialian_youerjie_true",
+        "vp_jialian_youerjie_lust",
+        "vp_jialian_youerjie_evolved"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jialian_youerjie_true",
+          "title": "真情论：尤二姐是贾琏唯一爱过的人",
+          "summary": "证据链支持真情：九龙珮定情（非直接纳妾，走了「娶」的仪式）、花枝巷的家居生活（「奶奶」之称、银钱尽付）、二姐死后的抚尸大哭与伴宿七日（超过礼制）、执意查凶（顶撞凤姐）。贾琏一生对无数女人「滥」，唯独对二姐走了「心」——「给我拾鞋也不要」是丈夫对妻子的最高级比较，也是他唯一的真心话。",
+          "evidence": [
+            "九龙珮定情与偷娶仪式的庄重",
+            "花枝巷「夫妻」生活的细节",
+            "死后的痛哭、厚葬、查凶"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialian_youerjie_lust",
+          "title": "滥情论：始于好色，死于怯懦",
+          "summary": "反方证据：贾琏初见二姐时的动机纯是好色（贾蓉撮合时说得明白）；他的「真情」是「到手之后」的占有欲；更关键的是——他明知凤姐之毒，仍把二姐带回贾府、自己远差平安州，等于把羊送入虎口。二姐死前的求救他不在场，死后的哭只是「失去所有物」的物主之痛。真情的测试不在眼泪，在保护——他从未保护过她。",
+          "evidence": [
+            "贾琏勾搭二姐的原始动机",
+            "他把二姐接入贾府后自己远行的失职",
+            "「都是我坑了你」的自供"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialian_youerjie_evolved",
+          "title": "生成论：滥情中长出的真情",
+          "summary": "折中读法：贾琏的情感是「生成性」的——始于好色（动机不纯），在花枝巷的日常里长成依赖（「奶奶」之呼、居家之乐），在失去后凝固为爱（痛哭厚葬）。曹雪芹的笔法正是「不预判」：他不写一见钟情，写的是「处出来的情」——这比纯爱更写实：很多婚姻的爱，都是日子过出来的。二姐死后贾琏的真情，与他此前的滥情并不矛盾——人是复杂的，滥情者也会真爱，真爱也救不了他的怯懦。",
+          "evidence": [
+            "从勾搭到居家的情感递进",
+            "「处出来的」细节（银钱、称呼、日常）",
+            "死亡催化情感的心理学常理"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jialian_fanzhao",
+      "title": "贾琏——宝玉「意淫」的反面刻度",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1987,
+      "source_title": "多项人物对比研究",
+      "description": "学者指出贾琏是「皮肤滥淫」的人格化：警幻仙姑「悦容貌、喜歌舞、调笑无厌、云雨无时」的定义，几乎是为贾琏量身定做。他与宝玉构成全书欲望哲学的两极：宝玉对女儿「意淫」（精神之爱），贾琏对女人「滥淫」（肉体之欲）；而二人的命运对照更妙——意淫者得悲剧（黛玉焚稿），滥淫者得「收摊」（扶正平儿、支撑残局）。曹雪芹以此暗示：灵性在尘世败北，俗人才活得下去。"
+    },
+    {
+      "id": "viewpoint_jialian_ability",
+      "title": "贾琏——被浪费的「办事之才」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学社会研究",
+      "year": 1993,
+      "source_title": "多项家族制度研究",
+      "description": "有论者惋惜贾琏的才能：他是贾府第四代唯一的「实务人才」（机变、应酬、采买、周旋），若生在创业之世，未必不是能干的家主；但他生在末世，他的「才」没有用武之地，只能消耗在偷情、办丧、收摊上。贾琏的悲剧是「才不逢时」——不是没有人才，是制度不给人施展的舞台：袭爵制度下，有才者的出路就是捐官、帮闲、鬼混。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 8,
+    "total_relationships": 6,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 34,
+      "text_inference": 20,
+      "scholarly_viewpoint": 6,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

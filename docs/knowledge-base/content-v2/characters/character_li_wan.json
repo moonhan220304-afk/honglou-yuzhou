@@ -1,0 +1,972 @@
+{
+  "character": {
+    "id": "character_li_wan",
+    "name": "李纨",
+    "slug": "li-wan",
+    "aliases": [
+      "李宫裁",
+      "宫裁",
+      "稻香老农",
+      "珠大奶奶",
+      "大菩萨"
+    ],
+    "category": "金陵十二钗正册",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "金陵名宦之女（父李守中，国子监祭酒）；荣国府贾珠之妻；贾兰之母。",
+      "position": "荣国府长孙媳（守寡）；大观园稻香村居所；海棠诗社社长。",
+      "origin": "金陵人氏，书香世家出身。",
+      "generation": "贾府第三代媳妇（与王熙凤同辈）"
+    },
+    "tags": [
+      "槁木死灰",
+      "稻香老农",
+      "青春守寡",
+      "诗社社长",
+      "教子成龙",
+      "晚韶华",
+      "老梅",
+      "十两月钱",
+      "积金有数",
+      "兰桂齐芳"
+    ],
+    "summary": {
+      "short": "金陵十二钗之一。贾珠之妻，青春守寡，抚养幼子贾兰。自号「稻香老农」，执掌海棠诗社。判词「桃李春风结子完」与《晚韶华》曲预示其晚年因子而贵——但荣华已迟，徒留虚名。",
+      "long": "李纨是荣国府长孙贾珠之妻。第四回出场时，曹雪芹用一段著名的文字写她：「这李氏亦系金陵名宦之女，父名李守中，曾为国子监祭酒，族中男女无有不诵诗读书者。至李守中承继以来，便说『女子无才便有德』，故生了李氏时，便不十分令其读书……因此这李纨虽青春丧偶，居家处膏粱锦绣之中，竟如槁木死灰一般，一概无见无闻，唯知侍亲养子，外则陪侍小姑等针黹诵读而已。」丈夫贾珠早逝，她成了贾府制度性的「未亡人」——不施脂粉、不穿艳色、住在稻香村（大观园中最「田舍」的所在），自号「稻香老农」。但她并非真正死水一潭：第三十七回海棠诗社成立，她自荐掌坛，评诗公正，众人服其「善看又最公道」；第三十九回众人闲话时提起贾珠，「不觉眼圈儿红了」；第四十五回凤姐算账，点出她月钱十两（与贾母王夫人同等），「上上分儿」——守寡在制度上是有补偿的。第六十三回群芳夜宴，她抽得老梅花签——「霜晓寒姿」，题诗「竹篱茅舍自甘心」。判词「桃李春风结子完，到头谁似一盆兰。如冰水好空相妒，枉与他人作笑谈」与《晚韶华》曲「镜里恩情，更那堪梦里功名」「气昂昂头戴簪缨……威赫赫爵禄高登，昏惨惨黄泉路近」，写尽她「有子却无夫、有荣已无命」的晚年悲剧。后四十回（gaoe）第一一九回贾兰中举。关于她的争议集中于：「槁木死灰」是真死水还是伪装（季学原认为她内心仍有青春活力）；以及刘心武提出的「李纨是否该救贾府」之问。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "槁木死灰——制度性的未亡人",
+        "fact_type": "canonical_text_fact",
+        "description": "「槁木死灰一般，一概无见无闻，唯知侍亲养子」——李纨的「死」是被制度规定的：年轻寡妇必须熄灭自己。但文本同时给出裂缝：提起贾珠时「眼圈儿红了」。她的「死灰」之下有余烬，只是不允许燃烧。"
+      },
+      {
+        "dimension": "稻香老农——主动选择的清简身份",
+        "fact_type": "canonical_text_fact",
+        "description": "李纨自号「稻香老农」，住在竹篱茅舍风格的稻香村。这个「老农」身份是她对自己处境的诗性转化：既然青春已「死」，不如主动把自己安放成田园诗人。这既是自我安慰，也是一种体面的退守。"
+      },
+      {
+        "dimension": "诗社社长——被忽视的组织与评判之才",
+        "fact_type": "canonical_text_fact",
+        "description": "海棠诗社中李纨自荐掌坛，定规矩、评高下，众人服其公道。她虽自称「不会作诗」，却有精准的诗学判断力（评宝钗「含蓄浑厚」、黛玉「风流别致」）。她的才能被「寡妇」身份长期掩盖，诗社是她唯一能施展的舞台。"
+      },
+      {
+        "dimension": "务实与积蓄——守寡的经济理性",
+        "fact_type": "canonical_text_fact",
+        "description": "李纨月钱十两，与贾母王夫人同等；另有园子地租与年终分红。第四十五回凤姐算账，精确点出她的收入结构。李纨的「积金」并非贪财，而是寡妇教子求生的本能——她没有丈夫可依，只能靠银子与儿子。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_liwan_intro_ch4",
+        "title": "出场——「槁木死灰」（第四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_liwan_judgment_ch5",
+        "title": "判词与《晚韶华》曲（第五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_haitang_she_ch37",
+        "title": "海棠诗社社长（第三十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_liwan_cry_ch39",
+        "title": "提起贾珠眼圈儿红了（第三十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_liwan_money_ch45",
+        "title": "凤姐算账——月钱十两（第四十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_liwan_meihua_ch50",
+        "title": "芦雪庵联句罚折红梅（第五十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_liwan_sign_ch63",
+        "title": "花名签老梅——「竹篱茅舍自甘心」（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_liwan_jialan_ch119",
+        "title": "贾兰中举（第一一九回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch04_liwan_intro",
+        "quote": "这李氏亦系金陵名宦之女……因此这李纨虽青春丧偶，居家处膏粱锦绣之中，竟如槁木死灰一般，一概无见无闻，唯知侍亲养子，外则陪侍小姑等针黹诵读而已。",
+        "fact_type": "canonical_text_fact",
+        "note": "第四回李纨出场。「膏粱锦绣之中」与「槁木死灰」的并置——富贵与死亡同居一室。"
+      },
+      {
+        "source_id": "source_ch05_liwan_judgment",
+        "quote": "桃李春风结子完，到头谁似一盆兰。如冰水好空相妒，枉与他人作笑谈。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回李纨判词。「桃李」谐「李」（纨），「结子完」——生子而夫亡；「一盆兰」指贾兰；「枉与他人作笑谈」——晚年荣华终究虚妄。"
+      },
+      {
+        "source_id": "source_ch05_liwan_song",
+        "quote": "[晚韶华]镜里恩情，更那堪梦里功名！那美韶华去之何迅！再休提绣帐鸳衾。只这带珠冠，披凤袄，也抵不了无常性命。虽说是，人生莫受老来贫，也须要阴骘积儿孙。气昂昂头戴簪缨；光灿灿胸悬金印；威赫赫爵禄高登；昏惨惨黄泉路近。问古来将相可还存？也只是虚名儿与后人钦敬。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五回《晚韶华》曲。「气昂昂」三句与「昏惨惨黄泉路近」的急转——功名到手，性命已终。"
+      },
+      {
+        "source_id": "source_ch39_liwan_cry",
+        "quote": "李纨道：「我们大家说说，这些丫头们……我倒替她们乐。」说着，又笑道：「想当初你珠大爷在日，何曾也没两个人。你们看我还是那容不下人的？天天只见她两个不自在。所以你珠大爷一没了，趁年轻我都打发了。若有一个守得住，我倒有个膀臂。」说着滴下泪来。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十九回李纨说起贾珠而落泪——「槁木死灰」的裂缝：她对亡夫的感情从未熄灭。"
+      },
+      {
+        "source_id": "source_ch63_liwan_sign",
+        "quote": "李纨摇了一摇，掣出一根来，笑道：「……这一支是老梅，是写着『霜晓寒姿』四字，那一面旧诗是：竹篱茅舍自甘心。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十三回群芳夜宴。老梅「霜晓寒姿」「竹篱茅舍自甘心」——李纨命运的花签自画像。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v3",
+      "updated_at": "2026-08-12T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "字宫裁；判词「桃李春风结子完」点出其名",
+      "detail": "判词「桃李春风结子完」——「李」藏姓，「完」谐「纨」，「结子」点其生子后丧夫（完＝终结）；册页画「一盆兰」指其子贾兰（兰桂齐芳）。「纨」为素绢，合其寡居守节、清素自持",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 4,
+          "evidence": "青春丧偶；其子贾兰今方五岁",
+          "age": "约20岁上下"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约20岁（第4回，据贾兰5岁与贾珠不足20病亡推算）",
+        "story_end": "约28-29岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未明写；据第4回贾兰五岁、贾珠「不到二十岁」病亡推算，李纨出场约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "李宫裁",
+      "type": "表字",
+      "context": "李纨字宫裁——「宫裁」即宫中裁度，与「纨」（细绢）呼应，取义「宫中纨素裁成衣」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "宫裁",
+      "type": "表字（简称）",
+      "context": "书中人物亦称她「宫裁」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "稻香老农",
+      "type": "雅号",
+      "context": "李纨在大观园自号，因居稻香村——海棠诗社中她以「稻香老农」掌坛",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "珠大奶奶",
+      "type": "家族称呼",
+      "context": "因其夫贾珠排行，仆妇称她「珠大奶奶」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "大菩萨",
+      "type": "评语",
+      "context": "兴儿评：「我们家的规矩，寡妇奶奶们不管事，只宜清净守节。妙在姑娘又多，只把姑娘们交给他，看书写字……这宗事还不知有几多呢。第一他是大菩萨」",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_liwan_intro_ch4",
+      "title": "出场——青春守寡的「槁木死灰」",
+      "event_level": "major",
+      "chapter": {
+        "number": 4,
+        "title": "薄命女偏逢薄命郎 葫芦僧乱判葫芦案",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "黛玉入府时，李纨随众出场。曹雪芹在此处插入对她的专段介绍——出身国子监祭酒之家、「女子无才便有德」的教养、青春丧偶、槁木死灰。"
+      },
+      "summary": {
+        "short": "李纨出场即被定性：青春丧偶的寡妇，「槁木死灰一般」。曹雪芹用一整段文字交代她的出身（书香名宦）、教养（「女子无才便有德」）与现状（无见无闻，唯知侍亲养子）。",
+        "meaning": [
+          "「青春丧偶」四个字是她人生的总纲——最年轻的寡妇，最漫长的余生",
+          "「女子无才便有德」的父训预示她被制度塑形的一生",
+          "「膏粱锦绣之中」与「槁木死灰」的并置——她是活在坟墓里的活人"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「竟如」二字的批评",
+          "content": "曹雪芹写她「竟如槁木死灰一般」——「竟如」表明这是被改造的结果而非天然状态。一个二十来岁的年轻女子「竟如」槁木，这个「竟」字里藏着全书的同情与批判：不是她死了，是制度把她「做」成了死人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_wan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_haitang_she_ch37",
+      "title": "海棠诗社社长——「善看又最公道」",
+      "event_level": "major",
+      "chapter": {
+        "number": 37,
+        "title": "秋爽斋偶结海棠社 蘅芜苑夜拟菊花题",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "秋爽斋/稻香村",
+        "specific": "探春发帖结社，众人推李纨掌坛。李纨定规矩、限韵脚、评甲乙。首次评海棠诗，她定宝钗第一、黛玉第二，并说「若论风流别致，自是潇湘子；若论含蓄浑厚，终让蘅芜」。众人服其公正。"
+      },
+      "summary": {
+        "short": "海棠诗社成立，李纨自荐掌坛，成为诗社的社长与裁判。她虽自称「不会作诗」，评诗却精准公正——「黛玉的诗才，众人不如；宝钗的诗厚，压得住」。她的裁判权得到全员认可，凤姐戏称她要做「进钱的铜商」。",
+        "meaning": [
+          "李纨在诗社中重新获得了一个「社会身份」——不是寡妇，而是社长",
+          "评诗公正是她人格的写照：无私、有眼力、持中",
+          "诗社是大观园给她的唯一舞台——她的才华与热情在此处复活"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "诗社——李纨的复活节",
+          "content": "只有在诗社里，李纨不是「珠大奶奶」而是「稻香老农」——她定规则、评诗作、主持活动，兴致勃勃。曹雪芹用诗社展示「槁木」之下的生命力：她的组织才能与审美判断不输探春。若贾珠不死，她本可以是一个完整的人。诗社的存在反证了守寡制度夺走了她什么。"
+        },
+        {
+          "type": "literary",
+          "title": "「善看又最公道」——裁判人格",
+          "content": "李纨评诗的标准（「含蓄浑厚」与「风流别致」各擅胜场）暗合全书对钗黛的评价体系。她的「公道」来自她的旁观者位置——不参与竞争的人最公正。诗社的裁判权是她以「无欲」换来的唯一权力。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_wan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liwan_cry_ch39",
+      "title": "提起贾珠——「眼圈儿红了」",
+      "event_level": "major",
+      "chapter": {
+        "number": 39,
+        "title": "村姥姥是信口开合 情哥哥偏寻根究底",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "众人在贾母房中闲话，李纨说起当年贾珠在时的事，笑着笑着「滴下泪来」。众人忙岔开话题。"
+      },
+      "summary": {
+        "short": "第三十九回，李纨在闲话中提起亡夫贾珠：「想当初你珠大爷在日，何曾也没两个人。你们看我还是那容不下人的？天天只见她两个不自在。所以你珠大爷一没了，趁年轻我都打发了。若有一个守得住，我倒有个膀臂。」说着滴下泪来。",
+        "meaning": [
+          "「槁木死灰」的裂缝——她对贾珠的感情从未熄灭",
+          "她遣散贾珠的姬妾，既是「节」的要求，也是她孤独的开始",
+          "众人「忙岔开」——连流泪的权利都无人接住"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "唯一一次当众落泪",
+          "content": "李纨全书只当众哭过这一次——不是为自己守寡的苦，而是为「若有一个守得住，我倒有个膀臂」的孤。她的眼泪证明「槁木死灰」只是外包装：里面的人还活着，只是永远不能开口说苦。"
+        },
+        {
+          "type": "literary",
+          "title": "「膀臂」——被夺走的支撑",
+          "content": "李纨遣散姬妾的表面理由是「守节」，深层是她连「同类」都不愿拖累——年轻的姬妾们还有出路，而她没有。她羡慕的是「守得住」的陪伴。一个寡妇最深的匮乏不是丈夫，是「膀臂」——可以依靠的人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_wan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liwan_money_ch45",
+      "title": "凤姐算账——十两银子的寡妇经济学",
+      "event_level": "minor",
+      "chapter": {
+        "number": 45,
+        "title": "金兰契互剖金兰语 风雨夕闷制风雨词",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "探春等找凤姐为诗社要钱，凤姐当众算李纨的收入账：「你一个月十两银子的月钱，比我们多两倍银子。老太太、太太还说你寡妇失业的，可怜，不够用，又有个小子，足的又添了十两，和老太太、太太平等。又给你园子地，各人取租子。年终分年例，你又是上上分儿。」"
+      },
+      "summary": {
+        "short": "凤姐当众给李纨算账：月钱十两（加上照顾贾兰的十两，共二十两），与贾母王夫人平等；园子地收租；年终「上上分儿」。凤姐说李纨「这会子他们起诗社，能用几个钱，你就不管了」。李纨反唇相讥，笑骂凤姐。",
+        "meaning": [
+          "李纨的收入是十二钗中最高等级——守寡在贾府制度里是「有价」的",
+          "凤姐的算账揭示贾府「以银养节」的寡妇经济——钱是制度对寡妇的补偿",
+          "李纨的「抠」与她的积蓄逻辑：无夫可依，只能积金防老"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "寡妇经济——「上上分儿」的制度补偿",
+          "content": "凤姐算的这笔账是研究贾府经济制度的珍贵材料：寡妇的月钱与太夫人平等，说明「守节」在制度层面被高额定价。学者指出这既是抚恤（李纨失去丈夫的经济庇护），也是投资（贾兰的未来需要母亲守节作为道德资本）。判词「如冰水好空相妒」中的「妒」字，或正指这种特殊待遇招致的妒忌。"
+        },
+        {
+          "type": "character",
+          "title": "「钱」与「脸」的攻防",
+          "content": "凤姐算账是全书最精彩的唇枪舌剑之一，李纨以「好个弄钱的东西」反击。这场对账展示了李纨的另一面：她不是软柿子，只是平时不需要张牙舞爪。她的积蓄是她为贾兰筑的防波堤——凤姐看穿这点，才拿钱说事。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_wan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_tanchun",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liwan_meihua_ch50",
+      "title": "芦雪庵联句——罚宝玉折红梅",
+      "event_level": "minor",
+      "chapter": {
+        "number": 50,
+        "title": "芦雪庵争联即景诗 暖香坞雅制春灯谜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "芦雪庵/栊翠庵",
+        "specific": "芦雪庵联句，宝玉落第，李纨罚他「去栊翠庵取红梅」。李纨开篇联句「开门雪尚飘」，展现其不显山露水的诗才。"
+      },
+      "summary": {
+        "short": "芦雪庵即景联句，宝玉落第，李纨罚他去栊翠庵向妙玉讨红梅——这一「罚」引出「访妙玉乞红梅」的名场面。联句开篇，凤姐起句「一夜北风紧」后，李纨联「开门雪尚飘」——众人评「这句虽粗，不见底下的，这正是会作诗的起法」。",
+        "meaning": [
+          "李纨其实会作诗——「不会作诗」是她的自我谦抑",
+          "罚宝玉折梅的「罚」，是她以社长身份展现的俏皮与权威",
+          "她的诗风「开门雪尚飘」——清简开阔，恰如其人"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "被雪藏的诗才",
+          "content": "李纨自称「不会作诗」，却联出「开门雪尚飘」这样被众人称赞的句子。她的「不会」是寡妇身份的自觉退让——她不能太有才，太有才就会「引人注意」，而寡妇最不需要的就是注意。但诗社还是泄露了她的底色：一个「女子无才便有德」教育下被浪费的诗才。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_wan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_miao_yu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liwan_sign_ch63",
+      "title": "花名签老梅——「霜晓寒姿」「竹篱茅舍自甘心」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "群芳开夜宴行花名签令。李纨掣得老梅签：「霜晓寒姿」，旧诗「竹篱茅舍自甘心」（王琪《梅》）。注云「自饮一杯，下家掷骰」。李纨笑道：「真有趣，你们掷去罢。我只自吃一杯，不问你们的废与兴。」"
+      },
+      "summary": {
+        "short": "李纨抽得老梅签——「霜晓寒姿」「竹篱茅舍自甘心」。她自己笑道「不问你们的废与兴」。在群芳的签诗中，老梅是最清冷的一支：别的花签都指向情缘或前程，唯有老梅指向「甘心」。",
+        "meaning": [
+          "老梅是李纨的精确写照：霜中独开，竹篱茅舍，自甘清寂",
+          "「不问你们的废与兴」——李纨的旁观者定位再次显现",
+          "「自甘心」的「自」字——她的清寂是选择，还是被选择？"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "老梅签与「晚韶华」的呼应",
+          "content": "梅花开于寒冬——李纨的「花季」恰在所有人凋零之后（《晚韶华》：儿子中举时她已「昏惨惨黄泉路近」）。「霜晓寒姿」的「寒」与「晚」对仗：她的一生在寒中度过，连迟来的荣华都带着霜气。"
+        },
+        {
+          "type": "character",
+          "title": "「不问你们的废与兴」——清醒的局外人",
+          "content": "李纨这句自嘲式的笑语暗藏深意：她早已把自己放逐于贾府的兴废之外。不参与、不期待、不失望——「自甘心」是她的防御，也是她的代价。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_wan",
+          "role": "主角"
+        }
+      ]
+    },
+    {
+      "id": "event_liwan_jialan_ch119",
+      "title": "贾兰中举——「兰桂齐芳」的兑现",
+      "event_level": "major",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾兰与宝玉同科赴考，贾兰中举。贾府「兰桂齐芳」——李纨教子成龙的半生苦熬终于得到回报。但此荣华与《晚韶华》「昏惨惨黄泉路近」的判词存在张力。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写贾兰中举，贾府中兴有望——李纨以半生守节教子换来「兰桂齐芳」的体面。但判词与《晚韶华》曲明示：她的荣华是「晚韶华」——儿子功名到手时，她的生命已近终点。",
+        "meaning": [
+          "贾兰中举是李纨一生唯一的「成果」——她的全部人生价值押在儿子的功名上",
+          "「气昂昂头戴簪缨」与「昏惨惨黄泉路近」——曹雪芹设计的荣华与死亡同步",
+          "「兰桂齐芳」的中兴结局与判词「枉与他人作笑谈」的虚无判断存在落差"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「兰桂齐芳」与判词的矛盾",
+          "content": "判词「枉与他人作笑谈」与《晚韶华》「也只是虚名儿与后人钦敬」对李纨的晚年荣华持否定态度——她的结局不是喜剧而是虚妄。后四十回（gaoe）的「兰桂齐芳」却把贾兰中举写成贾府中兴的起点，弱化了判词的虚无感。红学界普遍认为续书的美满化处理与曹雪芹原意的悲剧结构不合。"
+        },
+        {
+          "type": "literary",
+          "title": "「晚韶华」的残忍设计",
+          "content": "曹雪芹给李纨设计的悲剧是最特殊的一种：别人死于青春（花开即谢），她死于「韶华迟到」——苦熬一生，荣华终于来了，人却要走了。「昏惨惨黄泉路近」紧跟「威赫赫爵禄高登」，功名与死亡同时到达。她用一生换来的东西，来不及享受。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_wan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_liwan_judgment_ch5",
+      "title": "太虚幻境判词——《晚韶华》",
+      "event_level": "major",
+      "chapter": {
+        "number": 5,
+        "title": "游幻境指迷十二钗 饮仙醪曲演红楼梦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "太虚幻境",
+        "specific": "宝玉见李纨册页：画着「一盆茂兰，旁有一位凤冠霞帔的美人」。判词与《晚韶华》曲。"
+      },
+      "summary": {
+        "short": "李纨的册页画着茂兰与凤冠霞帔的美人——「兰」指贾兰，凤冠霞帔指她因子的诰命。但判词「枉与他人作笑谈」与《晚韶华》的「虚名儿」，把这幅画里的荣华全部判为虚妄。",
+        "meaning": [
+          "「茂兰」——她的一生悬系于儿子的成材",
+          "「凤冠霞帔」——迟来的荣耀，用一生孤苦换得的诰命",
+          "「结子完」「笑谈」——曹雪芹对她命运的最终判词是虚无"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「桃李春风结子完」的姓名暗码",
+          "content": "判词首句暗藏她的名字：「桃李」的「李」、「结子完」的「纨」（纨谐「完」）。「结子完」一语双关：既说她生子后青春即「完」（守寡），也说她的人生价值在「结子」（生贾兰）之后就被制度宣告终结——她只为「兰」而活。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_li_wan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_liwan_jia_zhu",
+      "from": "character_li_wan",
+      "to": "character_jia_zhu",
+      "type": "夫妻（早亡之夫）",
+      "nature": [
+        "marriage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾珠是李纨之夫，贾政长子，二十岁上下即病逝。贾珠之死改变了李纨的一生：她从长孙媳变成「未亡人」，从诗书家庭的少女变成槁木死灰的寡妇。书中贾珠从未正面出场，却通过李纨的眼泪、贾政的痛（「打死宝玉」时想到贾珠）、王夫人的怀想，成为一个不在场的关键人物。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "婚姻与丧偶",
+          "chapter": 4,
+          "description": "李纨青春丧偶——贾珠早逝是李纨人生悲剧的起点。"
+        },
+        {
+          "stage": 2,
+          "title": "第三十九回之泪",
+          "chapter": 39,
+          "description": "李纨提起贾珠「滴下泪来」——亡夫是她心里永远的伤口。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liwan_wang_xifeng",
+      "from": "character_li_wan",
+      "to": "character_wang_xifeng",
+      "type": "妯娌（对照与攻防）",
+      "nature": [
+        "kinship",
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "李纨与凤姐是全书最鲜明的妯娌对照：一个守寡清寂、一个掌权泼辣；一个「槁木死灰」、一个烈火烹油；一个收入上上分儿却不露声色，一个敛财弄权树敌无数。二人关系微妙：李纨常借机刺凤姐（「好个弄钱的东西」），凤姐则算她的收入账。第四十五回的唇枪舌剑是二人关系的代表作——表面玩笑，内里是「活着的方式」之争。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "诗社要钱——妯娌交锋",
+          "chapter": 45,
+          "description": "李纨带探春等找凤姐要诗社经费，凤姐算账反击，李纨笑骂回敬。"
+        },
+        {
+          "stage": 2,
+          "title": "凤姐之死与贾府败落",
+          "chapter": 114,
+          "description": "凤姐死后，李纨目睹妯娌的下场——凤姐的「烈火」与她的「死灰」同归尘土。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liwan_wang_furen",
+      "from": "character_li_wan",
+      "to": "character_wang_furen",
+      "type": "婆媳",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "王夫人是李纨的婆母。李纨作为「长子媳妇」本应管家，因守寡而让位于凤姐——她的清寂与王夫人的重用凤姐互为因果。凤姐病倒时王夫人让李纨与探春、宝钗协理家务（第五十五回）——李纨的管家之才在协理中展现，但她始终是「助阵」而非「主角」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "协理家务",
+          "chapter": 55,
+          "description": "王夫人命李纨与探春、宝钗共同理家。李纨「素日原是个厚道多恩无罚的」——她的宽厚风格与凤姐的严苛形成对照。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liwan_pinger",
+      "from": "character_li_wan",
+      "to": "character_pinger",
+      "type": "欣赏与维护",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "李纨对平儿极为欣赏——第三十九回她揽着平儿笑道「这么个好体面模样儿，命却平常，只落得屋里使唤。不知道的人，谁不拿你当作奶奶太太看」。凤姐打平儿（第四十四回）后，李纨出面维护，说「昨儿还打平儿呢，亏你伸的出手来」。李纨在平儿身上看到「身不由己」的同命感——都是被身份钉死的好女子。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "揽平儿入怀",
+          "chapter": 39,
+          "description": "李纨揽着平儿叹其命——全书最温情的主仆妯娌场面之一。"
+        },
+        {
+          "stage": 2,
+          "title": "为平儿鸣不平",
+          "chapter": 44,
+          "description": "凤姐泼醋打平儿，李纨当面数落凤姐，为平儿讨公道。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liwan_jia_tanchun",
+      "from": "character_li_wan",
+      "to": "character_jia_tanchun",
+      "type": "理家搭档 / 诗社同侪",
+      "nature": [
+        "kinship",
+        "social_alliance"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "李纨与探春是诗社的「双核心」：探春发起，李纨掌坛；理家时探春主事，李纨助阵。二人性格互补——探春锐利，李纨宽厚；探春改革，李纨补台。凤姐评价二人：「他两个倒好，一个是用（探春）一个有德的（李纨）」——「敏」与「德」的分工。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "海棠社双核心",
+          "chapter": 37,
+          "description": "探春发帖，李纨掌坛评诗。"
+        },
+        {
+          "stage": 2,
+          "title": "协理家务",
+          "chapter": 55,
+          "description": "探春、李纨、宝钗三人理家——「敏探春」与「厚李纨」配合。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_liwan_jia_mu",
+      "from": "character_li_wan",
+      "to": "character_jia_mu",
+      "type": "祖孙媳",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母对李纨这个守寡的长孙媳「可怜」（凤姐转述：「老太太、太太还说你寡妇失业的，可怜」），在经济上给予最高等级的抚恤（月钱与贾母平等）。贾母的怜惜是李纨在贾府的护身符——她的清寂生活因贾母的照拂而体面。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "经济抚恤",
+          "chapter": 45,
+          "description": "凤姐算账透出贾母王夫人对李纨的特殊照顾——「寡妇失业的，可怜」。",
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_liwan_judgment_song",
+      "title": "判词与《晚韶华》曲",
+      "work_type": "判词/曲",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "判词：「桃李春风结子完，到头谁似一盆兰。如冰水好空相妒，枉与他人作笑谈。」《晚韶华》：「镜里恩情，更那堪梦里功名！……气昂昂头戴簪缨；光灿灿胸悬金印；威赫赫爵禄高登；昏惨惨黄泉路近。问古来将相可还存？也只是虚名儿与后人钦敬。」",
+      "symbolic_notes": "「茂兰」与「凤冠霞帔」的册画——因子的诰命与迟来的荣华；「结子完」谐「纨」；「虚名儿」是曹雪芹对她一生苦熬的最终估价。"
+    },
+    {
+      "id": "poem_liwan_luxuean",
+      "title": "芦雪庵联句（「开门雪尚飘」）",
+      "work_type": "联句",
+      "chapter_number": 50,
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐起句「一夜北风紧」，李纨联「开门雪尚飘」。众人评：「这句虽粗，不见底下的，这正是会作诗的起法。」",
+      "symbolic_notes": "「开门雪尚飘」——清简开阔，恰如其人。自称「不会作诗」的李纨，一开口就是好句子——她的才情被「寡妇」身份刻意隐藏。"
+    },
+    {
+      "id": "poem_liwan_meihua_sign",
+      "title": "花名签老梅（「竹篱茅舍自甘心」）",
+      "work_type": "花签诗（王琪《梅》句）",
+      "chapter_number": 63,
+      "fact_type": "canonical_text_fact",
+      "summary": "签题「霜晓寒姿」，签诗「竹篱茅舍自甘心」（宋·王琪《梅》）。",
+      "symbolic_notes": "老梅——霜中独开、自甘清寂；与宝钗的牡丹、黛玉的芙蓉构成「冷香」谱系中的另一支。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_liwan_gaomu",
+      "title": "李纨的「槁木死灰」该怎样理解？",
+      "slug": "how-to-understand-liwans-withered-wood-state",
+      "question_type": "character_analysis",
+      "importance_weight": 80,
+      "heat_weight": 68,
+      "neutral_overview": "李纨自述「这槁木死灰一般」——但这个「槁木死灰」的女人却是诗社裁判、贾兰的母亲、稻香村的「未亡人」。她的「死」与「生」如何并存？",
+      "viewpoint_ids": [
+        "viewpoint_liwan_oppressed",
+        "viewpoint_liwan_strategy"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "viewpoint_liwan_oppressed",
+          "title": "压抑论：「槁木死灰」是礼教对寡妇的强制状态",
+          "summary": "李纨的「死」不是自然状态，而是制度的产物——她的年轻生命被「守节」制度活埋。「竟如槁木死灰一般」的「竟如」是曹雪芹的批评：一个年轻女子被制度改造成了活死人。最动人的反衬是第三十九回——提起贾珠「不觉眼圈儿红了」：「槁木」之下的余烬犹温，不是没有火，是不允许燃。",
+          "evidence": [
+            "「竟如槁木死灰一般，一概无见无闻」",
+            "第三十九回提起贾珠滴泪——情感未死的证据"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "viewpoint_liwan_strategy",
+          "title": "策略论：「槁木死灰」是她的生存伪装",
+          "summary": "李纨的「槁木」具有高度的功能性：避祸（无人防备一个无欲的人）、聚财（月钱十两、园子地租、年终上上分儿——她的积蓄是十二钗中最可观的）、教子（守节母亲是贾兰科举功名的道德资本）。她的「死灰」不是熄灭，而是把火种埋进灰里——灰越厚，火种越安全。",
+          "evidence": [
+            "第四十五回凤姐算账揭示她的高额收入",
+            "贾兰中举的「道德资本」逻辑（守节母亲）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_liwan_youth",
+      "title": "李纨内心真的没有青春活力吗？——季学原之问",
+      "slug": "does-liwan-really-lack-youth",
+      "question_type": "character_analysis",
+      "importance_weight": 72,
+      "heat_weight": 60,
+      "neutral_overview": "学者季学原提出：李纨的「槁木死灰」只是表象，她内心深处仍有青春活力。文本中哪些细节支持这一判断？",
+      "viewpoint_ids": [
+        "vp_liwan_youth_yes",
+        "vp_liwan_youth_no"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "vp_liwan_youth_yes",
+          "title": "活力论：诗社、打趣与眼泪都是证据",
+          "summary": "季学原等学者指出：李纨在诗社中的热情（自荐掌坛）、与凤姐的唇枪舌剑（泼辣反击「好个弄钱的东西」）、罚宝玉折梅的俏皮、提起贾珠时的眼泪——都证明她内心并非死水。她的「槁木」是表演性的（给礼教看的），而她的「生」藏在诗社与玩笑里。",
+          "evidence": [
+            "第三十七回自荐掌坛的兴致",
+            "第四十五回与凤姐对骂的泼辣",
+            "第五十回罚宝玉折梅的俏皮"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_liwan_youth_no",
+          "title": "熄灭论：那些「活力」恰恰是压抑的变形",
+          "summary": "李纨的兴致、泼辣、俏皮都是被压抑能量的零星泄露，而非真正的活力——真正的活力是对未来的期待，而李纨的人生早已「结子完」。她的全部「活力」都投注在贾兰身上：自己已死，只有儿子活着。诗社的热闹反衬她日常的死寂。",
+          "evidence": [
+            "她对自己的定位始终是「寡妇」与「母亲」，从无个人愿望",
+            "诗社解散后她回归「无见无闻」的日常"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_liwan_jiuzhu",
+      "title": "李纨该不该救贾府？——刘心武之问",
+      "slug": "should-liwan-have-saved-the-jia-family",
+      "question_type": "character_morality",
+      "importance_weight": 72,
+      "heat_weight": 70,
+      "neutral_overview": "刘心武提出：贾府败落时李纨手中积有可观的财富，却未出手相救（如营救巧姐、资助贾府）——她是否太过自私？",
+      "viewpoint_ids": [
+        "vp_liwan_should_save",
+        "vp_liwan_cannot_save"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "vp_liwan_should_save",
+          "title": "自私论：她有财力却坐视不救",
+          "summary": "刘心武等认为：李纨是贾府败落后经济状况最好的人之一（积蓄可观），却对家族灾难（巧姐被卖、抄家后的困顿）几乎无所作为。判词「如冰水好空相妒，枉与他人作笑谈」中「枉与他人作笑谈」或正指她「富而自私」招致的后人讥评。她的「厚道」只惠及身边人，不及家族。",
+          "evidence": [
+            "李纨的积蓄规模（第四十五回算账）",
+            "后四十回贾府败落时李纨的低调姿态",
+            "attribution=gaoe"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_liwan_cannot_save",
+          "title": "无权论：她没有救的义务，也没有救的能力",
+          "summary": "李纨的积蓄是她为贾兰准备的教育与婚娶基金——一个寡妇能保护的只有儿子。救贾府超出她的能力（她无实权）、也超出她的义务（贾府对她母子并无多少恩义，贾兰在荣府宴乐中常被边缘化）。要求她散尽积蓄救一个「笑谈」过她的家族，是以圣人之德要求一个寡妇。",
+          "evidence": [
+            "李纨在贾府的边缘地位（管家权旁落）",
+            "贾兰母子在贾府宴乐中的缺席与冷遇"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_liwan_judgment",
+      "title": "「枉与他人作笑谈」——李纨的结局究竟是悲剧还是讽刺？",
+      "slug": "is-liwans-ending-tragic-or-satirical",
+      "question_type": "character_fate",
+      "importance_weight": 75,
+      "heat_weight": 65,
+      "neutral_overview": "判词最后一句「枉与他人作笑谈」与《晚韶华》「虚名儿与后人钦敬」，把李纨的晚年荣华判为虚妄。曹雪芹对她究竟是什么态度——同情、讽刺，还是两者兼有？",
+      "viewpoint_ids": [
+        "vp_liwan_satire",
+        "vp_liwan_sympathy"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "vp_liwan_satire",
+          "title": "讽刺论：她的一生是「虚名」的寓言",
+          "summary": "李纨用一生苦熬换来的（诰命、儿子的功名），在曹雪芹笔下全是「虚名儿」「笑谈」——守节制度许诺给寡妇的一切回报，本质上都是空头支票。「如冰水好空相妒」的「妒」更暗示她为这虚名付出的代价（压抑自己、遣散姬妾）毫无意义。判词对她的态度近于讽刺：你守的「节」，不过是一场笑话。",
+          "evidence": [
+            "「枉与他人作笑谈」「虚名儿与后人钦敬」",
+            "《晚韶华》「昏惨惨黄泉路近」对荣华的否定"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_liwan_sympathy",
+          "title": "同情感：她的「虚名」是制度的骗局",
+          "summary": "「笑谈」讽刺的不是李纨而是制度：李纨是被「守节光荣」的许诺骗了一生的受害者——制度许诺她「凤冠霞帔」，兑现时她却已无命消受。曹雪芹对她的态度是深切的同情：她不是贪图虚名的小人，而是虚名的祭品。她的悲剧是「受骗者」的悲剧。",
+          "evidence": [
+            "「镜里恩情，更那堪梦里功名」——恩情与功名皆虚",
+            "「可怜」一类的同情底色贯穿她的描写（「寡妇失业的，可怜」）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_liwan_zuimei",
+      "title": "李纨——「守节制度」的完整文学档案",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学制度研究",
+      "year": 1986,
+      "source_title": "多项制度与人物研究",
+      "description": "学者普遍认为李纨是《红楼梦》为「守节制度」建立的完整文学档案：从制度的输入（「女子无才便有德」的教养、青春守寡），到制度的运行（槁木死灰的自我规训、遣散姬妾、寡妇经济补偿），再到制度的输出（贾兰中举、晚韶华、虚名儿）。李纨不是特例，而是制度流水线上的标准产品——她的每一个「美德」都是制度要求的镜像。她的文学价值正在于：把一个制度的完整生命周期，凝缩在一个人物的一生里。"
+    },
+    {
+      "id": "viewpoint_liwan_jingji",
+      "title": "寡妇经济学——月钱、租子与「上上分儿」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学经济研究",
+      "year": 1994,
+      "source_title": "多项经济制度研究",
+      "description": "第四十五回凤姐算账是研究贾府分配制度的珍贵样本：李纨的月钱结构（十两+十两）、园子地租、年终「上上分儿」，显示贾府对「守节寡妇」的经济定价极高——这既是抚恤，也是投资（守节母亲是贾兰仕途的道德资本）。有学者据此指出：封建礼教对寡妇的「表彰」从来不是无偿的——它以终身禁欲为条件，以高额生活费为价码，本质上是一场用银子买断青春的长期合同。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 8,
+    "total_relationships": 7,
+    "total_poems": 3,
+    "total_questions": 4,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 39,
+      "text_inference": 7,
+      "scholarly_viewpoint": 7,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

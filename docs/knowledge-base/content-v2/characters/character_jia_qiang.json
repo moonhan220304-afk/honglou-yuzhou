@@ -1,0 +1,552 @@
+{
+  "character": {
+    "id": "character_jia_qiang",
+    "name": "贾蔷",
+    "slug": "jia-qiang",
+    "aliases": [
+      "蔷哥儿",
+      "蔷二爷"
+    ],
+    "category": "宁国府正派玄孙",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "宁国府正派玄孙，父母早亡，从小跟贾珍过活。",
+      "position": "宁府玄孙→梨香院戏班总管（管理十二官）。",
+      "origin": "宁国府正派（贾珍族中子弟）。",
+      "generation": "与贾蓉同辈（草字辈，如蓉、蔷、芸）"
+    },
+    "tags": [
+      "正派玄孙",
+      "梨香院",
+      "十二官",
+      "龄官",
+      "画蔷",
+      "闹学堂幕后",
+      "挑唆茗烟",
+      "蔷薇",
+      "贾蓉死党",
+      "会讨巧"
+    ],
+    "summary": {
+      "short": "宁国府正派玄孙，父母早亡，从小跟贾珍过活，与贾蓉最厚。第九回闹学堂的幕后推手（挑唆茗烟）；第十六回奉命去姑苏采买十二个女伶并管理梨香院；第三十六回与龄官相恋（买雀儿放生）——「识分定情悟梨香院」让宝玉顿悟「人生情缘，各有分定」。",
+      "long": "贾蔷是宁国府正派玄孙，父母早亡，从小跟着贾珍过活，与贾蓉关系最厚（书中暗写二人关系暧昧之嫌）。他长相俊美、心性机灵，惯会讨巧。第九回闹学堂：正是他在幕后挑唆茗烟，引发「顽童闹学堂」的大乱——小小年纪已有弄权搅局的手腕。第十六回元妃省亲筹备之际，贾珍派他「下姑苏请聘教习、采买女孩子、置办乐器行头」——他赴姑苏采买十二个女伶（十二官），并受命管理梨香院戏班。第三十六回是他人生的高光时刻：他恋上戏班里的小旦龄官——龄官在地上画「蔷」字，一笔一画痴情难舍；贾蔷买了一只雀儿（会「衔旗串戏」）哄她，反被龄官讥讽「你们家把好好的人弄了来，关在这牢坑里学这个劳什子」——贾蔷听了，立刻拆笼放生。宝玉目睹此情，「自此深悟人生情缘，各有分定」——回目「识分定情悟梨香院」：宝玉从贾蔷龄官身上看到「情」的排他性（龄官只认贾蔷，不认宝玉），完成了自己情感观的一次重要成长。名字考据：蔷=蔷薇——与龄官「画蔷」的痴情意象直接呼应，他的名字成了她的画、她的命。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "机灵会讨巧——宁府的「人精」",
+        "fact_type": "canonical_text_fact",
+        "description": "贾蔷「外相既美，内性又聪明」，从小在贾珍门下学会了察言观色、讨巧钻营：闹学堂时躲在幕后挑唆，自己不出头；管梨香院时把差事办得漂亮。他的机灵是环境教的——寄人篱下的孤儿，聪明是唯一的生存武器。"
+      },
+      {
+        "dimension": "痴情——对龄官的真心",
+        "fact_type": "canonical_text_fact",
+        "description": "贾蔷对龄官的痴是全书男性中罕见的「真」：买雀儿讨好、被讥讽后立刻放生、下雨天画蔷（护着龄官画蔷的是贾蔷？不——画蔷的是龄官，贾蔷看痴了）。他的痴与贾蓉贾珍的「滥」形成对照——这个机灵人，动了真情。"
+      },
+      {
+        "dimension": "弄权手腕——闹学堂的幕后推手",
+        "fact_type": "canonical_text_fact",
+        "description": "第九回贾蔷因金荣欺负秦钟（秦钟与宝玉相厚、贾蔷与贾蓉相厚），心生不满，却不自己出手，挑唆茗烟去打金荣——「他要有人欺负了秦钟，如何肯依」。「借刀」的权术他无师自通——宁府的政治空气教坏了他。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jia_qiang_school_ch9",
+        "title": "闹学堂幕后推手（第九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jia_qiang_gusu_ch16",
+        "title": "赴姑苏采买十二官（第十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jia_qiang_lixiang_ch18",
+        "title": "管理梨香院（第十八回前后）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jia_qiang_lingguan_ch36",
+        "title": "与龄官相恋——买雀儿放生（第三十六回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch9_jia_qiang_instigate",
+        "quote": "贾蔷道：「你们要不依，我便在这里不去……我要去查察查察。」（挑唆茗烟打金荣）茗烟……便一头进来找金荣，也不叫金相公了，只说：「姓金的，你是什么东西！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第九回。贾蔷挑唆茗烟闹事——闹学堂的幕后推手。"
+      },
+      {
+        "source_id": "source_ch16_jia_qiang_gusu",
+        "quote": "贾珍道：「我派你去……下姑苏请聘教习，采买女孩子，置办乐器行头。」（贾蔷领命赴姑苏，采买十二个女伶）",
+        "fact_type": "canonical_text_fact",
+        "note": "第十六回。贾珍委任贾蔷办省亲戏班——信任与历练。"
+      },
+      {
+        "source_id": "source_ch36_jia_qiang_lingguan",
+        "quote": "贾蔷进去笑道：「……这雀儿会衔旗串戏……你瞧瞧，好不好？」龄官道：「你们家把好好的人弄了来，关在这牢坑里学这个劳什子，还不算，这会子又弄个雀儿来，也偏生干这个！你分明是弄了他来打趣形容我们。」贾蔷听了，不觉慌起来，连忙……拆了笼子，把雀儿放了生。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十六回。买雀儿哄龄官反被讥，立刻放生——贾蔷的痴与真。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "贾家草字辈（蓉、蔷、芸等），「蔷」即蔷薇",
+      "detail": "蔷=蔷薇——花中带刺、美而易谢。贾蔷之名与龄官「画蔷」直接呼应：第三十六回龄官在蔷薇架下痴画「蔷」字——她画的是他的名字，更是她的痴情。「蔷」字因此成为全书最浪漫的名字设计之一：一个男人的名字，成为一个女人全部的书写内容。红学家亦指出「蔷」谐「墙」——他躲在闹学堂的墙后（幕后推手），也躲在宁府的墙影里（寄人篱下）。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 9,
+          "evidence": "宁府正派玄孙……如今长了十六岁",
+          "age": "16岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "16岁（第9回）",
+        "story_end": "约23岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第9回明文十六岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "蔷哥儿",
+      "type": "族中称谓",
+      "context": "贾珍、贾蓉等对其的称呼",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "蔷二爷",
+      "type": "排行称谓",
+      "context": "梨香院戏班中人对其的尊称",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jia_qiang_school_ch9",
+      "title": "闹学堂幕后推手——挑唆茗烟",
+      "event_level": "major",
+      "chapter": {
+        "number": 9,
+        "title": "恋风流情友入家塾 起嫌疑顽童闹学堂",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府义学",
+        "specific": "金荣借秦钟香怜之事欺负秦钟。贾蔷为替贾蓉的相好秦钟出气，却不出面，反而挑唆宝玉的小厮茗烟去打金荣：「姓金的，你是什么东西！」——学堂大乱，顽童械斗。"
+      },
+      "summary": {
+        "short": "第九回闹学堂是全书的「顽童群像」，而总导演是贾蔷：他挑唆茗烟打金荣，自己全身而退。这场闹剧展示了少年贾蔷的权术天赋——借刀杀人、隔岸观火，宁府的政治课他学得太好。",
+        "meaning": [
+          "贾蔷的动机：为贾蓉（及其相好秦钟）出头——他的「义气」服务于宁府的人情网络",
+          "「挑唆」而非「动手」：寄人篱下的自保智慧——惹事不沾事",
+          "茗烟是被利用的「刀」——底层小厮被上层少爷当枪使"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "权术的少年版",
+          "content": "贾蔷闹学堂的手段与凤姐的「借剑杀人」同构：自己不出面，借他人之手闹事。曹雪芹写一个十几岁少年的权术早熟，正是写宁府环境的「教育成果」——贾蔷的未来（管戏班、弄权）在此回已见端倪。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ming_yan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jin_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_qiang_gusu_ch16",
+      "title": "赴姑苏采买十二官",
+      "event_level": "major",
+      "chapter": {
+        "number": 16,
+        "title": "贾元春才选凤藻宫 秦鲸卿夭逝黄泉路",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "姑苏",
+        "specific": "元妃省亲筹备，贾珍派贾蔷「下姑苏请聘教习，采买女孩子，置办乐器行头」。贾蔷赴苏州采买十二个女伶（芳官、龄官、藕官等十二官），并聘教习、办行头。"
+      },
+      "summary": {
+        "short": "贾蔷的「姑苏之行」是大观园戏班（十二官）的起点：他买来了芳官、龄官、藕官等十二个女伶——这群女孩后来成为大观园最鲜活的一群生命。他的差事办得漂亮，也从此与戏班结缘。",
+        "meaning": [
+          "贾珍的委任：对贾蔷的信任与历练——孤儿在宁府谋得的第一个「实职」",
+          "十二官的来源：贫苦人家的女孩被「采买」——她们是贾蔷命运的另一种版本（寄人篱下）",
+          "龄官也在其中——贾蔷的姻缘（冤孽）从此埋下"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「采买」的隐喻",
+          "content": "贾蔷赴姑苏「采买女孩子」——十二官是买来的，正如贾蔷自己是「被养大的」（寄人篱下）。他后来与龄官相恋，又因「牢坑」之讥放生雀儿——「采买」的买卖关系与「爱情」的自由关系在此形成深刻的互文。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lingguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ouguan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_qiang_lixiang_ch18",
+      "title": "管理梨香院",
+      "event_level": "minor",
+      "chapter": {
+        "number": 18,
+        "title": "皇恩重元妃省父母 天伦乐宝玉呈才藻",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院",
+        "specific": "贾蔷受命管理梨香院戏班，总揽十二官事务。元妃省亲时戏班献演，贾蔷全程张罗。"
+      },
+      "summary": {
+        "short": "梨香院是贾蔷的「事业」：管理戏班、张罗演出、调度十二官。这个职务让他从宁府的影子变成有实职的人——也是他与龄官朝夕相处的舞台。",
+        "meaning": [
+          "梨香院的双重身份：戏班所在地+贾蔷的爱情发生地",
+          "他的管理能力在此得到承认——「会讨巧」用在正事上也能干",
+          "与龄官的「上下级关系」是爱情的障碍也是掩护"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "梨香院的舞台性",
+          "content": "曹雪芹把贾蔷龄官之恋放在梨香院（戏院）里——戏子的爱情在戏院里发生，真假难辨。但第三十六回宝玉的旁观确认了这份情的「真」：台上做戏的人，台下动了真情——「假作真时真亦假」的又一层演绎。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_yuanchun",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lingguan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_qiang_lingguan_ch36",
+      "title": "与龄官相恋——买雀儿放生",
+      "event_level": "major",
+      "chapter": {
+        "number": 36,
+        "title": "绣鸳鸯梦兆绛芸轩 识分定情悟梨香院",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院",
+        "specific": "贾蔷花银子买了一只「会衔旗串戏」的雀儿来哄龄官。龄官讥他「把好好的人弄来关在牢坑里」，贾蔷慌得立刻拆笼放生。宝玉在窗外目睹二人之情，深悟「人生情缘，各有分定」。"
+      },
+      "summary": {
+        "short": "贾蔷对龄官的痴，以「买雀—放雀」的情节写尽：他花心思讨她欢心，被她的眼泪击中后立刻改正——「放生」的一刻，他放的不是雀，是自己作为「买主」的傲慢。宝玉从他们身上学会了：情有分定，非我所属。",
+        "meaning": [
+          "买雀儿哄人是「痴」：他把会串戏的雀当礼物，没想到触痛了戏子的身份之痛",
+          "放生是「悟」：龄官的讥讽让他顿悟「戏子是人不是玩物」",
+          "宝玉的旁观是「点题」：回目「识分定情悟梨香院」——贾蔷龄官之恋成了宝玉情感观的转折点"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "痴情的正名",
+          "content": "贾蔷对龄官之痴，是全书男性爱情中最「少年」的一例：他会慌（被讥讽就慌）、会改（立刻放生）、会哭（被拒后伤心）——这份笨拙的真心，与贾珍贾琏的「猎艳」截然不同。曹雪芹对这个「会讨巧的人精」动了真情时的笨拙，写得格外温柔。"
+        },
+        {
+          "type": "literary",
+          "title": "「识分定」的叙事功能",
+          "content": "第三十六回是宝玉情感观的关键转折：他原以为「天下女儿的眼泪都该葬我」，目睹龄官只认贾蔷后，「自此深悟人生情缘，各有分定」。贾蔷龄官之恋的叙事功能是「教育宝玉」——他们的痴情是宝玉「情悟」的教材。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_qiang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lingguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jia_qiang_jia_rong",
+      "from": "character_jia_qiang",
+      "to": "character_jia_rong",
+      "type": "堂兄弟（死党）",
+      "nature": [
+        "siblings",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾蔷与贾蓉「最厚」：从小一起在贾珍门下长大，形影不离。闹学堂时贾蔷为贾蓉的相好秦钟出头——他的义气首先属于贾蓉。书中对二人关系的暧昧描写（「常相共处」），使这对死党带有一层宁府特有的浑浊色彩。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "同门成长",
+          "chapter": 9,
+          "description": "二人同在贾珍门下，最厚。"
+        },
+        {
+          "stage": 2,
+          "title": "替友出头",
+          "chapter": 9,
+          "description": "贾蔷为贾蓉之友秦钟闹学堂。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_qiang_jia_zhen",
+      "from": "character_jia_qiang",
+      "to": "character_jia_zhen",
+      "type": "抚养者（寄人篱下）",
+      "nature": [
+        "family"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾蔷父母早亡，从小跟贾珍过活——贾珍是他的衣食父母兼人生导师（教他弄权）。贾珍对他的培养（委任采买、管理戏班）是「施恩」，也是控制：贾蔷的一切都系于贾珍的恩宠。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "抚养",
+          "chapter": 9,
+          "description": "父母双亡，贾珍养大贾蔷。"
+        },
+        {
+          "stage": 2,
+          "title": "委任",
+          "chapter": 16,
+          "description": "贾珍派贾蔷赴姑苏采买十二官。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_qiang_jia_baoyu",
+      "from": "character_jia_qiang",
+      "to": "character_jia_baoyu",
+      "type": "族兄弟（旁观者与教材）",
+      "nature": [
+        "siblings",
+        "symbolic_parallel"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾蔷与宝玉是同族兄弟。第三十六回宝玉旁观贾蔷龄官之恋，深悟「情缘各有分定」——贾蔷的痴情意外成为宝玉情感观的「教材」。此后宝玉对贾蔷多了一份理解的亲近。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "旁观",
+          "chapter": 36,
+          "description": "宝玉窗外见贾蔷放雀、龄官拒戏，悟「分定」。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jia_qiang_love",
+      "title": "贾蔷对龄官的爱是真的吗？——机灵人的真情",
+      "slug": "is-jia-qiang-love-for-lingguan-real",
+      "question_type": "character_motivation",
+      "importance_weight": 68,
+      "heat_weight": 62,
+      "neutral_overview": "贾蔷惯会讨巧，是个「人精」。他对龄官的痴情，是真爱，还是又一种「讨巧」？",
+      "viewpoint_ids": [
+        "vp_jia_qiang_love_true",
+        "vp_jia_qiang_love_power"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jia_qiang_love_true",
+          "title": "真爱论：笨拙是爱情的证据",
+          "summary": "贾蔷对龄官的痴，表现在「笨」上：买雀儿这种讨巧之事，反被讥讽；被讥讽后「慌」得立刻放生；龄官闹脾气时他手足无措。一个惯会讨巧的人，在爱情里却处处失手——这份笨拙正是真情的证据。曹雪芹以「笨」写「真」：会爱的人，都是笨的。",
+          "evidence": [
+            "被讥讽后的「慌」与放生",
+            "对龄官的无条件迁就"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jia_qiang_love_power",
+          "title": "权力论：班主对戏子的占有欲",
+          "summary": "贾蔷是梨香院班主，龄官是他「采买」来的女孩——这段关系先天带有权力不平等。买雀儿哄人暴露了他的心态：把龄官当「会串戏的雀儿」一般宠爱。他的「痴」里含着占有：「我买来的，理应是我的」。只是龄官的讥讽（牢坑）击碎了这层幻觉——放生是良心发现，也是权力受挫后的讨好。",
+          "evidence": [
+            "采买十二官的买卖背景",
+            "买「会串戏」的雀儿的隐喻"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jia_qiang_baoyu_lesson",
+      "title": "「识分定情悟梨香院」——贾蔷龄官之恋教会宝玉什么？",
+      "slug": "what-baoyu-learns-from-jia-qiang-lingguan",
+      "question_type": "literary_structure",
+      "importance_weight": 72,
+      "heat_weight": 66,
+      "neutral_overview": "第三十六回宝玉旁观贾蔷龄官之恋后，「自此深悟人生情缘，各有分定」。这场旁观对宝玉的情感观意味着什么？",
+      "viewpoint_ids": [
+        "vp_jia_qiang_baoyu_lesson"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jia_qiang_baoyu_lesson",
+          "title": "「分定」之悟：从博爱到专情的转折",
+          "summary": "宝玉原以为「所有女儿的眼泪都该葬我」——他的爱是博爱式的自恋。龄官只认贾蔷（不理宝玉的搭讪），让宝玉第一次意识到：情的本质是「分定」——每份情都有专属的指向，不能共享、不能僭越。这一悟是他情感观从「泛爱」到「专一」（对黛玉）的转折点，也是他日后「悬崖撒手」的理论准备之一。贾蔷龄官之恋因此在叙事上是「为宝玉而设」的一课。",
+          "evidence": [
+            "宝玉「自此深悟人生情缘，各有分定」的原文",
+            "龄官拒唱《牡丹亭》（坚持唱《相约》《相骂》）的执拗"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch9_chapter_title",
+      "quote": "第九回回目：恋风流情友入家塾 起嫌疑顽童闹学堂",
+      "fact_type": "canonical_text_fact",
+      "note": "闹学堂的乱局——贾蔷幕后推手的舞台。"
+    },
+    {
+      "source_id": "source_ch36_chapter_title",
+      "quote": "第三十六回回目：绣鸳鸯梦兆绛芸轩 识分定情悟梨香院",
+      "fact_type": "canonical_text_fact",
+      "note": "「识分定情悟梨香院」——贾蔷龄官之恋的叙事点题。"
+    },
+    {
+      "source_id": "source_ch30_lingguan_qiang",
+      "quote": "（龄官）蹲在花下，手里拿着根绾头的簪子在地下抠土，一面悄悄的流泪……画来画去，还是个「蔷」字。",
+      "fact_type": "canonical_text_fact",
+      "note": "第三十回。龄官画「蔷」——贾蔷之名的痴情书写。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jia_qiang_growth",
+      "title": "贾蔷——宁府环境「教育」出的少年样本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1995,
+      "source_title": "红学人物专题研究",
+      "description": "红学家指出，贾蔷是「环境塑人」的典型样本：一个父母双亡的孤儿，在贾珍门下学会了讨巧、弄权、借刀——闹学堂时的权术早熟令人心惊。但他的形象同时保留了「可教性」：对龄官的痴情证明他未被环境完全吞噬，仍有真情的残余。学者多视贾蔷为贾府子弟群的「灰色地带」——不是宝玉式的觉醒者，也不是贾蓉式的沉沦者，而是一个「机灵地活着、笨拙地爱着」的少年。"
+    },
+    {
+      "id": "viewpoint_jia_qiang_lingguan_function",
+      "title": "贾蔷龄官之恋的叙事功能——宝玉情悟的镜像",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1989,
+      "source_title": "红学叙事结构研究",
+      "description": "学者分析贾蔷龄官之恋的三重叙事功能：一是「情之排他性」的展示（龄官只认贾蔷，反照宝玉的博爱）；二是「权力与爱情」的张力（班主与戏子的爱，隐含买卖关系的阴影）；三是「宝玉情悟」的催化（「识分定」是宝玉从泛爱走向专情的关键）。论者认为，这对恋人是曹雪芹为宝黛爱情设置的「镜像对照」——同样门第悬殊（主仆/班主戏子），贾蔷龄官的爱「成」在无门第之隔（戏子本无门第可守），宝黛的爱「败」在门第之墙——同一主题的双重变奏。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.93,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 22,
+      "text_inference": 6,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

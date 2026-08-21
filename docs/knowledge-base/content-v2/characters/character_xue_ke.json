@@ -1,0 +1,599 @@
+{
+  "character": {
+    "id": "character_xue_ke",
+    "name": "薛蝌",
+    "slug": "xue-ke",
+    "aliases": [
+      "蝌儿",
+      "薛二爷"
+    ],
+    "category": "薛家子弟（薛蟠堂弟）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "薛蟠之堂弟（一作薛虬），薛宝琴之胞兄——薛家另一支（薛蟠堂叔家）。",
+      "position": "薛家子弟→护送宝琴进京→料理薛家事务→许配邢岫烟。",
+      "origin": "薛氏皇商家族旁支。",
+      "generation": "与薛蟠、宝钗同辈"
+    },
+    "tags": [
+      "秉性忠厚",
+      "宝琴胞兄",
+      "料理家事",
+      "邢岫烟定亲",
+      "宝蟾调戏",
+      "薛家栋梁",
+      "与薛蟠对照"
+    ],
+    "summary": {
+      "short": "薛蟠堂弟（一作薛虬），薛宝琴胞兄。带妹进京聘嫁，秉性忠厚、少年老成，料理薛家事务井然有序；与邢岫烟定亲（薛姨妈做媒）。后四十回（gaoe，第九十一回）写宝蟾调戏他而不为所动——薛家子弟中难得的一股清流。",
+      "long": "薛蝌是薛蟠的堂弟、薛宝琴的胞兄，随妹进京聘嫁梅家（第四十九回）。与乃兄薛蟠的「呆霸王」截然不同，薛蝌秉性忠厚、少年老成：薛蟠犯案、薛家内外交困之际，他代为料理家事，井井有条，是薛家真正「顶门立户」的人。薛姨妈爱其可靠，将邢岫烟许配与他（第五十七回）——二人先有意后成亲，是全书少有的两厢情愿的姻缘。后四十回（gaoe）写他坚守名节：第九十一回宝蟾深夜设计调戏，薛蝌正色相拒、不为所动——「纵淫心宝蟾工设计」的回目正是以宝蟾之邪衬薛蝌之正。红学家普遍视薛蝌为「薛蟠的镜像」：同门兄弟，一邪一正、一坏一好——曹雪芹以薛蝌证明：家族的堕落不是宿命，个人品性可以不同流合污。名字考据：蝌=蝌蚪（龙的前身之喻，「蝌」亦可写作「虬」——幼龙）——薛蝌是薛家子弟中唯一有望「成龙」的人。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "秉性忠厚——薛家的一股清流",
+        "fact_type": "canonical_text_fact",
+        "description": "薛蝌的「忠厚」是全书对他的定评：护送妹妹尽职、料理家事尽心、对岫烟敬重、对宝蟾正色。他的厚道不是无能（家务料理得井井有条），是「有能力的善良」——薛家子弟中最稀缺的品性。"
+      },
+      {
+        "dimension": "少年老成——以弱肩担家业",
+        "fact_type": "canonical_text_fact",
+        "description": "薛蝌年纪虽轻，行事却老成：薛蟠被官司缠身时，他奔走周旋、料理家务、安抚上下——「薛蝌」二字成了薛家稳定的代名词。他的老成是历练出来的：父亲早逝，他早早担起家庭责任。"
+      },
+      {
+        "dimension": "守身持正——面对诱惑的定力",
+        "fact_type": "canonical_text_fact",
+        "description": "后四十回（gaoe）写宝蟾深夜调戏，薛蝌严词拒绝：「大礼所关，不敢造次」。他的「正」与薛蟠的「滥」形成尖锐对照——同门兄弟，品格分野判若云泥。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xue_ke_enter_ch49",
+        "title": "带妹进京聘嫁（第四十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xue_ke_manage_ch67",
+        "title": "料理薛家事务（第六十七回起）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_xue_ke_betrothal_ch57",
+        "title": "与邢岫烟定亲（第五十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xue_ke_baochan_ch91",
+        "title": "宝蟾调戏，正色相拒（第九十一回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch57_xue_ke_betrothal",
+        "quote": "薛姨妈道：「……他（薛蝌）如今陪着琴儿住在这里，很懂事，又稳重。……不如把你妹妹（岫烟）说与他作配，恰好是一对儿。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十七回。「很懂事，又稳重」——薛姨妈对薛蝌的定评。"
+      },
+      {
+        "source_id": "source_ch49_xue_ke_enter",
+        "quote": "薛蝌带着胞妹宝琴进京，来至贾府，拜见贾母——「一来了聘嫁梅家的事」。",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十九回。薛蝌护送宝琴进京。"
+      },
+      {
+        "source_id": "source_ch91_xue_ke_baochan",
+        "quote": "第九十一回回目：纵淫心宝蟾工设计 布疑阵宝玉妄谈禅",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。宝蟾设计调戏薛蝌——以邪衬正。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「蝌」即蝌蚪，一说本作「虬」",
+      "detail": "蝌=蝌蚪（幼态）——古人以「蝌蚪」喻龙之幼体（蝌蚪化为蛙，蛙进为龙）；一说「薛蝌」一作「薛虬」——虬即幼龙。薛家子弟以「蟠」（薛蟠，蟠龙）、「蝌/虬」命名，构成龙的谱系：薛蟠是盘踞之龙（却成呆霸王），薛蝌是待化之龙（忠厚有成）。红学家指出此名暗含期许：薛蝌是薛家子弟中唯一有「成龙」气象的人。",
+      "fact_type": "text_inference",
+      "disputes": [
+        {
+          "point": "「薛蝌」与「薛虬」的版本异文",
+          "fact_type": "disputed_version"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；带妹进京聘嫁，约十八九岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "薛虬",
+      "type": "版本异文",
+      "context": "部分版本（如戚序本系统）将「薛蝌」写作「薛虬」——虬为幼龙，与蟠（蟠龙）相对",
+      "fact_type": "disputed_version",
+      "note": "版本异文"
+    },
+    {
+      "alias": "蝌儿",
+      "type": "昵称",
+      "context": "薛姨妈对薛蝌的称呼",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xue_ke_enter_ch49",
+      "title": "带妹进京——聘嫁梅家",
+      "event_level": "minor",
+      "chapter": {
+        "number": 49,
+        "title": "琉璃世界白雪红梅 脂粉香娃割腥啖膻",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "薛蝌护送胞妹宝琴进京，为赴梅翰林家聘嫁。兄妹二人投靠薛姨妈，暂住荣府。"
+      },
+      "summary": {
+        "short": "薛蝌的登场是「责任」的登场：父亲已故，他以兄长之身护送妹妹完成终身大事——这份担当与薛蟠的荒唐形成第一组对照。",
+        "meaning": [
+          "「带妹聘嫁」的使命：薛蝌进京不是游玩，是履职",
+          "与薛蟠的对照从登场开始：一个是「护妹」，一个是「坑妹」（薛蟠坑香菱、坑家人）",
+          "投靠荣府的不卑不亢——他以薛家正支之外的「清流」姿态入场"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "兄长之责",
+          "content": "薛蝌为宝琴的婚事奔波进京，全程周全得体——这份「兄长之责」与贾府诸爷们（贾珍贾琏等）对姊妹的不负责任形成对照。曹雪芹以薛蝌写「男人本分」：护家、担责、守正。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_ke",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baoqin",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_ke_betrothal_ch57",
+      "title": "与邢岫烟定亲——「天生的一对」",
+      "event_level": "major",
+      "chapter": {
+        "number": 57,
+        "title": "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "薛姨妈见薛蝌未娶、岫烟未许，遂向贾母提亲，将岫烟许配薛蝌。二人先已彼此中意，婚事一说即合。"
+      },
+      "summary": {
+        "short": "薛蝌与岫烟的婚事是全书最顺利的姻缘：忠厚配端雅，落魄配寒门，两厢情愿、长辈成全。这场婚事是曹雪芹为「婚姻悲剧」主题保留的一个「反例」——匹配的婚姻可以很美好。",
+        "meaning": [
+          "「先有意」的细节：薛蝌与岫烟在定亲前已互相欣赏——爱情的种子在礼法允许前已种下",
+          "薛姨妈的做媒：把「爱语慰痴颦」的慈心落到实处",
+          "婚事之「顺」反衬宝黛之「难」——同回并置的叙事设计"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「顺」婚的样本意义",
+          "content": "曹雪芹把薛蝌岫烟的婚事与宝黛的「试忙玉」放在同一回，形成「顺/难」的对位：宝黛的爱更深，婚更难；薛蝌岫烟的情更浅，婚更顺。作者以此揭示：婚姻的成败在《红楼梦》里不由爱情决定，而由「匹配」决定——这是全书婚姻叙事最冷峻的观察。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_ke",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xing_xiuyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_ke_manage_ch67",
+      "title": "料理薛家事务——薛家的「定海神针」",
+      "event_level": "major",
+      "chapter": {
+        "number": 67,
+        "title": "见土仪颦卿思故里 闻秘事凤姐讯家童",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "薛蟠外出经商、后被官司缠身，薛家内外事务全仗薛蝌料理：打点衙门、安抚家人、照应铺面——「薛蝌」成为薛家稳定的代名词。"
+      },
+      "summary": {
+        "short": "薛蟠惹祸、薛家危难之际，是薛蝌撑起了门户：内外周旋、井井有条。这个「顶梁柱」角色让薛姨妈感叹：亲儿子惹祸，堂侄子顶门——曹雪芹以薛蝌反写薛蟠，也反写贾府「后继无人」的窘境。",
+        "meaning": [
+          "薛蝌的能力：年轻却有担当——「少年老成」四字的实体化",
+          "薛家的困境：正支子弟（薛蟠）无用，旁支子弟（薛蝌）撑家——家族衰败的症候",
+          "贾薛对照：贾府无可用之子侄，薛家尚有薛蝌——曹雪芹的世族批判"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「有德者撑家」的秩序理想",
+          "content": "曹雪芹借薛蝌料理家事写一种秩序理想：家有薛蝌，则家不败。对照贾府（宁荣二府子孙皆不肖）、薛蟠（正支荒唐），薛蝌的存在说明作者的判断：家族的存续靠的是「品行」，不是「嫡庶名分」——薛蝌以旁支之身行正支之责，是对「名分决定论」的温和颠覆。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_ke",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xue_yima",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_xue_ke_baochan_ch91",
+      "title": "宝蟾调戏，正色相拒（后四十回）",
+      "event_level": "major",
+      "chapter": {
+        "number": 91,
+        "title": "纵淫心宝蟾工设计 布疑阵宝玉妄谈禅",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "薛家",
+        "specific": "金桂之丫鬟宝蟾深夜设计，以酒色诱惑薛蝌。薛蝌严词拒绝：「大礼所关，不敢造次」——宝蟾之计落空，反被薛蝌的持正所镇。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写宝蟾工于设计、引诱薛蝌，薛蝌「非礼勿动」，正色相拒。此情节以宝蟾之淫邪衬薛蝌之持正——完成薛蝌「忠厚守礼」形象的最后一笔。",
+        "meaning": [
+          "「纵淫心宝蟾工设计」——回目以「淫」字写宝蟾，以「正」字写薛蝌（隐含）",
+          "薛蝌之拒：名分（未婚妻岫烟）+礼法（大礼所关）的双重坚守",
+          "与薛蟠的终极对照：同样的诱惑，薛蟠必上钩，薛蝌必拒绝"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "守礼的定力",
+          "content": "薛蝌的拒绝不是道学家的刻板，是「有未婚妻之人」的自重——他的「正」有具体的情感落点（岫烟）与道德落点（礼法）。续书以这场「拒诱」把薛蝌塑造成全书男性中的道德标杆。"
+        },
+        {
+          "type": "hongxue",
+          "title": "续书对薛蝌的「加冕」",
+          "content": "红学家指出，续书（gaoe）对薛蝌的处理延续了前八十回的定位（忠厚持正），并加以强化（拒诱情节）。这与续书对贾宝玉、王熙凤等人物的「变形」不同——薛蝌是少数「前后一贯」的人物，因他的形象本来单薄且正面，续书无需改造。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_xue_ke",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_baodan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xia_jingui",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xue_ke_xue_baoqin",
+      "from": "character_xue_ke",
+      "to": "character_xue_baoqin",
+      "type": "胞兄妹（进京聘嫁）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛蝌是宝琴的胞兄兼监护人：护送其进京聘嫁、在贾府期间照应起居。兄长之责贯穿始终——宝琴能「全身而退」地拥有好结局，与薛蝌的守护密不可分。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "护送",
+          "chapter": 49,
+          "description": "薛蝌带宝琴进京。"
+        },
+        {
+          "stage": 1,
+          "title": "进京",
+          "chapter": 49,
+          "description": "薛蝌带宝琴进京，寄居荣府。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_ke_xing_xiuyan",
+      "from": "character_xue_ke",
+      "to": "character_xing_xiuyan",
+      "type": "未婚夫妻（忠厚配端雅）",
+      "nature": [
+        "romantic",
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "岫烟与薛蝌是全书罕见的「先有情后有媒」的姻缘：进府后二人彼此中意，薛姨妈做媒一拍即合。寒门之女配落魄公子，忠厚配端雅——这场婚事是曹雪芹为读者保留的「婚姻可以美好」的证据。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "中意",
+          "chapter": 49,
+          "description": "二人先后进府，彼此欣赏。"
+        },
+        {
+          "stage": 2,
+          "title": "定亲",
+          "chapter": 57,
+          "description": "薛姨妈做媒，亲事说定。"
+        },
+        {
+          "stage": 3,
+          "title": "守约",
+          "chapter": 91,
+          "description": "薛蝌拒宝蟾之诱，守对岫烟之约。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_ke_xue_pan",
+      "from": "character_xue_ke",
+      "to": "character_xue_pan",
+      "type": "堂兄弟（正邪对照）",
+      "nature": [
+        "siblings",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛蝌与薛蟠是同门兄弟的极致对照：薛蟠荒唐惹祸，薛蝌忠厚持家；薛蟠滥情好色，薛蝌守礼持正。曹雪芹以「一蟠一蝌」写家族子弟的两极——薛家的希望不在正支，而在旁支。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "对照",
+          "chapter": 49,
+          "description": "薛蝌之稳与薛蟠之莽同场并置。"
+        },
+        {
+          "stage": 2,
+          "title": "撑家",
+          "chapter": 67,
+          "description": "薛蟠惹祸，薛蝌料理家事。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_ke_xue_yima",
+      "from": "character_xue_ke",
+      "to": "character_xue_yima",
+      "type": "堂婶侄（倚重与疼爱）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛姨妈对薛蝌既疼爱又倚重：生活上照拂其兄妹，事务上依赖其料理，婚姻上为其做主（说岫烟）。薛蝌则以忠厚回报——「不是亲儿，胜似亲儿」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "倚重",
+          "chapter": 49,
+          "description": "薛蝌兄妹寄居薛姨妈处。"
+        },
+        {
+          "stage": 2,
+          "title": "做媒",
+          "chapter": 57,
+          "description": "薛姨妈为薛蝌定亲岫烟。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xue_ke_baochan",
+      "from": "character_xue_ke",
+      "to": "character_baochan",
+      "type": "诱惑者与拒绝者",
+      "nature": [
+        "enemies"
+      ],
+      "direction": "one_way",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "summary": "后四十回（gaoe）写宝蟾受金桂指使（或自起淫心）设计调戏薛蝌，薛蝌正色相拒。此关系是续书对薛蝌「守正」品格的极端测试：以最大诱惑试其定力。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "调戏与拒绝",
+          "chapter": 91,
+          "description": "宝蟾工设计，薛蝌不为所动。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_xue_ke_mirror",
+      "title": "薛蝌是薛蟠的「镜像」吗？——正邪对照的叙事功能",
+      "slug": "is-xue-ke-mirror-of-xue-pan",
+      "question_type": "character_comparison",
+      "importance_weight": 64,
+      "heat_weight": 56,
+      "neutral_overview": "同门兄弟，薛蟠荒唐、薛蝌忠厚。曹雪芹安排这对堂兄弟同场，是巧合还是刻意的对照设计？",
+      "viewpoint_ids": [
+        "vp_xue_ke_mirror_yes"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xue_ke_mirror_yes",
+          "title": "镜像论：一邪一正的家族诊断",
+          "summary": "薛蝌是曹雪芹刻意设置的「薛蟠镜像」：同样的家世、同样的年纪，一个把家底败光，一个把家业撑起——这证明家族的衰败不是命定，而是「人」的问题。薛蝌的存在同时服务于两个叙事目的：一是批判（薛蟠贾珍之流的堕落是选择而非宿命），二是寄托（即便在烂泥般的世族里，也还有人守得住品行）。",
+          "evidence": [
+            "二人在第四十九回同场登场的并置",
+            "薛蟠惹祸与薛蝌撑家的情节对位"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_xue_ke_ending",
+      "title": "薛蝌与岫烟的结局：后四十回给了他们圆满吗？",
+      "slug": "xue-ke-xiuyan-happy-ending",
+      "question_type": "version_dispute",
+      "importance_weight": 60,
+      "heat_weight": 54,
+      "neutral_overview": "前八十回薛蝌岫烟定亲顺利；后四十回（gaoe）二人的婚事如何收场？续书是否给了这对「匹配」的姻缘一个圆满结局？",
+      "viewpoint_ids": [
+        "vp_xue_ke_ending_gaoe",
+        "vp_xue_ke_ending_original"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_xue_ke_ending_gaoe",
+          "title": "续书处理：婚事完满，家道复兴",
+          "summary": "后四十回（gaoe）中薛蝌与岫烟完婚，薛蝌始终持正持家；薛家虽经薛蟠案之波折，最终薛蝌一脉支撑门户、香菱扶正、家业尚存。续书对这对「匹配姻缘」的处理是宽容的——他们是乱世中少数善终的夫妻。",
+          "evidence": [
+            "续书中薛蝌料理家事、拒诱守约的持续描写",
+            "薛家结局相对平稳的处理"
+          ],
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_xue_ke_ending_original",
+          "title": "佚稿推测：覆巢之下，焉有完卵",
+          "summary": "按曹雪芹「白茫茫大地真干净」的总结局，薛家亦在败亡之列（四大家族「一荣俱荣，一损俱损」）。薛蝌岫烟的婚事纵成，也难逃家族倾覆的大势——他们的「顺」只是悲剧之网中的一时幸运。脂批系统的佚稿线索暗示薛家最终败落，薛蝌之忠厚救不了家族的命。",
+          "evidence": [
+            "「落了片白茫茫大地真干净」的总收束",
+            "四大家族一损俱损的结构设定"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch57_xue_ke_stable",
+      "quote": "薛姨妈道：「……他（薛蝌）如今帮着料理家事，也还妥当。」",
+      "fact_type": "canonical_text_fact",
+      "note": "薛姨妈对薛蝌料理家事的肯定。"
+    },
+    {
+      "source_id": "source_ch57_xue_ke_match",
+      "quote": "贾母笑道：「这个很好。……倒是把邢丫头说给他，倒好。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第五十七回。贾母赞同薛蝌岫烟之配——「天生的牛郎织女」。"
+    },
+    {
+      "source_id": "source_ch91_xue_ke_refuse",
+      "quote": "宝蟾以言挑之，薛蝌道：「大礼所关，不敢造次。」……宝蟾再三引诱，薛蝌只是不理。",
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe。第九十一回薛蝌正色拒诱。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xue_ke_clear_stream",
+      "title": "薛蝌——世族子弟中的「清流标本」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1994,
+      "source_title": "红学人物专题研究",
+      "description": "红学界多视薛蝌为曹雪芹笔下世族子弟的「清流标本」：在贾珍贾琏薛蟠等浪荡子群像中，薛蝌的忠厚持正是唯一的正面男性样本之一。学者指出，薛蝌形象的意义在于「证明可能性」——同样的家世教养，可以养出薛蟠，也可以养出薛蝌；堕落不是必然，品性才是分野。这种「非宿命论」的写法使《红楼梦》的家族批判更锋利：败亡的家族不是因为「命」，而是因为「人」。"
+    },
+    {
+      "id": "viewpoint_xue_ke_betrothal",
+      "title": "薛蝌岫烟之婚——曹雪芹的婚姻理想类型",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学婚姻研究",
+      "year": 2001,
+      "source_title": "《红楼梦》婚姻问题研究",
+      "description": "学者将《红楼梦》婚姻归纳为几种类型：政治婚（元春、迎春）、利益婚（薛蟠金桂）、爱情婚（宝黛，未成）、匹配婚（薛蝌岫烟，成）。薛蝌岫烟是唯一「成」且「善」的婚姻——门当户对、两情相悦、长辈成全、夫妇守正。论者认为曹雪芹并不全盘否定婚姻制度，他批判的是「不匹配的强迫」，而非婚姻本身——薛蝌岫烟的样本保留了他对婚制的一线温情。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.92,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 20,
+      "text_inference": 6,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 9,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

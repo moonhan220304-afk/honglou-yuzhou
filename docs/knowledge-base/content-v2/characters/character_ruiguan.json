@@ -1,0 +1,518 @@
+{
+  "character": {
+    "id": "character_ruiguan",
+    "name": "蕊官",
+    "slug": "rui-guan",
+    "aliases": [],
+    "category": "贾府戏班十二官之一（小旦）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "为元妃省亲从姑苏采买来的女戏子，父母姓氏不详；戏班遣散后分与宝钗房内使唤。",
+      "position": "贾府梨香院戏班小旦（补菂官之缺）；遣散后为宝钗房中人；第七十七回出家地藏庵。",
+      "origin": "姑苏买来的女戏子，十二官之一。",
+      "generation": "与藕官、菂官、芳官等十二官同侪"
+    },
+    "tags": [
+      "十二官",
+      "小旦",
+      "补菂官之缺",
+      "藕官",
+      "蔷薇硝",
+      "茉莉粉事件",
+      "玫瑰露",
+      "茯苓霜",
+      "围殴赵姨娘",
+      "地藏庵"
+    ],
+    "summary": {
+      "short": "十二官中的小旦，菂官死后补其缺，与藕官相恋。第六十回赠芳官蔷薇硝，无意间引发茉莉粉、玫瑰露、茯苓霜连环事件；又与藕官等围殴赵姨娘。戏班遣散后归宝钗；第七十七回被逐，与芳官、藕官同出家（地藏庵）。",
+      "long": "蕊官是贾府为元妃省亲买来的十二个女戏子之一，行当小旦。她的入戏始于一场死亡：菂官（藕官的恋人）早夭，蕊官补了小旦之位，也「补」进了藕官的情里——第五十八回芳官对宝玉说：「后来补了蕊官，我们见他一般的温柔体贴。」于是蕊官、藕官成为继菂官之后的一对，她的存在本身就是「续弦论」的活注脚。第五十九回她与莺儿在柳叶渚采柳条编花篮，引出春燕姑妈的闹剧；第六十回，她听说芳官脸上长癣，托春燕捎去一包蔷薇硝——「把这包蔷薇硝给芳官去」。这包硝被贾环索要，芳官舍不得把蕊官所赠的真硝给人，改以茉莉粉应付，赵姨娘识破大怒，打上门来，芳官哭闹，蕊官与藕官、葵官、豆官「飞也似的赶来」，把赵姨娘团团围住厮打——「茉莉粉替去蔷薇硝」，一包脂粉滚成全书著名的「戏子大战姨娘」，又连锁引出玫瑰露与茯苓霜的公案（第六十一回）。戏班遣散时蕊官分与宝钗——与藕官归黛玉、芳官归宝玉的分派对应「金玉/木石」两条线。第七十七回大观园清洗，蕊官与芳官、藕官同被逐，誓死不肯转卖，情愿出家——藕官、蕊官随地藏庵圆心做了姑子。她的故事从头到尾是一个「补位者」的故事：补菂官的缺、补藕官的情，最后与藕官同入空门，把自己的一生演成了那场「假凤虚凰」的下半折。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "温——「一般的温柔体贴」",
+        "fact_type": "canonical_text_fact",
+        "description": "芳官说藕官待蕊官「一般的温柔体贴」，反过来看，蕊官也以同样的温柔接住了一个还带着丧妻之痛的恋人。她是全书写得最安静的情人：不烧纸、不哭祭，只把情分揉进日常——一包硝、一篮柳条，都是她的表达。"
+      },
+      {
+        "dimension": "义——赠硝与助拳",
+        "fact_type": "canonical_text_fact",
+        "description": "蕊官听说芳官害癣便送蔷薇硝，听说芳官挨打便赶来助拳——她对姊妹的义气与对恋人的温柔是一体两面。第六十回那包硝的善意，无意间滚成全书最大的一场奴婢内战，她却从头到尾没有一句辩解。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_ruiguan_supplement_ch58",
+        "title": "补菂官之缺，与藕官相恋（第五十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_ruiguan_willow_ch59",
+        "title": "与莺儿柳叶渚采柳条（第五十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_ruiguan_nitro_ch60",
+        "title": "赠芳官蔷薇硝——茉莉粉事件的开端，围殴赵姨娘（第六十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_ruiguan_nun_ch77",
+        "title": "被逐、拒卖，与藕官同入地藏庵（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch58_ruiguan_supplement",
+        "quote": "（芳官对宝玉道）「后来补了蕊官，我们见他一般的温柔体贴，也曾问他得新弃旧的。」……（藕官答）「这又有个大道理。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十八回。蕊官补的不只是戏班的小旦之位，也是藕官的情——「一般的温柔体贴」六个字，是全书写续情最温的一笔。"
+      },
+      {
+        "source_id": "source_ch60_ruiguan_nitro",
+        "quote": "（蕊官对春燕道）「……把这包蔷薇硝给芳官去。」……（赵姨娘打芳官，蕊官等）飞也似的赶来……（四人）将赵姨娘团团围住。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十回。一包蔷薇硝滚出茉莉粉、玫瑰露、茯苓霜连环案；四官围殴赵姨娘——蕊官的善意与烈性同回迸发。"
+      },
+      {
+        "source_id": "source_ch77_ruiguan_nun",
+        "quote": "（王夫人道）「唱戏的女孩子，自然是狐狸精了！……快给我逐出园去。」……（芳官藕官蕊官等）「……如今情愿去当姑子去。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回「美优伶斩情归水月」。蕊官与藕官同入地藏庵——台上一对，庵中同门。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「蕊」——花心，十二官「花草」命名系统中的补位者",
+      "detail": "十二官之名多取花草物象（芳、藕、菂、蕊、葵、豆、艾、茄……），「蕊」是花心——花之最深处、最柔处。她的命名暗合其身份的三重补位：戏班里补菂官（莲子）之缺，情场上补菂官之情，分派上补到宝钗（「蘅芜苑」的蘅芜香草）房中。藕（荷根）—菂（莲子）—蕊（花心）三官之名连读，正是一株荷花的根、实、心：蕊官是这段「花事」的第三折，也是最安静的一折。",
+      "fact_type": "text_inference",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文（约12-14岁）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；十二官之一，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [],
+  "events": [
+    {
+      "id": "event_ruiguan_supplement_ch58",
+      "title": "补菂官之缺——一个「补位者」的登场",
+      "event_level": "minor",
+      "chapter": {
+        "number": 58,
+        "title": "杏子阴假凤泣虚凰 茜纱窗真情揆痴理",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（宝玉房中/戏班）",
+        "specific": "芳官向宝玉讲述藕官情史：菂官死后，蕊官补了小旦之位，藕官待她「一般的温柔体贴」，旁人问藕官是否得新弃旧，藕官以「续弦论」作答。蕊官由此进入全书——她的存在即藕官「续弦论」的实践。"
+      },
+      "summary": {
+        "short": "蕊官的出场方式独一无二：她不在场，却通过芳官之口被讲述——以一个「补位者」的身份进入故事。补菂官之缺、接藕官之情，她的前半生都在「接续」二字里。",
+        "meaning": [
+          "「补了蕊官」——戏班的小旦有缺必补，情也有缺必续",
+          "「一般的温柔体贴」——续情不是将就，蕊官得到了与菂官同等的爱",
+          "蕊官归宝钗的分派在此回埋下——补位者配「金玉」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「续」字的实体化",
+          "content": "曹雪芹写蕊官几乎不直接写她，而是让她成为「续」字的实体：续戏、续情、续命。她的安静是全书女儿群像里难得的品质——不问前尘，只把当下的日子过得温柔。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ruiguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ouguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_diguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ruiguan_willow_ch59",
+      "title": "柳叶渚采柳条——婆子闹剧的旁观者",
+      "event_level": "minor",
+      "chapter": {
+        "number": 59,
+        "title": "柳叶渚边嗔莺咤燕 绛云轩里召将飞符",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（柳叶渚）",
+        "specific": "蕊官与莺儿在柳叶渚采柳条编花篮，管花木的春燕姑妈心疼花木又不敢开罪莺儿，拿春燕出气；春燕之母何婆子赶来，追打春燕进怡红院。蕊官是这场「嗔莺咤燕」风波的旁观者。"
+      },
+      "summary": {
+        "short": "第五十九回是蕊官日常的切片：与莺儿编花篮，看婆子闹剧。她的存在感极低——这正是曹雪芹写她的方式：补位者不抢戏，但大观园的每一场风波里，她都站在旁边。",
+        "meaning": [
+          "采柳编篮——戏子的手巧与闲趣，被遣散后难得的少女时光",
+          "婆子闹剧的旁观——蕊官与所有戏子一样，是婆子世界的「外人」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "安静的在场",
+          "content": "蕊官在第五十九回的「在场而不当事」，与她第六十回的「不在场而肇祸」（赠硝）恰成对位：曹雪芹让最安静的人牵动最大的风波——命运的因果从不问当事者是否喧哗。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ruiguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_he_pozi",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_chunyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ying_er",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ruiguan_nitro_ch60",
+      "title": "赠蔷薇硝——连环大案的起点，围殴赵姨娘",
+      "event_level": "major",
+      "chapter": {
+        "number": 60,
+        "title": "茉莉粉替去蔷薇硝 玫瑰露引来茯苓霜",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（蘅芜苑—怡红院）",
+        "specific": "蕊官托春燕把蔷薇硝带给害癣的芳官。贾环索要，芳官舍不得把蕊官所赠的真硝给人，改以茉莉粉应付；赵姨娘识破，冲进怡红院把粉摔在芳官脸上厮打。蕊官与藕官、葵官、豆官闻讯赶来，四人将赵姨娘团团围住厮打。这一包硝又连锁引出第六十一回玫瑰露、茯苓霜的冤案。"
+      },
+      "summary": {
+        "short": "第六十回的题眼是一包硝：蕊官的善意（赠硝）→芳官的情重（舍不得真硝）→贾环的贪（索要）→赵姨娘的蠢（打上门）→四官的义（围殴）。她是整条因果链的第一环，也是全书「小物引大祸」笔法最著名的样本。",
+        "meaning": [
+          "蔷薇硝是「物」也是「情」——芳官珍视的不是硝，是蕊官的心意",
+          "一包粉的旅行串联园中所有阶层——每个经手者的取舍都是性格注脚",
+          "蕊官的赠物与助拳同回——她的温柔与烈性是同一份情分的两面"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "蝴蝶的翅膀",
+          "content": "曹雪芹让一包脂粉滚动出茉莉粉（六十回）、玫瑰露、茯苓霜（六十一回）三场公案——蕊官赠硝就是那只扇动的蝴蝶翅膀。善意的起点通向无妄之灾，正是全书「因果」最冷峻的注脚：在大观园的权力网络里，连善意都会被异化成祸端。"
+        },
+        {
+          "type": "character",
+          "title": "无辩解者的义气",
+          "content": "蕊官围殴赵姨娘是全书最痛快的义气场面之一，而她本可以置身事外——硝是她送的，架是为芳官打的，她却没有一句「我为你」。补位者式的情义：只做，不说。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ruiguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_chunyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ouguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_dou_guan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ruiguan_nun_ch77",
+      "title": "被逐、拒卖——与藕官同入地藏庵",
+      "event_level": "major",
+      "chapter": {
+        "number": 77,
+        "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（后随圆心出城入地藏庵）",
+        "specific": "王夫人清洗大观园，蕊官与芳官、藕官同被指为「狐狸精」逐出。干娘们要领她们出去配人或转卖，蕊官等寻死觅活，誓死不从，情愿出家——蕊官与藕官随地藏庵圆心做了姑子。"
+      },
+      "summary": {
+        "short": "蕊官的结局与藕官绑在一起：被逐、拒卖、同入地藏庵。台上的一对小生小旦，台下终于成了真正的「同门」——她一生都在「补位」，最后补进的是青灯古佛之侧的位置。",
+        "meaning": [
+          "同入地藏庵——蕊官藕官的关系有了最后的落点：不是夫妻，是同门",
+          "「情愿去当姑子」——拒卖的最后手段，戏子的自主以斩情完成",
+          "地藏庵与水月庵分收诸优伶——被逐女儿们的集体归宿"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "补位者的终场",
+          "content": "蕊官的弧线从头到尾是「接续」：接菂官的班、接藕官的情、最后接佛门的衣钵。她的悲剧不在被逐，而在她的一生都是「别人的下半场」——曹雪芹用这个安静的补位者，写尽了大观园里那些从未拥有自己上半场的女儿。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ruiguan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_fangguan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ouguan",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_ruiguan_fangguan",
+      "from": "character_ruiguan",
+      "to": "character_fangguan",
+      "type": "好友（赠硝之谊）",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "蕊官与芳官是戏班姊妹里最暖的一对：芳官害癣，蕊官送蔷薇硝；芳官挨打，蕊官赶来助拳。一包硝是她们情分的信物，也因此搅动了半个大观园——情分与风波，都从这包硝起。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赠硝",
+          "chapter": 60,
+          "description": "蕊官托春燕送蔷薇硝给芳官。"
+        },
+        {
+          "stage": 2,
+          "title": "助拳",
+          "chapter": 60,
+          "description": "蕊官赶来与赵姨娘厮打。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ruiguan_xue_baochai",
+      "from": "character_ruiguan",
+      "to": "character_xue_baochai",
+      "type": "主仆（分派与影身）",
+      "nature": [
+        "master_servant",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "戏班遣散，蕊官分与宝钗——与藕官归黛玉的分派对仗，学界视为「金玉」之线的影身：宝钗之于宝玉，正如蕊官之于藕官，都是「补位续弦」之人。蕊官补菂官（黛玉之影）之缺、归宝钗（续弦者）之房，双重补位指向同一个结局：宝钗终成「续弦」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "分派",
+          "chapter": 58,
+          "description": "蕊官分与宝钗房内使唤。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ruiguan_zhao_yiniang",
+      "from": "character_ruiguan",
+      "to": "character_zhao_yiniang",
+      "type": "冲突（围殴）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "赵姨娘因茉莉粉打芳官，蕊官与藕官等赶来围殴。蕊官与赵姨娘素无恩怨，此战全为姊妹义气——她赠的硝成了这场架的「物证」，而她本人则是这场架的「援军」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "围殴",
+          "chapter": 60,
+          "description": "蕊官与藕官等围住赵姨娘厮打。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_ruiguan_supplement",
+      "title": "蕊官「补菂官之缺」——她是个「替身」吗？",
+      "slug": "is-ruiguan-just-a-substitute",
+      "question_type": "character_analysis",
+      "importance_weight": 68,
+      "heat_weight": 60,
+      "neutral_overview": "蕊官在菂官死后补位，与藕官相恋——她的爱是「补缺」的爱。曹雪芹写这个补位者，是把她当替身写，还是写一种新的情？",
+      "viewpoint_ids": [
+        "vp_ruiguan_shadow",
+        "vp_ruiguan_truth"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_ruiguan_shadow",
+          "title": "影身论：蕊官就是「宝钗续黛玉」的戏台预演",
+          "summary": "蕊官的一切都被「补位」定义：补菂官（黛玉之影）的戏班之缺，接藕官（宝玉之影）的情，最后分与宝钗房中。曹雪芹写她的目的性极强——她与菂官的对称，就是宝钗与黛玉的对称；她的存在预言了主线的结局：宝玉最终「续弦」宝钗，正如藕官最终「补」了蕊官。替身的命运不是她的悲剧，是全书结构需要她当替身。",
+          "evidence": [
+            "第五十八回分派：蕊官归宝钗、藕官归黛玉的精确对仗",
+            "「补了蕊官」与「续弦论」同回并置",
+            "藕—菂—蕊的命名系统与宝黛钗的结构对应"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_ruiguan_truth",
+          "title": "真情论：她不是替身，「续」本身就是情",
+          "summary": "文本明写藕官待蕊官「一般的温柔体贴」——不是将就，是同等的爱。蕊官自己也有独立的品质：赠硝的暖、助拳的烈、出家的决绝。曹雪芹写她恰恰是要反对「替身」之说：情可以续，续出来的也是真。她的分与宝钗与其说是替身谶语，不如说是「静好女子」的归类（宝钗房中正宜她这样的性子）。",
+          "evidence": [
+            "「一般的温柔体贴」——文本明言同等的爱",
+            "蕊官的赠硝、助拳等独立行为线",
+            "「续弦论」本身反对「孤守」与「得新弃旧」两极"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_ruiguan_chain",
+      "title": "一包蔷薇硝如何滚成连环大案？蕊官该为这场风波负责吗？",
+      "slug": "how-did-a-packet-of-powder-start-a-chain-reaction",
+      "question_type": "theme_analysis",
+      "importance_weight": 66,
+      "heat_weight": 64,
+      "neutral_overview": "第六十回蕊官赠芳官蔷薇硝，引出茉莉粉之乱，又连锁滚出第六十一回玫瑰露、茯苓霜的公案。这场由善意引发的风波，曹雪芹想说什么？",
+      "viewpoint_ids": [
+        "vp_ruiguan_innocent",
+        "vp_ruiguan_network"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_ruiguan_innocent",
+          "title": "无心论：最无辜的善意引发最大的风波",
+          "summary": "蕊官赠硝出于纯粹的关怀（芳官害癣），毫无算计——这场风波的每一环放大，都不是她能预见的：芳官的情重、贾环的贪、赵姨娘的蠢、五儿的牵连。曹雪芹以此写「因果的荒诞」：在礼法森严的园子里，善意与恶意同样危险。蕊官的无辜正是这层荒诞的证据——她越无辜，风波越显得无妄。",
+          "evidence": [
+            "赠硝的动机纯为芳官害癣，文本无任何算计描写",
+            "风波每一步都超出蕊官的在场与掌控",
+            "与第五十九回她的「旁观者」身份形成反差"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_ruiguan_network",
+          "title": "网络论：物件的旅行即奴婢世界的结构图",
+          "summary": "硝—粉—露—霜，曹雪芹以「物」写关系网：蕊官（赠者）、春燕（信使）、芳官（受者）、贾环（索者）、赵姨娘（闹者）、五儿（冤者）——一件小物把园中底层串成一张网，每个节点都在用自己的欲望或恐惧放大事件。蕊官不是责任人，但她是「网络的起点」：曹雪芹借此展示大观园底层如何被一张由物、情、恨织成的网互相绞住——谁都无辜，谁都卷在其中。",
+          "evidence": [
+            "蔷薇硝→茉莉粉→玫瑰露→茯苓霜的完整传递链",
+            "每个经手者的取舍都改变了事件走向",
+            "第六十一回五儿蒙冤——最无辜者受害最深"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch59_ruiguan_willow",
+      "quote": "（莺儿、蕊官）二人在柳叶渚边……采了些柳条，编个花篮儿玩。",
+      "fact_type": "canonical_text_fact",
+      "note": "第五十九回。蕊官与莺儿采柳编篮——戏子遣散后难得的闲适时光，随即被婆子闹剧搅散。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_ruiguan_shadow",
+      "title": "蕊官：宝钗之影的「补位」叙事",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 2001,
+      "source_title": "多项人物对照研究",
+      "description": "学界对蕊官的研究多集中于其「影身」功能：藕官—菂官—蕊官三角被普遍读作宝玉—黛玉—宝钗的戏台投影，「补了蕊官」与「续弦论」同回完成，被视作曹雪芹对主线结局（黛玉亡、宝钗续）的结构性预告；第五十八回的分派（藕归黛玉、蕊归宝钗、芳归宝玉）为此说提供文本铁证。亦有论者提醒勿过度影射：蕊官自有其安静、义气的性格弧线，曹雪芹写戏子群像从不只让她们当谶语工具——影身与真人，在十二官身上是叠加的，不是替代的。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 20,
+      "text_inference": 5,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

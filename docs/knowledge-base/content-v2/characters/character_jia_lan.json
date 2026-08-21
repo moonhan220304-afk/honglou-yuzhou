@@ -1,0 +1,770 @@
+{
+  "character": {
+    "id": "character_jia_lan",
+    "name": "贾兰",
+    "slug": "jia-lan",
+    "aliases": [
+      "兰哥"
+    ],
+    "category": "荣国府第五代嫡孙",
+    "importance_level": "minor",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾珠（已故）与李纨之子，贾政王夫人之长房孙，贾母之重孙。",
+      "position": "荣国府二房嫡长孙——贾府第五代唯一的「读书种子」。",
+      "origin": "荣国府正根——「到头谁似一盆兰」的兰，贾府最后的希望。",
+      "generation": "贾府第五代（「草」字辈）——与贾蓉同辈"
+    },
+    "tags": [
+      "兰哥",
+      "读书种子",
+      "李纨之子",
+      "闹学堂",
+      "赏中秋新词",
+      "姽婳词",
+      "中举",
+      "到头谁似一盆兰"
+    ],
+    "summary": {
+      "short": "贾珠与李纨之子，荣府二房嫡长孙。第九回闹学堂时他劝贾菌「不与咱们相干」，第二十二回灯谜会上「老爷没叫我，我不去」——一个早熟、冷峻、只知读书的少年。他是贾府第五代唯一的希望：判词「到头谁似一盆兰」预言他科举得中，后四十回（gaoe）他中第一百三十名举人。",
+      "long": "贾兰是贾府第五代中唯一「有用」的人——他的父亲贾珠（十四岁进学、二十岁亡故）留给他的遗产是一脉读书的血统与一个守寡的母亲。李纨「课子读书」的寡妇生涯全部押在他身上：贾兰五岁已入学攻书（第二回冷子兴语），此后书中每逢他的场景几乎都与读书相关。他的性格有两个标志性瞬间：第九回「顽童闹学堂」，砚瓦横飞、墨雨乱溅，众顽童大打出手，贾菌抄起砚台就要帮忙，贾兰一把按住——「好兄弟，不与咱们相干」——六个字写尽这个少年的冷峻：别人的是非不沾、别人的争斗不参，他只要自己的读书清静。第二十二回灯谜会，贾政见贾兰不在，问起时李纨笑答「他说方才老爷并没去叫他，他不肯来」——这个「不肯来」与宝玉被逼着来形成对照：宝玉是被人推着「应酬」，贾兰是主动「持重」；贾政说「天生的牛心古怪」——这句评语其实是赞。他的才华在第七十五回「赏中秋新词得佳谶」中正面亮相：中秋夜宴作诗，贾政见了他写的诗「喜不自胜」，赏他一把马鞭子（寓意策马前程）；第七十八回「老学士闲征姽婳词」中他作七绝一首，是贾府子弟中难得的「正经笔墨」。他的成长轨迹与宝玉完全相反：宝玉厌举业，他钻举业；宝玉活在大观园的情里，他活在母亲的书房里；宝玉的「不肖」招来父亲的笞挞，贾兰的「用功」换来祖父的奖赏。后四十回（gaoe）兑现判词「到头谁似一盆兰」：第一一九回他与宝玉同场应试，中第一百三十名举人——「兰桂齐芳」的贾府中兴叙事由此展开。但判词的「一盆兰」还有一层寒意：李纨判词末句「也只是虚名儿与后人钦敬」——贾兰的功名是「虚名」，中兴是「空花」。曹雪芹（与续书）对贾兰的态度是复杂的：他是贾府最「正常」的子弟，而「正常」在《红楼梦》的世界里意味着最深的悲剧——一个少年被母亲和礼教改造成了读书机器，他的人情冷暖（闹学堂的「不干己」）全被「读书」二字吞噬。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "早熟——少年老成的冷峻",
+        "fact_type": "canonical_text_fact",
+        "description": "贾兰的性格标签是「冷」与「稳」：闹学堂的「不与咱们相干」、灯谜会的「不肯来」——他的早熟是丧父之痛与寡母教养的双重产物。曹雪芹写他不写童趣写克制：一个孩子活得像个小大人，既是他的悲哀，也是他的资本。"
+      },
+      {
+        "dimension": "专注——读书种子的单一性",
+        "fact_type": "canonical_text_fact",
+        "description": "贾兰的世界几乎只有读书：五岁入学、作诗受赏、中举扬名——他的全部人生都沿着「科举」的单行道前进。与宝玉的「杂学旁收」不同，贾兰的专注是彻底的：没有大观园的情、没有女儿的痴、没有诗社的趣。他活得「干净」，也活得「贫瘠」。"
+      },
+      {
+        "dimension": "孤——丧父之子的孤独",
+        "fact_type": "text_inference",
+        "description": "贾兰的孤是双重的：父亲早亡（他对贾珠只有概念）、母亲寡居（李纨的「槁木死灰」式教育压制了情感表达）。他在贾府的处境像局外人：嫡长孙的名分在，祖母宠爱的热闹无份（宝玉才是焦点）。这种孤独塑造了他的冷峻——他用「不参与」保护自己。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jialan_intro_ch2",
+        "title": "冷子兴演说——五岁入学攻书（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jialan_school_ch9",
+        "title": "闹学堂——「不与咱们相干」（第九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jialan_lantern_ch22",
+        "title": "灯谜会——「老爷没叫我，我不去」（第二十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jialan_midautumn_ch75",
+        "title": "赏中秋新词得佳谶（第七十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_jialan_guihua_ch78",
+        "title": "姽婳词（第七十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_jialan_zhongju_gaoe",
+        "title": "中第一百三十名举人（第一一九回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch09_jialan_school",
+        "quote": "贾菌如何依得，便骂：「好囚攮的们，这不都动了手了么！」骂着，也便抓起砚砖来要打回去。贾兰是个省事的，忙按住砚，极口劝道：「好兄弟，不与咱们相干。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第九回。闹学堂风波中贾兰按砚劝贾菌——「不与咱们相干」六字，是全书对贾兰性格的最精确定格。"
+      },
+      {
+        "source_id": "source_ch22_jialan_lantern",
+        "quote": "贾政因不见贾兰，便问：「怎么不见兰哥？」地下婆娘忙进里间问李氏，李氏起身笑着回道：「他说方才老爷并没去叫他，他不肯来。」婆娘回复了贾政。众人都笑说：「天生的牛心古怪。」贾政忙遣贾环与两个婆娘将贾兰唤来。贾母命他在身旁坐了，抓果品与他吃。大家说笑取乐。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十二回。「老爷没叫我，我不去」——贾兰的自尊与持重，「牛心古怪」是贾政罕见的赞许。"
+      },
+      {
+        "source_id": "source_ch75_jialan_poem",
+        "quote": "贾政……又拿他来（贾兰的诗）瞧了一遍，喜不自胜，对众人道：「这才是我们贾家的正脉！……咱们家里还有两个是能作诗的。」……（贾兰之诗）贾母听毕，忙命贾政传与贾兰看，贾政道：「我看了，我看了，好！好！」说着，令人取了一杆「竹节玉蜻蜓」来，赏与贾兰。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十五回「赏中秋新词得佳谶」。贾兰中秋诗获祖父盛赞「贾家的正脉」——「佳谶」即预言其科举前程。"
+      },
+      {
+        "source_id": "source_ch119_jialan_zhongju",
+        "quote": "（第一百十九回）报喜的来报：宝玉中了第七名举人，贾兰中了第一百三十名举人。……李纨心下欢喜……贾兰道：「母亲放心，儿子自有道理。趁空儿仍旧念念书，明年还要进取功名。」",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe。第一一九回。贾兰中举（第一百三十名）——判词「到头谁似一盆兰」的兑现，「兰桂齐芳」叙事的开端。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名兰，荣国府贾珠李纨之子",
+      "detail": "「兰」——兰花，花中君子，空谷幽香。贾兰之名属贾府第五代「草」字辈（蓉、兰、菌、芹皆从草头）。三重含义：①「兰」是科举功名的标准意象（芝兰玉树、兰桂齐芳）——贾兰是贾府第五代唯一读书成器的「正脉」，判词「到头谁似一盆兰」以兰为喻预言其科第；②「兰」生于幽谷——贾兰的成长环境（寡母书房）正是「幽谷」，他如兰般清冷孤芳，自成一境；③李纨判词中的「兰」与「茂兰」意象——「桃李春风结子完，到头谁似一盆兰」：兰是李纨守寡教子的全部成果，也是她「虚名儿与后人钦敬」的唯一内容。与「草」字辈众人（蓉之浮、菌之莽）相比，唯兰独秀——贾府第五代的名字群中，只有贾兰「名实相符」。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 4,
+          "evidence": "贾珠之妻李纨……幸存一子，取名贾兰，今方五岁",
+          "age": "5岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "5岁（第4回）",
+        "story_end": "约13岁（前八十回末）",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第4回明文五岁。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "兰哥",
+      "type": "府内称呼",
+      "context": "贾府上下对贾兰的通称——「哥」字里的体面，与他的少年老成相配",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "一盆兰",
+      "type": "判词意象",
+      "context": "李纨判词「到头谁似一盆兰」——贾兰是李纨的全部人生成果，「兰」即他",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jialan_intro_ch2",
+      "title": "冷子兴演说——五岁入学攻书",
+      "event_level": "minor",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（转述）",
+        "specific": "冷子兴介绍：贾珠「十四岁进学，不到二十岁就娶了妻生了子，一病死了」——遗子贾兰，如今五岁，已入学攻书。"
+      },
+      "summary": {
+        "short": "贾兰的身世在第二回一笔交代：父贾珠十四岁进学、二十岁亡故，留下五岁即入学的贾兰——读书的血统与丧父的孤独同时注入了这个孩子的生命。",
+        "meaning": [
+          "贾珠的「进学」与早亡——贾兰的前身：读书基因的提供者与「读书伤身」的警示者",
+          "「五岁已入学攻书」——贾府第五代唯一的正规启蒙，李纨课子的起点",
+          "遗腹之孤（父早亡）——贾兰冷峻性格的根源已被埋下"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lan",
+          "role": "被介绍者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "贾珠的阴影——贾兰的「父」",
+          "content": "贾兰从未在书中与父亲同场（贾珠早亡），但贾珠的阴影无处不在：王夫人打宝玉时哭「若有你珠儿在，便死一百个也不管了」——贾珠是贾府「好儿子」的标本，贾兰正是照着这个标本被塑造的。他的读书、持重、冷峻，都是「珠儿模式」的复刻。贾兰活成了父亲的翻版，而父亲的结局（早亡）是否也是他的结局？曹雪芹把这个问题留给了「虚名儿」三个字。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialan_school_ch9",
+      "title": "闹学堂——「好兄弟，不与咱们相干」",
+      "event_level": "major",
+      "chapter": {
+        "number": 9,
+        "title": "恋风流情友入家塾 起嫌疑顽童闹学堂",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府义学",
+        "specific": "学堂大乱，砚瓦横飞。贾菌怒抄砚台要打，贾兰「忙按住砚，极口劝道：『好兄弟，不与咱们相干。』」——混乱中他始终置身事外。"
+      },
+      "summary": {
+        "short": "义学里打成一锅粥，贾兰按住贾菌的砚台：「不与咱们相干。」六个字写尽这个少年的性格：冷静、克制、绝不惹事——他与学堂里所有「闹」的少年形成鲜明对照。",
+        "meaning": [
+          "「不与咱们相干」——贾兰的处世哲学：不卷入、不结怨、不自失",
+          "按砚的动作——他拦住的不只是贾菌，还有「参与是非」的可能",
+          "与宝玉、秦钟、薛蟠们的对照——同是贾府子弟，贾兰是唯一「干净的」"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lan",
+          "role": "劝架者——按住砚台"
+        },
+        {
+          "character_id": "character_jia_jun",
+          "role": "贾菌——要抄砚打架的族弟"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch09_jialan_school",
+          "summary": "贾兰按砚劝贾菌——「不与咱们相干」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「不与咱们相干」——少年老成的双重性",
+          "content": "贾兰的「不与咱们相干」有两面：正面是持重（不参是非、专心学业），反面是冷漠（对同窗受辱无动于衷）。曹雪芹在此处的笔法是中性的——不赞不弹。但把这句放在「闹学堂」的群像里看，贾兰的「冷」就格外刺眼：砚瓦横飞时，这个少年关心的只有「咱们」的干净。他的老成是生存智慧，也是情感萎缩的开始——后来「兰桂齐芳」的中兴，正是靠这种「不干己」的冷酷打下的底子。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialan_lantern_ch22",
+      "title": "灯谜会——「老爷没叫我，我不去」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 22,
+        "title": "听曲文宝玉悟禅机 制灯谜贾政悲谶语",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（灯谜会）",
+        "specific": "元宵灯谜会，贾政见贾兰不在，问起，李纨笑答：「他说方才老爷并没去叫他，他不肯来。」众人都笑他「天生的牛心古怪」。贾政遣人唤来，贾母命其身旁就坐。"
+      },
+      "summary": {
+        "short": "全家猜灯谜，贾兰因「老爷没叫我」就不肯来——一个孩子的自尊倔强与早熟的分寸感。众笑「牛心古怪」，贾政特意命人把他唤来。",
+        "meaning": [
+          "「没叫我，我不去」——贾兰的自我意识：他不愿做「不请自来」的凑趣者",
+          "与宝玉的对照——宝玉是被逼着应酬，贾兰是主动划界：一个厌社交，一个懂分寸",
+          "贾政的唤与贾母的疼——贾兰的「古怪」反而赢得了祖父祖母的看重"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lan",
+          "role": "缺席者——不肯自到"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "李纨——笑述其故"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "贾政——遣人唤来"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch22_jialan_lantern",
+          "summary": "贾兰「不肯来」与贾政的唤——「天生的牛心古怪」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「牛心古怪」——贾政对贾兰的隐性认可",
+          "content": "贾政评贾兰「天生的牛心古怪」——语气里没有斥责，反有赏识：贾兰的「古怪」恰是贾政心中「读书人」的脾气（自尊、持重、不凑趣）。与对宝玉的「畜生」「业障」相比，贾政对贾兰几乎句句含赞——这对祖孙的关系是全书的暗线：贾政在宝玉身上求而不得的「正」，在贾兰身上全部得到。而贾兰也因此在「父权体系」里如鱼得水——他是贾府唯一让所有长辈满意的孩子。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialan_midautumn_ch75",
+      "title": "赏中秋新词得佳谶——「这才是我们贾家的正脉」",
+      "event_level": "major",
+      "chapter": {
+        "number": 75,
+        "title": "开夜宴异兆发悲音 赏中秋新词得佳谶",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（凸碧山庄中秋夜宴）",
+        "specific": "中秋夜宴，贾政命宝玉、贾环、贾兰作诗。贾政看了贾兰的诗「喜不自胜」：「这才是我们贾家的正脉！」贾母忙命人取赏，贾政赏他「竹节玉蜻蜓」（后文又赏马鞭，寓意策马前程）。"
+      },
+      "summary": {
+        "short": "中秋夜，贾兰的诗让贾政「喜不自胜」——「这才是我们贾家的正脉」。回目「赏中秋新词得佳谶」：贾兰的「新词」是全书最亮的一则佳谶——贾府第五代的功名预兆。",
+        "meaning": [
+          "「贾家的正脉」——贾政的评语是全书对贾兰的最高认证：读书种子、科甲正途",
+          "赏马鞭——长辈对「策马前程」的期许：贾兰的路已被全族预订",
+          "「佳谶」与「悲音」的同回并置——宁府墙下叹息与荣府新词得赏，贾府的两种未来在同一个中秋"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lan",
+          "role": "作诗者——获祖父盛赞"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "贾政——「喜不自胜」"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch75_jialan_poem",
+          "summary": "贾政评贾兰「贾家的正脉」，赏马鞭——「佳谶」的兑现者。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「佳谶」——回目中的希望与反讽",
+          "content": "回目「赏中秋新词得佳谶」的「佳谶」指贾兰之诗的功名预兆，但这一联的回目还有下句「开夜宴异兆发悲音」——宁府的「悲音」与荣府的「佳谶」并置：贾府同一个月亮下，一半在衰亡、一半在抽芽。而「佳谶」本身的成色也值得玩味：李纨判词说兰之发达「也只是虚名儿与后人钦敬」——所谓佳谶，谶的是一场空花的功名。"
+        },
+        {
+          "type": "hongxue",
+          "title": "贾兰与贾环——贾政「评子」的两极",
+          "content": "中秋作诗的三人（宝玉、贾环、贾兰）构成贾政「评子」的完整光谱：宝玉之诗他「不悦」（偏才）、贾环之诗他「亦不乐」（邪才）、唯贾兰之诗他「喜不自胜」（正才）。这场评诗的结论是全书对贾府第五代的判决：真正的继承人在孙辈——贾兰的「正脉」地位由此确立。脂批与学者多指出，「兰桂齐芳」的中兴叙事从这里就已起笔。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialan_guihua_ch78",
+      "title": "姽婳词——贾兰的七绝",
+      "event_level": "minor",
+      "chapter": {
+        "number": 78,
+        "title": "老学士闲征姽婳词 痴公子杜撰芙蓉诔",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（贾政书房）",
+        "specific": "贾政以「姽婳将军林四娘」为题命宝玉、贾环、贾兰作词。贾兰先交七绝一首（咏姽婳将军的忠义），贾环次之，宝玉最后作长篇歌行。三人之作俱呈，贾政阅后各有评语。"
+      },
+      "summary": {
+        "short": "贾兰以七绝一首参与「姽婳词」的命题作业——他的诗规整得体，是贾府子弟中标准的「应试笔法」。与宝玉的长篇歌行（情感的勃发）相比，贾兰的诗是「技」，宝玉的诗是「情」。",
+        "meaning": [
+          "贾兰之诗「稳」——他的文学与人生同一风格：不出格、不逾矩",
+          "三人的诗风对照——贾兰（规范）、贾环（凡庸）、宝玉（才情）——贾府第五代与第四代的文学光谱",
+          "贾政命题「姽婳将军」——以忠义之题为子弟立范，贾兰是唯一的「合题者」"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lan",
+          "role": "作诗者——七绝"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "贾政——命题评诗"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "贾兰之诗与宝玉之诔——同一回的两种文学",
+          "content": "第七十八回并置两种文学：贾兰们的《姽婳词》（为「忠义」唱赞歌的应试之作）与宝玉的《芙蓉女儿诔》（为「女儿」招魂的祭文）——一个歌颂君主的价值，一个哀悼被毁的美。贾兰的文学是「父辈的文学」（礼教、忠义、规范），宝玉的文学是「自己的文学」（性灵、悲情、越界）。曹雪芹在同一回中展示这两条文学（人生）路线，为贾府第五代与第四代的「正」与「情」之争做了文学化的预演。"
+        }
+      ]
+    },
+    {
+      "id": "event_jialan_zhongju_gaoe",
+      "title": "中第一百三十名举人——「一盆兰」的兑现",
+      "event_level": "major",
+      "chapter": {
+        "number": 119,
+        "title": "中乡魁宝玉却尘缘 沐皇恩贾家延世泽",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "京中（放榜）",
+        "specific": "后四十回（gaoe）写贾兰与宝玉同场应试：宝玉中第七名举人（随后出家），贾兰中第一百三十名举人。李纨「心下欢喜」，贾兰道「母亲放心……明年还要进取功名」。判词「到头谁似一盆兰」兑现，「兰桂齐芳」的中兴叙事由此铺开。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写贾兰中第一百三十名举人——判词「到头谁似一盆兰」正式兑现。贾府抄家后的废墟上，贾兰的功名成为「中兴」的第一块砖。",
+        "meaning": [
+          "「到头谁似一盆兰」——李纨判词的预言成真：贾府最终的指望是这一盆兰",
+          "宝玉中举即出家与贾兰中举即进取的对照——「虚名」的两种用法：宝玉弃之，贾兰取之",
+          "「兰桂齐芳」——gaoe的中兴叙事：贾兰（兰）与宝玉之子（桂）共撑贾府残局"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_lan",
+          "role": "中举者——第一百三十名"
+        },
+        {
+          "character_id": "character_li_wan",
+          "role": "李纨——「心下欢喜」"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch119_jialan_zhongju",
+          "summary": "贾兰中举，「明年还要进取功名」——判词兑现。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「兰桂齐芳」——续书中兴叙事的评价",
+          "content": "贾兰中举（gaoe）落实了判词「到头谁似一盆兰」，也启动了「兰桂齐芳」的中兴叙事。学界对此评价不一：肯定者认为它忠实于判词（兰之发达是李纨判词的既定内容）；批评者指出「虚名儿与后人钦敬」的判词本意是「功名之虚」——曹雪芹原稿中贾兰之发达当是「徒留虚名」的冷峻结局，而非gaoe「沐皇恩延世泽」的温吞中兴。无论如何，贾兰中举是全书「希望叙事」的最后一笔：贾府之败后，只有读书（贾兰的路）能重建这个家族。"
+        },
+        {
+          "type": "character",
+          "title": "读书机器的胜利——贾兰的完成与代价",
+          "content": "贾兰的一生是「读书机器」的完整运行史：五岁入学、少年持重、中秋获赏、考场得中——每一步都精准高效。他的胜利也是他的代价：闹学堂的「不与咱们相干」、灯谜会的「不肯来」、中举后的「仍旧念念书」——这个少年从未真正活过，只被「读书」活着。判词说他带给母亲的也只是「虚名儿与后人钦敬」——贾兰的功名救不了贾府（大观园已毁），只给了一个寡妇晚年的体面。曹雪芹对「正脉」的最后判决，藏在这「虚名」二字里。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jialan_li_wan",
+      "from": "character_jia_lan",
+      "to": "character_li_wan",
+      "type": "母子（课子与成才）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾兰与李纨是全书最典型的「孤儿寡母」结构：李纨把守寡的全部意义押在「课子」上，贾兰则活成了母亲的「作品」。这对母子的关系几乎不含温情（书中无母子亲密场景），只有「教学」——李纨是老师，贾兰是学生，读书是他们之间唯一的语言。贾兰的成才就是李纨的胜利，也是这对母子的共同代价。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "课子读书",
+          "chapter": 2,
+          "description": "贾兰五岁入学，李纨的寡妇生涯从此押注。"
+        },
+        {
+          "stage": 1,
+          "title": "抚孤",
+          "chapter": 4,
+          "description": "李纨「唯知侍亲养子」——守寡的日常就是教养贾兰。"
+        },
+        {
+          "stage": 2,
+          "title": "中举报母",
+          "chapter": 119,
+          "description": "贾兰中举，李纨「心下欢喜」。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        },
+        {
+          "stage": 2,
+          "title": "教子",
+          "chapter": 26,
+          "description": "贾兰射鹿练武（第二十六回）——李纨对他文武兼修的教育。"
+        },
+        {
+          "stage": 3,
+          "title": "中举",
+          "chapter": 119,
+          "description": "贾兰中举，「兰桂齐芳」。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jialan_jia_zheng",
+      "from": "character_jia_lan",
+      "to": "character_jia_zheng",
+      "type": "祖孙（正脉之望）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾政对贾兰是全书最温暖的「父辈认可」：「天生的牛心古怪」的评语里是赏识，「这才是我们贾家的正脉」的赞叹里是希望。贾兰则完全符合贾政的期待——读书、作诗、应举，样样「正」。这对祖孙是贾政「教子梦」的唯一成功案例：他在儿子（宝玉）身上失败的一切，在孙子身上全部实现。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "唤入灯谜会",
+          "chapter": 22,
+          "description": "贾政闻贾兰「不肯来」，遣人唤来。"
+        },
+        {
+          "stage": 2,
+          "title": "赞为正脉",
+          "chapter": 75,
+          "description": "中秋评诗，贾政盛赞「贾家的正脉」。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jialan_jia_baoyu",
+      "from": "character_jia_lan",
+      "to": "character_jia_baoyu",
+      "type": "叔侄（两条路的对照）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "贾兰与宝玉（叔叔）构成贾府两代「读书观」的对照：宝玉厌举业、贾兰钻举业；宝玉在大观园的情里，贾兰在李纨的书房里；宝玉「不成器」被笞挞，贾兰「正脉」被赞赏。而结局的反讽在于：两个人都中了举（gaoe）——宝玉中举后出家，贾兰中举后进取。贾兰是宝玉「如果从了正路」的可能版本，他的存在让宝玉的选择更显决绝。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "同场作诗",
+          "chapter": 78,
+          "description": "姽婳词——叔侄的文学对照。"
+        },
+        {
+          "stage": 2,
+          "title": "同场中举",
+          "chapter": 119,
+          "description": "宝玉中第七名出家，贾兰中第一百三十名进取。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jialan_jia_jun",
+      "from": "character_jia_lan",
+      "to": "character_jia_jun",
+      "type": "族兄弟（沉稳与莽撞）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾菌是贾兰的族弟（第五回「贾菌」系荣府近派重孙），性格莽撞——闹学堂时抄砚要打，贾兰按砚劝住。这对兄弟是「草」字辈的一冷一热：菌之莽与兰之稳互为映照。贾兰的「不与咱们相干」恰好约束了贾菌的「好囚攮的们」——这对小兄弟的互动，是贾府第五代内部「沉与浮」的缩影。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "按砚劝弟",
+          "chapter": 9,
+          "description": "闹学堂中贾兰按住贾菌的砚台。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jialan_jia_zhu",
+      "from": "character_jia_lan",
+      "to": "character_jia_zhu",
+      "type": "父子（亡父的标本）",
+      "nature": [
+        "family"
+      ],
+      "direction": "one_way",
+      "fact_type": "text_inference",
+      "summary": "贾珠是贾兰从未谋面的父亲，却是他的人生标本：十四岁进学的「神童」、二十岁亡故的「短命人」。贾兰的全部「正」都是在复刻父亲——读书、进学、举业。这对父子的关系是全书最深的「隔代遗传」：父亲以死亡缺席，却以「榜样」统治了儿子的一生。王夫人哭珠儿的场景，是贾兰「父亲价值」的最强注脚：他必须成为珠儿，才能补上母亲的痛。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "遗腹之孤",
+          "chapter": 2,
+          "description": "贾珠早亡，贾兰五岁入学——复刻父亲的开始。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_jialan_guihua",
+      "title": "姽婳词（七绝）",
+      "work_type": "七绝",
+      "chapter_number": 78,
+      "fact_type": "canonical_text_fact",
+      "summary": "贾兰咏姽婳将军林四娘之七绝（「姽婳将军林四娘，玉为肌骨铁为肠……」），咏其忠义捐躯。",
+      "symbolic_notes": "贾兰之诗规范、得体、合题——标准的应试笔法。与宝玉长篇歌行的才情勃发、贾环诗的平庸相比，贾兰的诗是「父辈文学」的标准件：他将在这种文学（人生）轨道上走完一生。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_jialan_character",
+      "title": "贾兰为什么「冷」？他的性格是天生还是被塑造的？",
+      "slug": "why-is-jialan-cold",
+      "question_type": "character_formation",
+      "importance_weight": 74,
+      "heat_weight": 62,
+      "neutral_overview": "「不与咱们相干」「老爷没叫我，我不去」——贾兰的少年老成远超年龄。这份「冷」从何而来？",
+      "viewpoint_ids": [
+        "vp_jialan_cold_family",
+        "vp_jialan_cold_liwan",
+        "vp_jialan_cold_self"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jialan_cold_family",
+          "title": "环境论：丧父失宠的处境逼出了冷峻",
+          "summary": "贾兰的冷是处境的产物：父亲早亡（无父可依）、祖母宠孙不宠重孙（焦点是宝玉）、母亲寡居（家庭地位边缘）——他在贾府是「名义上的嫡长孙，实际上的局外人」。这种边缘处境教给他的生存智慧就是「不参与」：不争宠（争不过宝玉）、不惹事（惹不起是非）、不出头（没有后盾）。冷峻是他的铠甲。",
+          "evidence": [
+            "贾兰在贾府的边缘地位",
+            "「不与咱们相干」的自我保护逻辑"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialan_cold_liwan",
+          "title": "母教论：李纨的「槁木死灰」式教育",
+          "summary": "贾兰的冷是李纨教育的结果：李纨守寡后「槁木死灰」，把全部人生压缩成「课子」——她教贾兰的只有读书，没有情感；只有规矩，没有温度。一个在「教学关系」中长大的孩子，自然长成一台冷静的学习机器。贾兰之冷，冷的是李纨守寡岁月里的全部心冷。",
+          "evidence": [
+            "李纨「槁木死灰」的性格定评",
+            "母子关系中「教学」替代「温情」的事实"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialan_cold_self",
+          "title": "天性论：他本身就是「兰」——孤芳自赏",
+          "summary": "第三种解释指向天性：贾兰名「兰」，兰生于幽谷、孤芳自赏——他的冷峻与孤高是「兰」的本性。贾政评「天生的牛心古怪」用了「天生」二字——曹雪芹借贾政之口承认：贾兰的脾气里有天生的成分。他不是被冻僵的石头，是长在阴处的兰：天生就冷，教育只是把冷变成了优势。",
+          "evidence": [
+            "贾政「天生的牛心古怪」之评",
+            "「兰」的意象与人物气质的对应"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jialan_hope",
+      "title": "贾兰是贾府「中兴」的希望，还是「虚名」的讽刺？",
+      "slug": "is-jialan-hope-or-illusion",
+      "question_type": "character_significance",
+      "importance_weight": 78,
+      "heat_weight": 66,
+      "neutral_overview": "判词「到头谁似一盆兰」预言贾兰功名有成；gaoe写他中举，「兰桂齐芳」。贾兰的发达是贾府的希望还是悲剧的延续？",
+      "viewpoint_ids": [
+        "vp_jialan_hope",
+        "vp_jialan_hope_void",
+        "vp_jialan_hope_both"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_jialan_hope",
+          "title": "希望论：读书种子是贾府唯一的正路",
+          "summary": "在贾府的荒原上，贾兰是唯一「有用的」：他读书、进学、中举，走的是一条可以重建家族的正路。贾政「这才是我们贾家的正脉」的赞叹，代表了曹雪芹对「读书种子」的基本肯定——贾府之败因不读书（贾赦语），贾府之兴必靠读书（贾兰证）。gaoe「兰桂齐芳」的中兴叙事，正是对这条正路的收束。",
+          "evidence": [
+            "贾政「正脉」之评",
+            "gaoe中举与「兰桂齐芳」的兑现",
+            "判词「到头谁似一盆兰」的肯定语气"
+          ],
+          "fact_type": "scholarly_viewpoint",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_jialan_hope_void",
+          "title": "虚名论：功名救不了贾府，只成就「虚名」",
+          "summary": "李纨判词的关键在末句：「也只是虚名儿与后人钦敬」——曹雪芹预告的贾兰之发达，本质是「虚名」：功名再高，大观园已毁、女儿已散、贾府已败——一盆兰救不了满园春色。gaoe的「沐皇恩延世泽」把「虚名」写成了「实利」（中兴），反而背离了判词的寒意：曹雪芹原意中贾兰的成功更可能是一场「迟到的、无用的、仅供钦敬的」成功。",
+          "evidence": [
+            "「虚名儿与后人钦敬」的判词",
+            "判词的寒意与gaoe中兴叙事的温差"
+          ],
+          "fact_type": "scholarly_viewpoint",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_jialan_hope_both",
+          "title": "辩证论：希望与虚名并存——曹雪芹的双重判决",
+          "summary": "最完整的读法是辩证的：贾兰既是希望（贾府需要他中举以存续）又是虚名（中举改变不了贾府之败的实质）——曹雪芹的深意正在这双重性里：读书（贾兰的路）能救个人（功名），救不了家族（衰亡）；能得「后人钦敬」（虚名），得不了「千红一窟」的挽回（实在）。贾兰的「兰」是废墟上开的花：真花，却开在坟场。",
+          "evidence": [
+            "判词「虚名」与「一盆兰」的并置",
+            "贾兰中举与贾府衰亡的同构",
+            "「兰桂齐芳」的温吞与判词的寒意的调和可能"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_jialan_baoyu",
+      "title": "贾兰与宝玉：谁才是贾府真正的「正脉」？",
+      "slug": "jialan-vs-baoyu",
+      "question_type": "comparative_analysis",
+      "importance_weight": 72,
+      "heat_weight": 64,
+      "neutral_overview": "贾政说贾兰是「贾家的正脉」，却把宝玉当「逆子」。按曹雪芹的价值体系，这对叔侄谁才是「正」？",
+      "viewpoint_ids": [
+        "vp_jialan_baoyu_jiazheng",
+        "vp_jialan_baoyu_cao"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jialan_baoyu_jiazheng",
+          "title": "贾政尺度：贾兰是唯一的「正脉」",
+          "summary": "按贾政（儒家正统）的尺度，答案明确：贾兰是正脉——他读书、进学、应举、持重，全部符合「正」的标准；宝玉则是「逆子」（不读书、不守礼、爱痴情）。贾兰的存在使贾政的价值观有了立足点：贾府还有人在走正路。在这个尺度内，宝玉的灵性一文不值。",
+          "evidence": [
+            "贾政「正脉」之评与「笞挞」之怒的对照",
+            "贾兰行为的规范性"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jialan_baoyu_cao",
+          "title": "曹雪芹尺度：宝玉才是「正脉」，贾兰是「复制品」",
+          "summary": "按曹雪芹的价值观，结论反转：宝玉是正脉——他代表「情」（全书的核心价值），他的「不肖」恰是对浊世的正；贾兰只是贾珠的复制品、科举的产物——他的「正」是「不正之正」（礼教之正、虚名之正）。曹雪芹借判词「虚名儿」与宝玉的「悬崖撒手」，悄悄完成了价值翻转：中举的贾兰留在凡间攒虚名，出家的宝玉飘然远去成神仙——谁「正」，一目了然。",
+          "evidence": [
+            "全书对「情」的价值倾斜",
+            "宝玉出家与贾兰中举的结局对照",
+            "「虚名」判词的贬义"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jialan_seed",
+      "title": "贾兰——「读书种子」的完成与代价",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1990,
+      "source_title": "多项人物研究",
+      "description": "学者将贾兰视为「读书种子」叙事的完整样本：五岁入学、少年持重、中秋获赏、考场得中——他的成长是科举制度下「模范少年」的标准曲线。而曹雪芹的深刻在于同时写出这条曲线的代价：贾兰的每一次「正」（不干己、不肯来、只读书）都是一次情感的退场——他成了贾府最「有用」的人，也成了最「无趣」的人。有论者称贾兰为「被读书吃掉的孩子」：功名的种子，情感的荒原。"
+    },
+    {
+      "id": "viewpoint_jialan_zhongxing",
+      "title": "贾兰与「兰桂齐芳」——中兴叙事的双重性",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学版本研究",
+      "year": 1994,
+      "source_title": "版本与结局研究",
+      "description": "版本学者指出，「兰桂齐芳」的中兴叙事在脂批系统中已有踪迹（「兰桂」对举的批语），说明贾兰的发达是曹雪芹原意的一部分；但原意中的发达与gaoe的「沐皇恩延世泽」在色调上不同：脂批语境里的贾兰发达更像「废墟上的孤兰」（李纨判词的「虚名儿」），gaoe则写成温吞的家族中兴。贾兰结局的研究，因此成为「曹雪芹原稿后三十回」探佚的重要观测点之一。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 5,
+    "total_poems": 1,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 4,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 24,
+      "text_inference": 15,
+      "scholarly_viewpoint": 6,
+      "disputed_version": 5,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 5
+  }
+}

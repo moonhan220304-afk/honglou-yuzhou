@@ -1,0 +1,1230 @@
+{
+  "character": {
+    "id": "character_xiangling",
+    "name": "香菱",
+    "slug": "xiang-ling",
+    "aliases": [
+      "甄英莲",
+      "秋菱",
+      "甄家小姐"
+    ],
+    "category": "薄命司副册之首（薛蟠之妾）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "姑苏甄士隐独生女，本名甄英莲。三岁元宵被拐，历经拐子、冯渊、薛蟠三家争夺，终为薛蟠之妾。",
+      "position": "甄士隐独女→被拐女童→拐子私养之女→冯渊未成之妾→薛蟠之妾→夏金桂之婢（改名秋菱）。",
+      "origin": "姑苏阊门外十里街仁清巷甄家——全书第一个出场的「女儿」，薄命司副册之首。",
+      "generation": "甄家第二代独女；入薛家后为薛蟠妾室，与黛玉、宝钗同辈"
+    },
+    "tags": [
+      "副册之首",
+      "真应怜",
+      "元宵被拐",
+      "慕雅女",
+      "香菱学诗",
+      "夫妻蕙",
+      "石榴裙",
+      "改名秋菱",
+      "有命无运",
+      "香魂返故乡"
+    ],
+    "summary": {
+      "short": "甄士隐之女甄英莲（真应怜），三岁元宵被拐，历经冯渊案落入薛蟠之手，薛宝钗为其改名香菱。她是薄命司副册之首、大观园最痴的学诗人——「根并荷花一茎香」却「平生遭际实堪伤」，八十回被夏金桂改名秋菱，后四十回（gaoe）难产而死。",
+      "long": "香菱是《红楼梦》第一个出场的女儿，也是全书命运象征最完整的人物：她的人生由三个名字串起——甄英莲（真应怜）、香菱（相怜）、秋菱（秋零）。她是甄士隐的独生女，三岁那年的元宵节被家仆霍启（祸起）抱去看社火花灯时弄丢，从此落入拐子之手。拐子养她到十二三岁，先是卖与乡绅之子冯渊（逢冤）——冯渊本是酷爱男风之人，见英莲却立意买来作妾、不再娶第二个，「三日后方过门」——偏偏拐子又将她偷卖给薛蟠，两家争夺，薛蟠命豪奴将冯渊活活打死，英莲被生拖死拽拖入薛家。这个「葫芦案」成为贾雨村第4回乱判的由头：英莲的恩人之女身份被门子点破，贾雨村仍将她判给薛家。入薛家后宝钗为她取名香菱。第七回周瑞家的送宫花时见到她，问家乡父母，她「都摇头说不记得了」——一个连自己是谁都说不清的孤女。但她的天性未泯：第四十八回薛蟠出远门，香菱随宝钗住进大观园，慕雅集痴心学诗——拜黛玉为师，苦吟三月，梦中得句「精华欲掩料应难」，三首咏月诗一次比一次好，被众人评「天下无难事，只怕有心人」。第六十二回斗草时她拿出「夫妻蕙」被荳官取笑「你汉子去了大半年，你想夫妻了？」——天真到不知避讳；石榴裙弄脏后宝玉为她换上袭人的裙，二人结下「同心」情谊。第七十九回薛蟠娶夏金桂，香菱还痴心以为「又添一个作诗的人了」；金桂进门即设局陷害，先借宝蟾之名离间，再以纸人诅咒之罪栽赃，逼香菱到薛姨妈跟前「立个纸人，又不知得罪了我」，最后强制将其改名为秋菱——「菱角菱花皆盛于秋」，而秋天正是菱的绝期。前八十回中她已「酿成干血之症」。后四十回（gaoe）写她受尽折磨后死于难产，甄士隐向贾雨村点明「香菱归册」。脂批叹她「生不遇时，遇又非偶」——生逢末世、所遇非人的双重不幸。判词曰「根并荷花一茎香，平生遭际实堪伤。自从两地生孤木，致使香魂返故乡」——「两地生孤木」合成「桂」字，指明她死于夏金桂之手。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "天真——被拐子打怕的懵懂孤女",
+        "fact_type": "canonical_text_fact",
+        "description": "香菱的精神底色是「不记事」：问家乡不记得、问父母不记得、问年纪不记得——三岁被拐后她在打骂中长大，唯一的生存策略是遗忘与顺从。但她的「不记事」并非麻木：第四十八回学诗时她自叹「我原不配谈这个」，随后痴性发作，证明天分与灵性只是被压抑而非被毁。"
+      },
+      {
+        "dimension": "痴——学诗与「呆香菱」的定评",
+        "fact_type": "canonical_text_fact",
+        "description": "回目称她「呆香菱」：这个「呆」是全书评价体系中的褒词——与宝玉之痴同构。她学诗「茶饭无心，坐卧不定」，梦里得句；她斗草拿出「夫妻蕙」遭讥而不知羞；薛蟠娶亲她只想到「又添一个作诗的人」。她的呆是未被世俗染污的天真，是大观园少女中最纯粹的一种。"
+      },
+      {
+        "dimension": "坚韧——苦难中的自我救赎",
+        "fact_type": "text_inference",
+        "description": "香菱是被拐女童、被抢的妾、被骂的丫头，但她从未真正沉沦：学诗是她主动抓住的唯一一次精神自救——「我不过是心里羡慕，才学着顽罢了」这句谦卑的话背后，是一个毫无权利的人对美的主动追求。她用诗重建了一个属于自己的世界。"
+      },
+      {
+        "dimension": "认命——从英莲到香菱到秋菱的自我消解",
+        "fact_type": "text_inference",
+        "description": "香菱对命运的态度是惊人的「认」：冯渊为她痴心，她只叹「我今日罪孽可满了」；夏金桂毒害她，她反自责「这也是我罪有应得」。这种认命不是懦弱，而是她被拐子「打怕了」之后形成的生存哲学——一个没有任何依靠的人，只能靠不反抗来活命。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_xiangling_abducted_ch1",
+        "title": "元宵被拐——霍启抱英莲看灯（第一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_xiangling_monk_ch1",
+        "title": "一僧一道点「有命无运」（第一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_fengyuan_case_ch4",
+        "title": "葫芦案——冯渊逢冤、薛蟠夺人（第四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_xiangling_gonghua_ch7",
+        "title": "周瑞家的送宫花见香菱（第七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_xiangling_learn_poetry_ch48",
+        "title": "慕雅女雅集苦吟诗（第四十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_xiangling_doucao_ch62",
+        "title": "斗草夫妻蕙·情解石榴裙（第六十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_xiangling_jingui_ch79",
+        "title": "薛蟠娶夏金桂——香菱的痴心错付（第七十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 8,
+        "event_id": "event_xiangling_qiuling_ch80",
+        "title": "受虐改名秋菱（第八十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 9,
+        "event_id": "event_xiangling_death_gaoe",
+        "title": "难产而死、香魂返故乡（后四十回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch01_yinglian_monk",
+        "quote": "那僧（跛足道人）便大哭起来，又向士隐道：「施主，你把这有命无运、累及爹娘之物，抱在怀内作甚？」……士隐知是疯话，也不去睬他。那僧还说：「舍我罢，舍我罢！」……士隐意欲再问，那僧道：「惯养娇生笑你痴，菱花空对雪澌澌。好防佳节元宵后，便是烟消火灭时。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第一回。英莲命运的第一次谶语预告：「有命无运」四字是她一生的总纲；「菱花空对雪澌澌」——菱（香菱）对雪（薛蟠），命中注定。"
+      },
+      {
+        "source_id": "source_ch01_yinglian_lost",
+        "quote": "士隐命家人霍启抱了英莲去看社火花灯，半夜中，霍启因要小解，便将英莲放在一家门槛上坐着。待他小解完了来抱时，那有英莲的踪影？……急得霍启直寻了半夜。至天明不见，那霍启也不敢回来见主人，便逃往他乡去了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第一回。「霍启」谐「祸起」——元宵社火花灯之夜，甄家的祸事与甄英莲的悲剧同时开场。"
+      },
+      {
+        "source_id": "source_ch04_fengyuan_case",
+        "quote": "门子道：「这一种拐子单管偷拐五六岁的儿女，养在一个僻静之处，到十一二岁，度其容貌，带至他乡转卖。……这个被打之死鬼，乃是本地一个小乡绅之子，名唤冯渊，自幼父母早亡，又无兄弟，只他一个人守着些薄产过日子。……他又说我今日罪孽可满了，后又听见冯公子令三日之后过门，他倒有叹息之意，反伤心落泪。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四回门子补叙英莲被拐后的经历。冯渊（逢冤）立意买她作妾且不再娶第二个——她一生中唯一一次可能的好归宿，被薛蟠的豪奴打死。"
+      },
+      {
+        "source_id": "source_ch07_xiangling_rong",
+        "quote": "周瑞家的问他（香菱）几岁投身到这里，又问：「你父母今在何处？今年十几岁了？本处是那里人？」香菱听问，都摇头说：「不记得了。」……金钏儿道：「你们瞧！倒好个模样儿，竟有些像咱们东府里蓉大奶奶的品格儿。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回。香菱「不记得」三字写尽被拐孤女的失忆人生；周瑞家的之语点出她与秦可卿（蓉大奶奶）的品貌相似——同为副册薄命女的镜像。"
+      },
+      {
+        "source_id": "source_ch48_xiangling_poetry",
+        "quote": "香菱笑道：「我不过是心里羡慕，才学着顽罢了。……既这样，好姑娘，你就把这书给我拿出来，我带回去夜里念几首也是好的。」……众人因问黛玉作的如何。黛玉道：「自然算难为他了，只是还不好。这一首过于穿凿了，还得另作。」……香菱自为这首妙绝，……只得罢手，忽于梦中得了八句，遂连忙写来递与黛玉……「精华欲掩料应难，影自娟娟魄自寒。……」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十八回「慕雅女雅集苦吟诗」。香菱拜黛玉为师学诗——大观园诗社之外的孤学诗人，苦吟到梦中得句。"
+      },
+      {
+        "source_id": "source_ch62_xiangling_fuqihui",
+        "quote": "香菱便说：「我有夫妻蕙。」荳官没的说了，便起身笑道：「依你说，若是这两枝一大一小，就是老子儿子蕙了。若两枝背面开的，就是仇人蕙了。你汉子去了大半年，你想夫妻了？便扯上蕙也有夫妻，好不害羞！」……（宝玉）见他穿着那件石榴裙弄脏了，便道：「你且站着别动，我替你寻一件来换上。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十二回「呆香菱情解石榴裙」。斗草之语暗藏她与薛蟠的夫妻名分；宝玉为她换裙，是香菱与宝玉之间最纯的一次同心相惜。"
+      },
+      {
+        "source_id": "source_ch80_qiuling",
+        "quote": "金桂笑道：「菱角菱花皆盛于秋，比菱角菱花虽不为珍贵，却是有品儿的。……那时菱角开的清雅，就叫秋菱罢。」……香菱无奈，只得依他改换了名字。",
+        "fact_type": "canonical_text_fact",
+        "note": "第八十回。夏金桂改名秋菱——「菱」遇「秋」即死期，从英莲到香菱再到秋菱，名字三部曲的最后一笔由迫害者亲手写下。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "本名甄英莲（甄士隐所起），薛家改名香菱（宝钗所起），夏金桂改名秋菱",
+      "detail": "名字三部曲即命运三部曲：①甄英莲——脂批点明「真应怜」，甄＝真，英莲＝应怜，生来就是「应被怜惜」之人，其名暗伏全书「万艳同悲」主题；②香菱——「香」承「荷花一茎香」之香，「莲」降格为「菱」（莲花是水芙蓉，菱角是寻常水草，莲→菱是身份的没落），且「香菱」谐「相怜」，她与同病相怜者（宝玉、黛玉）精神相通；③秋菱——夏金桂所改，「菱」盛于夏而绝于秋，秋菱＝不长久，改名之日即死期暗定。脂批于第一回即谶「菱花空对雪澌澌」——菱（香菱）空对雪（薛蟠），注定无依。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "title": "「英莲」谐音「应怜」的批语版本差异",
+          "content": "「真应怜」之解见于脂批系统，不同抄本批语文字略有出入；通行本读者多从判词与情节推得此义。",
+          "proponent": "脂评本系统 / 程高本系统"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 1,
+          "evidence": "只有一女，乳名英莲，年方三岁（元宵被拐）",
+          "age": "3岁被拐"
+        },
+        {
+          "chapter": 4,
+          "evidence": "被拐后十二三岁被卖（门子叙述语境）",
+          "age": "约12-13岁"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "3岁（第1回）",
+        "story_end": "约19-20岁（前八十回末）",
+        "death_age": "未见明文（后40回gaoe写难产而死）"
+      },
+      "conclusion": "第1回三岁被拐、第4回约十二三岁被卖为两个锚点；比宝钗略小。",
+      "controversies": [],
+      "fact_type": "canonical_text_fact"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "甄英莲",
+      "type": "本名",
+      "context": "甄士隐之女的本名，「真应怜」——她的一生就是「应怜」二字的展开",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "香菱",
+      "type": "薛家所起之名",
+      "context": "入薛家后宝钗所起。「香菱」谐「相怜」，且以菱代莲——由花降为草，身份的没落",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "秋菱",
+      "type": "夏金桂所改之名",
+      "context": "第八十回夏金桂以「菱角菱花皆盛于秋」为辞强改其名——秋天是菱的死期，「秋菱」即「秋零」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "呆香菱",
+      "type": "回目称号",
+      "context": "第六十二回回目「呆香菱情解石榴裙」——「呆」是曹雪芹对香菱天真的定评，与宝玉之「痴」同义",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_xiangling_abducted_ch1",
+      "title": "元宵被拐——霍启抱英莲看灯",
+      "event_level": "major",
+      "chapter": {
+        "number": 1,
+        "title": "甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "姑苏阊门（社火花灯市上）",
+        "specific": "甄士隐命家人霍启抱英莲去看社火花灯。霍启小解时将英莲放在门槛上，回来时英莲已被拐子抱走。霍启寻至天明不见，不敢回见主人，逃往他乡。"
+      },
+      "summary": {
+        "short": "三岁的甄英莲在元宵夜被家仆霍启带出看灯，霍启一泡尿的工夫，英莲被拐子抱走。甄家的女儿失踪、仆人逃亡——这是甄家败落的第一击，也是全书第一个女儿悲剧的开场。",
+        "meaning": [
+          "「霍启」谐「祸起」——元宵（好节）之夜恰是祸事之始，与「好防佳节元宵后」的谶语严丝合缝",
+          "英莲被拐是「千红一哭」的第一声——全书第一个出场的女儿第一个坠入深渊",
+          "一个家仆的一时疏忽毁掉一个千金小姐的一生——命运的残酷性在于毫无铺垫、毫无征兆"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "被拐女童（三岁）"
+        },
+        {
+          "character_id": "character_huo_qi",
+          "role": "甄家仆人——因小解丢失英莲后逃亡"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch01_yinglian_lost",
+          "summary": "霍启小解，英莲被拐——「烟消火灭」谶语的第一步应验。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "元宵灯会——中国古典文学中「走失」母题的顶峰运用",
+          "content": "元宵观灯是古典小说最常用的「失散」场景（如《水浒》的闹东京），曹雪芹却将其用作全书悲剧的开场。灯会的繁华与英莲的失踪互为表里：最热闹的节日藏着最深的祸事，「佳节元宵后，便是烟消火灭时」——灯是光明的象征，而英莲恰恰在灯下走失，光明之夜完成了对黑暗命运的第一次验证。"
+        },
+        {
+          "type": "character",
+          "title": "「不记事」的起点",
+          "content": "英莲被拐时才三岁，尚不能记父母名姓——这决定了此后香菱一生「不记得」的悲剧性格：第七回问家乡不记得、第四回门子问她时也只说「不记得小时之事」。她的失忆不是装的，而是被拐年龄与拐子打骂共同造成的精神损伤，这份「不记得」成为她与自我身份永远断裂的伤口。"
+        }
+      ]
+    },
+    {
+      "id": "event_xiangling_monk_ch1",
+      "title": "一僧一道点「有命无运」——英莲命运的第一次谶语",
+      "event_level": "major",
+      "chapter": {
+        "number": 1,
+        "title": "甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "姑苏阊门外",
+        "specific": "甄士隐抱英莲在门前玩耍，一僧一道走来。那僧大哭，说英莲是「有命无运、累及爹娘之物」，要士隐舍给他。士隐不理，僧道留下四句谶语而去。"
+      },
+      "summary": {
+        "short": "一僧一道见英莲大哭，称其「有命无运」，预言「好防佳节元宵后，便是烟消火灭时」。甄士隐以为疯话未睬——英莲被拐与甄家火毁的双重谶语就此埋下。",
+        "meaning": [
+          "「有命无运」——生为小姐之命（有命），却无小姐之运（无运），香菱一生八字定评",
+          "「菱花空对雪澌澌」——菱（香菱）空对雪（薛蟠），预告她落入薛家",
+          "僧道在此处是全书「命定论」的执行者——悲剧在发生前已被写成"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "被预言者"
+        },
+        {
+          "character_id": "character_zhen_shiyin",
+          "role": "抱女者——不识谶语的父亲"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "谶语系统——香菱是全书「预告式叙事」的第一个样本",
+          "content": "《红楼梦》惯用诗谶、语谶预写命运，而香菱是这套系统的第一个承受者：第一回的僧道谶语（元宵被拐）、第四回的判词（两地生孤木）、第八十回的改名（秋菱）层层推进，全部兑现。读者对香菱的悲剧是「先知后见」——明知她必然毁灭仍看着毁灭发生，这种不可逆的宿命感正是全书悲剧美学的底色。"
+        },
+        {
+          "type": "character",
+          "title": "「舍我罢」——被拒绝的救赎",
+          "content": "僧人求士隐「舍我罢，舍我罢」——这是一次被拒绝的救赎：若英莲被舍入空门，即可免遭被拐、免遭虐杀。但甄士隐作为父亲当然不能舍女，于情合理、于命运却是错过。曹雪芹以此写出命运的吊诡：人按常理做的每个正确决定，都在把她推向深渊。"
+        }
+      ]
+    },
+    {
+      "id": "event_fengyuan_case_ch4",
+      "title": "葫芦案——冯渊逢冤、薛蟠夺人",
+      "event_level": "major",
+      "chapter": {
+        "number": 4,
+        "title": "薄命女偏逢薄命郎 葫芦僧乱判葫芦案",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "金陵应天府",
+        "specific": "被拐的英莲长到十二三岁，拐子先将其卖与冯渊，又偷卖给薛蟠，意欲卷两家银子逃走。薛蟠仗势命豪奴将冯渊活活打死，把英莲生拖死拽拖走。贾雨村受理此案，门子（葫芦庙旧沙弥）点破英莲是贾雨村恩人甄士隐之女，贾雨村仍徇情枉法，判薛蟠赢案。"
+      },
+      "summary": {
+        "short": "英莲被拐子一卖两家：冯渊立意娶她为妾、不再娶第二个；薛蟠强夺，打死冯渊。新上任的应天府知府贾雨村明知她是恩人之女，仍乱判葫芦案——英莲从此落入薛蟠之手。",
+        "meaning": [
+          "冯渊（逢冤）之死——英莲一生中唯一一次「被人珍重」的机会被活活打死",
+          "贾雨村知恩不报——香菱悲剧的制造者链条上多了一环：拐子、薛蟠、贾雨村",
+          "「薄命女偏逢薄命郎」——两个薄命人的相遇是全书最沉痛的回目之一"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "被争夺者——「我今日罪孽可满了」"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "判案者——明知英莲身份仍判给薛家"
+        },
+        {
+          "character_id": "character_men_zi",
+          "role": "门子（葫芦庙旧沙弥）——点破英莲身世后反被充发"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch04_fengyuan_case",
+          "summary": "拐子一卖两家、冯渊被打死、门子献策、雨村乱判——英莲「有命无运」的第二次应验。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "葫芦案的双重结构——香菱命运的判决书",
+          "content": "第四回「葫芦案」是全书第一次正面写司法黑暗：贾雨村明知英莲是甄士隐（他的恩人）之女，仍判给薛蟠——因为薛家背后是贾府。香菱的悲剧由此从「意外」（被拐）升级为「制度性犯罪」（官商勾结下的必然）。「葫芦」二字点题——官断糊涂案，女儿薄命运，一个糊涂的官，断送了一个薄命女的一生。"
+        },
+        {
+          "type": "character",
+          "title": "「我今日罪孽可满了」——被拐者的自我贬抑",
+          "content": "冯渊立意娶英莲后，英莲自思「我今日罪孽可满了」——这句心理描写极其残酷：被拐不是她的罪，她却在拐子的打骂中养成了「自己有罪」的认知。听闻冯渊三日后来娶、终身不再娶第二个时，她「倒有叹息之意，反伤心落泪」——那是她一生中唯一一次感到「有望」，而这份望随即被薛蟠的棍棒击碎。"
+        }
+      ]
+    },
+    {
+      "id": "event_xiangling_gonghua_ch7",
+      "title": "周瑞家的送宫花——「像蓉大奶奶的品格儿」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 7,
+        "title": "送宫花贾琏戏熙凤 宴宁府宝玉会秦钟",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家（梨香院）",
+        "specific": "周瑞家的送宫花至薛家，见香菱在门口。问她家乡、父母、年纪，香菱都摇头说「不记得了」。周瑞家的与金钏儿私语：她竟有些像东府蓉大奶奶（秦可卿）的品格儿。"
+      },
+      "summary": {
+        "short": "香菱以「不记得了」回答关于身世的所有问题——一个说不出自己是谁的孤女。而周瑞家的惊觉她与秦可卿品貌相似，两个薄命司副册的女儿在此隔空映照。",
+        "meaning": [
+          "「不记得了」——香菱与自己的出身、家族、记忆彻底断裂",
+          "与秦可卿相似的品貌——两个「品格儿」相同的薄命女构成镜像",
+          "此回香菱的身份是「薛蟠之妾」——十二三岁的女孩已经成了别人的妾"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "被问询者——一问三不知"
+        },
+        {
+          "character_id": "character_zhou_rui",
+          "role": "周瑞家的——送宫花、问身世"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「不记得了」——全书最轻也最重的三字",
+          "content": "「你父母今在何处？今年十几岁了？本处是那里人？」三个问题，三个「不记得了」。这三字轻描淡写，却是被拐儿童心理创伤的写实：长期打骂使恐惧压过记忆，自我认知被彻底抹除。香菱是全书唯一「不知道自己是谁」的人——这使她后来学诗、梦中的「明月梅花」意象更显珍贵：那可能是她潜意识里唯一的故乡记忆。"
+        },
+        {
+          "type": "hongxue",
+          "title": "香菱与秦可卿——副册双璧的镜像设计",
+          "content": "周瑞家的说香菱像「东府里蓉大奶奶的品格儿」，是曹雪芹有意为之的人物镜像：秦可卿是副册第一页（香菱为副册之首，二人同册），二人皆「有命无运」、皆死于非命、皆与「香」有关（可卿之「秦」谐情，香菱之「香」）。一个是被养父抱养的孤女，一个是被拐卖的孤女——身世之谜是二人的共同命运结构。"
+        }
+      ]
+    },
+    {
+      "id": "event_xiangling_learn_poetry_ch48",
+      "title": "慕雅女雅集苦吟诗——香菱学诗",
+      "event_level": "major",
+      "chapter": {
+        "number": 48,
+        "title": "滥情人情误思游艺 慕雅女雅集苦吟诗",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园（潇湘馆）",
+        "specific": "薛蟠被柳湘莲打后出远门经商，宝钗带香菱进大观园居住。香菱央宝钗、黛玉教诗，黛玉令她先读王维、杜甫、李白诗集。香菱「茶饭无心，坐卧不定」，作三首咏月诗，一首比一首好，第三首梦中得句，众人皆赞。"
+      },
+      "summary": {
+        "short": "香菱进大观园的第一件事是学诗。拜黛玉为师，苦读苦吟：第一首被批「措词不雅」，第二首「过于穿凿」，第三首梦中得句「精华欲掩料应难」——诗成，众人叹服。一个被拐的妾，在大观园里完成了精神的成人礼。",
+        "meaning": [
+          "学诗是香菱唯一一次主动抓住命运——她什么都没有，唯有「心里羡慕」",
+          "苦吟的细节（梦里得句）写出「慕雅」的痴——与宝玉之痴同构",
+          "黛玉教诗是全书最暖的师徒关系——两个薄命女的精神相知"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "学诗者——苦吟成痴"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "诗师——教她读诗、改诗、评诗"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "见证者——调侃她「弄成个呆子了」"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch48_xiangling_poetry",
+          "summary": "香菱求教、苦吟、三易其稿、梦中得句——「天下无难事，只怕有心人」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "三首咏月诗——从浅到深的自我释放",
+          "content": "三首咏月诗是香菱精神成长的刻度：第一首直白稚嫩（「月挂中天夜色寒」），是初学者的模仿；第二首略显雕琢（「梦醒西楼人迹绝」），是用功者的试探；第三首「精华欲掩料应难，影自娟娟魄自寒。一片砧敲千里白，半轮鸡唱五更残」——曹雪芹让她梦中得句，暗示她的诗才来自性灵深处。咏月实为自咏：「精华欲掩料应难」正是她自身命运的写照。"
+        },
+        {
+          "type": "character",
+          "title": "学诗——被拐者的精神自救",
+          "content": "香菱学诗的动机是「心里羡慕」：她羡慕的不是诗社的名分，而是诗所代表的精神世界。作为一个连自己是谁都说不清的人，诗给了她一个可以「说清楚自己」的语言——她在诗里找到了「故乡」（梦中得句，或即童年残存意象的浮现）。宝钗说她「得陇望蜀」，黛玉却倾心相授——黛玉懂得：对香菱这样的人，诗不是消遣，是救命。"
+        }
+      ]
+    },
+    {
+      "id": "event_xiangling_doucao_ch62",
+      "title": "斗草夫妻蕙·情解石榴裙",
+      "event_level": "major",
+      "chapter": {
+        "number": 62,
+        "title": "憨湘云醉眠芍药裀 呆香菱情解石榴裙",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "大观园",
+        "specific": "香菱与众丫鬟斗草，拿出「夫妻蕙」被荳官取笑「你汉子去了大半年，你想夫妻了？」二人滚在草地打闹，香菱被推入水洼弄脏了新做的石榴裙。宝玉赶来，为她换上袭人的同色裙子，香菱嘱他「别告诉薛蟠」。"
+      },
+      "summary": {
+        "short": "香菱斗草说「我有夫妻蕙」，被荳官打趣想汉子；打闹中弄脏石榴裙，宝玉细心为她换上袭人的裙子。这是香菱在大观园最快乐的时刻，也是她与宝玉唯一一次亲密而纯洁的互动。",
+        "meaning": [
+          "「夫妻蕙」——无心的花语点破她的身份尴尬：有夫（薛蟠）而无夫妻之实",
+          "宝玉换裙——两个「呆子」的相怜，全书最温柔的插曲之一",
+          "「别告诉薛蟠」——她对薛蟠的恐惧，与此时园中天真形成对照"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "斗草者——弄脏石榴裙"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "解围者——为其换裙"
+        },
+        {
+          "character_id": "character_dou_guan",
+          "role": "荳官——取笑「你想夫妻了」"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch62_xiangling_fuqihui",
+          "summary": "夫妻蕙、石榴裙、宝玉换裙——「呆香菱」之呆与宝玉之痴的相遇。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「夫妻蕙」——无心之言里的命运注脚",
+          "content": "香菱斗草拿出「夫妻蕙」本是天真之举，荳官「你汉子去了大半年，你想夫妻了」的打趣却一语刺破现实：薛蟠是她的丈夫，却是一个「去了大半年」、根本不懂怜惜她的人。香菱急得红了脸去撕打荳官——她羞，不是因想汉子，而是因被人说破「名为夫妻实为弃物」的处境。花名（夫妻蕙）与命运（无夫妻情）的错位，是香菱一生最痛的幽默。"
+        },
+        {
+          "type": "literary",
+          "title": "石榴裙——中国文学「红裙」意象的悲剧变奏",
+          "content": "石榴裙在中国古典诗词中惯指热烈的情爱与青春（如武则天《如意娘》「开箱验取石榴裙」）。香菱弄脏新石榴裙、宝玉为她换裙，是全书少有的「衣」之细节：裙污而后换新，暗喻香菱在污浊命运中仍保有一份被守护的洁净。而换裙人（宝玉）而非丈夫（薛蟠）在场，更衬出她婚姻的荒芜——该在的人不在，不该在的人倒成了唯一的知心。"
+        }
+      ]
+    },
+    {
+      "id": "event_xiangling_jingui_ch79",
+      "title": "薛蟠娶夏金桂——「又添一个作诗的人了」",
+      "event_level": "major",
+      "chapter": {
+        "number": 79,
+        "title": "薛文龙悔娶河东狮 贾迎春误嫁中山狼",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家（大观园内）",
+        "specific": "薛蟠娶夏金桂。香菱听说后欢喜——「我也巴不得早些过来，又添一个作诗的人了」。宝玉冷笑提醒她「只怕再有个人来，薛大哥就不肯疼你了」，香菱恼了，正色道「你怎么说这样的话，我可不敢当」。"
+      },
+      "summary": {
+        "short": "薛蟠娶夏金桂，香菱满心欢喜，只想到「又添一个作诗的人了」。宝玉提醒她要有自己的准备，香菱反而恼了。痴心人不知祸将至——她的欢喜与天真，让紧接着的迫害显得更加残酷。",
+        "meaning": [
+          "「又添一个作诗的人了」——以诗心度人，是香菱最动人的天真，也是她最致命的盲点",
+          "宝玉的提醒是全书唯一一次有人为她「预先打算」——但她听不进",
+          "回目「悔娶河东狮」——「悔」的是薛蟠，被毁的是香菱"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "痴心欢迎者——「又添一个作诗的人了」"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "提醒者——被香菱抢白"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "痴心错付——香菱天真的最后绽放",
+          "content": "香菱对夏金桂的态度是全书写「痴」的绝笔：她听说新奶奶进门，第一时间想到的是诗。一个被拐、被抢、被当物的女人，仍以「作诗的人」衡量世界——她的天真未死，是因为她始终活在诗的世界里。可夏金桂进门第一件事就是问「香菱这个丫头可就是你说的那个？」——新奶奶眼中的香菱不是诗友，是对手。两个世界的相遇，注定以诗的毁灭告终。"
+        },
+        {
+          "type": "hongxue",
+          "title": "宝玉的警告——「只怕再有个人来，就不肯疼你了」",
+          "content": "宝玉对香菱的提醒（第七十九回）常被论者视为作者对读者的提示：薛蟠之「疼」本就是三分钟热度（打过香菱、嫖过妓、爱过戏子），再来一个正妻，香菱连妾的名分都将难保。香菱「我可不敢当」的抢白，写出她的自保本能——她不敢想「被疼」的可能，因为她从未被真正疼过。这次对话后，香菱命运急转直下，曹雪芹在前八十回末以最快速度将她推向深渊。"
+        }
+      ]
+    },
+    {
+      "id": "event_xiangling_qiuling_ch80",
+      "title": "受虐改名秋菱——「自此益发不好了」",
+      "event_level": "major",
+      "chapter": {
+        "number": 80,
+        "title": "美香菱屈受贪夫棒 王道士胡诌妒妇方",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "薛家",
+        "specific": "夏金桂设计陷害香菱：先纵容宝蟾与薛蟠勾搭以离间，再命香菱夜里伺候自己（害香菱睡不好）、自己装病、在枕内放纸人栽赃香菱诅咒。薛蟠不问青红皂白拿门闩打香菱。金桂进而以「菱角菱花皆盛于秋」为由强改其名为秋菱。香菱自此「酿成干血之症」。"
+      },
+      "summary": {
+        "short": "夏金桂三步毒计（纵宝蟾离间、逼香菱夜侍、栽赃纸人诅咒）逼薛蟠棒打香菱，再强改其名为秋菱。香菱病成干血之症——「美香菱屈受贪夫棒」，「贪夫」之棒背后是妒妇之谋。",
+        "meaning": [
+          "薛蟠的棒打——当年打死冯渊的豪奴主，如今亲手棒打自己的妾",
+          "改名秋菱——菱遇秋即死，「秋菱」是夏金桂对香菱命运的宣判",
+          "「干血之症」——前八十回末香菱已半只脚踏进坟墓"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "受虐者——「我罪有应得」的自责"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "施暴者——不问情由棒打香菱"
+        },
+        {
+          "character_id": "character_xia_jingui",
+          "role": "设计者——离间、栽赃、改名"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch80_qiuling",
+          "summary": "金桂以「菱角菱花皆盛于秋」改名秋菱；香菱「酿成干血之症」。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「我罪有应得」——被虐者的自罪心理",
+          "content": "面对夏金桂的栽赃与薛蟠的棒打，香菱的反应是「这是我罪有应得」——这句自罪之语比棒打更令人心寒。从「我今日罪孽可满了」（第四回）到「我罪有应得」（第八十回），香菱始终把自己放在「有罪者」的位置：被拐是她的罪、被抢是她的罪、被虐也是她的罪。曹雪芹以两句对称的自我贬抑，写出封建妾制对被虐者人格的彻底内化。"
+        },
+        {
+          "type": "literary",
+          "title": "名字三部曲的完成——从英莲到秋菱",
+          "content": "「甄英莲→香菱→秋菱」的改名史，是一部浓缩的命运史：甄英莲（真应怜）是被爱的千金，香菱（相怜）是求怜而不得的妾，秋菱（秋零）是将被零落的弃物。三个名字对应三种身份、三种处境，而每一次改名都由「拥有她的人」强制完成——她从未拥有过给自己命名的权利。夏金桂改名一节，以「菱角菱花皆盛于秋」的雅语包裹杀机，是曹雪芹反讽笔法的高峰。"
+        }
+      ]
+    },
+    {
+      "id": "event_xiangling_death_gaoe",
+      "title": "难产而死——香魂返故乡",
+      "event_level": "major",
+      "chapter": {
+        "number": 120,
+        "title": "甄士隐详说太虚情 贾雨村归结红楼梦",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "薛家",
+        "specific": "后四十回（gaoe）写香菱在夏金桂死后被扶正，为薛家留下血脉时死于难产。第一二〇回甄士隐对贾雨村道「小女英莲幼遭尘劫，老先生初任之时曾经判断。今归薛姓，产难完劫，遗一子于薛家以承宗祧」。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写香菱被扶正后难产而死，甄士隐以「产难完劫」作结。这与判词「自从两地生孤木，致使香魂返故乡」的「死于桂」指向或有出入——学界对香菱之死的版本差异多有讨论。",
+        "meaning": [
+          "「产难完劫」——gaoe以「留子承祧」为香菱补一个圆满，与判词「香魂返故乡」的悲凉不同调",
+          "判词「两地生孤木」合成「桂」字——暗示香菱死于夏金桂之手，而非难产",
+          "香菱之死是薄命司判词的最终兑现——副册之首的故事到此闭环"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_xiangling",
+          "role": "难产而亡"
+        },
+        {
+          "character_id": "character_zhen_shiyin",
+          "role": "归册说明者——「产难完劫」"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「产难完劫」与判词的矛盾",
+          "content": "判词「自从两地生孤木，致使香魂返故乡」明确将死因指向「桂」（两地+孤木=桂，即夏金桂）；而gaoe写成难产而死。红学家普遍认为曹雪芹原意是香菱被夏金桂折磨至死（第八十回「干血之症」即为铺垫），难产说削弱了「桂」字谜面的力量。但gaoe「产难完劫」也有其逻辑：香菱之「劫」以产子结束，薛家血脉得以延续——这是续书惯用的「补憾」笔法。"
+        },
+        {
+          "type": "literary",
+          "title": "「香魂返故乡」——薄命女的最后归处",
+          "content": "判词末句「致使香魂返故乡」是香菱之死最美的注脚：她三岁离开故乡（被拐），一生「不记得」故乡，死后魂返故乡——命运在她身上完成了残忍的对称。故乡对香菱是「不记得」的存在，却也是她梦中「明月梅花」的残影。香魂返故乡，意味着她终于离开了从未属于过她的薛家，回到只存在于谶语里的甄家。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_xiangling_feng_yuan",
+      "from": "character_xiangling",
+      "to": "character_feng_yuan",
+      "type": "未成姻缘（薄命女与薄命郎）",
+      "nature": [
+        "romantic_tragic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "冯渊是英莲一生中唯一「立意」珍重她的人：本爱男风，见英莲后立意买作妾、发誓不再娶第二个、定三日过门之礼。英莲闻之「有叹息之意，反伤心落泪」——两个薄命人对彼此都产生了真实的期待。薛蟠的豪奴在光天化日之下打死冯渊，这段姻缘未及开始便已结束。回目「薄命女偏逢薄命郎」是全书对这段关系最精准的哀悼。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "立意买妾",
+          "chapter": 4,
+          "description": "冯渊立意买英莲作妾，立誓不再娶第二个。"
+        },
+        {
+          "stage": 2,
+          "title": "逢冤而死",
+          "chapter": 4,
+          "description": "薛蟠命豪奴打死冯渊，夺走英莲。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiangling_xue_pan",
+      "from": "character_xiangling",
+      "to": "character_xue_pan",
+      "type": "强占者与受害者（妾与夫）",
+      "nature": [
+        "kinship",
+        "conflict",
+        "romantic"
+      ],
+      "direction": "one-way",
+      "fact_type": "canonical_text_fact",
+      "summary": "薛蟠是香菱名义上的丈夫，实际上的占有者与施暴者：他为夺她打死冯渊，娶进门后「过了没半月，也看的马棚风一般了」；夏金桂栽赃时他不问情由「随手抓起一根门闩来，一径抢步找着香菱……不容分说便劈头劈面打起来」。香菱对他只有恐惧（「别告诉薛蟠」）。这段关系是封建纳妾制度的标本：丈夫对妾的权利是无限的，妾对丈夫的义务也是无限的。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "强夺",
+          "chapter": 4,
+          "description": "薛蟠打死冯渊，把英莲生拖死拽拖入薛家。"
+        },
+        {
+          "stage": 2,
+          "title": "冷落",
+          "chapter": 48,
+          "description": "薛蟠外出经商，香菱得宝钗照拂进大观园学诗。"
+        },
+        {
+          "stage": 2,
+          "title": "收房",
+          "chapter": 16,
+          "description": "香菱成为薛蟠之妾（薛姨妈「摆酒请客」明公正道收房）。"
+        },
+        {
+          "stage": 3,
+          "title": "棒打",
+          "chapter": 80,
+          "description": "夏金桂栽赃，薛蟠棒打香菱。"
+        },
+        {
+          "stage": 3,
+          "title": "虐打",
+          "chapter": 80,
+          "description": "金桂设计，薛蟠抄门闩毒打香菱。"
+        },
+        {
+          "stage": 4,
+          "title": "扶正",
+          "chapter": 120,
+          "description": "薛蟠出狱回心，香菱扶正（后难产而亡）。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiangling_xue_baochai",
+      "from": "character_xiangling",
+      "to": "character_xue_baochai",
+      "type": "姑嫂（取名者与被保护者）",
+      "nature": [
+        "family",
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝钗为英莲取名香菱，也多次保护她：薛蟠外出时带她进大观园居住（成就香菱学诗）；夏金桂闹将起来时又是宝钗把她要到自己房中，「只令她跟着自己」。宝钗对香菱的保护是「惜」，不是「亲」——她始终以礼数周全、明哲保身为度，不正面顶撞金桂。香菱对宝钗则是敬服与依赖。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "取名香菱",
+          "chapter": 4,
+          "description": "宝钗为英莲改名为香菱。"
+        },
+        {
+          "stage": 2,
+          "title": "携入大观园",
+          "chapter": 48,
+          "description": "宝钗带香菱住进大观园，香菱得以拜黛玉学诗。"
+        },
+        {
+          "stage": 3,
+          "title": "收纳保护",
+          "chapter": 80,
+          "description": "香菱遭金桂虐待，宝钗将其要到身边随侍。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiangling_lin_daiyu",
+      "from": "character_xiangling",
+      "to": "character_lin_daiyu",
+      "type": "师徒（诗之知己）",
+      "nature": [
+        "friendship",
+        "teacher_student"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "黛玉是香菱的师父——「圣人说诲人不倦，又来了」的调侃背后，是一对薄命女的真心相授。黛玉教她读诗要精（先王维五律、杜甫七律、李白七绝）、作诗要立意第一；香菱苦吟成痴，黛玉从不烦她。两个同样「寄人篱下」的女子在诗里结成同盟：香菱羡慕黛玉的诗才，黛玉怜惜香菱的痴。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "拜师",
+          "chapter": 48,
+          "description": "香菱求黛玉教诗，黛玉倾囊相授。"
+        },
+        {
+          "stage": 2,
+          "title": "苦吟",
+          "chapter": 48,
+          "description": "香菱三易其稿，梦中得句，黛玉与众人大赞。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiangling_jia_baoyu",
+      "from": "character_xiangling",
+      "to": "character_jia_baoyu",
+      "type": "相怜（两个呆子）",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉与香菱是全书「呆」与「痴」的互文：香菱学诗时宝玉赞「这正是地灵人杰」；斗草换裙时宝玉自思「可惜这么一个人，没父母，连自己本姓都忘了」；香菱临终之病宝玉也暗地里急。二人之间无男女之情，却有「相怜」之义——「香菱」之名（相怜）在他们这里得到唯一一次真正的兑现。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "换裙相惜",
+          "chapter": 62,
+          "description": "宝玉为香菱换石榴裙，嘱勿告薛蟠。"
+        },
+        {
+          "stage": 2,
+          "title": "暗地里急",
+          "chapter": 80,
+          "description": "宝玉见香菱受虐，向王一贴讨治妒妇的方子。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiangling_xia_jingui",
+      "from": "character_xiangling",
+      "to": "character_xia_jingui",
+      "type": "迫害者与受害者（夺名借刀）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "one-way",
+      "fact_type": "canonical_text_fact",
+      "summary": "夏金桂视香菱为眼中钉，三步毒计除之：纵宝蟾与薛蟠偷情以离间夫妻、命香菱夜夜伺候以损其神、枕内藏纸人栽赃诅咒。香菱「美香菱屈受贪夫棒」——棒在薛蟠手里，谋在金桂心里。金桂还强改其名秋菱，从名分到身体彻底摧毁香菱。判词「自从两地生孤木」合成「桂」字，指明金桂是香菱之死的直接原因。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "设局离间",
+          "chapter": 79,
+          "description": "金桂问明香菱来历，开始谋算。"
+        },
+        {
+          "stage": 1,
+          "title": "夺名",
+          "chapter": 79,
+          "description": "改香菱为秋菱。"
+        },
+        {
+          "stage": 2,
+          "title": "栽赃棒打",
+          "chapter": 80,
+          "description": "纸人诅咒之案，香菱遭薛蟠棒打。"
+        },
+        {
+          "stage": 2,
+          "title": "设计",
+          "chapter": 80,
+          "description": "与宝蟾合谋，令薛蟠棒打香菱。"
+        },
+        {
+          "stage": 3,
+          "title": "强改其名",
+          "chapter": 80,
+          "description": "金桂改名秋菱，香菱病成干血之症。"
+        },
+        {
+          "stage": 3,
+          "title": "毒计",
+          "chapter": 103,
+          "description": "下毒害香菱反自毒身亡。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_xiangling_qin_keqing",
+      "from": "character_xiangling",
+      "to": "character_qin_keqing",
+      "type": "镜像（同册薄命女）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "第七回周瑞家的点破香菱「竟有些像咱们东府里蓉大奶奶的品格儿」——两个副册薄命女在此构成镜像：同样「有命无运」（可卿是养生堂抱来的弃婴，香菱是被拐的孤女）、同样身世成谜、同样死于非命、同样留下「香」与「情」的谜面。曹雪芹以一句闲谈完成两个人物命运的同构。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "隔空映照",
+          "chapter": 7,
+          "description": "周瑞家的见香菱，想起秦可卿的品格儿。"
+        }
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "id": "poem_xiangling_judgment",
+      "title": "判词（副册）",
+      "work_type": "判词",
+      "chapter_number": 5,
+      "fact_type": "canonical_text_fact",
+      "summary": "「根并荷花一茎香，平生遭际实堪伤。自从两地生孤木，致使香魂返故乡。」（画：一株桂花，下面有一池沼，其中水涸泥干，莲枯藕败。）",
+      "symbolic_notes": "「根并荷花一茎香」点「菱」出于莲（荷花）——香菱本是莲花之根脉；「两地生孤木」拆字合「桂」，指夏金桂；「香魂返故乡」双关——既指魂归姑苏故里，又谐「香菱返本名英莲」。画中「莲枯藕败」四字正是她的一生。"
+    },
+    {
+      "id": "poem_xiangling_yue_one",
+      "title": "咏月诗（其一）",
+      "work_type": "七律",
+      "chapter_number": 48,
+      "fact_type": "canonical_text_fact",
+      "summary": "「月挂中天夜色寒，清光皎皎影团团。诗人助兴常思玩，野客添愁不忍观。翡翠楼边悬玉镜，珍珠帘外挂冰盘。良宵何用烧银烛，晴彩辉煌映画栏。」（黛玉评：措词不雅。）",
+      "symbolic_notes": "第一首纯是描摹月之形，堆砌玉镜、冰盘、银烛等陈词——初学者用「现成话」写诗，是香菱学诗的起点。"
+    },
+    {
+      "id": "poem_xiangling_yue_two",
+      "title": "咏月诗（其二）",
+      "work_type": "七律",
+      "chapter_number": 48,
+      "fact_type": "canonical_text_fact",
+      "summary": "「非银非水映窗寒，试看晴空护玉盘。淡淡梅花香欲染，丝丝柳带露初干。只疑残粉涂金砌，恍若轻霜抹玉栏。梦醒西楼人迹绝，余容犹可隔帘看。」（黛玉评：过于穿凿。）",
+      "symbolic_notes": "第二首已有月色渲染与自我情思（梦醒西楼），但用字刻意。值得注意的是「淡淡梅花香欲染」——梅花意象在香菱梦中反复出现，学界疑为其幼年故乡记忆的残存（英莲之「莲」与梅同属士隐所爱的水木世界）。"
+    },
+    {
+      "id": "poem_xiangling_yue_three",
+      "title": "咏月诗（其三）",
+      "work_type": "七律",
+      "chapter_number": 48,
+      "fact_type": "canonical_text_fact",
+      "summary": "「精华欲掩料应难，影自娟娟魄自寒。一片砧敲千里白，半轮鸡唱五更残。绿蓑江上秋闻笛，红袖楼头夜倚栏。博得嫦娥应借问，缘何不使永团圆！」（梦中所得，众人大赞。）",
+      "symbolic_notes": "第三首由咏月而咏人：「精华欲掩料应难」是香菱对自身才华与命运的自喻；「缘何不使永团圆」的质问，是一个失散者、被拐者、无家者向月而发的天问——香菱借诗第一次说出了自己的身世之痛。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_xiangling_memory",
+      "title": "香菱为什么「不记得」自己的家乡与父母？",
+      "slug": "why-does-xiangling-remember-nothing",
+      "question_type": "character_psychology",
+      "importance_weight": 75,
+      "heat_weight": 60,
+      "neutral_overview": "第七回周瑞家的三问（父母、年纪、家乡），香菱三摇头「不记得了」。三岁被拐的孩子当真什么都不记得？还是「不敢记得」？",
+      "viewpoint_ids": [
+        "vp_xiangling_memory_age",
+        "vp_xiangling_memory_trauma",
+        "vp_xiangling_memory_poem"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xiangling_memory_age",
+          "title": "年龄论：三岁被拐，记忆尚未形成",
+          "summary": "香菱被拐时年仅三岁，幼儿期的情景记忆本就极弱，加上此后十年颠沛、改名换姓，记不得父母姓名家乡实属生理与心理的双重必然。曹雪芹设计「三岁」这个年龄是精确的：再小不像人，再大记得事——三岁恰在记忆边缘，成就「不记得」的合理性。",
+          "evidence": [
+            "第一回「年方三岁」的明确设定",
+            "第七回连「本处是那里人」都答不上来的细节"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xiangling_memory_trauma",
+          "title": "创伤论：拐子的打骂使她不敢记得",
+          "summary": "拐子「单管偷拐五六岁的儿女，养在僻静处打骂」——香菱的遗忘是被打出来的生存策略：记不得父母就不想父母，不想父母就不求逃脱。她的「不记得」是对自我的防御性删除。脂批「生不遇时，遇又非偶」侧面印证：她连记忆都不被允许拥有。",
+          "evidence": [
+            "第四回门子所述拐子养女之法（养僻静处、打怕）",
+            "香菱对身世问题的条件反射式摇头"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xiangling_memory_poem",
+          "title": "潜藏论：记忆化入了诗与梦",
+          "summary": "香菱的记忆并未彻底消失，而是沉入潜意识：她梦中得的咏月诗有「淡淡梅花香欲染」之句，而梅花、月亮恰是姑苏甄家园林的典型意象。学者由此推断，香菱对故乡残存的感官记忆（梅香、月色）通过学诗被唤醒——她不「记得」故乡，但她的诗「记得」。",
+          "evidence": [
+            "第三首咏月诗梦中得句的细节",
+            "甄士隐家园林与梅、月意象的关联（第一回）"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xiangling_poetry",
+      "title": "香菱学诗有什么意义？曹雪芹为什么要写这个情节？",
+      "slug": "significance-of-xiangling-learning-poetry",
+      "question_type": "literary_analysis",
+      "importance_weight": 85,
+      "heat_weight": 78,
+      "neutral_overview": "第四十八回「慕雅女雅集苦吟诗」是香菱篇幅最长的正面戏。一个被拐的妾学诗，是闲笔还是曹雪芹的深意？",
+      "viewpoint_ids": [
+        "vp_xiangling_poetry_redemption",
+        "vp_xiangling_poetry_ars_poetica",
+        "vp_xiangling_poetry_contrast"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xiangling_poetry_redemption",
+          "title": "救赎论：诗是被拐者的唯一自赎",
+          "summary": "香菱一无所有：没有父母、没有记忆、没有自由、没有爱。学诗是她一生中唯一一次完全自主的行为——她选择了美，美便也选择了她。三首咏月诗越写越好，是她「人间可救」的证据：身体的被拐无法逆转，精神的高贵不可剥夺。曹雪芹用学诗证明：薄命与才华可以并存，命运可以毁她的人，毁不了她的诗。",
+          "evidence": [
+            "香菱主动求学、苦吟成痴、梦中得句",
+            "黛玉评语从「措词不雅」到「自然算难为他了」再到众人大赞的进阶"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xiangling_poetry_ars_poetica",
+          "title": "诗论论：借黛玉教诗阐述曹雪芹的诗学观",
+          "summary": "黛玉教香菱的一段话是全书最系统的诗论：「词句究竟还是末事，第一立意要紧。若意趣真了，连词句不用修饰，自是好的。」——这是曹雪芹（借黛玉之口）的诗学宣言：以意胜、以真胜，反对雕琢。香菱三首诗的进阶过程，正是这套诗学从理论到实践的演示。",
+          "evidence": [
+            "黛玉论「立意要紧」的原文",
+            "香菱第三首诗「意趣真」而获赞的对照"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xiangling_poetry_contrast",
+          "title": "对照论：与诗社贵族少女的诗形成阶级反讽",
+          "summary": "大观园诗社的成员都是小姐（黛玉、宝钗、湘云）或半个小姐（李纨），香菱是唯一的妾、唯一的下人。她学得比谁都苦、诗做得比不少人都好——曹雪芹以此反讽「诗才」与「身份」的错位：真正的诗人可能在被拐者之中，而贵族诗社的多数作品不过是风雅的游戏。香菱学诗，是「下贱人」对「风雅界」的一次静默的僭越。",
+          "evidence": [
+            "香菱身份与诗社成员的对比",
+            "「天下无难事，只怕有心人」的批语指向"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xiangling_name",
+      "title": "甄英莲→香菱→秋菱：三次改名意味着什么？",
+      "slug": "three-names-of-xiangling",
+      "question_type": "name_symbolism",
+      "importance_weight": 82,
+      "heat_weight": 75,
+      "neutral_overview": "香菱一生被三次命名：父亲起名甄英莲、宝钗改名香菱、夏金桂强改秋菱。名字的变化如何对应命运的变化？",
+      "viewpoint_ids": [
+        "vp_xiangling_name_decline",
+        "vp_xiangling_name_etymology"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_xiangling_name_decline",
+          "title": "降格论：从花到草的身份滑落",
+          "summary": "英莲是「莲」——水芙蓉，花中君子，生于甄家园林的清池；香菱是「菱」——水草之实，长于寻常水泽，可食可贱；秋菱则是将枯之菱——秋天即绝期。从莲到菱到秋菱，是从小姐到妾到弃物的三级降格，每一次改名都对应一次身份剥夺：失父女名分、失本姓、失自我。名字的滑落曲线就是她命运的滑落曲线。",
+          "evidence": [
+            "莲（荷花）与菱的植物学等级差异",
+            "三次改名的三个主体：父亲（爱）→宝钗（礼）→金桂（害）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_xiangling_name_etymology",
+          "title": "谐音论：真应怜、相怜、秋零的三重谶语",
+          "summary": "「甄英莲」谐「真应怜」——脂批明点，她生来就是「应被怜惜」的；「香菱」谐「相怜」——她与宝玉、黛玉等薄命人的相互怜惜；「秋菱」谐「秋零」——秋天凋零，死期将近。三重谐音构成完整的谶语链：真应怜（命运定调）→相怜（人间温情）→秋零（最终毁灭）。名字不只是符号，是曹雪芹预先写好的判词。",
+          "evidence": [
+            "脂批「真应怜」",
+            "判词「自从两地生孤木」的「桂」字拆解与秋菱的死期暗合"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_xiangling_ending",
+      "title": "香菱的结局：被夏金桂折磨死，还是难产而死？",
+      "slug": "xiangling-ending-dispute",
+      "question_type": "version_dispute",
+      "importance_weight": 80,
+      "heat_weight": 72,
+      "neutral_overview": "判词「自从两地生孤木」暗示香菱死于夏金桂之手；后四十回（gaoe）却写她金桂死后被扶正、难产而死。哪种结局更接近曹雪芹原意？",
+      "viewpoint_ids": [
+        "vp_xiangling_ending_gui",
+        "vp_xiangling_ending_gaoe",
+        "vp_xiangling_ending_third"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_xiangling_ending_gui",
+          "title": "「桂」字论：死于夏金桂之手才是原意",
+          "summary": "判词「自从两地生孤木」为字谜——「两地」（两个土）加「孤木」（木）合成「桂」字，明确指出害死香菱的是夏金桂；第八十回香菱已「酿成干血之症」（被折磨成病的实写），脂批又有香菱被金桂凌虐的相关信息。据此，曹雪芹原稿中香菱应是「屈受贪夫棒」后病笃而亡，凶手就是金桂。难产说是续书者的改写。",
+          "evidence": [
+            "判词「两地生孤木」的拆字法",
+            "第八十回「干血之症」的铺垫",
+            "脂批对后文情节的透露"
+          ],
+          "fact_type": "scholarly_viewpoint",
+          "note": "attribution=gaoe 的结局与判词之对比"
+        },
+        {
+          "id": "vp_xiangling_ending_gaoe",
+          "title": "完劫论：难产而死也有其叙事逻辑",
+          "summary": "gaoe的写法虽与判词字面不合，但自成逻辑：金桂自焚后香菱被扶正，「产难完劫」——她的「劫」以生子延续薛家血脉而终。甄士隐「遗一子于薛家以承宗祧」的说明，试图给香菱一生补上「完成」的意义。这符合续书「补憾」的整体倾向，也符合「香魂返故乡」的归册需要。",
+          "evidence": [
+            "第一二〇回甄士隐「产难完劫」的说明",
+            "金桂之死（gaoe）为香菱被扶正创造的条件"
+          ],
+          "fact_type": "scholarly_viewpoint",
+          "note": "attribution=gaoe"
+        },
+        {
+          "id": "vp_xiangling_ending_third",
+          "title": "折中论：死于金桂之手与留子结局可以并存",
+          "summary": "有学者提出第三解：曹雪芹原稿中香菱被金桂折磨至病重，但在病中产下一子后死去——「难产」与「被虐」并不互斥，「干血之症」加产后虚弱足以致命。这样既保留判词「桂」的指向（病由金桂而起），又容纳了「遗一子承宗祧」的收束。脂批线索有限，此说只能存疑。",
+          "evidence": [
+            "第八十回「干血之症」与产后虚弱叠加的病理可能性",
+            "判词与gaoe文本的调和空间"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_xiangling_yucun",
+      "title": "贾雨村为何不救香菱？「乱判葫芦案」暴露了什么？",
+      "slug": "why-did-jia-yucun-betray-xiangling",
+      "question_type": "character_motivation",
+      "importance_weight": 78,
+      "heat_weight": 70,
+      "neutral_overview": "贾雨村受甄士隐资助之恩，且经门子点破后明知英莲就是恩人之女，仍判薛蟠胜诉。他的选择出于什么？",
+      "viewpoint_ids": [
+        "vp_yucun_betray_power",
+        "vp_yucun_betray_protocol"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_yucun_betray_power",
+          "title": "利害论：护官符下的必然选择",
+          "summary": "门子的「护官符」点明贾史王薛四家连络有亲——判案者得罪薛家等于得罪贾家。贾雨村刚刚复职，最需要的就是这层关系。救香菱（得罪薛蟠）与卖香菱（攀附贾家），利弊一目了然。他的忘恩负义不是良心缺失，而是那个权力结构对良心的系统收割：在「护官符」面前，恩情、律法、天理全部让位于利害。",
+          "evidence": [
+            "第四回护官符与门子劝语",
+            "雨村判案后「急忙作书信二封与贾政并京营节度使王子腾」的献媚细节"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_yucun_betray_protocol",
+          "title": "官场论：一个标准官员的「理性」选择",
+          "summary": "贾雨村的选择在清代官场逻辑中几乎是「标准答案」：香菱已入薛家为妾，即使翻案，她作为「被拐之妾」也难回甄家；而枉法成本为零、收益巨大。更妙的是他还能借「扶乩」等花样把自己包装成「天道报应」的执行者。曹雪芹写雨村不写他痛苦挣扎，正说明这套官场逻辑已完全内化——他不是堕落的好人，而是合格的官僚。",
+          "evidence": [
+            "雨村「徇情枉法」时的从容表现",
+            "第四回判词般冷静的叙事笔调"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_xiangling_first_daughter",
+      "title": "香菱——「千红一哭」的第一声啼哭",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1988,
+      "source_title": "多项红学人物与结构研究",
+      "description": "学者普遍指出，香菱是《红楼梦》全书第一个出场并被命运击中的女儿，她的被拐是全本悲剧的「序曲」：此后英莲（应怜）、冯渊（逢冤）、霍启（祸起）的谐音链奠定了全书「以名定命」的书写方式；她的「有命无运」四字，被论者视为全部薄命司女儿命运的浓缩——宝钗有命有运，黛玉有命无运，香菱则是最极端的样本：生为千金之命，长成婢妾之运。"
+    },
+    {
+      "id": "viewpoint_xiangling_bu_yu_shi",
+      "title": "「生不遇时，遇又非偶」——香菱悲剧的双重结构",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学脂批研究",
+      "year": 1992,
+      "source_title": "脂批「生不遇时，遇又非偶」专论",
+      "description": "脂批「生不遇时，遇又非偶」被学者提炼为香菱悲剧的双重结构：一是「生不遇时」——生在末世、生在甄家败落前夜，时代与家族都在下坠；二是「遇又非偶」——她遇到的每个「可能之人」都错位：冯渊是真偶而死于非命，薛蟠是假偶而强占其身，夏金桂是恶偶而索其命。时与偶的双重错失，使她成为全书「有命无运」命题最完整的样本。"
+    },
+    {
+      "id": "viewpoint_xiangling_qingwen_shadow",
+      "title": "香菱与晴雯——从被拐到被逐的丫鬟双镜",
+      "type": "scholarly",
+      "fact_type": "text_inference",
+      "author": "综合红学人物比较研究",
+      "year": 1996,
+      "source_title": "多项人物比较研究",
+      "description": "有论者将香菱与晴雯并举为「身世成谜的丫鬟双镜」：香菱「不知道父母是谁」却做过小姐，晴雯「不知道父母是谁」而终身为奴；香菱因拐而失记忆，晴雯因卖而失记忆。二人都是「无根之人」，也都死于主子之手——香菱死于薛家，晴雯死于贾府。曹雪芹以两个「来处不明」的丫鬟，写出封建社会中无根女性的共同命运：她们的悲剧从「出生记录被抹掉」那天就已注定。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 9,
+    "total_relationships": 8,
+    "total_poems": 4,
+    "total_questions": 5,
+    "total_viewpoints": 3,
+    "total_sources": 7,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 42,
+      "text_inference": 22,
+      "scholarly_viewpoint": 7,
+      "disputed_version": 6,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 7
+  }
+}

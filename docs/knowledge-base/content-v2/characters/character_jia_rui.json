@@ -1,0 +1,598 @@
+{
+  "character": {
+    "id": "character_jia_rui",
+    "name": "贾瑞",
+    "slug": "jia-rui",
+    "aliases": [
+      "贾天祥",
+      "瑞大爷"
+    ],
+    "category": "贾府旁支子弟",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "贾代儒之孙，贾府旁支；父母早亡，由祖父贾代儒教养成人。",
+      "position": "贾府族中子弟；贾代儒不在时暂管家塾（第九回）。",
+      "origin": "贾府族谱旁支「瑞」字辈（玉字辈，与贾珍、贾宝玉同辈）。",
+      "generation": "贾府玉字辈"
+    },
+    "tags": [
+      "贾天祥正照风月鉴",
+      "王熙凤毒设相思局",
+      "图便宜没行止",
+      "穿堂冻夜",
+      "屎尿浇身",
+      "风月宝鉴",
+      "遗精而死",
+      "贾代儒长孙",
+      "邪思妄动"
+    ],
+    "summary": {
+      "short": "贾代儒长孙，父母早亡。第十一回见凤姐起淫心，第十二回被凤姐「毒设相思局」三番捉弄，又执迷「正照风月鉴」，终至遗精而死——全书最不堪的欲望标本，也是凤姐「毒辣」一面的第一个受害者。",
+      "long": "贾瑞字天祥，是贾代儒之孙，父母早亡，靠祖父教养。他「图便宜没行止」：第九回贾代儒有事，让他暂管家塾，他「不但不去管约，反助纣为虐讨好儿」，替薛蟠那帮人谋私——这是他在全书第一次亮相。第十一回宁府庆寿辰，他在会芳园偶遇凤姐，顿起淫心，言语轻佻；凤姐心中暗骂「知人知面不知心」，表面却假意周旋，留下「几时叫他死在我的手里」的杀机。第十二回「王熙凤毒设相思局」：凤姐先约他西边穿堂夜会，让他在腊月朔风里冻了一夜，几不曾冻死；第二次约他，却派贾蓉、贾蔷二人假扮凤姐赴约，逼他各写了五十两银子的欠契，又浇了他一头一身的屎尿。他病入膏肓后，跛足道人来送「风月宝鉴」救命，叮嘱「千万不可照正面，只照他的背面，要紧，要紧」——正面是凤姐招手，背面是骷髅。贾瑞不听，「荡悠悠」进了镜中与凤姐云雨，三番五次之后精尽而亡，死时「身子底下冰凉渍湿一大滩精」。祖父贾代儒悲痛之下要烧镜子，镜中哭道「谁叫你们瞧正面了！」贾瑞之死有三重意义：一是「风月宝鉴」之喻——色是骷髅；二是凤姐之毒——她明明可以严词拒绝或告知家长，却选择「用最狠的方式教训」；三是对「情」的警诫——曹雪芹写他，是写给所有「图便宜没行止」的痴人的。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "痴——无对象的欲望",
+        "fact_type": "canonical_text_fact",
+        "description": "贾瑞的「痴」与宝玉之「痴」截然相反：宝玉之情以「体贴」为核心，贾瑞之情以「占有」为核心。他对凤姐的迷恋没有任何情感基础，纯粹是肉体欲望的投射——这种无对象的欲望使他成为「风月宝鉴」最合适的照镜人。"
+      },
+      {
+        "dimension": "执——临死不改的执迷",
+        "fact_type": "canonical_text_fact",
+        "description": "跛足道人给了他唯一的活路（「只照背面」），他却三次照正面。他的死不是被骗，而是自己选择了欲望。曹雪芹写他的执迷，暗合「邪思妄动」四字：凤姐的局是外因，他的痴是内因。"
+      },
+      {
+        "dimension": "懦——被祖父管束的废物",
+        "fact_type": "text_inference",
+        "description": "父母早亡、祖父严苛（动辄罚跪打板子、逼他念书到深夜）的家庭环境，养成了他表面怯懦、内心膨胀的性格。他在学堂里狐假虎威，在凤姐面前却卑微到可笑——这种反差是他悲剧的底色。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jia_rui_school_ch9",
+        "title": "暂管家塾公报私（第九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jia_rui_lust_ch11",
+        "title": "会芳园见凤姐起淫心（第十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jia_rui_trap_ch12",
+        "title": "凤姐毒设相思局——穿堂冻夜、讹诈、屎尿浇身（第十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jia_rui_mirror_ch12",
+        "title": "贾天祥正照风月鉴——遗精而死（第十二回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch11_jia_rui_lust",
+        "quote": "凤姐儿故意的把脚步放迟了些儿，见他去远了，心里暗忖道：「这才是『知人知面不知心』呢，那里有这样禽兽的人呢。他如果如此，几时叫他死在我的手里，他才知道我的手段！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十一回会芳园。凤姐被轻薄后的内心独白——杀机此时已定，为第十二回的「相思局」埋下伏笔。"
+      },
+      {
+        "source_id": "source_ch12_jia_rui_trap",
+        "quote": "贾瑞只等着人静时……谁知他等了一夜，也不见人来，朔风凛凛，侵肌裂骨，一夜几乎不曾冻死。……忽听头顶上一声响，哗拉拉一净桶尿粪从上面直泼下来，可巧浇了他一身一头。",
+        "fact_type": "canonical_text_fact",
+        "note": "第十二回「王熙凤毒设相思局」。穿堂冻夜与屎尿浇身——凤姐报复手段之毒辣的完整展示。"
+      },
+      {
+        "source_id": "source_ch12_jia_rui_mirror",
+        "quote": "那道人对他说：「这物出自太虚幻境空灵殿上，警幻仙子所制，专治邪思妄动之症，有济世保生之功。……千万不可照正面，只照他的背面，要紧，要紧！三日后吾来收取，管叫你好了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十二回跛足道人赠风月宝鉴。「只照背面」——全书「色空」观的最直白表述。"
+      },
+      {
+        "source_id": "source_ch12_jia_rui_death",
+        "quote": "众人上来看看，已没了气，身子底下冰凉渍湿一大滩精。……（代儒要烧镜）只听镜内哭道：「谁叫你们瞧正面了！你们自己以假为真，何苦来烧我？」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十二回贾瑞之死。「以假为真」四字，是风月宝鉴对全书痴人的总判决。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名瑞，字天祥——极吉之字配极惨之命",
+      "detail": "「瑞」「天祥」皆祥瑞之词，曹雪芹偏将这大吉之名安在一个「图便宜没行止」、死于淫欲的人身上——命名与命运的最大反讽。索隐派另有「贾瑞影射降清汉臣」之说（详见争议）。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        {
+          "issue": "索隐派认为贾瑞影射降清汉臣（如洪承畴一类「失节者」）",
+          "fact_type": "disputed_version",
+          "note": "attribution=suoyinpai"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；贾代儒长孙，约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "贾天祥",
+      "type": "字",
+      "context": "第十二回回目「贾天祥正照风月鉴」——「天祥」与「瑞」同义，皆吉祥之词，反讽其惨死",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "瑞大爷",
+      "type": "尊称",
+      "context": "府中人对贾瑞的称呼——「大爷」的身份与他的猥琐行径构成讽刺",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jia_rui_school_ch9",
+      "title": "暂管家塾，公报私",
+      "event_level": "minor",
+      "chapter": {
+        "number": 9,
+        "title": "恋风流情友入家塾 起嫌疑顽童闹学堂",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府家塾",
+        "specific": "贾代儒有事回家，命贾瑞暂管学中之事。贾瑞「最是个图便宜没行止的人」，不但不管束，反助薛蟠等为非。后闹出「顽童闹学堂」的群架，贾瑞两头受气，压服不住。"
+      },
+      "summary": {
+        "short": "贾瑞第一次正式亮相：贾代儒有事，让他暂管家塾。他「图便宜没行止」，不但不去管约，反为薛蟠之流「助纣为虐」，终于闹出学堂群架——这个亮相就给他定了性。",
+        "meaning": [
+          "「图便宜没行止」——曹雪芹对贾瑞的六字定评，第一回亮相就亮出底牌",
+          "学堂之乱——贾瑞既无德又无能，是家塾败坏的催化剂",
+          "为后文他对凤姐的「妄想」铺垫：一个占惯便宜的人，连主子的主意都敢打"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "定评式出场",
+          "content": "曹雪芹写贾瑞的笔法极简：一个「图便宜没行止」就把他写透。他不像其他子弟有复杂的家族背景描写——贾瑞的存在就是为了「犯错」和「受罚」，他是全书中功能最纯粹的反面教材之一。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_rui",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_dairu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_pan",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_rui_lust_ch11",
+      "title": "会芳园见凤姐起淫心",
+      "event_level": "major",
+      "chapter": {
+        "number": 11,
+        "title": "庆寿辰宁府排家宴 见熙凤贾瑞起淫心",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府会芳园",
+        "specific": "宁府庆寿辰，凤姐探病秦氏后独行园中，贾瑞从假山后闪出，言语挑逗：「也是合该我与嫂子有缘……只求嫂子赏我……」凤姐假意含笑周旋，约他说话，心里已起杀心。"
+      },
+      "summary": {
+        "short": "回目名「见熙凤贾瑞起淫心」——一个「见」字写尽贾瑞之痴：只见美色，不见杀机。凤姐表面含笑、心里杀意已生，全书的「相思局」从此开场。",
+        "meaning": [
+          "贾瑞的妄想与凤姐的假笑——一个把假意当真情，一个把真情当戏台",
+          "「禽兽的人」——凤姐的定评比贾瑞的色胆更冷",
+          "宁府园中会芳——秦可卿病危之地，亦是淫乱滋生之地，贾瑞之淫起于宁府，非偶然"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "错位的欲望",
+          "content": "贾瑞敢向凤姐开口，一半是色胆，一半是蠢——他完全不了解凤姐是何等人物。全书敢冒犯凤姐的男人，他是唯一一个，也是死得最难看的一个。"
+        },
+        {
+          "type": "literary",
+          "title": "「见熙凤」的回目艺术",
+          "content": "「见熙凤贾瑞起淫心」——「见」与「起」之间毫无过程，欲望的瞬间爆发写尽了贾瑞的人格空洞。对比宝玉对黛玉「见了就忘了别的」的痴，贾瑞的痴只是生理反应。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_rui",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_rui_trap_ch12",
+      "title": "王熙凤毒设相思局",
+      "event_level": "major",
+      "chapter": {
+        "number": 12,
+        "title": "王熙凤毒设相思局 贾天祥正照风月鉴",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府西边穿堂/夹道",
+        "specific": "凤姐假意约贾瑞夜会：第一局让他钻入西边穿堂，腊月朔风里冻了一夜，「几乎不曾冻死」；祖父罚他跪在风地里读文章。第二局派贾蓉、贾蔷假扮凤姐赴约，逼他写下各五十两银子的欠契，出门时一净桶屎尿兜头浇下。"
+      },
+      "summary": {
+        "short": "凤姐的「相思局」分三步：先冻一夜，再讹诈五十两欠契，最后屎尿浇身。贾瑞明知被耍，却依然「想想凤姐的样儿，又恨不得一时搂在怀内」——凤姐之毒与贾瑞之痴，互为表里。",
+        "meaning": [
+          "凤姐的报复手段层层加码——冻夜是警告，讹诈是羞辱，屎尿是摧毁",
+          "贾蓉贾蔷的参与——凤姐连报复都「假手于人」，自己片叶不沾身",
+          "贾瑞病后仍「满心想着凤姐」——痴入骨髓，为风月宝鉴登场铺垫"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "凤姐之「毒」的第一次完整展示",
+          "content": "此前凤姐的厉害（协理宁国府、毒设相思局之前对付贾蓉贾蔷）多表现为「能」，此回首次表现为「毒」：她完全可以严词拒绝、或告到贾母处，却选择「用最解恨的方式慢慢整死他」。有论者称此为凤姐「蓄意杀人」的起点。"
+        },
+        {
+          "type": "literary",
+          "title": "双重陷阱的结构",
+          "content": "「相思局」是局中局：凤姐设局整贾瑞，曹雪芹设局写凤姐。读者看见凤姐的毒，也看见毒计背后贾府伦理的空洞——一个当家的少奶奶，用「偷情」作饵整治族中子弟，手段与「家风」双输。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_rui",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_qiang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jia_rui_mirror_ch12",
+      "title": "贾天祥正照风月鉴",
+      "event_level": "major",
+      "chapter": {
+        "number": 12,
+        "title": "王熙凤毒设相思局 贾天祥正照风月鉴",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾代儒家/病榻",
+        "specific": "贾瑞病入膏肓，跛足道人送来「风月宝鉴」，嘱「只照背面」。贾瑞偏照正面：见凤姐招手，荡悠悠进镜与之云雨，三四次后精尽而亡。代儒怒烧镜子，镜中哭道「谁叫你们瞧正面了！」"
+      },
+      "summary": {
+        "short": "「风月宝鉴」是全书最重要的象征物之一：正面美色，背面骷髅——「以假为真」则死。贾瑞是全书中第一个、也是唯一一个「正照风月鉴」而死的人，他的死是给全书痴人看的标本。",
+        "meaning": [
+          "正面凤姐、背面骷髅——欲望与死亡本是一体两面",
+          "「只照背面」是全书唯一的救命药方——看破色相即活，执迷色相即死",
+          "贾代儒要烧镜——俗人不解点化，反怪法宝，写尽「愚」与「痴」的遗传"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「风月宝鉴」与《红楼梦》书名",
+          "content": "甲戌本「凡例」与脂批皆明言《红楼梦》曾题名《风月宝鉴》——贾瑞之死实为全书「色空」主题的微型预演。有红学家认为，「风月宝鉴」一节的笔法与全书其他部分差异明显，可能保留了曹雪芹早期旧稿《风月宝鉴》的痕迹。"
+        },
+        {
+          "type": "character",
+          "title": "死者不自知的死因",
+          "content": "贾瑞至死不知自己死于「照正面」：他每一次照镜都以为自己得偿所愿。曹雪芹写他的死毫无顿悟，正因其「执」之深——全书痴人死前多有悔悟（如秦钟），唯独贾瑞没有，他是「痴」的最纯粹形态。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jia_rui",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_lame_daoist",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_dairu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jia_rui_jia_dairu",
+      "from": "character_jia_rui",
+      "to": "character_jia_dairu",
+      "type": "祖孙（教养与压制）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾瑞父母早亡，贾代儒一手把他养大。这位老学究的管教严苛到畸形：冻夜归来罚他「跪在风地里念文章，不许吃饭」，病中仍逼他功课。高压家教养出的不是成才的孙子，而是一个表里分裂的废物——对祖父唯唯诺诺，对他人狐假虎威。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "严苛教养",
+          "chapter": 12,
+          "description": "贾瑞冻夜后遭祖父罚跪打板子，不许吃饭。"
+        },
+        {
+          "stage": 2,
+          "title": "白发人送黑发人",
+          "chapter": 12,
+          "description": "贾瑞死后代儒悲痛欲绝，要烧风月宝鉴。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_rui_wang_xifeng",
+      "from": "character_jia_rui",
+      "to": "character_wang_xifeng",
+      "type": "痴迷者与被算计者",
+      "nature": [
+        "social_alliance",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾瑞对凤姐是单向的肉欲痴迷；凤姐对贾瑞是单向的冷血算计。这段关系是全书「权力」叙事的极端样本：凤姐完全掌控节奏——她约他、晾他、冻他、讹他、浇他、最后「医死」他——而贾瑞到死都以为自己在「偷情」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "会芳园挑逗",
+          "chapter": 11,
+          "description": "贾瑞见凤姐起淫心，凤姐假意周旋。"
+        },
+        {
+          "stage": 2,
+          "title": "相思局",
+          "chapter": 12,
+          "description": "凤姐三番捉弄：冻夜、讹诈、屎尿浇身。"
+        },
+        {
+          "stage": 3,
+          "title": "死于执迷",
+          "chapter": 12,
+          "description": "贾瑞正照风月鉴遗精而死。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_rui_jia_rong_qiang",
+      "from": "character_jia_rui",
+      "to": "character_jia_rong",
+      "type": "被讹诈者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐设局，贾蓉、贾蔷二人假扮凤姐与平儿赴约，把贾瑞堵在夹道，逼他各写五十两银子的欠契，又浇他屎尿。两个风流子弟做「捉奸人」，本是天大笑话——而贾瑞的欠契后来成了二人不断上门勒索的由头。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "讹诈",
+          "chapter": 12,
+          "description": "贾蓉贾蔷逼贾瑞写欠契、浇屎尿。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jia_rui_bodao_daoren",
+      "from": "character_jia_rui",
+      "to": "character_bodao_daoren",
+      "type": "点化者与执迷者",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "跛足道人与贾瑞是「度与被度」的经典配对：道人给的是全书唯一的解药（风月宝鉴），贾瑞却只当它是偷情的工具。道人的「要紧，要紧」与镜中的哭声「谁叫你们瞧正面了」构成双重叹息——神仙也救不了自己找死的人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赠镜",
+          "chapter": 12,
+          "description": "跛足道人赠风月宝鉴，嘱只照背面。"
+        },
+        {
+          "stage": 2,
+          "title": "点化失败",
+          "chapter": 12,
+          "description": "贾瑞不听，正照而死。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jia_rui_xifeng_murder",
+      "title": "凤姐毒设相思局——是蓄意杀人还是自卫惩戒？",
+      "slug": "did-xifeng-murder-jia-rui",
+      "question_type": "character_motivation",
+      "importance_weight": 76,
+      "heat_weight": 74,
+      "neutral_overview": "凤姐本可严词拒绝或告发贾瑞，却选择「几时叫他死在我的手里」的长期算计。她的相思局到底是正当防卫的过度，还是蓄意谋杀？",
+      "viewpoint_ids": [
+        "vp_jia_rui_xifeng_murder",
+        "vp_jia_rui_xifeng_selfdefense",
+        "vp_jia_rui_xifeng_structure"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jia_rui_xifeng_murder",
+          "title": "蓄意杀人论：凤姐的杀心在先、局在后",
+          "summary": "凤姐在第十一回就说了「几时叫他死在我的手里」——杀心早于任何进一步的冒犯。此后她一步步引诱（约夜会）、加码（冻夜→讹诈→屎尿），完全是主动的猎杀。贾瑞之死虽死于照镜，但若无相思局，他不会病入膏肓。凤姐的「毒」在这里已越过惩戒的边界，进入谋杀。",
+          "evidence": [
+            "「他如果如此，几时叫他死在我的手里，他才知道我的手段！」（第十一回）",
+            "第二次设局时她主动召来贾蓉贾蔷——报复手段经过精心设计"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jia_rui_xifeng_selfdefense",
+          "title": "自卫惩戒论：贾瑞之死是「自作孽」，凤姐只是推了一把",
+          "summary": "贾瑞的死因在文本中是明确的——他自己「照正面」，遗精而死。凤姐的局虽狠，但每一步都给了贾瑞「停止」的机会：冻一夜、挨一桶屎尿，任何一个正常人都该知难而退，贾瑞却「仍然不改」。凤姐维护自身清白在先（她不能告发，因为「捉奸捉双」会毁她名节），惩戒在后；责任的大头在贾瑞的执迷。",
+          "evidence": [
+            "贾瑞冻夜、被讹、被浇后依然「满心想着凤姐」——惩戒无效，反证其痴",
+            "凤姐的名节处境：她无法公开告发一个「调戏嫂子」的族弟而不被反噬"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jia_rui_xifeng_structure",
+          "title": "结构功能论：相思局是为「风月宝鉴」服务的叙事装置",
+          "summary": "从叙事结构看，贾瑞故事的核心不是凤姐的道德问题，而是引出「风月宝鉴」。凤姐的「毒」是这个寓言的必要条件：没有她的局，就没有贾瑞的病；没有病，就没有镜。曹雪芹借凤姐之毒与贾瑞之痴共同完成「色空」主题的演示——追究「凤姐是否谋杀」，不如看她在全书「弄权—害命—反噬」链条上的位置。",
+          "evidence": [
+            "回目「王熙凤毒设相思局 贾天祥正照风月鉴」——「毒」与「鉴」并列，重心在后者",
+            "贾瑞死后凤姐的弄权叙事继续升级（铁槛寺害命）——贾瑞是她毒辣弧线的起点"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jia_rui_mirror",
+      "title": "「风月宝鉴」的寓意：色空警示还是欲望的性隐喻？",
+      "slug": "what-does-the-mirror-mean",
+      "question_type": "theme_analysis",
+      "importance_weight": 74,
+      "heat_weight": 70,
+      "neutral_overview": "一面镜子，正面凤姐、背面骷髅。跛足道人说它「专治邪思妄动之症」——这面镜子究竟在警示什么？",
+      "viewpoint_ids": [
+        "vp_jia_rui_mirror_buddhist",
+        "vp_jia_rui_mirror_psycho"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jia_rui_mirror_buddhist",
+          "title": "佛道点化论：镜即「色空」——美色即骷髅",
+          "summary": "风月宝鉴是《红楼梦》「色空」观的浓缩：正面是色相（凤姐的美），背面是本质（骷髅）。道人「只照背面」是全书的总劝诫——看破色相才能保生。贾瑞之死为全书痴人作「前车之鉴」，与「假作真时真亦假」的太虚幻境对联遥相呼应。",
+          "evidence": [
+            "「专治邪思妄动之症，有济世保生之功」——道人的自述",
+            "《红楼梦》曾题名《风月宝鉴》——书名本身即点明全书主题"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jia_rui_mirror_psycho",
+          "title": "欲望隐喻论：镜中的云雨是「手淫式」的自我消耗",
+          "summary": "贾瑞照镜的细节极具生理性——「荡悠悠」进镜云雨、「遗了一大滩精」。这面镜子实质是欲望的自我投射装置：镜中的凤姐不是凤姐，是贾瑞自己的妄想。他死于与自己的幻想交合——这是对「意淫」（宝玉）与「皮肤滥淫」（贾瑞）分野的最直白演示：后者连一个真实的对象都得不到，只能在镜中自我消耗至死。",
+          "evidence": [
+            "贾瑞死状描写（「身子底下冰凉渍湿一大滩精」）的生理写实",
+            "镜中凤姐与真实凤姐的对比——贾瑞从头到尾没有得到过真实"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch12_jia_rui_debt",
+      "quote": "贾瑞道：「如何落纸呢？」贾蔷道：「这也不妨，写一个赌钱输了外人帐目，借头家银若干两便罢。」……贾瑞作揖不迭，方写下两张欠契，每人五十两。",
+      "fact_type": "canonical_text_fact",
+      "note": "第十二回。贾蓉贾蔷逼写欠契——「局」中的经济勒索，凤姐假他人之手收债。"
+    },
+    {
+      "source_id": "source_ch12_jia_rui_still",
+      "quote": "（贾瑞被浇屎尿后）心里方想到是凤姐顽他，因此发一回恨；再想想凤姐的模样儿，又恨不得一时搂在怀内，一夜竟不曾合眼。",
+      "fact_type": "canonical_text_fact",
+      "note": "第十二回。明知被耍仍不死心——「痴」的病理学描写。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jia_rui_suoyin",
+      "title": "索隐派：贾瑞影射降清汉臣",
+      "type": "suoyinpai",
+      "fact_type": "disputed_version",
+      "author": "综合索隐派诸说",
+      "year": 1925,
+      "source_title": "红楼梦索隐诸说",
+      "description": "索隐派中有一说认为：贾瑞（瑞，字天祥）影射明末清初降清的汉臣——「天祥」反用文天祥（抗元不降），讥其名节尽失；「风月宝鉴」照镜即照史，正照为荣华（降清所得），反照为骷髅（名节已死）。此说与索隐派整体「反清悼明」框架一致，但缺乏文本内证，红学界主流视之为穿凿。",
+      "note": "attribution=suoyinpai"
+    },
+    {
+      "id": "viewpoint_jia_rui_function",
+      "title": "贾瑞故事的结构功能：全书的微型预演",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1988,
+      "source_title": "多项叙事结构研究",
+      "description": "学者指出，贾瑞（第十一、十二回）的故事是全书结局的微型预演：欲望→算计→病→镜→死，这个链条与全书「情→孽→病→悟→空」的主线同构。贾瑞死在全书「情案」全面铺开之前，是曹雪芹给读者提前放映的「死亡预告片」。其叙事位置（紧接秦可卿之病、先于秦可卿之死）也说明：曹雪芹以「欲之死」（贾瑞）与「情之死」（秦可卿）对照展开宁荣二府的崩塌。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 4,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 6,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 25,
+      "text_inference": 6,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 2,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

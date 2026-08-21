@@ -1,0 +1,530 @@
+{
+  "character": {
+    "id": "character_dengguniang",
+    "name": "灯姑娘",
+    "slug": "deng-gu-niang",
+    "aliases": [
+      "多姑娘"
+    ],
+    "category": "荣国府下人（厨子之妻、晴雯表嫂）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "荣国府厨子多浑虫（名多官）之妻；晴雯的表嫂（晴雯姑舅哥哥之妻）。脂本第七十七回称其夫为吴贵，程本将二人合一为「多浑虫、多姑娘」。",
+      "position": "荣府下人妻室，无具体差使。",
+      "origin": "出身不详，嫁与荣府厨子为妻。",
+      "generation": "与晴雯之兄同辈的仆役阶层"
+    },
+    "tags": [
+      "灯姑娘",
+      "多姑娘",
+      "青丝",
+      "俏平儿软语救贾琏",
+      "晴雯表嫂",
+      "考试过一半",
+      "证清白",
+      "性放浪",
+      "多浑虫",
+      "版本异文"
+    ],
+    "summary": {
+      "short": "荣府厨子多浑虫之妻（晴雯的表嫂），脂本第七十七回作「灯姑娘」，程本作「多姑娘」。第二十一回与贾琏偷情，赠青丝被平儿藏起；第七十七回宝玉探望病重晴雯时，她调戏宝玉，继而亲见二人清白，反为晴雯宝玉作证——全书最放浪的女人，给出了最干净的证词。",
+      "long": "灯姑娘（程本作「多姑娘」）是荣国府厨子多浑虫的妻子，也是晴雯的表嫂。第二十一回她以「多姑娘」之名出场：巧姐出痘，贾琏搬到外书房独宿，与多浑虫之妻勾搭成奸——「这媳妇有天生的奇趣，一经男子挨身，便觉遍身筋骨瘫软，使男子如卧绵上，更兼淫态浪言，压倒娼妓」。多姑娘赠贾琏一绺青丝，被平儿在铺盖中抖出藏起，替贾琏瞒过凤姐——「俏平儿软语救贾琏」。第七十七回她以「灯姑娘」之名再出场（脂本）：晴雯被逐后住在姑舅哥哥家，病重将死，宝玉偷出园来探望。灯姑娘在外听了半日，突然进来「把宝玉紧紧一抱」调戏，宝玉吓怔。她本要「勾引」，却亲见宝玉晴雯相对垂泪、以茶水相待、互诉清白，遂叹道「如今我反后悔错怪了你们」，并放话作证：「以后你只管来，我也不罗唣你。」——「上上下下竟有一半是他考试过的」最放浪的女人，成了晴雯之冤的唯一在场证人。她的存在构成全书最尖锐的反讽结构：王夫人以「狐狸精」之名撵晴雯，而真正的「狐狸精」就站在晴雯床边，替晴雯作证她是干净的。版本上，脂本第七十七回作「灯姑娘」（其夫吴贵），程高本作「多姑娘」（其夫多浑虫即晴雯姑舅哥哥），学界多认为二者为同一人物在不同版本系统中的异名。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "淫——「上上下下竟有一半是他考试过的」",
+        "fact_type": "canonical_text_fact",
+        "description": "灯姑娘的放浪写得极尽笔墨：满宅内「延揽英雄，收纳材俊」，一半的男人都「考试过」。她是全书性欲书写最直白的女人——但曹雪芹不把她写成脸谱化的淫妇：她的放浪有来由（嫁了个「不顾身命、一味死吃酒」的多浑虫），也有反转（为晴雯作证）。"
+      },
+      {
+        "dimension": "泼——敢调戏国公府的公子",
+        "fact_type": "canonical_text_fact",
+        "description": "第七十七回她见宝玉探晴雯，先是偷听，继而「把宝玉紧紧一抱」——全书唯一敢对宝玉动手动脚的女人。她的泼与她的淫同源：全无礼法束缚，也不把公子当神。"
+      },
+      {
+        "dimension": "真——放浪背后的义",
+        "fact_type": "canonical_text_fact",
+        "description": "灯姑娘亲见宝玉晴雯清白后，立即收起淫态，转为叹服与作证——「我反后悔错怪了你们」。她以自己的放浪为参照系，一眼辨出什么是真的情、什么是假的名：最脏的名声，给出了最干净的判断。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_dengguniang_affair_ch21",
+        "title": "与贾琏偷情，赠青丝（第二十一回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_dengguniang_flirt_ch77",
+        "title": "调戏探望晴雯的宝玉（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_dengguniang_testify_ch77",
+        "title": "亲见清白，为晴雯宝玉作证（第七十七回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch21_dengguniang_affair",
+        "quote": "（多浑虫之妻）这媳妇有天生的奇趣，一经男子挨身，便觉遍身筋骨瘫软，使男子如卧绵上，更兼淫态浪言，压倒娼妓。",
+        "fact_type": "canonical_text_fact",
+        "note": "第二十一回。全书对「多姑娘」最直白的定性——性放浪的极致书写。"
+      },
+      {
+        "source_id": "source_ch77_dengguniang_half",
+        "quote": "这媳妇遂恣情纵欲，满宅内便延揽英雄，收纳材俊，上上下下竟有一半是他考试过的。",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回。「考试过一半」——曹雪芹写放浪的黑色幽默，也是下文「证清白」反讽的铺垫。"
+      },
+      {
+        "source_id": "source_ch77_dengguniang_testify",
+        "quote": "（灯姑娘对宝玉道）「……可见天下委屈事也不少。如今我反后悔错怪了你们。既这等，你但放心，以后你只管来，我也不罗唣你。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十七回。最放浪的女人为最干净的冤屈作证——全书反讽结构的高峰。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「多姑娘」——情多；「灯姑娘」——浑虫之妻如灯油（一说形讹）",
+      "detail": "「多姑娘」之名直白点题：情多、欲多——第二十一回称她「多情美色之妻」，一个「多」字道尽其放浪。「灯姑娘」之「灯」有三说：一说因夫多浑虫乃「破烂酒头厨子」，厨火油灯，妻如灯油，取市井俚俗之趣；一说「灯」为「多」之形讹（草书「多」「灯」相近，传抄致误），故二名实为一人；一说「灯」字暗合「夜半挑灯」之淫。版本上，脂本（庚辰本）第七十七回作「灯姑娘」，程甲本、程乙本作「多姑娘」——且庚辰本正文自注「便是上回贾琏所接见的多浑虫、灯姑娘儿的便是了」，明言两处为同一人。",
+      "fact_type": "canonical_text_fact",
+      "disputes": [
+        "脂本第七十七回作「灯姑娘」，程甲本、程乙本作「多姑娘」，学界多认为「灯」「多」为形近传抄之异文，实为同一人物。",
+        "脂本系统内，第二十一回之多姑娘（多官之妻）与第七十七回之灯姑娘（吴贵之妻）是否原为二人、后被程本合并为一，亦有学者持异说。"
+      ]
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；多浑虫之妻，约二十余岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "多姑娘",
+      "type": "程高本名",
+      "context": "程甲本、程乙本第七十七回及诸本第二十一回作「多姑娘」，通行本多以此名统称",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "灯姑娘",
+      "type": "脂本名",
+      "context": "庚辰本等脂本第七十七回作「灯姑娘」；庚辰本自注其为第二十一回「多浑虫、灯姑娘儿」同一人",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_dengguniang_affair_ch21",
+      "title": "与贾琏偷情，赠青丝",
+      "event_level": "major",
+      "chapter": {
+        "number": 21,
+        "title": "贤袭人娇嗔箴宝玉 俏平儿软语救贾琏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（外书房、多浑虫家）",
+        "specific": "巧姐出痘，贾琏搬到外书房独宿，与多浑虫之妻勾搭。多姑娘赠贾琏一绺青丝为表记。次日平儿收拾铺盖，从枕套中抖出青丝，藏起未禀凤姐——凤姐查问时平儿巧言遮掩，替贾琏瞒过。"
+      },
+      "summary": {
+        "short": "第二十一回的多姑娘出场是「俏平儿软语救贾琏」的背景板：一场偷情、一绺青丝，牵出平儿的智与凤姐的妒。多姑娘是全书「淫」的计量单位——她的青丝是贾琏荒唐的物证。",
+        "meaning": [
+          "青丝为表记——多姑娘的放浪与贾琏的色胆，一物双写",
+          "平儿藏青丝——全书最有名的「救夫」场面，也写尽平儿的处境",
+          "凤姐查铺盖——她的精明查不到平儿的「软语」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "「淫」的对照物",
+          "content": "多姑娘在第二十一回的功能是对照：同回里袭人娇嗔箴宝玉（劝宝玉别跟姊妹们亲昵）、平儿软语救贾琏（替偷腥的丈夫遮掩）——贤与淫、警与瞒同回并置。曹雪芹写多姑娘的放浪，是为了丈量其他女性的「干净」与「委屈」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_dengguniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_duo_hunchong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_dengguniang_flirt_ch77",
+      "title": "调戏探望晴雯的宝玉",
+      "event_level": "minor",
+      "chapter": {
+        "number": 77,
+        "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "晴雯姑舅哥哥家",
+        "specific": "晴雯被逐后住在表兄家，病重将死。宝玉偷出园来探望，二人相对垂泪。灯姑娘在外听了半日，突然进来，「把宝玉紧紧一抱」调戏——宝玉吓怔，晴雯亦惊。灯姑娘却并不纠缠，反笑自己错看了人。"
+      },
+      "summary": {
+        "short": "第七十七回的调戏是全书最奇的一笔：宝玉探晴雯的生死诀别，被这个「考试过一半」的表嫂闯进来抱了一把。曹雪芹让最淫的场面贴着最悲的场面发生——而接下来，这个淫妇说了全书最公道的话。",
+        "meaning": [
+          "「把宝玉紧紧一抱」——全书唯一敢对宝玉动手的女人，礼法在她这里全无分量",
+          "调戏与诀别同室——淫与洁的极端并置",
+          "她的偷听（「听了半日」）是转折的关键：她是先听了情，才起了意"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "从偷听到动心",
+          "content": "灯姑娘先「听了半日」再进来调戏——她偷听的本意或许是抓奸，听到的却是一对璧人互诉委屈。她的调戏里有真实的艳羡：原来世上真有这样的情。这个「前调戏」的铺垫，让后文的「作证」有了可信的心理基础。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_dengguniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_dengguniang_testify_ch77",
+      "title": "亲见清白，为晴雯宝玉作证",
+      "event_level": "major",
+      "chapter": {
+        "number": 77,
+        "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "晴雯姑舅哥哥家",
+        "specific": "灯姑娘亲见宝玉晴雯清白无染，叹「可见天下委屈事也不少」，自悔「错怪了你们」，并许下证词：「以后你只管来，我也不罗唣你。」晴雯之冤由此有了唯一的在场证人——而证人恰是全书名声最脏的女人。"
+      },
+      "summary": {
+        "short": "灯姑娘的作证是第七十七回的点睛之笔：王夫人以「狐狸精」之名撵晴雯，真正的「狐狸精」却站在晴雯床边，证明她是干净的。全书最脏的名声给出最干净的证词——曹雪芹的反讽在此闭环。",
+        "meaning": [
+          "「我反后悔错怪了你们」——放浪者亲证清白者的冤屈",
+          "她的证词无效——一个淫妇的证词救不了晴雯，晴雯依然病死；但读者的心已经判了王夫人输",
+          "「你只管来」——她以自己的方式护着这对璧人，完成了全书最意外的一次「义」"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "theme",
+          "title": "证词的反讽结构",
+          "content": "曹雪芹安排「最淫者证最洁者」，是全书反讽手法的极致：王夫人的「理」、袭人的「贤」、园中婆子的「告」，都不如一个淫妇的一句话可信。名声在《红楼梦》里从来是反的——干净的蒙冤，放浪的作证。"
+        },
+        {
+          "type": "character",
+          "title": "放浪者的人性弧光",
+          "content": "灯姑娘的弧线在几十个字里完成：偷听→调戏→叹服→作证。她识得真的情（因为她见过的全是假的情欲），也肯为真的情让路（因为她的放浪本就不是恶）。曹雪芹用这个反转告诉读者：他笔下没有天生的淫妇，只有被生活搓磨过的女人。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_dengguniang",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qingwen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_dengguniang_jia_lian",
+      "from": "character_dengguniang",
+      "to": "character_jia_lian",
+      "type": "偷情（青丝表记）",
+      "nature": [
+        "romantic",
+        "lovers"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "第二十一回贾琏外宿，与多姑娘勾搭成奸，得赠青丝一绺。这段偷情是贾琏色胆的又一笔账，也是平儿「软语救琏」的由头。灯姑娘之于贾琏，是「淫」的等价交换：他图她的身，她图国公府琏二爷的面子。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "勾搭",
+          "chapter": 21,
+          "description": "贾琏外书房独宿，与多姑娘成奸。"
+        },
+        {
+          "stage": 2,
+          "title": "赠青丝",
+          "chapter": 21,
+          "description": "多姑娘赠青丝，被平儿藏起。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_dengguniang_pinger",
+      "from": "character_dengguniang",
+      "to": "character_pinger",
+      "type": "隐形的对手（青丝被截）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "平儿与灯姑娘从未照面，却隔着贾琏交手一次：灯姑娘赠的青丝，被平儿抖出、藏起、瞒过凤姐。一绺头发串起三个女人——赠的（灯姑娘）、藏的（平儿）、查的（凤姐），是全书最精密的「物线」之一。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "藏青丝",
+          "chapter": 21,
+          "description": "平儿抖出青丝，替贾琏瞒下。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_dengguniang_qingwen",
+      "from": "character_dengguniang",
+      "to": "character_qingwen",
+      "type": "姑嫂（表嫂）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "灯姑娘是晴雯的表嫂。晴雯被逐后栖身其家，病重将死——表嫂的放浪名声与晴雯的「狐狸精」冤名同屋而居。灯姑娘起初「错怪」晴雯，亲见清白后反悔作证。这对姑嫂是全书最反讽的一组亲戚：名声脏的那个，给了名声冤的那个唯一的公道。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "收留",
+          "chapter": 77,
+          "description": "晴雯被逐，住在表兄表嫂家。"
+        },
+        {
+          "stage": 2,
+          "title": "作证",
+          "chapter": 77,
+          "description": "灯姑娘亲见清白，为晴雯宝玉作证。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_dengguniang_jia_baoyu",
+      "from": "character_dengguniang",
+      "to": "character_jia_baoyu",
+      "type": "调戏者与作证者",
+      "nature": [
+        "conflict",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "第七十七回灯姑娘先调戏宝玉（「把宝玉紧紧一抱」），后为宝玉晴雯作证。她的调戏是全书唯一对宝玉的「冒犯」，她的证词却是全书对宝玉最意外的公道。宝玉于她是「错怪的公子」——她错怪过他，也还了他清白。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "调戏",
+          "chapter": 77,
+          "description": "灯姑娘闯进内间，把宝玉紧紧一抱。"
+        },
+        {
+          "stage": 2,
+          "title": "作证",
+          "chapter": 77,
+          "description": "她反悔错怪，许下证词。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_dengguniang_duo_hunchong",
+      "from": "character_dengguniang",
+      "to": "character_duo_hunchong",
+      "type": "夫妻（浑虫与灯油）",
+      "nature": [
+        "marriage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "多浑虫（名多官）是「极不成器破烂酒头厨子」，「懦弱无能」，「不顾身命，一味死吃酒」——灯姑娘的放浪被文本直接归因于这场婚姻：「见他不顾身命，不知风月……便不免有蒹葭倚玉之叹，红颜寂寞之悲」。一个浑虫丈夫，一个灯油妻子，是全书最荒凉的婚姻样本之一。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "错配",
+          "chapter": 21,
+          "description": "多姑娘嫁多浑虫，红颜寂寞。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_dengguniang_versions",
+      "title": "「灯姑娘」与「多姑娘」：一个人还是两个人？",
+      "slug": "deng-guniang-or-duo-guniang-one-or-two",
+      "question_type": "version_dispute",
+      "importance_weight": 62,
+      "heat_weight": 66,
+      "neutral_overview": "第二十一回偷情的厨子之妻叫「多姑娘」，第七十七回晴雯的表嫂脂本叫「灯姑娘」、程本叫「多姑娘」——两个名字背后，是同一个人物，还是两个人物？",
+      "viewpoint_ids": [
+        "vp_dengguniang_one",
+        "vp_dengguniang_two"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_dengguniang_one",
+          "title": "一人说：异名同人，庚辰本正文可证",
+          "summary": "庚辰本第七十七回正文明言：「若问他夫妻姓甚名谁，便是上回贾琏所接见的多浑虫、灯姑娘儿的便是了。」——脂本作者/抄手自认第七十七回的「灯姑娘」就是第二十一回的「多姑娘」。「灯」「多」二字草书形近，传抄致讹，实为同一人。程高本改「灯」为「多」，只是统一了异文，并未新造人物。此说为版本学主流。",
+          "evidence": [
+            "庚辰本第七十七回「便是上回贾琏所接见的多浑虫、灯姑娘儿的便是了」",
+            "「灯」「多」草书形近的传抄讹误机制",
+            "程甲本、程乙本统一作「多姑娘」"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_dengguniang_two",
+          "title": "二人说：脂本原写两个人物，程本合并为一",
+          "summary": "脂本系统内存在另一种可能：第二十一回的「多姑娘」（多官之妻）与第七十七回的「灯姑娘」（吴贵之妻）原本是两个人物——一个在荣府厨下，一个是晴雯的表嫂；曹雪芹写两个放浪妇人，各司其职。庚辰本那句「便是上回……的便是了」可能是抄手的补笔或作者早期的勾连残留。程高本为情节紧凑，把两人合并（让多浑虫兼任晴雯的姑舅哥哥），反失脂本原貌。此说为少数派，但提示《红楼梦》文本层累的复杂性。",
+          "evidence": [
+            "脂本第七十七回晴雯表兄名「吴贵」，与第二十一回「多官」名字不同",
+            "庚辰本勾连之句与其他正文笔调存在张力",
+            "程本的合并处理（多浑虫=晴雯之兄）是明显的编辑行为"
+          ],
+          "fact_type": "disputed_version"
+        }
+      ]
+    },
+    {
+      "id": "question_dengguniang_testify",
+      "title": "全书最放浪的女人，为什么偏偏给晴雯作了「清白」的证？",
+      "slug": "why-did-the-most-lascivious-woman-testify",
+      "question_type": "character_analysis",
+      "importance_weight": 70,
+      "heat_weight": 74,
+      "neutral_overview": "「上上下下竟有一半是他考试过的」灯姑娘，在晴雯将死之际为晴雯宝玉作证「干净」——曹雪芹为什么这样安排？",
+      "viewpoint_ids": [
+        "vp_dengguniang_complex",
+        "vp_dengguniang_structure"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_dengguniang_complex",
+          "title": "人性论：她不是脸谱化的淫妇，是见过情的女人",
+          "summary": "曹雪芹不写脸谱化的坏人：灯姑娘的放浪被写明来由（错嫁浑虫、红颜寂寞），她的调戏被写明本心（偷听半日、艳羡真情）。正因她见惯了假的情欲，一眼就能认出真的情——所以她「后悔错怪了你们」。她的证词不是良知突现，而是她的阅历给出的判断：她是最有资格分辨「干净与否」的人，因为她见过最不干净的。",
+          "evidence": [
+            "文本写明她的放浪源于错嫁多浑虫",
+            "她「听了半日」才闯进去——先见证，后动念",
+            "「我反后悔错怪了你们」——亲见之后的自悔"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_dengguniang_structure",
+          "title": "结构论：曹雪芹需要一份「最不可能」的证词",
+          "summary": "晴雯之冤的写法是层层反衬：王夫人凭名声定罪、袭人以「贤」获疑、婆子们借机报复——所有人的「正」都在冤枉她。此时需要一个最不正的人出来说公道话，反讽才能闭环：淫妇的证词虽然救不了晴雯（她仍病死），却在读者心里完成了对王夫人等人的审判。灯姑娘在此是叙事工具，更是作者的反讽机关。",
+          "evidence": [
+            "她的证词未改变晴雯的命运——功能在叙事而不在情节",
+            "与王夫人「狐狸精」之名构成正反对照",
+            "第七十七回整回的「冤枉」主题需要这份反证"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch21_dengguniang_hair",
+      "quote": "（平儿收拾贾琏铺盖）不承望枕套中抖出一绺青丝来。……（凤姐问起，平儿道）「这是昨日，我给你收拾的时候，不承望他（贾琏）床上……」（终替贾琏瞒下）。",
+      "fact_type": "canonical_text_fact",
+      "note": "第二十一回。青丝一绺——多姑娘与贾琏偷情的物证，平儿「软语救贾琏」的戏核。"
+    },
+    {
+      "source_id": "source_ch77_dengguniang_flirt",
+      "quote": "（灯姑娘）「好一个没分晓的哥儿……」（说着，把宝玉紧紧一抱）……（宝玉）急的满面红涨。",
+      "fact_type": "canonical_text_fact",
+      "note": "第七十七回。灯姑娘的调戏——全书唯一对宝玉动手动脚的女人。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_dengguniang_scholar",
+      "title": "灯姑娘/多姑娘：反讽人物谱系中的「淫妇证清」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1998,
+      "source_title": "多项人物专题研究",
+      "description": "学者将灯姑娘归入《红楼梦》「反讽证人」的人物谱系：她与焦大（骂出宁府丑事）、醉金刚倪二（义助贾芸）同属「名声最坏、证词最真」的底层人物——曹雪芹惯以边缘人的嘴巴说最公道的话。第七十七回的「作证」被视为这一笔法的高峰：王夫人以「狐狸精」之名驱逐晴雯，真正的狐狸精却证明晴雯干净。版本上，「灯姑娘/多姑娘」的异文与「吴贵/多浑虫」的合流，是《红楼梦》版本学讨论脂程异文的经典案例之一。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 5,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 24,
+      "text_inference": 2,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 2,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}

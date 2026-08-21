@@ -1,0 +1,706 @@
+{
+  "character": {
+    "id": "character_you_erjie",
+    "name": "尤二姐",
+    "slug": "you-er-jie",
+    "aliases": [
+      "尤二姨",
+      "二姐",
+      "尤家二姐"
+    ],
+    "category": "宁国府姻亲（尤氏之妹，贾琏外室）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "尤老娘之女，宁国府尤氏继母带来的妹妹（与尤氏并无血缘）。",
+      "position": "尤家二姐→贾琏偷娶的外室（花枝巷）→被凤姐赚入荣国府为妾。",
+      "origin": "寒素之家，随母依附宁国府。",
+      "generation": "与尤氏、凤姐同辈的年轻媳妇阶层"
+    },
+    "tags": [
+      "偷娶尤二姨",
+      "花枝巷",
+      "弄小巧用借剑杀人",
+      "吞生金自逝",
+      "副册人物",
+      "尤氏之妹",
+      "软弱性格",
+      "贾琏外室",
+      "凤姐对手",
+      "借刀杀人"
+    ],
+    "summary": {
+      "short": "尤氏继母带来的妹妹，貌美温柔（「花为肠肚，雪作肌肤」）。贾琏乘贾敬之丧偷娶于花枝巷，后被凤姐赚入荣国府，以「借剑杀人」之计逼死——吞生金自逝，是凤姐阴毒权术下最令人同情的牺牲品。",
+      "long": "尤二姐是尤老娘之女、尤氏继母带来的妹妹。第六十三回贾敬死时随母进宁府照应，其貌美温柔（兴儿形容她「花为肠肚，雪作肌肤」）与软弱性格就此登场。第六十四回贾琏垂涎其美色，乘国丧家孝之机「二舍偷娶尤二姨」，于小花枝巷金屋藏娇（第六十五回回目），并许以「凤姐病重将死」之说。尤三姐在世时，以泼辣护姐，戏耍贾珍贾琏（第六十五回）；三姐自刎后，二姐失去唯一的保护。第六十九回王熙凤闻讯后施展「弄小巧用借剑杀人」：先是赚二姐进荣国府（大闹宁国府之后），再唆使张华告状制造舆论，继而借秋桐之手羞辱折磨，最后纵容庸医胡君荣打掉二姐腹中男胎。尤二姐绝望之下吞生金自逝（第六十九回回目「觉大限吞生金自逝」）。判词未入正册（居副册），「千红一哭」中哀婉的一哭。死前梦中三姐托言警醒。她的悲剧是「温柔软弱」在凤姐「毒」面前的完败：不战而亡，比迎春的麻木更令人扼腕。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "貌美温柔——「花为肠肚，雪作肌肤」",
+        "fact_type": "canonical_text_fact",
+        "description": "兴儿向凤姐描述尤二姐「花为肠肚，雪作肌肤」——美貌与温柔是其被选中的原因，也是其悲剧的原因：她的美招来贾琏，她的柔使她毫无抵抗能力。曹雪芹以「花」「雪」写她：易碎、易污、易化。"
+      },
+      {
+        "dimension": "软弱忍让——不战而亡的性格悲剧",
+        "fact_type": "canonical_text_fact",
+        "description": "面对凤姐的迫害，尤二姐只知吞声忍气：被赚进府、被秋桐辱骂、被下人作践，她全盘接受，自认「命该如此」。她的软弱使凤姐的借刀杀人毫无阻力——「刀」砍向一个不躲闪的人。她的死是性格的必然：一个把委屈全部咽下的人，最终只能咽下金子。"
+      },
+      {
+        "dimension": "悔悟与托梦——死前的清醒",
+        "fact_type": "canonical_text_fact",
+        "description": "死前梦中，尤三姐托言警醒（「你一生为人心痴意软，终吃了这亏」），二姐方悟前因。她吞金前的平静（「既不得安生，亦是理之当然」）显示她死前已看透：错在轻信贾琏、错在贪慕虚荣，更错在软弱无依。这份迟到的清醒使她成为「千红一哭」中最凄婉的顿悟者。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_you_erjie_enter_ch63",
+        "title": "贾敬之丧，随母进宁府（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_you_erjie_marriage_ch64",
+        "title": "贾琏偷娶尤二姨（第六十四回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_you_erjie_huazhixiang_ch65",
+        "title": "花枝巷金屋藏娇，三姐护姐（第六十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_you_erjie_tricked_ch68",
+        "title": "凤姐赚二姐进府，大闹宁国府（第六十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_you_erjie_jiedao_ch69",
+        "title": "弄小巧用借剑杀人（第六十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_you_erjie_death_ch69",
+        "title": "吞生金自逝（第六十九回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch65_you_erjie_beauty",
+        "quote": "兴儿忙跪下回道：「……我们家的规矩，凡爷们大了，未娶亲之先都先放两个人伏侍的。二爷原有两个，谁知他来了没半年，都寻出不是来，都打发出去了。」……（凤姐问尤二姐为人）兴儿道：「……他那里，倒是个温柔和顺的人，模样儿又齐整。……那二姑娘更好，倒是那姑娘的模子儿。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十五回兴儿向凤姐、尤二姐介绍荣府诸人，兼论尤二姐「温柔和顺、模样齐整」。"
+      },
+      {
+        "source_id": "source_ch65_you_erjie_huaxue",
+        "quote": "兴儿道：「不是小的吃了酒放肆胡说，奶奶便有礼让，他看见奶奶比他标致，又比他得人心，他怎肯干休善罢……（尤二姐）花为肠肚，雪作肌肤」。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十五回。兴儿以「花为肠肚，雪作肌肤」形容尤二姐的美貌温柔。"
+      },
+      {
+        "source_id": "source_ch69_you_erjie_dream",
+        "quote": "尤二姐道：「……前儿我梦见你姐姐（尤三姐）……三姐道：『……你依我将此剑斩了那妒妇，一同归至警幻案下，听其发落。不然，你则白白的丧命，且无人怜惜。』」",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十九回尤二姐临死前梦三姐托言，三姐劝其以剑斩妒妇（凤姐）——二姐「心痴意软」，终不听从。"
+      },
+      {
+        "source_id": "source_ch69_you_erjie_gold",
+        "quote": "尤二姐……于是穿戴齐整，上炕躺下，当下就叫人悄悄将生金收来，命人拿金子，狠命吞下。……（回目）弄小巧用借剑杀人 觉大限吞生金自逝",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十九回。「借剑杀人」是凤姐权术的巅峰，「吞生金」是尤二姐悲剧的终点。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "尤氏之妹，「尤二姐」为排行称谓（尤家二姐）",
+      "detail": "「尤」字在《红楼梦》人名中别有深意：一作「尤物」之尤——尤氏姊妹皆以美色动人（红学家多持此说）；二作「由」「犹」谐音——尤二姐之「二」标示其「偏房、妾侍」的命运序列（正妻之外的「第二」身份）。她无名无姓，只有排行，与尤氏一样是「借来的妹妹」——身份的空洞预示命运的悬浮。",
+      "fact_type": "text_inference",
+      "disputes": [
+        {
+          "point": "「尤」字寓意之争：尤物说 vs 姓氏实录说",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（约20岁上下）"
+      },
+      "conclusion": "原文未见明文；贾琏偷娶时约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "尤二姨",
+      "type": "排行称谓",
+      "context": "贾琏偷娶后，花枝巷中人称「尤二姨」——第六十五回回目「贾二舍偷娶尤二姨」",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "二姐",
+      "type": "家人称谓",
+      "context": "尤老娘、尤三姐称其「二姐」，尤氏亦呼之",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_you_erjie_enter_ch63",
+      "title": "贾敬之丧，尤氏姊妹进宁府",
+      "event_level": "minor",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府",
+        "specific": "贾敬服金丹暴亡，尤氏独艳理丧，接尤老娘并尤二姐、尤三姐进府照应。贾琏乘机见色起意。"
+      },
+      "summary": {
+        "short": "贾敬之死打开宁国府大门，尤氏姊妹随母进府——「死金丹」与「独艳理亲丧」的回目暗示：孝服之下是情欲的温床。尤二姐从此进入贾府权力的猎场。",
+        "meaning": [
+          "贾敬之丧是「礼」与「欲」的反讽场景：国孝家孝期间，贾琏贾珍照旧渔色",
+          "尤二姐以「照应家务」之名进府，实际成为珍琏兄弟的猎物",
+          "她的命运从进府那一刻起就被决定：没有娘家、没有名分、只有美色"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「死金丹」与「艳理丧」——礼崩乐坏的反讽",
+          "content": "回目「死金丹独艳理亲丧」以「死」与「艳」对举：贾敬求仙而死，其丧礼却成为子侄辈渔色的机会。曹雪芹在此埋下尤二姐悲剧的第一因：一个被礼法保护最严的场合（国孝家孝），恰恰是礼法失效最彻底的场合。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_erjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_you_sanjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_jing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_erjie_marriage_ch64",
+      "title": "贾琏偷娶尤二姨——花枝巷金屋藏娇",
+      "event_level": "major",
+      "chapter": {
+        "number": 64,
+        "title": "幽淑女悲题五美吟 浪荡子情遗九龙佩",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "小花枝巷",
+        "specific": "贾琏以九龙佩为定礼，在贾珍撮合下偷娶尤二姐，于小花枝巷买房安置，鲍二夫妇伺候。贾琏许愿「凤姐一死，就接你进去做正室」——尤二姐信以为真。"
+      },
+      "summary": {
+        "short": "贾琏在国孝家孝期间偷娶尤二姐，藏于花枝巷。这场「偷娶」集纳了偷情、骗婚、纳妾的多重非法性——而尤二姐把「正室之约」的空头支票当成了终身依靠。",
+        "meaning": [
+          "「偷娶」而非「纳妾」——贾琏的许诺（扶正）是骗局的全部筹码",
+          "花枝巷的「金屋」是温柔乡也是牢笼：二姐从此与社会隔绝，无人可依",
+          "尤二姐轻信的开始，就是她「心痴意软」命运的确诊"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "轻信的代价",
+          "content": "尤二姐并非全无过去（与贾珍父子的暧昧传闻），但她选择「从良」的赌注——轻信贾琏的扶正许诺，轻信凤姐「将死」的谎言。她的轻信源于对「从良」的渴望：一个没有退路的女子，把全部希望押在一个浪荡子的嘴上。"
+        },
+        {
+          "type": "hongxue",
+          "title": "「素行不端」的版本问题",
+          "content": "尤二姐与贾珍父子的关系，各版本描写程度不同：有版本直写其「先与姐夫有染」，有版本含蓄带过。红学家认为曹雪芹原意是写尤氏姊妹在宁府的污浊环境中难以清白，二姐的「不端」是被环境所迫，与三姐的刚烈形成对照。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_erjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_erjie_huazhixiang_ch65",
+      "title": "尤三姐护姐戏珍琏",
+      "event_level": "major",
+      "chapter": {
+        "number": 65,
+        "title": "贾二舍偷娶尤二姨 尤三姐思嫁柳二郎",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "小花枝巷",
+        "specific": "贾珍贾琏在花枝巷饮酒，尤三姐发泼辣怒戏珍琏，二人反被「嫖了」。三姐以放浪形骸护住姐姐的门户，并替二姐盘算终身。"
+      },
+      "summary": {
+        "short": "尤三姐以泼辣狂态戏耍贾珍贾琏，保住二姐的「小家」。这是尤二姐生命中唯一被保护的时期——三姐在世一天，珍琏便不敢轻举妄动一天。",
+        "meaning": [
+          "三姐之泼是二姐之柔的镜像：同一环境中两姐妹的两种生存策略",
+          "三姐的「嫖了男人」是对男性权力的倒转——用放浪击退放浪",
+          "三姐的存在是二姐的护城河——三姐一死，二姐便门户大开"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "柔与泼的辩证法",
+          "content": "曹雪芹把尤氏姊妹写成性格的两极：二姐以柔求生，三姐以泼求生。事实是三姐的「泼」暂时赢了（珍琏被镇住），二姐的「柔」步步后退。姊妹对照的悲剧性在于：泼的三姐死于情，柔的二姐死于名——两种策略都救不了她们。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_erjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_you_sanjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_erjie_tricked_ch68",
+      "title": "凤姐赚二姐进府，大闹宁国府",
+      "event_level": "major",
+      "chapter": {
+        "number": 68,
+        "title": "苦尤娘赚入大观园 酸凤姐大闹宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/宁国府",
+        "specific": "凤姐得知偷娶之事，素服来访花枝巷，以「姊妹相称、同侍一夫」的甜言蜜语将尤二姐赚入荣国府；随后大闹宁国府，向尤氏贾蓉勒索五百两银子并出尽恶气，同时暗中指使张华告状。"
+      },
+      "summary": {
+        "short": "凤姐以「贤德」面具赚尤二姐进府——二姐以为遇到了「知疼着热」的姐姐，实则踏进了猎场。大闹宁国府既勒索了银钱，又扫除了舆论障碍；指使张华告状，则是「借刀」的第一刀。",
+        "meaning": [
+          "「赚入」是整场谋杀的第一步：把猎物引进笼子，剥夺其一切退路",
+          "大闹宁国府的政治功能：让贾珍尤氏理亏，从此不敢庇护二姐",
+          "张华告状是舆论武器：以「国孝家孝、停妻再娶」的罪名把二姐钉死在社会道德上"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「酸凤姐」的权术美学",
+          "content": "曹雪芹以两回篇幅（第六十八、六十九回）完整展示凤姐的连环计：先礼后兵、先甜后毒、先告状后除根。尤二姐之死不是一时冲动，而是一套精密执行的谋杀程序——这使凤姐成为全书唯一「把杀人写成艺术」的人物。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_erjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_shi",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_erjie_jiedao_ch69",
+      "title": "弄小巧用借剑杀人——秋桐借刀与庸医打胎",
+      "event_level": "major",
+      "chapter": {
+        "number": 69,
+        "title": "弄小巧用借剑杀人 觉大限吞生金自逝",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（尤二姐住处）",
+        "specific": "凤姐先纵容贾琏新妾秋桐辱骂作践尤二姐（借刀），又安排庸医胡君荣为二姐诊病，开「虎狼之药」打掉其腹中男胎。二姐「病已成痨」，求生无望。"
+      },
+      "summary": {
+        "short": "凤姐的「借剑杀人」分三步：借秋桐之口辱杀其心、借庸医之手堕杀其胎、借下人之怠慢困杀其身。尤二姐腹中男胎被打下，是压垮她的最后一根稻草——她失去了活下去的唯一理由。",
+        "meaning": [
+          "秋桐是「剑」：凤姐挑动妻妾内斗，自己全程「装贤惠」，手上不沾血",
+          "胡君荣堕胎是「借刀」的最毒处：断人子嗣，比杀人更狠",
+          "男胎的失去意味着尤二姐在贾府失去了「母以子贵」的最后希望"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「借剑杀人」的叙事完成度",
+          "content": "回目「弄小巧用借剑杀人」把凤姐的权术升格为「艺术」：她全程未动手，甚至表面还在「可怜」二姐，却让二姐腹中儿死、身中病生、心中无望。曹雪芹以此写尽妻妾制度中最隐秘的暴力——杀人者无罪，被杀者「自逝」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_erjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qiu_tong",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_erjie_death_ch69",
+      "title": "吞生金自逝",
+      "event_level": "major",
+      "chapter": {
+        "number": 69,
+        "title": "弄小巧用借剑杀人 觉大限吞生金自逝",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "尤二姐梦三姐劝其斩妒妇，不听。随后吞生金自尽，死时「觉大限」已至。贾琏无钱安葬，赖平儿私房银子二百两（一说）方得停灵。凤姐在灵前假哭，表演「贤良」。"
+      },
+      "summary": {
+        "short": "尤二姐吞金自逝——「生金」的冰冷与她的「花为肠肚」形成终极对照。死后贾琏无钱安葬、凤姐灵前假哭——死亡不能终结阴谋，只是阴谋的最后一幕道具。",
+        "meaning": [
+          "「吞生金」的象征：把「金」（富贵梦）吞下肚去——她死于对富贵的贪慕与轻信",
+          "贾琏无钱安葬：那个许诺扶正的浪荡子，连丧葬费都拿不出——全靠平儿的私房银",
+          "凤姐哭灵：把「贤妻」表演到底——曹雪芹以一场假哭完成对权术人物的最后审判"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "平儿的私房银——丫鬟的义与爷们的凉薄",
+          "content": "尤二姐身后，贾琏身为丈夫拿不出丧葬费，反而是平儿（凤姐的丫鬟）偷出私房银接济。这一细节是全书最刺骨的对照：身份最低的平儿最有情义，地位最高的凤姐贾琏最是凉薄。平儿的「义」在尤二姐的尸骨旁，完成了对「名分」的审判。"
+        },
+        {
+          "type": "hongxue",
+          "title": "尤二姐判词归属之争",
+          "content": "尤二姐未入正册（居副册）。红学家就其是否可与香菱、晴雯等副册人物并论有讨论：有论者认为她是「千红一哭」中最典型的「被吞没者」——不是被命运，而是被具体的权术吞没。她的故事是曹雪芹对「温柔软弱」这一性格的最严厉的批评。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_erjie",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_you_sanjie",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_you_erjie_wang_xifeng",
+      "from": "character_you_erjie",
+      "to": "character_wang_xifeng",
+      "type": "加害者与受害者（连环计）",
+      "nature": [
+        "conflict",
+        "patronage"
+      ],
+      "direction": "one-way",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐与尤二姐的关系是全书最完整的「谋杀关系」：凤姐以贤德面具赚入二姐，以连环计（告状、借刀、堕胎）逼死之。二姐至死对凤姐无恨，只恨自己命苦——这种「被害者不怨」使悲剧更冷。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赚入",
+          "chapter": 68,
+          "description": "凤姐素服甜言，赚二姐进府。"
+        },
+        {
+          "stage": 1,
+          "title": "偷娶事发",
+          "chapter": 65,
+          "description": "贾琏偷娶尤二姐，凤姐闻讯暗藏杀机。"
+        },
+        {
+          "stage": 2,
+          "title": "借剑",
+          "chapter": 69,
+          "description": "凤姐纵容秋桐辱骂、安排庸医堕胎。"
+        },
+        {
+          "stage": 2,
+          "title": "赚入大观园",
+          "chapter": 68,
+          "description": "凤姐以贤惠之姿迎尤二姐入府。"
+        },
+        {
+          "stage": 3,
+          "title": "哭灵",
+          "chapter": 69,
+          "description": "二姐死后凤姐灵前假哭，表演贤良。"
+        },
+        {
+          "stage": 3,
+          "title": "借刀杀人",
+          "chapter": 69,
+          "description": "尤二姐吞金自尽。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_you_erjie_you_sanjie",
+      "from": "character_you_erjie",
+      "to": "character_you_sanjie",
+      "type": "姐妹（护姐与托梦）",
+      "nature": [
+        "kinship",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤氏姊妹是性格的两极：二姐柔顺，三姐刚烈。三姐在世时以泼辣护姐（戏珍琏），并劝二姐早谋终身；三姐死后托梦二姐，劝其「斩了那妒妇」——二姐不听，遂死。姊妹互为镜像，互为命运：三姐死于情，二姐死于名。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "护姐",
+          "chapter": 65,
+          "description": "三姐怒戏珍琏，保住二姐门户。"
+        },
+        {
+          "stage": 2,
+          "title": "托梦",
+          "chapter": 69,
+          "description": "三姐托梦劝二姐反抗，二姐不从。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_you_erjie_you_shi",
+      "from": "character_you_erjie",
+      "to": "character_you_shi",
+      "type": "名义姐妹（继母带来）",
+      "nature": [
+        "siblings"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤二姐是尤氏继母（尤老娘）之女，与尤氏并无血缘。贾敬之丧时尤氏接她们进府照应，无意间把妹妹送入虎口。二姐受难时尤氏无力庇护——她连自己的地位都保不稳。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "进府",
+          "chapter": 63,
+          "description": "尤氏接尤老娘母女进宁府。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_you_erjie_character",
+      "title": "尤二姐的悲剧是性格悲剧还是制度悲剧？",
+      "slug": "you-erjie-character-or-system-tragedy",
+      "question_type": "character_analysis",
+      "importance_weight": 72,
+      "heat_weight": 68,
+      "neutral_overview": "尤二姐死于凤姐的「借剑杀人」，但她的软弱与轻信也助长了这场谋杀。她的死，该归咎于凤姐的毒、制度的恶，还是自己的软？",
+      "viewpoint_ids": [
+        "vp_you_erjie_system",
+        "vp_you_erjie_character"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_you_erjie_system",
+          "title": "制度悲剧论：妻妾制度使谋杀合法化",
+          "summary": "尤二姐的悲剧根子在妻妾制度：妾无法律地位，正妻有权「管教」；偷娶非法，故二姐进府即失去一切退路。凤姐的连环计之所以畅通无阻，是因为每一步都踩在制度的合法点上——告状合法、管教合法、休弃合法。二姐不是死于凤姐一人，是死于一张制度之网。",
+          "evidence": [
+            "偷娶非法性使二姐无法反抗",
+            "凤姐每一步都「合法」（告状、纳秋桐、寻医）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_you_erjie_character",
+          "title": "性格悲剧论：软弱与轻信是真正的「刀」",
+          "summary": "同样处境的尤三姐敢「嫖了男人」，二姐却只会忍。她轻信贾琏的扶正许诺、轻信凤姐的贤惠表演，被赚入府后全无自救意识——连三姐托梦劝她反抗都不听。曹雪芹写她的软弱之彻底（吞金而不怒），正说明悲剧的另一半责任在她自己：她的「柔」是凤姐「毒」的助燃剂。",
+          "evidence": [
+            "三姐托梦劝斩妒妇，二姐不从",
+            "进府前尤氏已警告凤姐厉害，二姐仍轻信"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_you_erjie_register",
+      "title": "尤二姐为何不入正册（副册）？",
+      "slug": "why-you-erjie-not-in-main-register",
+      "question_type": "character_analysis",
+      "importance_weight": 62,
+      "heat_weight": 55,
+      "neutral_overview": "尤二姐故事篇幅不短（第六十三至六十九回），为何判词只在副册？",
+      "viewpoint_ids": [
+        "vp_you_erjie_register_structure",
+        "vp_you_erjie_register_theme"
+      ],
+      "fact_type": "scholarly_viewpoint",
+      "viewpoints": [
+        {
+          "id": "vp_you_erjie_register_structure",
+          "title": "结构论：正册十二钗须是「贵族少女」",
+          "summary": "正册十二钗皆为贾、史、王、薛四大家族之小姐（及钗黛湘妙），尤二姐作为已嫁之妾、寒门之女，身份不符。副册（香菱一类）已含「妾」类人物。红学家认为正册的取舍标准是「出身+未婚+主角级」——尤二姐输在出身与名分。",
+          "evidence": [
+            "正册十二钗名单的身份特征",
+            "香菱入副册而尤二姐并提"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_you_erjie_register_theme",
+          "title": "主题论：她是「千红一哭」的支线样本",
+          "summary": "尤氏姊妹的故事是「千红一哭」主题的支线变奏：二姐代表「被权术吞没的柔弱者」，三姐代表「被礼教逼死的刚烈者」。她们不入正册，正说明曹雪芹的悲剧网络大于十二钗——正册是主干，副册以下是无边的枝叶。",
+          "evidence": [
+            "「千红一哭」的主题结构",
+            "尤氏姊妹故事的篇幅与情感强度"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch65_chapter_title",
+      "quote": "第六十五回回目：贾二舍偷娶尤二姨 尤三姐思嫁柳二郎",
+      "fact_type": "canonical_text_fact",
+      "note": "「二舍」指贾琏排行第二，「偷娶」定其非法性。"
+    },
+    {
+      "source_id": "source_ch68_chapter_title",
+      "quote": "第六十八回回目：苦尤娘赚入大观园 酸凤姐大闹宁国府",
+      "fact_type": "canonical_text_fact",
+      "note": "「苦尤娘」——曹雪芹对尤二姐的定评：苦。"
+    },
+    {
+      "source_id": "source_ch69_chapter_title",
+      "quote": "第六十九回回目：弄小巧用借剑杀人 觉大限吞生金自逝",
+      "fact_type": "canonical_text_fact",
+      "note": "「借剑杀人」与「吞生金」——全书最著名的阴谋与最凄婉的自尽之一。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_you_erjie_pity",
+      "title": "「苦尤娘」——曹雪芹对弱者悲剧的定性",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1988,
+      "source_title": "红学人物专题研究",
+      "description": "红学家指出，回目「苦尤娘赚入大观园」的「苦」字是曹雪芹对尤二姐的最终定性：她的「苦」在于身不由己（无父无家）、在于遇人不淑（贾琏之凉薄）、在于对手太强（凤姐之毒）。尤二姐形象的意义在于：她是全书唯一被「程序化谋杀」的人物——凤姐的连环计完整展示了权术社会里弱者的绝境。学者多将其与迎春并论：迎春死于麻木，尤二姐死于软弱，二人都死于「不敢反抗」。"
+    },
+    {
+      "id": "viewpoint_you_erjie_fengjie_craft",
+      "title": "「借剑杀人」——凤姐权术的巅峰与曹雪芹的批判",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学叙事研究",
+      "year": 1992,
+      "source_title": "红学叙事结构研究",
+      "description": "学者分析第六十八、六十九回的叙事设计：曹雪芹以「赚入—告状—借刀—堕胎—哭灵」五步完成一场不动手的谋杀，每步都有「合法」外衣。论者指出这一情节的功能有三：一是完成凤姐形象的「毒」面（此前只有「泼」），二是展示妻妾制度的制度性暴力，三是为「一从二令三人木」的判词作铺垫——凤姐的权术终将反噬自身。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 7,
+    "citation_coverage": 0.92,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 26,
+      "text_inference": 5,
+      "scholarly_viewpoint": 6,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

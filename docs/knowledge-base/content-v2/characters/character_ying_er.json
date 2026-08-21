@@ -1,0 +1,453 @@
+{
+  "character": {
+    "id": "character_ying_er",
+    "name": "莺儿",
+    "slug": "ying-er",
+    "aliases": [
+      "黄金莺"
+    ],
+    "category": "薛家丫鬟（宝钗首席丫鬟）",
+    "importance_level": "minor",
+    "content_level": "L1",
+    "identity": {
+      "family": "薛家世仆，父母为薛家管事（其母与茗烟之母交好）。",
+      "position": "薛宝钗首席丫鬟（梨香院/蘅芜苑）。",
+      "origin": "薛家从金陵带来的家生丫鬟。",
+      "generation": "与宝钗同辈的丫鬟阶层"
+    },
+    "tags": [
+      "黄金莺",
+      "金莺微露意",
+      "比通灵",
+      "黄金莺巧结梅花络",
+      "金锁",
+      "金玉良缘",
+      "会打络子",
+      "巧舌",
+      "陪嫁"
+    ],
+    "summary": {
+      "short": "宝钗的丫鬟黄金莺。第八回「金莺微露意」——她一句话点破通灵宝玉与宝钗金锁「是一对儿」，无意间说破「金玉良缘」的天机；第三十五回「黄金莺巧结梅花络」——她的巧手与巧舌，是宝钗世界最得体的陪衬。",
+      "long": "莺儿本名黄金莺，是薛宝钗从金陵带来的首席丫鬟。她第一次重要出场在第八回「比通灵金莺微露意」：宝玉到梨香院看宝钗，宝钗要看通灵玉，莺儿在一旁看玉上「莫失莫忘，仙寿恒昌」八字，嘻嘻笑道：「我听这两句话，倒像和姑娘的项圈上的两句话是一对儿。」——这一句点破天机：宝钗金锁上的「不离不弃，芳龄永继」与玉上八字恰成一对，正合「金玉良缘」。莺儿还要说金锁「是个癞头和尚送的，必须錾在金器上」的来历，被宝钗打断。第三十五回「黄金莺巧结梅花络」：宝玉请莺儿打络子，她大谈配色之道——「大红的须是黑络子才好看的，或是石青的才压的住颜色」「松花配桃红」——显出超越身份的艺术修养。谈话间她又提起「我们姑娘有几样世人都没有的好处呢」，正要说，宝钗恰好进来打断。两处「微露意」都被人为掐断——莺儿是「金玉良缘」最忠实的解说员，却总在关键时刻被消音。后四十回（gaoe）写宝钗出嫁时，莺儿作为陪嫁丫鬟随行，是宝钗婚姻的见证者。莺儿的形象功能清晰：她是宝钗的「外化」——宝钗不说的，她说；宝钗要藏的，她露。主仆二人在「说与不说」之间的默契与错位，正是宝钗人格复杂性的一个微缩镜头。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "巧——巧手与巧舌",
+        "fact_type": "canonical_text_fact",
+        "description": "回目两个「巧」字都给莺儿：「微露意」的巧舌（一句话点破金玉一对），「结梅花络」的巧手（配色论自成体系）。她的「巧」是宝钗调教的结果：主子藏拙，丫鬟必须巧而不泄——她的巧里全是分寸。"
+      },
+      {
+        "dimension": "露——总被掐断的「露意」",
+        "fact_type": "canonical_text_fact",
+        "description": "莺儿两次「微露意」（说金玉一对、说宝钗的好处）都被宝钗当场打断。这个反复出现的「打断」是她的性格符号：她想说的，正是宝钗想藏的；她的「露」与宝钗的「藏」构成主仆间最微妙的角力。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_ying_er_bitong_ch8",
+        "title": "比通灵——金莺微露意（第八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_ying_er_meihua_ch35",
+        "title": "黄金莺巧结梅花络（第三十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_ying_er_peijia_hou40",
+        "title": "后四十回：陪宝钗出嫁（gaoe）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch8_ying_er_bitong",
+        "quote": "（宝钗看通灵玉）莺儿嘻嘻笑道：「我听这两句话，倒像和姑娘的项圈上的两句话是一对儿。」……莺儿笑道：「是个癞头和尚送的，他说必须錾在金器上——」宝钗不待说完，便嗔他不去倒茶。",
+        "fact_type": "canonical_text_fact",
+        "note": "第八回「比通灵金莺微露意」。「一对儿」三字点破金玉之缘，被宝钗打断。"
+      },
+      {
+        "source_id": "source_ch35_ying_er_se",
+        "quote": "莺儿道：「大红的须是黑络子才好看的，或是石青的才压的住颜色。」……莺儿道：「松花配桃红。」……（莺儿道）「我们姑娘有几样世人都没有的好处呢，模样儿还在次。」宝玉见莺儿娇憨婉转，语笑如痴，早不胜其情了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十五回「黄金莺巧结梅花络」。配色之论与「好处」之说，两次被宝钗来打断。"
+      },
+      {
+        "source_id": "source_ch59_ying_er_liu",
+        "quote": "（莺儿）见那柳条儿又嫩又长，便摘了些来，编成个小花篮……送给黛玉。",
+        "fact_type": "canonical_text_fact",
+        "note": "第五十九回。莺儿编花篮——她的「巧」在大观园日常中的延续。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "黄金莺——「金」字丫鬟配「金」字小姐",
+      "detail": "「莺」是报春、善鸣之鸟，暗合她「微露意」的巧舌；「黄金莺」三字更藏玄机——宝钗是「金锁」、丫鬟名「金莺」，主仆皆是「金」，而对手黛玉的丫鬟是紫鹃、雪雁（木石之鸟）。「金莺」之鸣，是「金玉良缘」阵营里唯一发声的鸟：她一开口，露的就是金玉的天机。脂评赞其名「金莺」与「玉钏」成对，皆是「金玉」体系的仆人。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；宝钗丫鬟，约十四五岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "黄金莺",
+      "type": "本名",
+      "context": "第三十五回回目「黄金莺巧结梅花络」——「金莺」与宝钗的「金锁」同属金系",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_ying_er_bitong_ch8",
+      "title": "比通灵——金莺微露意",
+      "event_level": "major",
+      "chapter": {
+        "number": 8,
+        "title": "比通灵金莺微露意 探宝钗黛玉半含酸",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "梨香院（宝钗住处）",
+        "specific": "宝玉到梨香院探病宝钗，宝钗要看通灵玉，念出「莫失莫忘，仙寿恒昌」。莺儿插话：「倒像和姑娘的项圈上的两句话是一对儿。」宝玉要看金锁，锁上正是「不离不弃，芳龄永继」。莺儿还要说金锁来历，被宝钗「嗔他不去倒茶」打断。"
+      },
+      "summary": {
+        "short": "「金玉良缘」的第一次公开亮相，由莺儿一句话完成：玉有八字，锁有八字，「是一对儿」。曹雪芹把全书最重要的「姻缘宣示」安排给一个丫鬟来说——因为宝钗自己不能说，而莺儿「天真无邪」地说破了。",
+        "meaning": [
+          "「一对儿」——金玉姻缘的第一次点题，出自丫鬟之口",
+          "宝钗打断——她的「藏」与莺儿的「露」第一次交手",
+          "黛玉随后到场「半含酸」——金玉良缘从此与木石前盟正面开战"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "被掐断的解说员",
+          "content": "莺儿的功能是「替宝钗说宝钗不能说的事」：金锁的来历（癞头和尚錾金）、金玉的一对——这些若由宝钗亲口说，就是「自荐」，由丫鬟说，就是「天机」。宝钗的两次打断，恰证明这些「露」都在她的剧本之内：说，是要说的；拦，也是要拦的。"
+        },
+        {
+          "type": "literary",
+          "title": "回目「微露意」的三重机关",
+          "content": "「金莺微露意」的「意」至少三重：金玉之缘的意、薛家联姻的意、曹雪芹伏笔的意——全书最大的婚姻伏线，用一个「微」字压着，用「露」字挑开，分寸感绝伦。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ying_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ying_er_meihua_ch35",
+      "title": "黄金莺巧结梅花络",
+      "event_level": "major",
+      "chapter": {
+        "number": 35,
+        "title": "白玉钏亲尝莲叶羹 黄金莺巧结梅花络",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "宝玉挨打后养伤，请莺儿来打络子。莺儿大谈配色：红配黑、松花配桃红。宝玉问她「姐姐的好处」，莺儿正要夸宝钗「有几样世人都没有的好处」，宝钗来了，说要给宝玉的玉打络子，还主张「金线配黑珠儿线」——「拿了玉，先把金线打个络子」暗合金玉相配。"
+      },
+      "summary": {
+        "short": "回目「黄金莺巧结梅花络」——莺儿的巧手展示了薛家的「雅」，她的巧舌又差点说出宝钗的「好处」。「金线打络子」的细节让金玉良缘再度显影：玉要金络子来配。",
+        "meaning": [
+          "配色论——丫鬟口中的审美体系，是宝钗式「藏而不露的修养」的民间版",
+          "「几样世人都没有的好处」——第二次被掐断的「露意」，宝钗的秘密永远是半句",
+          "金线配玉——宝钗主张的络子方案，把「金玉相配」落实到了针线上"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「金线络玉」的象征",
+          "content": "宝钗说「倒不如打个络子把玉络上」，且要用「金线」——玉是宝玉的命根，金线是薛家的象征：金线络玉，等于把「金玉良缘」的蓝图画在了通灵玉上。莺儿打络子的手艺，成了这场联姻设计的「施工队」。"
+        },
+        {
+          "type": "character",
+          "title": "巧手背后的调教",
+          "content": "莺儿的配色学问、谈吐风度，都是宝钗式的「藏拙于巧」：主子教丫鬟藏，丫鬟学主子露——薛家的丫鬟体系，是宝钗人格的延伸车间。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ying_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_ying_er_peijia_hou40",
+      "title": "后四十回：陪宝钗出嫁（gaoe）",
+      "event_level": "minor",
+      "chapter": {
+        "number": 97,
+        "title": "林黛玉焚稿断痴情 薛宝钗出闺成大礼",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "荣国府（宝钗婚礼）",
+        "specific": "后四十回（gaoe）写宝钗与宝玉成婚（「掉包计」），莺儿作为陪嫁丫鬟随宝钗入洞房，与雪雁同充「搀新人」之职。此后她继续服侍宝钗，见证宝钗婚后独守、宝玉出家的全过程。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）写莺儿陪嫁、随宝钗进入她的婚姻。她是「金玉良缘」从话术变成现实的全程见证者——只是这场婚姻从洞房起就是「掉包」的空壳，她与宝钗一起守着这个空壳。",
+        "meaning": [
+          "陪嫁——莺儿作为「金系」丫鬟，随金锁小姐走完联姻全程",
+          "洞房里的莺儿——见证了「金玉良缘」最讽刺的成真方式（掉包计）",
+          "她的「巧舌」从此再无用武之地——宝钗的秘密守成了死局"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "「露意者」的最后沉默",
+          "content": "莺儿的形象弧线以「露」始、以「默」终：她当年点破的「一对儿」，最终以最不堪的方式（掉包计）成真。后四十回（gaoe）让她全程在场却不再开口——那个会「微露意」的巧舌丫鬟，随金玉良缘一起哑了。",
+          "note": "attribution=gaoe"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ying_er",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_xueyan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_ying_er_xue_baochai",
+      "from": "character_ying_er",
+      "to": "character_xue_baochai",
+      "type": "主仆",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "莺儿是宝钗的「外化声部」：宝钗要藏的金玉天机，她「天真」地露；宝钗要断的话头，她立刻收。主仆间的两次「打断」是她们关系的全部语法——莺儿的巧是宝钗调教的结果，莺儿的露也在宝钗的掌控之内。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "微露意",
+          "chapter": 8,
+          "description": "莺儿点破金玉一对，宝钗打断。"
+        },
+        {
+          "stage": 2,
+          "title": "再露再断",
+          "chapter": 35,
+          "description": "莺儿欲说宝钗好处，宝钗到场打断。"
+        },
+        {
+          "stage": 3,
+          "title": "陪嫁",
+          "chapter": 97,
+          "description": "莺儿随宝钗出嫁（gaoe）。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ying_er_jia_baoyu",
+      "from": "character_ying_er",
+      "to": "character_jia_baoyu",
+      "type": "露意对象",
+      "nature": [
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "莺儿对宝玉的全部功能是「输送宝钗信息」：比通灵时说「一对儿」，打络子时说「好处」。宝玉被她「娇憨婉转」迷住，与其说欣赏莺儿，不如说被「宝钗世界的细节」吸引——莺儿是宝钗伸向宝玉的触角。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "比通灵",
+          "chapter": 8,
+          "description": "莺儿向宝玉点破金玉一对。"
+        },
+        {
+          "stage": 2,
+          "title": "打络子",
+          "chapter": 35,
+          "description": "莺儿为宝玉的玉打络子，谈宝钗好处。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_ying_er_yuchuan",
+      "from": "character_ying_er",
+      "to": "character_yuchuan",
+      "type": "并置（金玉丫鬟）",
+      "nature": [
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "第三十五回回目「白玉钏亲尝莲叶羹 黄金莺巧结梅花络」——「白玉钏」与「黄金莺」对举：玉钏是「玉」系（金钏之妹，属宝玉房），莺儿是「金」系（宝钗之婢）。一回之内，金玉两个丫鬟各献其艺，是「金玉良缘」在丫鬟层的对称展览。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "同回并置",
+          "chapter": 35,
+          "description": "白玉钏尝羹与黄金莺结络同回展开。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_ying_er_louyi",
+      "title": "莺儿的「微露意」是天真失言，还是宝钗授意？",
+      "slug": "was-yingers-leak-innocent-or-scripted",
+      "question_type": "character_motivation",
+      "importance_weight": 72,
+      "heat_weight": 70,
+      "neutral_overview": "「金莺微露意」——莺儿点破金玉一对时，宝钗在场；宝钗打断她时，又打断得恰到好处。这一露一断，是丫鬟的天真，还是主仆的双簧？",
+      "viewpoint_ids": [
+        "vp_ying_er_louyi_innocent",
+        "vp_ying_er_louyi_scripted"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_ying_er_louyi_innocent",
+          "title": "天真论：童言无忌，宝钗补救",
+          "summary": "莺儿是「嘻嘻笑道」说出的——她的「露」是丫鬟的天真：看见玉上有字、想起锁上有字，随口就说。宝钗的两次打断恰是主子的补救：她不希望金玉之事以如此直白的方式公开。若说双簧，宝钗不会「不待说完，便嗔他不去倒茶」——这个「嗔」是真嗔。",
+          "evidence": [
+            "莺儿说「一对儿」时的「嘻嘻笑」——儿童式的随口",
+            "宝钗的「嗔」与「打断」——真拦假拦，细读可见其不悦"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_ying_er_louyi_scripted",
+          "title": "授意论：宝钗要的就是「由丫鬟说出口」",
+          "summary": "宝钗主动要看通灵玉、主动念出玉上八字，本身就是在「引」莺儿说话——否则她大可不提金锁。莺儿的「一对儿」说出口，宝钗要的信息（金玉相配）已送达宝玉，再「打断」只是体面。薛家的联姻宣传，需要「天真无邪」的渠道，莺儿就是那个渠道。",
+          "evidence": [
+            "看玉、念字都是宝钗主动——话题的发动权在宝钗",
+            "打断莺儿说金锁来历后，金锁的信息依然完整传达给了宝玉（宝玉自己看锁）"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_ying_er_baochai_hao",
+      "title": "「我们姑娘有几样世人都没有的好处」——宝钗的好处到底是什么？",
+      "slug": "what-are-baochais-hidden-virtues",
+      "question_type": "textual_verification",
+      "importance_weight": 66,
+      "heat_weight": 68,
+      "neutral_overview": "莺儿两次要夸宝钗，两次被打断——曹雪芹为何始终不让读者听见宝钗的「好处」？",
+      "viewpoint_ids": [
+        "vp_ying_er_hao_hidden"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_ying_er_hao_hidden",
+          "title": "悬置论：说不出的好处才是宝钗的「藏」",
+          "summary": "曹雪芹故意让「宝钗的好处」永远停在半句——这正是写宝钗的笔法：她的全部人格都建立在「藏」上，若好处被说尽，她就不再是宝钗。且从语境看，莺儿要说的无非「学问、行事、贞静」之类，读者其实已从全书见惯；「不说」的修辞意义远大于内容。第二次被打断（宝钗到场）更妙：薛家小姐不许人说她好——「自矜者不明」，她深谙此道。",
+          "evidence": [
+            "两次「微露意」都在「好处」处断裂——结构性重复，非偶然",
+            "宝钗全书「藏愚守拙」的一贯形象"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch8_ying_er_lock",
+      "quote": "（宝钗道）「成日家说你的这玉，究竟未曾细细的赏鉴，我今儿倒要瞧瞧。」……（宝玉看金锁）果然一面有四个篆字，两面八字，共成两句吉谶：「不离不弃，芳龄永继。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第八回。金锁八字与玉上「莫失莫忘，仙寿恒昌」恰成一对——金玉良缘的「物证」。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_ying_er_function",
+      "title": "莺儿的叙事功能：金玉良缘的「旁白员」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1994,
+      "source_title": "多项丫鬟研究",
+      "description": "学者指出，莺儿与紫鹃构成「钗黛阵营」的丫鬟对称：紫鹃替黛玉问姻缘（试玉），莺儿替宝钗说姻缘（露意）——黛玉阵营的丫鬟敢「做」，宝钗阵营的丫鬟会「说」。莺儿两次被打断的「露意」，是曹雪芹精心设计的「说而未尽」修辞：金玉良缘的信息要透（给宝玉、给读者），金玉良缘的动机要藏（薛家不好自荐）。莺儿因此是全书最标准的「功能型丫鬟」之一：她的巧舌不属于自己，属于「金玉」叙事的需要。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 3,
+    "total_relationships": 3,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 4,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 16,
+      "text_inference": 4,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 2,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

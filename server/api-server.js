@@ -1,0 +1,1187 @@
+/**
+ * 红楼宇宙 · 轻量数据服务（零依赖，纯 Node http + node:sqlite）
+ * 功能：访问统计 / 内容反馈 / 管理后台 / 社区（注册·登录·邀请码·发帖·盖楼·审核·上传）
+ *       / 观点点赞（问题页红学家观点，viewpoint_likes）/ 评论点赞（comment_likes）
+ *       / 发帖引用红学家观点（posts.quote JSON 字段）
+ * 存储：JSONL 追加写（track/feedback/health）+ SQLite（users/posts/comments）
+ */
+const http = require("http");
+const fs = require("fs");
+const path = require("path");
+const crypto = require("crypto");
+const { DatabaseSync } = require("node:sqlite");
+
+const PORT = process.env.PORT || 4000;
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
+const UPLOAD_DIR = process.env.UPLOAD_DIR || path.join(__dirname, "uploads");
+const ADMIN_KEY = process.env.ADMIN_KEY || "honglou-2026";
+const SESSION_DAYS = 30;
+const MAX_UPLOAD_BYTES = 5 * 1024 * 1024;
+
+fs.mkdirSync(DATA_DIR, { recursive: true });
+fs.mkdirSync(UPLOAD_DIR, { recursive: true });
+
+/* ---------- SQLite ---------- */
+const db = new DatabaseSync(path.join(DATA_DIR, "hlm.db"));
+db.exec(`
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT UNIQUE NOT NULL,
+  pass_hash TEXT NOT NULL,
+  role TEXT NOT NULL DEFAULT 'user',
+  status TEXT NOT NULL DEFAULT 'active',
+  created_at INTEGER NOT NULL
+);
+CREATE TABLE IF NOT EXISTS sessions (
+  token TEXT PRIMARY KEY,
+  user_id INTEGER NOT NULL,
+  created_at INTEGER NOT NULL,
+  expires_at INTEGER NOT NULL
+);
+CREATE TABLE IF NOT EXISTS invite_codes (
+  code TEXT PRIMARY KEY,
+  note TEXT NOT NULL DEFAULT '',
+  used_by INTEGER,
+  created_at INTEGER NOT NULL,
+  used_at INTEGER
+);
+CREATE TABLE IF NOT EXISTS posts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  author_id INTEGER NOT NULL,
+  title TEXT NOT NULL,
+  content TEXT NOT NULL,
+  tag TEXT NOT NULL DEFAULT '自由讨论',
+  images TEXT NOT NULL DEFAULT '[]',
+  status TEXT NOT NULL DEFAULT 'pending',
+  like_count INTEGER NOT NULL DEFAULT 0,
+  view_count INTEGER NOT NULL DEFAULT 0,
+  created_at INTEGER NOT NULL,
+  reviewed_at INTEGER,
+  reviewed_by INTEGER
+);
+CREATE TABLE IF NOT EXISTS comments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  post_id INTEGER NOT NULL,
+  author_id INTEGER NOT NULL,
+  content TEXT NOT NULL,
+  reply_to INTEGER,
+  status TEXT NOT NULL DEFAULT 'pending',
+  created_at INTEGER NOT NULL
+);
+CREATE TABLE IF NOT EXISTS likes (
+  user_id INTEGER NOT NULL,
+  post_id INTEGER NOT NULL,
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (user_id, post_id)
+);
+CREATE TABLE IF NOT EXISTS viewpoint_likes (
+  user_id INTEGER NOT NULL,
+  question_id TEXT NOT NULL,
+  viewpoint_id TEXT NOT NULL,
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (user_id, question_id, viewpoint_id)
+);
+CREATE TABLE IF NOT EXISTS comment_likes (
+  user_id INTEGER NOT NULL,
+  comment_id INTEGER NOT NULL,
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (user_id, comment_id)
+);
+CREATE TABLE IF NOT EXISTS notifications (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  type TEXT NOT NULL,
+  from_user_id INTEGER,
+  post_id INTEGER,
+  comment_id INTEGER,
+  question_id TEXT,
+  title TEXT NOT NULL DEFAULT '',
+  body TEXT NOT NULL DEFAULT '',
+  read INTEGER NOT NULL DEFAULT 0,
+  created_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_notifications_user ON notifications(user_id, read, created_at DESC);
+CREATE TABLE IF NOT EXISTS test_results (
+  user_id INTEGER PRIMARY KEY,
+  archetype_id TEXT NOT NULL,
+  character_id TEXT NOT NULL,
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_test_results_type ON test_results(archetype_id);
+CREATE INDEX IF NOT EXISTS idx_posts_status ON posts(status, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_comments_post ON comments(post_id, created_at);
+CREATE INDEX IF NOT EXISTS idx_sessions_exp ON sessions(expires_at);
+CREATE INDEX IF NOT EXISTS idx_comment_likes_comment ON comment_likes(comment_id);
+`);
+/* 迁移：posts 增加 question_id（问题页内嵌讨论区关联） */
+const postCols = db.prepare("PRAGMA table_info(posts)").all().map((c) => c.name);
+if (!postCols.includes("question_id")) {
+  db.exec("ALTER TABLE posts ADD COLUMN question_id INTEGER");
+}
+/* 迁移：posts 增加 quote（引用的红学家观点 JSON，问题页发帖引用） */
+if (!postCols.includes("quote")) {
+  db.exec("ALTER TABLE posts ADD COLUMN quote TEXT");
+}
+/* 迁移：comments 增加 like_count（评论点赞计数） */
+const commentCols = db.prepare("PRAGMA table_info(comments)").all().map((c) => c.name);
+if (!commentCols.includes("like_count")) {
+  db.exec("ALTER TABLE comments ADD COLUMN like_count INTEGER NOT NULL DEFAULT 0");
+}
+db.exec("CREATE INDEX IF NOT EXISTS idx_posts_question ON posts(question_id, status, created_at DESC)");
+/* 迁移：users 增加 avatar / signature（个人中心） */
+const userCols = db.prepare("PRAGMA table_info(users)").all().map((c) => c.name);
+if (!userCols.includes("avatar")) {
+  db.exec("ALTER TABLE users ADD COLUMN avatar TEXT");
+}
+if (!userCols.includes("signature")) {
+  db.exec("ALTER TABLE users ADD COLUMN signature TEXT");
+}
+
+/* 引导：首个用户注册将成为管理员；用户表为空时预置一个初始邀请码 */
+const BOOTSTRAP_CODE = `HLM-${crypto.randomBytes(3).toString("hex").toUpperCase()}-${crypto.randomBytes(3).toString("hex").toUpperCase()}`;
+const nUsers0 = db.prepare("SELECT COUNT(*) c FROM users").get().c;
+if (nUsers0 === 0) {
+  db.prepare("INSERT OR IGNORE INTO invite_codes (code, note, created_at) VALUES (?, '初始管理员', ?)")
+    .run(BOOTSTRAP_CODE, Date.now());
+  console.log(`[bootstrap] 首个用户（将成为管理员）的注册邀请码: ${BOOTSTRAP_CODE}`);
+}
+
+/* ---------- 敏感词（先发后审的兜底标记） ---------- */
+const SENSITIVE_WORDS = [
+  "加微信", "加我微信", "代开发票", "办贷款", "赌博", "博彩", "刷单",
+  "诈骗", "传销", "裸聊", "色情", "出售枪支", "迷药", "假币",
+];
+
+/* ---------- JSONL 工具 ---------- */
+function appendLine(file, obj) {
+  fs.appendFileSync(path.join(DATA_DIR, file), JSON.stringify(obj) + "\n");
+}
+
+function readLines(file) {
+  const p = path.join(DATA_DIR, file);
+  if (!fs.existsSync(p)) return [];
+  return fs
+    .readFileSync(p, "utf8")
+    .split("\n")
+    .filter(Boolean)
+    .map((l) => {
+      try {
+        return JSON.parse(l);
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean);
+}
+
+function dayOf(ts) {
+  const d = new Date(ts);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function send(res, code, obj, extra = {}) {
+  res.writeHead(code, {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    ...extra,
+  });
+  res.end(JSON.stringify(obj));
+}
+
+function readBody(req, limit = 1_000_000) {
+  return new Promise((resolve, reject) => {
+    let body = "";
+    let size = 0;
+    req.on("data", (c) => {
+      size += c.length;
+      if (size > limit) {
+        reject(new Error("too large"));
+        req.destroy();
+        return;
+      }
+      body += c;
+    });
+    req.on("end", () => resolve(body));
+    req.on("error", reject);
+  });
+}
+
+/* ---------- 认证 ---------- */
+function hashPassword(password, salt = crypto.randomBytes(16).toString("hex")) {
+  const hash = crypto.scryptSync(password, salt, 32).toString("hex");
+  return `${salt}$${hash}`;
+}
+
+function verifyPassword(password, stored) {
+  const [salt, hash] = stored.split("$");
+  if (!salt || !hash) return false;
+  const calc = crypto.scryptSync(password, salt, 32).toString("hex");
+  return crypto.timingSafeEqual(Buffer.from(calc, "hex"), Buffer.from(hash, "hex"));
+}
+
+function makeSession(userId) {
+  const token = crypto.randomBytes(24).toString("hex");
+  const now = Date.now();
+  db.prepare("INSERT INTO sessions (token, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)")
+    .run(token, userId, now, now + SESSION_DAYS * 86400000);
+  return token;
+}
+
+function sessionUser(req) {
+  const cookie = (req.headers.cookie || "").split(";").map((c) => c.trim());
+  const pair = cookie.find((c) => c.startsWith("hlm_session="));
+  if (!pair) return null;
+  const token = pair.slice("hlm_session=".length);
+  const s = db.prepare(
+    "SELECT s.user_id, u.username, u.role, u.status, u.avatar, u.signature, u.created_at FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token = ? AND s.expires_at > ?",
+  ).get(token, Date.now());
+  if (!s) return null;
+  if (s.status !== "active") return null;
+  return { id: s.user_id, username: s.username, role: s.role, avatar: s.avatar, signature: s.signature, created_at: s.created_at };
+}
+
+function needAuth(req, res) {
+  const u = sessionUser(req);
+  if (!u) {
+    send(res, 401, { ok: false, msg: "请先登录" });
+    return null;
+  }
+  return u;
+}
+
+function needAdmin(req, res) {
+  const u = needAuth(req, res);
+  if (!u) return null;
+  if (u.role !== "admin") {
+    send(res, 403, { ok: false, msg: "需要管理员权限" });
+    return null;
+  }
+  return u;
+}
+
+function sensitiveHit(text) {
+  const t = text || "";
+  return SENSITIVE_WORDS.find((w) => t.includes(w)) || null;
+}
+
+/* ---------- 通知工具 ---------- */
+/** 给某用户写入一条站内通知 */
+function notify(userId, type, fromUserId, payload) {
+  if (!userId) return;
+  db.prepare(
+    "INSERT INTO notifications (user_id, type, from_user_id, post_id, comment_id, question_id, title, body, read, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 0, ?)",
+  ).run(
+    userId,
+    type,
+    fromUserId ?? null,
+    payload.post_id ?? null,
+    payload.comment_id ?? null,
+    payload.question_id ?? null,
+    String(payload.title || "").slice(0, 120),
+    String(payload.body || "").slice(0, 300),
+    Date.now(),
+  );
+}
+
+/** 某问题上参与过的用户（发过帖/评论过），排除指定用户；用于"有人在该问题下盖楼"通知 */
+function questionParticipants(qid, excludeUserId) {
+  if (!qid) return [];
+  const rows = db.prepare(
+    "SELECT DISTINCT author_id FROM posts WHERE question_id = ? AND status != 'removed' UNION SELECT DISTINCT c.author_id FROM comments c JOIN posts p ON p.id = c.post_id WHERE p.question_id = ? AND c.status != 'removed'",
+  ).all(qid, qid);
+  return rows.map((r) => r.author_id).filter((id) => id !== excludeUserId);
+}
+
+/** 人格测试统计：站内总测人数 + 各类型人数 */
+function testStats() {
+  const total = db.prepare("SELECT COUNT(*) c FROM test_results").get().c;
+  const byType = db.prepare(
+    "SELECT archetype_id, character_id, COUNT(*) c FROM test_results GROUP BY archetype_id, character_id ORDER BY c DESC",
+  ).all();
+  return { total, byType };
+}
+
+/* ---------- 敏感词/数据工具 ---------- */
+function postView(p, viewer) {
+  const isOwner = viewer && p.author_id === viewer.id;
+  const isAdmin = viewer && viewer.role === "admin";
+  if (p.status === "removed" && !isAdmin) return null;
+  if (!isOwner && !isAdmin && p.status !== "approved") return null;
+  let quote = null;
+  if (p.quote) {
+    try {
+      quote = JSON.parse(p.quote);
+    } catch {
+      quote = null;
+    }
+  }
+  return {
+    id: p.id,
+    title: p.title,
+    content: p.content,
+    tag: p.tag,
+    images: JSON.parse(p.images || "[]"),
+    status: p.status,
+    like_count: p.like_count,
+    view_count: p.view_count,
+    question_id: p.question_id ?? null,
+    quote,
+    author: { id: p.author_id, username: p.author_username },
+    created_at: p.created_at,
+  };
+}
+
+function commentView(c) {
+  return {
+    id: c.id,
+    post_id: c.post_id,
+    content: c.content,
+    reply_to: c.reply_to,
+    floor: c.floor,
+    like_count: c.like_count ?? 0,
+    author: { id: c.author_id, username: c.author_username },
+    created_at: c.created_at,
+  };
+}
+
+/** 评论点赞状态表：comment_id -> { count, likedByViewer } */
+function commentLikesMap(commentIds, viewerId) {
+  const map = {};
+  if (commentIds.length === 0) return map;
+  const marks = commentIds.map(() => "?").join(",");
+  for (const row of db.prepare(
+    `SELECT comment_id, COUNT(*) c FROM comment_likes WHERE comment_id IN (${marks}) GROUP BY comment_id`,
+  ).all(...commentIds)) {
+    map[row.comment_id] = { count: row.c, liked: false };
+  }
+  for (const id of commentIds) if (!map[id]) map[id] = { count: 0, liked: false };
+  if (viewerId) {
+    for (const row of db.prepare(
+      `SELECT comment_id FROM comment_likes WHERE comment_id IN (${marks}) AND user_id = ?`,
+    ).all(...commentIds, viewerId)) {
+      if (map[row.comment_id]) map[row.comment_id].liked = true;
+    }
+  }
+  return map;
+}
+
+/* ---------- 静态工具 ---------- */
+const PAGE_HEAD = `<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>红楼宇宙 · 管理后台</title><style>
+body{font-family:-apple-system,"PingFang SC",sans-serif;max-width:960px;margin:24px auto;padding:0 16px;color:#333}
+h1{font-size:20px}h2{font-size:16px;margin-top:28px;border-left:3px solid #A63834;padding-left:8px}
+.metrics{display:flex;gap:16px;flex-wrap:wrap}.metric{border:1px solid #ddd;border-radius:12px;padding:16px 22px;min-width:110px}
+.metric b{font-size:24px;color:#A63834;display:block}
+table{border-collapse:collapse;width:100%;font-size:13px;margin-top:8px}
+td,th{border:1px solid #e0e0e0;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#f5f1ea}.ok{color:#2e7d32}.warn{color:#c62828}
+.tab{display:inline-block;padding:6px 14px;margin:4px 6px 0 0;border-radius:8px;background:#f5f1ea;text-decoration:none;color:#333;font-size:13px}
+.tab.on{background:#A63834;color:#fff}
+.btn{border:0;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:12px;color:#fff}
+.btn-g{background:#2e7d32}.btn-r{background:#c62828}.btn-o{background:#e67e22}
+.quiet{color:#999;font-size:12px}
+</style></head><body>`;
+const PAGE_FOOT = `</body></html>`;
+
+function esc(s) {
+  return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+function adminNav(active) {
+  const tabs = [
+    ["overview", "概览"],
+    ["posts", "帖子审核"],
+    ["comments", "评论审核"],
+    ["users", "用户"],
+    ["invites", "邀请码"],
+  ];
+  return tabs
+    .map(([k, label]) => `<a class="tab ${active === k ? "on" : ""}" href="?view=${k}">${label}</a>`)
+    .join("");
+}
+
+function adminOverviewHtml(me) {
+  const tracks = readLines("track.jsonl");
+  const now = Date.now();
+  const today = dayOf(now);
+  const byDay = {};
+  for (const t of tracks) {
+    const d = dayOf(t.ts);
+    byDay[d] = byDay[d] || { pv: 0, ips: new Set() };
+    byDay[d].pv++;
+    byDay[d].ips.add(t.ip);
+  }
+  const weekDays = [];
+  for (let i = 6; i >= 0; i--) weekDays.push(dayOf(now - i * 86400000));
+  const week = { pv: 0, uv: 0 };
+  for (const d of weekDays) if (byDay[d]) {
+    week.pv += byDay[d].pv;
+    week.uv += byDay[d].ips.size;
+  }
+  const nUsers = db.prepare("SELECT COUNT(*) c FROM users").get().c;
+  const nPosts = db.prepare("SELECT COUNT(*) c FROM posts").get().c;
+  const pending = db.prepare("SELECT COUNT(*) c FROM posts WHERE status='pending'").get().c;
+  const nComments = db.prepare("SELECT COUNT(*) c FROM comments").get().c;
+  const cPending = db.prepare("SELECT COUNT(*) c FROM comments WHERE status='pending'").get().c;
+  const nInvites = db.prepare("SELECT COUNT(*) c FROM invite_codes").get().c;
+  const usedInvites = db.prepare("SELECT COUNT(*) c FROM invite_codes WHERE used_at IS NOT NULL").get().c;
+  const mem = process.memoryUsage();
+  const memMB = Math.round((mem.rss / 1024 / 1024) * 10) / 10;
+  const dbsize = Math.round(fs.statSync(path.join(DATA_DIR, "hlm.db")).size / 1024);
+  const rows = weekDays.map((d) => {
+    const b = byDay[d];
+    return `<tr><td>${d}</td><td>${b?.pv || 0}</td><td>${b?.ips?.size || 0}</td></tr>`;
+  }).join("");
+  return `<p class="quiet">登录：${esc(me.username)}（管理员）· <a href="/logout">退出</a></p>
+  <div class="metrics">
+    <div class="metric"><b>${byDay[today]?.pv || 0}</b>今日 PV</div>
+    <div class="metric"><b>${byDay[today]?.ips.size || 0}</b>今日 UV</div>
+    <div class="metric"><b>${week.pv}</b>近7天 PV</div>
+    <div class="metric"><b>${nUsers}</b>用户</div>
+    <div class="metric"><b>${pending}</b>待审帖子</div>
+    <div class="metric"><b>${cPending}</b>待审评论</div>
+    <div class="metric"><b>${usedInvites}/${nInvites}</b>邀请码已用</div>
+    <div class="metric"><b>${memMB}MB</b>进程内存</div>
+    <div class="metric"><b>${dbsize}KB</b>数据库</div>
+  </div>
+  <h2>近 7 天访问</h2><table><tr><th>日期</th><th>PV</th><th>UV</th></tr>${rows}</table>`;
+}
+
+function moderationWords() {
+  const map = {};
+  for (const m of readLines("moderation.jsonl")) {
+    if (m && m.id) map[`${m.kind}:${m.id}`] = m.word;
+  }
+  return map;
+}
+
+const STATUS_LABEL = { pending: "待审核", approved: "已发布", rejected: "已驳回", removed: "已删除" };
+
+function adminPostsHtml() {
+  const mods = moderationWords();
+  const rows = db.prepare(
+    `SELECT p.*, u.username author_username FROM posts p JOIN users u ON u.id = p.author_id ORDER BY p.created_at DESC LIMIT 100`,
+  ).all().map((p) => {
+    const statusColor = p.status === "pending" ? "warn" : p.status === "approved" ? "ok" : "";
+    const why = p.status === "pending"
+      ? (mods[`post:${p.id}`] ? ` 敏感词「${esc(mods[`post:${p.id}`])}」` : "")
+      : p.reviewed_by === 0 ? "（自动通过）" : "";
+    const actions = p.status === "pending"
+      ? `<button class="btn btn-g" onclick="review(${p.id},'approved')">通过</button>
+         <button class="btn btn-r" onclick="review(${p.id},'rejected')">驳回</button>`
+      : `<button class="btn btn-r" onclick="review(${p.id},'removed')">下架</button>`;
+    return `<tr><td>${p.id}</td><td><b>${esc(p.title)}</b><br><span class="quiet">${esc(p.tag)} · ${esc(p.author_username)} · ${new Date(p.created_at).toLocaleString("zh-CN", { hour12: false })}</span></td>
+    <td class="${statusColor}">${STATUS_LABEL[p.status] ?? p.status}${why}</td><td>${esc(p.content).slice(0, 120)}</td><td>${actions}</td></tr>`;
+  }).join("");
+  return `<h2>帖子（近 100 条，未命中敏感词的内容已自动通过）</h2>
+  <table><tr><th>ID</th><th>标题 / 作者 / 时间</th><th>状态</th><th>内容摘要</th><th>操作</th></tr>${rows || '<tr><td colspan="5">暂无</td></tr>'}</table>
+  <script>async function review(id, action){ if(!confirm('确认执行 '+action+'？'))return; await fetch('api/admin/posts/'+id+'/review',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action})}); location.reload(); }</script>`;
+}
+
+function adminCommentsHtml() {
+  const mods = moderationWords();
+  const rows = db.prepare(
+    `SELECT c.*, u.username author_username, p.title post_title FROM comments c JOIN users u ON u.id = c.author_id JOIN posts p ON p.id = c.post_id ORDER BY c.created_at DESC LIMIT 100`,
+  ).all().map((c) => {
+    const why = c.status === "pending"
+      ? (mods[`comment:${c.id}`] ? ` 敏感词「${esc(mods[`comment:${c.id}`])}」` : "")
+      : "";
+    const actions = c.status === "pending"
+      ? `<button class="btn btn-g" onclick="review(${c.id},'approved')">通过</button>
+         <button class="btn btn-r" onclick="review(${c.id},'rejected')">驳回</button>`
+      : `<button class="btn btn-r" onclick="review(${c.id},'removed')">删除</button>`;
+    return `<tr><td>${c.id}</td><td>${esc(c.author_username)} · ${esc(c.post_title).slice(0, 30)}<br><span class="quiet">${new Date(c.created_at).toLocaleString("zh-CN", { hour12: false })}</span></td>
+    <td class="${c.status === "pending" ? "warn" : c.status === "approved" ? "ok" : ""}">${STATUS_LABEL[c.status] ?? c.status}${why}</td><td>${esc(c.content).slice(0, 100)}</td><td>${actions}</td></tr>`;
+  }).join("");
+  return `<h2>评论（近 100 条，未命中敏感词的内容已自动通过）</h2>
+  <table><tr><th>ID</th><th>作者 / 帖子 / 时间</th><th>状态</th><th>内容</th><th>操作</th></tr>${rows || '<tr><td colspan="5">暂无</td></tr>'}</table>
+  <script>async function review(id, action){ if(!confirm('确认执行 '+action+'？'))return; await fetch('api/admin/comments/'+id+'/review',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action})}); location.reload(); }</script>`;
+}
+
+function adminUsersHtml() {
+  const rows = db.prepare(
+    `SELECT u.*, (SELECT COUNT(*) FROM posts p WHERE p.author_id = u.id) nposts, (SELECT COUNT(*) FROM comments c WHERE c.author_id = u.id) ncomments FROM users u ORDER BY u.created_at DESC`,
+  ).all().map((u) => {
+    const act = u.role === "admin"
+      ? `<span class="quiet">管理员</span>`
+      : u.status === "active"
+        ? `<button class="btn btn-r" onclick="setStatus(${u.id},'banned')">封禁</button>`
+        : `<button class="btn btn-g" onclick="setStatus(${u.id},'active')">解封</button>`;
+    return `<tr><td>${u.id}</td><td>${esc(u.username)}</td><td>${u.nposts}</td><td>${u.ncomments}</td>
+    <td>${u.status === "active" ? '<span class="ok">正常</span>' : '<span class="warn">封禁</span>'}</td>
+    <td>${new Date(u.created_at).toLocaleString("zh-CN", { hour12: false })}</td><td>${act}</td></tr>`;
+  }).join("");
+  return `<h2>用户</h2>
+  <table><tr><th>ID</th><th>用户名</th><th>帖子</th><th>评论</th><th>状态</th><th>注册时间</th><th>操作</th></tr>${rows}</table>
+  <script>async function setStatus(id, status){ if(!confirm('确认？'))return; await fetch('api/admin/users/'+id+'/status',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({status})}); location.reload(); }</script>`;
+}
+
+function adminInvitesHtml() {
+  const rows = db.prepare(
+    `SELECT ic.*, u.username used_by_username FROM invite_codes ic LEFT JOIN users u ON u.id = ic.used_by ORDER BY ic.created_at DESC LIMIT 100`,
+  ).all().map((c) =>
+    `<tr><td><b>${esc(c.code)}</b></td><td>${esc(c.note)}</td>
+     <td>${c.used_at ? `${esc(c.used_by_username || "")} · ${new Date(c.used_at).toLocaleString("zh-CN", { hour12: false })}` : '<span class="ok">未使用</span>'}</td>
+     <td>${new Date(c.created_at).toLocaleString("zh-CN", { hour12: false })}</td></tr>`,
+  ).join("");
+  return `<h2>邀请码</h2>
+  <form method="post" action="api/admin/invites" style="margin-bottom:12px">
+    <input type="number" name="count" value="1" min="1" max="20" style="width:70px"> 个
+    <input type="text" name="note" placeholder="备注（给谁用，可选）" style="padding:4px 8px">
+    <button class="btn btn-g" style="border:0;padding:6px 14px" type="submit">生成</button>
+  </form>
+  <table><tr><th>邀请码</th><th>备注</th><th>状态</th><th>生成时间</th></tr>${rows}</table>`;
+}
+
+/* ---------- HTTP 服务 ---------- */
+const server = http.createServer(async (req, res) => {
+  const url = new URL(req.url, `http://${req.headers.host}`);
+  const ip = req.headers["x-forwarded-for"]?.split(",")[0]?.trim() || req.socket.remoteAddress || "unknown";
+
+  if (req.method === "OPTIONS") return send(res, 204, {});
+
+  try {
+    /* ===== 原有：统计 / 反馈 / 后台密钥 ===== */
+    if (url.pathname === "/api/track" && req.method === "POST") {
+      const body = await readBody(req, 10_000);
+      const p = JSON.parse(body || "{}");
+      appendLine("track.jsonl", { ts: Date.now(), ip, page: p.page || "/", ref: p.ref || "", ua: (req.headers["user-agent"] || "").slice(0, 200) });
+      return send(res, 200, { ok: true });
+    }
+
+    if (url.pathname === "/api/feedback" && req.method === "POST") {
+      const body = await readBody(req, 10_000);
+      const f = JSON.parse(body || "{}");
+      if (!f.note || !f.note.trim()) return send(res, 400, { ok: false, msg: "反馈内容不能为空" });
+      appendLine("feedback.jsonl", { ts: Date.now(), ip, page: f.page || "", type: f.type || "other", refId: f.refId || "", title: f.title || "", note: f.note.trim().slice(0, 2000), correction: (f.correction || "").trim().slice(0, 2000), status: "new" });
+      return send(res, 200, { ok: true });
+    }
+
+    if (url.pathname === "/api/stats") {
+      const key = url.searchParams.get("key");
+      if (key !== ADMIN_KEY) return send(res, 401, { ok: false });
+      const tracks = readLines("track.jsonl");
+      const feedbacks = readLines("feedback.jsonl").reverse();
+      const now = Date.now();
+      const today = dayOf(now);
+      const weekDays = [];
+      for (let i = 6; i >= 0; i--) weekDays.push(dayOf(now - i * 86400000));
+      const byDay = {};
+      for (const t of tracks) {
+        const d = dayOf(t.ts);
+        byDay[d] = byDay[d] || { pv: 0, ips: new Set() };
+        byDay[d].pv++;
+        byDay[d].ips.add(t.ip);
+      }
+      const week = { pv: 0, uv: 0 };
+      for (const d of weekDays) if (byDay[d]) { week.pv += byDay[d].pv; week.uv += byDay[d].ips.size; }
+      return send(res, 200, { today: { pv: byDay[today]?.pv || 0, uv: byDay[today]?.ips.size || 0 }, week, total: { pv: tracks.length, uv: new Set(tracks.map((t) => t.ip)).size }, feedbacks: feedbacks.slice(0, 200) });
+    }
+
+    /* ===== 认证 ===== */
+    if (url.pathname === "/api/register" && req.method === "POST") {
+      const body = await readBody(req, 10_000);
+      const { username, password, invite_code } = JSON.parse(body || "{}");
+      const uname = String(username || "").trim();
+      if (!/^[\w\u4e00-\u9fa5-]{2,20}$/.test(uname)) return send(res, 400, { ok: false, msg: "用户名需 2-20 位（中英文/数字/下划线/短横线）" });
+      if (String(password || "").length < 6) return send(res, 400, { ok: false, msg: "密码至少 6 位" });
+      const code = String(invite_code || "").trim().toUpperCase();
+      const inv = db.prepare("SELECT * FROM invite_codes WHERE code = ?").get(code);
+      if (!inv) return send(res, 400, { ok: false, msg: "邀请码无效" });
+      if (inv.used_at) return send(res, 400, { ok: false, msg: "邀请码已被使用（先到先得，每个码只能用一次）" });
+      const exists = db.prepare("SELECT id FROM users WHERE username = ?").get(uname);
+      if (exists) return send(res, 400, { ok: false, msg: "该用户名已被注册" });
+      const nUsers = db.prepare("SELECT COUNT(*) c FROM users").get().c;
+      const role = nUsers === 0 ? "admin" : "user";
+      const info = db.prepare("INSERT INTO users (username, pass_hash, role, status, created_at) VALUES (?, ?, ?, 'active', ?)")
+        .run(uname, hashPassword(password), role, Date.now());
+      db.prepare("UPDATE invite_codes SET used_by = ?, used_at = ? WHERE code = ?").run(info.lastInsertRowid, Date.now(), code);
+      const token = makeSession(Number(info.lastInsertRowid));
+      res.writeHead(200, { "Content-Type": "application/json", "Set-Cookie": `hlm_session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${SESSION_DAYS * 86400}` });
+      return res.end(JSON.stringify({ ok: true, user: { id: Number(info.lastInsertRowid), username: uname, role }, isFirst: role === "admin" }));
+    }
+
+    if (url.pathname === "/api/login" && req.method === "POST") {
+      const body = await readBody(req, 10_000);
+      const { username, password } = JSON.parse(body || "{}");
+      const u = db.prepare("SELECT * FROM users WHERE username = ?").get(String(username || "").trim());
+      if (!u || !verifyPassword(String(password || ""), u.pass_hash)) return send(res, 401, { ok: false, msg: "用户名或密码错误" });
+      if (u.status !== "active") return send(res, 403, { ok: false, msg: "账号已被封禁" });
+      const token = makeSession(u.id);
+      res.writeHead(200, { "Content-Type": "application/json", "Set-Cookie": `hlm_session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${SESSION_DAYS * 86400}` });
+      return res.end(JSON.stringify({ ok: true, user: { id: u.id, username: u.username, role: u.role } }));
+    }
+
+    if (url.pathname === "/logout" || url.pathname === "/api/logout") {
+      const cookie = (req.headers.cookie || "").split(";").map((c) => c.trim());
+      const pair = cookie.find((c) => c.startsWith("hlm_session="));
+      if (pair) db.prepare("DELETE FROM sessions WHERE token = ?").run(pair.slice("hlm_session=".length));
+      res.writeHead(200, { "Content-Type": "application/json", "Set-Cookie": "hlm_session=; HttpOnly; Path=/; Max-Age=0" });
+      return res.end(JSON.stringify({ ok: true }));
+    }
+
+    if (url.pathname === "/api/me") {
+      const u = sessionUser(req);
+      if (!u) return send(res, 200, { ok: true, user: null });
+      return send(res, 200, { ok: true, user: u });
+    }
+
+    if (url.pathname === "/api/profile" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { avatar, signature } = JSON.parse(body || "{}");
+      const sets = [];
+      const args = [];
+      if (typeof signature === "string") {
+        const sig = signature.trim().slice(0, 120);
+        sets.push("signature = ?");
+        args.push(sig);
+      }
+      if (typeof avatar === "string") {
+        if (!avatar || avatar.startsWith("/uploads/")) {
+          sets.push("avatar = ?");
+          args.push(avatar || null);
+        } else {
+          return send(res, 400, { ok: false, msg: "头像必须是站内上传的图片" });
+        }
+      }
+      if (sets.length === 0) return send(res, 400, { ok: false, msg: "没有可更新的内容" });
+      db.prepare(`UPDATE users SET ${sets.join(", ")} WHERE id = ?`).run(...args, u.id);
+      const fresh = db.prepare("SELECT username, role, avatar, signature, created_at FROM users WHERE id = ?").get(u.id);
+      return send(res, 200, { ok: true, user: { id: u.id, ...fresh } });
+    }
+
+    /* ===== 帖子 ===== */
+    if (url.pathname === "/api/posts" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const body = await readBody(req, 100_000);
+      const { title, content, tag, images, question_id, quote } = JSON.parse(body || "{}");
+      const t = String(title || "").trim();
+      const c = String(content || "").trim();
+      if (!t || !c) return send(res, 400, { ok: false, msg: "标题和正文不能为空" });
+      if (t.length > 80) return send(res, 400, { ok: false, msg: "标题最多 80 字" });
+      if (c.length > 20000) return send(res, 400, { ok: false, msg: "正文最多 20000 字" });
+      const tagName = String(tag || "自由讨论").trim().slice(0, 20);
+      const imgs = Array.isArray(images) ? images.filter((x) => typeof x === "string" && x.startsWith("/uploads/")).slice(0, 9) : [];
+      const qid = String(question_id ?? "").trim().slice(0, 100) || null;
+      let quoteJson = null;
+      if (quote && typeof quote === "object") {
+        const clean = {
+          question_title: String(quote.question_title || "").slice(0, 120),
+          viewpoint_title: String(quote.viewpoint_title || "").slice(0, 120),
+          source: String(quote.source || "").slice(0, 120),
+          summary: String(quote.summary || "").slice(0, 1000),
+        };
+        if (clean.viewpoint_title) quoteJson = JSON.stringify(clean);
+      }
+      const hit = sensitiveHit(t + c);
+      /* 自动审核：未命中敏感词直接通过；命中才进人工复核 */
+      const status = hit ? "pending" : "approved";
+      const info = db.prepare("INSERT INTO posts (author_id, title, content, tag, images, status, question_id, quote, created_at, reviewed_at, reviewed_by) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
+        .run(u.id, t, c, tagName, JSON.stringify(imgs), status, qid, quoteJson, Date.now(), hit ? null : Date.now(), hit ? null : 0);
+      if (hit) appendLine("moderation.jsonl", { ts: Date.now(), kind: "post", id: Number(info.lastInsertRowid), word: hit, user: u.username });
+      /* 通知：该问题下的其他参与者"有新人盖楼" */
+      if (qid) {
+        for (const uid of questionParticipants(qid, u.id)) {
+          notify(uid, "new_post", u.id, {
+            post_id: Number(info.lastInsertRowid),
+            question_id: qid,
+            title: `${u.username} 在「${qid}」下发起了新讨论`,
+            body: t,
+          });
+        }
+      }
+      return send(res, 200, {
+        ok: true,
+        id: Number(info.lastInsertRowid),
+        hit,
+        status,
+        msg: hit ? "内容命中敏感词，已转人工复核" : "已自动通过审核并发布",
+      });
+    }
+
+    if (url.pathname === "/api/posts" && req.method === "GET") {      const viewer = sessionUser(req);
+      const tag = url.searchParams.get("tag");
+      const qid = url.searchParams.get("question_id");
+      const mine = url.searchParams.get("mine") === "1";
+      const includeMine = url.searchParams.get("include_mine") === "1";
+      const sort = url.searchParams.get("sort") || "new";
+      const page = Math.max(1, Number(url.searchParams.get("page")) || 1);
+      const kw = (url.searchParams.get("q") || "").trim();
+      const per = 20;
+      const conds = [];
+      const args = [];
+      if (mine) {
+        if (!viewer) return send(res, 401, { ok: false, msg: "请先登录" });
+        conds.push("p.author_id = ? AND p.status != 'removed'");
+        args.push(viewer.id);
+      } else if (includeMine && viewer) {
+        conds.push("(p.status = 'approved' OR (p.author_id = ? AND p.status != 'removed'))");
+        args.push(viewer.id);
+      } else if (viewer && viewer.role === "admin") {
+        /* 管理员列表可见待审/驳回，但已删除(removed)帖子不再出现在社区列表（后台审核页另查） */
+        conds.push("p.status != 'removed'");
+      } else {
+        conds.push("p.status = 'approved'");
+      }
+      if (tag && tag !== "全部") {
+        conds.push("p.tag = ?");
+        args.push(tag);
+      }
+      if (qid) {
+        conds.push("p.question_id = ?");
+        args.push(qid);
+      }
+      if (kw) {
+        const like = `%${String(kw).replace(/[\\%_]/g, (m) => `\\${m}`)}%`;
+        conds.push(
+          "(p.title LIKE ? ESCAPE '\\' OR p.content LIKE ? ESCAPE '\\' OR u.username LIKE ? ESCAPE '\\')",
+        );
+        args.push(like, like, like);
+      }
+      const where = conds.join(" AND ");
+      const order = sort === "hot" ? "p.like_count DESC, p.view_count DESC, p.created_at DESC" : "p.created_at DESC";
+      const rows = db.prepare(
+        `SELECT p.*, u.username author_username FROM posts p JOIN users u ON u.id = p.author_id WHERE ${where} ORDER BY ${order} LIMIT ? OFFSET ?`,
+      ).all(...args, per, (page - 1) * per);
+      const total = db.prepare(`SELECT COUNT(*) c FROM posts p JOIN users u ON u.id = p.author_id WHERE ${where}`).get(...args).c;
+      const tags = db.prepare("SELECT DISTINCT tag FROM posts WHERE status='approved' ORDER BY tag").all().map((r) => r.tag);
+      return send(res, 200, { ok: true, posts: rows.map((p) => postView(p, viewer)).filter(Boolean), total, page, tags });
+    }
+
+    const postMatch = url.pathname.match(/^\/api\/posts\/(\d+)$/);
+    const likeMatch = url.pathname.match(/^\/api\/posts\/(\d+)\/like$/);
+    const commentMatch = url.pathname.match(/^\/api\/posts\/(\d+)\/comment$/);
+    const commentDeleteMatch = url.pathname.match(/^\/api\/posts\/(\d+)\/comments\/(\d+)$/);
+    if (postMatch && req.method === "GET") {
+      const viewer = sessionUser(req);
+      const p = db.prepare("SELECT p.*, u.username author_username FROM posts p JOIN users u ON u.id = p.author_id WHERE p.id = ?").get(Number(postMatch[1]));
+      if (!p) return send(res, 404, { ok: false });
+      const view = postView(p, viewer);
+      if (!view) return send(res, 404, { ok: false, msg: "帖子不存在或未过审" });
+      db.prepare("UPDATE posts SET view_count = view_count + 1 WHERE id = ?").run(p.id);
+      const floorRows = db.prepare(
+        `SELECT c.*, u.username author_username FROM comments c JOIN users u ON u.id = c.author_id WHERE c.post_id = ? AND c.status = 'approved' ORDER BY c.created_at ASC`,
+      ).all(p.id);
+      const floors = floorRows.map((c, i) => ({ ...commentView(c), floor: i + 1 }));
+      const cLikes = commentLikesMap(floorRows.map((c) => c.id), viewer?.id);
+      for (const f of floors) {
+        const lk = cLikes[f.id];
+        f.liked = lk ? lk.liked : false;
+      }
+      const liked = viewer ? !!db.prepare("SELECT 1 FROM likes WHERE user_id = ? AND post_id = ?").get(viewer.id, p.id) : false;
+      return send(res, 200, { ok: true, post: view, comments: floors, liked });
+    }
+
+    /* 删除帖子：作者本人或管理员（逻辑删除 status=removed，评论一并移除） */
+    if (postMatch && req.method === "DELETE") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const pid = Number(postMatch[1]);
+      const p = db.prepare("SELECT author_id FROM posts WHERE id = ?").get(pid);
+      if (!p) return send(res, 404, { ok: false, msg: "帖子不存在" });
+      if (p.author_id !== u.id && u.role !== "admin") {
+        return send(res, 403, { ok: false, msg: "只能删除自己发布的帖子" });
+      }
+      db.prepare("UPDATE posts SET status = 'removed' WHERE id = ?").run(pid);
+      db.prepare("UPDATE comments SET status = 'removed' WHERE post_id = ?").run(pid);
+      return send(res, 200, { ok: true });
+    }
+
+    /* 删除评论：作者本人或管理员 */
+    if (commentDeleteMatch && req.method === "DELETE") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const pid = Number(commentDeleteMatch[1]);
+      const cid = Number(commentDeleteMatch[2]);
+      const c = db.prepare("SELECT author_id FROM comments WHERE id = ? AND post_id = ?").get(cid, pid);
+      if (!c) return send(res, 404, { ok: false, msg: "评论不存在" });
+      if (c.author_id !== u.id && u.role !== "admin") {
+        return send(res, 403, { ok: false, msg: "只能删除自己的评论" });
+      }
+      db.prepare("UPDATE comments SET status = 'removed' WHERE id = ?").run(cid);
+      return send(res, 200, { ok: true });
+    }
+
+    if (likeMatch && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const pid = Number(likeMatch[1]);
+      const exists = db.prepare("SELECT 1 FROM posts WHERE id = ? AND status = 'approved'").get(pid);
+      if (!exists) return send(res, 404, { ok: false, msg: "帖子不存在或尚未过审" });
+      const had = db.prepare("SELECT 1 FROM likes WHERE user_id = ? AND post_id = ?").get(u.id, pid);
+      if (had) {
+        db.prepare("DELETE FROM likes WHERE user_id = ? AND post_id = ?").run(u.id, pid);
+        db.prepare("UPDATE posts SET like_count = MAX(0, like_count - 1) WHERE id = ?").run(pid);
+        return send(res, 200, { ok: true, liked: false });
+      }
+      db.prepare("INSERT INTO likes (user_id, post_id, created_at) VALUES (?, ?, ?)").run(u.id, pid, Date.now());
+      db.prepare("UPDATE posts SET like_count = like_count + 1 WHERE id = ?").run(pid);
+      return send(res, 200, { ok: true, liked: true });
+    }
+
+    /* ===== 观点点赞（红学家观点，问题页） ===== */
+    const viewpointLikeMatch = url.pathname.match(/^\/api\/viewpoints\/([^/]+)\/([^/]+)\/like$/);
+    if (viewpointLikeMatch && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const qid = decodeURIComponent(viewpointLikeMatch[1]).slice(0, 120);
+      const vid = decodeURIComponent(viewpointLikeMatch[2]).slice(0, 120);
+      if (!qid || !vid) return send(res, 400, { ok: false, msg: "参数错误" });
+      const had = db.prepare("SELECT 1 FROM viewpoint_likes WHERE user_id = ? AND question_id = ? AND viewpoint_id = ?").get(u.id, qid, vid);
+      if (had) {
+        db.prepare("DELETE FROM viewpoint_likes WHERE user_id = ? AND question_id = ? AND viewpoint_id = ?").run(u.id, qid, vid);
+      } else {
+        db.prepare("INSERT INTO viewpoint_likes (user_id, question_id, viewpoint_id, created_at) VALUES (?, ?, ?, ?)").run(u.id, qid, vid, Date.now());
+      }
+      const count = db.prepare("SELECT COUNT(*) c FROM viewpoint_likes WHERE question_id = ? AND viewpoint_id = ?").get(qid, vid).c;
+      return send(res, 200, { ok: true, liked: !had, count });
+    }
+
+    /* 观点点赞数查询（问题页按赞排序） */
+    const viewpointQueryMatch = url.pathname.match(/^\/api\/viewpoints\/([^/]+)$/);
+    if (viewpointQueryMatch && req.method === "GET") {
+      const viewer = sessionUser(req);
+      const qid = decodeURIComponent(viewpointQueryMatch[1]).slice(0, 120);
+      if (!qid) return send(res, 400, { ok: false, msg: "参数错误" });
+      const rows = db.prepare(
+        "SELECT viewpoint_id, COUNT(*) c FROM viewpoint_likes WHERE question_id = ? GROUP BY viewpoint_id",
+      ).all(qid);
+      const map = {};
+      for (const r of rows) map[r.viewpoint_id] = { count: r.c, liked: false };
+      if (viewer) {
+        const mine = db.prepare(
+          "SELECT viewpoint_id FROM viewpoint_likes WHERE question_id = ? AND user_id = ?",
+        ).all(qid, viewer.id);
+        for (const r of mine) if (map[r.viewpoint_id]) map[r.viewpoint_id].liked = true;
+      }
+      return send(res, 200, { ok: true, likes: map });
+    }
+
+    /* ===== 评论点赞 ===== */
+    const commentLikeMatch = url.pathname.match(/^\/api\/posts\/(\d+)\/comments\/(\d+)\/like$/);
+    if (commentLikeMatch && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const pid = Number(commentLikeMatch[1]);
+      const cid = Number(commentLikeMatch[2]);
+      const c = db.prepare("SELECT id, post_id FROM comments WHERE id = ? AND post_id = ? AND status = 'approved'").get(cid, pid);
+      if (!c) return send(res, 404, { ok: false, msg: "评论不存在或尚未过审" });
+      const had = db.prepare("SELECT 1 FROM comment_likes WHERE user_id = ? AND comment_id = ?").get(u.id, cid);
+      if (had) {
+        db.prepare("DELETE FROM comment_likes WHERE user_id = ? AND comment_id = ?").run(u.id, cid);
+        db.prepare("UPDATE comments SET like_count = MAX(0, like_count - 1) WHERE id = ?").run(cid);
+      } else {
+        db.prepare("INSERT INTO comment_likes (user_id, comment_id, created_at) VALUES (?, ?, ?)").run(u.id, cid, Date.now());
+        db.prepare("UPDATE comments SET like_count = like_count + 1 WHERE id = ?").run(cid);
+      }
+      const count = db.prepare("SELECT like_count c FROM comments WHERE id = ?").get(cid).c;
+      return send(res, 200, { ok: true, liked: !had, count });
+    }
+
+    if (commentMatch && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const pid = Number(commentMatch[1]);
+      const exists = db.prepare("SELECT id, author_id, title, question_id FROM posts WHERE id = ? AND status = 'approved'").get(pid);
+      if (!exists) return send(res, 404, { ok: false, msg: "帖子不存在或尚未过审" });
+      const body = await readBody(req, 10_000);
+      const { content, reply_to } = JSON.parse(body || "{}");
+      const c = String(content || "").trim();
+      if (!c) return send(res, 400, { ok: false, msg: "评论内容不能为空" });
+      if (c.length > 2000) return send(res, 400, { ok: false, msg: "评论最多 2000 字" });
+      let rt = null;
+      if (reply_to) {
+        const ref = db.prepare("SELECT id FROM comments WHERE id = ? AND post_id = ?").get(Number(reply_to), pid);
+        if (!ref) return send(res, 400, { ok: false, msg: "引用的楼层不存在" });
+        rt = ref.id;
+      }
+      const hit = sensitiveHit(c);
+      /* 自动审核：未命中敏感词直接通过；命中才进人工复核 */
+      const status = hit ? "pending" : "approved";
+      const info = db.prepare("INSERT INTO comments (post_id, author_id, content, reply_to, status, created_at) VALUES (?, ?, ?, ?, ?, ?)")
+        .run(pid, u.id, c, rt, status, Date.now());
+      if (hit) appendLine("moderation.jsonl", { ts: Date.now(), kind: "comment", id: Number(info.lastInsertRowid), word: hit, user: u.username });
+      /* 通知：回复我的帖子（主楼评论）→ 通知帖子作者；回复我的楼层 → 通知该楼层作者 */
+      if (rt) {
+        const parent = db.prepare("SELECT author_id FROM comments WHERE id = ?").get(rt);
+        if (parent && parent.author_id !== u.id) {
+          notify(parent.author_id, "reply_comment", u.id, {
+            post_id: pid,
+            comment_id: rt,
+            question_id: exists.question_id ?? null,
+            title: `${u.username} 回复了你的楼层`,
+            body: c.slice(0, 80),
+          });
+        }
+      } else if (exists.author_id !== u.id) {
+        notify(exists.author_id, "reply_post", u.id, {
+          post_id: pid,
+          question_id: exists.question_id ?? null,
+          title: `${u.username} 评论了你的帖子「${exists.title}」`,
+          body: c.slice(0, 80),
+        });
+      }
+      return send(res, 200, {
+        ok: true,
+        id: Number(info.lastInsertRowid),
+        hit,
+        status,
+        msg: hit ? "评论命中敏感词，已转人工复核" : "评论已发布",
+      });
+    }
+
+    /* ===== 通知 ===== */
+    if (url.pathname === "/api/notifications" && req.method === "GET") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const page = Math.max(1, Number(url.searchParams.get("page")) || 1);
+      const per = 20;
+      const rows = db.prepare(
+        `SELECT n.*, u.username from_username FROM notifications n LEFT JOIN users u ON u.id = n.from_user_id WHERE n.user_id = ? ORDER BY n.created_at DESC LIMIT ? OFFSET ?`,
+      ).all(u.id, per, (page - 1) * per);
+      const unread = db.prepare("SELECT COUNT(*) c FROM notifications WHERE user_id = ? AND read = 0").get(u.id).c;
+      return send(res, 200, {
+        ok: true,
+        unread,
+        notifications: rows.map((n) => ({
+          id: n.id,
+          type: n.type,
+          from: n.from_username ? { id: n.from_user_id, username: n.from_username } : null,
+          post_id: n.post_id,
+          comment_id: n.comment_id,
+          question_id: n.question_id,
+          title: n.title,
+          body: n.body,
+          read: !!n.read,
+          created_at: n.created_at,
+        })),
+      });
+    }
+
+    /* 未读数量（轮询用） */
+    if (url.pathname === "/api/notifications/unread" && req.method === "GET") {
+      const u = needAuth(req, res);
+      if (!u) return send(res, 401, { ok: false, msg: "请先登录" });
+      const unread = db.prepare("SELECT COUNT(*) c FROM notifications WHERE user_id = ? AND read = 0").get(u.id).c;
+      return send(res, 200, { ok: true, unread });
+    }
+
+    /* 标记已读：单条（body {id}）或全部（body {all:true}） */
+    if (url.pathname === "/api/notifications/read" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { id, all } = JSON.parse(body || "{}");
+      if (all) {
+        db.prepare("UPDATE notifications SET read = 1 WHERE user_id = ?").run(u.id);
+      } else if (id) {
+        db.prepare("UPDATE notifications SET read = 1 WHERE user_id = ? AND id = ?").run(u.id, Number(id));
+      } else {
+        return send(res, 400, { ok: false, msg: "参数错误" });
+      }
+      return send(res, 200, { ok: true });
+    }
+
+    /* ===== 人格测试结果统计 ===== */
+    /* 提交测试结果（登录用户，每人保留最新一条） */
+    if (url.pathname === "/api/test/result" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { archetype_id, character_id } = JSON.parse(body || "{}");
+      const a = String(archetype_id || "").trim().slice(0, 60);
+      const c = String(character_id || "").trim().slice(0, 60);
+      if (!a || !c) return send(res, 400, { ok: false, msg: "参数错误" });
+      const now = Date.now();
+      db.prepare(
+        `INSERT INTO test_results (user_id, archetype_id, character_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?)
+         ON CONFLICT(user_id) DO UPDATE SET archetype_id = excluded.archetype_id, character_id = excluded.character_id, updated_at = excluded.updated_at`,
+      ).run(u.id, a, c, now, now);
+      const stats = testStats();
+      return send(res, 200, { ok: true, stats });
+    }
+
+    /* 统计（公开）：总测人数 + 各类型人数 */
+    if (url.pathname === "/api/test/stats" && req.method === "GET") {
+      return send(res, 200, { ok: true, stats: testStats() });
+    }
+
+    /* 我的测试结果（登录） */
+    if (url.pathname === "/api/test/result" && req.method === "GET") {
+      const u = sessionUser(req);
+      if (!u) return send(res, 200, { ok: true, result: null });
+      const r = db.prepare("SELECT archetype_id, character_id, updated_at FROM test_results WHERE user_id = ?").get(u.id);
+      return send(res, 200, {
+        ok: true,
+        result: r ? { archetype_id: r.archetype_id, character_id: r.character_id, updated_at: r.updated_at } : null,
+        stats: testStats(),
+      });
+    }
+
+    /* ===== 上传 ===== */
+    if (url.pathname === "/api/upload" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const ctype = (req.headers["content-type"] || "").toLowerCase();
+      if (!ctype.startsWith("image/")) return send(res, 400, { ok: false, msg: "仅支持图片上传" });
+      const chunks = [];
+      let size = 0;
+      await new Promise((resolve, reject) => {
+        req.on("data", (c) => {
+          size += c.length;
+          if (size > MAX_UPLOAD_BYTES) {
+            reject(new Error("too large"));
+            req.destroy();
+            return;
+          }
+          chunks.push(c);
+        });
+        req.on("end", resolve);
+        req.on("error", reject);
+      });
+      if (size > MAX_UPLOAD_BYTES) return send(res, 400, { ok: false, msg: "图片超过 5MB 限制" });
+      const extMap = { "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp", "image/gif": "gif" };
+      const ext = extMap[ctype] || "jpg";
+      const name = `${Date.now()}-${crypto.randomBytes(6).toString("hex")}.${ext}`;
+      fs.writeFileSync(path.join(UPLOAD_DIR, name), Buffer.concat(chunks));
+      return send(res, 200, { ok: true, url: `/uploads/${name}` });
+    }
+
+    /* ===== 管理 API ===== */
+    const adminReviewMatch = url.pathname.match(/^\/api\/admin\/posts\/(\d+)\/review$/);
+    if (adminReviewMatch && req.method === "POST") {
+      const u = needAdmin(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { action } = JSON.parse(body || "{}");
+      if (!["approved", "rejected", "removed"].includes(action)) return send(res, 400, { ok: false });
+      db.prepare("UPDATE posts SET status = ?, reviewed_at = ?, reviewed_by = ? WHERE id = ?").run(action, Date.now(), u.id, Number(adminReviewMatch[1]));
+      return send(res, 200, { ok: true });
+    }
+
+    const adminCommentMatch = url.pathname.match(/^\/api\/admin\/comments\/(\d+)\/review$/);
+    if (adminCommentMatch && req.method === "POST") {
+      const u = needAdmin(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { action } = JSON.parse(body || "{}");
+      if (!["approved", "rejected", "removed"].includes(action)) return send(res, 400, { ok: false });
+      db.prepare("UPDATE comments SET status = ? WHERE id = ?").run(action, Number(adminCommentMatch[1]));
+      return send(res, 200, { ok: true });
+    }
+
+    const adminUserMatch = url.pathname.match(/^\/api\/admin\/users\/(\d+)\/status$/);
+    if (adminUserMatch && req.method === "POST") {
+      const u = needAdmin(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { status } = JSON.parse(body || "{}");
+      if (!["active", "banned"].includes(status)) return send(res, 400, { ok: false });
+      const target = db.prepare("SELECT role FROM users WHERE id = ?").get(Number(adminUserMatch[1]));
+      if (!target) return send(res, 404, { ok: false });
+      if (target.role === "admin") return send(res, 400, { ok: false, msg: "不能封禁管理员" });
+      db.prepare("UPDATE users SET status = ? WHERE id = ?").run(status, Number(adminUserMatch[1]));
+      return send(res, 200, { ok: true });
+    }
+
+    if (url.pathname === "/api/admin/invites" && req.method === "POST") {
+      const u = needAdmin(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      let count = 1;
+      let note = "";
+      try {
+        const parsed = JSON.parse(body);
+        count = Math.min(20, Math.max(1, Number(parsed.count) || 1));
+        note = String(parsed.note || "").slice(0, 50);
+      } catch {
+        const params = new URLSearchParams(body);
+        count = Math.min(20, Math.max(1, Number(params.get("count")) || 1));
+        note = String(params.get("note") || "").slice(0, 50);
+      }
+      const codes = [];
+      for (let i = 0; i < count; i++) {
+        const code = `HLM-${crypto.randomBytes(3).toString("hex").toUpperCase()}-${crypto.randomBytes(3).toString("hex").toUpperCase()}`;
+        db.prepare("INSERT INTO invite_codes (code, note, created_at) VALUES (?, ?, ?)").run(code, note, Date.now());
+        codes.push(code);
+      }
+      if (req.headers["content-type"]?.includes("application/json")) {
+        return send(res, 200, { ok: true, codes });
+      }
+      res.writeHead(302, { Location: "?view=invites" });
+      return res.end();
+    }
+
+    if (url.pathname === "/api/admin/health") {
+      const u = needAdmin(req, res);
+      if (!u) return;
+      const mem = process.memoryUsage();
+      const st = fs.statfsSync("/");
+      return send(res, 200, {
+        ok: true,
+        memRSS_MB: Math.round(mem.rss / 1024 / 1024),
+        memTotal_MB: Math.round(osTotalMemMB()),
+        diskFree_GB: Math.round((st.bavail * st.bsize) / 1024 / 1024 / 1024),
+        dbSize_KB: Math.round(fs.statSync(path.join(DATA_DIR, "hlm.db")).size / 1024),
+        uptime_s: Math.round(process.uptime()),
+      });
+    }
+
+    /* ===== 管理后台页面 ===== */
+    if (url.pathname === "/admin" || url.pathname === "/admin/" || url.pathname === "/api/admin" || url.pathname === "/api/admin/") {
+      const keyOk = url.searchParams.get("key") === ADMIN_KEY;
+      const me = sessionUser(req);
+      if (!me || me.role !== "admin") {
+        if (keyOk) {
+          res.writeHead(302, { Location: "?view=overview" });
+          return res.end();
+        }
+        res.writeHead(401, { "Content-Type": "text/html; charset=utf-8" });
+        return res.end("<h1>401</h1><p>需要管理员登录：<a href='/honglou-yuzhou/login/?next=%2Fadmin'>去登录</a></p>");
+      }
+      const view = url.searchParams.get("view") || "overview";
+      let content = adminOverviewHtml(me);
+      if (view === "posts") content = adminPostsHtml();
+      if (view === "comments") content = adminCommentsHtml();
+      if (view === "users") content = adminUsersHtml();
+      if (view === "invites") content = adminInvitesHtml();
+      return res.end(`${PAGE_HEAD}${adminNav(view)}${content}${PAGE_FOOT}`);
+    }
+  } catch (e) {
+    if (!res.headersSent) return send(res, 500, { ok: false, msg: e.message });
+  }
+
+  send(res, 404, { ok: false });
+});
+
+function osTotalMemMB() {
+  try {
+    const total = require("os").totalmem();
+    return total / 1024 / 1024;
+  } catch {
+    return 0;
+  }
+}
+
+/* ---------- 每小时健康日志（内存水位监测） ---------- */
+setInterval(() => {
+  try {
+    const mem = process.memoryUsage();
+    const st = fs.statfsSync("/");
+    appendLine("health.log", {
+      ts: Date.now(),
+      memRSS_MB: Math.round(mem.rss / 1024 / 1024),
+      diskFree_GB: Math.round((st.bavail * st.bsize) / 1024 / 1024 / 1024),
+    });
+  } catch {}
+}, 3600_000);
+
+server.listen(PORT, () => {
+  console.log(`honglou-yuzhou api listening on :${PORT}`);
+});

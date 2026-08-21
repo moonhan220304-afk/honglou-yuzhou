@@ -1,0 +1,811 @@
+{
+  "character": {
+    "id": "character_jinchuan",
+    "name": "金钏",
+    "slug": "jin-chuan",
+    "aliases": [
+      "金钏儿"
+    ],
+    "category": "荣国府丫鬟（王夫人首席丫鬟）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾府家生之婢，玉钏之姐（姊妹二人同侍王夫人），其母白老媳妇。",
+      "position": "王夫人首席丫鬟。",
+      "origin": "贾府家生奴婢。",
+      "generation": "与鸳鸯、袭人等同侪的丫鬟阶层"
+    },
+    "tags": [
+      "王夫人首席丫鬟",
+      "含耻辱情烈死金钏",
+      "投井",
+      "五十两",
+      "宝钗赠衣",
+      "玉钏之姐",
+      "水仙庵",
+      "金簪子掉在井里头"
+    ],
+    "summary": {
+      "short": "王夫人的首席丫鬟，玉钏之姐。第三十回被宝玉调戏、遭王夫人掌掴撵出，第三十二回投井而死——「含耻辱情烈死金钏」。她是宝玉挨打的重要导火索，也是全书第一个为「勾引宝玉」罪名而死的女儿。",
+      "long": "金钏的死是《红楼梦》丫鬟悲剧的第一声惊雷。她本是王夫人房中第一等的丫鬟——聪明伶俐，与宝玉熟稔得可以玩笑。第二十三回她逗宝玉「我这嘴上是才擦的香浸胭脂，你这会子可吃不吃了」——那时的轻快，是她的全部少女时代。第三十回盛夏午后，王夫人歇中觉，宝玉溜进来逗她：摘她的坠子、往她嘴里送香雪润津丹、要「和太太讨你，咱们在一处罢」。金钏儿睁开眼，笑道：「你忙什么！金簪子掉在井里头，有你的只是有你的。」——这句玩笑成了她一生的谶语。王夫人翻身起来，照她脸上一个嘴巴，骂「下作小娼妇，好好的爷们，都叫你教坏了」，立刻撵出。第三十二回，她投井而死——「含耻辱情烈死金钏」。王夫人哭，赏其母五十两银子、欲给装裹新衣；宝钗劝慰，并主动拿出自己的新衣相赠。第三十三回，金钏之死经贾环添油加醋（「强奸不遂」），成为宝玉挨打的重要导火索。第四十三回九月初二（凤姐生日），宝玉偷出城到水仙庵祭她——「不了情暂撮土为香」。她的死引出妹妹玉钏（第三十五回「白玉钏亲尝莲叶羹」）的登场与余痛。红学界围绕金钏之死有三重争议：王夫人是逼死她的元凶还是按礼教行事的「正常处置」？宝钗赠衣是冷血还是得体？宝玉的调戏与逃走该负多大责任？她的一句「金簪子掉在井里头」，成了全书最著名的谶语——玩笑成真，命丧井底。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "伶——太太房里最灵的人",
+        "fact_type": "canonical_text_fact",
+        "description": "金钏是王夫人房中的第一人：机灵、口快、善解人意。她敢与宝玉玩笑，正是这份「伶」的日常表现——可惜伶俐不设防，玩笑开错了时间与对象。"
+      },
+      {
+        "dimension": "烈——含耻辱情烈死金钏",
+        "fact_type": "canonical_text_fact",
+        "description": "回目以「情烈」定评：被掌掴、被逐、被指「教坏爷们」——金钏以死自证清白。她的烈是女儿最后的尊严：士可杀不可辱，婢亦然。"
+      },
+      {
+        "dimension": "冤——罪名与事实的错位",
+        "fact_type": "canonical_text_fact",
+        "description": "金钏与宝玉并无私情（全书无任何私情描写），只一句玩笑便定罪。她的死是「欲加之罪」的丫鬟版：先于晴雯、司棋，她是第一个被「狐狸精化」的牺牲品。"
+      },
+      {
+        "dimension": "谶——金簪子掉在井里头",
+        "fact_type": "canonical_text_fact",
+        "description": "「金簪子掉在井里头，有你的只是有你的」——她自己说出的玩笑，成了自己的死法。这句谶语使她的悲剧带上宿命的寒意：命运借她的口，宣布了她的死。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jinchuan_ch23",
+        "title": "逗宝玉吃胭脂（第二十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jinchuan_ch30",
+        "title": "调戏被撵（第三十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jinchuan_ch32",
+        "title": "投井而死——含耻辱情烈死金钏（第三十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jinchuan_ch32_baochai",
+        "title": "宝钗赠衣与五十两赏银（第三十二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_jinchuan_ch33",
+        "title": "宝玉挨打的导火索（第三十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_jinchuan_ch35",
+        "title": "玉钏尝羹（第三十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 7,
+        "event_id": "event_jinchuan_ch43",
+        "title": "不了情暂撮土为香——水仙庵之祭（第四十三回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch30_jinchuan_tiaoxi",
+        "quote": "宝玉……把他耳上带的坠子一摘……「我明日和太太讨你，咱们在一处罢。」……金钏儿……笑道：「你忙什么！金簪子掉在井里头，有你的只是有你的。」……王夫人翻身起来，照金钏儿脸上就打了个嘴巴子，指着骂道：「下作小娼妇，好好的爷们，都叫你教坏了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十回。宝玉的玩笑与金钏的玩笑，撞上王夫人的巴掌——「金簪子掉在井里头」一句，成了她的死亡预言。"
+      },
+      {
+        "source_id": "source_ch32_jinchuan_si",
+        "quote": "（王夫人道）「……谁知他这么气性大，就投井死了。岂不是我的罪过。」……（宝钗道）「……不过多赏他几两银子发送他，也就尽主仆之情了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十二回「含耻辱情烈死金钏」。王夫人的「岂不是我的罪过」与宝钗的「多赏几两银子」——对一条命的两种处置。"
+      },
+      {
+        "source_id": "source_ch32_baochai_zengyi",
+        "quote": "宝钗道：「……我前儿倒做了两套新的，给他岂不省事。……况且他活着的时候也穿过我的旧衣服，身量又相对。」……（王夫人）忙命人取了来。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十二回宝钗赠新衣装裹金钏——这个细节日后成为「宝钗冷血说」的核心证据。"
+      },
+      {
+        "source_id": "source_ch43_baoyu_ji",
+        "quote": "（宝玉在水仙庵）……从井里打了水来……焚香祝拜：「不了情暂撮土为香。」……（茗烟代祝）「二爷的心事……如今再不用别的了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十三回。凤姐生日，宝玉偷出城祭金钏——「撮土为香」四个字，是他给金钏的私祭。"
+      },
+      {
+        "source_id": "source_ch35_yuchuan",
+        "quote": "玉钏儿……满脸怒色，正眼也不看宝玉。……「不过我死了，不能随着你罢了！」……（宝玉）陪笑央告……玉钏儿才吃了一点点（莲叶羹）。",
+        "fact_type": "canonical_text_fact",
+        "note": "第三十五回「白玉钏亲尝莲叶羹」。妹妹的冷脸与怨怼，是金钏之死最长久的回声。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名「金钏」——钏为腕上之镯，金钏即金手镯",
+      "detail": "王夫人房中丫鬟以首饰为名：金钏、玉钏姊妹——「金」为姐，「玉」为妹，同是腕上之镯。镯为束腕之器，暗喻人身如器、任人摆布；「金簪子掉在井里头」的谶语更把「金」字带进了她的死法——金命（金钏）死于井，金簪（戏语）坠于井，名字与命运在井底会合。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "死时未见明文",
+        "death_age": "未见明文（红学推算约20岁）"
+      },
+      "conclusion": "原文未见明文；与袭人平儿鸳鸯同为荣府一等丫鬟「从小儿一块」，死时约二十岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "金钏儿",
+      "type": "昵称",
+      "context": "书中对她的常用称呼（儿化昵称）——丫鬟之名的亲切形态",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jinchuan_ch23",
+      "title": "逗宝玉吃胭脂——少女时代的轻快",
+      "event_level": "minor",
+      "chapter": {
+        "number": 23,
+        "title": "西厢记妙词通戏语 牡丹亭艳曲警芳心",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "宝玉去贾母处请安，金钏等丫鬟在廊下。金钏一把拉住宝玉，笑道：「我这嘴上是才擦的香浸胭脂，你这会子可吃不吃了？」"
+      },
+      "summary": {
+        "short": "金钏逗宝玉吃胭脂——第三十回的悲剧之前，这是她全部少女时代的缩影：伶俐、俏皮、与宝玉熟稔到可以开这样的玩笑。",
+        "meaning": [
+          "玩笑的尺度——她与宝玉的熟稔，正是后来「教坏爷们」罪名的来源",
+          "胭脂与口红——全书写丫鬟与宝玉亲昵的固定意象",
+          "这分轻快，第七回后就是她的绝唱"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "亲昵的代价",
+          "content": "金钏与宝玉的亲昵（吃胭脂、摘坠子、送香丹）在怡红院体系里本属常态，但她的位置是王夫人房中——同样的玩笑，在贾母房里是娇憨，在王夫人房里就是「教坏爷们」。她的死，一半死在位置。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinchuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinchuan_ch30",
+      "title": "调戏被撵——一巴掌定死罪",
+      "event_level": "major",
+      "chapter": {
+        "number": 30,
+        "title": "宝钗借扇机带双敲 龄官划蔷痴及局外",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "王夫人房中",
+        "specific": "盛夏午后，王夫人歇中觉。宝玉溜进来逗金钏：摘坠子、喂香雪润津丹、说「和太太讨你，咱们在一处罢」。金钏回以「金簪子掉在井里头」的玩笑。王夫人翻身而起，一掌掴下，骂「下作小娼妇」，即刻撵出。宝玉一溜烟跑了。"
+      },
+      "summary": {
+        "short": "宝玉惹的祸，金钏挨的掌。她的「错」不过是一句玩笑，王夫人的处置却是掌掴加撵逐——罪名「教坏爷们」。而真正的「教坏」者宝玉，早已溜之大吉。",
+        "meaning": [
+          "掌掴与「下作小娼妇」——罪名（勾引）与事实（玩笑）的错位",
+          "宝玉的逃走——「护花使者」的第一次失信",
+          "撵逐即社死——家生丫鬟被逐，等于被整个体系处刑"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "罪名学的第一案",
+          "content": "金钏案是全书「狐狸精罪名学」的第一案：王夫人的巴掌与其说惩罚行为，不如说惩罚「可能性」——她恐惧的不是金钏做了什么，而是金钏「可能」带坏宝玉。这个逻辑将在晴雯身上重演：礼教社会的女性定罪，不需要事实。"
+        },
+        {
+          "type": "character",
+          "title": "宝玉的逃与罪",
+          "content": "事发时宝玉「一溜烟跑了」——这是全书对宝玉最不留情的一笔：他挑起的事，他逃了。宝玉的罪不是调戏，是逃跑：他后来偷祭金钏的眼泪，洗不掉这一跑的污点。金钏的死，一半的账要记在「逃走的宝玉」头上。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinchuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinchuan_ch32",
+      "title": "投井而死——含耻辱情烈死金钏",
+      "event_level": "major",
+      "chapter": {
+        "number": 32,
+        "title": "诉肺腑心迷活宝玉 含耻辱情烈死金钏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府井边",
+        "specific": "被撵后数日，金钏投井而死。尸首捞起，府中大哗。王夫人哭道「岂不是我的罪过」。回目「含耻辱情烈死金钏」——她以死回应耻辱。"
+      },
+      "summary": {
+        "short": "第三十二回的井，吞掉了金钏。回目「含耻辱情烈死金钏」——「耻辱」是加诸她的罪名，「情烈」是她以死自证的方式。她是全书第一个因「勾引」罪名而死的女儿，晴雯、司棋都将步她后尘。",
+        "meaning": [
+          "投井——「金簪子掉在井里头」的谶语成真，玩笑成了死法",
+          "「情烈」之评——她的死不是认罪，是抗辩",
+          "王夫人的「岂不是我的罪过」——凶手的半句自省，很快被宝钗劝散"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "谶语的闭环",
+          "content": "学者指出，金钏案是全书「谶语叙事」的典范：第三十回她亲口说「金簪子掉在井里头」，第三十二回她便死在井里。曹雪芹让被害者说出自己的死法——命运借她的口宣布她的死，这是比任何控诉都冷的笔法。"
+        },
+        {
+          "type": "character",
+          "title": "以死雪耻",
+          "content": "金钏的死与晴雯的「虚担虚名」同构：被污名的女儿，只能以死证明清白。她的「烈」在「情」字上——清白既是她的情（对名声的珍视），也是她的命（为清白而死）。「含耻辱」三字写尽她的死因：不是井，是耻。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinchuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinchuan_ch32_baochai",
+      "title": "宝钗赠衣与五十两赏银",
+      "event_level": "minor",
+      "chapter": {
+        "number": 32,
+        "title": "诉肺腑心迷活宝玉 含耻辱情烈死金钏",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "王夫人房中",
+        "specific": "金钏死后，王夫人赏其母五十两银子，欲寻新衣装裹（黛玉生日衣不便）。宝钗主动提出用自己的两套新衣：「他活着的时候也穿过我的旧衣服，身量又相对。」王夫人纳之。"
+      },
+      "summary": {
+        "short": "人死了，事后的处置是「体面」：五十两赏银、两套新衣。王夫人用银子安抚自己的不安，宝钗用新衣表自己的「得体」——一条命的善后，处处周到，处处凉薄。",
+        "meaning": [
+          "五十两——荣国府对丫鬟生命的官方定价",
+          "宝钗赠衣的主动——「得体」背后的算计（或善意）成为后世公案",
+          "王夫人之哭与赏——凶手的自我和解仪式"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "宝钗冷血说的发端",
+          "content": "宝钗劝王夫人「不过多赏他几两银子发送他，也就尽主仆之情了」、又主动赠衣——这段描写是「宝钗冷血说」的核心文本。支持者认为她毫无恻隐、只知讨好；辩护者认为她按礼教「事死如事生」行事，赠衣恰是实际善意。此争至今未息，是金钏案留给宝钗形象的永久阴影。",
+          "fact_type": "scholarly_viewpoint"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinchuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_xue_baochai",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinchuan_ch33",
+      "title": "宝玉挨打的导火索",
+      "event_level": "minor",
+      "chapter": {
+        "number": 33,
+        "title": "手足眈眈小动唇舌 不肖种种大承笞挞",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾政书房",
+        "specific": "贾环借金钏之死诬告：「宝玉哥哥前日在太太屋里，拉着太太的丫头金钏儿强奸不遂，打了一顿。那金钏儿便赌气投井死了。」贾政大怒，宝玉遭毒打。"
+      },
+      "summary": {
+        "short": "金钏死后也不得安宁：她的死被贾环加工成「强奸不遂」，成了宝玉挨打的导火索。一个死去的丫鬟，被生者用作攻击的弹药——她的悲剧在死后仍在发酵。",
+        "meaning": [
+          "死者被再利用——金钏之死成了嫡庶斗争的武器",
+          "「强奸不遂」的加工——她的清白在死后再次被玷污",
+          "宝玉挨打，一半是为她的死赎罪"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "死后的继续受害",
+          "content": "金钏活着时被污名（下作小娼妇），死后被再污名（强奸不遂）。曹雪芹写她的悲剧不因死亡终止——在这个体系里，弱者的尸体也可以被利用。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinchuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_huan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zheng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wangfuren",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinchuan_ch35",
+      "title": "玉钏尝羹——妹妹的余痛",
+      "event_level": "minor",
+      "chapter": {
+        "number": 35,
+        "title": "白玉钏亲尝莲叶羹 黄金莺巧结梅花络",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "怡红院",
+        "specific": "宝玉养伤，玉钏送莲叶羹来，满脸怒色。宝玉百般赔笑央告，玉钏终动容，尝了一口羹。"
+      },
+      "summary": {
+        "short": "金钏死后，她的妹妹玉钏成了余痛本身：对宝玉的冷脸，是一个丫鬟对姐姐之死最克制的控诉。宝玉的赔笑与玉钏的动容，是这对「凶手与遗属」之间唯一一次正面和解。",
+        "meaning": [
+          "玉钏的怒——金钏之死留下的活着的伤口",
+          "宝玉的讨好——迟来的赎罪",
+          "「白玉钏亲尝莲叶羹」——回目把妹妹写进姐姐的悲剧里"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "遗属的脸",
+          "content": "全书写金钏之死的余波，最有力的一笔是玉钏的脸：她「正眼也不看宝玉」。宝玉可以偷祭、可以流泪，但在玉钏面前，他必须面对自己的罪。玉钏尝羹的动容，不是原谅，是丫鬟阶层对主子的「不原谅的原谅」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinchuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_yuchuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_jinchuan_ch43",
+      "title": "不了情暂撮土为香——水仙庵之祭",
+      "event_level": "major",
+      "chapter": {
+        "number": 43,
+        "title": "闲取乐偶攒金庆寿 不了情暂撮土为香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "水仙庵（城外）",
+        "specific": "九月初二，凤姐生日，全府庆寿。宝玉却一早就骑马出城，到水仙庵焚香，撮土为香，祭拜金钏。茗烟代祝。黛玉点破：「这水仙庵的姑子长往咱们家去……」——众人只当宝玉去别处，唯黛玉心知。"
+      },
+      "summary": {
+        "short": "凤姐生日的热闹里，宝玉偷出城祭金钏——「不了情暂撮土为香」。一府的人都在贺寿，只有他记得一个丫鬟的忌日。这是宝玉对金钏的赎罪，也是全书「热闹中的悲凉」的经典笔法。",
+        "meaning": [
+          "「撮土为香」——最寒酸的祭品，最郑重的哀思",
+          "凤姐生日与金钏忌日的同天并置——生者的盛宴与死者的孤祭",
+          "宝玉的祭是私密的——他连祭奠都不敢公开"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "热闹与悲凉的并置",
+          "content": "曹雪芹把金钏之祭安排在凤姐寿宴当天：一边是举府庆寿的闹热，一边是孤身撮土的祭拜。生者的欢乐与死者的哀思同一天发生——这种并置是全书「以乐写哀」的典范，也让宝玉的「不了情」在喧闹的衬托下愈发沉重。"
+        },
+        {
+          "type": "character",
+          "title": "赎罪者宝玉",
+          "content": "宝玉祭金钏，祭的不是「情」，是「罪」：他逃走过、害死过，这一炷香是他迟到的自首。黛玉看破而不说破——全书只有她懂宝玉这炷香的重量。宝玉的悼念在此后成为习惯（晴雯诔、黛玉泪），而金钏是第一炉香。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_jinchuan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_ming_yan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jinchuan_baoyu",
+      "from": "character_jinchuan",
+      "to": "character_jia_baoyu",
+      "type": "主仆（调戏者与受害者）",
+      "nature": [
+        "master_servant",
+        "romantic"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "宝玉与金钏的关系始于亲昵（吃胭脂、玩笑），毁于轻浮（调戏后逃走）。她的死是宝玉之罪的第一桩血债——宝玉此后的祭（水仙庵）、泪（金钏事），都是为这一桩债。金钏的悲剧也宣告了宝玉「护花」的破产：他护不住任何一朵花。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "亲昵日常",
+          "chapter": 23,
+          "description": "吃胭脂、玩笑——无邪的熟稔。"
+        },
+        {
+          "stage": 2,
+          "title": "调戏逃走",
+          "chapter": 30,
+          "description": "宝玉逗金钏，事发逃走。"
+        },
+        {
+          "stage": 3,
+          "title": "撮土为香",
+          "chapter": 43,
+          "description": "宝玉水仙庵私祭金钏。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jinchuan_yuchuan",
+      "from": "character_jinchuan",
+      "to": "character_yuchuan",
+      "type": "姐妹（金玉之钏）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "金钏玉钏姊妹同侍王夫人，名如首饰之对。金钏死后，玉钏之怒（对宝玉冷脸）与玉钏之恸（失姐之痛）成为全书最克制的遗属形象。王夫人后把金钏的一两月钱添给玉钏——「金玉之钏」，从此只剩一只。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "同侍王夫人",
+          "chapter": 23,
+          "description": "姊妹同在王夫人房中当值。"
+        },
+        {
+          "stage": 2,
+          "title": "玉钏尝羹",
+          "chapter": 35,
+          "description": "金钏死后，玉钏对宝玉冷脸相向，终被央动。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jinchuan_baochai",
+      "from": "character_jinchuan",
+      "to": "character_xue_baochai",
+      "type": "赠衣者与亡者（冷血说公案）",
+      "nature": [
+        "master_servant"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "金钏生前穿过宝钗的旧衣，死后宝钗赠新衣装裹——这个细节把宝钗拖入金钏案的核心争议：赠衣是体恤还是讨好？「不过多赏他几两银子，也就尽主仆之情了」的劝语，使「宝钗冷血说」自第三十二回起成为红学公案。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "赠衣装裹",
+          "chapter": 32,
+          "description": "宝钗以自己新衣赠金钏装裹。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jinchuan_xiren",
+      "from": "character_jinchuan",
+      "to": "character_xiren",
+      "type": "同侪（太太的人的两种命运）",
+      "nature": [
+        "friendship",
+        "symbolic_parallel"
+      ],
+      "direction": "mutual",
+      "fact_type": "text_inference",
+      "summary": "金钏与袭人同属「太太的人」体系：袭人也是王夫人看重的丫鬟（后为准姨娘）。同为主母体系的奴婢，一个被王夫人逐死，一个被王夫人扶正——同样的体系，相反的路。二人命运对照，写出「太太的人」的两种风险：不守规矩的死，守规矩的活。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "同侪",
+          "chapter": 23,
+          "description": "同为主母房中的大丫鬟。"
+        },
+        {
+          "stage": 2,
+          "title": "生死分野",
+          "chapter": 32,
+          "description": "金钏投井死，袭人稳步上升——「烈」亡「贤」存。",
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jinchuan_responsibility",
+      "title": "金钏之死，谁之过？",
+      "slug": "who-is-to-blame-for-jinchuans-death",
+      "question_type": "character_morality",
+      "importance_weight": 80,
+      "heat_weight": 78,
+      "neutral_overview": "王夫人的巴掌、宝玉的调戏与逃走、金钏自己的玩笑——一条命的账，该记在谁头上？",
+      "viewpoint_ids": [
+        "vp_jinchuan_wangfuren",
+        "vp_jinchuan_baoyu",
+        "vp_jinchuan_self",
+        "vp_jinchuan_system"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jinchuan_wangfuren",
+          "title": "王夫人论：巴掌与撵逐是直接的死因",
+          "summary": "王夫人是直接凶手：掌掴（肉体的羞辱）、「下作小娼妇」（名誉的毁灭）、撵逐（生存的断绝）——三连击对一个家生丫鬟等于死刑。她的「岂不是我的罪过」是凶手的自知。",
+          "evidence": [
+            "掌掴、辱骂、撵逐的连锁处置",
+            "王夫人自道「我的罪过」"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jinchuan_baoyu",
+          "title": "宝玉论：祸首是调戏者，逃走的更是懦夫",
+          "summary": "祸由宝玉起：调戏金钏的是他，「讨你」的是他。事发后他一溜烟跑了，把金钏独自留在王夫人的怒火里。他的「护花」理想在此破产——他造的孽，他担不起。",
+          "evidence": [
+            "调戏与逃走的直接描写",
+            "他事后偷祭的赎罪姿态（反证其罪）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jinchuan_self",
+          "title": "自取论：她的轻佻给了刀子以口实",
+          "summary": "金钏的玩笑（「金簪子掉在井里头，有你的只是有你的」）在当时语境下确属越界——丫鬟与主子说「你的就是你的」，是礼教大忌。她的伶俐失了分寸，给了王夫人发难的把柄。",
+          "evidence": [
+            "玩笑内容的越界性",
+            "「气性大」的投井选择"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jinchuan_system",
+          "title": "制度论：没有人是凶手，制度才是",
+          "summary": "王夫人的巴掌执行的是礼教，宝玉的逃走遵循的是主子的特权，金钏的玩笑触犯的是主仆红线——三人都按各自的「规矩」行事，悲剧仍然发生。真正杀死金钏的是「丫鬟之命不值钱」的制度本身。",
+          "evidence": [
+            "五十两赏银的官方定价",
+            "金钏晴雯司棋三案的同构性"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_jinchuan_baochai",
+      "title": "宝钗赠衣，是冷血还是得体？",
+      "slug": "was-baochais-gift-of-clothes-cold-or-proper",
+      "question_type": "character_morality",
+      "importance_weight": 76,
+      "heat_weight": 74,
+      "neutral_overview": "金钏尸骨未寒，宝钗劝王夫人「多赏几两银子也就尽主仆之情」，又主动赠新衣。这是冷静的得体，还是精致的冷血？",
+      "viewpoint_ids": [
+        "vp_jinchuan_baochai_cold",
+        "vp_jinchuan_baochai_proper",
+        "vp_jinchuan_baochai_motive"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jinchuan_baochai_cold",
+          "title": "冷血论：对生命毫无恻隐，只有利害",
+          "summary": "金钏是与宝钗朝夕相处的人，宝钗的反应却是劝王夫人「不用为这事伤心」、建议花钱了事——毫无对生命的痛感。赠衣与其说是善举，不如说是讨好王夫人、为金玉良缘加分的算计。她的「冷」正冷在把一切都换算成体面与利益。",
+          "evidence": [
+            "「不过多赏他几两银子」的轻描淡写",
+            "赠衣的时机（王夫人自责之时）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jinchuan_baochai_proper",
+          "title": "得体论：礼教框架内最实际的善意",
+          "summary": "人已死，哭闹无益——宝钗的劝慰是帮王夫人「止损」，赠衣是让死者「体面入殓」。在礼教框架内，这是最得体的处置：她的冷静不是没有感情，是成熟。且金钏确曾穿她的旧衣，赠衣有真实的情分基础。",
+          "evidence": [
+            "「活着的时候也穿过我的旧衣服，身量又相对」",
+            "她确实解决了王夫人的实际困难（黛玉衣不宜）"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jinchuan_baochai_motive",
+          "title": "心机论：一次精准的「上级公关」",
+          "summary": "宝钗的赠衣发生在王夫人最脆弱的时刻（自责+缺衣）——这是对掌权者的精准投喂：既显贤德，又解燃眉，为金玉良缘挣足印象分。她的得体是真实的，她的心机也是真实的；得体与心机在她身上本是一体。",
+          "evidence": [
+            "宝钗对王夫人心思的一贯揣摩（如抄检事件）",
+            "金玉良缘背景下她与王夫人的利益同盟"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    },
+    {
+      "id": "question_jinchuan_qingwen",
+      "title": "金钏与晴雯之死，是同一种死吗？",
+      "slug": "are-jinchuans-and-qingwens-deaths-the-same",
+      "question_type": "comparative_analysis",
+      "importance_weight": 72,
+      "heat_weight": 68,
+      "neutral_overview": "金钏投井（第三十二回）与晴雯被逐病死（第七十七回），相隔四十五回——两个丫鬟的死法不同，罪名却相似。",
+      "viewpoint_ids": [
+        "vp_jinchuan_same",
+        "vp_jinchuan_diff",
+        "vp_jinchuan_ladder"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jinchuan_same",
+          "title": "同构论：都是「勾引宝玉」罪名下的牺牲品",
+          "summary": "金钏与晴雯死于同一个罪名：被指控「带坏宝玉」。她们都清白（金钏只有玩笑，晴雯纯属虚名），都被王夫人亲自处置。她们是「狐狸精罪名学」的两个案例——罪名不需要事实，只需要权力。",
+          "evidence": [
+            "王夫人对二人的处置方式（掌掴/驱逐）",
+            "「下作小娼妇」与「狐狸精」的罪名同质"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jinchuan_diff",
+          "title": "差异论：一个有实，一个纯诬",
+          "summary": "金钏案有事实基础（玩笑越界、宝玉调戏在场），晴雯案纯属诬陷（清清白白）。金钏死于「烈」（自尽雪耻），晴雯死于「病」（抱屈而亡）。金钏案是过失杀人，晴雯案是冤案——处理方式不同，悲剧层次也不同。",
+          "evidence": [
+            "金钏玩笑之实与晴雯清白之实",
+            "一个自尽、一个病亡的死法差异"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_jinchuan_ladder",
+          "title": "阶梯论：金钏是第一个，晴雯是最后一个",
+          "summary": "金钏之死是「逐婢血案」的第一级台阶：此后金钏（32回）、司棋（77回）、晴雯（77回）、四儿（77回）……一条罪名的流水线。晴雯之死之所以痛，正因她是这条线走到极致的一环——而链条的第一环，是金钏。",
+          "evidence": [
+            "金钏之后逐婢事件的连续发生",
+            "《芙蓉女儿诔》「实乃诔黛玉」——而诔的源头是金钏之死"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jinchuan_first",
+      "title": "金钏之死——宝玉的第一次「罪感」与死亡教育",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1989,
+      "source_title": "多项红学人物专题研究",
+      "description": "学者指出，金钏之死是宝玉生命中的第一次「罪感事件」：他第一次因自己的行为导致一个女儿的死。此前的可卿之死、秦钟之死都是「他者的死亡」，金钏之死则把死亡变成了「他的罪」。水仙庵之祭、对玉钏的赔笑、乃至日后《芙蓉女儿诔》的写作，都是这次罪感的延伸——金钏之死是宝玉「悼亡史」的第一页。"
+    },
+    {
+      "id": "viewpoint_jinchuan_lie",
+      "title": "「含耻辱情烈死金钏」——回目定评与「烈」的解读",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学悲剧美学研究",
+      "year": 1993,
+      "source_title": "多项悲剧美学研究",
+      "description": "第三十二回回目「含耻辱情烈死金钏」被学者反复解读：「耻辱」二字点明死因（被污名），「情烈」二字点明死法（以死雪耻）。有论者指出，「烈」是曹雪芹给金钏的最高评价——与尤三姐之烈、鸳鸯之烈同列。她的投井因此不是软弱，而是丫鬟阶层所能动用的最刚烈的抗辩：以命证清白。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 7,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 31,
+      "text_inference": 8,
+      "scholarly_viewpoint": 6,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 4
+  }
+}

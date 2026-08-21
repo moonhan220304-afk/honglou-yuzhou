@@ -1,0 +1,394 @@
+{
+  "locations": [
+    {
+      "id": "location_rongguofu",
+      "slug": "rongguo-fu",
+      "name": "荣国府",
+      "location_type": "estate",
+      "short_intro": "贾氏荣国一脉的府邸。贾母、贾政、王夫人、贾琏、王熙凤及大观园众姐妹居住于此。全书主要叙事空间，从黛玉初入贾府到锦衣军查抄，见证了一切兴衰荣辱。",
+      "parent_location_id": null,
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_jia_mu", "character_jia_zheng", "character_wang_furen",
+        "character_jia_baoyu", "character_jia_lian", "character_wang_xifeng",
+        "character_jia_yingchun", "character_jia_tanchun", "character_jia_xichun",
+        "character_li_wan", "character_jia_qiaojie", "character_lin_daiyu",
+        "character_xue_baochai"
+      ],
+      "key_events": [
+        "event_daiyu_enters_jia",
+        "event_baoyu_smash_jade_ch3",
+        "event_yuanchun_visit_ch18",
+        "event_search_garden_ch74"
+      ],
+      "symbolic_meaning": "荣国府是贾府「外面的架子虽未甚倒，内囊却也尽上来了」（冷子兴语）的最佳空间象征。从大门外的石狮子到内院的层层深闺，空间的层层嵌套对应着封建家族的等级秩序与伦理困境。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_ningguofu",
+      "slug": "ningguo-fu",
+      "name": "宁国府",
+      "location_type": "estate",
+      "short_intro": "贾氏宁国一脉的府邸，贾珍、贾蓉父子居住。全书道德危机的策源地——「造衅开端实在宁」，秦可卿之死、贾珍贾蓉的荒淫、焦大醉骂「扒灰」，都发生于此。",
+      "parent_location_id": null,
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_jia_zhen", "character_jia_rong", "character_qin_keqing",
+        "character_yuanshi"
+      ],
+      "key_events": [
+        "event_qin_keqing_death_ch13",
+        "event_qin_keqing_funeral_ch13_14",
+        "event_jiaoda_drunk_ch7"
+      ],
+      "symbolic_meaning": "宁国府在全书结构中承担着「揭露」功能——贾府的道德败坏首先在宁国府暴露（焦大醉骂、秦可卿之死）。「造衅开端实在宁」将贾府衰败的起点追溯到宁国府的伦理失序。宁荣二府的对照，本身就是「荣」与「宁」——兴盛与毁灭的隐喻。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_daguanyuan",
+      "slug": "daguan-yuan",
+      "name": "大观园",
+      "location_type": "estate",
+      "short_intro": "为元春省亲而建的省亲别墅，后奉元春之命开放给宝玉与众姐妹居住。集中国园林艺术之大成，既是一个物理空间，也是一个青春王国——全书最华美、最诗意、也最脆弱的乌托邦。",
+      "parent_location_id": "location_rongguofu",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_jia_baoyu", "character_lin_daiyu", "character_xue_baochai",
+        "character_jia_tanchun", "character_shi_xiangyun", "character_jia_yingchun",
+        "character_jia_xichun", "character_li_wan", "character_miao_yu"
+      ],
+      "key_events": [
+        "event_daguanyuan_names_ch17",
+        "event_yuanchun_visit_ch18",
+        "event_haitang_she_ch37",
+        "event_search_garden_ch74"
+      ],
+      "symbolic_meaning": "大观园是全书最核心的空间意象——它是「太虚幻境」在人间的投影，是青春与诗意的庇护所。园中诸景与诸人一一对应：潇湘馆是黛玉的清冷与灵性，蘅芜苑是宝钗的素朴与品节，怡红院是宝玉的繁华与幻灭。元春题「天上人间诸景备」——而这「天上人间」终究是暂时的，抄检大观园即是这个青春乌托邦的终结。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_xiaoxiangguan",
+      "slug": "xiaoxiang-guan",
+      "name": "潇湘馆",
+      "location_type": "courtyard",
+      "short_intro": "林黛玉在大观园中的居所，以千竿翠竹掩映著称。小小三间房舍，一明两暗，幽静清雅，是全书最具诗意的个人空间。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_lin_daiyu", "character_zijuan", "character_xueyan"
+      ],
+      "key_events": [
+        "event_autumn_poem_ch45",
+        "event_golden_words_ch45",
+        "event_burn_manuscripts_ch97",
+        "event_daiyu_death_ch98",
+        "event_zijuan_tests_yu_ch57"
+      ],
+      "symbolic_meaning": "翠竹是黛玉最核心的人格象征——「凤尾森森，龙吟细细」既有清傲，又有幽怨。竹之虚心、节操、清瘦，与黛玉的诗人气质、孤高品格、病弱之躯一一对应。潇湘馆的竹影斑驳、月下潇潇，将黛玉的悲凉心境物化为空间意境。黛玉以「潇湘妃子」为号，将自身命运与娥皇女英的泪水传说相连——泪洒竹成斑，既是文学典故，也是其一生的悲谶。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_yihongyuan",
+      "slug": "yi-hong-yuan",
+      "name": "怡红院",
+      "location_type": "courtyard",
+      "short_intro": "贾宝玉在大观园中的居所，大观园中最为华丽繁复的建筑。院内海棠与芭蕉并植，暗合「怡红快绿」之意。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_jia_baoyu", "character_xiren", "character_qingwen",
+        "character_sheyue"
+      ],
+      "key_events": [
+        "event_qingwen_tear_fans_ch31",
+        "event_qingwen_mend_ch52",
+        "event_five_deaths_ch63",
+        "event_liulaolao_nap_ch41",
+        "event_search_garden_ch74"
+      ],
+      "symbolic_meaning": "怡红院是全书最繁复的建筑——「四面皆是雕空玲珑木板」，布置得「金碧辉煌，文章闪烁」，正是宝玉的世界：繁华、温柔、缭乱、终究幻灭。怡红院中的海棠喻女儿，芭蕉喻宝玉（怡红快绿），而海棠枯而复荣是「花妖」之兆，预示大观园命运转折。宝玉为怡红院的匾额题「红香绿玉」，被元春改为「怡红快绿」，去掉「香玉」二字——暗合「无玉」谶语。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_hengwuyuan",
+      "slug": "hengwu-yuan",
+      "name": "蘅芜苑",
+      "location_type": "courtyard",
+      "short_intro": "薛宝钗在大观园中的居所，以奇草异蔓、冷香素净著称。院落朴素至极——「雪洞一般，一色玩器全无」。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_xue_baochai", "character_yinger"
+      ],
+      "key_events": [
+        "event_chai_dai_reconcile_ch42",
+        "event_daguanyuan_names_ch17"
+      ],
+      "symbolic_meaning": "蘅芜苑「雪洞一般」的素净是宝钗人格的空间投影——不事雕饰、克制内敛、以德自持。院中遍植各种奇草异藤、牵藤引蔓——贾政初见此院时嫌「无味的很」，但走近却见「一株花木也无，只见许多异草」，这正是宝钗的性格：外表朴素无华，内里丰富深厚。蘅芜苑中使用的「冷香」更强化了宝钗「冷」的特质——不是冷漠，而是理性的克制。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_daoxiangcun",
+      "slug": "dao-xiang-cun",
+      "name": "稻香村",
+      "location_type": "courtyard",
+      "short_intro": "李纨在大观园中的居所，仿农家田舍而建——「一带黄泥筑就矮墙，墙头皆用稻茎掩护」。数百株杏花如喷火蒸霞。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_li_wan", "character_jia_lan"
+      ],
+      "key_events": [
+        "event_haitang_she_ch37",
+        "event_daguanyuan_names_ch17"
+      ],
+      "symbolic_meaning": "稻香村是全书中最具反讽意味的建筑——在富贵园林中刻意营造「归农」意象，被宝玉批评为「人力穿凿扭捏而成」，恰如李纨的身份：身为贾府寡妇，被制度塑造成「槁木死灰」，失去自我的活力。杏花数百株「如喷火蒸霞」的绚烂与李纨的守寡孤寂形成鲜明对照——自然繁盛，而人被礼教压制成枯木。贾兰后来「气昂昂头戴簪缨」的功名正是从这片稻香中破土而出。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_qiushuangzhai",
+      "slug": "qiu-shuang-zhai",
+      "name": "秋爽斋",
+      "location_type": "courtyard",
+      "short_intro": "贾探春在大观园中的居所，轩敞明亮，三间屋子不曾隔断。探春在此发起海棠诗社，是她精神世界的空间宣言。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_jia_tanchun"
+      ],
+      "key_events": [
+        "event_haitang_she_ch37",
+        "event_tanchun_reforms_ch55_56"
+      ],
+      "symbolic_meaning": "探春将三间屋子打通为一大间，是全书唯一在空间上主动打破闺阁界限的女性——这一细节精准投射了她「才自精明志自高」的精神格局。秋爽斋中的大幅米芾字画、大盘大鼎、数十个娇黄玲珑大佛手，都展示了她不同于园中任何其他女性的开阔气象。「秋爽」二字既指秋高气爽，也是她性格「敏」与「爽」的空间化表达。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_longcuian",
+      "slug": "long-cui-an",
+      "name": "栊翠庵",
+      "location_type": "religious",
+      "short_intro": "妙玉在大观园中的修行之所，一处佛堂院落。院中红梅傲雪，是全园最幽静、最神秘的角落。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_miao_yu"
+      ],
+      "key_events": [
+        "event_miaoyu_serve_tea_ch41",
+        "event_baoyu_visit_longcui_ch63",
+        "event_red_plum_snow_ch49_50"
+      ],
+      "symbolic_meaning": "栊翠庵是大观园中的宗教异质空间——它既是妙玉避世的庇护所，也是她「欲洁何曾洁」的矛盾现场。庵中红梅是全书最动人的意象之一：在白雪世界中傲然怒放，既象征妙玉「太高人愈妒」的孤洁，也暗藏其内心未被彻底熄灭的情感温度。栊翠庵的空间位置——位于园中却「槛外」——精妙地概括了妙玉（以及一切试图逃离世俗者）的生存困境：身在尘世，心许空门，两者皆不得彻底。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_zhuijinlou",
+      "slug": "zhui-jin-lou",
+      "name": "缀锦楼",
+      "location_type": "courtyard",
+      "short_intro": "贾迎春在大观园中的居所。迎春性格懦弱，于此楼中安静度日，却也在此被孙绍祖接走，从温柔乡走向悲惨命运。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_jia_yingchun"
+      ],
+      "key_events": [
+        "event_yingchun_marriage_ch79"
+      ],
+      "symbolic_meaning": "缀锦楼之「锦」字，与迎春性格中「二木头」般的迟钝形成微妙反讽。楼名「缀锦」暗含一种被动的装饰性——迎春在贾府中的地位也恰如一块锦缎，被使用、被安排、被牺牲。她的居所没有如潇湘馆、蘅芜苑那般鲜明的个性投射，这本身就是一个悲剧性表征：迎春还没来得及建立自己的精神空间，就已被送出大观园。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_nuanxiangwu",
+      "slug": "nuan-xiang-wu",
+      "name": "暖香坞",
+      "location_type": "courtyard",
+      "short_intro": "贾惜春在大观园中的居所（亦称蓼风轩），一间暖阁。惜春于此作画，也在此逐渐走向出世的决心。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_jia_xichun"
+      ],
+      "key_events": [
+        "event_xichun_paint_ch42",
+        "event_xichun_renounce_ch74"
+      ],
+      "symbolic_meaning": "暖香坞之名有三层含义：其一，「暖」暗示一种安全但封闭的空间；其二，「香」与惜春的清净寡欲形成对照——她的世界是无香的；其三，「坞」有船舶停泊地之意，预示惜春将以此为起点驶向空门。「蓼风轩」的别称中，「蓼」是水边植物，暗示惜春终将「渡」向彼岸。惜春在此完成绘画的《大观园行乐图》，实为将青春凝固为一幅永远无法完成的挽歌。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_lixiangyuan",
+      "slug": "li-xiang-yuan",
+      "name": "梨香院",
+      "location_type": "courtyard",
+      "short_intro": "荣国府东北角上一所独立院落，原是贾政所择一处清静居所。薛姨妈携宝钗初入贾府时借住于此，后又作为贾府十二女伶的排练与居住之处。",
+      "parent_location_id": "location_rongguofu",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [
+        "character_xue_baochai", "character_xue_yima", "character_xue_pan",
+        "character_lingguan", "character_fangguan"
+      ],
+      "key_events": [
+        "event_baochai_pills_ch8",
+        "event_lingguan_draw_ch30",
+        "event_ouguan_yuan_vows_ch58"
+      ],
+      "symbolic_meaning": "梨香院是《红楼梦》中一个重要的过渡性空间。梨园即戏台——梨香院最终成为十二女伶的戏班驻地，绝非巧合。从薛家暂居到女伶聚居，梨香院始终承载着「非永久身份」的人群：寄居的亲眷、被买来的优伶。龄官在此画「蔷」字，是对这一空间最动人的演绎——在梨园（戏）的框架内，却有着最真实的痴情。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_tubishanzhuang",
+      "slug": "tu-bi-shan-zhuang",
+      "name": "凸碧山庄",
+      "location_type": "pavilion",
+      "short_intro": "大观园中高处的一座建筑，因建在山坡之上而地势高敞。中秋之夜贾母率众人在此赏月——月亮格外清澈，笛声格外凄凉。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [],
+      "key_events": [
+        "event_midautumn_feast_ch75",
+        "event_convex_crystal_ch76"
+      ],
+      "symbolic_meaning": "凸碧山庄是全书中最具宇宙感的空间——「凸碧」对「凹晶」，一天一地、一高一低、一显一隐。「凸碧山庄品笛感凄清」一回：贾母在高处赏月，笛声呜咽穿林渡水而来，满座寂然。高处不胜寒的不仅是自然气候，更是命运的无情——贾府站在最高处时，也是最危险的时候。这座建在山上的厅堂，本身就是贾府「高处」命运的戏剧性舞台。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_aojingxiguan",
+      "slug": "ao-jing-xi-guan",
+      "name": "凹晶溪馆",
+      "location_type": "pavilion",
+      "short_intro": "大观园中低洼水边的一座建筑，与凸碧山庄上下呼应。中秋夜黛玉与湘云在此联诗，吟出「寒塘渡鹤影，冷月葬花魂」的千古绝句。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [],
+      "key_events": [
+        "event_convex_crystal_ch76"
+      ],
+      "symbolic_meaning": "凹晶溪馆是与凸碧山庄形成的空间辩证法——「凸碧」在上为阳、为明、为贾母等众人；「凹晶」在下为阴、为暗、为黛玉湘云两个孤女。中秋夜众人散去后，黛玉与湘云在水边联句，「寒塘渡鹤影，冷月葬花魂」——凹晶馆的水面映着冷月，成为全书最凄绝的诗意场景。黛玉名字中的「玉」与溪水「晶」光相映，此地几乎成为她命运的湖畔祭坛。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_qinfangzha",
+      "slug": "qin-fang-zha",
+      "name": "沁芳闸",
+      "location_type": "landscape",
+      "short_intro": "大观园中一处水闸桥。宝黛在此共读《西厢记》，也在此合葬落花。是宝黛爱情最美好的见证之地。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [],
+      "key_events": [
+        "event_read_west_chamber",
+        "event_bury_flowers_ch23"
+      ],
+      "symbolic_meaning": "「沁芳」之名本身即为全书最核心的意象之一——水（生命之源）浸染芬芳（花），既是滋养也是消解。沁芳闸是宝黛爱情的青春地标：桃花树下共读禁书是甜蜜的起点，同葬落花是悲感的预演。当水闸放水、落花随水而去之时，实际上已在预演群芳最终的「沁芳」——逝去、消散、归于大荒。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_huazhong",
+      "slug": "hua-zhong",
+      "name": "花冢",
+      "location_type": "landscape",
+      "short_intro": "沁芳闸桥边桃花树下一角，宝玉与黛玉合葬落花之处。黛玉在此独自葬花并吟诵《葬花吟》五十二句，是全书最著名的诗学场景。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [],
+      "key_events": [
+        "event_bury_flowers_ch27"
+      ],
+      "symbolic_meaning": "花冢是全书中最强烈的死亡诗学意象——一个埋葬花瓣的冢，本身就是一个「无坟之坟」。黛玉以葬花来演练自己的死亡：「侬今葬花人笑痴，他年葬侬知是谁」——她是在为自己预先举行葬礼。花冢将生与死、美与逝、个体与宇宙压缩在一个微小空间中，真正实现了诗与命运的统一。脂批称《葬花吟》为「大观园诸艳之归源小引」，花冢便是这一「归源」的物理原点。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_shengqinbieshu",
+      "slug": "sheng-qin-bie-shu",
+      "name": "省亲别墅",
+      "location_type": "estate",
+      "short_intro": "元春省亲时的主要活动场所，又称「大观楼」。元春在此题写「天上人间诸景备」的匾额，是贾府建成大观园的终极政治理由——将私人园林悬挂在皇权的旗号之下。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [],
+      "key_events": [
+        "event_yuanchun_visit_ch18",
+        "event_daguanyuan_names_ch17"
+      ],
+      "symbolic_meaning": "省亲别墅是大观园存在的政治合法性来源——整座园林因为「有凤来仪」才得以建造。然而元春省亲的场景充满了悲剧性的反讽：深夜来、深夜去，全程哭泣多于欢笑，称皇宫为「不得见人的去处」。这座为皇妃省亲而建的宏伟建筑，其真正的功能是展示贾府「烈火烹油、鲜花着锦之盛」，而烈火烹油的下一步必然是灰烬。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_tiekan_si",
+      "slug": "tie-kan-si",
+      "name": "铁槛寺",
+      "location_type": "religious",
+      "short_intro": "贾府家庙之一，馒头庵旁的寺院。秦可卿棺木在此停灵，王熙凤在此弄权、受贿、制造冤案，是全书最具讽刺意味的宗教空间。",
+      "parent_location_id": null,
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [],
+      "key_events": [
+        "event_qin_keqing_funeral_ch13_14",
+        "event_xifeng_abuse_power_ch15"
+      ],
+      "symbolic_meaning": "「铁槛寺」与「馒头庵」构成全书最犀利的宗教反讽。铁槛寺的名称源自「纵有千年铁门槛，终须一个土馒头」——然而就在这座以死亡警示为名的寺院中，王熙凤收受三千两银子、拆散一对鸳鸯、制造两条人命。宗教空间成为权力空间的共谋——死亡无法净化欲望，寺庙无法约束贪腐。铁槛寺是对一切伪善的宗教仪式的终极解构。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    },
+    {
+      "id": "location_luxuean",
+      "slug": "lu-xue-an",
+      "name": "芦雪庵",
+      "location_type": "pavilion",
+      "short_intro": "大观园中一处水边建筑，傍山临水，芦花满岸。冬日雪后，大观园众姐妹在此联句、烤鹿肉，是全书中群芳雅集最盛大、最欢乐的场景。",
+      "parent_location_id": "location_daguanyuan",
+      "map_x": null,
+      "map_y": null,
+      "resident_character_ids": [],
+      "key_events": [
+        "event_luxuean_couplet_ch50"
+      ],
+      "symbolic_meaning": "芦雪庵联句是全书中最盛大的集体诗会——白雪红梅、琉璃世界，大观园的青春在此达到诗意的最高潮。然而这一高潮本身就是一个警告：芦雪庵中众人的诗句中已大量出现「斜风仍故故」「清梦转聊聊」等悲音。白雪覆盖一切，而雪的融化不可避免。芦雪庵的欢乐本质上是短暂的、借来的——正如贾府的繁荣。",
+      "asset_key": null,
+      "status": { "review": "verified", "confidence": 100, "updated_at": "2026-08-12T00:00:00Z" }
+    }
+  ],
+  "meta": {
+    "total_locations": 19,
+    "created_by": "kb-agent-v2",
+    "created_at": "2026-08-12T00:00:00Z",
+    "source": "OPENCODE_CONTENT_DATABASE_FRAMEWORK.md §2.10"
+  }
+}

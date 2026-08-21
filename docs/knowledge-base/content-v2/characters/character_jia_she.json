@@ -1,0 +1,866 @@
+{
+  "character": {
+    "id": "character_jia_she",
+    "name": "贾赦",
+    "slug": "jia-she",
+    "aliases": [
+      "恩侯",
+      "大老爷"
+    ],
+    "category": "荣国府家长（大房之主）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "贾代善与贾母之长子（次子贾政），袭一等将军之爵。邢夫人之夫，贾琏、迎春之父。",
+      "position": "荣国府大房家长，袭一等将军——却住在荣府「旧园」改造的别院，实际的荣府权力由二房（贾政）一脉掌握。",
+      "origin": "荣国府嫡长子，字恩侯。",
+      "generation": "贾府第三代（「代」字辈之子）——与贾政同辈"
+    },
+    "tags": [
+      "袭一等将军",
+      "讨鸳鸯",
+      "石呆子古扇",
+      "贪财好色",
+      "抵债嫁女",
+      "孙绍祖",
+      "发配台站"
+    ],
+    "summary": {
+      "short": "荣国府大老爷，字恩侯，袭一等将军。他贪财好色：四十六回逼讨鸳鸯为妾，四十八回借雨村之手夺石呆子古扇，七十九回把女儿迎春抵债嫁给孙绍祖。他是贾府「假赦」（假宽仁）的活标本——赦字在他身上成了最大的反讽，后四十回（gaoe）终因罪恶发配台站。",
+      "long": "贾赦是荣国府长房之主，也是全书「腐朽贵族」的形象最高峰。他字恩侯——「恩侯」二字充满反讽：他身受皇恩（袭一等将军）、家恩（长子承爵），却把一切恩典活成罪恶。他的名「赦」也是反讽：赦者宽宥也，而他是全书最不宽宥的人之一——对下人（夺扇逼死人命）、对丫鬟（逼婚鸳鸯）、对女儿（抵债嫁孙绍祖）、对兄弟（讽刺贾母偏心），无一事见其宽。他虽为长子、袭爵，在荣府却住「旧园」（贾赦院），中轴线正房让给二房贾政居住——这个「长房被边缘化」的安排是全书最微妙的家族政治之一：贾母偏心（他自己在中秋笑话里点破「天下父母心偏的多呢」）、元春在二房、当家人凤姐也是二房的媳妇，大房在荣府的实际地位与他的爵位严重错位。这种「错位」滋生的怨气，贯穿他的全部恶行：四十六回「尴尬人难免尴尬事」，他逼邢夫人出面讨贾母的贴身丫鬟鸳鸯为妾——表面是好色，深层是向贾母的权力挑衅（鸳鸯掌握贾母的私房钥匙与人事调度）；事败后他放话鸳鸯「叫他细想，凭他嫁到谁家去，也难出我的手心」——强权的嘴脸毕露。四十八回石呆子案：他看中石呆子的二十把古扇，贾琏买不来，他勾结贾雨村诬陷石呆子拖欠官银、抄没其扇——几把扇子坑得人家破人亡，连「于世路上好机变」的贾琏都说出「不算能为」的公道话，被他劈头痛打。七十九回迎春之嫁：他把女儿许配给孙绍祖——贾府欠孙家五千两银子，迎春等于被抵债。孙绍祖「中山狼」式凌虐迎春，贾赦不闻不问；宝玉以「太虚幻境」判词与香菱同悲，贾母知孙家不堪却「碍于贾赦」不能拦。他的一生以「吃」为纲：吃祖荫（袭爵）、吃老母（惦记贾母私房）、吃下人（夺扇）、吃女儿（抵债）——直到后四十回（gaoe）「交通外官、倚势强索」事发，他被革去世职、发配台站效力赎罪，这个「赦」字才第一次落到实处：他最终没有获得赦免，只得到了惩罚。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "贪——贪财好色的四字定评",
+        "fact_type": "canonical_text_fact",
+        "description": "「贪财好色」是曹雪芹给贾赦的直接定评：贪财到夺人古扇、坑人败家；好色到「姬妾丫鬟最多」，年过半百还逼讨鸳鸯。他的贪无底线也无羞耻——讨鸳鸯失败后竟厚颜说「凭他嫁到谁家去，也难出我的手心」。"
+      },
+      {
+        "dimension": "狠——不把人当人的冷酷",
+        "fact_type": "canonical_text_fact",
+        "description": "贾赦之狠是贵族式的「无心之狠」：石呆子被坑得家破人亡，他只关心扇子到手；贾琏说了句公道话，他「生了气」痛打一顿；迎春被孙绍祖虐待至死，他毫无波澜。他的狠不来自仇恨，而来自「理所当然」——在袭爵者的世界里，下人、女儿都只是他的私产。"
+      },
+      {
+        "dimension": "怨——长房边缘化的酸气",
+        "fact_type": "text_inference",
+        "description": "贾赦的恶有一个心理根源：作为长子袭爵者，他在荣府却处处矮二房一头——贾母偏疼贾政、宝玉；正房与管家权都在二房。第七十五回他讲「母亲偏心」的笑话、讽刺宝玉「认真念书，咱们也不若他是出身正根」，都是这种怨气的泄漏。曹雪芹写他不写「坏」而写「酸」——失权者的酸，比坏更真实。"
+      },
+      {
+        "dimension": "滥——无节制的欲望机器",
+        "fact_type": "canonical_text_fact",
+        "description": "贾赦的「滥」表现为全方位的无节制：姬妾成群还要讨鸳鸯、家产挥霍还要夺人扇、卖女抵债还要摆父亲的谱。他是贾府「安富尊荣者多，运筹谋画者无一」的另一面——安富尊荣的终极形态，就是把人活成一具只知索取的欲望机器。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_jiashe_intro_ch2",
+        "title": "冷子兴演说——袭一等将军（第二回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_jiashe_yuanyang_ch46",
+        "title": "尴尬人难免尴尬事——逼讨鸳鸯（第四十六回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_jiashe_shidaizi_ch48",
+        "title": "石呆子案——夺古扇坑人命（第四十八回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_jiashe_zhongqiu_ch75",
+        "title": "中秋夜讽刺贾母偏心（第七十五回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_jiashe_yingsun_ch79",
+        "title": "迎春抵债嫁孙绍祖（第七十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 6,
+        "event_id": "event_jiashe_punish_gaoe",
+        "title": "获罪革职、发配台站（后四十回）",
+        "fact_type": "disputed_version",
+        "note": "attribution=gaoe"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch46_jiashe_yuanyang",
+        "quote": "贾赦怒起来，因说道：「我这话告诉你，叫你女人向他说去，就说我的话：『自古嫦娥爱少年』，他必定嫌我老了，大约他恋着少爷们，多半是看上了宝玉，只怕也有贾琏。果有此心，叫他早早歇了心，我要他不来，此后谁还敢收？此是一件。第二件，想着老太太疼他，将来自然往外聘作正头夫妻去。叫他细想，凭他嫁到谁家去，也难出我的手心。除非他死了，或是终身不嫁男人，我就伏了他！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十六回。讨鸳鸯失败后的威胁——「难出我的手心」五字，写尽世袭贵族的强权逻辑。"
+      },
+      {
+        "source_id": "source_ch48_jiashe_fans",
+        "quote": "（平儿道）「谁知雨村那没天理的听见了，便设了个法子，讹他拖欠了官银，拿他到衙门里去……把这扇子抄了来，作了官价送了来。那石呆子如今不知是死是活。……老爷拿着扇子问着二爷说：『人家怎么弄了来？』二爷只说了一句：『为这点子小事，弄得人坑家败业，也不算什么能为。』老爷听了就生了气。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十八回（平儿转述）。为古扇坑人败家——贾赦之贪的实证，与贾琏的「不算能为」形成父子高下对照。"
+      },
+      {
+        "source_id": "source_ch75_jiashe_joke",
+        "quote": "贾赦……因说道：「一家子一个儿子最孝顺。偏生母亲病了，各处求医不得，便请了一个针灸的婆子来。……婆子道：『不妨事。你不知天下父母心偏的多呢。』」众人听说，都笑起来。贾母也只得吃半杯酒，半日笑道：「我也得这个婆子针一针就好了。」……（贾赦又对贾环说）「咱们这样人家，原不比那起寒酸，定要雪窗萤火，一日蟾宫折桂，方得扬眉吐气。咱们的子弟都原该读些书，不过比别人略明白些，可以做得官时就跑不了一个官的。……咱们的子弟现在都可作官，用不着读书。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十五回。贾赦讲「母亲偏心」笑话暗讽贾母；又当众宣称「咱们的子弟用不着读书」——把袭爵阶级的堕落哲学说得理直气壮。"
+      },
+      {
+        "source_id": "source_ch79_jiashe_yingsun",
+        "quote": "原来贾赦已将迎春许与孙家了。这孙家乃是大同府人氏，祖上系军官出身，乃当日宁荣府中之门生，算来亦系世交。如今孙家只有一人在京，现袭指挥之职，此人名唤孙绍祖……贾赦见是世交之孙，且人品家当都相称合，遂青目择为东床娇婿。……（孙绍祖后对迎春说）「你别和我充夫人娘子，你老子使了我五千银子，把你准折卖给我的。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七十九回。迎春被「准折卖」给孙绍祖——贾赦用女儿抵了五千两银子的债，「中山狼」之姻由此结成。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "名赦，字恩侯",
+      "detail": "「赦」——赦免、宽宥。以「赦」为名的贾赦恰是全书最无赦的贾府男性：不赦下人（逼死石呆子）、不赦丫鬟（鸳鸯之逼）、不赦女儿（迎春之卖）——名与行的巨大反讽，曹雪芹起名学的标准手法。「恩侯」——承恩之侯：他的一切来自恩（袭爵），也死于恩的滥用（gaoe中因倚势强索革职）。贾府「文字辈」三兄弟（敬、赦、政）谐音群：「贾敬」＝假敬（假恭敬）、「贾赦」＝假赦（假宽仁）、「贾政」＝假正（假正经）——礼敬、宽赦、为政三德，三兄弟三假。",
+      "fact_type": "text_inference",
+      "disputes": [
+        {
+          "title": "贾赦为何住旧园、正房让二房",
+          "content": "一说贾赦为庶出（或过继），故不得承正房；一说贾母偏心，以「孝顺」为由留贾政一房在正堂。文本未明言，学界两说并存。",
+          "proponent": "各红学版本研究"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文。据贾母之长子、贾琏之父（第2回贾琏约20岁）推算，约五十五岁上下（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "恩侯",
+      "type": "字",
+      "context": "承恩之侯——他的一切地位来自皇恩祖荫，与他的不肖形成「恩而不报」的反讽",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "大老爷",
+      "type": "府内称呼",
+      "context": "贾府上下对贾赦的通称——与「二老爷」贾政相对，一纵一严，兄弟并提即见对照",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "赦老爹",
+      "type": "叙述者称呼",
+      "context": "叙述者对贾赦的口语称呼，与「政老爹」成对——市井化的「老爹」消解了「一等将军」的威仪",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_jiashe_intro_ch2",
+      "title": "冷子兴演说——袭一等将军的长子",
+      "event_level": "minor",
+      "chapter": {
+        "number": 2,
+        "title": "贾夫人仙逝扬州城 冷子兴演说荣国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（转述）",
+        "specific": "冷子兴向贾雨村介绍荣府：贾代善长子贾赦袭着官（一等将军），次子贾政赐主事衔。荣府名义上由大房袭爵，实际居住与权力重心都在二房。"
+      },
+      "summary": {
+        "short": "第二回只用一句「长子贾赦袭着官」交代贾赦的爵位。这个「袭」字是他一生的全部资本——他没有为这个将军衔付出过任何东西，此后却用这个衔头巧取豪夺了一辈子。",
+        "meaning": [
+          "「袭着官」——世袭制度的速写：不劳而获的爵位，不学无术的爵主",
+          "贾赦袭爵而贾政掌家——荣府「爵」与「权」的分离，长房与二房的潜在裂痕",
+          "「一等将军」——武职虚衔，贾赦一生无尺寸军功，衔头只是享乐的通行证"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_she",
+          "role": "被介绍者"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "长房边缘化——贾府的权力结构之谜",
+          "content": "贾赦作为袭爵长子却住旧园、二房贾政住正房，这个安排是红学讨论贾府权力结构的入口之一：一说贾母偏心（贾赦中秋讽刺可为证），一说贾赦曾犯事失宠（文本未明），一说清代世袭制度中「爵」与「职」分离的现实投影。无论何因，长房在权力上的压抑感，为贾赦后来的乖张与贾琏凤姐夫妇的「借二房平台发展」提供了心理背景。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiashe_yuanyang_ch46",
+      "title": "尴尬人难免尴尬事——逼讨鸳鸯为妾",
+      "event_level": "major",
+      "chapter": {
+        "number": 46,
+        "title": "尴尬人难免尴尬事 鸳鸯女誓绝鸳鸯偶",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（贾赦院/贾母上房）",
+        "specific": "贾赦看上贾母的贴身丫鬟鸳鸯，命邢夫人说合，许以「姨娘」之位。鸳鸯执意不从，剪发立誓，贾母大怒斥责邢夫人。贾赦恼羞成怒，放话「凭他嫁到谁家去，也难出我的手心」。"
+      },
+      "summary": {
+        "short": "年过半百的贾赦要讨母亲的贴身丫鬟鸳鸯做妾——这不仅是好色，更是对贾母私房与权力的觊觎。鸳鸯剪发抗婚，贾母大怒，贾赦威胁「难出我的手心」。回目「尴尬人难免尴尬事」，尴尬人是他，尴尬事是他自找的。",
+        "meaning": [
+          "鸳鸯是贾母的「钥匙人」——讨鸳鸯为妾，是向贾母的私房钱与人事权下手",
+          "鸳鸯抗婚——一个丫鬟以死抗争世袭将军，全书阶级叙事的华彩段落",
+          "「难出我的手心」——贾赦的强权逻辑：妾可夺、命可要，唯尊严不可让"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_she",
+          "role": "逼婚者"
+        },
+        {
+          "character_id": "character_yuanyang",
+          "role": "鸳鸯——剪发抗婚"
+        },
+        {
+          "character_id": "character_jia_mu",
+          "role": "贾母——怒斥邢夫人"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch46_jiashe_yuanyang",
+          "summary": "贾赦威胁鸳鸯「难出我的手心」——强权嘴脸的总曝光。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "讨鸳鸯的「三层账」",
+          "content": "贾赦讨鸳鸯至少有三层算盘：第一层是好色——鸳鸯是贾母房中的头等丫鬟，品貌俱全；第二层是图财——鸳鸯替贾母掌管私房，娶了她等于捏住贾母的钱袋；第三层是夺权——向贾母的权威挑衅，试探自己在荣府的分量。三层账都落空后，他的「难出我的手心」只剩纯粹的暴力嘴脸——当欲望、算计都失效，露出的是强权的本相。"
+        },
+        {
+          "type": "hongxue",
+          "title": "鸳鸯抗婚——奴婢尊严的宣言",
+          "content": "鸳鸯抗婚常被与探春理家、晴雯撕扇并提，视为「女奴自觉」的华彩：一个「家生女儿」以剪发立誓对抗世袭将军，其勇气不亚于任何英雄叙事。而贾赦在这组对立中扮演的是「制度」的肉身——他的逼婚不是个人恶行，是纳妾制度赋予主子的当然权利。鸳鸯的「死也不嫁」与贾赦的「难出手心」，是全书对奴婢制度的正反两个注脚。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiashe_shidaizi_ch48",
+      "title": "石呆子案——夺古扇坑人命",
+      "event_level": "major",
+      "chapter": {
+        "number": 48,
+        "title": "滥情人情误思游艺 慕雅女雅集苦吟诗",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "京中（平儿转述于怡红院）",
+        "specific": "贾赦看中石呆子的二十把古扇，贾琏去买未成。贾雨村闻知，讹石呆子拖欠官银、抄没其扇，作官价献与贾赦。贾琏不平，被贾赦痛打。石呆子家破人亡，生死不明。"
+      },
+      "summary": {
+        "short": "贾赦为二十把古扇，与贾雨村联手制造冤案，把石呆子坑得家破人亡。贾琏一句「不算能为」的公道话换来一顿痛打——在贾赦的价值体系里，夺人财物是本事，说公道话是没出息。",
+        "meaning": [
+          "「作官价送了来」——官价成了掠夺的遮羞布，司法成了私欲的工具",
+          "石呆子「饿死冻死也不卖」——一个穷人对「物」的执着，被权贵碾成血泥",
+          "贾琏被打——父子在「恶」的尺度上分道：琏之恶尚有底线，赦之恶全无边际"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_she",
+          "role": "主谋者——得扇得意"
+        },
+        {
+          "character_id": "character_jia_yucun",
+          "role": "帮凶——讹银抄扇"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "贾琏——因不齿而被打"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch48_jiashe_fans",
+          "summary": "平儿转述石呆子案——贾赦与雨村联手，贾琏挨打。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "扇子的三层象征——物欲、风雅与血案",
+          "content": "石呆子的二十把古扇是全书最重的「物」：对石呆子，扇子是命（饿死不卖）；对贾赦，扇子是癖（巧取豪夺）；对雨村，扇子是礼（献媚的道具）。三层意义叠成一场血案——风雅之物沾满鲜血，这是曹雪芹对「贵族收藏文化」最尖刻的审判：所谓风雅，不过是强权游戏的漂亮包装。"
+        },
+        {
+          "type": "literary",
+          "title": "转述叙事——平儿口中的血案",
+          "content": "石呆子案不正面描写，而由平儿在怡红院转述——这个叙事选择极为讲究：转述使血案获得「传闻」的距离感，反而更显其普遍（这样的案子在贵族圈子里只是谈资）；而讲述者平儿（丫鬟）与听众（宝玉、香菱）都是「善」的阵营，血案在他们中间传播，形成「恶在别处发生、善在此处颤栗」的空间张力。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiashe_zhongqiu_ch75",
+      "title": "中秋夜宴——「天下父母心偏的多呢」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 75,
+        "title": "开夜宴异兆发悲音 赏中秋新词得佳谶",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（凸碧山庄中秋夜宴）",
+        "specific": "中秋夜宴，贾赦讲「母亲偏心」的笑话，暗讽贾母偏疼二房。贾母听了「半日笑道」：「我也得这个婆子针一针就好了。」随后贾赦又大谈「咱们的子弟用不着读书」，当众夸贾环「将来这世袭的前程定跑不了你袭」。"
+      },
+      "summary": {
+        "short": "中秋夜，贾赦借笑话讽贾母偏心，又当众宣言「咱们的子弟用不着读书」——他把贾府的堕落哲学讲成了光明正大的家风。这是长房怨气与世袭阶级自大的双重曝光。",
+        "meaning": [
+          "「天下父母心偏的多呢」——长房对贾母的积怨，以笑话的形式出鞘",
+          "「用不着读书」——世袭制度的反智宣言：有爵可袭，何必苦读",
+          "夸贾环「世袭的前程定跑不了你袭」——他连「不肖」都希望有传人"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_she",
+          "role": "讲笑话者——暗讽贾母"
+        },
+        {
+          "character_id": "character_jia_mu",
+          "role": "贾母——半日笑道「我也得针一针」"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch75_jiashe_joke",
+          "summary": "贾赦的「母亲偏心」笑话与「用不着读书」宣言。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "酸气与傲气——贾赦的双重表情",
+          "content": "中秋夜宴的贾赦展示了两个表情：对贾母是「酸」（借笑话放怨气——他既不敢明言，又不甘吞声），对子侄是「傲」（「用不着读书」的理直气壮——世袭制度给了他傲的资本）。酸与傲的并存，正是失权贵族的典型心理：对上传内里畏而口头酸，对下恃其爵而态度傲。贾母那句「我也得针一针」的还击，让他的酸当场碎裂。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiashe_yingsun_ch79",
+      "title": "迎春抵债嫁孙绍祖——「准折卖给我的」",
+      "event_level": "major",
+      "chapter": {
+        "number": 79,
+        "title": "薛文龙悔娶河东狮 贾迎春误嫁中山狼",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府/孙家",
+        "specific": "贾赦将迎春许配孙绍祖（世交之孙、现袭指挥）。孙绍祖婚后暴露「中山狼」本相，凌虐迎春，说「你老子使了我五千银子，把你准折卖给我的」。迎春回娘家哭诉，贾赦不闻不问，迎春终被虐待致死。"
+      },
+      "summary": {
+        "short": "贾赦欠孙家五千两银子，用女儿抵债。孙绍祖婚后对迎春说「你老子使了我五千银子，把你准折卖给我的」——「中山狼」的口供，揭穿了这桩婚姻的买卖本质。",
+        "meaning": [
+          "「准折卖」——女儿=五千两银子，贾赦亲手把女儿算成价码",
+          "迎春之死——「公府千金」被中山狼凌虐至死的全过程，父亲全程缺席",
+          "贾母「碍于贾赦」不能拦——祖母看破孙家不堪，却救不了孙女"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_she",
+          "role": "卖女之父"
+        },
+        {
+          "character_id": "character_jia_yingchun",
+          "role": "迎春——被抵债出嫁、被虐而死"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "source_ch79_jiashe_yingsun",
+          "summary": "迎春许配孙绍祖——孙绍祖「准折卖」的口供。"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "卖女——贾赦之恶的最终形态",
+          "content": "贾赦的恶行谱系有一个递进：逼丫鬟（鸳鸯）→夺财物（古扇）→卖女儿（迎春）。最后一项最重：对鸳鸯是「霸占」，对石呆子是「掠夺」，对迎春是「抵债」——亲女儿在他眼里与物无异。曹雪芹写他卖女不写任何心理活动——因为没有心理活动可写：在「父为子纲」的制度里，嫁女不需要良心。迎春的「误嫁中山狼」与贾赦的「择为东床娇婿」，回目与人物的互文写尽婚姻制度的吃人。"
+        },
+        {
+          "type": "literary",
+          "title": "「中山狼」——寓言传统的现世还魂",
+          "content": "孙绍祖是《中山狼传》寓言在清代的还魂：祖上受贾府恩泽（门生），他反噬其女（虐死迎春）。而「中山狼」能得逞，靠的是贾赦的贪——欠债、卖女、不问死活。回目「贾迎春误嫁中山狼」的「误」字尤毒：不是命运之误，是父亲之误——迎春一生「懦小姐不问累金凤」的隐忍，最终被父亲的一个错误决定终结。"
+        }
+      ]
+    },
+    {
+      "id": "event_jiashe_punish_gaoe",
+      "title": "获罪革职、发配台站——「赦」的终结",
+      "event_level": "major",
+      "chapter": {
+        "number": 107,
+        "title": "散余资贾母明大义 复世职政老沐天恩",
+        "attribution": "gaoe"
+      },
+      "fact_type": "disputed_version",
+      "note": "attribution=gaoe",
+      "location": {
+        "name": "京中/台站",
+        "specific": "后四十回（gaoe）写贾赦因「交通外官、依势凌弱」等罪被参，革去世职，发往台站效力赎罪。抄家后贾府「子孙流散」，贾赦之罪被论者视为贾府败落的直接导火索之一。"
+      },
+      "summary": {
+        "short": "后四十回（gaoe）让贾赦自食其果：交通外官、倚势强索事发，革职发配台站。一个以「赦」为名的人，最终没有得到任何赦免——他的败落是贾府败落的先声。",
+        "meaning": [
+          "贾赦之罪——交通外官、依势凌弱，与他的前科（夺扇、逼婚）一脉相承",
+          "发配台站——世袭将军沦为苦役犯，「袭」来的终被「革」去",
+          "他的获罪带动贾府大狱——全书「安富尊荣」者被清算的正式开始"
+        ]
+      },
+      "participants": [
+        {
+          "character_id": "character_jia_she",
+          "role": "获罪者——革职发配"
+        }
+      ],
+      "interpretations": [
+        {
+          "type": "hongxue",
+          "title": "贾赦获罪——续书与前八十回的伏笔吻合度",
+          "content": "贾赦获罪发配的结局（gaoe）被学界普遍认为符合前八十回伏笔：石呆子案（夺扇坑人）、孙绍祖亲事（交通军官）、凤姐平儿口中「大老爷」的种种劣迹，都是他终将获罪的铺垫。脂批亦有贾府被抄的相关提示。续书把他写成贾府败落的引信（其罪牵连全府），与前文「一粒老鼠屎」式的人物定性一致。"
+        },
+        {
+          "type": "character",
+          "title": "「赦」字的最终反讽",
+          "content": "贾赦的名字在结局处完成最终反讽：他一生施暴于人不肯赦人（鸳鸯、石呆子、迎春），最终自己也求赦不得——革职、抄家、发配，无一赦免。曹雪芹（与续书）以「名」与「命」的错位，完成对世袭贵族的判决：恩侯无恩，大赦不赦。"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_jiashe_jia_mu",
+      "from": "character_jia_she",
+      "to": "character_jia_mu",
+      "type": "母子（怨怼的孝）",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾赦与贾母是全书最紧张的母子关系：贾母偏心二房（住正房、掌家权），贾赦积怨成酸，中秋借笑话相讽。讨鸳鸯事件更使母子正面冲突——贾赦的逼婚被贾母怒斥，他的怨气又加深一层。表面是「孝」的日常（问安、侍宴），内里是「怨」的暗流。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "逼婚冲突",
+          "chapter": 46,
+          "description": "讨鸳鸯惹怒贾母，母子裂痕公开化。"
+        },
+        {
+          "stage": 1,
+          "title": "公开的斥责",
+          "chapter": 46,
+          "description": "鸳鸯事件中贾母怒斥贾赦荒淫——母亲对长子的道德审判。"
+        },
+        {
+          "stage": 2,
+          "title": "中秋相讽",
+          "chapter": 75,
+          "description": "贾赦讲「母亲偏心」笑话，贾母还以冷语。"
+        },
+        {
+          "stage": 2,
+          "title": "偏心的指控",
+          "chapter": 75,
+          "description": "贾赦讲「偏心」笑话暗讽贾母——母子裂痕公开化。"
+        }
+      ],
+      "evidence_events": [
+        "event_jiamu_yuanyang_ch46"
+      ]
+    },
+    {
+      "id": "relationship_jiashe_jia_lian",
+      "from": "character_jia_she",
+      "to": "character_jia_lian",
+      "type": "父子（利用与轻慢）",
+      "nature": [
+        "kinship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾赦与贾琏是全书最恶劣的父子关系之一：贾琏说句公道话（「不算能为」）被痛打；贾琏办事得力（去平安州），贾赦以秋桐「赏」他——妾室被当父子交易的筹码。贾琏对父亲无敬（办事敷衍），父亲对儿子无爱（动辄责打）。这种父子关系与贾政宝玉的「严中有爱」形成对照：一个是恨铁不成钢，一个是根本不把儿子当人。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "痛打",
+          "chapter": 48,
+          "description": "贾琏微词石呆子案，贾赦劈头就打。"
+        },
+        {
+          "stage": 1,
+          "title": "买扇挨打",
+          "chapter": 48,
+          "description": "贾琏说公道话，被贾赦痛打。"
+        },
+        {
+          "stage": 2,
+          "title": "赏妾",
+          "chapter": 69,
+          "description": "贾赦赏秋桐与贾琏——父子间的「物」的流通。"
+        },
+        {
+          "stage": 2,
+          "title": "赏妾拉拢",
+          "chapter": 69,
+          "description": "贾赦赏秋桐与贾琏。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiashe_jia_yingchun",
+      "from": "character_jia_she",
+      "to": "character_jia_yingchun",
+      "type": "父女（抵债弃女）",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "one-way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾赦是迎春之父，也是害死她的人：把女儿抵五千两银子的债嫁给孙绍祖，婚后不闻不问，迎春被虐致死。这对父女关系是全书「父权吃人」的最直接证据——迎春回门哭诉，贾赦连面都不露。迎春判词「中山狼，无情兽」骂的是孙绍祖，读者心中真正该骂的是贾赦。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "抵债出嫁",
+          "chapter": 79,
+          "description": "迎春许配孙绍祖——「准折卖」。"
+        },
+        {
+          "stage": 2,
+          "title": "弃女不救",
+          "chapter": 80,
+          "description": "迎春回门哭诉，贾赦置若罔闻。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiashe_yuanyang",
+      "from": "character_jia_she",
+      "to": "character_yuanyang",
+      "type": "逼婚者与抗婚者",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "one-way",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾赦讨鸳鸯为妾是全书最著名的「主奴对抗」：鸳鸯剪发立誓，贾赦「难出我的手心」威胁。这场冲突的胜负看似鸳鸯胜（贾母庇护），实为两败：鸳鸯赔上一生的自由（立誓不嫁），贾赦丢尽长房的脸。而贾赦在贾母死后必不放过鸳鸯——这也是鸳鸯最终自缢（gaoe）的伏笔。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "逼婚",
+          "chapter": 46,
+          "description": "邢夫人说合、鸳鸯抗婚、贾母怒斥。"
+        },
+        {
+          "stage": 1,
+          "title": "逼娶",
+          "chapter": 46,
+          "description": "贾赦遣邢夫人诱劝、压兄嫂施压。"
+        },
+        {
+          "stage": 2,
+          "title": "威胁",
+          "chapter": 46,
+          "description": "贾赦「难出我的手心」的强权宣言。"
+        },
+        {
+          "stage": 2,
+          "title": "拒婚成仇",
+          "chapter": 46,
+          "description": "鸳鸯剪发立誓，贾赦怀恨。"
+        },
+        {
+          "stage": 3,
+          "title": "报应",
+          "chapter": 111,
+          "description": "贾母死后鸳鸯自缢。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiashe_jia_yucun",
+      "from": "character_jia_she",
+      "to": "character_jia_yucun",
+      "type": "狼狈为奸（夺扇同盟）",
+      "nature": [
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾赦与贾雨村是「权」与「术」的合谋：贾赦要扇，雨村造案——一个出欲望，一个出技术。石呆子案中二人配合默契：雨村讹银抄扇，贾赦坐收其成。这对同盟是全书官场腐败的完美标本：世袭的权加上科举的术，足以把任何法律变成私人武器。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "夺扇合谋",
+          "chapter": 48,
+          "description": "雨村讹石呆子抄扇献贾赦。"
+        },
+        {
+          "stage": 1,
+          "title": "讹银抄扇",
+          "chapter": 48,
+          "description": "雨村诬石呆子拖欠官银，抄扇献与贾赦。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_jiashe_xing_furen",
+      "from": "character_jia_she",
+      "to": "character_xing_furen",
+      "type": "夫妻（懦妻与暴夫）",
+      "nature": [
+        "kinship",
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "邢夫人是贾赦的填房，「秉性愚弱，只知承顺贾赦以自保」——她替贾赦说媒讨鸳鸯、替他搜刮财物（绣春囊事件），是「夫权下失去自我」的标本。贾赦对她毫无尊重（姬妾成群、赏秋桐给儿子）。这对夫妻是贾府「无爱婚姻」的极端样本。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "代夫说媒",
+          "chapter": 46,
+          "description": "邢夫人出面讨鸳鸯，碰得灰头土脸。"
+        },
+        {
+          "stage": 1,
+          "title": "替夫讨妾",
+          "chapter": 46,
+          "description": "邢夫人为贾赦讨鸳鸯——讨好丈夫的愚行。"
+        },
+        {
+          "stage": 2,
+          "title": "承顺自保",
+          "chapter": 73,
+          "description": "邢夫人参与搜检，为贾赦敛财。"
+        },
+        {
+          "stage": 2,
+          "title": "夫获罪流放",
+          "chapter": 107,
+          "description": "贾赦获罪流放，邢夫人的靠山崩塌。",
+          "fact_type": "disputed_version",
+          "note": "attribution=gaoe"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_jiashe_evil",
+      "title": "贾赦是《红楼梦》里最坏的男性吗？",
+      "slug": "is-jia-she-the-worst-man",
+      "question_type": "character_morality",
+      "importance_weight": 76,
+      "heat_weight": 68,
+      "neutral_overview": "贾赦贪财好色、夺扇坑人、卖女抵债，几乎无恶不作。但贾府男性中，贾珍（爬灰）、贾蓉（调情姨娘）、薛蟠（打死人命）也各有所恶——贾赦凭什么称「最」？",
+      "viewpoint_ids": [
+        "vp_jiashe_evil_yes",
+        "vp_jiashe_evil_compare",
+        "vp_jiashe_evil_system"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiashe_evil_yes",
+          "title": "最恶论：他的恶覆盖了伦理的全谱系",
+          "summary": "贾赦之恶的「全」无人能及：对下（夺扇坑命）、对婢（逼婚鸳鸯）、对女（卖女抵债）、对弟（讥讽二房）、对母（怨怼贾母）——伦理关系的每个维度他都作恶。贾珍之乱（爬灰）是淫乱，薛蟠之恶（杀人）是纨绔，贾赦之恶却是「系统性的坏」——不放过任何一层关系里的任何一个弱者。",
+          "evidence": [
+            "鸳鸯、石呆子、迎春三条恶行线的覆盖范围",
+            "第七十五回对贾母、贾环的态度"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiashe_evil_compare",
+          "title": "对照论：他是「袭爵制度」的人格化恶果",
+          "summary": "贾赦之恶与贾珍之乱同源：都是「袭爵不劳」制度的产物——不读书、不做官、不生产，人生只剩欲望。但贾赦比贾珍更恶，因为贾珍尚有「宁府家长」的名分约束，贾赦连约束都没有（荣府权力在二房，他成了「无人管束的自由恶」）。学者指出，贾赦是曹雪芹为世袭制度设计的「最坏可能性」：当特权不受任何制衡，人就会活成贾赦。",
+          "evidence": [
+            "贾赦袭爵而无权的处境",
+            "「咱们的子弟用不着读书」的宣言"
+          ],
+          "fact_type": "scholarly_viewpoint"
+        },
+        {
+          "id": "vp_jiashe_evil_system",
+          "title": "制度论：恶的不是人，是允许恶的制度",
+          "summary": "更深的读法指向制度：贾赦的每桩恶都合法——纳妾合法（讨鸳鸯）、父权合法（卖女儿）、官场交易合法（夺扇「作官价」）。他的恶不需要犯法，制度本身就是他的帮凶。因此对贾赦的道德审判应升级为制度审判：只要「袭爵+纳妾+父权+官商勾结」这套系统还在，贾赦就还会再生。",
+          "evidence": [
+            "「作官价送了来」的合法性包装",
+            "卖女抵债的「父权」外衣"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiashe_yuanyang",
+      "title": "贾赦讨鸳鸯为妾，只是为了好色吗？",
+      "slug": "jiashe-yuanyang-motive",
+      "question_type": "character_motivation",
+      "importance_weight": 72,
+      "heat_weight": 66,
+      "neutral_overview": "贾赦姬妾成群，为何偏要讨贾母的贴身丫鬟？「尴尬人难免尴尬事」的尴尬，是不是另有玄机？",
+      "viewpoint_ids": [
+        "vp_jiashe_yuanyang_lust",
+        "vp_jiashe_yuanyang_money",
+        "vp_jiashe_yuanyang_power"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiashe_yuanyang_lust",
+          "title": "好色论：贪恋鸳鸯的品貌",
+          "summary": "最直接的解释是好色：鸳鸯「蜂腰削背，鸭蛋脸面，乌油头发，高高的鼻子」，是丫鬟中的上品；贾赦「姬妾丫鬟最多」仍不满足，是典型的「吃着碗里看着锅里」。他的威胁（「自古嫦娥爱少年」的酸语）也暴露了老夫的色心与自卑。",
+          "evidence": [
+            "贾赦「姬妾丫鬟最多」的叙述",
+            "「自古嫦娥爱少年」的酸话"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiashe_yuanyang_money",
+          "title": "图财论：鸳鸯是贾母的钱袋子",
+          "summary": "鸳鸯的特殊地位在于她掌管贾母的全部私房：「老太太的东西，有她管着」。贾赦若娶了鸳鸯，等于把贾母的私房账本与钥匙捏在手里——凤姐都说过「老太太离了鸳鸯，饭也吃不下去的」。讨鸳鸯的表面是妾，实质是「图老太太的东西」。",
+          "evidence": [
+            "鸳鸯为贾母掌管箱笼的设定",
+            "贾赦对贾母私房的觊觎（放高利贷等）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiashe_yuanyang_power",
+          "title": "夺权论：向贾母权威的试探",
+          "summary": "最深一层是权力试探：贾赦作为袭爵长子被边缘化已久，讨鸳鸯是对贾母权威的正面挑战——若贾母让步，长房的地位即刻抬升；若不让，至少试出贾母的底线。鸳鸯抗婚、贾母怒斥，实为荣府两房权力博弈的一次短兵相接。",
+          "evidence": [
+            "贾赦长房被边缘化的处境",
+            "「难出我的手心」中「我」的强势宣示"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    },
+    {
+      "id": "question_jiashe_yingsun",
+      "title": "贾赦为什么把迎春嫁给孙绍祖？他真的不知道孙家是什么样吗？",
+      "slug": "jiashe-marrying-yingchun-to-sun",
+      "question_type": "character_motivation",
+      "importance_weight": 74,
+      "heat_weight": 62,
+      "neutral_overview": "贾赦「见是世交之孙，且人品家当都相称合」就把迎春许配孙绍祖。他是真被蒙蔽，还是明知是火坑仍把女儿往里推？",
+      "viewpoint_ids": [
+        "vp_jiashe_yingsun_debt",
+        "vp_jiashe_yingsun_indifferent",
+        "vp_jiashe_yingsun_naive"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_jiashe_yingsun_debt",
+          "title": "抵债论：五千两银子买断父女情",
+          "summary": "孙绍祖「你老子使了我五千银子，把你准折卖给我的」是最直接的口供：贾赦欠孙家五千两，用女儿抵账。在贾赦的账本里，女儿与银子是同一栏——他选择孙家不是选女婿，是销欠条。这桩婚姻从头到尾是一笔债务重组。",
+          "evidence": [
+            "孙绍祖「准折卖」的原话",
+            "贾赦的经济状况（挥霍无度）"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiashe_yingsun_indifferent",
+          "title": "漠然论：他根本不在乎女儿嫁到哪",
+          "summary": "即使不为抵债，贾赦对迎春的婚姻也毫无关心：迎春是庶出、性格懦弱、母亲早亡，在贾赦眼里无足轻重。贾政曾两次劝谏「非彼之孙」（孙家不堪），贾赦一概不听——他不是不知道孙家不好，是「女儿好不好」根本不值得他费心。贾母「碍于贾赦」不能拦，反证全家都看清了火坑，只有推人者闭着眼。",
+          "evidence": [
+            "贾政劝阻而贾赦不听",
+            "贾母「心里不乐意，亦不能多管」的态度",
+            "迎春回门哭诉而贾赦无动于衷"
+          ],
+          "fact_type": "text_inference"
+        },
+        {
+          "id": "vp_jiashe_yingsun_naive",
+          "title": "误判论：被「世交」的表象蒙蔽",
+          "summary": "最宽容的读法：贾赦只看「世交之孙、人品家当相称」的表面条件，未深察孙绍祖的品性——「中山狼」之恶是婚后才暴露的。此说的问题在于：贾政的劝阻证明「孙家不堪」在贾府不是秘密，贾赦的「不知」更像是「不愿知」。此说虽弱，但保留了他「非蓄意害女」的可能。",
+          "evidence": [
+            "贾赦择婿时看到的表面条件",
+            "贾政劝阻的细节"
+          ],
+          "fact_type": "text_inference"
+        }
+      ]
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_jiashe_specimen",
+      "title": "贾赦——「袭爵不劳」制度的恶果标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学社会批评研究",
+      "year": 1986,
+      "source_title": "多项社会制度研究",
+      "description": "学者将贾赦与贾珍并列为「袭爵制度」的恶果标本：不读书、不做官、不生产、不负责，人生只剩「袭来的权利」与「膨胀的欲望」。贾赦的特殊性在于他被边缘化（荣府实权在二房），因此比贾珍更「无拘」——一个不受制衡的世袭者，会把欲望活成全部人生。有论者称贾赦为「制度性恶人」：他的恶不是性格缺陷，而是制度环境的自然产物。"
+    },
+    {
+      "id": "viewpoint_jiashe_sisters",
+      "title": "贾赦与三春悲剧的共谋关系",
+      "type": "scholarly",
+      "fact_type": "text_inference",
+      "author": "综合红学人物研究",
+      "year": 1994,
+      "source_title": "多项人物关系研究",
+      "description": "有论者指出，贾赦是三春悲剧的重要推手：迎春之死他直接负责（抵债嫁孙）；探春远嫁虽是王夫人等所谋，长房的失势也使贾府缺少为女儿们「惜福」的力量；惜春之冷亦有「宁府肮脏」（贾珍贾蓉）的背景——贾赦代表的大房腐朽，与贾珍代表的宁府淫乱，共同构成了「女儿们」生存环境的毒性。三春之悲，一半在命运，一半在这两个父辈身上。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 6,
+    "total_relationships": 6,
+    "total_poems": 0,
+    "total_questions": 3,
+    "total_viewpoints": 2,
+    "total_sources": 4,
+    "citation_coverage": 0.95,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 26,
+      "text_inference": 16,
+      "scholarly_viewpoint": 6,
+      "disputed_version": 4,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 6
+  }
+}

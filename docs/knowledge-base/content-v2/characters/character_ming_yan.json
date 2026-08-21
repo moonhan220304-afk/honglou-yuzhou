@@ -1,0 +1,532 @@
+{
+  "character": {
+    "id": "character_ming_yan",
+    "name": "茗烟",
+    "slug": "ming-yan",
+    "aliases": [
+      "焙茗"
+    ],
+    "category": "荣国府小厮（宝玉首席小厮）",
+    "importance_level": "major",
+    "content_level": "L2",
+    "identity": {
+      "family": "荣国府买来的小厮（家奴）。",
+      "position": "宝玉的首席小厮（跟班+心腹+同谋）。",
+      "origin": "贾府奴婢体系（买进之仆）。",
+      "generation": "与宝玉年纪相仿的仆人阶层"
+    },
+    "tags": [
+      "焙茗",
+      "闹学堂先锋",
+      "偷买禁书",
+      "祭金钏",
+      "代烧香",
+      "西厢记",
+      "机灵大胆",
+      "首席小厮",
+      "宝玉同谋"
+    ],
+    "summary": {
+      "short": "宝玉的首席小厮（一作焙茗）。第九回闹学堂的先锋（「姓金的，你是什么东西」）；第十九回偷买《西厢记》等禁书给宝玉；第二十三回带宝玉出城祭金钏；第四十三回代宝玉烧香。机灵大胆，是宝玉最得力的「编外同谋」。",
+      "long": "茗烟（一作焙茗）是宝玉的首席小厮——怡红院外院的第一跟班。他机灵大胆、天不怕地不怕：第九回闹学堂，他是先锋——被贾蔷挑唆后，直冲进去骂金荣「姓金的，你是什么东西」，掀起「顽童闹学堂」的全武行；第十九回他溜出府去，给宝玉偷买《西厢记》《牡丹亭》等「禁书」——大观园的「地下图书馆」由他经营；第二十三回宝玉要祭金钏，茗烟替他出主意，带他出城到水仙庵烧香——宝玉的每一次「越界」，都有茗烟陪跑。他还敢开宝玉的玩笑（被宝玉撵时骂「改日再敢」），也最懂宝玉的心思（第三十九回替宝玉打听刘姥姥故事、第四十三回猜中宝玉要祭的是「一个极清俊的女子」）。红学界视茗烟为「宝玉的反叛镜像」：少爷离经叛道的想法，小厮负责落地执行——他是宝玉与「府外世界」之间最灵活的通道。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "机灵大胆——首席小厮的生存之道",
+        "fact_type": "canonical_text_fact",
+        "description": "茗烟的机灵是市井式的：会看脸色（宝玉一使眼色他就动手）、会借势（闹学堂时狐假虎威）、会钻营（偷买禁书、打听消息）。他的大胆也是市井式的：骂金荣、闯外府、戏宝玉——主子宠信给了他越界的底气。"
+      },
+      {
+        "dimension": "忠诚与同谋——宝玉的「影子」",
+        "fact_type": "canonical_text_fact",
+        "description": "茗烟对宝玉的忠诚是「同谋式」的：他陪宝玉淘气、替宝玉冒险、代宝玉烧香。他的忠不是晴雯式的贴身侍奉，是「一起去」的伙伴关系——宝玉的反叛需要一个执行者，茗烟就是那个执行者。"
+      },
+      {
+        "dimension": "机趣——小人物的活泼生命",
+        "fact_type": "canonical_text_fact",
+        "description": "曹雪芹写茗烟的小人物机趣极传神：被宝玉撵时放狠话（「改日敢再留我，饶你」）、替宝玉烧香时的「祝赞」（念出一串滑稽祷词）、打听消息时的煞有介事。他的活泼是全书底层人物中最有生气的一笔。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_mingyan_school_ch9",
+        "title": "闹学堂先锋——「姓金的，你是什么东西」（第九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_mingyan_books_ch19",
+        "title": "偷买禁书（第十九回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_mingyan_jinchuan_ch23",
+        "title": "带宝玉出城祭金钏（第二十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_mingyan_incense_ch43",
+        "title": "代宝玉烧香（第四十三回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch9_mingyan_jinrong",
+        "quote": "茗烟……便一头进来找金荣，也不叫金相公了，只说：「姓金的，你是什么东西！」",
+        "fact_type": "canonical_text_fact",
+        "note": "第九回。茗烟闹学堂的开场白——全书最著名的奴才骂街。"
+      },
+      {
+        "source_id": "source_ch19_mingyan_books",
+        "quote": "茗烟道：「……他（书店）那里有卖的书，我悄悄的买了几本来……什么《西厢记》《牡丹亭》……」",
+        "fact_type": "canonical_text_fact",
+        "note": "第十九回。茗烟为宝玉偷买禁书——大观园「地下阅读」的供货商。"
+      },
+      {
+        "source_id": "source_ch43_mingyan_incense",
+        "quote": "茗烟道：「……二爷的心事，我也不会猜……想是祭一个极清俊的女子……」",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十三回。茗烟猜中宝玉心事——「极清俊的女子」直指金钏。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-15T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "「茗烟」一作「焙茗」——茶事之名",
+      "detail": "茗=茶（嫩茶），焙茗=焙制茶叶——茗烟/焙茗都与茶事相关：宝玉是「怡红公子」，其首席小厮以茶命名，暗合其「侍茶」之职（端茶倒水的近身之仆）。红学家指出，「茗烟」二字更有意境：茶烟袅袅——一个机灵少年的「烟火气」；而「焙茗」则更写实（焙茶的劳作）。两名的版本差异，或反映曹雪芹改稿的痕迹（焙茗为后改）。",
+      "fact_type": "text_inference",
+      "disputes": [
+        {
+          "point": "「茗烟」与「焙茗」的版本异文——孰先孰后",
+          "fact_type": "disputed_version"
+        }
+      ]
+    },
+    "age": {
+      "text_anchors": [
+        {
+          "chapter": 9,
+          "evidence": "宝玉第一个得用的书童，年轻不谙世事",
+          "age": "年轻（约12-14岁）"
+        }
+      ],
+      "estimated_age": {
+        "story_start": "约12-14岁（第9回「年轻不谙世事」）",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "第9回明文「年轻不谙世事」，约十二三岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "焙茗",
+      "type": "版本异文",
+      "context": "部分版本（尤其后文）将「茗烟」写作「焙茗」——红学多认为「茗烟」为早期稿本用名，「焙茗」为后改",
+      "fact_type": "disputed_version",
+      "note": "版本异文"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_mingyan_school_ch9",
+      "title": "闹学堂先锋——「姓金的，你是什么东西」",
+      "event_level": "major",
+      "chapter": {
+        "number": 9,
+        "title": "恋风流情友入家塾 起嫌疑顽童闹学堂",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "贾府义学",
+        "specific": "金荣欺负秦钟，贾蔷挑唆茗烟。茗烟闯进学堂，骂金荣「姓金的，你是什么东西」，与金荣互殴，学堂大乱——「众顽童也有趁势帮着打太平拳的，也有胆小藏过一边的」。"
+      },
+      "summary": {
+        "short": "闹学堂的全武行由茗烟拉开序幕：一句「姓金的，你是什么东西」点燃了第九回的大乱。他是宝玉的「打手」，更是贾府小厮群体的缩影——主子的矛盾，小厮先上。",
+        "meaning": [
+          "茗烟的先锋角色：被贾蔷挑唆而不自知——底层小厮的「枪」属性",
+          "「不叫金相公」的称呼变化：从尊称到辱骂——小厮世界的人情凉薄",
+          "闹学堂的众生相：贾府的子弟教育在小厮的拳脚中现出原形"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "先锋的勇气与代价",
+          "content": "茗烟敢打敢骂的「勇」，一半是机灵（讨宝玉欢心），一半是傻（被当枪使）。曹雪芹写他的莽撞不全是赞——这个大胆的男孩，是贾府「主奴共谋」结构里最基层的一环。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ming_yan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_qiang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_qin_zhong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jin_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_mingyan_books_ch19",
+      "title": "偷买禁书——大观园的地下图书馆",
+      "event_level": "major",
+      "chapter": {
+        "number": 19,
+        "title": "情切切良宵花解语 意绵绵静日玉生香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府（茗烟处）",
+        "specific": "茗烟偷偷出府，买来《西厢记》《牡丹亭》等「禁书」给宝玉看。宝玉「如得了珍宝」。后黛玉读《西厢记》之情节（第二十三回「西厢记妙词通戏语」）的源头即在此。"
+      },
+      "summary": {
+        "short": "茗烟的「偷买禁书」是宝黛共读《西厢》的前奏：没有这个小厮的地下采购，就没有大观园里最浪漫的「妙词通戏语」。茗烟以仆人之身，成了「反礼教阅读」的供货商。",
+        "meaning": [
+          "禁书的流通渠道：少爷的思想越界需要小厮的脚力配合",
+          "「如得了珍宝」：宝玉对「真性情之书」的饥渴",
+          "茗烟的风险：偷买禁书若被查获，小厮罪过不小——他的大胆里有人情的忠诚"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "literary",
+          "title": "「地下阅读」的叙事功能",
+          "content": "《西厢记》《牡丹亭》是全书「情」主题的文本密码：宝玉由此悟情、黛玉由此动情（共读西厢是宝黛爱情的名场面）。茗烟偷买的这几本书，是大观园精神世界的「走私品」——曹雪芹借一个小厮之手，把「情」的教材送进了礼教森严的贾府。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ming_yan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_lin_daiyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_mingyan_jinchuan_ch23",
+      "title": "带宝玉出城祭金钏",
+      "event_level": "minor",
+      "chapter": {
+        "number": 23,
+        "title": "西厢记妙词通戏语 牡丹亭艳曲警芳心",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "城外水仙庵",
+        "specific": "宝玉要私祭金钏（因金钏之死而愧疚），苦无借口出府。茗烟出主意：以「北静王叫宝玉」为由报信，带宝玉出城，至水仙庵烧香祭奠。"
+      },
+      "summary": {
+        "short": "茗烟替宝玉完成了对金钏的私祭：出主意、打掩护、带路——宝玉的每件「良心事」，都有茗烟的脚印。这场私祭是宝玉对金钏之死的忏悔，也是茗烟「同谋式忠诚」的展示。",
+        "meaning": [
+          "「北静王叫」的借口：主仆联手对贾府规矩的温柔僭越",
+          "水仙庵之祭：宝玉以私祭对抗家族对金钏之死的冷漠",
+          "茗烟的不问：宝玉没说要祭谁，茗烟不问——同谋的默契"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "同谋的忠诚",
+          "content": "茗烟的忠诚形态是全书仆人中最独特的：他不像袭人那样「劝」宝玉守规矩，也不像晴雯那样「贴身」侍奉——他是宝玉的「共犯」：一起读书、一起出城、一起烧香。曹雪芹通过茗烟写出「忠诚」的另一种可能：忠诚于主子的心，而不是主子的身份。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ming_yan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_beijing_wang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jinchuan",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_mingyan_incense_ch43",
+      "title": "代宝玉烧香——「极清俊的女子」",
+      "event_level": "minor",
+      "chapter": {
+        "number": 43,
+        "title": "闲取乐偶攒金庆寿 不了情暂撮土为香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "水仙庵",
+        "specific": "凤姐生日，宝玉却一早出城到水仙庵烧香。茗烟跟从，猜中宝玉心事：「想是祭一个极清俊的女子」。宝玉焚香后，茗烟代祝，念出一串滑稽祷词，把宝玉逗笑。"
+      },
+      "summary": {
+        "short": "第四十三回「撮土为香」：茗烟猜中宝玉祭的是「极清俊的女子」——这份洞察证明他对宝玉的懂得。他的代祝（既庄重又滑稽）是全书最温暖的小人物喜剧：一个奴才替主子把没说的话说了。",
+        "meaning": [
+          "「极清俊的女子」：茗烟猜到金钏——小厮对少爷内心的洞察力",
+          "代祝的滑稽祷词：既替宝玉表达了心意，又保全了仪式的体面",
+          "撮土为香：心到神知——宝玉的私祭哲学，茗烟是唯一的见证人"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "懂得的深度",
+          "content": "茗烟是全府唯一「猜得到」宝玉心事的人：烧香祭谁、为什么出城——他全都知道却不说破。这份「懂得」使茗烟超越了跟班的角色，成为宝玉精神世界的外围知情者。曹雪芹写茗烟的机灵，最深的机灵就是「知而不言」。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_ming_yan",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_baoyu",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_mingyan_jia_baoyu",
+      "from": "character_ming_yan",
+      "to": "character_jia_baoyu",
+      "type": "主仆（同谋式忠诚）",
+      "nature": [
+        "master_servant",
+        "friendship"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "茗烟是宝玉的「编外同谋」：陪他淘气、替他冒险、代他烧香、为他偷书。宝玉对茗烟的信任超过许多正经仆人——他们是主仆，也是玩伴与共犯。茗烟的忠诚指向宝玉的「心」，而非宝玉的「身份」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "闹学堂",
+          "chapter": 9,
+          "description": "茗烟为宝玉打架，主仆关系的战火考验。"
+        },
+        {
+          "stage": 2,
+          "title": "偷书",
+          "chapter": 19,
+          "description": "茗烟偷买禁书，主仆的地下同盟。"
+        },
+        {
+          "stage": 3,
+          "title": "烧香",
+          "chapter": 43,
+          "description": "茗烟代祝，主仆的心照不宣。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_mingyan_jia_qiang",
+      "from": "character_ming_yan",
+      "to": "character_jia_qiang",
+      "type": "利用者与被利用者（闹学堂）",
+      "nature": [
+        "patronage"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "闹学堂时贾蔷挑唆茗烟打金荣——茗烟被当枪使而不自知。这段关系展示主奴结构中的「工具化」：上层子弟借下层小厮之手泄愤，小厮的勇敢成了他人的棋子。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "被挑唆",
+          "chapter": 9,
+          "description": "贾蔷挑唆，茗烟冲动开打。"
+        },
+        {
+          "stage": 1,
+          "title": "挑唆",
+          "chapter": 9,
+          "description": "贾蔷挑唆茗烟闹学堂。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_mingyan_qin_zhong",
+      "from": "character_ming_yan",
+      "to": "character_qin_zhong",
+      "type": "保护对象（为主子之友出头）",
+      "nature": [
+        "social_alliance"
+      ],
+      "direction": "one_way",
+      "fact_type": "canonical_text_fact",
+      "summary": "茗烟为秦钟出头打架——秦钟是宝玉之友，茗烟的「义气」是替主子护友。这场打斗也使茗烟与秦钟的关系从「陌路」变成「战友」。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "出头",
+          "chapter": 9,
+          "description": "茗烟为秦钟被欺而打金荣。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_mingyan_name",
+      "title": "茗烟还是焙茗？——版本异文背后的改稿痕迹",
+      "slug": "mingyan-or-beiming-name-debate",
+      "question_type": "version_dispute",
+      "importance_weight": 62,
+      "heat_weight": 58,
+      "neutral_overview": "宝玉的首席小厮在早期回目作「茗烟」，后文多作「焙茗」。同一个人的两个名字，透露了曹雪芹改稿的什么信息？",
+      "viewpoint_ids": [
+        "vp_mingyan_name_revision"
+      ],
+      "fact_type": "disputed_version",
+      "viewpoints": [
+        {
+          "id": "vp_mingyan_name_revision",
+          "title": "改稿论：焙茗为后改之名",
+          "summary": "版本学者普遍认为「茗烟」是早期稿本用名，「焙茗」是曹雪芹后期改稿的痕迹：前八十回内部就存在两名混用（如第九回用茗烟，第二十四回起多用焙茗）。改名的动机可能与「烟」字犯忌（贾府有位「焙茗」？无）或谐音考量有关，亦有学者认为是雪芹未及统一所致。程高本沿用了两名混用的状态。此异文是研究曹雪芹改稿进程的重要标本。",
+          "evidence": [
+            "第九回「茗烟」与后文「焙茗」的混用",
+            "脂评系统中两名的分布情况"
+          ],
+          "fact_type": "disputed_version"
+        }
+      ]
+    },
+    {
+      "id": "question_mingyan_rebel",
+      "title": "茗烟是宝玉「反叛」的执行者吗？",
+      "slug": "is-mingyan-executor-of-baoyu-rebellion",
+      "question_type": "character_analysis",
+      "importance_weight": 66,
+      "heat_weight": 60,
+      "neutral_overview": "偷买禁书、私祭金钏、大闹学堂——茗烟参与了宝玉所有「越界」行为。他是主动的反叛者，还是被动的执行者？",
+      "viewpoint_ids": [
+        "vp_mingyan_executor",
+        "vp_mingyan_initiative"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_mingyan_executor",
+          "title": "执行者论：宝玉的「脚」与「手」",
+          "summary": "茗烟的所有越界行为都源于宝玉的授意或需求：偷书是「奉命采购」，烧香是「奉命跟随」，打架是「护主之友」。他的反叛是工具性的——他执行宝玉的反叛，自己没有反叛的纲领。茗烟是宝玉的「影子」：光（思想）是宝玉的，影（行动）是他的。",
+          "evidence": [
+            "偷买禁书系宝玉所需",
+            "出城烧香系宝玉所命"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_mingyan_initiative",
+          "title": "主动性论：小厮自发的市井反骨",
+          "summary": "茗烟的行为有超出「奉命」的部分：骂金荣的冲动、偷买禁书的积极（自己先买了才告诉宝玉）、代祝的越位——他的机灵大胆是市井气的自发。他不需要纲领才反叛：他的「反骨」是底层少年对规矩的天然不耐烦。曹雪芹写茗烟，写的是「野气」——与宝玉的「痴气」同频共振。",
+          "evidence": [
+            "闹学堂时先斩后奏的冲动",
+            "偷买禁书时的自作主张"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch19_mingyan_books_detail",
+      "quote": "茗烟笑道：「……既有这个（禁书），明儿我悄悄的替二爷买去……不然，二爷嫌我『近来不去看戏』……」",
+      "fact_type": "canonical_text_fact",
+      "note": "第十九回。茗烟主动请缨买书——反骨的自发性。"
+    },
+    {
+      "source_id": "source_ch43_mingyan_prayer",
+      "quote": "茗烟道：「……今儿有心，香火无主，弟子替二爷祝赞：若芳魂有感，香魄多情，虽然阴阳间隔，既是知己之间，时常来望候二爷，未尝不可。」",
+      "fact_type": "canonical_text_fact",
+      "note": "第四十三回。茗烟代祝——全书最传神的小人物祷词。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_mingyan_vitality",
+      "title": "茗烟——底层生命的「野气」标本",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1996,
+      "source_title": "红学人物专题研究",
+      "description": "学者指出，茗烟是曹雪芹笔下底层人物「野气」的代表：与温顺的家奴（兴儿、旺儿等）不同，茗烟有攻击性（骂金荣）、有主动性（偷买书）、有机趣（代祝祷词）。他的形象证明曹雪芹并不把仆人写成千篇一律的「奴性」——茗烟的野气是未被驯服的市井活力，与宝玉的痴气形成共振。论者认为，茗烟与兴儿构成小厮群像的两极：兴儿之滑（顺主）、茗烟之野（助主），合而观之，才是贾府奴才世界的完整生态。"
+    },
+    {
+      "id": "viewpoint_mingyan_access",
+      "title": "茗烟——宝玉与府外世界的通道",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学社会研究",
+      "year": 1999,
+      "source_title": "红学社会文化研究",
+      "description": "学者分析茗烟的「通道」功能：大观园（女儿世界）由丫鬟把守，府外世界（书市、寺庙、市井）由小厮联通。茗烟是宝玉伸向府外世界的唯一灵活的触手：禁书由他购入、私祭由他带路、消息由他打探。没有茗烟，宝玉的精神生活将完全封闭在府墙之内——茗烟的存在证明：礼教的围墙再高，也有为「情」走私的狗洞。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 3,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 2,
+    "total_sources": 5,
+    "citation_coverage": 0.92,
+    "level": "L2",
+    "fact_type_distribution": {
+      "canonical_text_fact": 20,
+      "text_inference": 5,
+      "scholarly_viewpoint": 3,
+      "disputed_version": 3,
+      "adaptation_only": 0
+    },
+    "age": 1,
+    "relationships": 3
+  }
+}

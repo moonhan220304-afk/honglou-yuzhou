@@ -1,0 +1,592 @@
+{
+  "character": {
+    "id": "character_you_shi",
+    "name": "尤氏",
+    "slug": "you-shi",
+    "aliases": [
+      "珍大奶奶",
+      "大奶奶"
+    ],
+    "category": "宁国府当家奶奶（贾珍继室）",
+    "importance_level": "supporting",
+    "content_level": "L1",
+    "identity": {
+      "family": "尤家之女，继母尤老娘携尤二姐、尤三姐（异母妹）改嫁其父；贾珍之继室。",
+      "position": "宁国府当家奶奶（贾珍之妻）；非贾蓉生母。",
+      "origin": "尤家之女，嫁贾珍为继室，原配已亡。",
+      "generation": "贾府玉字辈媳妇（与王熙凤、李纨同辈）"
+    },
+    "tags": [
+      "贾珍继室",
+      "宁府当家奶奶",
+      "独艳理亲丧",
+      "凤姐大闹宁国府",
+      "金寡妇事件",
+      "退份子钱",
+      "焦大醉骂在场",
+      "尤二姐尤三姐",
+      "无子嗣"
+    ],
+    "summary": {
+      "short": "贾珍的继室，宁国府名义上的当家奶奶。她「素日又是顺从贾珍惯了的」，明知贾珍贾蓉父子之淫而无力管束；第六十三回「独艳理亲丧」独撑贾敬丧事，第六十八回被凤姐大闹宁国府——她是宁府最憋屈、也最清醒的女主人。",
+      "long": "尤氏是贾珍的继室，非贾蓉生母，无亲生子嗣——这决定了她在宁府的地位：名义上是当家奶奶，实际是贾珍淫乱世界的「管家婆」。她的处境是全书最尴尬的女主人处境：第七回焦大醉骂「爬灰的爬灰」，她就在场，只能向凤姐苦笑解释；她知道贾珍与秦可卿的事，却只能装聋作哑。第十回金寡妇来为金荣讨说法，她一番话绵里藏针，把金寡妇的兴师问罪化为乌有——这是她「会说话」的第一次展示。第四十三回贾母要为凤姐攒金庆寿，让她操办，她精明地退还平儿、鸳鸯、彩云、周赵两位姨娘的份子钱，人情做足。第六十三回贾敬暴毙，贾珍父子在皇陵未归，她独自主持：锁道士、验尸、报丧、发讣，「独艳理亲丧」——宁府上下全靠她一个女人撑着。第六十八回凤姐得知尤二姐之事，冲到宁府大闹，把她「揉搓成一个面团儿」，骂她「你尤家的丫头没人要了？偷着只往贾家送！」她只能哭着听骂——她是凤姐威风之下的第一个「软柿子」。她本性不坏、也不狠，对尤二姐尤三姐亦有回护之心，但「素日顺从惯了」的软弱使她步步被动。后四十回（gaoe）写贾府被抄，宁府败落，尤氏随贾珍艰难收场。尤氏是《红楼梦》中「中间态」女性的代表：既不似凤姐之毒，也不似李纨之槁；她清醒地看见宁府的污浊，却既无力清洗、也无力离开——她的「忍」是全书最漫长的忍。"
+    },
+    "personality_analysis": [
+      {
+        "dimension": "忍——素日顺从惯了的当家奶奶",
+        "fact_type": "canonical_text_fact",
+        "description": "尤氏的核心性格是「顺从」：对贾珍的淫乱她装看不见，对贾蓉的轻狂她管不了，对凤姐的撒泼她忍得了。她的忍不是美德，是继室+无子+夫家势大的结构性软弱——在宁府，她连发脾气的资格都没有。"
+      },
+      {
+        "dimension": "能——独艳理亲丧的组织才干",
+        "fact_type": "canonical_text_fact",
+        "description": "第六十三回贾敬暴毙，贾珍父子不在家，尤氏「独艳理亲丧」：锁拿道士、安排验尸、发讣报丧，条理井然。她的办事能力不输凤姐——只是凤姐的能用于弄权，她的能用于收拾烂摊子。"
+      }
+    ],
+    "timeline": [
+      {
+        "order": 1,
+        "event_id": "event_you_shi_ch7",
+        "title": "焦大醉骂在场（第七回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 2,
+        "event_id": "event_you_shi_ch10",
+        "title": "金寡妇事件——绵里藏针退来客（第十回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 3,
+        "event_id": "event_you_shi_ch43",
+        "title": "操办凤姐生日——退还份子钱（第四十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 4,
+        "event_id": "event_you_shi_ch63",
+        "title": "独艳理亲丧（第六十三回）",
+        "fact_type": "canonical_text_fact"
+      },
+      {
+        "order": 5,
+        "event_id": "event_you_shi_ch68",
+        "title": "被凤姐大闹宁国府（第六十八回）",
+        "fact_type": "canonical_text_fact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_ch7_you_shi_jiaoda",
+        "quote": "尤氏叹道：「你难道不知这焦大的？连老爷都不理他的，你珍大哥哥也不理他。只因他从小儿跟着太爷们出过三四回兵……他自己喝马溺。」……（凤姐）说道：「我何曾不知这焦大。到底是你们没主意，何不远远的打发他到庄子上去就完了。」",
+        "fact_type": "canonical_text_fact",
+        "note": "第七回。焦大醉骂时尤氏在场——她是「爬灰」之骂的第一个听众，也是第一个替他圆场的人。"
+      },
+      {
+        "source_id": "source_ch63_you_shi_li",
+        "quote": "（贾敬宾天）尤氏一闻此言，又见贾珍父子并贾琏等皆不在家，一时竟没个着己的男子来，未免忙了。只得忙卸了妆饰，命人先到玄真观将所有的道士都锁了起来……一面且做起道场来等贾珍。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十三回「死金丹独艳理亲丧」。家中无男丁，尤氏独撑全局——「独艳」二字是全书给她的最高礼遇。"
+      },
+      {
+        "source_id": "source_ch68_you_shi_fengjie",
+        "quote": "（凤姐）拉着尤氏进来，……指着尤氏的脸骂道：「你尤家的丫头没人要了？偷着只往贾家送！……你成日家挑唆着他作……」把个尤氏揉搓成一个面团儿，衣服上全是眼泪鼻涕，并无别话。",
+        "fact_type": "canonical_text_fact",
+        "note": "第六十八回「酸凤姐大闹宁国府」。尤氏被凤姐当面团揉搓——宁府女主人在荣府奶奶面前的彻底失守。"
+      },
+      {
+        "source_id": "source_ch43_you_shi_fenzi",
+        "quote": "（尤氏对周赵二位姨娘道）「你们两个也是两个苦瓠子……你们可怜见的，那里有这些闲钱？凤丫头便知道了，有我应着呢。」二人听说，千恩万谢的方收了。",
+        "fact_type": "canonical_text_fact",
+        "note": "第四十三回。操办凤姐生日时退还苦命姨娘的份子钱——尤氏的通达与人情。"
+      }
+    ],
+    "status": {
+      "review": "verified",
+      "confidence": 100,
+      "verified_by": "kb-agent-v2",
+      "updated_at": "2026-08-14T00:00:00Z",
+      "embedding_status": "pending"
+    },
+    "name_etymology": {
+      "origin": "原文未载其名，通篇仅称「尤氏」——无名之氏",
+      "detail": "尤氏是全书少数只有姓氏、没有名字的主子之一（与「邢夫人」「王夫人」同构）：她嫁入宁府后，名字被「尤氏」二字取代——这在礼法上是「从夫」，在文学上是「无名」：她在宁府没有自己的名分（继室）、没有自己的子女、甚至没有自己的名字。一说「尤」谐「尤怨/尤物」——尤家三姐妹（尤氏、尤二姐、尤三姐）皆与「尤物」之评、怨尤之命相连，一个「尤」字是三姐妹共同的命运注脚。",
+      "fact_type": "canonical_text_fact",
+      "disputes": []
+    },
+    "age": {
+      "text_anchors": [],
+      "estimated_age": {
+        "story_start": "未见明文",
+        "story_end": "未见明文",
+        "death_age": "未见明文"
+      },
+      "conclusion": "原文未见明文；贾珍继室，约三十五六岁（文本推断）。",
+      "controversies": [],
+      "fact_type": "text_inference"
+    }
+  },
+  "aliases": [
+    {
+      "alias": "珍大奶奶",
+      "type": "尊称",
+      "context": "宁荣两府上下对尤氏的尊称——她的全部身份都系在「贾珍之妻」四字上",
+      "fact_type": "canonical_text_fact"
+    },
+    {
+      "alias": "大奶奶",
+      "type": "尊称",
+      "context": "宁府内部的省称",
+      "fact_type": "canonical_text_fact"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_you_shi_ch10",
+      "title": "金寡妇事件——绵里藏针的应对",
+      "event_level": "minor",
+      "chapter": {
+        "number": 10,
+        "title": "金寡妇贪利权受辱 张太医论病细穷源",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府",
+        "specific": "金荣在学堂受了气，其姑母金寡妇上门找尤氏理论。尤氏先问候、再诉苦——大讲秦可卿的病「经期两个月没来」「两个多月没睡个好觉」，又夸可卿孝顺——金寡妇「把方才那一团要向秦氏理论的盛气，早吓的都丢在爪洼国去了」。"
+      },
+      "summary": {
+        "short": "金寡妇气势汹汹来问罪，尤氏一番「诉苦+夸儿媳」的组合拳，让她未及开口就偃旗息鼓。这是尤氏「会做人」的名场面：不撕破脸，不落下风，把一场争端化于无形。",
+        "meaning": [
+          "「诉苦式外交」——尤氏用自己的难处堵对方的嘴",
+          "她对秦可卿之病的描述（「经期两个月没来」）——无意中透出可卿病情的蹊跷（学界视为「淫丧」的草蛇灰线）",
+          "金寡妇「丢在爪洼国」——小人物在世家门第前的未战先怯"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "尤氏的「软刀子」",
+          "content": "尤氏没有凤姐的威风，却有凤姐没有的「圆」：她不靠权压人，靠的是信息差（她知道可卿的病比金寡妇想象的深）与姿态（先诉苦，把「问罪者」变成「听苦者」）。这一节证明她的「顺从」只是表象——她的社交智商在全书女主子里数一数二。"
+        },
+        {
+          "type": "hongxue",
+          "title": "可卿病情的「不写之写」",
+          "content": "尤氏描述可卿「经期两个月没来」却非喜脉——红学家常引此段为证：可卿之病实为乱伦败露后的心病，「两个多月」的时间线恰与焦大醉骂（第七回）之后的焦虑期吻合。尤氏这段「诉苦」，无意中成了「爬灰」丑闻的病情记录。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_shi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_qin_keqing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jin_rong",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_shi_ch43",
+      "title": "操办凤姐生日——退还份子钱",
+      "event_level": "minor",
+      "chapter": {
+        "number": 43,
+        "title": "闲取乐偶攒金庆寿 不了情暂撮土为香",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "荣国府",
+        "specific": "贾母学小户人家凑份子给凤姐过生日，派尤氏总揽。尤氏收了份子后，把平儿、鸳鸯、彩云的退还，又退周姨娘、赵姨娘的：「你们两个也是两个苦瓠子……有我应着呢。」"
+      },
+      "summary": {
+        "short": "尤氏操办生日，妙在「退钱」：她把人人的难处记在心里——平儿鸳鸯是得脸的丫鬟（实则要哄）、两个姨娘是苦瓠子（实在可怜）——退了份子，赚了人心。这是尤氏人情练达的集中展示。",
+        "meaning": [
+          "「苦瓠子」——尤氏对两位姨娘的同情，源于她对「无依无靠」处境的切身体会",
+          "退钱的艺术——份子是贾母定的，退钱是她做的人情，两边都不得罪",
+          "同是被丈夫冷落的妇人——她对赵姨娘周姨娘的怜惜里有自怜"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "「同是苦瓠子」的相怜",
+          "content": "尤氏怜惜两个姨娘，因为她们是同路人：无宠、无势、忍气吞声。她退的不是钱，是自己对这个位置上的女人的理解——这一笔让尤氏的「忍」有了温度：她不是麻木，是看透了之后选择了体面。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_shi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_zhao_yiniang",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jiamu",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_ping_er",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_yuanyang",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_shi_ch63",
+      "title": "独艳理亲丧",
+      "event_level": "major",
+      "chapter": {
+        "number": 63,
+        "title": "寿怡红群芳开夜宴 死金丹独艳理亲丧",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府/玄真观",
+        "specific": "贾敬吞丹宾天，贾珍、贾蓉、贾琏皆在皇陵送葬未归。尤氏独力主丧：卸妆、锁道士、验尸、报信、做起道场等贾珍——「独艳理亲丧」四字，是全书对她才干与担当的最高肯定。"
+      },
+      "summary": {
+        "short": "贾敬之死是宁府的大乱，尤氏一个人镇住了：家里没一个能主事的男人，她从头到尾安排得滴水不漏。回目「独艳理亲丧」——一个「艳」字，让她的能干与她的孤独同框。",
+        "meaning": [
+          "「没个着己的男子」——宁府的男人们不是在皇陵就是在荒唐，正经事全靠女人",
+          "锁道士、验尸、设道场——专业、果断、不避嫌疑",
+          "「独艳」二字——全书唯一一次把「艳」字赠给尤氏：她的美不是皮相，是担当"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "被低估的尤氏",
+          "content": "学界常以「独艳理亲丧」为据重估尤氏：她的办事能力与凤姐在同一水平线（对比第十三回凤姐协理宁国府），只是没有舞台。曹雪芹把两场大丧分别交给凤姐（可卿之丧）与尤氏（贾敬之丧）——一个风光无限，一个无人喝彩，正是两位当家奶奶命运的分野。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_shi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_jia_jing",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        }
+      ]
+    },
+    {
+      "id": "event_you_shi_ch68",
+      "title": "被凤姐大闹宁国府",
+      "event_level": "major",
+      "chapter": {
+        "number": 68,
+        "title": "苦尤娘赚入大观园 酸凤姐大闹宁国府",
+        "attribution": "caoxueqin"
+      },
+      "fact_type": "canonical_text_fact",
+      "location": {
+        "name": "宁国府",
+        "specific": "凤姐得知贾琏偷娶尤二姐（经贾珍贾蓉撮合），冲到宁府大闹：骂尤氏「你尤家的丫头没人要了」、骂贾蓉、讹五百两银子、把尤氏揉搓成面团儿。尤氏哭着辩解：「你们二人做的这些没脸的事，我原也不知道。」众姬妾丫鬟跪了一地求情。"
+      },
+      "summary": {
+        "short": "凤姐大闹宁国府是全书最著名的「泼妇戏」：尤二姐之事的始作俑者是贾珍贾蓉，挨骂的却是尤氏。她不是不知情，是管不了——凤姐把账全算在她头上，她只有哭的份。",
+        "meaning": [
+          "「你尤家的丫头」——凤姐把贾珍贾蓉的责任整体转嫁给尤氏一人",
+          "「揉搓成一个面团儿」——宁府女主人尊严的最低点",
+          "尤氏的哭——她替贾珍父子、替尤家的孽背了全书最大的一口锅"
+        ]
+      },
+      "interpretations": [
+        {
+          "type": "character",
+          "title": "背锅的中间人",
+          "content": "尤氏的悲剧在于「两头不是人」：尤二姐是她妹妹，贾珍是她丈夫——丈夫勾引了她妹妹，凤姐却来撕她的脸。她的「素日顺从」在此刻结出了最苦的果：顺从久了，人人都默认她该为所有人的过错负责。"
+        },
+        {
+          "type": "literary",
+          "title": "凤姐之威的衬托",
+          "content": "曹雪芹写这场闹剧，一半为写凤姐的辣（连宁府女主人都敢当面揉搓），一半为写尤氏的弱——两个当家奶奶的对决，在第六十八回分出明暗：凤姐的「威」建立在尤氏的「软」上。"
+        }
+      ],
+      "participants": [
+        {
+          "character_id": "character_you_shi",
+          "role": "主角"
+        },
+        {
+          "character_id": "character_you_erjie",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_lian",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_rong",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_jia_zhen",
+          "role": "参与者"
+        },
+        {
+          "character_id": "character_wang_xifeng",
+          "role": "参与者"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "relationship_you_shi_jia_zhen",
+      "from": "character_you_shi",
+      "to": "character_jia_zhen",
+      "type": "夫妻（顺从与被架空）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤氏与贾珍的婚姻是「名分俱全、实质架空」：她是明媒正娶的当家奶奶，却管不了贾珍分毫——爬灰（与可卿）、与二尤暧昧、纵子淫乱，她全都「装看不见」。她的「顺从」是这段婚姻的生存策略，也是宁府伦理崩塌的遮羞布。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "隐忍度日",
+          "chapter": 7,
+          "description": "焦大醉骂时尤氏在场，只能解释圆场。"
+        },
+        {
+          "stage": 2,
+          "title": "独撑家丧",
+          "chapter": 63,
+          "description": "贾敬之丧，尤氏独自主持。"
+        },
+        {
+          "stage": 3,
+          "title": "背锅受辱",
+          "chapter": 68,
+          "description": "尤二姐事发，尤氏代贾珍受过。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_you_shi_jia_rong",
+      "from": "character_you_shi",
+      "to": "character_jia_rong",
+      "type": "继母子",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤氏不是贾蓉生母——这层「隔」使她在贾蓉面前毫无母权：贾蓉对尤二姐尤三姐的调戏（第六十三回「脏唐臭汉」一段），她除了骂两句毫无办法。继母与继子的关系，是她在宁府「外姓人」处境的缩影。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "无法管教",
+          "chapter": 63,
+          "description": "贾蓉在尤氏面前胡闹，尤氏骂而无效。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_you_shi_wang_xifeng",
+      "from": "character_you_shi",
+      "to": "character_wang_xifeng",
+      "type": "妯娌（压迫与被压迫）",
+      "nature": [
+        "conflict"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "凤姐与尤氏是全书妯娌关系的两极：凤姐有势、有能、有靠山，尤氏无势、有能、无靠山。平日二人尚可姐妹相称（凤姐戏称尤氏「尤奶奶」），尤二姐事发后，凤姐的刀立刻架到尤氏脖子上——「大闹宁国府」是她们关系的总账：一场妯娌撕破脸的戏，写尽豪门女性「情谊」的脆弱。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "姐妹相称",
+          "chapter": 7,
+          "description": "焦大醉骂时二人同车同语。"
+        },
+        {
+          "stage": 2,
+          "title": "大闹宁府",
+          "chapter": 68,
+          "description": "凤姐揉搓尤氏，讹银五百两。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_you_shi_you_er_jie",
+      "from": "character_you_shi",
+      "to": "character_you_er_jie",
+      "type": "异母姐妹（回护与无力）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "尤二姐、尤三姐是尤老娘带进尤家的异母妹。尤氏对她们有真心回护：知凤姐接二姐进园是计，她忧心却劝不住；二姐被凤姐逼死（第六十九回），她痛心却做不了任何事。她的「姐妹情」与她的「无能力」同步——在宁府，她连自己的妹妹都护不住。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "忧心劝告",
+          "chapter": 68,
+          "description": "尤氏对二姐入府忧心忡忡。"
+        },
+        {
+          "stage": 2,
+          "title": "无力回天",
+          "chapter": 69,
+          "description": "尤二姐吞金而亡，尤氏唯有痛哭。"
+        }
+      ]
+    },
+    {
+      "id": "relationship_you_shi_jia_mu",
+      "from": "character_you_shi",
+      "to": "character_jia_mu",
+      "type": "受怜者（长辈）",
+      "nature": [
+        "family"
+      ],
+      "direction": "mutual",
+      "fact_type": "canonical_text_fact",
+      "summary": "贾母对尤氏多存怜惜：她无子、家世薄、丈夫荒唐，是「可怜见的」媳妇。第四十三回攒金庆寿，贾母点名让尤氏操办——既是用她之能，也是抬她之面。贾母的怜，是尤氏在贾府少数能感到的暖意。",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "操办庆寿",
+          "chapter": 43,
+          "description": "贾母委托尤氏总办凤姐生日。"
+        }
+      ]
+    }
+  ],
+  "poems": [],
+  "questions": [
+    {
+      "id": "question_you_shi_dilemma",
+      "title": "尤氏对宁府的丑事是真不知情，还是装糊涂？",
+      "slug": "was-youshi-ignorant-or-willfully-blind",
+      "question_type": "character_motivation",
+      "importance_weight": 74,
+      "heat_weight": 70,
+      "neutral_overview": "焦大骂「爬灰」她在场，贾珍与二尤的事她「素日顺从惯了」——尤氏对宁府的淫乱，是真不知道，还是知道了装不知道？",
+      "viewpoint_ids": [
+        "vp_you_shi_ignorant",
+        "vp_you_shi_willful"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_you_shi_ignorant",
+          "title": "不知情论：她被排除在宁府的信息圈外",
+          "summary": "尤氏是宁府的女主人，却不是宁府的核心圈——贾珍的荒唐背着她（如与二尤之事，她「原也不知道」）。她第六十八回的哭诉「你们二人做的这些没脸的事，我原也不知道」有真实性：继室+无子+外姓，贾珍父子的大事根本不让她沾。她的「顺从」不是纵容，是信息不对称下的无计可施。",
+          "evidence": [
+            "第六十八回她当面的哭诉与文本语境",
+            "贾珍父子行事（如聚麀二尤）的确多次背着尤氏"
+          ],
+          "fact_type": "canonical_text_fact"
+        },
+        {
+          "id": "vp_you_shi_willful",
+          "title": "装糊涂论：宁府的丑事瞒不过当家奶奶",
+          "summary": "尤氏是当家奶奶，秦可卿之事（第七回焦大之骂她亲耳听见）、贾珍与二尤的暧昧（她亲眼所见，第六十三回还骂过贾蓉），她都心知肚明。她的「装」是生存智慧：撕破脸她没有任何筹码——无子、无靠山、无去处。她的可悲恰恰在于「清醒地装糊涂」：这是全书对「当家奶奶」位置最深的讽刺。",
+          "evidence": [
+            "第七回焦大醉骂时她在场，且以「连老爷都不理他」圆场",
+            "第六十三回她骂贾蓉「没脸的东西」——说明她并非不知贾蓉之淫"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    },
+    {
+      "id": "question_you_shi_position",
+      "title": "尤氏与凤姐：两个当家奶奶，为何命运如此不同？",
+      "slug": "why-are-youshi-and-xifeng-so-different",
+      "question_type": "relationship_analysis",
+      "importance_weight": 70,
+      "heat_weight": 66,
+      "neutral_overview": "尤氏有才干（独艳理亲丧），凤姐有威风（协理宁国府）——同为玉字辈媳妇、当家奶奶，为何一个被揉搓成面团，一个把别人揉搓成面团？",
+      "viewpoint_ids": [
+        "vp_you_shi_position_power"
+      ],
+      "fact_type": "text_inference",
+      "viewpoints": [
+        {
+          "id": "vp_you_shi_position_power",
+          "title": "结构论：差在「娘家、子嗣与性格」三条底牌",
+          "summary": "凤姐的威风来自三张底牌：娘家（金陵王家的势）、夫家资源（荣府管家权+贾母宠爱）、性格（泼辣敢斗）；尤氏三样全无：尤家势薄、宁府她说了不算、性子软善。曹雪芹以二人互证一个道理：在世家大族，「能」从来不等于「权」——尤氏之才不输凤姐，输在结构位置。她的「独艳理亲丧」与凤姐的「协理宁国府」恰成镜像：一个在自家无人喝彩，一个在他家风光无限。",
+          "evidence": [
+            "凤姐协理宁国府（第十三回）的风光 vs 尤氏独理亲丧（第六十三回）的孤单",
+            "第六十八回大闹宁国府——凤姐的每一次进攻，尤氏都无还手之力"
+          ],
+          "fact_type": "canonical_text_fact"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_ch63_you_shi_scold",
+      "quote": "尤氏也不听，只命锁着，等贾珍来发放。……尤氏道：「你管你老子去罢！……你们父子二人专就弄这些东西！」",
+      "fact_type": "canonical_text_fact",
+      "note": "第六十三回。尤氏骂贾蓉——她什么都看得清，只是管不住。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "viewpoint_you_shi_middle",
+      "title": "尤氏：贾府女主人群像中的「中间态」",
+      "type": "scholarly",
+      "fact_type": "scholarly_viewpoint",
+      "author": "综合红学人物研究",
+      "year": 1997,
+      "source_title": "多项女性人物研究",
+      "description": "学者将贾府女主人分为三态：凤姐是「进攻态」（以毒自保），李纨是「防御态」（以槁木死灰自保），尤氏是「中间态」——她不进攻、不退缩，只是「顺从地清醒着」。她的形象价值在于完整呈现了一个无势女性的生存空间：能干（独艳理亲丧）、明理（退还份子钱）、有底线（对二尤的回护），却处处受限、步步忍让。曹雪芹对她的态度是「哀其不幸，不怒其不争」——因为她的「不争」，是被结构剥夺了争的权利。"
+    }
+  ],
+  "coverage": {
+    "name_etymology": 1,
+    "total_events": 4,
+    "total_relationships": 5,
+    "total_poems": 0,
+    "total_questions": 2,
+    "total_viewpoints": 1,
+    "total_sources": 5,
+    "citation_coverage": 0.9,
+    "level": "L1",
+    "fact_type_distribution": {
+      "canonical_text_fact": 27,
+      "text_inference": 2,
+      "scholarly_viewpoint": 1,
+      "disputed_version": 0,
+      "adaptation_only": 0
+    },
+    "age": 1
+  }
+}
