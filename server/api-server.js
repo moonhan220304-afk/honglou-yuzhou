@@ -138,6 +138,79 @@ if (!userCols.includes("signature")) {
   db.exec("ALTER TABLE users ADD COLUMN signature TEXT");
 }
 
+/* ===== 第二阶段迁移：成长体系 / 关注 / 诗社 / AI 诗评 ===== */
+if (!userCols.includes("points")) {
+  db.exec("ALTER TABLE users ADD COLUMN points INTEGER NOT NULL DEFAULT 0");
+}
+if (!userCols.includes("last_checkin")) {
+  db.exec("ALTER TABLE users ADD COLUMN last_checkin TEXT");
+}
+if (!postCols.includes("type")) {
+  db.exec("ALTER TABLE posts ADD COLUMN type TEXT NOT NULL DEFAULT 'post'");
+}
+if (!postCols.includes("topic_id")) {
+  db.exec("ALTER TABLE posts ADD COLUMN topic_id INTEGER");
+}
+db.exec(`
+CREATE TABLE IF NOT EXISTS points_log (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  delta INTEGER NOT NULL,
+  reason TEXT NOT NULL,
+  ref TEXT,
+  created_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_points_log_user ON points_log(user_id, created_at DESC);
+CREATE TABLE IF NOT EXISTS follows (
+  follower_id INTEGER NOT NULL,
+  followee_id INTEGER NOT NULL,
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (follower_id, followee_id)
+);
+CREATE INDEX IF NOT EXISTS idx_follows_follower ON follows(follower_id);
+CREATE INDEX IF NOT EXISTS idx_follows_followee ON follows(followee_id);
+CREATE TABLE IF NOT EXISTS topics (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  kind TEXT NOT NULL,
+  title TEXT NOT NULL,
+  content TEXT NOT NULL DEFAULT '',
+  theme TEXT,
+  difficulty TEXT NOT NULL DEFAULT 'intermediate',
+  status TEXT NOT NULL DEFAULT 'active',
+  is_current INTEGER NOT NULL DEFAULT 0,
+  like_count INTEGER NOT NULL DEFAULT 0,
+  created_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_topics_kind ON topics(kind, status, created_at DESC);
+CREATE TABLE IF NOT EXISTS ai_reviews (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  post_id INTEGER NOT NULL,
+  trigger_user_id INTEGER NOT NULL,
+  content TEXT NOT NULL,
+  created_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_ai_reviews_post ON ai_reviews(post_id);
+`);
+/* 种子话题：首次启动无话题时预置（诗题/填字/飞花） */
+const topicCount0 = db.prepare("SELECT COUNT(*) c FROM topics").get().c;
+if (topicCount0 === 0) {
+  const now0 = Date.now();
+  const seedTopics = [
+    { kind: "poem_topic", title: "咏月", content: "当期诗题：咏月——写一首与月有关的诗，体裁不限，格律不限。", theme: null, difficulty: "intermediate", is_current: 1 },
+    { kind: "poem_topic", title: "咏梅", content: "往期诗题：咏梅（长期开放，随时可参与）。", theme: null, difficulty: "intermediate", is_current: 0 },
+    { kind: "poem_topic", title: "咏雪", content: "往期诗题：咏雪（长期开放，随时可参与）。", theme: null, difficulty: "intermediate", is_current: 0 },
+    { kind: "poem_topic", title: "咏菊", content: "往期诗题：咏菊（长期开放，随时可参与）。", theme: null, difficulty: "intermediate", is_current: 0 },
+    { kind: "fill", title: "清风［　］客梦，素月［　］归舟", content: "考对仗与炼字：抄原句填上你的字，以评论参与。", theme: "对仗炼字", difficulty: "advanced", is_current: 0 },
+    { kind: "fill", title: "［　］来风雨，［　］去夕阳", content: "填 2 字，考炼字。", theme: "炼字", difficulty: "beginner", is_current: 0 },
+    { kind: "fill", title: "春［　］不觉晓，处处闻啼鸟", content: "填 1 字。", theme: "炼字", difficulty: "beginner", is_current: 0 },
+    { kind: "feihua", title: "且借人间二两墨", content: "接下句，主题：墨 / 笔墨意境。", theme: "墨", difficulty: "intermediate", is_current: 0 },
+    { kind: "feihua", title: "春风得意马蹄疾", content: "接下句，主题：春。", theme: "春", difficulty: "beginner", is_current: 0 },
+    { kind: "feihua", title: "山重水复疑无路", content: "接下句，主题：行路。", theme: "行路", difficulty: "intermediate", is_current: 0 },
+  ];
+  const insTopic = db.prepare("INSERT INTO topics (kind, title, content, theme, difficulty, is_current, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)");
+  for (const t of seedTopics) insTopic.run(t.kind, t.title, t.content, t.theme, t.difficulty, t.is_current, now0);
+}
+
 /* 引导：首个用户注册将成为管理员；用户表为空时预置一个初始邀请码 */
 const BOOTSTRAP_CODE = `HLM-${crypto.randomBytes(3).toString("hex").toUpperCase()}-${crypto.randomBytes(3).toString("hex").toUpperCase()}`;
 const nUsers0 = db.prepare("SELECT COUNT(*) c FROM users").get().c;
@@ -626,7 +699,7 @@ const server = http.createServer(async (req, res) => {
     if (url.pathname === "/api/me") {
       const u = sessionUser(req);
       if (!u) return send(res, 200, { ok: true, user: null });
-      return send(res, 200, { ok: true, user: u });
+      return send(res, 200, { ok: true, user: meWithStats(u) });
     }
 
     if (url.pathname === "/api/profile" && req.method === "POST") {
@@ -660,15 +733,21 @@ const server = http.createServer(async (req, res) => {
       const u = needAuth(req, res);
       if (!u) return;
       const body = await readBody(req, 100_000);
-      const { title, content, tag, images, question_id, quote } = JSON.parse(body || "{}");
+      const { title, content, tag, images, question_id, quote, type, topic_id } = JSON.parse(body || "{}");
       const t = String(title || "").trim();
       const c = String(content || "").trim();
-      if (!t || !c) return send(res, 400, { ok: false, msg: "标题和正文不能为空" });
+      if (!t && !c) return send(res, 400, { ok: false, msg: "标题和正文不能为空" });
       if (t.length > 80) return send(res, 400, { ok: false, msg: "标题最多 80 字" });
       if (c.length > 20000) return send(res, 400, { ok: false, msg: "正文最多 20000 字" });
       const tagName = String(tag || "自由讨论").trim().slice(0, 20);
       const imgs = Array.isArray(images) ? images.filter((x) => typeof x === "string" && x.startsWith("/uploads/")).slice(0, 9) : [];
       const qid = String(question_id ?? "").trim().slice(0, 100) || null;
+      const postType = ["poem", "answer", "dynamic", "longform", "post"].includes(String(type)) ? String(type) : "post";
+      const topicId = Number(topic_id) || null;
+      if (topicId) {
+        const tp = db.prepare("SELECT id FROM topics WHERE id = ? AND status = 'active'").get(topicId);
+        if (!tp) return send(res, 400, { ok: false, msg: "话题不存在" });
+      }
       let quoteJson = null;
       if (quote && typeof quote === "object") {
         const clean = {
@@ -682,9 +761,11 @@ const server = http.createServer(async (req, res) => {
       const hit = sensitiveHit(t + c);
       /* 自动审核：未命中敏感词直接通过；命中才进人工复核 */
       const status = hit ? "pending" : "approved";
-      const info = db.prepare("INSERT INTO posts (author_id, title, content, tag, images, status, question_id, quote, created_at, reviewed_at, reviewed_by) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
-        .run(u.id, t, c, tagName, JSON.stringify(imgs), status, qid, quoteJson, Date.now(), hit ? null : Date.now(), hit ? null : 0);
+      const info = db.prepare("INSERT INTO posts (author_id, title, content, tag, images, status, question_id, quote, type, topic_id, created_at, reviewed_at, reviewed_by) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
+        .run(u.id, t, c, tagName, JSON.stringify(imgs), status, qid, quoteJson, postType, topicId, Date.now(), hit ? null : Date.now(), hit ? null : 0);
       if (hit) appendLine("moderation.jsonl", { ts: Date.now(), kind: "post", id: Number(info.lastInsertRowid), word: hit, user: u.username });
+      /* 积分：发帖/发动态 +10 */
+      grantPoints(u.id, 10, "post", `post:${Number(info.lastInsertRowid)}`);
       /* 通知：该问题下的其他参与者"有新人盖楼" */
       if (qid) {
         for (const uid of questionParticipants(qid, u.id)) {
@@ -775,7 +856,11 @@ const server = http.createServer(async (req, res) => {
         f.liked = lk ? lk.liked : false;
       }
       const liked = viewer ? !!db.prepare("SELECT 1 FROM likes WHERE user_id = ? AND post_id = ?").get(viewer.id, p.id) : false;
-      return send(res, 200, { ok: true, post: view, comments: floors, liked });
+      const reviews = db.prepare(
+        `SELECT a.id, a.post_id, a.trigger_user_id, a.content, a.created_at, u.username AS trigger_name
+         FROM ai_reviews a JOIN users u ON u.id = a.trigger_user_id WHERE a.post_id = ?`
+      ).all(p.id);
+      return send(res, 200, { ok: true, post: view, comments: floors, liked, reviews });
     }
 
     /* 删除帖子：作者本人或管理员（逻辑删除 status=removed，评论一并移除） */
@@ -822,6 +907,11 @@ const server = http.createServer(async (req, res) => {
       }
       db.prepare("INSERT INTO likes (user_id, post_id, created_at) VALUES (?, ?, ?)").run(u.id, pid, Date.now());
       db.prepare("UPDATE posts SET like_count = like_count + 1 WHERE id = ?").run(pid);
+      /* 被点赞：给作者 +2 积分（作者自己点赞不记） */
+      const postAuthor = db.prepare("SELECT author_id FROM posts WHERE id = ?").get(pid);
+      if (postAuthor && postAuthor.author_id !== u.id) {
+        grantPoints(postAuthor.author_id, 2, "like", `post:${pid}`);
+      }
       return send(res, 200, { ok: true, liked: true });
     }
 
@@ -927,6 +1017,8 @@ const server = http.createServer(async (req, res) => {
           body: c.slice(0, 80),
         });
       }
+      /* 积分：发评论 +3 */
+      grantPoints(u.id, 3, "comment", `post:${pid}`);
       return send(res, 200, {
         ok: true,
         id: Number(info.lastInsertRowid),
@@ -1118,6 +1210,170 @@ const server = http.createServer(async (req, res) => {
       return res.end();
     }
 
+    /* ===== 第二阶段：首页流 / 成长体系 / 关注 / 诗社 / AI 诗评 ===== */
+
+    /* 首页今日热议 / 聊一聊三档：tab=hot|new|following（社区帖+动态+诗作混合流） */
+    if (url.pathname === "/api/feed" && req.method === "GET") {
+      const viewer = sessionUser(req);
+      const tab = url.searchParams.get("tab") || "hot";
+      const per = Math.min(30, Number(url.searchParams.get("per")) || 12);
+      const conds = ["p.status = 'approved'"];
+      const args = [];
+      if (tab === "following") {
+        if (!viewer) return send(res, 200, { ok: true, tab, items: [] });
+        conds.push("p.author_id IN (SELECT followee_id FROM follows WHERE follower_id = ?)");
+        args.push(viewer.id);
+      }
+      const order =
+        tab === "new" ? "p.created_at DESC" :
+        tab === "following" ? "p.created_at DESC" :
+        "(p.like_count * 3 + p.view_count / 5) DESC, p.created_at DESC";
+      const rows = db.prepare(
+        `SELECT p.id, p.author_id, p.title, p.content, p.tag, p.type, p.topic_id, p.like_count, p.view_count, p.created_at,
+                u.username AS author_name, u.avatar AS author_avatar, u.points AS author_points
+         FROM posts p JOIN users u ON u.id = p.author_id
+         WHERE ${conds.join(" AND ")} ORDER BY ${order} LIMIT ?`
+      ).all(...args, per);
+      return send(res, 200, {
+        ok: true,
+        tab,
+        items: rows.map((r) => ({
+          id: r.id, title: r.title, content: r.content, tag: r.tag, type: r.type,
+          topic_id: r.topic_id, like_count: r.like_count, view_count: r.view_count, created_at: r.created_at,
+          author: { id: r.author_id, username: r.author_name, avatar: r.author_avatar, points: r.author_points },
+        })),
+      });
+    }
+
+    /* 诗社题目列表：kind=poem_topic|fill|feihua&difficulty= */
+    if (url.pathname === "/api/topics" && req.method === "GET") {
+      const kind = url.searchParams.get("kind") || "poem_topic";
+      const difficulty = url.searchParams.get("difficulty") || "all";
+      const conds = ["t.status = 'active'", "t.kind = ?"];
+      const args = [kind];
+      if (difficulty !== "all") {
+        conds.push("t.difficulty = ?");
+        args.push(difficulty);
+      }
+      const rows = db.prepare(
+        `SELECT t.id, t.kind, t.title, t.content, t.theme, t.difficulty, t.is_current, t.like_count, t.created_at,
+                (SELECT COUNT(*) FROM posts p WHERE p.topic_id = t.id AND p.status = 'approved') AS join_count
+         FROM topics t WHERE ${conds.join(" AND ")} ORDER BY t.is_current DESC, t.created_at DESC`
+      ).all(...args);
+      return send(res, 200, { ok: true, items: rows });
+    }
+
+    /* 话题详情（诗题/填字/飞花的作品流） */
+    const topicMatch = url.pathname.match(/^\/api\/topics\/(\d+)$/);
+    if (topicMatch && req.method === "GET") {
+      const t = db.prepare("SELECT * FROM topics WHERE id = ? AND status = 'active'").get(Number(topicMatch[1]));
+      if (!t) return send(res, 404, { ok: false, msg: "话题不存在" });
+      const posts = db.prepare(
+        `SELECT p.id, p.author_id, p.title, p.content, p.type, p.like_count, p.created_at,
+                u.username AS author_name, u.avatar AS author_avatar
+         FROM posts p JOIN users u ON u.id = p.author_id
+         WHERE p.topic_id = ? AND p.status = 'approved' ORDER BY p.like_count DESC, p.created_at DESC LIMIT 50`
+      ).all(t.id);
+      return send(res, 200, {
+        ok: true,
+        topic: t,
+        items: posts.map((r) => ({
+          id: r.id, title: r.title, content: r.content, type: r.type, like_count: r.like_count, created_at: r.created_at,
+          author: { id: r.author_id, username: r.author_name, avatar: r.author_avatar },
+        })),
+      });
+    }
+
+    /* @诗评：评论区触发 AI 评诗（每用户每日 3 次额度） */
+    if (url.pathname === "/api/ai/review" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { post_id } = JSON.parse(body || "{}");
+      const pid = Number(post_id);
+      const post = db.prepare("SELECT * FROM posts WHERE id = ? AND status = 'approved'").get(pid);
+      if (!post) return send(res, 404, { ok: false, msg: "作品不存在" });
+      const todayStart = new Date(`${dayOf(Date.now())}T00:00:00`).getTime();
+      const used = db.prepare("SELECT COUNT(*) c FROM ai_reviews WHERE trigger_user_id = ? AND created_at >= ?").get(u.id, todayStart).c;
+      if (used >= 3) return send(res, 400, { ok: false, msg: "今日 @诗评 额度已用完（3 次），明日再来" });
+      const existed = db.prepare("SELECT * FROM ai_reviews WHERE post_id = ?").get(pid);
+      if (existed) return send(res, 200, { ok: true, review: existed, reused: true });
+      const review = composeAiReview(post);
+      const info = db.prepare("INSERT INTO ai_reviews (post_id, trigger_user_id, content, created_at) VALUES (?, ?, ?, ?)")
+        .run(pid, u.id, review, Date.now());
+      return send(res, 200, {
+        ok: true,
+        review: { id: Number(info.lastInsertRowid), post_id: pid, trigger_user_id: u.id, content: review, created_at: Date.now() },
+      });
+    }
+
+    /* 每日签到 */
+    if (url.pathname === "/api/checkin" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const today = dayOf(Date.now());
+      const row = db.prepare("SELECT last_checkin FROM users WHERE id = ?").get(u.id);
+      if (row && row.last_checkin === today) return send(res, 200, { ok: false, msg: "今天已签到，明天再来" });
+      db.prepare("UPDATE users SET last_checkin = ? WHERE id = ?").run(today, u.id);
+      grantPoints(u.id, 5, "checkin", today);
+      return send(res, 200, { ok: true, delta: 5 });
+    }
+
+    /* 我的积分明细 */
+    if (url.pathname === "/api/points" && req.method === "GET") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const logs = db.prepare("SELECT id, delta, reason, ref, created_at FROM points_log WHERE user_id = ? ORDER BY created_at DESC LIMIT 50").all(u.id);
+      const me = meWithStats(u);
+      return send(res, 200, { ok: true, points: me.points, level: me.level, level_name: me.level_name, logs });
+    }
+
+    /* 关注 / 取关 */
+    if (url.pathname === "/api/follow" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { user_id, action } = JSON.parse(body || "{}");
+      const uid = Number(user_id);
+      if (!uid || uid === u.id) return send(res, 400, { ok: false, msg: "参数错误" });
+      const target = db.prepare("SELECT id FROM users WHERE id = ?").get(uid);
+      if (!target) return send(res, 404, { ok: false, msg: "用户不存在" });
+      if (action === "unfollow") {
+        db.prepare("DELETE FROM follows WHERE follower_id = ? AND followee_id = ?").run(u.id, uid);
+      } else {
+        db.prepare("INSERT OR IGNORE INTO follows (follower_id, followee_id, created_at) VALUES (?, ?, ?)").run(u.id, uid, Date.now());
+      }
+      return send(res, 200, { ok: true });
+    }
+
+    /* 用户的关注列表 */
+    if (url.pathname === "/api/follows" && req.method === "GET") {
+      const uid = Number(url.searchParams.get("user_id")) || 0;
+      const rows = db.prepare(
+        "SELECT u.id, u.username, u.avatar, u.points FROM follows f JOIN users u ON u.id = f.followee_id WHERE f.follower_id = ? ORDER BY f.created_at DESC"
+      ).all(uid);
+      return send(res, 200, { ok: true, items: rows });
+    }
+
+    /* 用户公开主页（个人空间对外视图） */
+    const userMatch = url.pathname.match(/^\/api\/users\/(\d+)$/);
+    if (userMatch && req.method === "GET") {
+      const uid = Number(userMatch[1]);
+      const row = db.prepare("SELECT id, username, avatar, signature, points, created_at, role FROM users WHERE id = ? AND status = 'active'").get(uid);
+      if (!row) return send(res, 404, { ok: false, msg: "用户不存在" });
+      const posts = db.prepare(
+        "SELECT id, title, content, type, like_count, created_at FROM posts WHERE author_id = ? AND status = 'approved' ORDER BY created_at DESC LIMIT 50"
+      ).all(uid);
+      const followers = db.prepare("SELECT COUNT(*) c FROM follows WHERE followee_id = ?").get(uid).c;
+      const following = db.prepare("SELECT COUNT(*) c FROM follows WHERE follower_id = ?").get(uid).c;
+      const lv = levelOf(row.points);
+      return send(res, 200, {
+        ok: true,
+        user: { id: row.id, username: row.username, avatar: row.avatar, signature: row.signature, points: row.points, level: lv, level_name: LEVEL_NAMES[lv - 1] || "元老", followers, following, created_at: row.created_at },
+        items: posts,
+      });
+    }
+
     if (url.pathname === "/api/admin/health") {
       const u = needAdmin(req, res);
       if (!u) return;
@@ -1181,6 +1437,75 @@ setInterval(() => {
     });
   } catch {}
 }, 3600_000);
+
+/* ===== 第二阶段工具：积分 / 等级 / AI 诗评 ===== */
+const LEVEL_NAMES = ["懵懂", "试才", "通灵", "元老"];
+const LEVEL_THRESHOLDS = [0, 200, 600, 1500];
+function levelOf(points) {
+  let lv = 1;
+  for (let i = 0; i < LEVEL_THRESHOLDS.length; i++) {
+    if (points >= LEVEL_THRESHOLDS[i]) lv = i + 1;
+  }
+  return lv;
+}
+function grantPoints(userId, delta, reason, ref) {
+  db.prepare("INSERT INTO points_log (user_id, delta, reason, ref, created_at) VALUES (?, ?, ?, ?, ?)")
+    .run(userId, delta, reason, ref || null, Date.now());
+  db.prepare("UPDATE users SET points = points + ? WHERE id = ?").run(delta, userId);
+}
+function meWithStats(u) {
+  const row = db.prepare("SELECT points, last_checkin FROM users WHERE id = ?").get(u.id);
+  const points = row ? row.points : 0;
+  const followers = db.prepare("SELECT COUNT(*) c FROM follows WHERE followee_id = ?").get(u.id).c;
+  const following = db.prepare("SELECT COUNT(*) c FROM follows WHERE follower_id = ?").get(u.id).c;
+  const lv = levelOf(points);
+  return { ...u, points, level: lv, level_name: LEVEL_NAMES[lv - 1] || "元老", followers, following };
+}
+function hashOf(s) {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h;
+}
+/* 本地 AI 诗评（默认兜底；接入外部大模型时替换为 API 调用） */
+function composeAiReview(post) {
+  const text = `${post.title || ""} ${post.content || ""}`;
+  const lines = String(post.content || "")
+    .split(/[\n，。！？；、]/)
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0);
+  const notes = [];
+  /* 押韵粗查（末字韵母分组） */
+  const lastChars = lines.map((l) => l.slice(-1)).filter(Boolean);
+  if (lastChars.length >= 2) {
+    const rhymeGroups = ["ang", "an", "ao", "eng", "en", "ian", "iao", "iang", "ing", "in", "ong", "ong", "ou", "uan", "uang", "uo", "un", "ui", "a", "e", "i", "o", "u"];
+    const endings = lastChars.map((ch) => {
+      for (const g of rhymeGroups) {
+        if (ch.endsWith(g)) return g;
+        if (g.slice(-1) === ch.slice(-1)) return g.slice(-1);
+      }
+      return ch.slice(-1);
+    });
+    const uniq = new Set(endings);
+    if (uniq.size <= Math.max(1, endings.length - 1)) notes.push("末字押韵合辙，读来顺口");
+    else notes.push("末字韵脚若能统一，音律更佳");
+  } else {
+    notes.push("句短意赅，胜在留白");
+  }
+  if (text.includes("［") || text.includes("[")) {
+    notes.push("对仗上建议前后句词性相对（名词对名词、动词对动词）");
+  } else if (lines.length >= 2 && lines[0].length === lines[1].length) {
+    notes.push("句式齐整，对仗基础好，可再于炼字上求险");
+  } else {
+    notes.push("句子长短有致，重在气脉连贯");
+  }
+  if (text.length < 24) notes.push("篇幅虽短，贵在言有尽而意无穷");
+  const opens = ["意境清新", "用词不俗", "别有意趣", "情致动人", "颇具巧思", "气象开阔"];
+  const pick = opens[hashOf(text) % opens.length];
+  return `${pick}。${notes.join("；")}。整体不俗，若再于格律上打磨，可入诗刊。`;
+}
 
 server.listen(PORT, () => {
   console.log(`honglou-yuzhou api listening on :${PORT}`);

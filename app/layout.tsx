@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import SiteHeader from "@/components/site-header";
+import AppSidebar from "@/components/app-sidebar";
 import Analytics from "@/components/analytics";
 import MobileNav from "@/components/mobile-nav";
 import Footer from "@/components/footer";
@@ -50,8 +51,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           }}
         />
         <Analytics />
+        {IS_MOBILE_BUILD ? null : <AppSidebar />}
         {IS_MOBILE_BUILD ? <MHeader /> : <SiteHeader />}
-        <main className="flex-1 pb-16 md:pb-0">{children}</main>
+        <main className={`flex-1 pb-16 md:pb-0 ${IS_MOBILE_BUILD ? "" : "md:pl-[232px]"}`}>{children}</main>
         {IS_MOBILE_BUILD ? null : <Footer />}
         <MobileNav />
       </body>

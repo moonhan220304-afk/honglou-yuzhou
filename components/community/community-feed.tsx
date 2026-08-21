@@ -16,8 +16,7 @@ export default function CommunityFeed() {
   const [posts, setPosts] = useState<PostSummary[] | null>(null);
   const [tags, setTags] = useState<string[]>([]);
   const [tag, setTag] = useState<string>(search.get("tag") || "全部");
-  const [sort, setSort] = useState<"new" | "hot">("new");
-  const [mine, setMine] = useState(search.get("mine") === "1");
+  const [tab, setTab] = useState<"hot" | "new" | "following">("hot");
   const [page, setPage] = useState(1);
   const [total, setTotal] = useState(0);
   const [err, setErr] = useState("");
@@ -38,10 +37,9 @@ export default function CommunityFeed() {
     setPage(1);
   };
 
-  const applyFilter = (patch: Partial<{ tag: string; sort: "new" | "hot"; mine: boolean }>) => {
+  const applyFilter = (patch: Partial<{ tag: string; tab: "hot" | "new" | "following" }>) => {
     setTag(patch.tag ?? tag);
-    setSort(patch.sort ?? sort);
-    setMine(patch.mine ?? mine);
+    setTab(patch.tab ?? tab);
     setPage(1);
   };
 
@@ -49,8 +47,30 @@ export default function CommunityFeed() {
     const kwDebounced = kw.trim();
     const timer = setTimeout(async () => {
       try {
-        const q = new URLSearchParams({ tag, sort, page: String(page) });
-        if (mine) q.set("mine", "1");
+        if (tab === "following") {
+          const r = await api<{
+            items: { id: number; title: string; content: string; tag: string; type: string; like_count: number; view_count: number; created_at: number; author: { id: number; username: string; avatar: string | null } }[];
+          }>(`/api/feed?tab=following&per=20`);
+          const mapped: PostSummary[] = r.items.map((p) => ({
+            id: p.id,
+            title: p.title,
+            content: p.content,
+            tag: p.tag || "关注",
+            images: [],
+            status: "approved",
+            like_count: p.like_count,
+            view_count: p.view_count,
+            question_id: null,
+            quote: null,
+            author: { id: p.author.id, username: p.author.username },
+            created_at: p.created_at,
+          }));
+          setPosts(mapped);
+          setTotal(mapped.length);
+          setErr("");
+          return;
+        }
+        const q = new URLSearchParams({ tag, sort: tab === "hot" ? "hot" : "new", page: String(page) });
         if (kwDebounced) q.set("q", kwDebounced);
         const r = await api<{ posts: PostSummary[]; total: number; tags: string[] }>(`/api/posts?${q}`);
         setPosts(r.posts);
@@ -62,7 +82,7 @@ export default function CommunityFeed() {
       }
     }, 200);
     return () => clearTimeout(timer);
-  }, [tag, sort, mine, page, kw]);
+  }, [tag, tab, page, kw]);
 
   const chipCls = (on: boolean) =>
     `rounded-full px-3 py-1 text-xs transition-colors ${
@@ -100,20 +120,15 @@ export default function CommunityFeed() {
           </button>
         ))}
         <span className="mx-1 h-4 w-px bg-line" />
-        <button type="button" onClick={() => applyFilter({ sort: "new" })} className={chipCls(sort === "new")}>
+        <button type="button" onClick={() => applyFilter({ tab: "hot" })} className={chipCls(tab === "hot")}>
+          热帖
+        </button>
+        <button type="button" onClick={() => applyFilter({ tab: "new" })} className={chipCls(tab === "new")}>
           最新
         </button>
-        <button type="button" onClick={() => applyFilter({ sort: "hot" })} className={chipCls(sort === "hot")}>
-          热门
+        <button type="button" onClick={() => applyFilter({ tab: "following" })} className={chipCls(tab === "following")}>
+          我关注的
         </button>
-        {me && (
-          <>
-            <span className="mx-1 h-4 w-px bg-line" />
-            <button type="button" onClick={() => applyFilter({ mine: !mine })} className={chipCls(mine)}>
-              我的帖子
-            </button>
-          </>
-        )}
       </div>
 
       {kw.trim() && (
@@ -136,8 +151,8 @@ export default function CommunityFeed() {
             <p className="font-serif text-lg text-secondary-btn-text">
               {kw.trim()
                 ? `没有找到与「${kw.trim()}」相关的帖子`
-                : mine
-                  ? "你还没有发过帖子"
+                : tab === "following"
+                  ? "你还没有关注任何人，去逛一逛，关注感兴趣的同好吧"
                   : "这里还很安静，来做第一个发言的人"}
             </p>
             <Link

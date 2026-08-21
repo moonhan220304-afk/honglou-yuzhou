@@ -16,6 +16,13 @@ export interface Me {
   avatar: string | null;
   signature: string | null;
   created_at: number;
+  /* 第二阶段：成长体系 */
+  points?: number;
+  level?: number;
+  level_name?: string;
+  followers?: number;
+  following?: number;
+  last_checkin?: string | null;
 }
 
 export interface PostQuote {
