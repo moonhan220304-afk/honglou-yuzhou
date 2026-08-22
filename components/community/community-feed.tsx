@@ -9,6 +9,7 @@ import { fetchMe } from "@/lib/api";
 import type { Me } from "@/lib/api";
 import { formatTime, QuoteBlock, QuestionSourceBadge } from "@/lib/client-community";
 import SectionSearch from "@/components/section-search";
+import StatusComposer from "@/components/community/status-composer";
 import { IconHeart, IconMessage, IconShare, IconEye, IconFlame } from "@/components/icons";
 
 export default function CommunityFeed() {
@@ -121,12 +122,15 @@ export default function CommunityFeed() {
             与同好共论红楼。发帖、盖楼、自建话题——内容自动审核，命中敏感词转人工复核，请遵守社区规范。
           </p>
         </div>
-        <Link
-          href="/community/new"
-          className="rounded-full bg-primary px-5 py-2.5 font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
-        >
-          ✍ 发帖讨论
-        </Link>
+        <div className="w-full max-w-[240px] space-y-2">
+          <Link
+            href="/community/new"
+            className="block rounded-full bg-primary px-5 py-2.5 text-center font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
+          >
+            ✍ 发帖讨论
+          </Link>
+          <StatusComposer onPosted={() => applyFilter({ tab: "new" })} />
+        </div>
       </header>
 
       <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_280px]">

@@ -1,39 +1,72 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { sitePath } from "@/lib/api";
 import { characterImage } from "@/lib/images";
 import { characterName } from "@/lib/data";
-import { IconArrowLeft, IconArrowRight, IconGrid } from "@/components/icons";
+import { IconGrid } from "@/components/icons";
 import type { Character } from "@/lib/types";
 
 /**
- * 人物志 · 抽卡式浏览 v4 —— 对齐参考图（一叠牌 · 卷轴式）
+ * 人物志 · 抽卡式浏览 v6 —— 左右堆叠 + 半透明虚化 + 纯滑动交互（对齐参考图）
  *
- * 关键差异修正：
- * - 参考图是「垂直堆叠，后卡从底部露出一条边」（像一叠牌/卷轴，叙事沉浸感）
- * - 不是左右错位并排（那是选择/对比语义）
- * 实现：竖长卡 + 当前卡盖住后卡的上部、后卡底部露出一条边 + 扇形微旋转 + spring 切换
+ * - 当前卡居中；左右两侧各露出一张卡，半透明 + 虚化（blur）营造景深
+ * - 交互：手指/鼠标左右滑动（实时跟随拖动，松手超过阈值切换），支持键盘 ← →
+ * - 不用点击按钮（用户明确要求滑动式）
  */
 const SPRING = "cubic-bezier(0.34, 1.56, 0.64, 1)";
-const STEP = 34; // 每层露出高度
-const CARD_H = 500;
+const THRESHOLD = 70;
 
 export default function CharacterGacha({ characters }: { characters: Character[] }) {
   const list = characters.filter((c) => c.id && c.name);
   const [idx, setIdx] = useState(0);
-  const touchX = useRef<number | null>(null);
   const n = list.length;
+  const [dragX, setDragX] = useState(0);
+  const drag = useRef<{ start: number; active: boolean }>({ start: 0, active: false });
+  const [leaving, setLeaving] = useState<null | 1 | -1>(null);
 
-  const go = (dir: 1 | -1) => setIdx((i) => (i + dir + n) % n);
+  const go = (dir: 1 | -1) => {
+    setLeaving(dir);
+    setTimeout(() => {
+      setIdx((i) => (i + dir + n) % n);
+      setLeaving(null);
+      setDragX(0);
+    }, 180);
+  };
   const at = (i: number) => list[((i % n) + n) % n];
 
-  /* 当前 → 下一张 → 再下一张：每层底部露出一条边（像一叠牌） */
   const cur = at(idx);
-  const next = at(idx + 1);
-  const behind = at(idx + 2);
-  const H = CARD_H - STEP * 2; // 每张卡统一高度，露出由 top 错位产生
+  const left = at(idx - 1);
+  const right = at(idx + 1);
+
+  /* 键盘 ← → */
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") go(-1);
+      if (e.key === "ArrowRight") go(1);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  /* 拖拽/滑动 */
+  const onPointerDown = (e: React.PointerEvent) => {
+    drag.current = { start: e.clientX, active: true };
+    (e.currentTarget as HTMLElement).setPointerCapture?.(e.pointerId);
+  };
+  const onPointerMove = (e: React.PointerEvent) => {
+    if (!drag.current.active) return;
+    setDragX(e.clientX - drag.current.start);
+  };
+  const onPointerUp = (e: React.PointerEvent) => {
+    if (!drag.current.active) return;
+    drag.current.active = false;
+    const dx = e.clientX - drag.current.start;
+    if (Math.abs(dx) > THRESHOLD) go(dx < 0 ? 1 : -1);
+    else setDragX(0);
+  };
 
   const CardBody = ({ c, dim = false }: { c: Character; dim?: boolean }) => {
     const img = characterImage(c.id);
@@ -41,7 +74,6 @@ export default function CharacterGacha({ characters }: { characters: Character[]
     const ident = c.identity ? `${c.identity.position ?? ""}${c.identity.origin ? " · " + c.identity.origin : ""}` : "";
     return (
       <div className={`flex h-full w-full flex-col items-center justify-center px-7 text-center ${dim ? "pointer-events-none select-none" : ""}`}>
-        {/* 圆形大头像（居中偏上，白描边 + 身份胶囊） */}
         <div className="relative">
           {img ? (
             // eslint-disable-next-line @next/next/no-img-element
@@ -67,53 +99,65 @@ export default function CharacterGacha({ characters }: { characters: Character[]
     );
   };
 
+  const cardBase =
+    "card-print card-print--identity absolute inset-y-0 top-1/2 h-[400px] w-[290px] overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none select-none touch-pan-y";
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 md:px-6">
-      {/* 标题（居中，对齐参考图） */}
+      {/* 标题（居中） */}
       <div className="text-center">
         <p className="text-xs tracking-[0.35em] text-gold">CHARACTERS</p>
         <h1 className="mt-2 font-serif text-[34px] font-semibold text-ink">人物志</h1>
-        <p className="mt-2 text-sm text-muted">一张一位，左右滑动——不满意就换下一位</p>
+        <p className="mt-2 text-sm text-muted">左右滑动换人——不满意就换下一位</p>
       </div>
 
-      {/* 卡片栈（竖长 + 底部露出堆叠） */}
+      {/* 卡片区（左右堆叠 + 滑动） */}
       <div
-        className="relative mx-auto mt-8 max-w-[330px] md:max-w-[350px]"
-        style={{ height: CARD_H }}
-        onTouchStart={(e) => {
-          touchX.current = e.touches[0].clientX;
-        }}
-        onTouchEnd={(e) => {
-          if (touchX.current == null) return;
-          const dx = e.changedTouches[0].clientX - touchX.current;
-          if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1);
-          touchX.current = null;
+        className="relative mx-auto mt-10 flex h-[420px] w-full max-w-[520px] items-center justify-center"
+        style={{ perspective: "1200px" }}
+        onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
+        onPointerUp={onPointerUp}
+        onPointerCancel={() => {
+          drag.current.active = false;
+          setDragX(0);
         }}
       >
-        {/* 最底层卡（露出一条边） */}
+        {/* 左卡（半透明 + 虚化） */}
         <div
-          className="card-print card-print--identity absolute inset-x-0 top-0 overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none"
-          style={{ position: "absolute", top: STEP * 2, height: H, zIndex: 10, transform: "rotate(-2.5deg) scale(0.97)", opacity: 0.5, transitionTimingFunction: SPRING }}
-        >
-          <CardBody c={behind} dim />
-        </div>
-        {/* 中层卡（露出一条边） */}
-        <div
-          className="card-print card-print--identity absolute inset-x-0 top-0 overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none"
-          style={{ position: "absolute", top: STEP, height: H, zIndex: 20, transform: "rotate(1.5deg) scale(0.985)", opacity: 0.78, transitionTimingFunction: SPRING }}
-        >
-          <CardBody c={next} dim />
-        </div>
-        {/* 当前卡（最上层，完整显示，悬浮） */}
-        <div
-          className="card-print card-print--identity absolute inset-x-0 top-0 overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none"
+          className={`${cardBase} left-1/2`}
           style={{
-            position: "absolute",
-            top: 0,
-            height: H,
+            marginLeft: -145,
+            transform: `translateX(${-150 + dragX * 0.35}px) translateY(0) rotate(-5deg) scale(0.86)`,
+            zIndex: 10,
+            opacity: 0.45,
+            filter: "blur(2px)",
+            transitionTimingFunction: SPRING,
+          }}
+        >
+          <CardBody c={left} dim />
+        </div>
+        {/* 右卡（半透明 + 虚化） */}
+        <div
+          className={`${cardBase} left-1/2`}
+          style={{
+            marginLeft: -145,
+            transform: `translateX(${150 + dragX * 0.35}px) translateY(0) rotate(5deg) scale(0.86)`,
+            zIndex: 10,
+            opacity: 0.45,
+            filter: "blur(2px)",
+            transitionTimingFunction: SPRING,
+          }}
+        >
+          <CardBody c={right} dim />
+        </div>
+        {/* 当前卡（居中，跟随拖拽） */}
+        <div
+          className={`${cardBase} left-1/2`}
+          style={{
+            marginLeft: -145,
+            transform: `translateX(${dragX}px) translateY(0) rotate(0) scale(1)`,
             zIndex: 30,
-            transform: "rotate(-0.6deg) scale(1)",
             boxShadow: "0 2px 6px rgba(60,45,30,.06), 0 14px 30px rgba(60,45,30,.16), 0 34px 70px rgba(60,45,30,.12)",
             transitionTimingFunction: SPRING,
           }}
@@ -131,36 +175,29 @@ export default function CharacterGacha({ characters }: { characters: Character[]
           </div>
         </div>
 
-        {/* 左右切换 */}
-        <button
-          type="button"
-          onClick={() => go(-1)}
-          aria-label="上一位"
-          className="absolute -left-2 top-1/2 z-40 -translate-y-1/2 rounded-full border border-line bg-paper/95 p-3 text-body shadow-md transition-all hover:scale-110 hover:border-primary/50 hover:text-primary md:-left-6"
-        >
-          <IconArrowLeft className="h-5 w-5" />
-        </button>
-        <button
-          type="button"
-          onClick={() => go(1)}
-          aria-label="下一位"
-          className="absolute -right-2 top-1/2 z-40 -translate-y-1/2 rounded-full border border-line bg-paper/95 p-3 text-body shadow-md transition-all hover:scale-110 hover:border-primary/50 hover:text-primary md:-right-6"
-        >
-          <IconArrowRight className="h-5 w-5" />
-        </button>
+        {/* 滑动提示 */}
+        <span className="pointer-events-none absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap font-serif text-xs tracking-[0.25em] text-muted">
+          ← 滑动换人 →
+        </span>
       </div>
 
-      {/* 滑动指示器（虚线 + 红点） */}
-      <div className="mt-8 flex justify-center">
-        <div className="flex items-center gap-1.5">
-          <span className="h-px w-10 bg-line" />
-          <span className="h-2.5 w-2.5 rounded-full bg-primary" />
-          <span className="h-px w-10 bg-line" />
-        </div>
+      {/* 指示点 */}
+      <div className="mt-12 flex items-center justify-center gap-1.5">
+        {list.slice(0, Math.min(n, 40)).map((_, i) => (
+          <button
+            key={i}
+            type="button"
+            onClick={() => setIdx(i)}
+            aria-label={`第 ${i + 1} 位`}
+            className={`h-1.5 rounded-full transition-all ${
+              i === idx ? "w-5 bg-primary" : "w-1.5 bg-line hover:bg-gold"
+            }`}
+          />
+        ))}
       </div>
 
       {/* 查看全部 */}
-      <div className="mt-5 text-center">
+      <div className="mt-6 text-center">
         <Link
           href={sitePath("/characters/roster")}
           className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-5 py-2 text-sm text-body transition-colors hover:border-primary/50 hover:text-primary"

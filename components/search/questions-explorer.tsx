@@ -58,32 +58,93 @@ export default function QuestionsExplorer({ questions }: { questions: Question[]
 
   const visible = expanded ? filtered : filtered.slice(0, DEFAULT_VISIBLE);
 
+  /* 逻辑轴数据：热门人物（人物类代表） */
+  const hotChars = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const q of questions) {
+      for (const cid of q.related_character_ids ?? []) m.set(cid, (m.get(cid) ?? 0) + 1);
+    }
+    return [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, 4);
+  }, [questions]);
+
+  /* 逻辑轴数据：剧情类代表回次 */
+  const plotSpan = useMemo(() => {
+    const chapters: number[] = [];
+    for (const q of questions) {
+      if (categoryOf(q) === "剧情") chapters.push(...(q.related_chapter_ids ?? []));
+    }
+    if (!chapters.length) return null;
+    return { from: Math.min(...chapters), to: Math.max(...chapters) };
+  }, [questions]);
+
+  const switchCat = (c: (typeof CATEGORIES)[number]) => {
+    setCat(c);
+    setExpanded(false);
+  };
+
   return (
     <div className="mt-6">
-      {/* 分类筛选条（知乎式，不是大卡片墙） */}
-      <div className="flex flex-wrap items-center gap-2">
-        {CATEGORIES.map((c) => (
-          <button
-            key={c}
-            type="button"
-            onClick={() => {
-              setCat(c);
-              setExpanded(false);
-            }}
-            className={`rounded-full border px-4 py-1.5 text-sm transition-colors ${
-              cat === c
-                ? "border-primary bg-primary text-white"
-                : "border-line bg-surface text-body hover:border-primary/50 hover:text-primary"
-            }`}
-          >
-            {c === "全部" ? "全部" : `${c}类`}
-            {c !== "全部" && (
-              <span className="ml-1.5 text-xs opacity-70">
-                {questions.filter((q) => categoryOf(q) === c).length}
+      {/* 探索逻辑轴：一条贯穿的轴线串联分类，当前节点放大（人物→剧情→主题） */}
+      <div className="mx-auto max-w-2xl">
+        <div className="relative px-2 pt-2">
+          <div className="absolute left-10 right-10 top-[30px] h-px bg-line" />
+          <div className="relative flex items-start justify-between">
+            {CATEGORIES.map((c) => {
+              const on = cat === c;
+              const count = c === "全部" ? questions.length : questions.filter((q) => categoryOf(q) === c).length;
+              const glyph = c === "人物" ? "人" : c === "剧情" ? "事" : c === "主题" ? "题" : "全";
+              return (
+                <button
+                  key={c}
+                  type="button"
+                  onClick={() => switchCat(c)}
+                  className="flex w-16 flex-col items-center gap-1.5"
+                >
+                  <span
+                    className={`flex items-center justify-center rounded-full font-serif transition-all duration-300 ${
+                      on
+                        ? "h-12 w-12 bg-primary text-xl text-white shadow-lg"
+                        : "h-8 w-8 bg-paper-deep text-sm text-muted hover:text-primary"
+                    }`}
+                  >
+                    {glyph}
+                  </span>
+                  <span className={`font-serif text-xs ${on ? "font-semibold text-ink" : "text-muted"}`}>{c}</span>
+                  <span className="text-[10px] text-muted">{count} 问</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* 当前节点代表性内容（人物→头像墙；剧情→回次范围） */}
+        <div className="mt-5 flex min-h-[64px] items-center justify-center rounded-2xl bg-paper-deep/40 px-4 py-3">
+          {cat === "人物" && (
+            <div className="flex items-center gap-4">
+              {hotChars.map(([cid, cnt]) => (
+                <Link key={cid} href={`/questions/?q=${characterName(cid)}`} className="group flex flex-col items-center gap-1">
+                  <CharacterAvatar characterId={cid} name={characterName(cid)} className="h-10 w-10 border-0 shadow group-hover:ring-2 group-hover:ring-gold" />
+                  <span className="text-[11px] text-secondary-btn-text group-hover:text-primary">{characterName(cid)}</span>
+                  <span className="text-[10px] text-muted">{cnt} 问</span>
+                </Link>
+              ))}
+            </div>
+          )}
+          {cat === "剧情" && plotSpan && (
+            <div className="flex items-center gap-3">
+              <span className="rounded-full bg-primary/10 px-3 py-1 font-mono text-xs text-primary">
+                第 {plotSpan.from}–{plotSpan.to} 回
               </span>
-            )}
-          </button>
-        ))}
+              <span className="text-xs text-muted">剧情类问题覆盖的回次区间，点开即见</span>
+            </div>
+          )}
+          {cat === "主题" && (
+            <span className="text-xs text-muted">爱情 · 命运 · 家族 · 信仰——跨人物、跨剧情的母题之问</span>
+          )}
+          {cat === "全部" && (
+            <span className="text-xs text-muted">沿轴探索：从人物 → 剧情 → 主题，一层层走进问题深处</span>
+          )}
+        </div>
       </div>
 
       <SectionSearch
