@@ -2,9 +2,17 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { sitePath } from "@/lib/api";
 import UserMenu from "@/components/user-menu";
 import WanderButton from "@/components/wander-button";
+import {
+  IconHome,
+  IconBook,
+  IconGame,
+  IconChat,
+  IconQuestion,
+  IconQuill,
+  IconUser,
+} from "@/components/icons";
 
 /**
  * 第二阶段：左侧常驻导航（社交/内容社区布局）。
@@ -15,16 +23,16 @@ const navSections = [
   {
     href: "/",
     label: "首页",
-    icon: "🏠",
+    icon: IconHome,
     match: (p: string) => p === "/",
   },
   {
     href: "/characters",
     label: "涨知识",
-    icon: "📖",
+    icon: IconBook,
     match: (p: string) => p.startsWith("/characters") || p.startsWith("/graph") || p.startsWith("/map") || p.startsWith("/journey") || p.startsWith("/poems"),
     children: [
-      { href: "/characters", label: "人物志" },
+      { href: "/characters", label: "人物志", exact: true },
       { href: "/graph", label: "关系图谱" },
       { href: "/map", label: "大观园" },
       { href: "/journey", label: "剧情旅程" },
@@ -34,25 +42,25 @@ const navSections = [
   {
     href: "/test",
     label: "找乐子",
-    icon: "🎮",
+    icon: IconGame,
     match: (p: string) => p.startsWith("/test"),
   },
   {
     href: "/community",
     label: "聊一聊",
-    icon: "💬",
+    icon: IconChat,
     match: (p: string) => p.startsWith("/community"),
   },
   {
     href: "/questions",
     label: "问一问",
-    icon: "❓",
+    icon: IconQuestion,
     match: (p: string) => p.startsWith("/questions"),
   },
   {
     href: "/poem-society",
     label: "海棠诗社",
-    icon: "🖋️",
+    icon: IconQuill,
     match: (p: string) => p.startsWith("/poem-society"),
     children: [
       { href: "/poem-society", label: "诗题", exact: true },
@@ -68,17 +76,17 @@ export default function AppSidebar() {
 
   return (
     <aside className="fixed inset-y-0 left-0 z-40 hidden w-[232px] flex-col border-r border-line bg-paper-deep/95 backdrop-blur md:flex">
-      <Link href="/" className="flex items-center gap-2.5 px-5 pb-4 pt-5">
+      <Link href="/" className="flex items-center px-6 pb-4 pt-5">
         <img
           src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo-universal.png`}
           alt="红楼社"
-          className="h-8 w-auto"
+          className="h-9 w-auto"
         />
-        <span className="font-serif text-base font-semibold tracking-wide text-ink">红楼社</span>
       </Link>
 
       <nav className="flex-1 space-y-1 overflow-y-auto px-3">
         {navSections.map((sec) => {
+          const Icon = sec.icon;
           const active = sec.match(pathname);
           const childActive = sec.children?.some((c) =>
             c.exact ? pathname === c.href : pathname.startsWith(c.href),
@@ -87,13 +95,13 @@ export default function AppSidebar() {
             <div key={sec.href}>
               <Link
                 href={sec.href}
-                className={`flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm transition-colors ${
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${
                   active
                     ? "bg-primary text-white shadow-sm"
                     : "text-ink/80 hover:bg-surface hover:text-primary"
                 }`}
               >
-                <span className="text-base leading-none">{sec.icon}</span>
+                <Icon className="h-[18px] w-[18px] shrink-0" />
                 <span className="font-serif font-medium">{sec.label}</span>
               </Link>
               {sec.children && (active || childActive) && (

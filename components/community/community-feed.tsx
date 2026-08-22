@@ -1,14 +1,15 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { api } from "@/lib/api";
+import { api, sitePath } from "@/lib/api";
 import type { PostSummary } from "@/lib/api";
 import { fetchMe } from "@/lib/api";
 import type { Me } from "@/lib/api";
 import { formatTime, QuoteBlock, QuestionSourceBadge } from "@/lib/client-community";
 import SectionSearch from "@/components/section-search";
+import { IconHeart, IconMessage, IconShare, IconEye, IconFlame } from "@/components/icons";
 
 export default function CommunityFeed() {
   const search = useSearchParams();
@@ -89,12 +90,33 @@ export default function CommunityFeed() {
       on ? "bg-primary text-paper" : "bg-paper-deep text-muted hover:bg-line/50 hover:text-body"
     }`;
 
+  /* 右侧栏：活跃用户 + 热点 */
+  const activeUsers = useMemo(() => {
+    if (!posts) return [];
+    const seen = new Map<string, string>();
+    for (const p of posts) {
+      if (!seen.has(p.author.username)) seen.set(p.author.username, String(p.author.id));
+    }
+    return [...seen.entries()].slice(0, 6).map(([name, id]) => ({ name, id }));
+  }, [posts]);
+
+  const hotPosts = useMemo(
+    () => (posts ? [...posts].sort((a, b) => b.like_count - a.like_count).slice(0, 5) : []),
+    [posts],
+  );
+
+  const Avatar = ({ name, size = "h-9 w-9" }: { name: string; size?: string }) => (
+    <span className={`flex shrink-0 items-center justify-center rounded-full bg-primary/10 font-serif ${size}`}>
+      <span className="text-sm text-primary">{name.slice(0, 1)}</span>
+    </span>
+  );
+
   return (
-    <div className="mx-auto max-w-4xl px-6 py-14">
+    <div className="mx-auto max-w-6xl px-4 py-10 md:px-6">
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="text-xs tracking-[0.3em] text-gold">COMMUNITY</p>
-          <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">社区讨论</h1>
+          <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">聊一聊</h1>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">
             与同好共论红楼。发帖、盖楼、自建话题——内容自动审核，命中敏感词转人工复核，请遵守社区规范。
           </p>
@@ -107,115 +129,169 @@ export default function CommunityFeed() {
         </Link>
       </header>
 
-      <div className="mt-8 flex flex-wrap items-center gap-2">
-        <SectionSearch
-          value={kw}
-          onChange={onKwChange}
-          placeholder="搜索帖子：标题、内容、作者…"
-          className="mr-2 w-full max-w-xs"
-        />
-        {["全部", ...tags].map((t) => (
-          <button key={t} type="button" onClick={() => applyFilter({ tag: t })} className={chipCls(tag === t)}>
-            {t}
-          </button>
-        ))}
-        <span className="mx-1 h-4 w-px bg-line" />
-        <button type="button" onClick={() => applyFilter({ tab: "hot" })} className={chipCls(tab === "hot")}>
-          热帖
-        </button>
-        <button type="button" onClick={() => applyFilter({ tab: "new" })} className={chipCls(tab === "new")}>
-          最新
-        </button>
-        <button type="button" onClick={() => applyFilter({ tab: "following" })} className={chipCls(tab === "following")}>
-          我关注的
-        </button>
-      </div>
-
-      {kw.trim() && (
-        <p className="mt-3 text-xs text-muted">
-          {posts && posts.length > 0 ? `找到 ${total} 个相关帖子` : ""}
-        </p>
-      )}
-
-      <div className="mt-6 space-y-4">
-        {err && <p className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{err}</p>}
-        {!posts && (
-          <>
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="h-32 animate-pulse rounded-2xl bg-paper-deep/60" />
+      <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_280px]">
+        {/* 主列：帖子流（小红书式） */}
+        <div>
+          <div className="flex flex-wrap items-center gap-2">
+            <SectionSearch
+              value={kw}
+              onChange={onKwChange}
+              placeholder="搜索帖子：标题、内容、作者…"
+              className="mr-2 w-full max-w-xs"
+            />
+            {["全部", ...tags].slice(0, 6).map((t) => (
+              <button key={t} type="button" onClick={() => applyFilter({ tag: t })} className={chipCls(tag === t)}>
+                {t}
+              </button>
             ))}
-          </>
-        )}
-        {posts && posts.length === 0 && (
-          <div className="rounded-3xl border border-dashed border-gold/50 bg-surface-warm p-12 text-center">
-            <p className="font-serif text-lg text-secondary-btn-text">
-              {kw.trim()
-                ? `没有找到与「${kw.trim()}」相关的帖子`
-                : tab === "following"
-                  ? "你还没有关注任何人，去逛一逛，关注感兴趣的同好吧"
-                  : "这里还很安静，来做第一个发言的人"}
-            </p>
-            <Link
-              href="/community/new"
-              className="mt-4 inline-block rounded-md bg-secondary-btn px-6 py-3 text-sm font-medium text-secondary-btn-text transition-colors hover:bg-[#F5EBE0]"
-            >
-              发第一帖
-            </Link>
+            <span className="mx-1 h-4 w-px bg-line" />
+            <button type="button" onClick={() => applyFilter({ tab: "hot" })} className={chipCls(tab === "hot")}>
+              热帖
+            </button>
+            <button type="button" onClick={() => applyFilter({ tab: "new" })} className={chipCls(tab === "new")}>
+              最新
+            </button>
+            <button type="button" onClick={() => applyFilter({ tab: "following" })} className={chipCls(tab === "following")}>
+              我关注的
+            </button>
           </div>
-        )}
-        {posts?.map((p) => (
-          <Link
-            key={p.id}
-            href={`/community/post/?id=${p.id}`}
-            className="group block rounded-2xl bg-surface p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-hover"
-          >
-            <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
-              <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-primary">{p.tag}</span>
-              {p.status === "pending" && (
-                <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-amber-700">待审核</span>
-              )}
-              <span>{p.author.username}</span>
-              <span>·</span>
-              <span>{formatTime(p.created_at)}</span>
-            </div>
-            <h2 className="mt-2.5 font-serif text-lg font-semibold leading-snug text-ink group-hover:text-primary">
-              {p.title}
-            </h2>
-            {p.quote && <QuoteBlock quote={p.quote} compact questionId={p.question_id} />}
-            <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-muted">{p.content}</p>
-            {!p.quote && p.question_id && <QuestionSourceBadge questionId={p.question_id} className="mt-2" />}
-            <div className="mt-3 flex items-center gap-4 text-xs text-muted">
-              <span>赞 {p.like_count}</span>
-              <span>阅读 {p.view_count}</span>
-              {p.images.length > 0 && <span>🖼 {p.images.length}</span>}
-            </div>
-          </Link>
-        ))}
-      </div>
 
-      {posts && total > 20 && (
-        <div className="mt-8 flex justify-center gap-3">
-          <button
-            type="button"
-            disabled={page <= 1}
-            onClick={() => setPage((v) => v - 1)}
-            className="rounded-full bg-paper-deep px-5 py-2 text-sm text-body disabled:opacity-40"
-          >
-            ← 上一页
-          </button>
-          <span className="py-2 text-sm text-muted">
-            第 {page} 页 / 共 {Math.ceil(total / 20)} 页
-          </span>
-          <button
-            type="button"
-            disabled={page * 20 >= total}
-            onClick={() => setPage((v) => v + 1)}
-            className="rounded-full bg-paper-deep px-5 py-2 text-sm text-body disabled:opacity-40"
-          >
-            下一页 →
-          </button>
+          {err && <p className="mt-4 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{err}</p>}
+          {!posts && (
+            <div className="mt-6 space-y-4">
+              {[1, 2, 3].map((i) => (
+                <div key={i} className="h-28 animate-pulse rounded-2xl bg-paper-deep/60" />
+              ))}
+            </div>
+          )}
+          {posts && posts.length === 0 && (
+            <div className="mt-8 rounded-3xl border border-dashed border-gold/50 bg-surface-warm p-12 text-center">
+              <p className="font-serif text-lg text-secondary-btn-text">
+                {kw.trim()
+                  ? `没有找到与「${kw.trim()}」相关的帖子`
+                  : tab === "following"
+                    ? "你还没有关注任何人，去逛一逛，关注感兴趣的同好吧"
+                    : "这里还很安静，来做第一个发言的人"}
+              </p>
+              <Link
+                href="/community/new"
+                className="mt-4 inline-block rounded-md bg-secondary-btn px-6 py-3 text-sm font-medium text-secondary-btn-text transition-colors hover:bg-[#F5EBE0]"
+              >
+                发第一帖
+              </Link>
+            </div>
+          )}
+
+          {/* 小红书式帖子流：头像 + 作者 + 正文 + 互动区，弱分割线 */}
+          <div className="mt-4">
+            {posts?.map((p) => (
+              <Link
+                key={p.id}
+                href={`/community/post/?id=${p.id}`}
+                className="group flex gap-3.5 border-b border-line-inner/60 py-5 transition-colors hover:bg-paper-deep/30 md:px-2"
+              >
+                <Avatar name={p.author.username} />
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2 text-xs">
+                    <span className="font-medium text-ink">{p.author.username}</span>
+                    <span className="text-muted">· {formatTime(p.created_at)}</span>
+                    <span className="ml-auto rounded-full bg-primary/10 px-2 py-0.5 text-[11px] text-primary">
+                      {p.tag}
+                    </span>
+                  </div>
+                  <h2 className="mt-1.5 font-serif text-[15px] font-semibold leading-snug text-ink group-hover:text-primary">
+                    {p.title}
+                  </h2>
+                  {p.quote && <QuoteBlock quote={p.quote} compact questionId={p.question_id} />}
+                  <p className="mt-1 line-clamp-2 text-sm leading-relaxed text-muted">{p.content}</p>
+                  {!p.quote && p.question_id && <QuestionSourceBadge questionId={p.question_id} className="mt-1.5" />}
+                  <div className="mt-2.5 flex items-center gap-5 text-xs text-muted">
+                    <span className="flex items-center gap-1">
+                      <IconHeart className="h-3.5 w-3.5" />
+                      {p.like_count}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <IconMessage className="h-3.5 w-3.5" />
+                      评论
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <IconShare className="h-3.5 w-3.5" />
+                      分享
+                    </span>
+                    <span className="ml-auto flex items-center gap-1">
+                      <IconEye className="h-3.5 w-3.5" />
+                      {p.view_count}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          {posts && total > 20 && (
+            <div className="mt-8 flex justify-center gap-3">
+              <button
+                type="button"
+                disabled={page <= 1}
+                onClick={() => setPage((v) => v - 1)}
+                className="rounded-full bg-paper-deep px-5 py-2 text-sm text-body disabled:opacity-40"
+              >
+                ← 上一页
+              </button>
+              <span className="py-2 text-sm text-muted">
+                第 {page} 页 / 共 {Math.ceil(total / 20)} 页
+              </span>
+              <button
+                type="button"
+                disabled={page * 20 >= total}
+                onClick={() => setPage((v) => v + 1)}
+                className="rounded-full bg-paper-deep px-5 py-2 text-sm text-body disabled:opacity-40"
+              >
+                下一页 →
+              </button>
+            </div>
+          )}
         </div>
-      )}
+
+        {/* 右侧栏：相关人员 / 热点 */}
+        <aside className="hidden lg:block">
+          <div className="sticky top-20 space-y-6">
+            <div className="card-print card-print--identity rounded-2xl bg-surface p-5">
+              <h3 className="flex items-center gap-2 font-serif text-base font-semibold text-ink">
+                <IconFlame className="h-4 w-4 text-gold" />
+                活跃的同好
+              </h3>
+              <div className="mt-3 space-y-2.5">
+                {activeUsers.map((u) => (
+                  <Link key={u.name} href={`/u?id=${u.id}`} className="flex items-center gap-2.5 transition-colors hover:text-primary">
+                    <Avatar name={u.name} size="h-8 w-8" />
+                    <span className="font-serif text-sm text-ink">{u.name}</span>
+                  </Link>
+                ))}
+                {activeUsers.length === 0 && <p className="text-xs text-muted">暂无活跃用户</p>}
+              </div>
+            </div>
+
+            <div className="card-print rounded-2xl bg-surface p-5">
+              <h3 className="flex items-center gap-2 font-serif text-base font-semibold text-ink">
+                <IconFlame className="h-4 w-4 text-gold" />
+                热门讨论
+              </h3>
+              <ol className="mt-3 space-y-2.5">
+                {hotPosts.map((p, i) => (
+                  <li key={p.id} className="flex gap-2.5 text-sm">
+                    <span className="w-4 shrink-0 font-serif text-gold">{i + 1}</span>
+                    <Link href={`/community/post/?id=${p.id}`} className="line-clamp-2 text-body transition-colors hover:text-primary">
+                      {p.title}
+                    </Link>
+                  </li>
+                ))}
+                {hotPosts.length === 0 && <li className="text-xs text-muted">暂无数据</li>}
+              </ol>
+            </div>
+          </div>
+        </aside>
+      </div>
     </div>
   );
 }

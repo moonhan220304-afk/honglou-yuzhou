@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import UserMenu from "@/components/user-menu";
+import { IconGame } from "@/components/icons";
 
 /** 移动版顶栏（第二阶段）：logo + 找乐子快捷入口 + 用户。频道导航在底部 MobileNav */
 export default function MHeader() {
@@ -39,13 +40,14 @@ export default function MHeader() {
         <div className="flex items-center gap-3">
           <Link
             href="/test"
-            className={`rounded-full border px-3 py-1 text-xs transition-colors ${
+            className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition-colors ${
               transparent
                 ? "border-white/40 text-white"
                 : "border-line bg-surface text-body hover:text-primary"
             }`}
           >
-            🎮 找乐子
+            <IconGame className="h-3.5 w-3.5" />
+            找乐子
           </Link>
           <UserMenu />
         </div>

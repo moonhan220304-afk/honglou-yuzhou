@@ -115,48 +115,49 @@ export default function QuestionsExplorer({ questions }: { questions: Question[]
               <Link
                 key={q.id}
                 href={`/questions/${q.id}`}
-                className={`group rounded-2xl bg-surface ${cardPrintClass(i, 4)} p-6 transition-all hover:-translate-y-0.5 hover:shadow-hover`}
+                className={`group overflow-hidden rounded-2xl bg-surface ${cardPrintClass(i, 4)} transition-all hover:-translate-y-0.5 hover:shadow-hover`}
               >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span
-                      className={`rounded-full px-2.5 py-0.5 font-mono text-[10px] tracking-wider ${
-                        i < 3 ? "bg-primary/10 text-primary" : "bg-paper-deep text-muted"
-                      }`}
-                    >
-                      {i < 3 ? "热议" : `热度 ${q.heat_weight}`}
-                    </span>
-                    <span className="rounded-full bg-paper-deep/70 px-2 py-0.5 text-[10px] text-secondary-btn-text">
-                      {categoryOf(q)}类
-                    </span>
+                {/* 图区：相关人物头像墙（小红书式首图） */}
+                <div className="flex items-center gap-2 bg-paper-deep/50 px-5 py-3">
+                  <div className="flex -space-x-2.5">
+                    {(q.related_character_ids ?? []).slice(0, 4).map((cid) => (
+                      <span key={cid} className="rounded-full border-2 border-surface bg-surface">
+                        <CharacterAvatar
+                          characterId={cid}
+                          name={characterName(cid)}
+                          className="h-8 w-8 border-0 shadow-none"
+                        />
+                      </span>
+                    ))}
+                    {(q.related_character_ids ?? []).length === 0 && (
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/10 font-serif text-sm text-primary">
+                        问
+                      </span>
+                    )}
                   </div>
-                  <span className="text-xs text-muted">{q.viewpoints.length} 种观点</span>
+                  <span className="text-xs text-muted">
+                    {categoryOf(q)}类 · {q.viewpoints.length} 种观点
+                  </span>
+                  <span
+                    className={`ml-auto rounded-full px-2.5 py-0.5 font-mono text-[10px] tracking-wider ${
+                      i < 3 ? "bg-primary/10 text-primary" : "bg-paper-deep text-muted"
+                    }`}
+                  >
+                    {i < 3 ? "热议" : `热度 ${q.heat_weight}`}
+                  </span>
                 </div>
-                <h2 className="mt-3 font-serif text-lg font-semibold leading-snug text-ink group-hover:text-primary">
-                  {q.title}
-                </h2>
-                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
-                  {q.short_summary}
-                </p>
-                <div className="mt-4 flex flex-wrap items-center gap-2">
-                  {q.related_character_ids?.slice(0, 4).map((cid) => (
-                    <span
-                      key={cid}
-                      className="flex items-center gap-1.5 rounded-full bg-paper-deep/60 px-2.5 py-1 text-xs text-secondary-btn-text"
-                    >
-                      <CharacterAvatar
-                        characterId={cid}
-                        name={characterName(cid)}
-                        className="h-4 w-4 border-0 shadow-none"
-                      />
-                      {characterName(cid)}
-                    </span>
-                  ))}
-                  {q.related_chapter_ids?.length > 0 && (
-                    <span className="text-xs text-muted">
-                      涉及 {chapterLabel(q.related_chapter_ids[0])}等 {q.related_chapter_ids.length} 回
-                    </span>
-                  )}
+                <div className="p-5">
+                  <h2 className="font-serif text-lg font-semibold leading-snug text-ink group-hover:text-primary">
+                    {q.title}
+                  </h2>
+                  <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">{q.short_summary}</p>
+                  <div className="mt-4 flex items-center gap-4 text-xs text-muted">
+                    <span>❤ {q.heat_weight}</span>
+                    <span>💬 {q.viewpoints.length} 观点</span>
+                    {q.related_chapter_ids?.length > 0 && (
+                      <span className="ml-auto">涉及 {q.related_chapter_ids.length} 回</span>
+                    )}
+                  </div>
                 </div>
               </Link>
             ))}
