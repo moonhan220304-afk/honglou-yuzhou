@@ -123,10 +123,12 @@ export default function CharacterGacha({ characters }: { characters: Character[]
           setDragX(0);
         }}
       >
-        {/* 左卡（半透明 + 虚化） */}
+        {/* 左卡（半透明 + 虚化）。card-print 的 position:relative 会覆盖 absolute 工具类，
+            故用内联 position:absolute 强制堆叠定位（否则三卡会上下垂直排开）。 */}
         <div
           className={cardBase}
           style={{
+            position: "absolute",
             transform: `translateX(${-160 + dragX * 0.3}px) rotate(-5deg) scale(0.86)`,
             zIndex: 10,
             opacity: 0.45,
@@ -140,6 +142,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
         <div
           className={cardBase}
           style={{
+            position: "absolute",
             transform: `translateX(${160 + dragX * 0.3}px) rotate(5deg) scale(0.86)`,
             zIndex: 10,
             opacity: 0.45,
@@ -153,6 +156,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
         <div
           className={cardBase}
           style={{
+            position: "absolute",
             transform: `translateX(${dragX}px) rotate(0) scale(1)`,
             zIndex: 30,
             boxShadow: "0 2px 6px rgba(60,45,30,.06), 0 14px 30px rgba(60,45,30,.16), 0 34px 70px rgba(60,45,30,.12)",

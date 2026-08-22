@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import UserMenu from "@/components/user-menu";
+import LogoMark from "@/components/logo-mark";
 import { IconGame } from "@/components/icons";
 
 /** 移动版顶栏（第二阶段）：logo + 找乐子快捷入口 + 用户。频道导航在底部 MobileNav */
@@ -30,12 +31,8 @@ export default function MHeader() {
       }`}
     >
       <div className="mx-auto flex h-14 w-full max-w-[480px] items-center justify-between px-4">
-        <Link href="/" className="flex items-center rounded-xl">
-          <img
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo-universal.png`}
-            alt="红楼社"
-            className="h-8 w-auto"
-          />
+        <Link href="/" className="flex items-center rounded-xl" aria-label="红楼社首页">
+          <LogoMark className="h-8 w-8" />
         </Link>
         <div className="flex items-center gap-3">
           <Link

@@ -96,7 +96,7 @@ export default function PoemShareModal({
         {/* AI 诗评 */}
         {data.reviews.length > 0 && (
           <div className="mt-4 rounded-xl border border-gold/60 bg-gold/10 px-4 py-3">
-            <p className="text-xs font-semibold text-gold">📌 诗评 · AI 诗评</p>
+            <p className="text-xs font-semibold text-gold">诗评 · AI 诗评</p>
             <p className="mt-1.5 whitespace-pre-line font-serif text-sm leading-relaxed text-body">
               {cleanReview(data.reviews[0].content)}
             </p>

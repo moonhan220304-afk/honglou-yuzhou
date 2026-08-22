@@ -181,7 +181,7 @@ export default function ExpandableComments({
       {data.reviews.length > 0 && (
         <div className="mb-3 rounded-xl border border-gold/60 bg-gold/10 px-4 py-3">
           <p className="flex flex-wrap items-center gap-2 text-xs font-semibold text-gold">
-            <span>📌 诗评 · AI 诗评</span>
+            <span>诗评 · AI 诗评</span>
             <span className="font-normal text-muted">
               {data.reviews[0].trigger_name
                 ? `由 ${data.reviews[0].trigger_name} 触发`

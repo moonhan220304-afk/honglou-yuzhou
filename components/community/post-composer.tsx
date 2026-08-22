@@ -71,7 +71,7 @@ export default function PostComposer() {
   if (done) {
     return (
       <div className="mx-auto max-w-2xl px-6 py-24 text-center">
-        <p className="font-serif text-2xl text-ink">帖子已提交 🎉</p>
+        <p className="font-serif text-2xl text-ink">帖子已提交</p>
         <p className="mt-3 text-sm text-muted">{done.msg}。即将回到讨论区…</p>
       </div>
     );

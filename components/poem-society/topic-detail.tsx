@@ -17,6 +17,7 @@ import {
 import PoemSocietyNav from "@/components/poem-society/poem-society-nav";
 import ExpandableComments from "@/components/poem-society/expandable-comments";
 import PoemShareModal, { type PoemShareData } from "@/components/poem-society/poem-share-modal";
+import { IconMessage, IconQuill } from "@/components/icons";
 
 const KIND_LABEL: Record<TopicKind, string> = {
   poem_topic: "诗题",
@@ -286,9 +287,10 @@ export default function TopicDetail({
               <button
                 type="button"
                 onClick={goCompose}
-                className="rounded-full bg-primary px-5 py-2 font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
+                className="flex items-center gap-1.5 rounded-full bg-primary px-5 py-2 font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
               >
-                ✍ 写诗参与
+                <IconQuill className="h-4 w-4" />
+                写诗参与
               </button>
             </div>
           </div>
@@ -376,9 +378,10 @@ export default function TopicDetail({
                     <button
                       type="button"
                       onClick={() => toggleComments(w)}
-                      className={`transition-colors ${open ? "text-primary" : "hover:text-primary"}`}
+                      className={`flex items-center gap-1 transition-colors ${open ? "text-primary" : "hover:text-primary"}`}
                     >
-                      💬 评论{cmtCount !== undefined ? ` ${cmtCount}` : ""}
+                      <IconMessage className="h-3.5 w-3.5" />
+                      评论{cmtCount !== undefined ? ` ${cmtCount}` : ""}
                     </button>
                     <button type="button" onClick={() => shareWork(w)} className="transition-colors hover:text-primary">
                       分享

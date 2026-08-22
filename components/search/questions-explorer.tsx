@@ -7,6 +7,7 @@ import { characterName, chapterLabel } from "@/lib/data";
 import { cardPrintClass } from "@/lib/card-print";
 import CharacterAvatar from "@/components/character-avatar";
 import SectionSearch from "@/components/section-search";
+import { IconHeart, IconMessage } from "@/components/icons";
 import type { Question } from "@/lib/types";
 
 /** 问题分类：人物 / 剧情 / 主题（按 question_type 映射） */
@@ -213,8 +214,14 @@ export default function QuestionsExplorer({ questions }: { questions: Question[]
                   </h2>
                   <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">{q.short_summary}</p>
                   <div className="mt-4 flex items-center gap-4 text-xs text-muted">
-                    <span>❤ {q.heat_weight}</span>
-                    <span>💬 {q.viewpoints.length} 观点</span>
+                    <span className="flex items-center gap-1">
+                      <IconHeart className="h-3.5 w-3.5" />
+                      {q.heat_weight}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <IconMessage className="h-3.5 w-3.5" />
+                      {q.viewpoints.length} 观点
+                    </span>
                     {q.related_chapter_ids?.length > 0 && (
                       <span className="ml-auto">涉及 {q.related_chapter_ids.length} 回</span>
                     )}

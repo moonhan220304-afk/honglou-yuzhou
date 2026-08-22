@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import UserMenu from "@/components/user-menu";
 import WanderButton from "@/components/wander-button";
+import LogoMark from "@/components/logo-mark";
 import {
   IconHome,
   IconBook,
@@ -76,12 +77,8 @@ export default function AppSidebar() {
 
   return (
     <aside className="fixed inset-y-0 left-0 z-40 hidden w-[232px] flex-col border-r border-line bg-paper-deep/95 backdrop-blur md:flex">
-      <Link href="/" className="flex items-center px-6 pb-4 pt-5">
-        <img
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo-universal.png`}
-          alt="红楼社"
-          className="h-9 w-auto"
-        />
+      <Link href="/" className="flex items-center gap-2 px-6 pb-4 pt-5" aria-label="红楼社首页">
+        <LogoMark className="h-9 w-9 shrink-0" />
       </Link>
 
       <nav className="flex-1 space-y-1 overflow-y-auto px-3">
