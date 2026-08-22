@@ -100,7 +100,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
   };
 
   const cardBase =
-    "card-print card-print--identity absolute inset-y-0 top-1/2 h-[400px] w-[290px] overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none select-none touch-pan-y";
+    "card-print card-print--identity absolute inset-0 h-[400px] w-[290px] overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none select-none touch-pan-y";
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 md:px-6">
@@ -111,9 +111,9 @@ export default function CharacterGacha({ characters }: { characters: Character[]
         <p className="mt-2 text-sm text-muted">左右滑动换人——不满意就换下一位</p>
       </div>
 
-      {/* 卡片区（左右堆叠 + 滑动） */}
+      {/* 卡片区：容器固定卡宽并居中，三张卡以容器为中心对称偏移（左右虚化） */}
       <div
-        className="relative mx-auto mt-10 flex h-[420px] w-full max-w-[520px] items-center justify-center"
+        className="relative mx-auto mt-10 h-[420px] w-[290px]"
         style={{ perspective: "1200px" }}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
@@ -125,10 +125,9 @@ export default function CharacterGacha({ characters }: { characters: Character[]
       >
         {/* 左卡（半透明 + 虚化） */}
         <div
-          className={`${cardBase} left-1/2`}
+          className={cardBase}
           style={{
-            marginLeft: -145,
-            transform: `translateX(${-150 + dragX * 0.35}px) translateY(0) rotate(-5deg) scale(0.86)`,
+            transform: `translateX(${-160 + dragX * 0.3}px) rotate(-5deg) scale(0.86)`,
             zIndex: 10,
             opacity: 0.45,
             filter: "blur(2px)",
@@ -139,10 +138,9 @@ export default function CharacterGacha({ characters }: { characters: Character[]
         </div>
         {/* 右卡（半透明 + 虚化） */}
         <div
-          className={`${cardBase} left-1/2`}
+          className={cardBase}
           style={{
-            marginLeft: -145,
-            transform: `translateX(${150 + dragX * 0.35}px) translateY(0) rotate(5deg) scale(0.86)`,
+            transform: `translateX(${160 + dragX * 0.3}px) rotate(5deg) scale(0.86)`,
             zIndex: 10,
             opacity: 0.45,
             filter: "blur(2px)",
@@ -153,10 +151,9 @@ export default function CharacterGacha({ characters }: { characters: Character[]
         </div>
         {/* 当前卡（居中，跟随拖拽） */}
         <div
-          className={`${cardBase} left-1/2`}
+          className={cardBase}
           style={{
-            marginLeft: -145,
-            transform: `translateX(${dragX}px) translateY(0) rotate(0) scale(1)`,
+            transform: `translateX(${dragX}px) rotate(0) scale(1)`,
             zIndex: 30,
             boxShadow: "0 2px 6px rgba(60,45,30,.06), 0 14px 30px rgba(60,45,30,.16), 0 34px 70px rgba(60,45,30,.12)",
             transitionTimingFunction: SPRING,
