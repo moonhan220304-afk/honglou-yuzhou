@@ -67,7 +67,6 @@ export default function CharacterGacha({ characters }: { characters: Character[]
     );
   };
 
-  const cardBase = "card-print card-print--identity absolute inset-x-0 rounded-2xl bg-surface transition-all duration-400 motion-reduce:transition-none";
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 md:px-6">
@@ -94,22 +93,23 @@ export default function CharacterGacha({ characters }: { characters: Character[]
       >
         {/* 最底层卡（露出一条边） */}
         <div
-          className={`${cardBase} overflow-hidden`}
-          style={{ top: STEP * 2, height: H, zIndex: 10, transform: "rotate(-2.5deg) scale(0.97)", opacity: 0.5, transitionTimingFunction: SPRING }}
+          className="card-print card-print--identity absolute inset-x-0 top-0 overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none"
+          style={{ position: "absolute", top: STEP * 2, height: H, zIndex: 10, transform: "rotate(-2.5deg) scale(0.97)", opacity: 0.5, transitionTimingFunction: SPRING }}
         >
           <CardBody c={behind} dim />
         </div>
         {/* 中层卡（露出一条边） */}
         <div
-          className={`${cardBase} overflow-hidden`}
-          style={{ top: STEP, height: H, zIndex: 20, transform: "rotate(1.5deg) scale(0.985)", opacity: 0.78, transitionTimingFunction: SPRING }}
+          className="card-print card-print--identity absolute inset-x-0 top-0 overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none"
+          style={{ position: "absolute", top: STEP, height: H, zIndex: 20, transform: "rotate(1.5deg) scale(0.985)", opacity: 0.78, transitionTimingFunction: SPRING }}
         >
           <CardBody c={next} dim />
         </div>
         {/* 当前卡（最上层，完整显示，悬浮） */}
         <div
-          className={`${cardBase} overflow-hidden`}
+          className="card-print card-print--identity absolute inset-x-0 top-0 overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none"
           style={{
+            position: "absolute",
             top: 0,
             height: H,
             zIndex: 30,
