@@ -13,7 +13,7 @@ import TestResultShare from "@/components/test-result-share";
 import type { TestShareData } from "@/components/test-result-share";
 import ProfileShareCard from "@/components/profile-share-card";
 import LevelBadge from "@/components/level-badge";
-import { IconSearch, IconPlus, IconShare } from "@/components/icons";
+import { IconSearch, IconPlus, IconShare, IconHeart, IconEye } from "@/components/icons";
 import { levelProgressPct, nextLevelName, remainToNext, todayKey, typeLabel } from "@/lib/levels";
 
 type TabKey = "all" | "board" | "dynamic";
@@ -201,74 +201,72 @@ export default function ProfilePage() {
         </Link>
       </div>
 
-      {/* Hero：封面 + 头像 + 身份 + 数据条 */}
-      <div className="mt-4 overflow-hidden rounded-3xl border border-line/60 bg-surface shadow-card">
+      {/* Hero：封面 + 头像 + 身份（Twitter 式，与用户主页一致） */}
+      <div className="mt-4">
         <div
-          className="relative h-36 md:h-44"
+          className="relative h-36 w-full md:h-44"
           style={
             me.bg_image
               ? { backgroundImage: `url(${sitePath(me.bg_image)})`, backgroundSize: "cover", backgroundPosition: "center" }
               : undefined
           }
         >
-          {!me.bg_image && (
-            <>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-surface-warm to-surface" />
-              <div className="card-print card-print--identity absolute inset-0 opacity-40" />
-            </>
-          )}
-          <p className="absolute bottom-2 right-4 text-[10px] tracking-[0.3em] text-white/70 drop-shadow">一梦红楼 · 我的空间</p>
+          {!me.bg_image && <div className="absolute inset-0 bg-gradient-to-br from-primary/15 via-surface-warm to-surface" />}
         </div>
-        <div className="px-5 pb-6 md:px-6">
-          <div className="flex flex-wrap items-center gap-4">
+        <div className="px-4 md:px-6">
+          <div className="relative -mt-12 flex items-end justify-between">
             {me.avatar ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img loading="lazy" src={sitePath(me.avatar)}
                 alt="头像"
-                className="relative z-10 -mt-12 h-24 w-24 rounded-full border-4 border-surface object-cover ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28"
+                className="h-24 w-24 rounded-full border-4 border-surface object-cover ring-1 ring-gold/50 shadow-card md:h-28 md:w-28"
               />
             ) : (
-              <span className="relative z-10 -mt-12 flex h-24 w-24 items-center justify-center rounded-full border-4 border-surface bg-primary/10 font-serif text-4xl text-primary ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28">
+              <span className="flex h-24 w-24 items-center justify-center rounded-full border-4 border-surface bg-primary/10 font-serif text-4xl text-primary ring-1 ring-gold/50 shadow-card md:h-28 md:w-28">
                 {me.username.charAt(0)}
               </span>
             )}
-            <div className="min-w-0 flex-1">
-              <div className="flex flex-wrap items-center gap-2.5">
-                <h1 className="min-w-0 truncate font-serif text-2xl font-semibold text-ink md:text-[26px]">{me.username}</h1>
-                <LevelBadge level={level} levelName={levelName} />
-              </div>
-              {me.signature && <p className="mt-2 font-serif text-[13px] text-gold">「{me.signature}」</p>}
-              <div className="mt-3 flex flex-wrap items-center gap-2">
-                <button
-                  type="button"
-                  onClick={() => setCardOpen(true)}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-gold/60 px-3.5 py-1.5 text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
-                >
-                  <IconShare className="h-3.5 w-3.5" />
-                  分享
-                </button>
-                <Link
-                  href="/profile/edit"
-                  className="inline-flex items-center gap-1 rounded-full bg-primary px-3.5 py-1.5 text-xs text-paper transition-colors hover:bg-primary-deep"
-                >
-                  编辑资料
-                </Link>
-              </div>
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setCardOpen(true)}
+                className="flex h-9 items-center gap-1.5 rounded-full border border-gold/60 px-4 text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
+              >
+                <IconShare className="h-3.5 w-3.5" />
+                分享
+              </button>
+              <Link
+                href="/profile/edit"
+                className="flex h-9 items-center rounded-full bg-primary px-4 text-xs font-medium text-paper transition-colors hover:bg-primary-deep"
+              >
+                编辑资料
+              </Link>
             </div>
           </div>
 
-          {/* 数据条：关注 / 粉丝 / 内容 */}
-          <div className="mt-5 grid grid-cols-3 border-t border-line-inner/30 pt-4 text-center">
-            {[
-              { label: "关注", value: me.following ?? 0 },
-              { label: "粉丝", value: me.followers ?? 0 },
-              { label: "内容", value: items?.length ?? 0 },
-            ].map((s) => (
-              <div key={s.label}>
-                <p className="font-mono text-xl font-semibold text-ink">{s.value}</p>
-                <p className="mt-0.5 text-[11px] text-muted">{s.label}</p>
-              </div>
-            ))}
+          {/* 名字（金色加粗）+ 等级 + 签名 */}
+          <h1 className="mt-3 font-serif text-2xl font-bold leading-snug text-title-gold md:text-[26px]">{me.username}</h1>
+          <div className="mt-1">
+            <LevelBadge level={level} levelName={levelName} />
+          </div>
+          <p className="mt-2 font-serif text-sm text-body">
+            {me.signature ? `「${me.signature}」` : "「无」"}
+          </p>
+
+          {/* 统计 */}
+          <div className="mt-4 flex items-center gap-5 text-sm">
+            <span className="text-body">
+              <b className="font-mono text-ink">{me.following ?? 0}</b>
+              <span className="ml-1 text-muted">关注</span>
+            </span>
+            <span className="text-body">
+              <b className="font-mono text-ink">{me.followers ?? 0}</b>
+              <span className="ml-1 text-muted">粉丝</span>
+            </span>
+            <span className="text-body">
+              <b className="font-mono text-ink">{items?.length ?? 0}</b>
+              <span className="ml-1 text-muted">内容</span>
+            </span>
           </div>
         </div>
       </div>
@@ -282,107 +280,131 @@ export default function ProfilePage() {
         <IconPlus className="h-6 w-6" />
       </Link>
 
-      {/* sticky Tab */}
-      <div className="sticky top-14 z-10 -mx-4 mt-6 border-b border-line/60 bg-paper/90 px-4 backdrop-blur md:-mx-6 md:px-6">
-        <nav className="flex gap-6">
-          {TABS.map((t) => (
+      {/* 签到 + 积分（放在「全部」标签上方，不再隔在内容中间） */}
+      <div className="mt-5 rounded-2xl border border-line/60 bg-surface px-4 py-3">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-muted">积分</span>
+            <span className="font-serif text-xl font-semibold text-primary">{points}</span>
+            <div className="hidden h-1.5 w-32 overflow-hidden rounded-full bg-surface md:block">
+              <div className="h-full rounded-full bg-gradient-to-r from-gold to-primary" style={{ width: `${pct}%` }} />
+            </div>
+            <span className="hidden text-[11px] text-muted md:inline">
+              {maxed ? "已至最高等级「元老」" : `距下一级「${nextName}」还差 ${remain} 分`}
+            </span>
+          </div>
+          <button
+            type="button"
+            onClick={doCheckin}
+            disabled={checkedIn || checkinBusy}
+            className={`rounded-full px-4 py-1.5 font-serif text-xs transition-colors disabled:cursor-default ${
+              checkedIn ? "border border-gold/50 bg-surface text-gold" : "bg-primary text-paper hover:bg-primary-deep"
+            }`}
+          >
+            {checkinBusy ? "签到中…" : checkedIn ? "今日已签到 ✓" : "每日签到 ＋5 分"}
+          </button>
+        </div>
+        {checkinMsg && <p className={`mt-1.5 text-xs ${checkinMsg.includes("失败") ? "text-danger" : "text-primary"}`}>{checkinMsg}</p>}
+        <div className="mt-2 flex items-center gap-4 border-t border-line-inner/60 pt-2 text-xs text-body md:hidden">
+          <Link href="/profile/points" className="transition-colors hover:text-primary">积分明细</Link>
+          <Link href="/profile/edit" className="transition-colors hover:text-primary">编辑资料</Link>
+          <Link href={`/u?id=${me.id}`} className="transition-colors hover:text-primary">我的主页</Link>
+          <button
+            type="button"
+            onClick={async () => {
+              try { await fetch(sitePath("/api/logout"), { method: "POST", credentials: "same-origin" }); } catch {}
+              router.push("/");
+            }}
+            className="ml-auto text-muted transition-colors hover:text-danger"
+          >
+            退出登录
+          </button>
+        </div>
+      </div>
+
+      {/* 内容标签页：贴吧 / 动态（Twitter 式，与用户主页一致） */}
+      <div className="mt-4 flex border-b border-line-inner">
+        {TABS.map((t) => {
+          const on = tab === t.key;
+          return (
             <button
               key={t.key}
               type="button"
               onClick={() => setTab(t.key)}
-              className={`-mb-px border-b-2 px-1 pb-3 pt-2 font-serif text-sm transition-colors ${
-                tab === t.key ? "border-primary font-semibold text-primary" : "border-transparent text-muted hover:text-ink"
+              className={`flex flex-1 items-center justify-center py-3 font-serif text-[15px] transition-colors ${
+                on ? "border-b-2 border-primary font-medium text-primary" : "text-muted hover:text-body"
               }`}
             >
               {t.label}
               <span className="ml-1 font-mono text-xs opacity-60">{countOf(t.key)}</span>
             </button>
-          ))}
-        </nav>
+          );
+        })}
       </div>
 
       {/* 主内容：feed + 右栏 */}
-      <div className="mt-2 grid gap-6 lg:grid-cols-[minmax(0,1fr)_280px]">
-        {/* 主列 feed（单列时间线） */}
+      <div className="mt-4 grid gap-6 lg:grid-cols-[minmax(0,1fr)_280px]">
+        {/* 主列 feed（Twitter 式：无边框，分隔线） */}
         <div className="min-w-0">
-          {/* 移动端签到 + 积分（lg 以下显示，桌面端在右栏） */}
-          <div className="mb-4 rounded-2xl border border-line/60 bg-surface p-4 shadow-card lg:hidden">
-            <div className="flex items-center justify-between">
-              <span className="text-xs text-muted">积分</span>
-              <span className="font-serif text-xl font-semibold text-primary">{points}</span>
-            </div>
-            <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-surface">
-              <div className="h-full rounded-full bg-gradient-to-r from-gold to-primary" style={{ width: `${pct}%` }} />
-            </div>
-            <p className="mt-1 text-[11px] text-muted">
-              {maxed ? "已至最高等级「元老」" : `距下一级「${nextName}」还差 ${remain} 分`}
-            </p>
-            <button
-              type="button"
-              onClick={doCheckin}
-              disabled={checkedIn || checkinBusy}
-              className={`mt-2.5 w-full rounded-full px-4 py-2 font-serif text-sm transition-colors disabled:cursor-default ${
-                checkedIn ? "border border-gold/50 bg-surface text-gold" : "bg-primary text-paper hover:bg-primary-deep"
-              }`}
-            >
-              {checkinBusy ? "签到中…" : checkedIn ? "今日已签到 ✓" : "每日签到 ＋5 分"}
-            </button>
-            {checkinMsg && <p className={`mt-2 text-center text-xs ${checkinMsg.includes("失败") ? "text-danger" : "text-primary"}`}>{checkinMsg}</p>}
-
-            {/* 移动端管理入口（桌面端在右栏） */}
-            <div className="mt-3 flex items-center justify-between border-t border-line-inner pt-3 text-sm">
-              <Link href="/profile/points" className="text-body transition-colors hover:text-primary">积分明细</Link>
-              <Link href="/profile/edit" className="text-body transition-colors hover:text-primary">编辑资料</Link>
-              <Link href={`/u?id=${me.id}`} className="text-body transition-colors hover:text-primary">我的主页</Link>
-              <button
-                type="button"
-                onClick={async () => {
-                  try { await fetch(sitePath("/api/logout"), { method: "POST", credentials: "same-origin" }); } catch {}
-                  router.push("/");
-                }}
-                className="text-muted transition-colors hover:text-danger"
-              >
-                退出登录
-              </button>
-            </div>
-          </div>
-
           {saveErr && <p className="mb-2 text-xs text-danger">{saveErr}</p>}
           {items === null && <p className="py-10 text-sm text-muted">加载中…</p>}
           {items !== null && visible.length === 0 && (
-            <p className="rounded-2xl bg-paper-deep/60 p-8 text-center text-sm text-muted">
+            <p className="py-12 text-center text-sm text-muted">
               {tab === "all" ? "还没有发布过内容，" : "这一档还没有内容，"}
               <Link href="/community/new" className="text-primary hover:underline">去发起讨论</Link>
             </p>
           )}
-          {visible.map((p) => (
-            <article key={p.id} className="group relative border-b border-line-inner/60 py-5 transition-colors hover:bg-paper-deep/30 md:px-2">
-              <div className="flex items-center gap-2 text-xs text-muted">
-                <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-primary">{typeLabel(p.type)}</span>
-                {p.status === "pending" && <span className="rounded-full bg-warning/15 px-2.5 py-0.5 text-warning">待审核</span>}
-                {p.status === "removed" && <span className="rounded-full bg-danger/15 px-2.5 py-0.5 text-danger">已删除</span>}
-                <span>{formatTime(p.created_at)}</span>
-                <span className="ml-auto opacity-0 transition-opacity group-hover:opacity-100">
-                  {p.status !== "removed" && (
-                    <button type="button" onClick={() => deletePost(p)} className="text-danger/70 hover:text-danger">
-                      删除
-                    </button>
+          <div className="divide-y divide-line-inner/60">
+            {visible.map((p) => (
+              <article key={p.id} className="group flex gap-3.5 py-5 transition-colors hover:bg-paper-deep/30 md:px-2">
+                <span className="mt-1 shrink-0">
+                  {me.avatar ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img loading="lazy" src={sitePath(me.avatar)} alt={me.username} className="h-9 w-9 rounded-full object-cover" />
+                  ) : (
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 font-serif text-sm text-primary">
+                      {me.username.slice(0, 1)}
+                    </span>
                   )}
                 </span>
-              </div>
-              <Link href={`/community/post/?id=${p.id}`} className="block">
-                <h2 className="mt-1.5 font-serif text-[15px] font-semibold leading-snug text-ink group-hover:text-primary">
-                  {p.title || "（无标题）"}
-                </h2>
-                {p.content && <p className="mt-1 line-clamp-3 text-sm leading-relaxed text-body">{p.content}</p>}
-                {p.question_id && <QuestionSourceBadge questionId={p.question_id} className="mt-1.5" />}
-              </Link>
-              <div className="mt-2.5 flex items-center gap-5 text-xs text-muted">
-                <span>赞 {p.like_count}</span>
-                <span className="ml-auto">阅读 {p.view_count}</span>
-              </div>
-            </article>
-          ))}
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2 text-xs text-muted">
+                    <span className="font-medium text-ink">{me.username}</span>
+                    <span>· {formatTime(p.created_at)}</span>
+                    <span className="rounded-full bg-primary/10 px-2 py-0.5 text-[11px] text-primary">{typeLabel(p.type)}</span>
+                    {p.status === "pending" && <span className="rounded-full bg-warning/15 px-2 py-0.5 text-warning">待审核</span>}
+                    {p.status === "removed" && <span className="rounded-full bg-danger/15 px-2 py-0.5 text-danger">已删除</span>}
+                    <span className="ml-auto opacity-0 transition-opacity group-hover:opacity-100">
+                      {p.status !== "removed" && (
+                        <button type="button" onClick={() => deletePost(p)} className="text-danger/70 hover:text-danger">
+                          删除
+                        </button>
+                      )}
+                    </span>
+                  </div>
+                  <Link href={`/community/post/?id=${p.id}`} className="block">
+                    {tab !== "dynamic" && p.title && (
+                      <h2 className="mt-1.5 font-serif text-[16px] font-semibold leading-snug text-title-gold">
+                        {p.title}
+                      </h2>
+                    )}
+                    {p.content && <p className="mt-1 line-clamp-3 text-sm leading-relaxed text-body">{p.content}</p>}
+                    {p.question_id && <QuestionSourceBadge questionId={p.question_id} className="mt-1.5" />}
+                  </Link>
+                  <div className="mt-2.5 flex items-center gap-5 text-xs text-muted">
+                    <span className="flex items-center gap-1">
+                      <IconHeart className="h-3.5 w-3.5" />
+                      {p.like_count}
+                    </span>
+                    <span className="ml-auto flex items-center gap-1">
+                      <IconEye className="h-3.5 w-3.5" />
+                      {p.view_count}
+                    </span>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
         </div>
 
         {/* 右栏：成长 + 管理 + 测试结果（下沉的次要操作） */}
