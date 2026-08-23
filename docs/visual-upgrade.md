@@ -461,6 +461,11 @@ await apiPost("/api/posts", {
 8. **发表状态页**：新建 `app/community/status/page.tsx` + `status-composer-page.tsx`，接线入口（第 5 节）。
 9. **全局自查**：`grep -rn "bg-primary/10\|text-gold\|h-4 w-1"` 清点残留的同质化标签/竖条，逐处替换为板块色；确认无 emoji 残留、所有交互元素焦点态 `focus-visible:outline-2 outline-{sector}`、触控目标 ≥44px。
 
+> **落地状态记录（2026-08-23 更新）**：
+> - ✅ 1 令牌（6 组板块副色）、2 图标（六枚专属图标）、4 页头组件 `section-hero.tsx`、5 等级徽章、7 个人空间、8 发表状态页 —— **均已落地**。
+> - ⚠️ 3 Logo：**未按方案 A（梦窗印章）实施**。最终用户拍板改用 `public/images/logo-universal.png`（书法横幅），已用于侧边栏/移动顶栏/首页。原 `logo-mark.tsx` 保留但仅被死代码 `glass-nav.tsx` 引用，**视为废弃**。
+> - 🔶 6 六大板块逐页替换：副色/页头已落地，部分装饰元素（漏窗/朱丝栏/册页分隔线等）按页面逐步接入中。
+
 ---
 
 ## 7. 无障碍与一致性校验（WCAG AA）
