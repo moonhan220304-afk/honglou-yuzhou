@@ -65,30 +65,31 @@ const MOBILE_STEPS: Step[] = [
 
 const DESKTOP_STEPS: Step[] = [
   {
-    selector: "aside nav a[href$='/poem-society/']",
-    fallback: { top: 20, left: 8 },
+    selector: "aside nav",
     title: "欢迎来到红楼社",
-    body: "左侧是全部频道：逛园子、海棠诗社、问一问……鼠标移上去会展开子菜单。",
+    body: "左侧竖排图标是全部频道入口：首页、人物志、海棠诗社、问一问……把鼠标移到图标上，会展开成文字菜单。",
     pos: "right",
   },
   {
-    fallback: { top: 30, left: 40 },
+    selector: "aside nav a[href$='/poem-society/']",
+    fallback: { top: 30, left: 8 },
     title: "海棠诗社",
-    body: "当期诗题、填字、飞花接句、佳作集——官方题库每周自动更新，人人可以「我来出题」。",
-    pos: "center",
+    body: "从左侧第 6 个图标（海棠诗社）进入：当期诗题、填字、飞花接句、佳作集都在这里，官方题库每周自动更新，人人可以「我来出题」。",
+    pos: "right",
     href: "/poem-society",
   },
   {
-    fallback: { top: 45, left: 40 },
+    selector: "aside nav a[href$='/test/']",
+    fallback: { top: 35, left: 8 },
     title: "人格测试",
-    body: "24 道情境题，测出你在红楼里像谁。测完可生成带二维码的分享卡。",
-    pos: "center",
+    body: "从左侧第 3 个图标（找乐子 → 人格测试）进入：24 道情境题，测出你在红楼里像谁，测完可生成分享卡。",
+    pos: "right",
     href: "/test",
   },
   {
     fallback: { top: 10, left: 70 },
     title: "明暗主题",
-    body: "右上角用户菜单里有「明暗主题」，浅色 / 深色 / 跟随系统三态可切，记住你的选择。",
+    body: "页面右上角用户菜单里有「明暗主题」，浅色 / 深色 / 跟随系统三态可切，记住你的选择。",
     pos: "below",
   },
 ];
@@ -144,6 +145,13 @@ export default function OnboardingTour() {
     }, 1200);
     return () => clearTimeout(t);
   }, []);
+
+  // 桌面引导期间：给 body 加 tour-expanded，AppSidebar 据此强制展开（图标+文字都可见）
+  useEffect(() => {
+    if (!visible || isMobile) return;
+    document.body.classList.add("tour-expanded");
+    return () => document.body.classList.remove("tour-expanded");
+  }, [visible, isMobile, step]);
 
   if (!visible) return null;
 

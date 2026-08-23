@@ -78,26 +78,37 @@ const navSections = [
 export default function AppSidebar() {
   const pathname = usePathname();
   const [hovered, setHovered] = useState(false);
+  const [tourExpanded, setTourExpanded] = useState(false);
   // trailingSlash 导出下 usePathname 带尾斜杠（如 /poem-society/），统一去掉再匹配
   const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
+  const expanded = tourExpanded || hovered;
+
+  // 新手引导（桌面）期间强制展开，让图标+文字都可见、高亮框对准
+  useEffect(() => {
+    const onTour = () => setTourExpanded(document.body.classList.contains("tour-expanded"));
+    onTour();
+    const obs = new MutationObserver(onTour);
+    obs.observe(document.body, { attributes: true, attributeFilter: ["class"] });
+    return () => obs.disconnect();
+  }, []);
 
   // 悬停展开 / 移开收回：同步 --hlm-sidebar-w，主内容留白跟随
   useEffect(() => {
-    document.documentElement.style.setProperty("--hlm-sidebar-w", hovered ? "232px" : "56px");
+    document.documentElement.style.setProperty("--hlm-sidebar-w", expanded ? "232px" : "56px");
     return () => {
       document.documentElement.style.removeProperty("--hlm-sidebar-w");
     };
-  }, [hovered]);
+  }, [expanded]);
 
   return (
     <aside
       className="fixed inset-y-0 left-0 z-[60] hidden flex-col overflow-hidden border-r border-line bg-paper-deep/95 backdrop-blur transition-[width] duration-200 md:flex"
-      style={{ width: hovered ? 232 : 56 }}
+      style={{ width: expanded ? 232 : 56 }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
       <Link href="/" className="flex items-center px-4 pb-4 pt-5" aria-label="红楼社首页">
-        {hovered ? (
+        {expanded ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo-universal.png`} alt="红楼社" className="h-9 w-auto" />
         ) : (
@@ -114,9 +125,9 @@ export default function AppSidebar() {
             <div key={sec.href}>
               <Link
                 href={sec.href}
-                title={hovered ? undefined : sec.label}
+                title={expanded ? undefined : sec.label}
                 className={`flex items-center gap-3 rounded-lg px-2 py-2 text-sm transition-colors ${
-                  hovered ? "justify-start" : "justify-center"
+                  expanded ? "justify-start" : "justify-center"
                 } ${
                   active
                     ? "bg-primary text-white shadow-sm"
@@ -124,9 +135,9 @@ export default function AppSidebar() {
                 }`}
               >
                 <Icon className="h-[18px] w-[18px] shrink-0" />
-                {hovered && <span className="font-serif font-medium">{sec.label}</span>}
+                {expanded && <span className="font-serif font-medium">{sec.label}</span>}
               </Link>
-              {hovered && sec.children && (active || childActive) && (
+              {expanded && sec.children && (active || childActive) && (
                 <div className="ml-3 mt-1 space-y-0.5 border-l border-line pl-2.5">
                   {sec.children.map((c) => {
                     const on = c.match(path);
@@ -150,7 +161,7 @@ export default function AppSidebar() {
       </nav>
 
       <div className="border-t border-line px-2 py-3 md:px-3">
-        {hovered ? (
+        {expanded ? (
           <>
             <WanderButton className="mb-2 hidden w-full rounded-full border border-gold/60 bg-surface/60 px-3 py-1.5 text-center font-serif text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary md:block" />
             <UserMenu alignUp />
