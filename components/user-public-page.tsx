@@ -146,10 +146,10 @@ export default function UserPublicPage() {
               // eslint-disable-next-line @next/next/no-img-element
               <img loading="lazy" src={sitePath(user.avatar)}
                 alt={user.username}
-                className="-mt-12 h-24 w-24 rounded-full border-4 border-surface object-cover ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28"
+                className="relative z-10 -mt-12 h-24 w-24 rounded-full border-4 border-surface object-cover ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28"
               />
             ) : (
-              <span className="-mt-12 flex h-24 w-24 items-center justify-center rounded-full border-4 border-surface bg-primary/10 font-serif text-4xl text-primary ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28">
+              <span className="relative z-10 -mt-12 flex h-24 w-24 items-center justify-center rounded-full border-4 border-surface bg-primary/10 font-serif text-4xl text-primary ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28">
                 {user.username.charAt(0)}
               </span>
             )}
