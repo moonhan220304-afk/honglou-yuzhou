@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { api } from "@/lib/api";
-import { IconHome, IconGrid, IconPlus, IconBell, IconUser, IconQuill, IconMessage, IconX } from "@/components/icons";
+import { IconHome, IconGrid, IconPlus, IconBell, IconMe, IconQuill, IconMessage, IconX } from "@/components/icons";
 
 /** 移动端底部导航（微博/Twitter 式 5 项：首页 / 发现 / ＋发布 / 消息 / 我） */
 const items = [
@@ -135,7 +135,7 @@ export default function MobileNav() {
               pathname.startsWith("/profile") ? "text-primary" : "text-muted"
             }`}
           >
-            <IconUser className={`h-[20px] w-[20px] ${pathname.startsWith("/profile") ? "stroke-[2]" : ""}`} />
+            <IconMe className={`h-[20px] w-[20px] ${pathname.startsWith("/profile") ? "stroke-[2]" : ""}`} />
             我
           </Link>
         </div>

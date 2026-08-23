@@ -165,3 +165,65 @@ export const IconX = (p: SVGProps<SVGSVGElement>) => (
     <path d="M6 6l12 12M18 6L6 18" />
   </Svg>
 );
+
+/* ── 六大板块专属图标（视觉升级 V2，24×24 线性，stroke 1.6） ── */
+
+/** 人物志 · 黛青：并立双人剪影 + 底部册页线 */
+export const IconCharacters = (p: SVGProps<SVGSVGElement>) => (
+  <Svg {...p}>
+    <circle cx="8.5" cy="7" r="2.6" />
+    <circle cx="15.5" cy="7" r="2.6" />
+    <path d="M3.2 19.5c.7-3.1 2.9-4.7 5.3-4.7 1.5 0 2.8.6 3.7 1.6" />
+    <path d="M20.8 19.5c-.7-3.1-2.9-4.7-5.3-4.7-1.5 0-2.8.6-3.7 1.6" />
+    <path d="M4.5 21.5h15" />
+  </Svg>
+);
+
+/** 大观园 · 松绿：园林月亮门（圆拱）+ 地线 + 拱内一枝斜竹 */
+export const IconGarden = (p: SVGProps<SVGSVGElement>) => (
+  <Svg {...p}>
+    <path d="M6 21V11a6 6 0 0 1 12 0v10" />
+    <path d="M4 21h16" />
+    <path d="M12 16c-1.5-1.5-1-4 1-5" />
+  </Svg>
+);
+
+/** 聊一聊 · 绛赭：中式卷轴气泡（对话泡 + 卷轴杆 + 尾舌 + 炉火星） */
+export const IconChatRoll = (p: SVGProps<SVGSVGElement>) => (
+  <Svg {...p}>
+    <rect x="4.5" y="5" width="15" height="10.5" rx="3" />
+    <path d="M7 4v11.5" />
+    <path d="M7 15.5 5 19h6" />
+    <circle cx="16.5" cy="8" r="0.6" />
+  </Svg>
+);
+
+/** 问一问 · 靛蓝：翻开的书卷 + 中缝问号 */
+export const IconAsk = (p: SVGProps<SVGSVGElement>) => (
+  <Svg {...p}>
+    <path d="M12 6C9.5 4.2 5.5 4.2 3 5.3V18c2.5-1.1 6.5-1.1 9 .7" />
+    <path d="M12 6c2.5-1.8 6.5-1.8 9-.7V18c-2.5-1.1-6.5-1.1-9 .7" />
+    <path d="M9.8 8.8a2.5 2.5 0 0 1 4.9.8c0 1.6-2.5 2.2-2.5 3.5" />
+    <circle cx="12.2" cy="15.8" r="0.6" />
+  </Svg>
+);
+
+/** 海棠诗社 · 海棠绯：五瓣海棠 + 斜置毛笔 */
+export const IconPoem = (p: SVGProps<SVGSVGElement>) => (
+  <Svg {...p}>
+    <path d="M12 4.6c1.5 2.1 3.4 3.1 3.4 5.1 0 1.9-1.5 3.3-3.4 3.3s-3.4-1.4-3.4-3.3c0-2 1.9-3 3.4-5.1Z" />
+    <circle cx="12" cy="9.5" r="0.8" />
+    <path d="M16.5 14.5 20.5 18.5" />
+    <path d="M19.2 17.2 20.5 18.5" />
+  </Svg>
+);
+
+/** 个人空间 · 绀紫：一方私印 + 框内人形 + 右下朱砂点 */
+export const IconMe = (p: SVGProps<SVGSVGElement>) => (
+  <Svg {...p}>
+    <rect x="4" y="4" width="16" height="16" rx="3" />
+    <circle cx="12" cy="10" r="2.4" />
+    <path d="M7.8 18.3c.6-2.9 2.2-4.4 4.2-4.4s3.6 1.5 4.2 4.4" />
+    <circle cx="17.3" cy="17.3" r="0.7" fill="currentColor" stroke="none" />
+  </Svg>
+);

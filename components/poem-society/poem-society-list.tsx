@@ -5,6 +5,7 @@ import Link from "next/link";
 import { api } from "@/lib/api";
 import { DIFFICULTY_LABEL, type TopicInfo } from "@/lib/poem-society";
 import PoemSocietyNav from "@/components/poem-society/poem-society-nav";
+import SectionHero from "@/components/section-hero";
 
 /** 诗题列表：当期诗题大卡 + 往期列表（长期开放） */
 export default function PoemSocietyList() {
@@ -28,16 +29,12 @@ export default function PoemSocietyList() {
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
-      <header>
-        <p className="text-xs tracking-[0.3em] text-poem">POEM SOCIETY · 海棠诗社</p>
-        <h1 className="mt-2 flex items-center gap-3 font-serif text-3xl font-semibold text-ink">
-          <span className="h-6 w-1 rounded-full bg-poem" />
-          当期诗题
-        </h1>
-        <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">
-          以诗会友，咏物言志。每月一期诗题，往期长期开放——任何一首，都值得被看见。
-        </p>
-      </header>
+      <SectionHero
+        sector="poem"
+        eyebrow="POEM SOCIETY · 海棠诗社"
+        title="当期诗题"
+        description="以诗会友，咏物言志。每月一期诗题，往期长期开放——任何一首，都值得被看见。"
+      />
 
       <div className="mt-6">
         <PoemSocietyNav />

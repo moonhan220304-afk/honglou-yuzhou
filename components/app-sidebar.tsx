@@ -6,11 +6,11 @@ import UserMenu from "@/components/user-menu";
 import WanderButton from "@/components/wander-button";
 import {
   IconHome,
-  IconBook,
+  IconCharacters,
   IconGame,
-  IconChat,
-  IconQuestion,
-  IconQuill,
+  IconChatRoll,
+  IconAsk,
+  IconPoem,
   IconUser,
 } from "@/components/icons";
 
@@ -29,7 +29,7 @@ const navSections = [
   {
     href: "/characters",
     label: "涨知识",
-    icon: IconBook,
+    icon: IconCharacters,
     match: (p: string) => p.startsWith("/characters") || p.startsWith("/graph") || p.startsWith("/map") || p.startsWith("/journey") || p.startsWith("/poems"),
     children: [
       { href: "/characters", label: "人物志", match: (p: string) => p.startsWith("/characters") },
@@ -48,19 +48,19 @@ const navSections = [
   {
     href: "/community",
     label: "聊一聊",
-    icon: IconChat,
+    icon: IconChatRoll,
     match: (p: string) => p.startsWith("/community"),
   },
   {
     href: "/questions",
     label: "问一问",
-    icon: IconQuestion,
+    icon: IconAsk,
     match: (p: string) => p.startsWith("/questions"),
   },
   {
     href: "/poem-society",
     label: "海棠诗社",
-    icon: IconQuill,
+    icon: IconPoem,
     match: (p: string) => p.startsWith("/poem-society"),
     children: [
       { href: "/poem-society", label: "诗题", match: (p: string) => p === "/poem-society" || p.startsWith("/poem-society/topic") || p.startsWith("/poem-society/compose") },
