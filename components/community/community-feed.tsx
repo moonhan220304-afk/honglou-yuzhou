@@ -10,6 +10,7 @@ import type { Me } from "@/lib/api";
 import { formatTime, QuoteBlock, QuestionSourceBadge } from "@/lib/client-community";
 import SectionSearch from "@/components/section-search";
 import { IconHeart, IconMessage, IconShare, IconEye, IconFlame, IconPlus } from "@/components/icons";
+import SectionHero from "@/components/section-hero";
 
 export default function CommunityFeed() {
   const search = useSearchParams();
@@ -128,30 +129,29 @@ export default function CommunityFeed() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 md:px-6">
-      <header className="flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <p className="text-xs tracking-[0.3em] text-chat">COMMUNITY</p>
-          <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">聊一聊</h1>
-          <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">
-            与同好共论红楼。发帖、盖楼、自建话题——内容自动审核，命中敏感词转人工复核，请遵守社区规范。
-          </p>
-        </div>
-        <div className="w-full max-w-[240px] space-y-2">
-          <Link
-            href="/community/new"
-            className="flex items-center justify-center gap-1.5 rounded-full bg-primary px-5 py-2.5 text-center font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
-          >
-            <IconPlus className="h-4 w-4" />
-            发帖讨论
-          </Link>
-          <Link
-            href="/community/status"
-            className="flex items-center justify-center gap-1.5 rounded-full border border-chat-deep/40 px-5 py-2.5 text-center font-serif text-sm text-chat-deep transition-colors hover:bg-chat-deep hover:text-paper"
-          >
-            发表状态
-          </Link>
-        </div>
-      </header>
+      <SectionHero
+        sector="chat"
+        eyebrow="COMMUNITY"
+        title="聊一聊"
+        description="与同好共论红楼。发帖、盖楼、自建话题——内容自动审核，命中敏感词转人工复核，请遵守社区规范。"
+        actions={
+          <>
+            <Link
+              href="/community/new"
+              className="flex items-center justify-center gap-1.5 rounded-full bg-primary px-5 py-2.5 text-center font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
+            >
+              <IconPlus className="h-4 w-4" />
+              发帖讨论
+            </Link>
+            <Link
+              href="/community/status"
+              className="flex items-center justify-center gap-1.5 rounded-full border border-chat-deep/40 px-5 py-2.5 text-center font-serif text-sm text-chat-deep transition-colors hover:bg-chat-deep hover:text-paper"
+            >
+              发表状态
+            </Link>
+          </>
+        }
+      />
 
       <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_280px]">
         {/* 主列：帖子流（小红书式） */}

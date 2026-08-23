@@ -6,6 +6,7 @@ import { sitePath } from "@/lib/api";
 import { characterImage } from "@/lib/images";
 import { characterName } from "@/lib/data";
 import { IconGrid } from "@/components/icons";
+import SectionHero from "@/components/section-hero";
 import type { Character } from "@/lib/types";
 
 /**
@@ -89,12 +90,13 @@ export default function CharacterGacha({ characters }: { characters: Character[]
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 md:px-6">
-      {/* 标题（居中） */}
-      <div className="text-center">
-        <p className="text-xs tracking-[0.35em] text-characters">CHARACTERS</p>
-        <h1 className="mt-2 font-serif text-[34px] font-semibold text-ink">人物志</h1>
-        <p className="mt-2 text-sm text-muted">悬停预览，点击两侧卡片换人</p>
-      </div>
+      {/* 标题（统一板块页头） */}
+      <SectionHero
+        sector="characters"
+        eyebrow="CHARACTERS"
+        title="人物志"
+        description="悬停预览，点击两侧卡片换人"
+      />
 
       {/* 卡片区：三张卡以容器中心对称偏移（左右虚化） */}
       <div className="relative mx-auto mt-10 h-[420px] w-[290px]" style={{ perspective: "1200px" }}>

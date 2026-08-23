@@ -6,6 +6,7 @@ import { sitePath } from "@/lib/api";
 import { locations, characterName, getEvent } from "@/lib/data";
 import { characterImage } from "@/lib/images";
 import { IconArrowLeft, IconArrowRight, IconMapPin } from "@/components/icons";
+import SectionHero from "@/components/section-hero";
 
 const typeLabel: Record<string, string> = {
   estate: "府邸",
@@ -73,11 +74,12 @@ export default function LocationCards() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 md:px-6">
-      <div className="text-center">
-        <p className="text-xs tracking-[0.35em] text-garden">DAGUANYUAN</p>
-        <h1 className="mt-2 font-serif text-[34px] font-semibold text-ink">大观园</h1>
-        <p className="mt-2 text-sm text-muted">一处一景，左右滑动——谁住在这里，这里发生过什么</p>
-      </div>
+      <SectionHero
+        sector="garden"
+        eyebrow="DAGUANYUAN"
+        title="大观园"
+        description="一处一景，左右滑动——谁住在这里，这里发生过什么"
+      />
 
       {/* 箭头在卡片外侧，不遮挡文字 */}
       <div className="mx-auto mt-10 flex w-full max-w-[640px] items-center gap-3 md:gap-4">
