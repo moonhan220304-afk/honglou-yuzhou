@@ -8,6 +8,8 @@ import type { ContentItem, FollowItem, Me, UserPublic } from "@/lib/api";
 import { formatTime } from "@/lib/client-community";
 import LevelBadge from "@/components/level-badge";
 import { typeLabel } from "@/lib/levels";
+import ProfileShareCard from "@/components/profile-share-card";
+import { IconShare } from "@/components/icons";
 
 const TABS = [
   { key: "all", label: "全部" },
@@ -32,6 +34,7 @@ export default function UserPublicPage() {
   const [followBusy, setFollowBusy] = useState(false);
   const [followMsg, setFollowMsg] = useState("");
   const [tab, setTab] = useState<(typeof TABS)[number]["key"]>("all");
+  const [cardOpen, setCardOpen] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -155,64 +158,66 @@ export default function UserPublicPage() {
             )}
             <div className="min-w-0 flex-1">
               <div className="flex flex-wrap items-center gap-2.5">
-                <h1 className="truncate font-serif text-2xl font-semibold text-ink">
+                <h1 className="min-w-0 truncate font-serif text-2xl font-semibold text-ink md:text-[26px]">
                   {user.username}
                 </h1>
-                <LevelBadge level={user.level} levelName={user.level_name} />
                 {isSelf && (
                   <span className="rounded-full bg-primary/10 px-2.5 py-0.5 font-serif text-[11px] text-primary">
                     这是我自己
                   </span>
                 )}
               </div>
-              <p className="mt-1 text-xs text-muted">注册于 {formatTime(user.created_at)}</p>
-              {user.signature && (
-                <p className="mt-2 font-serif text-[13px] text-gold">「{user.signature}」</p>
+              <LevelBadge level={user.level} levelName={user.level_name} />
+              <p className="mt-2 font-serif text-[13px] text-gold">
+                {user.signature ? `「${user.signature}」` : "「无」"}
+              </p>
+              {/* 关注 + 分享（与个人中心一致；分享可分享任意用户） */}
+              <div className="mt-3 flex flex-wrap items-center gap-2">
+                {isSelf ? (
+                  <Link
+                    href="/profile/edit"
+                    className="inline-flex items-center gap-1 rounded-full bg-primary px-3.5 py-1.5 text-xs text-paper transition-colors hover:bg-primary-deep"
+                  >
+                    编辑资料
+                  </Link>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={toggleFollow}
+                    disabled={followBusy}
+                    className={`inline-flex items-center gap-1.5 rounded-full border border-gold/60 px-3.5 py-1.5 text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary disabled:opacity-60 ${
+                      following ? "border-gold/60" : ""
+                    }`}
+                  >
+                    {followBusy ? "处理中…" : following ? "已关注" : "＋ 关注"}
+                  </button>
+                )}
+                <button
+                  type="button"
+                  onClick={() => setCardOpen(true)}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-gold/60 px-3.5 py-1.5 text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
+                >
+                  <IconShare className="h-3.5 w-3.5" />
+                  分享
+                </button>
+              </div>
+              {mutual && !followBusy && (
+                <span className="mt-2 inline-flex items-center gap-1 rounded-full bg-me-soft px-2.5 py-0.5 font-serif text-[11px] text-me-deep">
+                  互相关注
+                </span>
               )}
+              {followMsg && <p className="mt-2 text-xs text-muted">{followMsg}</p>}
             </div>
-            <div className="shrink-0">
-              {!me ? (
+            {!me && (
+              <div className="shrink-0">
                 <Link
                   href={`/login?next=${encodeURIComponent(`/u?id=${user.id}`)}`}
                   className="inline-block rounded-full bg-primary px-6 py-2.5 font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
                 >
                   登录后关注
                 </Link>
-              ) : isSelf ? (
-                <Link
-                  href="/profile/edit"
-                  className="inline-block rounded-full border border-gold/60 px-6 py-2.5 font-serif text-sm text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
-                >
-                  编辑资料
-                </Link>
-              ) : (
-                <div className="flex flex-col items-end">
-                  <button
-                    type="button"
-                    onClick={toggleFollow}
-                    disabled={followBusy}
-                    className={`group rounded-full px-6 py-2.5 font-serif text-sm transition-colors disabled:cursor-default disabled:opacity-60 ${
-                      following
-                        ? "border border-gold/60 bg-surface text-secondary-btn-text hover:border-danger/60 hover:text-danger"
-                        : "bg-primary text-paper hover:bg-primary-deep"
-                    }`}
-                  >
-                    {followBusy ? "处理中…" : following ? (
-                      <>
-                        <span className="group-hover:hidden">已关注</span>
-                        <span className="hidden group-hover:inline">取消关注</span>
-                      </>
-                    ) : "＋ 关注"}
-                  </button>
-                  {mutual && !followBusy && (
-                    <span className="mt-2 inline-flex items-center gap-1 rounded-full bg-me-soft px-2.5 py-0.5 font-serif text-[11px] text-me-deep">
-                      互相关注
-                    </span>
-                  )}
-                </div>
-              )}
-              {followMsg && <p className="mt-2 text-right text-xs text-muted">{followMsg}</p>}
-            </div>
+              </div>
+            )}
           </div>
 
           {/* 数据条：关注 / 粉丝 / 内容 */}
@@ -317,6 +322,23 @@ export default function UserPublicPage() {
           </div>
         )}
       </section>
+
+      {/* 分享名片（可分享任意用户，二维码指向 TA 的个人空间） */}
+      <ProfileShareCard
+        data={
+          cardOpen && user
+            ? {
+                username: user.username,
+                avatar: user.avatar,
+                signature: user.signature,
+                level: user.level,
+                levelName: user.level_name,
+                profileUrl: typeof window !== "undefined" ? `${window.location.origin}${sitePath(`/u?id=${user.id}`)}` : sitePath(`/u?id=${user.id}`),
+              }
+            : null
+        }
+        onClose={() => setCardOpen(false)}
+      />
     </div>
   );
 }
