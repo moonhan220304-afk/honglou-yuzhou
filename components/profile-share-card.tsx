@@ -54,28 +54,9 @@ export default function ProfileShareCard({
     const serif = "'Songti SC', 'Noto Serif SC', 'STSong', serif";
     const sans = "'PingFang SC', 'Noto Sans SC', sans-serif";
 
-    // 纸色底
+    // 纸色底（干净，无任何线条装饰）
     ctx.fillStyle = "#FBF6EE";
     ctx.fillRect(0, 0, W, H);
-
-    // 简雅底纹：淡金细线山形 + 细描边，模拟园林线稿（纯 Canvas 手绘，不依赖图片资源）
-    ctx.save();
-    ctx.strokeStyle = "rgba(166, 56, 52, 0.10)";
-    ctx.lineWidth = 2;
-    for (let i = 0; i < 3; i++) {
-      ctx.beginPath();
-      const baseY = H * 0.12 + i * 34;
-      ctx.moveTo(0, baseY);
-      ctx.quadraticCurveTo(W * 0.25, baseY - 60, W * 0.5, baseY - 8);
-      ctx.quadraticCurveTo(W * 0.75, baseY + 44, W, baseY - 20);
-      ctx.stroke();
-    }
-    // 侧边细框
-    ctx.strokeStyle = "rgba(196, 154, 108, 0.5)";
-    ctx.lineWidth = 1.5;
-    ctx.strokeRect(36, 36, W - 72, H - 72);
-    ctx.strokeRect(44, 44, W - 88, H - 88);
-    ctx.restore();
 
     function roundedRect(x: number, y: number, w: number, h: number, r: number) {
       ctx.beginPath();
@@ -93,14 +74,14 @@ export default function ProfileShareCard({
       const d = data!;
       const cx = W / 2;
 
-      // 顶部品牌：站内 Logo（图），下方保留副标语，无虚线
+      // 顶部品牌：站内 Logo（图，放大），下方保留副标语，无虚线
       let logoOk = false;
       try {
         const logo = await loadImage(`${BASE}/images/logo-universal.png`);
         if (cancelled) return;
-        const LW = 132;
+        const LW = 168;
         const LH = (logo.height / logo.width) * LW;
-        ctx.drawImage(logo, cx - LW / 2, 56 - LH / 2, LW, LH);
+        ctx.drawImage(logo, cx - LW / 2, 54 - LH / 2, LW, LH);
         logoOk = true;
       } catch {
         /* logo 加载失败时回退文字 */
