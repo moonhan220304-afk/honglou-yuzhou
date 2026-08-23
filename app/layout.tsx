@@ -6,6 +6,7 @@ import AppSidebar from "@/components/app-sidebar";
 import Analytics from "@/components/analytics";
 import Footer from "@/components/footer";
 import MShell from "@/components/mobile/m-shell";
+import OnboardingTour from "@/components/onboarding-tour";
 import { IS_MOBILE_BUILD } from "@/lib/mobile-build";
 
 /* 字体：使用系统字体栈（globals.css @theme 中定义），不依赖 Google Fonts 网络下载 */
@@ -83,6 +84,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Footer />
           </>
         )}
+        <OnboardingTour />
         {/* Service Worker：仅生产构建（有 basePath）注册；本地预览（空 basePath）注销所有旧 SW，避免缓存旧样式 */}
         {process.env.NEXT_PUBLIC_BASE_PATH ? (
           <script
