@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import UserMenu from "@/components/user-menu";
 import WanderButton from "@/components/wander-button";
-import LogoMark from "@/components/logo-mark";
 import {
   IconHome,
   IconBook,
@@ -33,11 +32,11 @@ const navSections = [
     icon: IconBook,
     match: (p: string) => p.startsWith("/characters") || p.startsWith("/graph") || p.startsWith("/map") || p.startsWith("/journey") || p.startsWith("/poems"),
     children: [
-      { href: "/characters", label: "人物志", exact: true },
-      { href: "/graph", label: "关系图谱" },
-      { href: "/map", label: "大观园" },
-      { href: "/journey", label: "剧情旅程" },
-      { href: "/poems", label: "诗词" },
+      { href: "/characters", label: "人物志", match: (p: string) => p.startsWith("/characters") },
+      { href: "/graph", label: "关系图谱", match: (p: string) => p.startsWith("/graph") },
+      { href: "/map", label: "大观园", match: (p: string) => p.startsWith("/map") },
+      { href: "/journey", label: "剧情旅程", match: (p: string) => p.startsWith("/journey") },
+      { href: "/poems", label: "诗词", match: (p: string) => p.startsWith("/poems") },
     ],
   },
   {
@@ -64,10 +63,10 @@ const navSections = [
     icon: IconQuill,
     match: (p: string) => p.startsWith("/poem-society"),
     children: [
-      { href: "/poem-society", label: "诗题", exact: true },
-      { href: "/poem-society/fill", label: "诗词填字" },
-      { href: "/poem-society/feihua", label: "飞花接句" },
-      { href: "/poem-society/gallery", label: "佳作集" },
+      { href: "/poem-society", label: "诗题", match: (p: string) => p === "/poem-society" || p.startsWith("/poem-society/topic") || p.startsWith("/poem-society/compose") },
+      { href: "/poem-society/fill", label: "诗词填字", match: (p: string) => p.startsWith("/poem-society/fill") },
+      { href: "/poem-society/feihua", label: "飞花接句", match: (p: string) => p.startsWith("/poem-society/feihua") },
+      { href: "/poem-society/gallery", label: "佳作集", match: (p: string) => p.startsWith("/poem-society/gallery") },
     ],
   },
 ];
@@ -77,17 +76,16 @@ export default function AppSidebar() {
 
   return (
     <aside className="fixed inset-y-0 left-0 z-40 hidden w-[232px] flex-col border-r border-line bg-paper-deep/95 backdrop-blur md:flex">
-      <Link href="/" className="flex items-center gap-2 px-6 pb-4 pt-5" aria-label="红楼社首页">
-        <LogoMark className="h-9 w-9 shrink-0" />
+      <Link href="/" className="flex items-center px-6 pb-4 pt-5" aria-label="红楼社首页">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo-universal.png`} alt="红楼社" className="h-9 w-auto" />
       </Link>
 
       <nav className="flex-1 space-y-1 overflow-y-auto px-3">
         {navSections.map((sec) => {
           const Icon = sec.icon;
           const active = sec.match(pathname);
-          const childActive = sec.children?.some((c) =>
-            c.exact ? pathname === c.href : pathname.startsWith(c.href),
-          );
+          const childActive = sec.children?.some((c) => c.match(pathname));
           return (
             <div key={sec.href}>
               <Link
@@ -104,7 +102,7 @@ export default function AppSidebar() {
               {sec.children && (active || childActive) && (
                 <div className="ml-3 mt-1 space-y-0.5 border-l border-line pl-2.5">
                   {sec.children.map((c) => {
-                    const on = c.exact ? pathname === c.href : pathname.startsWith(c.href);
+                    const on = c.match(pathname);
                     return (
                       <Link
                         key={c.href}

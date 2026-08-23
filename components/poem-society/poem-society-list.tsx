@@ -29,8 +29,11 @@ export default function PoemSocietyList() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
       <header>
-        <p className="text-xs tracking-[0.3em] text-gold">POEM SOCIETY · 海棠诗社</p>
-        <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">当期诗题</h1>
+        <p className="text-xs tracking-[0.3em] text-poem">POEM SOCIETY · 海棠诗社</p>
+        <h1 className="mt-2 flex items-center gap-3 font-serif text-3xl font-semibold text-ink">
+          <span className="h-6 w-1 rounded-full bg-poem" />
+          当期诗题
+        </h1>
         <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">
           以诗会友，咏物言志。每月一期诗题，往期长期开放——任何一首，都值得被看见。
         </p>
@@ -40,7 +43,7 @@ export default function PoemSocietyList() {
         <PoemSocietyNav />
       </div>
 
-      {err && <p className="mt-6 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{err}</p>}
+      {err && <p className="mt-6 rounded-xl bg-danger/10 px-4 py-3 text-sm text-danger">{err}</p>}
 
       {!items && (
         <div className="mt-6 space-y-4">

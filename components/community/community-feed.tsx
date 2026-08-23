@@ -9,7 +9,6 @@ import { fetchMe } from "@/lib/api";
 import type { Me } from "@/lib/api";
 import { formatTime, QuoteBlock, QuestionSourceBadge } from "@/lib/client-community";
 import SectionSearch from "@/components/section-search";
-import StatusComposer from "@/components/community/status-composer";
 import { IconHeart, IconMessage, IconShare, IconEye, IconFlame, IconPlus } from "@/components/icons";
 
 export default function CommunityFeed() {
@@ -23,6 +22,21 @@ export default function CommunityFeed() {
   const [total, setTotal] = useState(0);
   const [err, setErr] = useState("");
   const [kw, setKw] = useState(search.get("q") ?? "");
+  const [likedMap, setLikedMap] = useState<Record<number, boolean>>({});
+
+  // 流内点赞（乐观更新）
+  const toggleLike = async (p: PostSummary) => {
+    const liked = !!likedMap[p.id];
+    const next = !liked;
+    setLikedMap((m) => ({ ...m, [p.id]: next }));
+    setPosts((list) => (list ? list.map((x) => (x.id === p.id ? { ...x, like_count: Math.max(0, x.like_count + (next ? 1 : -1)) } : x)) : list));
+    try {
+      await api(`/api/posts/${p.id}/like`, { method: "POST" });
+    } catch {
+      setLikedMap((m) => ({ ...m, [p.id]: liked }));
+      setPosts((list) => (list ? list.map((x) => (x.id === p.id ? { ...x, like_count: Math.max(0, x.like_count + (liked ? 1 : -1)) } : x)) : list));
+    }
+  };
 
   useEffect(() => {
     (async () => {
@@ -116,7 +130,7 @@ export default function CommunityFeed() {
     <div className="mx-auto max-w-6xl px-4 py-10 md:px-6">
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="text-xs tracking-[0.3em] text-gold">COMMUNITY</p>
+          <p className="text-xs tracking-[0.3em] text-chat">COMMUNITY</p>
           <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">聊一聊</h1>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">
             与同好共论红楼。发帖、盖楼、自建话题——内容自动审核，命中敏感词转人工复核，请遵守社区规范。
@@ -130,7 +144,12 @@ export default function CommunityFeed() {
             <IconPlus className="h-4 w-4" />
             发帖讨论
           </Link>
-          <StatusComposer onPosted={() => applyFilter({ tab: "new" })} />
+          <Link
+            href="/community/status"
+            className="flex items-center justify-center gap-1.5 rounded-full border border-chat-deep/40 px-5 py-2.5 text-center font-serif text-sm text-chat-deep transition-colors hover:bg-chat-deep hover:text-paper"
+          >
+            发表状态
+          </Link>
         </div>
       </header>
 
@@ -161,7 +180,7 @@ export default function CommunityFeed() {
             </button>
           </div>
 
-          {err && <p className="mt-4 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{err}</p>}
+          {err && <p className="mt-4 rounded-xl bg-danger/10 px-4 py-3 text-sm text-danger">{err}</p>}
           {!posts && (
             <div className="mt-6 space-y-4">
               {[1, 2, 3].map((i) => (
@@ -190,31 +209,44 @@ export default function CommunityFeed() {
           {/* 小红书式帖子流：头像 + 作者 + 正文 + 互动区，弱分割线 */}
           <div className="mt-4">
             {posts?.map((p) => (
-              <Link
+              <div
                 key={p.id}
-                href={`/community/post/?id=${p.id}`}
                 className="group flex gap-3.5 border-b border-line-inner/60 py-5 transition-colors hover:bg-paper-deep/30 md:px-2"
               >
-                <Avatar name={p.author.username} />
+                <Link href={`/u?id=${p.author.id}`} className="shrink-0" title={`查看 ${p.author.username} 的主页`}>
+                  <Avatar name={p.author.username} />
+                </Link>
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2 text-xs">
-                    <span className="font-medium text-ink">{p.author.username}</span>
+                    <Link href={`/u?id=${p.author.id}`} className="font-medium text-ink hover:text-primary">
+                      {p.author.username}
+                    </Link>
                     <span className="text-muted">· {formatTime(p.created_at)}</span>
                     <span className="ml-auto rounded-full bg-primary/10 px-2 py-0.5 text-[11px] text-primary">
                       {p.tag}
                     </span>
                   </div>
-                  <h2 className="mt-1.5 font-serif text-[15px] font-semibold leading-snug text-ink group-hover:text-primary">
-                    {p.title}
-                  </h2>
-                  {p.quote && <QuoteBlock quote={p.quote} compact questionId={p.question_id} />}
-                  <p className="mt-1 line-clamp-2 text-sm leading-relaxed text-muted">{p.content}</p>
-                  {!p.quote && p.question_id && <QuestionSourceBadge questionId={p.question_id} className="mt-1.5" />}
+                  <Link href={`/community/post/?id=${p.id}`} className="block">
+                    <h2 className="mt-1.5 font-serif text-[15px] font-semibold leading-snug text-ink group-hover:text-primary">
+                      {p.title}
+                    </h2>
+                    {p.quote && <QuoteBlock quote={p.quote} compact questionId={p.question_id} />}
+                    <p className="mt-1 line-clamp-2 text-sm leading-relaxed text-muted">{p.content}</p>
+                    {!p.quote && p.question_id && <QuestionSourceBadge questionId={p.question_id} className="mt-1.5" />}
+                  </Link>
                   <div className="mt-2.5 flex items-center gap-5 text-xs text-muted">
-                    <span className="flex items-center gap-1">
-                      <IconHeart className="h-3.5 w-3.5" />
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggleLike(p);
+                      }}
+                      className={`flex items-center gap-1 transition-colors ${likedMap[p.id] ? "text-primary" : "hover:text-primary"}`}
+                    >
+                      <IconHeart className={`h-3.5 w-3.5 ${likedMap[p.id] ? "fill-primary text-primary" : ""}`} />
                       {p.like_count}
-                    </span>
+                    </button>
                     <span className="flex items-center gap-1">
                       <IconMessage className="h-3.5 w-3.5" />
                       评论
@@ -229,7 +261,7 @@ export default function CommunityFeed() {
                     </span>
                   </div>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
 

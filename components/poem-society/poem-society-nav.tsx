@@ -18,7 +18,7 @@ export default function PoemSocietyNav() {
       {TABS.map((t) => {
         const active =
           t.href === "/poem-society"
-            ? pathname === "/poem-society"
+            ? pathname === "/poem-society" || pathname.startsWith("/poem-society/topic") || pathname.startsWith("/poem-society/compose")
             : pathname === t.href || pathname.startsWith(`${t.href}/`);
         return (
           <Link

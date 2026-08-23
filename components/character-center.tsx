@@ -101,7 +101,7 @@ export default function CharacterCenter({
               }`}
             >
               <div
-                className={`rounded-3xl p-6 shadow-card transition-all duration-500 ${
+                className={`rounded-2xl p-6 shadow-card transition-all duration-500 ${
                   isOpen
                     ? "card-print bg-surface-warm shadow-hover"
                     : "card-print bg-surface hover:-translate-y-0.5 hover:shadow-hover"
@@ -130,7 +130,7 @@ export default function CharacterCenter({
                       isOpen ? "rotate-45 bg-primary text-paper" : "bg-paper-deep text-muted group-hover:text-primary"
                     }`}
                   >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
                       <path d="M12 5v14M5 12h14" />
                     </svg>
                   </span>

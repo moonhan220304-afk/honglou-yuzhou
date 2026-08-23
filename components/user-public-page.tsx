@@ -9,6 +9,15 @@ import { formatTime } from "@/lib/client-community";
 import LevelBadge from "@/components/level-badge";
 import { typeLabel } from "@/lib/levels";
 
+const TABS = [
+  { key: "all", label: "全部" },
+  { key: "post", label: "讨论" },
+  { key: "dynamic", label: "动态" },
+  { key: "longform", label: "长文" },
+  { key: "poem", label: "诗作" },
+  { key: "answer", label: "接句" },
+] as const;
+
 /** 用户公开主页（/u?id=）：任何人可访问，展示用户信息 + TA 的内容 */
 export default function UserPublicPage() {
   const search = useSearchParams();
@@ -18,8 +27,11 @@ export default function UserPublicPage() {
   const [items, setItems] = useState<ContentItem[] | null>(null);
   const [me, setMe] = useState<Me | null | undefined>(undefined);
   const [following, setFollowing] = useState(false);
+  const [mutual, setMutual] = useState(false);
+  const [followees, setFollowees] = useState<FollowItem[] | null>(null);
   const [followBusy, setFollowBusy] = useState(false);
   const [followMsg, setFollowMsg] = useState("");
+  const [tab, setTab] = useState<(typeof TABS)[number]["key"]>("all");
 
   useEffect(() => {
     (async () => {
@@ -33,13 +45,24 @@ export default function UserPublicPage() {
         setUser(r.user);
         setItems(r.items);
         if (m) {
+          let amFollowing = false;
           try {
             const f = await api<{ ok: boolean; items: FollowItem[] }>(
               `/api/follows?user_id=${m.id}`,
             );
-            setFollowing(f.items.some((x) => x.id === r.user.id));
+            amFollowing = f.items.some((x) => x.id === r.user.id);
+            setFollowing(amFollowing);
           } catch {
             /* 关注状态查询失败不阻塞页面 */
+          }
+          try {
+            const they = await api<{ ok: boolean; items: FollowItem[] }>(
+              `/api/follows?user_id=${r.user.id}`,
+            );
+            setFollowees(they.items);
+            setMutual(amFollowing && they.items.some((x) => x.id === m.id));
+          } catch {
+            setFollowees([]);
           }
         }
       } catch {
@@ -50,6 +73,7 @@ export default function UserPublicPage() {
 
   const toggleFollow = async () => {
     if (!me || !user) return;
+    if (following && !window.confirm(`确定取消关注「${user.username}」吗？`)) return;
     setFollowBusy(true);
     setFollowMsg("");
     try {
@@ -60,7 +84,7 @@ export default function UserPublicPage() {
       const next = !following;
       setFollowing(next);
       setUser((u) => (u ? { ...u, followers: u.followers + (next ? 1 : -1) } : u));
-      setFollowMsg(next ? "已关注" : "已取消关注");
+      setFollowMsg(""); // 按钮状态已体现「已关注/＋关注」，不再重复弹字
     } catch (ex) {
       setFollowMsg(ex instanceof Error ? ex.message : "操作失败");
     } finally {
@@ -82,6 +106,12 @@ export default function UserPublicPage() {
   }
 
   const isSelf = me !== null && me.id === user.id;
+  const filtered =
+    items === null
+      ? null
+      : tab === "all"
+        ? items
+        : items.filter((it) => it.type === tab);
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
@@ -89,97 +119,185 @@ export default function UserPublicPage() {
         ← 返回社区
       </Link>
 
-      {/* 资料区 */}
-      <section className="mt-6 rounded-3xl border border-line/60 bg-surface p-6 shadow-card">
-        <div className="flex flex-wrap items-start gap-5">
-          {user.avatar ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={sitePath(user.avatar)}
-              alt={user.username}
-              className="h-20 w-20 rounded-full border-2 border-gold object-cover"
-            />
-          ) : (
-            <span className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 font-serif text-3xl text-primary">
-              {user.username.charAt(0)}
-            </span>
+      {/* Hero：封面 + 身份（一张连续卡片，Twitter 式） */}
+      <div className="mt-4 overflow-hidden rounded-3xl border border-line/60 bg-surface shadow-card">
+        {/* 封面（有背景图显示图，无则默认渐变 + 水印） */}
+        <div
+          className="relative h-40 md:h-44"
+          style={
+            user.bg_image
+              ? { backgroundImage: `url(${sitePath(user.bg_image)})`, backgroundSize: "cover", backgroundPosition: "center" }
+              : undefined
+          }
+        >
+          {!user.bg_image && (
+            <>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-surface-warm to-surface" />
+              <div className="card-print card-print--identity absolute inset-0 opacity-40" />
+            </>
           )}
-          <div className="min-w-0 flex-1">
-            <div className="flex flex-wrap items-center gap-2.5">
-              <h1 className="truncate font-serif text-2xl font-semibold text-ink">
-                {user.username}
-              </h1>
-              <LevelBadge level={user.level} levelName={user.level_name} />
-              {isSelf && (
-                <Link
-                  href="/profile"
-                  className="rounded-full bg-paper-deep px-3 py-1 font-serif text-[11px] text-secondary-btn-text transition-colors hover:bg-line/60 hover:text-primary"
-                >
-                  这是我自己
-                </Link>
+          <p className="absolute bottom-3 right-5 text-[10px] tracking-[0.3em] text-white/70 drop-shadow">一梦红楼 · 同好空间</p>
+        </div>
+
+        {/* 身份区（头像下压） */}
+        <div className="px-5 pb-6 md:px-6">
+          <div className="flex flex-wrap items-end gap-4">
+            {user.avatar ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={sitePath(user.avatar)}
+                alt={user.username}
+                className="-mt-12 h-24 w-24 rounded-full border-4 border-surface object-cover ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28"
+              />
+            ) : (
+              <span className="-mt-12 flex h-24 w-24 items-center justify-center rounded-full border-4 border-surface bg-primary/10 font-serif text-4xl text-primary ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28">
+                {user.username.charAt(0)}
+              </span>
+            )}
+            <div className="min-w-0 flex-1">
+              <div className="flex flex-wrap items-center gap-2.5">
+                <h1 className="truncate font-serif text-2xl font-semibold text-ink">
+                  {user.username}
+                </h1>
+                <LevelBadge level={user.level} levelName={user.level_name} />
+                {isSelf && (
+                  <span className="rounded-full bg-primary/10 px-2.5 py-0.5 font-serif text-[11px] text-primary">
+                    这是我自己
+                  </span>
+                )}
+              </div>
+              <p className="mt-1 text-xs text-muted">注册于 {formatTime(user.created_at)}</p>
+              {user.signature && (
+                <p className="mt-2 font-serif text-[13px] text-gold">「{user.signature}」</p>
               )}
             </div>
-            <p className="mt-1.5 text-xs text-muted">
-              {user.points} 积分 · 注册于 {formatTime(user.created_at)}
-            </p>
-            {user.signature && (
-              <p className="mt-2 font-serif text-[13px] text-gold">「{user.signature}」</p>
-            )}
-            <div className="mt-3 flex items-center gap-5 text-sm text-body">
-              <span>
-                关注 <b className="font-mono text-primary">{user.following}</b>
-              </span>
-              <span>
-                粉丝 <b className="font-mono text-primary">{user.followers}</b>
-              </span>
+            <div className="shrink-0">
+              {!me ? (
+                <Link
+                  href={`/login?next=${encodeURIComponent(`/u?id=${user.id}`)}`}
+                  className="inline-block rounded-full bg-primary px-6 py-2.5 font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
+                >
+                  登录后关注
+                </Link>
+              ) : isSelf ? (
+                <Link
+                  href="/profile"
+                  className="inline-block rounded-full border border-gold/60 px-6 py-2.5 font-serif text-sm text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
+                >
+                  编辑资料
+                </Link>
+              ) : (
+                <div className="flex flex-col items-end">
+                  <button
+                    type="button"
+                    onClick={toggleFollow}
+                    disabled={followBusy}
+                    className={`group rounded-full px-6 py-2.5 font-serif text-sm transition-colors disabled:cursor-default disabled:opacity-60 ${
+                      following
+                        ? "border border-gold/60 bg-surface text-secondary-btn-text hover:border-danger/60 hover:text-danger"
+                        : "bg-primary text-paper hover:bg-primary-deep"
+                    }`}
+                  >
+                    {followBusy ? "处理中…" : following ? (
+                      <>
+                        <span className="group-hover:hidden">已关注</span>
+                        <span className="hidden group-hover:inline">取消关注</span>
+                      </>
+                    ) : "＋ 关注"}
+                  </button>
+                  {mutual && !followBusy && (
+                    <span className="mt-2 inline-flex items-center gap-1 rounded-full bg-me-soft px-2.5 py-0.5 font-serif text-[11px] text-me-deep">
+                      互相关注
+                    </span>
+                  )}
+                </div>
+              )}
+              {followMsg && <p className="mt-2 text-right text-xs text-muted">{followMsg}</p>}
             </div>
           </div>
-          <div className="shrink-0">
-            {!me ? (
-              <Link
-                href={`/login?next=${encodeURIComponent(`/u?id=${user.id}`)}`}
-                className="inline-block rounded-full bg-primary px-6 py-2.5 font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
-              >
-                登录后关注
-              </Link>
-            ) : isSelf ? null : (
+
+          {/* 数据条：关注 / 粉丝 / 内容 */}
+          <div className="mt-5 flex items-center divide-x divide-line/70 border-t border-line-inner/70 pt-4 text-center">
+            {[
+              { label: "关注", value: user.following },
+              { label: "粉丝", value: user.followers },
+              { label: "内容", value: items?.length ?? 0 },
+            ].map((s) => (
+              <div key={s.label} className="flex-1">
+                <p className="font-mono text-xl text-ink">{s.value}</p>
+                <p className="mt-0.5 text-xs text-muted">{s.label}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* TA 关注的人头像条 */}
+          {followees !== null && followees.length > 0 && (
+            <div className="mt-4 flex items-center gap-3 border-t border-line-inner/70 pt-4">
+              <div className="flex -space-x-2">
+                {followees.slice(0, 8).map((f) => (
+                  <Link key={f.id} href={`/u?id=${f.id}`} className="group">
+                    {f.avatar ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={sitePath(f.avatar)}
+                        alt={f.username}
+                        className="h-8 w-8 rounded-full border-2 border-surface object-cover ring-1 ring-gold/40 transition-transform group-hover:-translate-y-0.5"
+                      />
+                    ) : (
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-surface bg-primary/10 font-serif text-[11px] text-primary transition-transform group-hover:-translate-y-0.5">
+                        {f.username.charAt(0)}
+                      </span>
+                    )}
+                  </Link>
+                ))}
+                {user.following > 8 && (
+                  <span className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-surface bg-paper-deep font-mono text-[10px] text-muted">
+                    +{user.following - 8}
+                  </span>
+                )}
+              </div>
+              <span className="text-xs text-muted">TA 关注的人 · {user.following}</span>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* 内容列表（tab 过滤） */}
+      <section className="mt-6 rounded-3xl border border-line/60 bg-surface p-6 shadow-card">
+        <div className="flex flex-wrap items-center gap-3">
+          <h2 className="flex items-center gap-3 font-serif text-lg font-semibold text-ink">
+            <span className="h-4 w-1 rounded-full bg-primary" />
+            {user.username} 的内容
+          </h2>
+          <div className="ml-auto flex flex-wrap gap-1.5">
+            {TABS.map((t) => (
               <button
+                key={t.key}
                 type="button"
-                onClick={toggleFollow}
-                disabled={followBusy}
-                className={`rounded-full px-6 py-2.5 font-serif text-sm transition-colors disabled:opacity-60 ${
-                  following
-                    ? "border border-gold/60 bg-surface text-secondary-btn-text hover:border-gold hover:text-primary"
-                    : "bg-primary text-paper hover:bg-primary-deep"
+                onClick={() => setTab(t.key)}
+                className={`rounded-full px-3 py-1 text-xs transition-colors ${
+                  tab === t.key ? "bg-primary text-paper" : "bg-paper-deep text-muted hover:bg-line/50"
                 }`}
               >
-                {followBusy ? "处理中…" : following ? "已关注" : "＋ 关注"}
+                {t.label}
               </button>
-            )}
-            {followMsg && <p className="mt-2 text-right text-xs text-muted">{followMsg}</p>}
+            ))}
           </div>
         </div>
-      </section>
 
-      {/* 内容列表 */}
-      <section className="mt-6 rounded-3xl border border-line/60 bg-surface p-6 shadow-card">
-        <h2 className="flex items-center gap-3 font-serif text-lg font-semibold text-ink">
-          <span className="h-4 w-1 rounded-full bg-primary" />
-          {user.username} 的内容
-        </h2>
-        {items === null && <p className="mt-4 text-sm text-muted">加载中…</p>}
-        {items !== null && items.length === 0 && (
+        {filtered === null && <p className="mt-4 text-sm text-muted">加载中…</p>}
+        {filtered !== null && filtered.length === 0 && (
           <p className="mt-4 rounded-2xl bg-paper-deep/60 p-6 text-center text-sm text-muted">
-            TA 还没有发布过内容
+            {tab === "all" ? "TA 还没有发布过内容" : "这个分类下暂无内容"}
           </p>
         )}
-        {items !== null && items.length > 0 && (
+        {filtered !== null && filtered.length > 0 && (
           <div className="mt-4 space-y-3">
-            {items.map((item) => (
+            {filtered.map((item) => (
               <Link
                 key={item.id}
                 href={`/community/post/?id=${item.id}`}
-                className="block rounded-2xl bg-paper-deep/60 p-4 transition-colors hover:bg-line/40"
+                className="block rounded-2xl bg-paper-deep/60 p-4 transition-all hover:bg-line/40"
               >
                 <div className="flex items-center gap-2 text-xs text-muted">
                   <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-primary">

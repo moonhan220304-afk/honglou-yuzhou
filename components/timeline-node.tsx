@@ -56,7 +56,7 @@ export default function TimelineNode({
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="2"
+            strokeWidth="1.6"
             className={`transition-transform duration-300 ${open ? "rotate-180" : ""}`}
           >
             <path d="m6 9 6 6 6-6" />

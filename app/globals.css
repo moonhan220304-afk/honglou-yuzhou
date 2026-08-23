@@ -12,17 +12,42 @@
   --color-secondary-btn-text: #5c4a3d;
   --color-ink: #2c2c2c;
   --color-body: #595959;
-  --color-muted: #8c8c8c;
+  --color-muted: #6e6860;
   --color-line: #d4c7b9;
   --color-line-inner: #e8dfd2;
-  --color-seal: #c0392b;
+  --color-seal: #a63834;
+
+  /* —— 板块副色（雅致新中式 · 六板块三阶色）—— */
+  --color-characters: #4e7a7c;
+  --color-characters-deep: #3a5f61;
+  --color-characters-soft: #eaf1f0;
+  --color-garden: #5d8a62;
+  --color-garden-deep: #47714c;
+  --color-garden-soft: #ebf2ec;
+  --color-chat: #b66a4c;
+  --color-chat-deep: #93533a;
+  --color-chat-soft: #f6ece6;
+  --color-ask: #405d8a;
+  --color-ask-deep: #324a6e;
+  --color-ask-soft: #ebeff5;
+  --color-poem: #be6e86;
+  --color-poem-deep: #9e5470;
+  --color-poem-soft: #f6eaee;
+  --color-me: #6a5b92;
+  --color-me-deep: #54476f;
+  --color-me-soft: #efedf5;
+
+  /* —— 语义色（低饱和，替代 Tailwind 默认荧光色）—— */
+  --color-success: #5d8a62;
+  --color-warning: #a9805a;
+  --color-danger: #a2473c;
 
   --font-serif: "Noto Serif SC", "Songti SC", "Source Han Serif SC", "SimSun", serif;
   --font-sans: "Noto Sans SC", "PingFang SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
   --font-display: "Playfair Display", Georgia, "Times New Roman", var(--font-serif);
 
-  --shadow-card: 0 2px 8px rgba(60, 45, 30, 0.08);
-  --shadow-hover: 0 4px 16px rgba(60, 45, 30, 0.12);
+  --shadow-card: 0 1px 2px rgba(60, 45, 30, 0.05), 0 4px 12px rgba(60, 45, 30, 0.06);
+  --shadow-hover: 0 2px 4px rgba(60, 45, 30, 0.05), 0 12px 28px rgba(60, 45, 30, 0.12);
 }
 
 html {
@@ -72,6 +97,95 @@ body {
   }
 }
 
+/* 沉浸式首页：红点揭示 */
+@keyframes dot-pop {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: translate(-50%, -50%) scale(1.35);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+
+/* 沉浸式首页：人物卡成排弹出 */
+@keyframes card-pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(26px) scale(0.86);
+  }
+  55% {
+    opacity: 1;
+    transform: translateY(-4px) scale(1.04);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes card-pop-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.94);
+  }
+}
+
+/* 沉浸式首页：背景轻微推近（走进画里） */
+@keyframes garden-zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 红点发光引导（呼吸式光晕） */
+@keyframes dot-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(192, 57, 43, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgba(192, 57, 43, 0);
+  }
+}
+
+/* 「直接进入」闪动提醒（用户停留未操作时） */
+@keyframes enter-blink {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+  }
+}
+
+/* 首页人物卡：弹到屏幕中央（ease-out，无回弹、无 overshoot） */
+@keyframes card-pop-center {
+  from {
+    opacity: 0;
+    transform: scale(0.4) translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
 /* 白板卡片系统：去边框 → 双层暖色悬浮阴影 + 共享线稿水印层（同一幅园林线稿的五个裁剪模板）。
    水印位于卡片背景层（天然在文字/控件之后），随 border-radius 自动裁剪；
    从阅读区边缘向水印侧做纸色渐隐，五模板共享相同的纸色、墨色、阴影与渐隐强度。 */
@@ -81,7 +195,8 @@ body {
   overflow: hidden;
   box-shadow:
     0 10px 30px rgba(60, 45, 30, 0.08),
-    0 2px 6px rgba(60, 45, 30, 0.05);
+    0 2px 6px rgba(60, 45, 30, 0.05),
+    inset 0 0 0 1px rgba(120, 96, 70, 0.07);
   background-repeat: no-repeat;
   background-color: transparent;
   background-image:
@@ -124,4 +239,56 @@ html[data-theme-dark="1"] .card-print {
 .card-print--questions {
   background-position: right bottom, center bottom, 74% 88%;
   background-size: auto, auto, 200% auto;
+}
+
+/* ---------- 全站按钮系统 ---------- */
+.btn-primary {
+  background-color: var(--color-primary);
+  background-image: linear-gradient(180deg, #b2403a 0%, #a63834 100%);
+  color: var(--color-paper);
+  border-radius: 9999px;
+  padding: 0.625rem 1.25rem;
+  font-family: var(--font-serif);
+  font-size: 0.875rem;
+  box-shadow: 0 1px 2px rgba(60, 45, 30, 0.12);
+  transition: all 150ms ease;
+}
+.btn-primary:hover {
+  background-image: linear-gradient(180deg, #9e322e 0%, #8a2c28 100%);
+  box-shadow: 0 4px 12px rgba(60, 45, 30, 0.16);
+  transform: translateY(-1px);
+}
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(60, 45, 30, 0.12);
+}
+.btn-ghost {
+  background-color: transparent;
+  border: 1px solid rgba(196, 154, 108, 0.6);
+  color: var(--color-secondary-btn-text);
+  border-radius: 9999px;
+  padding: 0.625rem 1.25rem;
+  font-family: var(--font-serif);
+  font-size: 0.875rem;
+  transition: all 150ms ease;
+}
+.btn-ghost:hover {
+  border-color: var(--color-gold);
+  color: var(--color-primary);
+}
+
+/* ---------- 全站焦点样式 & 动效降级 ---------- */
+:where(a, button, [role="button"], input, textarea):focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

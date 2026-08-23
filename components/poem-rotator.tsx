@@ -34,7 +34,7 @@ export default function PoemRotator() {
     : "";
 
   return (
-    <div className="overflow-hidden rounded-3xl bg-surface-warm card-print card-print--viewpoints">
+    <div className="overflow-hidden rounded-2xl bg-surface-warm card-print card-print--viewpoints">
       {img && (
         <div className="relative h-48 overflow-hidden sm:h-56">
           <img
@@ -60,7 +60,7 @@ export default function PoemRotator() {
               onClick={() => setShareOpen(true)}
               className="flex shrink-0 items-center gap-1.5 rounded-full bg-white/85 px-3.5 py-1.5 font-sans text-xs font-medium text-[#8A2C28] shadow backdrop-blur transition-colors hover:bg-white"
             >
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
                 <path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v13" />
               </svg>
               分享
@@ -69,7 +69,7 @@ export default function PoemRotator() {
         </div>
       )}
 
-      <div className="p-8">
+      <div className="p-8" key={poem.id} style={{ animation: "star-panel-in 0.22s ease both" }}>
         {!img && (
           <div className="flex items-center justify-between gap-3">
             <h3 className="font-serif text-lg font-semibold text-ink">{poem.title}</h3>
@@ -78,7 +78,7 @@ export default function PoemRotator() {
               onClick={() => setShareOpen(true)}
               className="flex shrink-0 items-center gap-1.5 rounded-full border border-gold/50 bg-surface px-3.5 py-1.5 font-sans text-xs font-medium text-primary transition-colors hover:bg-paper-deep"
             >
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
                 <path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v13" />
               </svg>
               分享

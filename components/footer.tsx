@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="mt-24 border-t border-line/60 bg-paper-deep/50">
+    <footer className="mt-24 border-t border-line/60 bg-paper-deep/50 md:pl-[232px]">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-12">
         <div className="h-px w-24 bg-gradient-to-r from-transparent via-gold to-transparent" />
         <p className="font-serif text-lg tracking-[0.3em] text-secondary-btn-text">

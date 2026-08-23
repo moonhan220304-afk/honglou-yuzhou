@@ -26,7 +26,7 @@ const KIND_META: Record<Exclude<TopicKind, "poem_topic">, { title: string; desc:
 };
 
 const DIFF_BADGE: Record<string, string> = {
-  beginner: "bg-emerald-100 text-emerald-700",
+  beginner: "bg-success/15 text-success",
   intermediate: "bg-gold/15 text-[#8a6a45]",
   advanced: "bg-primary/10 text-primary",
 };
@@ -56,7 +56,7 @@ export default function DifficultyList({ kind }: { kind: "fill" | "feihua" }) {
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
       <header>
-        <p className="text-xs tracking-[0.3em] text-gold">POEM SOCIETY · 海棠诗社</p>
+        <p className="text-xs tracking-[0.3em] text-poem">POEM SOCIETY · 海棠诗社</p>
         <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">{meta.title}</h1>
         <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">{meta.desc}</p>
       </header>
@@ -81,7 +81,7 @@ export default function DifficultyList({ kind }: { kind: "fill" | "feihua" }) {
         </div>
       </div>
 
-      {err && <p className="mt-6 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{err}</p>}
+      {err && <p className="mt-6 rounded-xl bg-danger/10 px-4 py-3 text-sm text-danger">{err}</p>}
 
       {!items && (
         <div className="mt-6 grid gap-3 sm:grid-cols-2">

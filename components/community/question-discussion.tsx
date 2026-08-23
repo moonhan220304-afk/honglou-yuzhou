@@ -1,4 +1,5 @@
 "use client";
+import { IconHeart } from "@/components/icons";
 
 import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
@@ -281,8 +282,8 @@ export default function QuestionDiscussion({
             }
             className={`${inputCls} leading-relaxed`}
           />
-          {err && <p className="text-sm text-red-700">{err}</p>}
-          {msg && <p className="text-sm text-green-700">{msg}</p>}
+          {err && <p className="text-sm text-danger">{err}</p>}
+          {msg && <p className="text-sm text-success">{msg}</p>}
           <button
             type="submit"
             disabled={busy}
@@ -311,7 +312,7 @@ export default function QuestionDiscussion({
                 <span>·</span>
                 <span>{formatTime(p.created_at)}</span>
                 {p.status !== "approved" && (
-                  <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-amber-700">待审核</span>
+                  <span className="rounded-full bg-warning/15 px-2.5 py-0.5 text-warning">待审核</span>
                 )}
               </div>
               <h3
@@ -394,8 +395,8 @@ export default function QuestionDiscussion({
                         >
                           {st.busy ? "提交中…" : "发表评论"}
                         </button>
-                        {st.err && <span className="text-xs text-red-700">{st.err}</span>}
-                        {st.msg && <span className="text-xs text-green-700">{st.msg}</span>}
+                        {st.err && <span className="text-xs text-danger">{st.err}</span>}
+                        {st.msg && <span className="text-xs text-success">{st.msg}</span>}
                       </div>
                     </div>
                   ) : (
@@ -419,10 +420,10 @@ export default function QuestionDiscussion({
                       onClick={() => like(p)}
                       className={`text-xs transition-colors ${st.liked ? "text-primary" : "hover:text-primary"}`}
                     >
-                      {st.liked ? "♥ 已赞" : "♡ 赞"} {p.like_count}
+                      {st.liked ? <><IconHeart className="h-3.5 w-3.5 fill-primary text-primary" /> 已赞</> : <><IconHeart className="h-3.5 w-3.5" /> 赞</>} {p.like_count}
                     </button>
-                    {st.err && <span className="text-xs text-red-700">{st.err}</span>}
-                    {st.msg && <span className="text-xs text-green-700">{st.msg}</span>}
+                    {st.err && <span className="text-xs text-danger">{st.err}</span>}
+                    {st.msg && <span className="text-xs text-success">{st.msg}</span>}
                   </div>
                 </div>
               )}

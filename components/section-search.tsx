@@ -41,7 +41,7 @@ export default function SectionSearch({
           onClick={() => onChange("")}
           className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full p-1 text-muted transition-colors hover:text-primary"
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
             <path d="M18 6 6 18M6 6l12 12" />
           </svg>
         </button>

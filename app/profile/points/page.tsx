@@ -111,7 +111,7 @@ export default function PointsPage() {
           <span className="h-4 w-1 rounded-full bg-primary" />
           积分明细
         </h2>
-        {err && <p className="mt-3 text-sm text-red-700">{err}</p>}
+        {err && <p className="mt-3 text-sm text-danger">{err}</p>}
         {!err && data === null && <p className="mt-4 text-sm text-muted">加载中…</p>}
         {!err && data !== null && data.logs.length === 0 && (
           <p className="mt-4 rounded-2xl bg-paper-deep/60 p-6 text-center text-sm text-muted">

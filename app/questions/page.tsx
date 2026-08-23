@@ -28,7 +28,7 @@ export default function QuestionsPage() {
     <div className="mx-auto max-w-6xl px-4 py-10 md:px-6">
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="text-xs tracking-[0.3em] text-gold">QUESTIONS</p>
+          <p className="text-xs tracking-[0.3em] text-ask">QUESTIONS</p>
           <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">问一问</h1>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-body">
             每一个问题都不止一个答案。看看大家为哪些问题争得热闹——你的判断，才是最终的答案。

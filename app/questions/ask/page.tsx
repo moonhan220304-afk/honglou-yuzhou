@@ -96,7 +96,7 @@ export default function AskQuestionPage() {
           ))}
         </div>
 
-        {err && <p className="mt-4 text-sm text-seal">{err}</p>}
+        {err && <p className="mt-4 text-sm text-primary">{err}</p>}
 
         <div className="mt-6 flex justify-end">
           <button

@@ -17,7 +17,7 @@ import {
 import PoemSocietyNav from "@/components/poem-society/poem-society-nav";
 import ExpandableComments from "@/components/poem-society/expandable-comments";
 import PoemShareModal, { type PoemShareData } from "@/components/poem-society/poem-share-modal";
-import { IconMessage, IconQuill } from "@/components/icons";
+import { IconMessage, IconQuill, IconHeart } from "@/components/icons";
 
 const KIND_LABEL: Record<TopicKind, string> = {
   poem_topic: "诗题",
@@ -280,7 +280,7 @@ export default function TopicDetail({
             <p className="font-serif text-[15px] text-ink">写一首诗参与「{topic.title}」——体裁不限，格律不限。</p>
             <div className="flex items-center gap-2">
               {composeNotice && (
-                <span className={`text-xs ${composeNotice.ok ? "text-green-700" : "text-red-700"}`}>
+                <span className={`text-xs ${composeNotice.ok ? "text-success" : "text-danger"}`}>
                   {composeNotice.text}
                 </span>
               )}
@@ -317,7 +317,7 @@ export default function TopicDetail({
                 {answerBusy ? "发布中…" : "发布"}
               </button>
               {composeNotice && (
-                <span className={`text-xs ${composeNotice.ok ? "text-green-700" : "text-red-700"}`}>
+                <span className={`text-xs ${composeNotice.ok ? "text-success" : "text-danger"}`}>
                   {composeNotice.text}
                 </span>
               )}
@@ -332,7 +332,7 @@ export default function TopicDetail({
       </section>
 
       {notice && (
-        <p className={`mt-3 text-xs ${notice.ok ? "text-green-700" : "text-red-700"}`}>{notice.text}</p>
+        <p className={`mt-3 text-xs ${notice.ok ? "text-success" : "text-danger"}`}>{notice.text}</p>
       )}
 
       {/* 作品流 */}
@@ -373,7 +373,7 @@ export default function TopicDetail({
                       onClick={() => toggleLike(w)}
                       className={`transition-colors ${liked ? "text-primary" : "hover:text-primary"}`}
                     >
-                      {liked ? "♥ 已赞" : "♡ 赞"} {likeCount}
+                      {liked ? <><IconHeart className="h-3.5 w-3.5 fill-primary text-primary" /> 已赞</> : <><IconHeart className="h-3.5 w-3.5" /> 赞</>} {likeCount}
                     </button>
                     <button
                       type="button"

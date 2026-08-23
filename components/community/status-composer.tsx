@@ -52,7 +52,7 @@ export default function StatusComposer({ onPosted }: { onPosted?: () => void }) 
           onClick={() => setOpen(true)}
           className="w-full rounded-full border border-line bg-paper px-5 py-2.5 font-serif text-sm text-body transition-colors hover:border-primary/50 hover:text-primary"
         >
-          ✦ 发表状态
+          发表状态
         </button>
       ) : (
         <div className="card-print rounded-2xl bg-surface p-4">

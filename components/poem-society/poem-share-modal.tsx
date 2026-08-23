@@ -1,4 +1,5 @@
 "use client";
+import { IconHeart } from "@/components/icons";
 
 import { useEffect, useState } from "react";
 import type { CommentItem } from "@/lib/api";
@@ -64,7 +65,7 @@ export default function PoemShareModal({
       >
         <div className="flex items-start justify-between gap-4">
           <div>
-            <p className="text-xs tracking-[0.3em] text-gold">SHARE · 分享诗作</p>
+            <p className="text-xs tracking-[0.3em] text-poem">SHARE · 分享诗作</p>
             <p className="mt-1 text-xs text-muted">{data.topicTitle || "海棠诗社"}</p>
           </div>
           <button
@@ -89,7 +90,7 @@ export default function PoemShareModal({
           <p className="mt-4 flex items-center gap-3 text-xs text-muted">
             <span className="font-serif text-sm font-medium text-ink">{data.author}</span>
             <span>·</span>
-            <span>♥ {data.likeCount}</span>
+            <span><IconHeart className="h-3.5 w-3.5 fill-primary text-primary" /> {data.likeCount}</span>
           </p>
         </div>
 

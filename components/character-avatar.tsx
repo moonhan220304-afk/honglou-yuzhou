@@ -36,12 +36,21 @@ export default function CharacterAvatar({
     <>
       <div
         role={canZoom ? "button" : undefined}
+        tabIndex={canZoom ? 0 : undefined}
         aria-label={canZoom ? `放大查看${name}` : undefined}
         onClick={(e) => {
           if (!canZoom) return;
           e.preventDefault();
           e.stopPropagation();
           setZoomed(true);
+        }}
+        onKeyDown={(e) => {
+          if (!canZoom) return;
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            e.stopPropagation();
+            setZoomed(true);
+          }
         }}
         className={`relative flex items-center justify-center overflow-hidden rounded-full border border-line bg-gradient-to-b from-surface-warm to-paper-deep shadow-card ${canZoom ? "cursor-zoom-in" : ""} ${className}`}
       >

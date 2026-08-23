@@ -8,7 +8,7 @@ export default function PoemCard({ poem }: { poem: Poem }) {
   const scene = sceneImages[poem.id];
 
   return (
-    <div className="overflow-hidden rounded-3xl bg-surface-warm card-print card-print--viewpoints">
+    <div className="overflow-hidden rounded-2xl bg-surface-warm card-print card-print--viewpoints">
       <div className="grid md:grid-cols-2">
         <div className="p-8">
           <div className="flex items-baseline justify-between">

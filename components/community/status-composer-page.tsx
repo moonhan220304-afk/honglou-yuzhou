@@ -3,31 +3,31 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { api, fetchMe, sitePath } from "@/lib/api";
+import { apiPost, fetchMe, sitePath } from "@/lib/api";
 import type { Me } from "@/lib/api";
 import { PRESET_TAGS, uploadImages } from "@/lib/client-community";
 
-export default function PostComposer() {
+/**
+ * 发表状态 · 独立页面（与发帖讨论页对齐的形式感）
+ * - 无标题，强调大字号宋体文字 + 最多 9 张配图 + 可选话题
+ * - 发布 type=dynamic，个人中心「动态」tab 可正确归类
+ */
+export default function StatusComposerPage() {
   const router = useRouter();
   const [me, setMe] = useState<Me | null | undefined>(undefined);
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
-  const [tag, setTag] = useState(PRESET_TAGS[0]);
-  const [customTag, setCustomTag] = useState("");
+  const [text, setText] = useState("");
+  const [tag, setTag] = useState("今日动态");
   const [images, setImages] = useState<string[]>([]);
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState("");
-  const [done, setDone] = useState<{ id: number; msg: string } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     fetchMe().then((m) => {
       setMe(m);
-      if (!m) router.push("/login?next=/community/new");
+      if (!m) router.push("/login?next=/community/status");
     });
   }, [router]);
-
-  const effectiveTag = tag === "自建话题" ? (customTag.trim() || "自由讨论") : tag;
 
   const onFiles = async (files: FileList | null) => {
     if (!files || files.length === 0) return;
@@ -48,16 +48,22 @@ export default function PostComposer() {
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErr("");
-    if (!title.trim()) return setErr("请填写标题");
-    if (!content.trim()) return setErr("请填写正文");
+    const c = text.trim();
+    if (!c) return setErr("写点什么再发布吧");
     setBusy(true);
     try {
-      const r = await api<{ id: number; msg: string }>("/api/posts", {
-        method: "POST",
-        body: JSON.stringify({ title: title.trim(), content: content.trim(), tag: effectiveTag, images }),
+      const r = await apiPost<{ ok: boolean; id?: number; msg?: string }>("/api/posts", {
+        title: "",
+        content: c,
+        tag: tag || "今日动态",
+        type: "dynamic",
+        images,
       });
-      setDone({ id: r.id, msg: r.msg });
-      setTimeout(() => router.push("/community"), 1600);
+      if (!r.ok) {
+        setErr(r.msg ?? "发布失败");
+        return;
+      }
+      router.push("/community?tab=new");
     } catch (ex) {
       setErr(ex instanceof Error ? ex.message : "发布失败");
     } finally {
@@ -68,15 +74,6 @@ export default function PostComposer() {
   const inputCls =
     "w-full rounded-xl border border-line bg-surface px-4 py-3 text-sm text-ink outline-none transition-colors placeholder:text-muted/70 focus:border-gold";
 
-  if (done) {
-    return (
-      <div className="mx-auto max-w-2xl px-6 py-24 text-center">
-        <p className="font-serif text-2xl text-ink">帖子已提交</p>
-        <p className="mt-3 text-sm text-muted">{done.msg}。即将回到讨论区…</p>
-      </div>
-    );
-  }
-
   if (me === undefined) return <div className="min-h-[50vh]" />;
   if (me === null) return null;
 
@@ -85,61 +82,24 @@ export default function PostComposer() {
       <Link href="/community" className="text-xs text-muted hover:text-primary">
         ← 返回讨论区
       </Link>
-      <h1 className="mt-4 font-serif text-3xl font-semibold text-ink">发帖讨论</h1>
+      <h1 className="mt-4 font-serif text-3xl font-semibold text-ink">发表状态</h1>
       <p className="mt-2 text-sm text-muted">
-        以「{me.username}」身份发布 · 自动审核（命中敏感词转人工复核）· 支持长文与图片
+        以「{me.username}」身份发布 · 一句话心境 + 最多 9 张图 · 自动审核
       </p>
 
       <form onSubmit={submit} className="mt-8 space-y-5">
         <div>
-          <label className="mb-1.5 block text-xs text-muted">标题（最多 80 字）</label>
-          <input
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-            maxLength={80}
-            placeholder="一句话说清你的话题"
-            className={`${inputCls} font-serif text-base`}
-          />
-        </div>
-
-        <div>
-          <label className="mb-1.5 block text-xs text-muted">话题（可自建）</label>
-          <div className="flex flex-wrap gap-2">
-            {[...PRESET_TAGS, "自建话题"].map((t) => (
-              <button
-                key={t}
-                type="button"
-                onClick={() => setTag(t)}
-                className={`rounded-full px-3 py-1.5 text-xs transition-colors ${
-                  tag === t ? "bg-primary text-paper" : "bg-paper-deep text-muted hover:bg-line/50"
-                }`}
-              >
-                {t}
-              </button>
-            ))}
-          </div>
-          {tag === "自建话题" && (
-            <input
-              value={customTag}
-              onChange={(e) => setCustomTag(e.target.value)}
-              maxLength={20}
-              placeholder="输入你自建的话题名（最多 20 字）"
-              className={`${inputCls} mt-3`}
-            />
-          )}
-        </div>
-
-        <div>
-          <label className="mb-1.5 block text-xs text-muted">
-            正文（支持 **加粗** 与多段落，最多 20000 字）
-          </label>
+          <label className="mb-1.5 block text-xs text-muted">这一刻（最多 280 字）</label>
           <textarea
-            value={content}
-            onChange={(e) => setContent(e.target.value)}
-            rows={12}
-            placeholder="你的观点、证据、引文…"
-            className={`${inputCls} leading-relaxed`}
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            rows={5}
+            maxLength={280}
+            autoFocus
+            placeholder="分享此刻的心情、一句话的心境……（例如：读到「花谢花飞花满天」时，你想起谁）"
+            className={`${inputCls} font-serif text-base leading-relaxed`}
           />
+          <div className="mt-1.5 text-right text-xs text-muted">{text.length}/280</div>
         </div>
 
         <div>
@@ -180,16 +140,43 @@ export default function PostComposer() {
           />
         </div>
 
+        <div>
+          <label className="mb-1.5 block text-xs text-muted">同步到话题（可选）</label>
+          <div className="flex flex-wrap gap-2">
+            {["今日动态", ...PRESET_TAGS].map((t) => (
+              <button
+                key={t}
+                type="button"
+                onClick={() => setTag(t)}
+                className={`rounded-full px-3 py-1.5 text-xs transition-colors ${
+                  tag === t ? "bg-chat-deep text-paper" : "bg-paper-deep text-muted hover:bg-line/50"
+                }`}
+              >
+                {t}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {err && <p className="rounded-xl bg-danger/10 px-4 py-3 text-sm text-danger">{err}</p>}
         {busy && <p className="text-sm text-muted">正在压缩并上传图片…</p>}
 
-        <button
-          type="submit"
-          disabled={busy}
-          className="w-full rounded-xl bg-primary py-3 font-serif text-[15px] text-paper transition-colors hover:bg-primary-deep disabled:opacity-60"
-        >
-          {busy ? "请稍候…" : "发布"}
-        </button>
+        <div className="flex items-center gap-3 pt-2">
+          <button
+            type="submit"
+            disabled={busy || !text.trim()}
+            className="flex-1 rounded-xl bg-chat-deep py-3 font-serif text-[15px] text-paper transition-colors hover:bg-[#7d442f] disabled:opacity-60"
+          >
+            {busy ? "发布中…" : "发布状态"}
+          </button>
+          <button
+            type="button"
+            onClick={() => router.push("/community")}
+            className="rounded-xl border border-line px-5 py-3 text-sm text-muted transition-colors hover:text-body"
+          >
+            取消
+          </button>
+        </div>
       </form>
     </div>
   );

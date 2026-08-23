@@ -93,10 +93,10 @@ export default function AuthForm({ mode }: { mode: "login" | "register" }) {
           </div>
         )}
         {err && (
-          <p className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{err}</p>
+          <p className="rounded-xl bg-danger/10 px-4 py-3 text-sm text-danger">{err}</p>
         )}
         {ok && (
-          <p className="rounded-xl bg-green-50 px-4 py-3 text-sm text-green-700">{ok}</p>
+          <p className="rounded-xl bg-success/10 px-4 py-3 text-sm text-success">{ok}</p>
         )}
         <button
           type="submit"

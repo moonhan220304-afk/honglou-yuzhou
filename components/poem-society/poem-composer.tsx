@@ -128,7 +128,7 @@ export default function PoemComposer() {
       <PoemSocietyNav />
 
       <header className="mt-6">
-        <p className="text-xs tracking-[0.3em] text-gold">COMPOSE · 作诗</p>
+        <p className="text-xs tracking-[0.3em] text-poem">COMPOSE · 作诗</p>
         <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">写诗</h1>
         {topicTitle && (
           <p className="mt-2 text-sm text-primary">参与诗题「{topicTitle}」</p>
@@ -180,8 +180,8 @@ export default function PoemComposer() {
             已恢复草稿（保存于 {new Date(savedAt).toLocaleString("zh-CN")}）
           </p>
         )}
-        {err && <p className="text-sm text-red-700">{err}</p>}
-        {msg && <p className="text-sm text-green-700">{msg}</p>}
+        {err && <p className="text-sm text-danger">{err}</p>}
+        {msg && <p className="text-sm text-success">{msg}</p>}
 
         <div className="flex flex-wrap items-center gap-3">
           <button

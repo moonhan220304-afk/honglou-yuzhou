@@ -28,12 +28,34 @@ const typeLabel: Record<string, string> = {
   answer: "接句",
 };
 
-/** 移动版首页（第二阶段）：沉浸首屏（点击进入）→ 今日热议 + 每日一诗 */
+/** 移动版首页（第二阶段）：沉浸首屏（仅首次 + 可跳过）→ 今日热议 + 每日一诗 */
 export default function MHome() {
-  const [entered, setEntered] = useState(false);
+  const [entered, setEntered] = useState(() => {
+    // 首次访问才显示开机动画；之后直接进信息流（localStorage 记忆）
+    try {
+      return typeof window !== "undefined" && localStorage.getItem("hlm_visited") === "1";
+    } catch {
+      return false;
+    }
+  });
   const [feed, setFeed] = useState<FeedItem[]>([]);
   const [loaded, setLoaded] = useState(false);
   const [sky, setSky] = useState<SkyState | null>(null);
+
+  const enter = () => {
+    try {
+      localStorage.setItem("hlm_visited", "1");
+    } catch {}
+    setEntered(true);
+  };
+
+  // 自动跳过开机动画（3 秒）
+  useEffect(() => {
+    if (entered) return;
+    const t = setTimeout(enter, 3000);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [entered]);
 
   useEffect(() => {
     let raf = 0;
@@ -108,18 +130,18 @@ export default function MHome() {
             <div className="mt-5 flex flex-col gap-2.5">
               <button
                 type="button"
-                onClick={() => setEntered(true)}
+                onClick={enter}
                 className="flex items-center justify-center gap-2 rounded-full bg-white py-3 font-serif text-[15px] font-medium text-ink shadow-lg transition-opacity active:opacity-80"
               >
-                ▶ 开始探索
+                开始探索
               </button>
             </div>
             <button
               type="button"
-              onClick={() => setEntered(true)}
+              onClick={enter}
               className="mt-3 text-center text-[11px] text-white/55 underline underline-offset-4"
             >
-              直接进入 →
+              跳过，直接进入 →
             </button>
           </div>
         </div>

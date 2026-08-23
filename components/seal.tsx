@@ -7,7 +7,7 @@ export default function Seal({
 }) {
   return (
     <span
-      className={`inline-flex select-none items-center justify-center rounded-[4px] border border-gold/70 bg-seal/90 font-serif font-medium tracking-widest text-paper ${className}`}
+      className={`inline-flex select-none items-center justify-center rounded-[3px] border border-gold/60 bg-primary font-serif font-medium tracking-[0.35em] text-paper shadow-sm ${className}`}
     >
       {text}
     </span>

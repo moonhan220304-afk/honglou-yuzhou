@@ -1,4 +1,5 @@
 "use client";
+import { IconHeart } from "@/components/icons";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -136,7 +137,7 @@ export default function ExpandableComments({
               onClick={() => likeComment(shown)}
               className={`transition-colors ${shown.liked ? "text-primary" : "hover:text-primary"}`}
             >
-              {shown.liked ? "♥ 已赞" : "♡ 赞"} {shown.like_count > 0 ? shown.like_count : ""}
+              {shown.liked ? <><IconHeart className="h-3.5 w-3.5 fill-primary text-primary" /> 已赞</> : <><IconHeart className="h-3.5 w-3.5" /> 赞</>} {shown.like_count > 0 ? shown.like_count : ""}
             </button>
             <button
               type="button"
@@ -208,7 +209,7 @@ export default function ExpandableComments({
       {/* 底部：评论输入 + @AI 评诗 */}
       <div className="mt-3 border-t border-line/50 pt-3">
         {notice && (
-          <p className={`mb-2 text-xs ${notice.ok ? "text-green-700" : "text-red-700"}`}>
+          <p className={`mb-2 text-xs ${notice.ok ? "text-success" : "text-danger"}`}>
             {notice.text}
           </p>
         )}

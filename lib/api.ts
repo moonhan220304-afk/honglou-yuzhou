@@ -9,12 +9,22 @@ export function sitePath(p: string): string {
   return p.startsWith("/") ? `${siteBase}${p}` : p;
 }
 
+/** API 基础路径：与站点基础路径分离。
+ * 移动版 basePath 是 /honglou-yuzhou/m，但 API 反代挂在 /honglou-yuzhou/api，
+ * 所以去掉 /m 后缀；可用 NEXT_PUBLIC_API_BASE 显式覆盖。 */
+const apiBase = process.env.NEXT_PUBLIC_API_BASE ?? siteBase.replace(/\/m$/, "");
+
+export function apiPath(p: string): string {
+  return p.startsWith("/") ? `${apiBase}${p}` : p;
+}
+
 export interface Me {
   id: number;
   username: string;
   role: "user" | "admin";
   avatar: string | null;
   signature: string | null;
+  bg_image: string | null;
   created_at: number;
   /* 第二阶段：成长体系 */
   points?: number;
@@ -116,6 +126,7 @@ export interface UserPublic {
   username: string;
   avatar: string | null;
   signature: string | null;
+  bg_image: string | null;
   points: number;
   level: number;
   level_name: string;
@@ -150,7 +161,7 @@ export interface FeedItem {
 }
 
 export async function api<T = unknown>(path: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(sitePath(path), {
+  const res = await fetch(apiPath(path), {
     credentials: "same-origin",
     headers: init?.body instanceof FormData || init?.body instanceof Blob ? undefined : { "Content-Type": "application/json", ...(init?.headers as Record<string, string> | undefined) },
     ...init,

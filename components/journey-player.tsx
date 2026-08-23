@@ -72,7 +72,7 @@ export default function JourneyPlayer({
       <div className="mt-6 overflow-hidden rounded-3xl bg-surface card-print card-print--timeline">
         <div className="border-b border-line-inner bg-surface-warm px-6 py-4 md:px-8">
           <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-            <span className="text-xs tracking-[0.3em] text-gold">
+            <span className="text-xs tracking-[0.3em] text-garden">
               第 {current + 1} 站
             </span>
             <h2 className="font-serif text-xl font-semibold text-ink">{ev.title}</h2>

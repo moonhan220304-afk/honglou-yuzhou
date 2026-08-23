@@ -9,30 +9,31 @@ import { IconGrid } from "@/components/icons";
 import type { Character } from "@/lib/types";
 
 /**
- * 人物志 · 抽卡式浏览 v6 —— 左右堆叠 + 半透明虚化 + 纯滑动交互（对齐参考图）
- *
- * - 当前卡居中；左右两侧各露出一张卡，半透明 + 虚化（blur）营造景深
- * - 交互：手指/鼠标左右滑动（实时跟随拖动，松手超过阈值切换），支持键盘 ← →
- * - 不用点击按钮（用户明确要求滑动式）
+ * 人物志 · 抽卡式浏览 —— 左右堆叠 + 半透明虚化 + 点击换人
+ * 交互：悬停侧卡只做点亮预览，点击（或触屏 tap）才真正换人。
  */
 const SPRING = "cubic-bezier(0.34, 1.56, 0.64, 1)";
-const THRESHOLD = 70;
+const SIDE = 160;
+const EXIT = 350;
+const SWAP_MS = 320;
 
 export default function CharacterGacha({ characters }: { characters: Character[] }) {
   const list = characters.filter((c) => c.id && c.name);
-  const [idx, setIdx] = useState(0);
   const n = list.length;
-  const [dragX, setDragX] = useState(0);
-  const drag = useRef<{ start: number; active: boolean }>({ start: 0, active: false });
-  const [leaving, setLeaving] = useState<null | 1 | -1>(null);
+  const [idx, setIdx] = useState(0);
+  const [swiping, setSwiping] = useState<null | 1 | -1>(null);
+  const [hoverDir, setHoverDir] = useState<null | 1 | -1>(null);
+  const swipingRef = useRef<null | 1 | -1>(null);
 
   const go = (dir: 1 | -1) => {
-    setLeaving(dir);
+    if (swipingRef.current) return;
+    swipingRef.current = dir;
+    setSwiping(dir);
     setTimeout(() => {
       setIdx((i) => (i + dir + n) % n);
-      setLeaving(null);
-      setDragX(0);
-    }, 180);
+      setSwiping(null);
+      swipingRef.current = null;
+    }, SWAP_MS);
   };
   const at = (i: number) => list[((i % n) + n) % n];
 
@@ -49,24 +50,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  /* 拖拽/滑动 */
-  const onPointerDown = (e: React.PointerEvent) => {
-    drag.current = { start: e.clientX, active: true };
-    (e.currentTarget as HTMLElement).setPointerCapture?.(e.pointerId);
-  };
-  const onPointerMove = (e: React.PointerEvent) => {
-    if (!drag.current.active) return;
-    setDragX(e.clientX - drag.current.start);
-  };
-  const onPointerUp = (e: React.PointerEvent) => {
-    if (!drag.current.active) return;
-    drag.current.active = false;
-    const dx = e.clientX - drag.current.start;
-    if (Math.abs(dx) > THRESHOLD) go(dx < 0 ? 1 : -1);
-    else setDragX(0);
-  };
+  }, [n]);
 
   const CardBody = ({ c, dim = false }: { c: Character; dim?: boolean }) => {
     const img = characterImage(c.id);
@@ -100,67 +84,75 @@ export default function CharacterGacha({ characters }: { characters: Character[]
   };
 
   const cardBase =
-    "card-print card-print--identity absolute inset-0 h-[400px] w-[290px] overflow-hidden rounded-2xl bg-surface transition-all duration-500 motion-reduce:transition-none select-none touch-pan-y";
+    "card-print card-print--identity absolute inset-0 h-[400px] w-[290px] overflow-hidden rounded-2xl bg-surface select-none touch-pan-y";
+  const cardTransition = `transform ${SWAP_MS}ms ${SPRING}, opacity ${SWAP_MS}ms ease, filter ${SWAP_MS}ms ease`;
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 md:px-6">
       {/* 标题（居中） */}
       <div className="text-center">
-        <p className="text-xs tracking-[0.35em] text-gold">CHARACTERS</p>
+        <p className="text-xs tracking-[0.35em] text-characters">CHARACTERS</p>
         <h1 className="mt-2 font-serif text-[34px] font-semibold text-ink">人物志</h1>
-        <p className="mt-2 text-sm text-muted">左右滑动换人——不满意就换下一位</p>
+        <p className="mt-2 text-sm text-muted">悬停预览，点击两侧卡片换人</p>
       </div>
 
-      {/* 卡片区：容器固定卡宽并居中，三张卡以容器为中心对称偏移（左右虚化） */}
-      <div
-        className="relative mx-auto mt-10 h-[420px] w-[290px]"
-        style={{ perspective: "1200px" }}
-        onPointerDown={onPointerDown}
-        onPointerMove={onPointerMove}
-        onPointerUp={onPointerUp}
-        onPointerCancel={() => {
-          drag.current.active = false;
-          setDragX(0);
-        }}
-      >
-        {/* 左卡（半透明 + 虚化）。card-print 的 position:relative 会覆盖 absolute 工具类，
-            故用内联 position:absolute 强制堆叠定位（否则三卡会上下垂直排开）。 */}
+      {/* 卡片区：三张卡以容器中心对称偏移（左右虚化） */}
+      <div className="relative mx-auto mt-10 h-[420px] w-[290px]" style={{ perspective: "1200px" }}>
+        {/* 左卡：碰到即滑到中央 */}
         <div
+          key={left.id}
           className={cardBase}
+          onPointerEnter={() => setHoverDir(-1)}
+          onPointerLeave={() => setHoverDir(null)}
+          onClick={() => go(-1)}
           style={{
             position: "absolute",
-            transform: `translateX(${-160 + dragX * 0.3}px) rotate(-5deg) scale(0.86)`,
-            zIndex: 10,
-            opacity: 0.45,
-            filter: "blur(2px)",
-            transitionTimingFunction: SPRING,
+            transform:
+              swiping === -1
+                ? "translateX(0) rotate(0) scale(1)"
+                : `translateX(${hoverDir === -1 ? -118 : -SIDE}px) rotate(-5deg) scale(${hoverDir === -1 ? 0.93 : 0.86})`,
+            zIndex: swiping === -1 ? 30 : hoverDir === -1 ? 20 : 10,
+            opacity: swiping === 1 ? 0 : swiping === -1 ? 1 : hoverDir === -1 ? 0.92 : 0.45,
+            filter: swiping === -1 ? "blur(0)" : hoverDir === -1 ? "blur(0.5px)" : "blur(2px)",
+            transition: cardTransition,
           }}
         >
-          <CardBody c={left} dim />
+          <CardBody c={left} dim={hoverDir !== -1} />
         </div>
-        {/* 右卡（半透明 + 虚化） */}
+        {/* 右卡：碰到即滑到中央 */}
         <div
+          key={right.id}
           className={cardBase}
+          onPointerEnter={() => setHoverDir(1)}
+          onPointerLeave={() => setHoverDir(null)}
+          onClick={() => go(1)}
           style={{
             position: "absolute",
-            transform: `translateX(${160 + dragX * 0.3}px) rotate(5deg) scale(0.86)`,
-            zIndex: 10,
-            opacity: 0.45,
-            filter: "blur(2px)",
-            transitionTimingFunction: SPRING,
+            transform:
+              swiping === 1
+                ? "translateX(0) rotate(0) scale(1)"
+                : `translateX(${hoverDir === 1 ? 118 : SIDE}px) rotate(5deg) scale(${hoverDir === 1 ? 0.93 : 0.86})`,
+            zIndex: swiping === 1 ? 30 : hoverDir === 1 ? 20 : 10,
+            opacity: swiping === -1 ? 0 : swiping === 1 ? 1 : hoverDir === 1 ? 0.92 : 0.45,
+            filter: swiping === 1 ? "blur(0)" : hoverDir === 1 ? "blur(0.5px)" : "blur(2px)",
+            transition: cardTransition,
           }}
         >
-          <CardBody c={right} dim />
+          <CardBody c={right} dim={hoverDir !== 1} />
         </div>
-        {/* 当前卡（居中，跟随拖拽） */}
+        {/* 当前卡（居中） */}
         <div
+          key={cur.id}
           className={cardBase}
           style={{
             position: "absolute",
-            transform: `translateX(${dragX}px) rotate(0) scale(1)`,
-            zIndex: 30,
+            transform: swiping
+              ? `translateX(${-swiping * EXIT}px) rotate(${-swiping * 7}deg) scale(0.9)`
+              : "translateX(0) rotate(0) scale(1)",
+            zIndex: swiping ? 20 : 30,
+            opacity: swiping ? 0.35 : 1,
             boxShadow: "0 2px 6px rgba(60,45,30,.06), 0 14px 30px rgba(60,45,30,.16), 0 34px 70px rgba(60,45,30,.12)",
-            transitionTimingFunction: SPRING,
+            transition: cardTransition,
           }}
         >
           <CardBody c={cur} />
@@ -178,7 +170,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
 
         {/* 滑动提示 */}
         <span className="pointer-events-none absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap font-serif text-xs tracking-[0.25em] text-muted">
-          ← 滑动换人 →
+          ← 点两侧卡片换人 →
         </span>
       </div>
 
@@ -201,7 +193,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
       <div className="mt-6 text-center">
         <Link
           href={sitePath("/characters/roster")}
-          className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-5 py-2 text-sm text-body transition-colors hover:border-primary/50 hover:text-primary"
+          className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-5 py-2 text-sm text-body transition-colors hover:border-characters/50 hover:text-characters"
         >
           <IconGrid className="h-4 w-4" />
           查看全部

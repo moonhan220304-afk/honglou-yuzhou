@@ -97,7 +97,7 @@ export default function NotificationsPage() {
       </header>
 
       <div className="mt-8 space-y-3">
-        {err && <p className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{err}</p>}
+        {err && <p className="rounded-xl bg-danger/10 px-4 py-3 text-sm text-danger">{err}</p>}
         {!list && <p className="rounded-2xl bg-surface p-6 text-center text-sm text-muted">加载通知中…</p>}
         {list && list.length === 0 && (
           <p className="rounded-2xl bg-surface p-10 text-center">
@@ -121,7 +121,7 @@ export default function NotificationsPage() {
               <span>{n.from ? n.from.username : "系统"}</span>
               <span>·</span>
               <span>{formatTime(n.created_at)}</span>
-              {!n.read && <span className="ml-auto h-2 w-2 rounded-full bg-seal" />}
+              {!n.read && <span className="ml-auto h-2 w-2 rounded-full bg-primary" />}
             </div>
             <p className="mt-2 font-serif text-[15px] font-semibold text-ink">{n.title}</p>
             {n.body && <p className="mt-1 line-clamp-2 text-sm leading-relaxed text-muted">{n.body}</p>}

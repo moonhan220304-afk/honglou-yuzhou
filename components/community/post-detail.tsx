@@ -155,12 +155,12 @@ export default function PostDetail() {
                 <div className="text-xs text-muted">
                   {formatTime(post.created_at)}
                   {post.status !== "approved" && (
-                    <span className="ml-2 rounded-full bg-amber-100 px-2 py-0.5 text-amber-700">待审核</span>
+                    <span className="ml-2 rounded-full bg-warning/15 px-2 py-0.5 text-warning">待审核</span>
                   )}
                 </div>
               </div>
               {me && (me.id === post.author.id || me.role === "admin") && (
-                <button type="button" onClick={deletePost} className="ml-auto text-xs text-red-500/80 hover:text-red-700">
+                <button type="button" onClick={deletePost} className="ml-auto text-xs text-red-500/80 hover:text-danger">
                   删除
                 </button>
               )}
@@ -230,7 +230,7 @@ export default function PostDetail() {
                 </button>
               </div>
             )}
-            {err && <p className="mt-2 text-xs text-red-700">{err}</p>}
+            {err && <p className="mt-2 text-xs text-danger">{err}</p>}
           </article>
 
           {/* 回复输入（Twitter 风格：白底输入框 + 深红按钮） */}
@@ -258,8 +258,8 @@ export default function PostDetail() {
                   >
                     {replyBusy ? "提交中…" : "发表评论"}
                   </button>
-                  {replyErr && <span className="text-xs text-red-700">{replyErr}</span>}
-                  {replyMsg && <span className="text-xs text-green-700">{replyMsg}</span>}
+                  {replyErr && <span className="text-xs text-danger">{replyErr}</span>}
+                  {replyMsg && <span className="text-xs text-success">{replyMsg}</span>}
                 </div>
               </form>
             ) : (

@@ -1,4 +1,5 @@
 "use client";
+import { IconHeart } from "@/components/icons";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -89,7 +90,7 @@ export default function PoemGallery() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
       <header>
-        <p className="text-xs tracking-[0.3em] text-gold">POEM JOURNAL · 海棠诗社</p>
+        <p className="text-xs tracking-[0.3em] text-poem">POEM JOURNAL · 海棠诗社</p>
         <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">红楼诗刊</h1>
         <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">
           各期诗题按热度遴选佳作，魁首、榜眼、探花，附评选理由。
@@ -100,7 +101,7 @@ export default function PoemGallery() {
         <PoemSocietyNav />
       </div>
 
-      {err && <p className="mt-6 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{err}</p>}
+      {err && <p className="mt-6 rounded-xl bg-danger/10 px-4 py-3 text-sm text-danger">{err}</p>}
 
       {!rows && (
         <div className="mt-6 space-y-6">
@@ -157,7 +158,7 @@ export default function PoemGallery() {
                           {p.content}
                         </p>
                         <p className="mt-3 text-xs text-muted">
-                          <span className="font-medium text-ink">{p.author.username}</span> · ♥ {p.like_count}
+                          <span className="font-medium text-ink">{p.author.username}</span> · <IconHeart className="h-3.5 w-3.5 fill-primary text-primary" /> {p.like_count}
                         </p>
                         <p className="mt-1.5 rounded-lg bg-paper-deep/60 px-3 py-2 text-xs leading-relaxed text-body">
                           <span className="text-gold">评选理由：</span>

@@ -195,7 +195,7 @@ function ResultCard({
               </ul>
             </div>
             <div>
-              <p className="font-medium text-seal">挑战</p>
+              <p className="font-medium text-primary">挑战</p>
               <ul className="mt-1 space-y-1.5 text-body">
                 {archetype.challenges.map((c) => (
                   <li key={c}>· {c}</li>

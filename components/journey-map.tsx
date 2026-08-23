@@ -30,8 +30,17 @@ export default function JourneyMap() {
         </div>
       </div>
 
-      {/* 发散线 */}
-      <div className="mx-auto h-10 w-px bg-gold/60" />
+      {/* 连接线：中轴向下 → 横向岔开 → 左右两列分支（桌面端；移动端单列无需装饰线） */}
+      <div className="relative mx-auto hidden h-12 w-full max-w-3xl md:block" aria-hidden>
+        {/* 中轴（从中心节点向下） */}
+        <div className="absolute left-1/2 top-0 h-5 w-px -translate-x-1/2 bg-gold/70" />
+        {/* 横向岔线（连通左右两列） */}
+        <div className="absolute left-1/4 right-1/4 top-5 h-px bg-gold/70" />
+        {/* 左列分支 */}
+        <div className="absolute left-1/4 top-5 h-7 w-px -translate-x-1/2 bg-gold/70" />
+        {/* 右列分支 */}
+        <div className="absolute right-1/4 top-5 h-7 w-px translate-x-1/2 bg-gold/70" />
+      </div>
 
       {/* 四条路线（2×2 逻辑图） */}
       <div className="grid gap-5 md:grid-cols-2 md:gap-x-12">
@@ -43,13 +52,10 @@ export default function JourneyMap() {
               i % 2 === 0 ? "md:mr-6" : "md:ml-6"
             }`}
           >
-            {/* 顶部分支线（左/右错开指向中心） */}
-            <span
-              aria-hidden
-              className="absolute -top-10 hidden h-10 w-px bg-gold/60 md:block"
-              style={{ left: i % 2 === 0 ? "25%" : "75%" }}
-            />
-
+            {/* 下排卡与上排卡之间的连接竖线 */}
+            {i >= 2 && (
+              <span className="absolute -top-5 left-1/2 hidden h-5 w-px -translate-x-1/2 bg-gold/50 md:block" aria-hidden />
+            )}
             <div className="flex items-center gap-3">
               {cover ? (
                 characterImage(cover.id) ? (

@@ -1,4 +1,5 @@
 "use client";
+import { IconHeart } from "@/components/icons";
 
 import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
@@ -178,7 +179,7 @@ export default function QuestionBody({ q }: { q: Question }) {
                         : "bg-paper-deep text-secondary-btn-text hover:bg-line/60 hover:text-primary"
                     }`}
                   >
-                    {st.liked ? "♥ 已赞" : "♡ 赞"}
+                    {st.liked ? <><IconHeart className="h-3.5 w-3.5 fill-primary text-primary" /> 已赞</> : <><IconHeart className="h-3.5 w-3.5" /> 赞</>}
                     {st.count > 0 && <span className="font-mono">{st.count}</span>}
                   </button>
                 </div>

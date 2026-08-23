@@ -1,4 +1,5 @@
 "use client";
+import { IconHeart } from "@/components/icons";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -129,7 +130,7 @@ export default function CommentThread({
             onClick={() => likeComment(shown)}
             className={`transition-colors ${shown.liked ? "text-primary" : "hover:text-primary"}`}
           >
-            {shown.liked ? "♥ 已赞" : "♡ 赞"} {shown.like_count > 0 ? shown.like_count : ""}
+            {shown.liked ? <><IconHeart className="h-3.5 w-3.5 fill-primary text-primary" /> 已赞</> : <><IconHeart className="h-3.5 w-3.5" /> 赞</>} {shown.like_count > 0 ? shown.like_count : ""}
           </button>
         <button
           type="button"
@@ -149,7 +150,7 @@ export default function CommentThread({
           <button
             type="button"
             onClick={() => deleteComment(c)}
-            className="text-red-500/70 transition-colors hover:text-red-700"
+            className="text-red-500/70 transition-colors hover:text-danger"
           >
             删除
           </button>
