@@ -70,7 +70,7 @@ export function typeLabel(type: string): string {
     case "answer":
       return "作品 · 问答";
     default:
-      return "帖子";
+      return "贴吧";
   }
 }
 

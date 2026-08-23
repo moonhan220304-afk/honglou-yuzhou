@@ -1659,7 +1659,7 @@ const server = http.createServer(async (req, res) => {
       const row = db.prepare("SELECT id, username, avatar, signature, bg_image, points, created_at, role FROM users WHERE id = ? AND status = 'active'").get(uid);
       if (!row) return send(res, 404, { ok: false, msg: "用户不存在" });
       const posts = db.prepare(
-        "SELECT id, title, content, type, like_count, created_at FROM posts WHERE author_id = ? AND status = 'approved' ORDER BY created_at DESC LIMIT 50"
+        "SELECT id, title, content, type, images, like_count, created_at FROM posts WHERE author_id = ? AND status = 'approved' ORDER BY created_at DESC LIMIT 50"
       ).all(uid);
       const followers = db.prepare("SELECT COUNT(*) c FROM follows WHERE followee_id = ?").get(uid).c;
       const following = db.prepare("SELECT COUNT(*) c FROM follows WHERE follower_id = ?").get(uid).c;
@@ -1667,7 +1667,14 @@ const server = http.createServer(async (req, res) => {
       return send(res, 200, {
         ok: true,
         user: { id: row.id, username: row.username, avatar: row.avatar, signature: row.signature, bg_image: row.bg_image, points: row.points, level: lv, level_name: LEVEL_NAMES[lv - 1] || "元老", followers, following, created_at: row.created_at },
-        items: posts,
+        items: posts.map((p) => {
+          let imgs = [];
+          try {
+            const parsed = JSON.parse(p.images || "[]");
+            if (Array.isArray(parsed)) imgs = parsed.filter((x) => typeof x === "string" && x.startsWith("/uploads/"));
+          } catch {}
+          return { id: p.id, title: p.title, content: p.content, type: p.type, images: imgs, like_count: p.like_count, created_at: p.created_at };
+        }),
       });
     }
 

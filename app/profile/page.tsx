@@ -16,13 +16,12 @@ import LevelBadge from "@/components/level-badge";
 import { IconSearch, IconPlus, IconShare } from "@/components/icons";
 import { levelProgressPct, nextLevelName, remainToNext, todayKey, typeLabel } from "@/lib/levels";
 
-type TabKey = "all" | "dynamic" | "longform" | "work";
+type TabKey = "all" | "board" | "dynamic";
 
 const TABS: { key: TabKey; label: string }[] = [
   { key: "all", label: "全部" },
+  { key: "board", label: "贴吧" },
   { key: "dynamic", label: "动态" },
-  { key: "longform", label: "长文" },
-  { key: "work", label: "作品" },
 ];
 
 /** 个人内容条目：/api/posts?mine=1 为基础（含状态），/api/feed 补充 type */
@@ -174,17 +173,15 @@ export default function ProfilePage() {
 
   const visible = (items ?? []).filter((p) => {
     if (tab === "all") return true;
+    if (tab === "board") return p.type === "post" || p.type === "longform";
     if (tab === "dynamic") return p.type === "dynamic";
-    if (tab === "longform") return p.type === "longform";
-    if (tab === "work") return p.type === "poem" || p.type === "answer";
     return true;
   });
   const countOf = (key: TabKey) =>
     (items ?? []).filter((p) => {
       if (key === "all") return true;
+      if (key === "board") return p.type === "post" || p.type === "longform";
       if (key === "dynamic") return p.type === "dynamic";
-      if (key === "longform") return p.type === "longform";
-      if (key === "work") return p.type === "poem" || p.type === "answer";
       return true;
     }).length;
 

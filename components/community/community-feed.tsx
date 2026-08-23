@@ -246,7 +246,7 @@ export default function CommunityFeed() {
             <SectionSearch
               value={kw}
               onChange={onKwChange}
-              placeholder={isBoard ? "搜索帖子：标题、内容、作者…" : "搜索动态…"}
+              placeholder={isBoard ? "搜索贴吧讨论：标题、内容、作者…" : "搜索动态…"}
               className="w-full max-w-md"
             />
           </div>
@@ -287,7 +287,7 @@ export default function CommunityFeed() {
             <div className="mt-8 rounded-3xl border border-dashed border-gold/50 bg-surface-warm p-12 text-center">
               <p className="font-serif text-lg text-secondary-btn-text">
                 {kw.trim()
-                  ? `没有找到与「${kw.trim()}」相关的${isBoard ? "帖子" : "动态"}`
+                  ? `没有找到与「${kw.trim()}」相关的${isBoard ? "贴吧讨论" : "动态"}`
                   : tab === "following"
                     ? "你还没有关注任何人，去逛一逛，关注感兴趣的同好吧"
                     : isBoard
@@ -303,7 +303,7 @@ export default function CommunityFeed() {
             </div>
           )}
 
-          {/* 帖子/动态流（Twitter 式：无边框卡片，弱分割线） */}
+          {/* 贴吧讨论 / 动态流（Twitter 式：无边框卡片，弱分割线） */}
           <div className="mt-4">
             {posts?.map((p) => (
               <div

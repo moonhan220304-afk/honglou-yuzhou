@@ -152,6 +152,7 @@ export interface ContentItem {
   title: string;
   content: string;
   type: string;
+  images?: string[];
   like_count: number;
   view_count?: number;
   created_at: number;
