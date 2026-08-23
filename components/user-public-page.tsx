@@ -180,7 +180,7 @@ export default function UserPublicPage() {
                 </Link>
               ) : isSelf ? (
                 <Link
-                  href="/profile"
+                  href="/profile/edit"
                   className="inline-block rounded-full border border-gold/60 px-6 py-2.5 font-serif text-sm text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
                 >
                   编辑资料

@@ -220,14 +220,14 @@ export default function ProfilePage() {
             </button>
             <div className="flex items-center gap-2">
               <Link
-                href={sitePath("/search")}
+                href="/search"
                 aria-label="搜索"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-black/25 text-white backdrop-blur"
               >
                 <IconSearch className="h-5 w-5" />
               </Link>
               <Link
-                href={sitePath("/profile/edit")}
+                href="/profile/edit"
                 className="flex h-9 items-center rounded-full bg-white/90 px-3.5 text-xs font-medium text-primary shadow backdrop-blur"
               >
                 编辑资料
@@ -312,7 +312,7 @@ export default function ProfilePage() {
 
       {/* 右下角快捷发布（移动端） */}
       <Link
-        href={sitePath("/community/status")}
+        href="/community/status"
         aria-label="发动态"
         className="fixed bottom-24 right-4 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-paper shadow-lg md:hidden"
       >

@@ -27,7 +27,7 @@ export default function HeaderSearch() {
 
   const go = (s: ScopeKey) => {
     const q = kw.trim() ? `?q=${encodeURIComponent(kw.trim())}` : "";
-    router.push(sitePath(`${SCOPE_PATH[s]}${q}`));
+    router.push(`${SCOPE_PATH[s]}${q}`);
     setOpen(false);
     setKw("");
   };

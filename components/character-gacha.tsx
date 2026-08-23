@@ -221,7 +221,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
       {/* 查看全部 */}
       <div className="mt-6 text-center">
         <Link
-          href={sitePath("/characters/roster")}
+          href="/characters/roster"
           className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-5 py-2 text-sm text-body transition-colors hover:border-characters/50 hover:text-characters"
         >
           <IconGrid className="h-4 w-4" />

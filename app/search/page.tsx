@@ -19,7 +19,7 @@ export default function SearchPage() {
   const go = (s: (typeof SCOPES)[number]["key"]) => {
     const target = SCOPES.find((x) => x.key === s)!;
     const q = kw.trim() ? `?q=${encodeURIComponent(kw.trim())}` : "";
-    router.push(sitePath(`${target.href}${q}`));
+    router.push(`${target.href}${q}`);
   };
 
   return (

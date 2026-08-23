@@ -153,7 +153,7 @@ export default function AppSidebar() {
         {hovered ? (
           <>
             <WanderButton className="mb-2 hidden w-full rounded-full border border-gold/60 bg-surface/60 px-3 py-1.5 text-center font-serif text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary md:block" />
-            <UserMenu />
+            <UserMenu alignUp />
           </>
         ) : (
           <div className="flex justify-center">

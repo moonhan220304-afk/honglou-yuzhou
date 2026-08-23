@@ -358,9 +358,9 @@ function HomeContent({ me }: { me: Me | null }) {
               <p className="font-serif text-ink">园中今日尚静。</p>
               <p className="mt-2 text-sm text-muted">
                 去
-                <Link href={sitePath("/community")} className="mx-1 text-primary hover:underline">聊一聊</Link>
+                <Link href="/community" className="mx-1 text-primary hover:underline">聊一聊</Link>
                 或
-                <Link href={sitePath("/poem-society")} className="mx-1 text-primary hover:underline">海棠诗社</Link>
+                <Link href="/poem-society" className="mx-1 text-primary hover:underline">海棠诗社</Link>
                 发第一帖，就能在这里露脸。
               </p>
             </div>
@@ -412,7 +412,7 @@ function HomeContent({ me }: { me: Me | null }) {
               </div>
               <p className="mt-3 text-xs text-muted">积分 {me.points ?? 0} · 关注 {me.followers ?? 0}</p>
               <Link
-                href={sitePath("/profile")}
+                href="/profile"
                 className="mt-3 block rounded-full border border-primary/40 text-center text-xs text-primary transition-colors hover:bg-primary hover:text-white"
                 style={{ padding: "6px 0" }}
               >
@@ -424,7 +424,7 @@ function HomeContent({ me }: { me: Me | null }) {
               <p className="font-serif text-sm text-ink">欢迎来大观园</p>
               <p className="mt-1.5 text-xs leading-relaxed text-muted">登录后可以发帖、写诗、签到赚积分升级。</p>
               <Link
-                href={sitePath("/login")}
+                href="/login"
                 className="mt-3 block rounded-full bg-primary text-center text-xs text-white transition-colors hover:bg-primary-deep"
                 style={{ padding: "7px 0" }}
               >

@@ -6,8 +6,9 @@ import { api, fetchMe, sitePath } from "@/lib/api";
 import type { Me } from "@/lib/api";
 
 /** 顶部用户入口：未登录 → 登录/注册；已登录 → 用户名（点进个人中心）+ 下拉（个人中心/发帖/管理/退出）
- * 注意：管理后台是 nginx 根路径例外代理，必须用裸 <a href={sitePath("/admin")}>，不能经 next/link 加 basePath。 */
-export default function UserMenu() {
+ * 注意：管理后台是 nginx 根路径例外代理，必须用裸 <a href={sitePath("/admin")}>，不能经 next/link 加 basePath。
+ * alignUp：true 时下拉向上展开（用于侧栏底部等容器内，避免被 overflow 裁剪）。 */
+export default function UserMenu({ alignUp = false }: { alignUp?: boolean }) {
   const [me, setMe] = useState<Me | null | undefined>(undefined);
   const [open, setOpen] = useState(false);
   const [unread, setUnread] = useState(0);
@@ -123,7 +124,11 @@ export default function UserMenu() {
         </button>
       </div>
       {open && (
-        <div className="absolute right-0 top-10 z-50 w-40 overflow-hidden rounded-2xl border border-line/60 bg-surface p-1.5 shadow-hover">
+        <div
+          className={`absolute right-0 z-50 w-40 overflow-hidden rounded-2xl border border-line/60 bg-surface p-1.5 shadow-hover ${
+            alignUp ? "bottom-full mb-2" : "top-10"
+          }`}
+        >
           <Link
             href="/profile"
             onClick={() => setOpen(false)}

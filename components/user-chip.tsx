@@ -55,7 +55,7 @@ export default function UserChip({
 
   if (href) {
     return (
-      <Link href={sitePath(href)} className={cls} title={`查看 ${username} 的主页`}>
+      <Link href={href} className={cls} title={`查看 ${username} 的主页`}>
         {body}
       </Link>
     );

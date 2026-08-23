@@ -193,7 +193,7 @@ export default function MHome() {
             ) : (
               <>
                 园中今日尚静，去
-                <Link href={sitePath("/poem-society")} className="mx-0.5 text-primary">
+                <Link href="/poem-society" className="mx-0.5 text-primary">
                   海棠诗社
                 </Link>
                 写第一首诗吧

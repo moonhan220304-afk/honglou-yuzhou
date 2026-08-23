@@ -91,7 +91,7 @@ export default function MDrawer({ open, onClose }: { open: boolean; onClose: () 
           {me === undefined ? (
             <div className="h-14 w-14 rounded-full bg-line/40" />
           ) : me ? (
-            <Link href={sitePath("/profile")} onClick={onClose} className="flex items-center gap-3">
+            <Link href="/profile" onClick={onClose} className="flex items-center gap-3">
               {me.avatar ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img loading="lazy" src={sitePath(me.avatar)} alt="头像" className="h-14 w-14 rounded-full border-2 border-gold object-cover" />
@@ -109,10 +109,10 @@ export default function MDrawer({ open, onClose }: { open: boolean; onClose: () 
             </Link>
           ) : (
             <div className="flex gap-2">
-              <Link href={sitePath("/login")} onClick={onClose} className="rounded-full border border-gold/60 px-5 py-2 font-serif text-sm text-secondary-btn-text">
+              <Link href="/login" onClick={onClose} className="rounded-full border border-gold/60 px-5 py-2 font-serif text-sm text-secondary-btn-text">
                 登录
               </Link>
-              <Link href={sitePath("/register")} onClick={onClose} className="rounded-full bg-primary px-5 py-2 font-serif text-sm text-paper">
+              <Link href="/register" onClick={onClose} className="rounded-full bg-primary px-5 py-2 font-serif text-sm text-paper">
                 注册
               </Link>
             </div>
@@ -127,7 +127,7 @@ export default function MDrawer({ open, onClose }: { open: boolean; onClose: () 
               {g.items.map((it) => (
                 <Link
                   key={it.href + it.label}
-                  href={sitePath(it.href)}
+                  href={it.href}
                   onClick={onClose}
                   className="flex items-center justify-between px-5 py-2.5 text-[15px] text-ink transition-colors active:bg-surface"
                 >

@@ -27,7 +27,7 @@ export default function AskQuestionPage() {
     }
     const me = await fetchMe();
     if (!me) {
-      router.push(sitePath("/login"));
+      router.push("/login");
       return;
     }
     setBusy(true);
@@ -42,7 +42,7 @@ export default function AskQuestionPage() {
         setErr(r.msg ?? "发布失败");
         return;
       }
-      router.push(sitePath("/community/post/?id=" + r.id));
+      router.push("/community/post/?id=" + r.id);
     } catch (ex) {
       setErr(ex instanceof Error ? ex.message : "发布失败");
     } finally {
