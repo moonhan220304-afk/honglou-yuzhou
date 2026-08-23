@@ -13,13 +13,15 @@ const TABS = [
 /** 海棠诗社页内导航：诗题 / 填字 / 飞花 / 佳作集 */
 export default function PoemSocietyNav() {
   const pathname = usePathname();
+  // trailingSlash 导出下 usePathname 带尾斜杠，统一去掉再匹配
+  const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
   return (
     <nav className="flex flex-wrap items-center gap-1.5">
       {TABS.map((t) => {
         const active =
           t.href === "/poem-society"
-            ? pathname === "/poem-society" || pathname.startsWith("/poem-society/topic") || pathname.startsWith("/poem-society/compose")
-            : pathname === t.href || pathname.startsWith(`${t.href}/`);
+            ? path === "/poem-society" || path.startsWith("/poem-society/topic") || path.startsWith("/poem-society/compose")
+            : path === t.href || path.startsWith(`${t.href}/`);
         return (
           <Link
             key={t.href}

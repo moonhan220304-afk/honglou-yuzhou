@@ -73,6 +73,8 @@ const navSections = [
 
 export default function AppSidebar() {
   const pathname = usePathname();
+  // trailingSlash 导出下 usePathname 带尾斜杠（如 /poem-society/），统一去掉再匹配
+  const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
 
   return (
     <aside className="fixed inset-y-0 left-0 z-40 hidden w-[232px] flex-col border-r border-line bg-paper-deep/95 backdrop-blur md:flex">
@@ -84,8 +86,8 @@ export default function AppSidebar() {
       <nav className="flex-1 space-y-1 overflow-y-auto px-3">
         {navSections.map((sec) => {
           const Icon = sec.icon;
-          const active = sec.match(pathname);
-          const childActive = sec.children?.some((c) => c.match(pathname));
+          const active = sec.match(path);
+          const childActive = sec.children?.some((c) => c.match(path));
           return (
             <div key={sec.href}>
               <Link
@@ -102,7 +104,7 @@ export default function AppSidebar() {
               {sec.children && (active || childActive) && (
                 <div className="ml-3 mt-1 space-y-0.5 border-l border-line pl-2.5">
                   {sec.children.map((c) => {
-                    const on = c.match(pathname);
+                    const on = c.match(path);
                     return (
                       <Link
                         key={c.href}
