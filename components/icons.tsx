@@ -106,6 +106,13 @@ export const IconShare = (p: SVGProps<SVGSVGElement>) => (
   </Svg>
 );
 
+/** 转发（X 风格回转箭头） */
+export const IconRepost = (p: SVGProps<SVGSVGElement>) => (
+  <Svg {...p}>
+    <path d="M17.5 3.5 21 7l-3.5 3.5M21 7H7a3 3 0 0 0-3 3v1M6.5 20.5 3 17l3.5-3.5M3 17h14a3 3 0 0 0 3-3v-1" />
+  </Svg>
+);
+
 export const IconBell = (p: SVGProps<SVGSVGElement>) => (
   <Svg {...p}>
     <path d="M6 9.5a6 6 0 0 1 12 0c0 5 2 6 2 6H4s2-1 2-6" />

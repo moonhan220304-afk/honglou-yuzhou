@@ -206,6 +206,14 @@ CREATE TABLE IF NOT EXISTS ai_reviews (
 );
 CREATE INDEX IF NOT EXISTS idx_ai_reviews_post ON ai_reviews(post_id);
 `);
+/* 迁移：posts 增加转发字段（repost_of=原帖id；repost_note=转发时的话） */
+const postsCols2 = db.prepare("PRAGMA table_info(posts)").all().map((c) => c.name);
+if (!postsCols2.includes("repost_of")) {
+  db.exec("ALTER TABLE posts ADD COLUMN repost_of INTEGER");
+}
+if (!postsCols2.includes("repost_note")) {
+  db.exec("ALTER TABLE posts ADD COLUMN repost_note TEXT");
+}
 /* 迁移：topics 增加 official（官方内容标记 1=官方 0=用户出题） */
 const topicCols = db.prepare("PRAGMA table_info(topics)").all().map((c) => c.name);
 if (!topicCols.includes("official")) {
@@ -494,17 +502,41 @@ function postView(p, viewer) {
       quote = null;
     }
   }
+  /* 转发信息：repost_of 原帖 + 原帖作者 */
+  let repost = null;
+  if (p.repost_of) {
+    const orig = db.prepare(
+      "SELECT o.*, ou.username AS orig_author FROM posts o JOIN users ou ON ou.id = o.author_id WHERE o.id = ?"
+    ).get(p.repost_of);
+    if (orig) {
+      let origImgs = [];
+      try {
+        const parsed = JSON.parse(orig.images || "[]");
+        if (Array.isArray(parsed)) origImgs = parsed.filter((x) => typeof x === "string" && x.startsWith("/uploads/"));
+      } catch {}
+      repost = {
+        id: orig.id,
+        title: orig.title,
+        content: orig.content,
+        images: origImgs,
+        author: { id: orig.author_id, username: orig.orig_author },
+        created_at: orig.created_at,
+      };
+    }
+  }
   return {
     id: p.id,
     title: p.title,
     content: p.content,
     tag: p.tag,
+    type: p.type || "post",
     images: JSON.parse(p.images || "[]"),
     status: p.status,
     like_count: p.like_count,
     view_count: p.view_count,
     question_id: p.question_id ?? null,
     quote,
+    repost,
     author: { id: p.author_id, username: p.author_username },
     created_at: p.created_at,
   };
@@ -969,6 +1001,8 @@ const server = http.createServer(async (req, res) => {
       const sort = url.searchParams.get("sort") || "new";
       const page = Math.max(1, Number(url.searchParams.get("page")) || 1);
       const kw = (url.searchParams.get("q") || "").trim();
+      /* 板块过滤：scope=board 贴吧讨论（type=post）；scope=dynamic 今日动态（type=dynamic） */
+      const scope = url.searchParams.get("scope") || "";
       const per = 20;
       const conds = [];
       const args = [];
@@ -984,6 +1018,11 @@ const server = http.createServer(async (req, res) => {
         conds.push("p.status != 'removed'");
       } else {
         conds.push("p.status = 'approved'");
+      }
+      if (scope === "board") {
+        conds.push("p.type = 'post'");
+      } else if (scope === "dynamic") {
+        conds.push("p.type = 'dynamic'");
       }
       if (tag && tag !== "全部") {
         conds.push("p.tag = ?");
@@ -1398,6 +1437,8 @@ const server = http.createServer(async (req, res) => {
       const viewer = sessionUser(req);
       const tab = url.searchParams.get("tab") || "hot";
       const per = Math.min(30, Number(url.searchParams.get("per")) || 12);
+      /* 板块过滤：scope=board 贴吧讨论（type=post）；scope=dynamic 今日动态（type=dynamic） */
+      const scope = url.searchParams.get("scope") || "";
       const conds = ["p.status = 'approved'"];
       const args = [];
       if (tab === "mine") {
@@ -1411,13 +1452,15 @@ const server = http.createServer(async (req, res) => {
         conds.push("p.author_id IN (SELECT followee_id FROM follows WHERE follower_id = ?)");
         args.push(viewer.id);
       }
+      if (scope === "board") conds.push("p.type = 'post'");
+      else if (scope === "dynamic") conds.push("p.type = 'dynamic'");
       const order =
         tab === "mine" ? "p.created_at DESC" :
         tab === "new" ? "p.created_at DESC" :
         tab === "following" ? "p.created_at DESC" :
         "(p.like_count * 3 + p.view_count / 5) DESC, p.created_at DESC";
       const rows = db.prepare(
-        `SELECT p.id, p.author_id, p.title, p.content, p.tag, p.type, p.topic_id, p.like_count, p.view_count, p.created_at,
+        `SELECT p.id, p.author_id, p.title, p.content, p.tag, p.type, p.topic_id, p.images, p.repost_of, p.like_count, p.view_count, p.created_at,
                 u.username AS author_name, u.avatar AS author_avatar, u.points AS author_points
          FROM posts p JOIN users u ON u.id = p.author_id
          WHERE ${conds.join(" AND ")} ORDER BY ${order} LIMIT ?`
@@ -1425,12 +1468,55 @@ const server = http.createServer(async (req, res) => {
       return send(res, 200, {
         ok: true,
         tab,
-        items: rows.map((r) => ({
-          id: r.id, title: r.title, content: r.content, tag: r.tag, type: r.type,
-          topic_id: r.topic_id, like_count: r.like_count, view_count: r.view_count, created_at: r.created_at,
-          author: { id: r.author_id, username: r.author_name, avatar: r.author_avatar, points: r.author_points },
-        })),
+        items: rows.map((r) => {
+          let imgs = [];
+          try {
+            const parsed = JSON.parse(r.images || "[]");
+            if (Array.isArray(parsed)) imgs = parsed.filter((x) => typeof x === "string" && x.startsWith("/uploads/"));
+          } catch {}
+          let repost = null;
+          if (r.repost_of) {
+            const o = db.prepare(
+              "SELECT o.id, o.title, o.content, o.images, ou.username AS orig_author FROM posts o JOIN users ou ON ou.id = o.author_id WHERE o.id = ?"
+            ).get(r.repost_of);
+            if (o) {
+              let oImgs = [];
+              try {
+                const parsed = JSON.parse(o.images || "[]");
+                if (Array.isArray(parsed)) oImgs = parsed.filter((x) => typeof x === "string" && x.startsWith("/uploads/"));
+              } catch {}
+              repost = { id: o.id, title: o.title, content: o.content, images: oImgs, author: { username: o.orig_author } };
+            }
+          }
+          return {
+            id: r.id, title: r.title, content: r.content, tag: r.tag, type: r.type,
+            topic_id: r.topic_id, images: imgs, repost, like_count: r.like_count, view_count: r.view_count, created_at: r.created_at,
+            author: { id: r.author_id, username: r.author_name, avatar: r.author_avatar, points: r.author_points },
+          };
+        }),
       });
+    }
+
+    /* 转发：引用原帖发新帖（repost_of 指向原帖，repost_note 是转发时的话） */
+    if (url.pathname === "/api/repost" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { post_id, content } = JSON.parse(body || "{}");
+      const pid = Number(post_id);
+      const orig = db.prepare("SELECT * FROM posts WHERE id = ? AND status = 'approved'").get(pid);
+      if (!orig) return send(res, 404, { ok: false, msg: "原帖不存在" });
+      const note = String(content || "").trim();
+      if (!note) return send(res, 400, { ok: false, msg: "写点什么再转发吧" });
+      if (note.length > 2000) return send(res, 400, { ok: false, msg: "转发内容最多 2000 字" });
+      const hit = sensitiveHit(note);
+      const status = hit ? "pending" : "approved";
+      const info = db.prepare(
+        "INSERT INTO posts (author_id, title, content, tag, images, status, type, repost_of, repost_note, created_at, reviewed_at, reviewed_by) VALUES (?, ?, ?, ?, ?, ?, 'dynamic', ?, ?, ?, ?, ?)"
+      ).run(u.id, "", note, "今日动态", "[]", status, pid, note, Date.now(), hit ? null : Date.now(), hit ? null : 0);
+      if (hit) appendLine("moderation.jsonl", { ts: Date.now(), kind: "post", id: Number(info.lastInsertRowid), word: hit, user: u.username });
+      logAudit(u.id, u.username, "转发", `转发原帖 #${pid}`, hit ? "命中敏感词，待人工审核" : "自动审核通过");
+      return send(res, 200, { ok: true, id: Number(info.lastInsertRowid), msg: hit ? "已提交，内容含敏感词，转人工审核" : "转发成功" });
     }
 
     /* 诗社题目列表：kind=poem_topic|fill|feihua&difficulty= */

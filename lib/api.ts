@@ -42,17 +42,28 @@ export interface PostQuote {
   summary?: string;
 }
 
+export interface PostRepost {
+  id: number;
+  title: string;
+  content: string;
+  images: string[];
+  author: { id?: number; username: string };
+  created_at?: number;
+}
+
 export interface PostSummary {
   id: number;
   title: string;
   content: string;
   tag: string;
+  type?: string;
   images: string[];
   status: string;
   like_count: number;
   view_count: number;
   question_id: string | null;
   quote: PostQuote | null;
+  repost?: PostRepost | null;
   author: { id: number; username: string };
   created_at: number;
 }

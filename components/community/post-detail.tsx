@@ -9,7 +9,8 @@ import { formatTime, renderContent, QuoteBlock, QuestionSourceBadge } from "@/li
 import CommentThread from "@/components/community/comment-thread";
 import ShareCardModal from "@/components/community/share-card-modal";
 import type { ShareCardData } from "@/components/community/share-card-modal";
-import { IconHeart, IconMessage, IconShare, IconEye, IconFlame } from "@/components/icons";
+import RepostComposer from "@/components/community/repost-composer";
+import { IconHeart, IconMessage, IconShare, IconRepost, IconEye, IconFlame } from "@/components/icons";
 
 export default function PostDetail() {
   const router = useRouter();
@@ -26,6 +27,7 @@ export default function PostDetail() {
   const [err, setErr] = useState("");
   const [zoomImg, setZoomImg] = useState<string | null>(null);
   const [shareData, setShareData] = useState<ShareCardData | null>(null);
+  const [repostOpen, setRepostOpen] = useState(false);
   const [hotPosts, setHotPosts] = useState<PostSummary[]>([]);
 
   useEffect(() => {
@@ -174,17 +176,49 @@ export default function PostDetail() {
             <div className="mt-4 text-[15px] leading-relaxed text-body">{renderContent(post.content)}</div>
             {!post.quote && post.question_id && <QuestionSourceBadge questionId={post.question_id} className="mt-3" />}
 
+            {/* 转发来源卡（X 风格） */}
+            {post.repost && (
+              <div className="mt-4 rounded-2xl border border-line/70 bg-paper-deep/40 p-4">
+                <p className="flex items-center gap-1.5 text-xs text-muted">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10 font-serif text-[11px] text-primary">
+                    {post.repost.author.username.slice(0, 1)}
+                  </span>
+                  <span className="font-medium text-body">@{post.repost.author.username}</span>
+                </p>
+                {post.repost.title && (
+                  <p className="mt-2 font-serif text-base font-semibold text-ink">{post.repost.title}</p>
+                )}
+                <p className="mt-1.5 text-sm leading-relaxed text-body">{post.repost.content}</p>
+                {post.repost.images && post.repost.images.length > 0 && (
+                  <div className="mt-3 grid gap-2">
+                    {post.repost.images.map((u, i) => (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        key={u}
+                        loading="lazy"
+                        src={sitePath(u)}
+                        alt={`原帖图${i + 1}`}
+                        className="w-full rounded-xl object-cover"
+                        style={{ maxHeight: "60vh" }}
+                      />
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* 配图：按原比例展示（竖版竖显、横版横显，不固定裁剪） */}
             {post.images.length > 0 && (
-              <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              <div className={`mt-5 grid gap-2 ${post.images.length > 1 ? "grid-cols-2" : "grid-cols-1"}`}>
                 {post.images.map((u, i) => (
                   <button
                     key={u}
                     type="button"
                     onClick={() => setZoomImg(u)}
-                    className="overflow-hidden rounded-2xl border border-line"
+                    className="overflow-hidden rounded-xl"
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img loading="lazy" src={sitePath(u)} alt={`配图${i + 1}`} className="h-56 w-full object-cover transition-transform hover:scale-105" />
+                    <img loading="lazy" src={sitePath(u)} alt={`配图${i + 1}`} className="w-full object-cover" style={{ maxHeight: "70vh" }} />
                   </button>
                 ))}
               </div>
@@ -224,10 +258,17 @@ export default function PostDetail() {
                   <IconEye className="h-4 w-4" />
                   {post.view_count}
                 </span>
-                <button type="button" onClick={sharePost} className="flex items-center gap-1.5 hover:text-primary">
-                  <IconShare className="h-4 w-4" />
-                  分享
-                </button>
+                {post.type === "dynamic" ? (
+                  <button type="button" onClick={() => setRepostOpen(true)} className="flex items-center gap-1.5 hover:text-primary">
+                    <IconRepost className="h-4 w-4" />
+                    转发
+                  </button>
+                ) : (
+                  <button type="button" onClick={sharePost} className="flex items-center gap-1.5 hover:text-primary">
+                    <IconShare className="h-4 w-4" />
+                    分享
+                  </button>
+                )}
               </div>
             )}
             {err && <p className="mt-2 text-xs text-danger">{err}</p>}
@@ -344,6 +385,24 @@ export default function PostDetail() {
       )}
 
       <ShareCardModal data={shareData} onClose={() => setShareData(null)} />
+
+      {/* 转发弹层 */}
+      {repostOpen && post && (
+        <RepostComposer
+          original={{
+            id: post.id,
+            username: post.author.username,
+            content: post.content,
+            title: post.title,
+            images: post.images,
+          }}
+          onClose={() => setRepostOpen(false)}
+          onDone={() => {
+            setRepostOpen(false);
+            loadDetail();
+          }}
+        />
+      )}
     </div>
   );
 }

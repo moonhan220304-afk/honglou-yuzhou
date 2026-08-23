@@ -78,8 +78,8 @@ export default function MobileNav() {
             </div>
             <div className="mt-4 grid grid-cols-3 gap-3">
               {[
-                { href: "/community/status", label: "发动态", icon: IconMessage, desc: "一句话心境" },
-                { href: "/community/new", label: "写长文", icon: IconQuill, desc: "标题 + 正文" },
+                { href: "/community/status", label: "发动态", icon: IconMessage, desc: "今日动态 · 短图文" },
+                { href: "/community/new", label: "写长文", icon: IconQuill, desc: "贴吧讨论 · 标题+正文" },
                 { href: "/poem-society/compose", label: "发诗", icon: IconQuill, desc: "参与诗题" },
               ].map((o) => (
                 <Link
