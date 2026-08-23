@@ -1627,6 +1627,25 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  /* 上传图片读取：GET /uploads/:file（写入时生成，nginx 已反代 /honglou-yuzhou/uploads/ → :4000/uploads/） */
+  if (req.method === "GET") {
+    const uploadMatch = url.pathname.match(/^\/uploads\/([^/]+)$/);
+    if (uploadMatch) {
+      const name = uploadMatch[1];
+      if (!/^[A-Za-z0-9._-]+$/.test(name)) return send(res, 400, { ok: false, msg: "非法文件名" });
+      const filePath = path.join(UPLOAD_DIR, name);
+      if (!fs.existsSync(filePath)) return send(res, 404, { ok: false, msg: "文件不存在" });
+      const ext = path.extname(name).toLowerCase().replace(".", "");
+      const mimeMap = { jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", webp: "image/webp", gif: "image/gif", svg: "image/svg+xml" };
+      res.writeHead(200, {
+        "Content-Type": mimeMap[ext] || "application/octet-stream",
+        "Cache-Control": "public, max-age=86400",
+      });
+      fs.createReadStream(filePath).pipe(res);
+      return;
+    }
+  }
+
   if (!res.headersSent) send(res, 404, { ok: false });
 });
 
