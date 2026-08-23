@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { api, fetchMe, sitePath } from "@/lib/api";
 import type { Me } from "@/lib/api";
+import { applyTheme, getStoredTheme, type ThemeMode } from "@/lib/theme";
 
 /** 顶部用户入口：未登录 → 登录/注册；已登录 → 用户名（点进个人中心）+ 下拉（个人中心/发帖/管理/退出）
  * 注意：管理后台是 nginx 根路径例外代理，必须用裸 <a href={sitePath("/admin")}>，不能经 next/link 加 basePath。
@@ -12,10 +13,21 @@ export default function UserMenu({ alignUp = false }: { alignUp?: boolean }) {
   const [me, setMe] = useState<Me | null | undefined>(undefined);
   const [open, setOpen] = useState(false);
   const [unread, setUnread] = useState(0);
+  const [theme, setTheme] = useState<ThemeMode>("system");
 
   useEffect(() => {
     fetchMe().then(setMe);
   }, []);
+
+  useEffect(() => {
+    setTheme(getStoredTheme());
+  }, []);
+
+  const cycleTheme = () => {
+    const next: ThemeMode = theme === "light" ? "dark" : theme === "dark" ? "system" : "light";
+    setTheme(next);
+    applyTheme(next);
+  };
 
   useEffect(() => {
     if (!me) return;
@@ -169,6 +181,18 @@ export default function UserMenu({ alignUp = false }: { alignUp?: boolean }) {
           >
             我的帖子
           </Link>
+          <button
+            type="button"
+            onClick={() => {
+              cycleTheme();
+            }}
+            className="flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm text-body transition-colors hover:bg-paper-deep hover:text-primary"
+          >
+            <span>明暗主题</span>
+            <span className="text-[11px] text-muted">
+              {theme === "dark" ? "深色" : theme === "light" ? "浅色" : "跟随系统"}
+            </span>
+          </button>
           {me.role === "admin" && (
             <a
               href={sitePath("/admin")}

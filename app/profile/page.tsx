@@ -11,8 +11,9 @@ import { getCharacter } from "@/lib/data";
 import { characterImages } from "@/lib/images";
 import TestResultShare from "@/components/test-result-share";
 import type { TestShareData } from "@/components/test-result-share";
+import ProfileShareCard from "@/components/profile-share-card";
 import LevelBadge from "@/components/level-badge";
-import { IconArrowLeft, IconSearch, IconPlus } from "@/components/icons";
+import { IconArrowLeft, IconSearch, IconPlus, IconShare } from "@/components/icons";
 import { levelProgressPct, nextLevelName, remainToNext, todayKey, typeLabel } from "@/lib/levels";
 
 type TabKey = "all" | "dynamic" | "longform" | "work";
@@ -51,6 +52,7 @@ export default function ProfilePage() {
   const [myTest, setMyTest] = useState<{ archetypeId: string; characterId: string } | null | undefined>(undefined);
   const [testStats, setTestStats] = useState<TestStats | null>(null);
   const [shareOpen, setShareOpen] = useState(false);
+  const [cardOpen, setCardOpen] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -226,12 +228,14 @@ export default function ProfilePage() {
               >
                 <IconSearch className="h-5 w-5" />
               </Link>
-              <Link
-                href="/profile/edit"
-                className="flex h-9 items-center rounded-full bg-white/90 px-3.5 text-xs font-medium text-primary shadow backdrop-blur"
+              <button
+                type="button"
+                onClick={() => setCardOpen(true)}
+                className="flex h-9 items-center gap-1.5 rounded-full bg-white/90 px-3.5 text-xs font-medium text-primary shadow backdrop-blur"
               >
-                编辑资料
-              </Link>
+                <IconShare className="h-3.5 w-3.5" />
+                分享
+              </button>
             </div>
           </div>
           <p className="absolute bottom-2 right-4 text-[10px] tracking-[0.3em] text-white/70 drop-shadow">一梦红楼 · 我的空间</p>
@@ -255,14 +259,13 @@ export default function ProfilePage() {
                 <LevelBadge level={level} levelName={levelName} />
               </div>
               {me.signature && <p className="mt-2 font-serif text-[13px] text-gold">「{me.signature}」</p>}
+              <Link
+                href="/profile/edit"
+                className="mt-3 inline-flex items-center gap-1 rounded-full border border-gold/60 px-3.5 py-1.5 text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
+              >
+                编辑资料
+              </Link>
             </div>
-          </div>
-
-          {/* @账号 / 角色 / 注册于：头像下方（左对齐） */}
-          <div className="mt-4 space-y-1.5 border-t border-line-inner/60 pt-3">
-            <p className="text-xs text-muted">@{me.id}</p>
-            <p className="text-xs text-muted">{me.role === "admin" ? "管理员" : "社友"}</p>
-            <p className="text-xs text-muted">注册于 {formatTime(me.created_at)}</p>
           </div>
 
           {/* 数据条：关注 / 粉丝 / 内容 */}
@@ -525,6 +528,23 @@ export default function ProfilePage() {
           </div>
         </aside>
       </div>
+
+      {/* 个人名片分享卡 */}
+      <ProfileShareCard
+        data={
+          cardOpen && me
+            ? {
+                username: me.username,
+                avatar: me.avatar,
+                signature: me.signature,
+                level: level,
+                levelName: levelName,
+                profileUrl: typeof window !== "undefined" ? `${window.location.origin}${sitePath(`/u?id=${me.id}`)}` : sitePath(`/u?id=${me.id}`),
+              }
+            : null
+        }
+        onClose={() => setCardOpen(false)}
+      />
     </div>
   );
 }
