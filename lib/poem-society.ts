@@ -13,6 +13,7 @@ export interface TopicInfo {
   theme: string | null;
   difficulty: string;
   is_current: number;
+  official: number;
   like_count: number;
   created_at: number;
   join_count: number;

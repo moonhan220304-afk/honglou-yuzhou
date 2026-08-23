@@ -12,6 +12,7 @@ import {
 } from "@/lib/poem-society";
 import PoemSocietyNav from "@/components/poem-society/poem-society-nav";
 import SectionHero from "@/components/section-hero";
+import TopicComposer, { requireLoginForCompose } from "@/components/poem-society/topic-composer";
 
 const KIND_META: Record<Exclude<TopicKind, "poem_topic">, { title: string; desc: string; unit: string }> = {
   fill: {
@@ -32,12 +33,22 @@ const DIFF_BADGE: Record<string, string> = {
   advanced: "bg-primary/10 text-primary",
 };
 
+/** 官方小标签（与诗题页共用样式） */
+export function OfficialBadge() {
+  return (
+    <span className="inline-flex items-center rounded-full bg-primary px-1.5 py-0.5 text-[10px] font-semibold leading-none text-paper">
+      官方
+    </span>
+  );
+}
+
 /** 填字 / 飞花 列表页：难度筛选 + 题目卡（同构，kind 区分） */
 export default function DifficultyList({ kind }: { kind: "fill" | "feihua" }) {
   const meta = KIND_META[kind];
   const [difficulty, setDifficulty] = useState("all");
   const [items, setItems] = useState<TopicInfo[] | null>(null);
   const [err, setErr] = useState("");
+  const [showCompose, setShowCompose] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -53,6 +64,10 @@ export default function DifficultyList({ kind }: { kind: "fill" | "feihua" }) {
       }
     })();
   }, [kind, difficulty]);
+
+  const openCompose = async () => {
+    if (await requireLoginForCompose()) setShowCompose(true);
+  };
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
@@ -113,6 +128,7 @@ export default function DifficultyList({ kind }: { kind: "fill" | "feihua" }) {
                 {isNewTopic(t.created_at) && (
                   <span className="rounded-full bg-primary px-2 py-0.5 font-medium text-paper">新</span>
                 )}
+                {t.official === 1 && <OfficialBadge />}
                 {t.theme && <span className="text-muted">主题 · {t.theme}</span>}
               </div>
               <h3 className="mt-3 font-serif text-lg font-semibold leading-snug text-ink group-hover:text-primary">
@@ -125,6 +141,34 @@ export default function DifficultyList({ kind }: { kind: "fill" | "feihua" }) {
             </Link>
           ))}
         </div>
+      )}
+
+      {/* 右下角：我来出题 */}
+      <button
+        type="button"
+        onClick={openCompose}
+        className="fixed bottom-24 right-6 z-40 rounded-full bg-primary px-4 py-2.5 font-serif text-sm text-paper shadow-hover transition-transform hover:scale-105 md:bottom-8 md:right-8"
+      >
+        我来出题
+      </button>
+
+      {showCompose && (
+        <TopicComposer
+          kind={kind}
+          onClose={() => setShowCompose(false)}
+          onCreated={() => {
+            (async () => {
+              try {
+                const r = await api<{ items: TopicInfo[] }>(
+                  `/api/topics?kind=${kind}&difficulty=${difficulty}`,
+                );
+                setItems(r.items);
+              } catch {
+                /* 忽略刷新失败 */
+              }
+            })();
+          }}
+        />
       )}
     </div>
   );

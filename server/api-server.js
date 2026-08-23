@@ -192,6 +192,7 @@ CREATE TABLE IF NOT EXISTS topics (
   difficulty TEXT NOT NULL DEFAULT 'intermediate',
   status TEXT NOT NULL DEFAULT 'active',
   is_current INTEGER NOT NULL DEFAULT 0,
+  official INTEGER NOT NULL DEFAULT 1,
   like_count INTEGER NOT NULL DEFAULT 0,
   created_at INTEGER NOT NULL
 );
@@ -205,6 +206,12 @@ CREATE TABLE IF NOT EXISTS ai_reviews (
 );
 CREATE INDEX IF NOT EXISTS idx_ai_reviews_post ON ai_reviews(post_id);
 `);
+/* 迁移：topics 增加 official（官方内容标记 1=官方 0=用户出题） */
+const topicCols = db.prepare("PRAGMA table_info(topics)").all().map((c) => c.name);
+if (!topicCols.includes("official")) {
+  db.exec("ALTER TABLE topics ADD COLUMN official INTEGER NOT NULL DEFAULT 1");
+}
+
 /* 种子话题：首次启动无话题时预置（诗题/填字/飞花） */
 const topicCount0 = db.prepare("SELECT COUNT(*) c FROM topics").get().c;
 if (topicCount0 === 0) {
@@ -221,9 +228,91 @@ if (topicCount0 === 0) {
     { kind: "feihua", title: "春风得意马蹄疾", content: "接下句，主题：春。", theme: "春", difficulty: "beginner", is_current: 0 },
     { kind: "feihua", title: "山重水复疑无路", content: "接下句，主题：行路。", theme: "行路", difficulty: "intermediate", is_current: 0 },
   ];
-  const insTopic = db.prepare("INSERT INTO topics (kind, title, content, theme, difficulty, is_current, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)");
+  const insTopic = db.prepare("INSERT INTO topics (kind, title, content, theme, difficulty, is_current, official, created_at) VALUES (?, ?, ?, ?, ?, ?, 1, ?)");
   for (const t of seedTopics) insTopic.run(t.kind, t.title, t.content, t.theme, t.difficulty, t.is_current, now0);
 }
+
+/* ===== 自动轮换：每周从内置题库把下一题设为当期（无需人工提醒） =====
+ * 题库池：官方题目（诗题/填字/飞花），启动时补入缺失题目；
+ * 每小时检查一次：若当期题已存在 ≥7 天，自动推进到池中下一题。 */
+const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+const TOPIC_POOL = [
+  { kind: "poem_topic", title: "咏荷", content: "当期诗题：咏荷——写一首与荷有关的诗，可咏其形、其香、其格，体裁不限。", theme: "咏物", difficulty: "beginner" },
+  { kind: "poem_topic", title: "思乡", content: "当期诗题：思乡——写一份对故土/亲人的念想，体裁不限。", theme: "思乡", difficulty: "intermediate" },
+  { kind: "poem_topic", title: "送别", content: "当期诗题：送别——长亭、折柳、劝酒，皆可入诗，体裁不限。", theme: "送别", difficulty: "intermediate" },
+  { kind: "poem_topic", title: "春雨", content: "当期诗题：春雨——听雨、看雨、喜雨、愁雨，自选角度，体裁不限。", theme: "咏物", difficulty: "beginner" },
+  { kind: "poem_topic", title: "秋夜", content: "当期诗题：秋夜——月色、虫声、孤灯，写一个秋夜的瞬间，体裁不限。", theme: "咏怀", difficulty: "intermediate" },
+  { kind: "poem_topic", title: "咏竹", content: "当期诗题：咏竹——写竹之风骨或竹下情景，体裁不限。", theme: "咏物", difficulty: "advanced" },
+  { kind: "poem_topic", title: "渔舟", content: "当期诗题：渔舟——江上渔火、钓竿蓑衣，写渔家之趣或隐逸之心，体裁不限。", theme: "咏怀", difficulty: "intermediate" },
+  { kind: "poem_topic", title: "赏花", content: "当期诗题：赏花——海棠、牡丹、杏花皆可，写赏花时的所见所感，体裁不限。", theme: "咏物", difficulty: "beginner" },
+  { kind: "poem_topic", title: "怀古", content: "当期诗题：怀古——凭吊一处古迹、一位古人，体裁不限。", theme: "怀古", difficulty: "advanced" },
+  { kind: "poem_topic", title: "冬日", content: "当期诗题：冬日——围炉、踏雪、呵手，写一个冬日场景，体裁不限。", theme: "咏怀", difficulty: "intermediate" },
+  { kind: "fill", title: "世人都晓［　］好，惟有功名忘不了", content: "好了歌首句，填 1 字。", theme: "好了歌", difficulty: "beginner" },
+  { kind: "fill", title: "满纸荒唐言，一把［　］泪", content: "开篇诗，填 1 字。", theme: "开篇诗", difficulty: "beginner" },
+  { kind: "fill", title: "假作真时真亦假，无为有处［　］", content: "太虚幻境联，填 1 字。", theme: "太虚幻境联", difficulty: "beginner" },
+  { kind: "fill", title: "好风凭借力，送我上［　］", content: "薛宝钗柳絮词，填 2 字。", theme: "柳絮词", difficulty: "beginner" },
+  { kind: "fill", title: "寒塘渡鹤影，冷月葬［　］", content: "凹晶馆联句（史湘云句），填 2 字。", theme: "凹晶馆联句", difficulty: "beginner" },
+  { kind: "fill", title: "玉带林中挂，金簪［　］", content: "金陵十二钗判词，填 2 字。", theme: "判词", difficulty: "beginner" },
+  { kind: "fill", title: "秋花惨淡秋草黄，耿耿秋灯［　］", content: "黛玉《秋窗风雨夕》，填 2 字。", theme: "秋窗风雨夕", difficulty: "beginner" },
+  { kind: "fill", title: "一畦春韭绿，十里［　］", content: "杏帘在望（稻香村），填 2 字。", theme: "杏帘在望", difficulty: "beginner" },
+  { kind: "fill", title: "偷来梨蕊［　］，借得梅花一缕魂", content: "黛玉咏白海棠，填 3 字。", theme: "咏白海棠", difficulty: "intermediate" },
+  { kind: "fill", title: "淡极始知［　］，愁多焉得玉无痕", content: "宝钗咏白海棠，填 3 字。", theme: "咏白海棠", difficulty: "intermediate" },
+  { kind: "fill", title: "毫端蕴秀临霜写，口齿噙香［　］", content: "黛玉咏菊，填 3 字。", theme: "咏菊", difficulty: "intermediate" },
+  { kind: "fill", title: "孤标傲世［　］，一样花开为底迟", content: "黛玉问菊，填 4 字。", theme: "问菊", difficulty: "intermediate" },
+  { kind: "fill", title: "眼空蓄泪［　］，暗洒闲抛却为谁", content: "黛玉题帕三绝，填 3 字。", theme: "题帕三绝", difficulty: "intermediate" },
+  { kind: "fill", title: "若将人泪［　］，泪自长流花自媚", content: "黛玉桃花行，填 3 字。", theme: "桃花行", difficulty: "intermediate" },
+  { kind: "fill", title: "半卷湘帘［　］，碾冰为土玉为盆", content: "湘云咏白海棠，填 3 字。", theme: "咏白海棠", difficulty: "intermediate" },
+  { kind: "fill", title: "玉在椟中求善价，钗于奁内［　］", content: "贾雨村中秋联句，填 3 字。", theme: "中秋联句", difficulty: "advanced" },
+  { kind: "fill", title: "秋阴捧出［　］，雨渍添来隔宿痕", content: "湘云咏白海棠，填 3 字。", theme: "咏白海棠", difficulty: "advanced" },
+  { kind: "fill", title: "欲洁何曾洁，云空［　］", content: "妙玉判词，填 3 字。", theme: "判词", difficulty: "advanced" },
+  { kind: "fill", title: "无故寻愁觅恨，有时［　］", content: "宝玉西江月，填 4 字。", theme: "西江月", difficulty: "advanced" },
+  { kind: "fill", title: "衔山抱水建来精，多少工夫［　］", content: "大观园题咏，填 3 字。", theme: "大观园题咏", difficulty: "advanced" },
+  { kind: "feihua", title: "春眠不觉晓", content: "接下句，主题：春。", theme: "春", difficulty: "beginner" },
+  { kind: "feihua", title: "举头望明月", content: "接下句，主题：月。", theme: "月", difficulty: "beginner" },
+  { kind: "feihua", title: "欲穷千里目", content: "接下句，主题：登高。", theme: "登高", difficulty: "beginner" },
+  { kind: "feihua", title: "海内存知己", content: "接下句，主题：送别。", theme: "送别", difficulty: "beginner" },
+  { kind: "feihua", title: "会当凌绝顶", content: "接下句，主题：登高。", theme: "登高", difficulty: "intermediate" },
+  { kind: "feihua", title: "长风破浪会有时", content: "接下句，主题：励志。", theme: "励志", difficulty: "intermediate" },
+  { kind: "feihua", title: "身无彩凤双飞翼", content: "接下句，主题：情。", theme: "情", difficulty: "intermediate" },
+  { kind: "feihua", title: "海上生明月", content: "接下句，主题：月。", theme: "月", difficulty: "intermediate" },
+  { kind: "feihua", title: "抽刀断水水更流", content: "接下句，主题：愁。", theme: "愁", difficulty: "advanced" },
+  { kind: "feihua", title: "问渠那得清如许", content: "接下句，主题：哲理。", theme: "哲理", difficulty: "advanced" },
+  { kind: "feihua", title: "白日依山尽", content: "接下句，主题：登高。", theme: "登高", difficulty: "beginner" },
+  { kind: "feihua", title: "独在异乡为异客", content: "接下句，主题：思乡。", theme: "思乡", difficulty: "intermediate" },
+  { kind: "feihua", title: "落霞与孤鹜齐飞", content: "接下句，主题：秋景。", theme: "秋景", difficulty: "advanced" },
+];
+function seedTopicPool() {
+  const ins = db.prepare("INSERT OR IGNORE INTO topics (kind, title, content, theme, difficulty, is_current, official, created_at) VALUES (?, ?, ?, ?, ?, 0, 1, ?)");
+  for (const t of TOPIC_POOL) {
+    const exists = db.prepare("SELECT id FROM topics WHERE kind = ? AND title = ?").get(t.kind, t.title);
+    if (!exists) ins.run(t.kind, t.title, t.content, t.theme, t.difficulty, Date.now());
+  }
+}
+function rotateCurrentTopics() {
+  const now = Date.now();
+  for (const kind of ["poem_topic", "fill", "feihua"]) {
+    const cur = db.prepare("SELECT * FROM topics WHERE kind = ? AND is_current = 1 AND status = 'active'").get(kind);
+    if (cur && now - cur.created_at < WEEK_MS) continue; // 当期未满一周，不轮换
+    // 找池中顺序里"下一题"：从未当过当期（created_at 最小优先）→ 否则取最旧的
+    const candidates = db.prepare(
+      "SELECT * FROM topics WHERE kind = ? AND status = 'active' AND official = 1 ORDER BY created_at ASC, id ASC"
+    ).all(kind);
+    if (candidates.length === 0) continue;
+    const next = cur
+      ? candidates.find((c) => c.id !== cur.id && c.id > cur.id) || candidates[0]
+      : candidates[0];
+    db.prepare("UPDATE topics SET is_current = 0 WHERE kind = ?").run(kind);
+    db.prepare("UPDATE topics SET is_current = 1 WHERE id = ?").run(next.id);
+    if (cur) {
+      // 把上一期题目的 created_at 置为现在，保证"往期"排序自然、且池中循环有依据
+      db.prepare("UPDATE topics SET created_at = ? WHERE id = ?").run(now, cur.id);
+    }
+    console.log(`[rotate] ${kind} 当期切换到 #${next.id} ${next.title}`);
+  }
+}
+seedTopicPool();
+rotateCurrentTopics();
+setInterval(rotateCurrentTopics, 60 * 60 * 1000);
 
 /* 引导：首个用户注册将成为管理员；用户表为空时预置一个初始邀请码 */
 const BOOTSTRAP_CODE = `HLM-${crypto.randomBytes(3).toString("hex").toUpperCase()}-${crypto.randomBytes(3).toString("hex").toUpperCase()}`;
@@ -1355,11 +1444,34 @@ const server = http.createServer(async (req, res) => {
         args.push(difficulty);
       }
       const rows = db.prepare(
-        `SELECT t.id, t.kind, t.title, t.content, t.theme, t.difficulty, t.is_current, t.like_count, t.created_at,
+        `SELECT t.id, t.kind, t.title, t.content, t.theme, t.difficulty, t.is_current, t.official, t.like_count, t.created_at,
                 (SELECT COUNT(*) FROM posts p WHERE p.topic_id = t.id AND p.status = 'approved') AS join_count
          FROM topics t WHERE ${conds.join(" AND ")} ORDER BY t.is_current DESC, t.created_at DESC`
       ).all(...args);
       return send(res, 200, { ok: true, items: rows });
+    }
+
+    /* 用户出题：登录用户可提交诗题/填字/飞花（官方=0，不抢占当期） */
+    if (url.pathname === "/api/topics" && req.method === "POST") {
+      const u = needAuth(req, res);
+      if (!u) return;
+      const body = await readBody(req, 10_000);
+      const { kind, title, content, theme, difficulty } = JSON.parse(body || "{}");
+      const k = String(kind || "");
+      if (!["poem_topic", "fill", "feihua"].includes(k)) return send(res, 400, { ok: false, msg: "题目类型无效" });
+      const t = String(title || "").trim();
+      if (!t) return send(res, 400, { ok: false, msg: "请填写题目内容" });
+      if (t.length > 80) return send(res, 400, { ok: false, msg: "题目最多 80 字" });
+      const c = String(content || "").trim().slice(0, 500);
+      const th = String(theme || "").trim().slice(0, 20) || null;
+      const df = ["beginner", "intermediate", "advanced"].includes(difficulty) ? difficulty : "intermediate";
+      const dup = db.prepare("SELECT id FROM topics WHERE kind = ? AND title = ?").get(k, t);
+      if (dup) return send(res, 400, { ok: false, msg: "这道题已经有人出过了" });
+      const info = db.prepare(
+        "INSERT INTO topics (kind, title, content, theme, difficulty, status, is_current, official, created_at) VALUES (?, ?, ?, ?, ?, 'active', 0, 0, ?)"
+      ).run(k, t, c, th, df, Date.now());
+      logAudit(u.id, u.username, "用户出题", `${k}:${t.slice(0, 30)}`, `官方=0，等待运营挑选`);
+      return send(res, 200, { ok: true, id: Number(info.lastInsertRowid) });
     }
 
     /* 话题详情（诗题/填字/飞花的作品流） */

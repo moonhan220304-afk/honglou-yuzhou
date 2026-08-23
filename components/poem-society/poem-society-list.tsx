@@ -6,11 +6,22 @@ import { api } from "@/lib/api";
 import { DIFFICULTY_LABEL, type TopicInfo } from "@/lib/poem-society";
 import PoemSocietyNav from "@/components/poem-society/poem-society-nav";
 import SectionHero from "@/components/section-hero";
+import TopicComposer, { requireLoginForCompose } from "@/components/poem-society/topic-composer";
+
+/** 官方小标签：官方发布的内容展示 */
+export function OfficialBadge() {
+  return (
+    <span className="inline-flex items-center rounded-full bg-primary px-1.5 py-0.5 text-[10px] font-semibold leading-none text-paper">
+      官方
+    </span>
+  );
+}
 
 /** 诗题列表：当期诗题大卡 + 往期列表（长期开放） */
 export default function PoemSocietyList() {
   const [items, setItems] = useState<TopicInfo[] | null>(null);
   const [err, setErr] = useState("");
+  const [showCompose, setShowCompose] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -26,6 +37,10 @@ export default function PoemSocietyList() {
 
   const current = items?.find((t) => t.is_current === 1) ?? null;
   const past = items?.filter((t) => t.is_current !== 1) ?? [];
+
+  const openCompose = async () => {
+    if (await requireLoginForCompose()) setShowCompose(true);
+  };
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
@@ -66,6 +81,7 @@ export default function PoemSocietyList() {
                 <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-primary">
                   {DIFFICULTY_LABEL[current.difficulty] || current.difficulty}
                 </span>
+                {current.official === 1 && <OfficialBadge />}
               </div>
               <h2 className="mt-4 font-serif text-2xl font-semibold leading-snug text-ink md:text-3xl">
                 #{current.title}#
@@ -75,6 +91,16 @@ export default function PoemSocietyList() {
                 <span className="rounded-full bg-primary px-5 py-2 font-serif text-sm text-paper">
                   去参与 →
                 </span>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openCompose();
+                  }}
+                  className="rounded-full border border-primary/40 px-5 py-2 font-serif text-sm text-primary transition-colors hover:bg-primary/10"
+                >
+                  我来出题
+                </button>
                 <span className="text-xs text-muted">
                   已有 <span className="font-serif text-sm font-semibold text-primary">{current.join_count}</span> 人参与
                 </span>
@@ -101,8 +127,11 @@ export default function PoemSocietyList() {
                     className="group rounded-2xl bg-surface p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-hover"
                   >
                     <div className="flex items-center justify-between gap-2">
-                      <span className="rounded-full bg-paper-deep px-2.5 py-0.5 text-xs text-muted">
-                        {DIFFICULTY_LABEL[t.difficulty] || t.difficulty}
+                      <span className="flex items-center gap-1.5">
+                        <span className="rounded-full bg-paper-deep px-2.5 py-0.5 text-xs text-muted">
+                          {DIFFICULTY_LABEL[t.difficulty] || t.difficulty}
+                        </span>
+                        {t.official === 1 && <OfficialBadge />}
                       </span>
                       <span className="text-xs text-muted">{t.join_count} 人参与</span>
                     </div>
@@ -117,6 +146,24 @@ export default function PoemSocietyList() {
           </section>
         </>
       )}
+
+      {showCompose && (
+        <TopicComposer
+          kind="poem_topic"
+          onClose={() => setShowCompose(false)}
+          onCreated={() => {
+            (async () => {
+              try {
+                const r = await api<{ items: TopicInfo[] }>("/api/topics?kind=poem_topic");
+                setItems(r.items);
+              } catch {
+                /* 忽略刷新失败 */
+              }
+            })();
+          }}
+        />
+      )}
     </div>
   );
 }
+
