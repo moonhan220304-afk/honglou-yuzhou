@@ -8,6 +8,7 @@ import { formatTime } from "@/lib/client-community";
 import type { PostDetailData, TopicInfo, TopicWork } from "@/lib/poem-society";
 import { cleanReview } from "@/lib/poem-society";
 import PoemSocietyNav from "@/components/poem-society/poem-society-nav";
+import SectionHero from "@/components/section-hero";
 import PoemShareModal, { type PoemShareData } from "@/components/poem-society/poem-share-modal";
 
 interface GalleryPoem extends TopicWork {
@@ -89,13 +90,12 @@ export default function PoemGallery() {
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
-      <header>
-        <p className="text-xs tracking-[0.3em] text-poem">POEM JOURNAL · 海棠诗社</p>
-        <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">红楼诗刊</h1>
-        <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">
-          各期诗题按热度遴选佳作，魁首、榜眼、探花，附评选理由。
-        </p>
-      </header>
+      <SectionHero
+        sector="poem"
+        eyebrow="POEM JOURNAL · 海棠诗社"
+        title="红楼诗刊"
+        description="各期诗题按热度遴选佳作，魁首、榜眼、探花，附评选理由。"
+      />
 
       <div className="mt-6">
         <PoemSocietyNav />

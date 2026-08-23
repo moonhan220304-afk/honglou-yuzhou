@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { kbPoems, characterName, chapterLabel } from "@/lib/data";
 import PoemRotator from "@/components/poem-rotator";
+import SectionHero from "@/components/section-hero";
 
 const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
@@ -15,11 +16,12 @@ export default function PoemsPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-14">
-      <p className="text-xs tracking-[0.3em] text-gold">POEMS</p>
-      <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">诗词</h1>
-      <p className="mt-3 max-w-2xl text-sm leading-relaxed text-body">
-        海棠诗社之外，还有这些书中的诗词歌赋——每日一首，细品其中滋味。
-      </p>
+      <SectionHero
+        sector="characters"
+        eyebrow="POEMS"
+        title="诗词"
+        description="海棠诗社之外，还有这些书中的诗词歌赋——每日一首，细品其中滋味。"
+      />
 
       <div className="card-print card-print--timeline mt-8 rounded-2xl bg-surface p-6">
         <h2 className="flex items-center gap-3 font-serif text-xl font-semibold text-ink">

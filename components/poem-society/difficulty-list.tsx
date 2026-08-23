@@ -11,6 +11,7 @@ import {
   type TopicKind,
 } from "@/lib/poem-society";
 import PoemSocietyNav from "@/components/poem-society/poem-society-nav";
+import SectionHero from "@/components/section-hero";
 
 const KIND_META: Record<Exclude<TopicKind, "poem_topic">, { title: string; desc: string; unit: string }> = {
   fill: {
@@ -55,11 +56,12 @@ export default function DifficultyList({ kind }: { kind: "fill" | "feihua" }) {
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-14">
-      <header>
-        <p className="text-xs tracking-[0.3em] text-poem">POEM SOCIETY · 海棠诗社</p>
-        <h1 className="mt-2 font-serif text-3xl font-semibold text-ink">{meta.title}</h1>
-        <p className="mt-3 max-w-xl text-sm leading-relaxed text-body">{meta.desc}</p>
-      </header>
+      <SectionHero
+        sector="poem"
+        eyebrow="POEM SOCIETY · 海棠诗社"
+        title={meta.title}
+        description={meta.desc}
+      />
 
       <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
         <PoemSocietyNav />
