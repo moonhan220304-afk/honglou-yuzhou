@@ -128,7 +128,7 @@ export default function CommentThread({
           <button
             type="button"
             onClick={() => likeComment(shown)}
-            className={`transition-colors ${shown.liked ? "text-primary" : "hover:text-primary"}`}
+            className={`flex items-center gap-1 transition-colors ${shown.liked ? "text-primary" : "hover:text-primary"}`}
           >
             {shown.liked ? <><IconHeart className="h-3.5 w-3.5 fill-primary text-primary" /> 已赞</> : <><IconHeart className="h-3.5 w-3.5" /> 赞</>} {shown.like_count > 0 ? shown.like_count : ""}
           </button>

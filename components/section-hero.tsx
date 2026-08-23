@@ -43,6 +43,8 @@ interface SectionHeroProps {
   title: string;
   description?: string;
   actions?: ReactNode;
+  /** true 时不渲染底部 border（聊一聊等需要 Tab 紧贴的场景） */
+  noBorder?: boolean;
 }
 
 export default function SectionHero({
@@ -51,9 +53,10 @@ export default function SectionHero({
   title,
   description,
   actions,
+  noBorder = false,
 }: SectionHeroProps) {
   return (
-    <section className="border-b border-line/70 pb-6">
+    <section className={noBorder ? "pb-6" : "border-b border-line/70 pb-6"}>
       <div className="flex items-center gap-3">
         <span aria-hidden className={`h-8 w-1 rounded-full ${sectorBar[sector]}`} />
         {eyebrow && (

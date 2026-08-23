@@ -199,6 +199,7 @@ export default function CommunityFeed() {
         eyebrow="COMMUNITY"
         title="聊一聊"
         description="贴吧式盖楼讨论 + 微博式今日动态，两类内容各自独立。内容自动审核，请遵守社区规范。"
+        noBorder
         actions={
           <div className="flex flex-wrap items-center gap-2">
             <Link
@@ -219,8 +220,8 @@ export default function CommunityFeed() {
         }
       />
 
-      {/* 一级板块：贴吧讨论 / 今日动态（文字 Tab：选中加粗 + 下划线） */}
-      <div className="mt-6 flex items-center gap-6 border-b border-line/60">
+      {/* 一级板块：贴吧讨论 / 今日动态（与首页「今日热议/我关注的」同款：选中红色下划线） */}
+      <div className="flex border-b border-line-inner">
         {SCOPE_TABS.map((s) => {
           const on = scope === s.key;
           return (
@@ -228,10 +229,8 @@ export default function CommunityFeed() {
               key={s.key}
               type="button"
               onClick={() => switchScope(s.key)}
-              className={`-mb-px border-b-2 px-1 pb-2.5 pt-1 font-serif text-base transition-colors ${
-                on
-                  ? "border-title-gold font-semibold text-title-gold"
-                  : "border-transparent text-muted hover:text-body"
+              className={`flex-1 py-3 font-serif text-[15px] transition-colors ${
+                on ? "border-b-2 border-primary font-medium text-primary" : "text-muted hover:text-body"
               }`}
             >
               {s.label}
@@ -263,8 +262,8 @@ export default function CommunityFeed() {
             </div>
           )}
 
-          {/* 排序：热帖 / 最新 / 我关注的（与上方用线分隔） */}
-          <div className="mt-4 flex items-center gap-5 border-t border-line/50 pt-3">
+          {/* 排序：热帖 / 最新 / 我关注的（同一层级，无多余分隔线） */}
+          <div className="mt-4 flex items-center gap-5">
             <button type="button" onClick={() => applyFilter({ tab: "hot" })} className={chipCls(tab === "hot")}>
               热帖
             </button>
