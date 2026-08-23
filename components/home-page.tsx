@@ -159,6 +159,8 @@ function SplashScreen({ onEnter }: { onEnter: () => void }) {
                 onClick={() => openSpotById(h.id)}
                 onPointerEnter={() => setHovered(h.id)}
                 onPointerLeave={() => setHovered(null)}
+                onFocus={() => setHovered(h.id)}
+                onBlur={() => setHovered(null)}
                 aria-label={`${h.name} ${h.sub}`}
                 className="absolute z-40 -translate-x-1/2 -translate-y-1/2 p-3"
                 style={{ left: `${h.x}%`, top: `${h.y}%` }}
@@ -220,8 +222,7 @@ function SplashScreen({ onEnter }: { onEnter: () => void }) {
                   <div className="flex items-center gap-3">
                     {cur.img ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={sitePath(cur.img)}
+                      <img loading="lazy" src={sitePath(cur.img)}
                         alt={cur.name}
                         className="h-14 w-14 shrink-0 rounded-full object-cover object-top ring-2 ring-[#E8C98F]/70 shadow-[0_0_18px_rgba(232,201,143,0.35)]"
                       />
@@ -398,7 +399,7 @@ function HomeContent({ me }: { me: Me | null }) {
               <div className="flex items-center gap-3">
                 {me.avatar ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={sitePath(me.avatar)} alt="" className="h-11 w-11 rounded-full object-cover" />
+                  <img loading="lazy" src={sitePath(me.avatar)} alt="" className="h-11 w-11 rounded-full object-cover" />
                 ) : (
                   <span className="flex h-11 w-11 items-center justify-center rounded-full bg-primary/10 font-serif text-primary">
                     {me.username.slice(0, 1)}

@@ -193,8 +193,7 @@ export default function PoemShareModal({
         长按图片保存，即可分享到朋友圈
       </p>
       {posterUrl ? (
-        <img
-          src={posterUrl}
+        <img loading="lazy" src={posterUrl}
           alt={`${title} · 分享海报`}
           className="max-h-[78vh] w-auto rounded-xl shadow-[0_18px_60px_rgba(0,0,0,0.6)]"
         />

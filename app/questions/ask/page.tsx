@@ -98,11 +98,11 @@ export default function AskQuestionPage() {
 
         {err && <p className="mt-4 text-sm text-primary">{err}</p>}
 
-        <div className="mt-6 flex justify-end">
+        <div className="mt-6 flex justify-center">
           <button
             type="submit"
             disabled={busy}
-            className="rounded-full bg-primary px-8 py-2.5 font-serif text-sm text-white transition-colors hover:bg-primary-deep disabled:opacity-50"
+            className="w-full max-w-[320px] rounded-full bg-primary px-8 py-3 font-serif text-sm text-white transition-colors hover:bg-primary-deep disabled:opacity-50"
           >
             {busy ? "发布中…" : "发布提问"}
           </button>

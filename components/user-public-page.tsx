@@ -144,8 +144,7 @@ export default function UserPublicPage() {
           <div className="flex flex-wrap items-end gap-4">
             {user.avatar ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={sitePath(user.avatar)}
+              <img loading="lazy" src={sitePath(user.avatar)}
                 alt={user.username}
                 className="-mt-12 h-24 w-24 rounded-full border-4 border-surface object-cover ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28"
               />
@@ -238,8 +237,7 @@ export default function UserPublicPage() {
                   <Link key={f.id} href={`/u?id=${f.id}`} className="group">
                     {f.avatar ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={sitePath(f.avatar)}
+                      <img loading="lazy" src={sitePath(f.avatar)}
                         alt={f.username}
                         className="h-8 w-8 rounded-full border-2 border-surface object-cover ring-1 ring-gold/40 transition-transform group-hover:-translate-y-0.5"
                       />

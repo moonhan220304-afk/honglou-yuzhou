@@ -822,7 +822,7 @@ function HomeUserMenu({ me }: { me: Me }) {
         >
           {me.avatar ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={sitePath(me.avatar)} alt="头像" className="h-5 w-5 rounded-full object-cover" />
+            <img loading="lazy" src={sitePath(me.avatar)} alt="头像" className="h-5 w-5 rounded-full object-cover" />
           ) : (
             <span className="flex h-5 w-5 items-center justify-center rounded-full bg-white/25 font-serif text-[10px] text-white">
               {me.username.charAt(0)}

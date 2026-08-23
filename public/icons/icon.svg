@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="红楼社">
+  <rect width="512" height="512" rx="104" fill="#a63834"/>
+  <circle cx="256" cy="256" r="186" fill="none" stroke="#c49a6c" stroke-width="5" opacity="0.55"/>
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#f9f5f0" stroke-width="1.5" opacity="0.25"/>
+  <text x="256" y="292" text-anchor="middle" font-family="'Songti SC','STSong','SimSun','Noto Serif CJK SC','Source Han Serif SC',serif" font-size="196" fill="#f9f5f0">红</text>
+  <text x="256" y="428" text-anchor="middle" font-family="'Songti SC','STSong','SimSun','Noto Serif CJK SC','Source Han Serif SC',serif" font-size="66" letter-spacing="20" fill="#c49a6c">红楼社</text>
+</svg>

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { api, sitePath } from "@/lib/api";
 import PoemRotator from "@/components/poem-rotator";
-import { computeSky } from "@/lib/sky";
+import { computeSky, skyBoxShadow } from "@/lib/sky";
 import type { SkyState } from "@/lib/sky";
 import { formatTime } from "@/lib/client-community";
 
@@ -30,17 +30,18 @@ const typeLabel: Record<string, string> = {
 
 /** 移动版首页（第二阶段）：沉浸首屏（仅首次 + 可跳过）→ 今日热议 + 每日一诗 */
 export default function MHome() {
-  const [entered, setEntered] = useState(() => {
-    // 首次访问才显示开机动画；之后直接进信息流（localStorage 记忆）
-    try {
-      return typeof window !== "undefined" && localStorage.getItem("hlm_visited") === "1";
-    } catch {
-      return false;
-    }
-  });
+  const [entered, setEntered] = useState(false);
   const [feed, setFeed] = useState<FeedItem[]>([]);
   const [loaded, setLoaded] = useState(false);
   const [sky, setSky] = useState<SkyState | null>(null);
+  const [tab, setTab] = useState<"hot" | "following">("hot");
+
+  // 返回用户跳过开机动画（服务端读不到 localStorage，需挂载后再判断，避免水合不一致）
+  useEffect(() => {
+    try {
+      if (localStorage.getItem("hlm_visited") === "1") setEntered(true);
+    } catch {}
+  }, []);
 
   const enter = () => {
     try {
@@ -69,17 +70,18 @@ export default function MHome() {
   }, []);
 
   useEffect(() => {
-    api<{ items: FeedItem[] }>("/api/feed?tab=hot&per=10")
+    setLoaded(false);
+    api<{ items: FeedItem[] }>(`/api/feed?tab=${tab}&per=10`)
       .then((r) => setFeed(r.items))
       .catch(() => setFeed([]))
       .finally(() => setLoaded(true));
-  }, []);
+  }, [tab]);
 
   /* ---------- 沉浸式首屏（开机动画） ---------- */
   if (!entered) {
     return (
-      <div className="mx-auto w-full max-w-[480px]">
-        <div className="relative h-screen min-h-[600px] overflow-hidden">
+      <div className="fixed inset-0 z-[80] overflow-hidden bg-[#0A0E1A]">
+        <div className="relative mx-auto h-full w-full max-w-[480px]">
           <img
             src={`${base}/images/hero/hero-garden-mobile.jpg`}
             alt=""
@@ -112,6 +114,22 @@ export default function MHome() {
                     "radial-gradient(100% 52% at 22% 88%, rgba(255,150,86,0.34), transparent 58%), linear-gradient(0deg, rgba(255,166,96,0.12), transparent 45%)",
                 }}
               />
+              <div
+                className="absolute inset-0 transition-opacity duration-[3000ms]"
+                style={{ opacity: sky.day, background: "radial-gradient(120% 60% at 50% 20%, rgba(255,244,214,.18), transparent 60%)" }}
+              />
+              <div
+                className="absolute h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full blur-sm transition-opacity duration-[3000ms]"
+                style={{ left: `${sky.sun.x}%`, top: `${sky.sun.y}%`, opacity: sky.sun.o, background: "radial-gradient(circle, rgba(255,236,180,.85), transparent 70%)" }}
+              />
+              <div
+                className="absolute h-16 w-16 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#f4efdf] shadow-[0_0_40px_16px_rgba(240,235,210,.35)] transition-opacity duration-[3000ms]"
+                style={{ left: `${sky.moon.x}%`, top: `${sky.moon.y}%`, opacity: sky.moon.o }}
+              />
+              <div
+                className="absolute left-0 top-0 h-[2px] w-[2px] rounded-full bg-white transition-opacity duration-[3000ms]"
+                style={{ opacity: sky.stars, boxShadow: skyBoxShadow, animation: "sky-twinkle 4s ease-in-out infinite" }}
+              />
             </div>
           )}
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/40 via-black/5 to-black/60" />
@@ -119,7 +137,7 @@ export default function MHome() {
             <span className="inline-block w-fit border-l-2 border-white bg-white/15 px-2.5 py-1 font-mono text-[10px] tracking-[0.2em] text-white backdrop-blur">
               大观园 · 数字红楼世界
             </span>
-            <h1 className="mt-3 font-serif text-[38px] font-medium leading-[1.15] text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.75)]">
+            <h1 className="mt-3 font-serif text-[clamp(30px,9vw,38px)] font-medium leading-[1.15] text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.75)]">
               欢迎来到
               <br />
               大观园
@@ -152,23 +170,35 @@ export default function MHome() {
   /* ---------- 内容首页 ---------- */
   return (
     <div className="mx-auto w-full max-w-[480px] pb-24">
-      <div className="border-b border-line-inner bg-paper px-4 py-4">
-        <h2 className="flex items-center gap-2 font-serif text-[19px] font-semibold text-ink">
-          <span className="h-4 w-1 rounded-full bg-primary" />
-          今日热议
-        </h2>
-        <p className="mt-1 text-xs text-muted">全站讨论热度最高的内容</p>
+      {/* 顶部页签：今日热议 / 我关注的 */}
+      <div className="sticky top-[calc(env(safe-area-inset-top)+56px)] z-30 flex border-b border-line-inner bg-paper/95 backdrop-blur">
+        {(["hot", "following"] as const).map((t) => (
+          <button
+            key={t}
+            type="button"
+            onClick={() => setTab(t)}
+            className={`flex-1 py-3 font-serif text-[15px] transition-colors ${tab === t ? "border-b-2 border-primary text-primary" : "text-muted"}`}
+          >
+            {t === "hot" ? "今日热议" : "我关注的"}
+          </button>
+        ))}
       </div>
 
       <div className="flex flex-col gap-3 px-4 py-4">
         {!loaded && <p className="py-8 text-center text-xs text-muted">正在翻阅园中动静……</p>}
         {loaded && feed.length === 0 && (
           <p className="rounded-2xl border border-dashed border-line bg-surface py-10 text-center text-xs text-muted">
-            园中今日尚静，去
-            <Link href={sitePath("/poem-society")} className="mx-0.5 text-primary">
-              海棠诗社
-            </Link>
-            写第一首诗吧
+            {tab === "following" ? (
+              "还没有关注的人，去逛园子认识同好吧"
+            ) : (
+              <>
+                园中今日尚静，去
+                <Link href={sitePath("/poem-society")} className="mx-0.5 text-primary">
+                  海棠诗社
+                </Link>
+                写第一首诗吧
+              </>
+            )}
           </p>
         )}
         {feed.map((p) => (
@@ -192,6 +222,27 @@ export default function MHome() {
           </Link>
         ))}
       </div>
+
+      {/* 热度榜（top 6，仅「今日热议」页签显示） */}
+      {tab === "hot" && feed.length > 0 && (
+        <div className="border-t border-line-inner bg-paper px-4 py-4">
+          <h2 className="flex items-center gap-2 font-serif text-[17px] font-semibold text-ink">
+            <span className="h-4 w-1 rounded-full bg-primary" />
+            热度榜
+          </h2>
+          <ol className="mt-3 space-y-2">
+            {feed.slice(0, 6).map((p, i) => (
+              <li key={p.id}>
+                <Link href={`/community/post/?id=${p.id}`} className="flex items-center gap-2 text-sm">
+                  <span className="w-5 shrink-0 font-serif text-[15px] font-bold text-gold">{i + 1}</span>
+                  <span className="line-clamp-1 flex-1 text-body">{p.title || p.content.slice(0, 24)}</span>
+                  <span className="text-[10px] text-muted">{p.like_count} 赞</span>
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
 
       <div className="border-t border-line-inner bg-paper px-4 py-4">
         <h2 className="flex items-center gap-2 font-serif text-[17px] font-semibold text-ink">

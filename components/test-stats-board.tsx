@@ -76,8 +76,7 @@ export default function TestStatsBoard() {
               {/* 头像 */}
               {avatar ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={avatar}
+                <img loading="lazy" src={avatar}
                   alt={a.title}
                   className={`h-9 w-9 shrink-0 rounded-full object-cover ${
                     rank === 1 ? "ring-2 ring-gold shadow-[0_0_10px_rgba(196,154,108,0.4)]" : n > 0 ? "ring-1 ring-line" : "opacity-45 grayscale"

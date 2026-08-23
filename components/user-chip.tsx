@@ -32,8 +32,7 @@ export default function UserChip({
     <>
       {avatar ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={sitePath(avatar)}
+        <img loading="lazy" src={sitePath(avatar)}
           alt={username}
           className="h-5 w-5 shrink-0 rounded-full border border-gold/40 object-cover"
         />

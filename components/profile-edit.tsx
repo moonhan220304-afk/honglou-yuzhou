@@ -110,7 +110,7 @@ export default function ProfileEdit() {
           <div className="mt-3 h-28 w-full overflow-hidden rounded-xl border border-line bg-paper-deep">
             {me.bg_image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={sitePath(me.bg_image)} alt="背景图" className="h-full w-full object-cover" />
+              <img loading="lazy" src={sitePath(me.bg_image)} alt="背景图" className="h-full w-full object-cover" />
             ) : (
               <span className="flex h-full items-center justify-center text-xs text-muted">未设置背景图（当前使用默认渐变）</span>
             )}
@@ -130,7 +130,7 @@ export default function ProfileEdit() {
         <div className="flex items-center gap-5 rounded-2xl border border-line/60 bg-surface p-5 shadow-card">
           {me.avatar ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={sitePath(me.avatar)} alt="头像" className="h-20 w-20 rounded-full border-2 border-gold object-cover" />
+            <img loading="lazy" src={sitePath(me.avatar)} alt="头像" className="h-20 w-20 rounded-full border-2 border-gold object-cover" />
           ) : (
             <span className="flex h-20 w-20 items-center justify-center rounded-full border-2 border-gold bg-primary/10 font-serif text-3xl text-primary">
               {me.username.charAt(0)}

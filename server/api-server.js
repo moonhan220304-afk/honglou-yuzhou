@@ -109,6 +109,17 @@ CREATE TABLE IF NOT EXISTS test_results (
   updated_at INTEGER NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_test_results_type ON test_results(archetype_id);
+CREATE TABLE IF NOT EXISTS audit_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER,
+  username TEXT NOT NULL DEFAULT '',
+  action TEXT NOT NULL,
+  target TEXT NOT NULL DEFAULT '',
+  detail TEXT NOT NULL DEFAULT '',
+  created_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_audit_created ON audit_logs(created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_audit_user ON audit_logs(user_id);
 CREATE INDEX IF NOT EXISTS idx_posts_status ON posts(status, created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_comments_post ON comments(post_id, created_at);
 CREATE INDEX IF NOT EXISTS idx_sessions_exp ON sessions(expires_at);
@@ -466,6 +477,14 @@ function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
+/* 操作日志：记录登录/发帖/审核/封禁等关键动作，供后台按用户/时间定位问题 */
+function logAudit(uid, uname, action, target, detail) {
+  try {
+    db.prepare("INSERT INTO audit_logs (user_id, username, action, target, detail, created_at) VALUES (?,?,?,?,?,?)")
+      .run(uid ?? null, String(uname ?? "").slice(0, 50), String(action), String(target ?? "").slice(0, 120), String(detail ?? "").slice(0, 500), Date.now());
+  } catch {}
+}
+
 function adminNav(active) {
   const tabs = [
     ["overview", "概览"],
@@ -473,6 +492,7 @@ function adminNav(active) {
     ["comments", "评论审核"],
     ["users", "用户"],
     ["invites", "邀请码"],
+    ["logs", "操作日志"],
   ];
   return tabs
     .map(([k, label]) => `<a class="tab ${active === k ? "on" : ""}" href="?view=${k}">${label}</a>`)
@@ -581,11 +601,12 @@ function adminUsersHtml() {
   const rows = db.prepare(
     `SELECT u.*, (SELECT COUNT(*) FROM posts p WHERE p.author_id = u.id) nposts, (SELECT COUNT(*) FROM comments c WHERE c.author_id = u.id) ncomments FROM users u ORDER BY u.created_at DESC`,
   ).all().map((u) => {
+    const viewLink = `<a href="?view=user&id=${u.id}" class="btn btn-o" style="text-decoration:none;padding:2px 8px;font-size:12px">查看内容</a>`;
     const act = u.role === "admin"
-      ? `<span class="quiet">管理员</span>`
-      : u.status === "active"
+      ? `${viewLink} <span class="quiet">管理员</span>`
+      : `${viewLink} ${u.status === "active"
         ? `<button class="btn btn-r" onclick="setStatus(${u.id},'banned')">封禁</button>`
-        : `<button class="btn btn-g" onclick="setStatus(${u.id},'active')">解封</button>`;
+        : `<button class="btn btn-g" onclick="setStatus(${u.id},'active')">解封</button>`}`;
     return `<tr><td>${u.id}</td><td>${esc(u.username)}</td><td>${u.nposts}</td><td>${u.ncomments}</td>
     <td>${u.status === "active" ? '<span class="ok">正常</span>' : '<span class="warn">封禁</span>'}</td>
     <td>${new Date(u.created_at).toLocaleString("zh-CN", { hour12: false })}</td><td>${act}</td></tr>`;
@@ -610,6 +631,54 @@ function adminInvitesHtml() {
     <button class="btn btn-g" style="border:0;padding:6px 14px" type="submit">生成</button>
   </form>
   <table><tr><th>邀请码</th><th>备注</th><th>状态</th><th>生成时间</th></tr>${rows}</table>`;
+}
+
+function adminLogsHtml() {
+  const rows = db.prepare("SELECT * FROM audit_logs ORDER BY id DESC LIMIT 300").all().map((l) =>
+    `<tr><td>${new Date(l.created_at).toLocaleString("zh-CN", { hour12: false })}</td>
+     <td>${esc(l.username)}</td><td><b>${esc(l.action)}</b></td>
+     <td>${esc(l.target)}</td><td>${esc(l.detail)}</td></tr>`,
+  ).join("");
+  return `<h2>操作日志</h2>
+  <p class="quiet">记录最近 300 条：登录/注册/发帖/评论/审核/封禁/生成邀请码等。用于按用户/时间定位问题。</p>
+  <table><tr><th>时间</th><th>用户</th><th>动作</th><th>对象</th><th>详情</th></tr>${rows || '<tr><td colspan="5" class="quiet">暂无日志</td></tr>'}</table>`;
+}
+
+function adminUserContentHtml(uid) {
+  const u = db.prepare("SELECT * FROM users WHERE id = ?").get(uid);
+  if (!u) return `<h2>用户不存在</h2><p><a href="?view=users">← 返回用户列表</a></p>`;
+  const nPosts = db.prepare("SELECT COUNT(*) c FROM posts WHERE author_id=?").get(uid).c;
+  const nComments = db.prepare("SELECT COUNT(*) c FROM comments WHERE author_id=?").get(uid).c;
+  const posts = db.prepare(
+    "SELECT id, title, content, type, status, created_at FROM posts WHERE author_id = ? ORDER BY created_at DESC LIMIT 100",
+  ).all(uid).map((p) =>
+    `<tr><td>${p.id}</td><td>${esc(p.title || p.content.slice(0, 30))}</td><td>${esc(p.content.slice(0, 120))}</td>
+     <td>${esc(p.type)}</td><td>${STATUS_LABEL[p.status] || p.status}</td>
+     <td>${new Date(p.created_at).toLocaleString("zh-CN", { hour12: false })}</td>
+     <td><button class="btn btn-r" onclick="review(${p.id},'remove')">下架</button></td></tr>`,
+  ).join("");
+  const comments = db.prepare(
+    "SELECT c.id, c.content, c.status, c.created_at FROM comments c WHERE c.author_id = ? ORDER BY c.created_at DESC LIMIT 100",
+  ).all(uid).map((c) =>
+    `<tr><td>${c.id}</td><td>${esc(c.content.slice(0, 120))}</td><td>${STATUS_LABEL[c.status] || c.status}</td>
+     <td>${new Date(c.created_at).toLocaleString("zh-CN", { hour12: false })}</td>
+     <td><button class="btn btn-r" onclick="reviewComment(${c.id},'remove')">下架</button></td></tr>`,
+  ).join("");
+  const tests = db.prepare(
+    "SELECT archetype_id, character_id, updated_at FROM test_results WHERE user_id = ? ORDER BY updated_at DESC",
+  ).all(uid).map((t) =>
+    `<tr><td>${esc(t.archetype_id)}</td><td>${esc(t.character_id)}</td><td>${new Date(t.updated_at).toLocaleString("zh-CN", { hour12: false })}</td></tr>`,
+  ).join("");
+  return `<h2>用户内容：${esc(u.username)}（ID ${u.id}）</h2>
+  <p class="quiet"><a href="?view=users">← 返回用户列表</a> · 角色：${u.role} · 状态：${u.status}</p>
+  <h3>帖子（${nPosts}）</h3>
+  <table><tr><th>ID</th><th>标题</th><th>内容</th><th>类型</th><th>状态</th><th>时间</th><th>操作</th></tr>${posts || '<tr><td colspan="7" class="quiet">无帖子</td></tr>'}</table>
+  <h3>评论（${nComments}）</h3>
+  <table><tr><th>ID</th><th>内容</th><th>状态</th><th>时间</th><th>操作</th></tr>${comments || '<tr><td colspan="5" class="quiet">无评论</td></tr>'}</table>
+  <h3>测试记录</h3>
+  <table><tr><th>测试</th><th>角色</th><th>时间</th></tr>${tests || '<tr><td colspan="3" class="quiet">无测试记录</td></tr>'}</table>
+  <script>async function review(id, action){ if(!confirm('确认下架帖子 #'+id+'？'))return; await fetch('api/admin/posts/'+id+'/review',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action})}); location.reload(); }
+  async function reviewComment(id, action){ if(!confirm('确认下架评论 #'+id+'？'))return; await fetch('api/admin/comments/'+id+'/review',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action})}); location.reload(); }</script>`;
 }
 
 /* ---------- HTTP 服务 ---------- */
@@ -675,6 +744,7 @@ const server = http.createServer(async (req, res) => {
       const info = db.prepare("INSERT INTO users (username, pass_hash, role, status, created_at) VALUES (?, ?, ?, 'active', ?)")
         .run(uname, hashPassword(password), role, Date.now());
       db.prepare("UPDATE invite_codes SET used_by = ?, used_at = ? WHERE code = ?").run(info.lastInsertRowid, Date.now(), code);
+      logAudit(Number(info.lastInsertRowid), uname, "注册", `邀请码 ${code}`, `新用户注册（角色 ${role}）`);
       const token = makeSession(Number(info.lastInsertRowid));
       res.writeHead(200, { "Content-Type": "application/json", "Set-Cookie": `hlm_session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${SESSION_DAYS * 86400}` });
       return res.end(JSON.stringify({ ok: true, user: { id: Number(info.lastInsertRowid), username: uname, role }, isFirst: role === "admin" }));
@@ -684,9 +754,13 @@ const server = http.createServer(async (req, res) => {
       const body = await readBody(req, 10_000);
       const { username, password } = JSON.parse(body || "{}");
       const u = db.prepare("SELECT * FROM users WHERE username = ?").get(String(username || "").trim());
-      if (!u || !verifyPassword(String(password || ""), u.pass_hash)) return send(res, 401, { ok: false, msg: "用户名或密码错误" });
+      if (!u || !verifyPassword(String(password || ""), u.pass_hash)) {
+        logAudit(null, String(username || "").slice(0, 50), "登录失败", "登录", "用户名或密码错误");
+        return send(res, 401, { ok: false, msg: "用户名或密码错误" });
+      }
       if (u.status !== "active") return send(res, 403, { ok: false, msg: "账号已被封禁" });
       const token = makeSession(u.id);
+      logAudit(u.id, u.username, "登录", "登录", "登录成功");
       res.writeHead(200, { "Content-Type": "application/json", "Set-Cookie": `hlm_session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${SESSION_DAYS * 86400}` });
       return res.end(JSON.stringify({ ok: true, user: { id: u.id, username: u.username, role: u.role } }));
     }
@@ -775,6 +849,7 @@ const server = http.createServer(async (req, res) => {
       const info = db.prepare("INSERT INTO posts (author_id, title, content, tag, images, status, question_id, quote, type, topic_id, created_at, reviewed_at, reviewed_by) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
         .run(u.id, t, c, tagName, JSON.stringify(imgs), status, qid, quoteJson, postType, topicId, Date.now(), hit ? null : Date.now(), hit ? null : 0);
       if (hit) appendLine("moderation.jsonl", { ts: Date.now(), kind: "post", id: Number(info.lastInsertRowid), word: hit, user: u.username });
+      logAudit(u.id, u.username, "发布", `帖子 #${Number(info.lastInsertRowid)} ${t.slice(0, 30)}`, hit ? "命中敏感词，待人工审核" : "自动审核通过");
       /* 积分：发帖/发动态 +10 */
       grantPoints(u.id, 10, "post", `post:${Number(info.lastInsertRowid)}`);
       /* 通知：该问题下的其他参与者"有新人盖楼" */
@@ -1008,6 +1083,7 @@ const server = http.createServer(async (req, res) => {
       const info = db.prepare("INSERT INTO comments (post_id, author_id, content, reply_to, status, created_at) VALUES (?, ?, ?, ?, ?, ?)")
         .run(pid, u.id, c, rt, status, Date.now());
       if (hit) appendLine("moderation.jsonl", { ts: Date.now(), kind: "comment", id: Number(info.lastInsertRowid), word: hit, user: u.username });
+      logAudit(u.id, u.username, "评论", `帖子 #${pid} 楼层 #${Number(info.lastInsertRowid)}`, hit ? "命中敏感词，待人工审核" : "自动审核通过");
       /* 通知：回复我的帖子（主楼评论）→ 通知帖子作者；回复我的楼层 → 通知该楼层作者 */
       if (rt) {
         const parent = db.prepare("SELECT author_id FROM comments WHERE id = ?").get(rt);
@@ -1165,6 +1241,8 @@ const server = http.createServer(async (req, res) => {
       const { action } = JSON.parse(body || "{}");
       if (!["approved", "rejected", "removed"].includes(action)) return send(res, 400, { ok: false });
       db.prepare("UPDATE posts SET status = ?, reviewed_at = ?, reviewed_by = ? WHERE id = ?").run(action, Date.now(), u.id, Number(adminReviewMatch[1]));
+      const ptitle = db.prepare("SELECT title FROM posts WHERE id = ?").get(Number(adminReviewMatch[1]));
+      logAudit(u.id, u.username, "审核帖子", `帖子 #${adminReviewMatch[1]} ${String(ptitle?.title || "").slice(0, 30)} → ${action}`, "");
       return send(res, 200, { ok: true });
     }
 
@@ -1176,6 +1254,7 @@ const server = http.createServer(async (req, res) => {
       const { action } = JSON.parse(body || "{}");
       if (!["approved", "rejected", "removed"].includes(action)) return send(res, 400, { ok: false });
       db.prepare("UPDATE comments SET status = ? WHERE id = ?").run(action, Number(adminCommentMatch[1]));
+      logAudit(u.id, u.username, "审核评论", `楼层 #${adminCommentMatch[1]} → ${action}`, "");
       return send(res, 200, { ok: true });
     }
 
@@ -1186,10 +1265,11 @@ const server = http.createServer(async (req, res) => {
       const body = await readBody(req, 10_000);
       const { status } = JSON.parse(body || "{}");
       if (!["active", "banned"].includes(status)) return send(res, 400, { ok: false });
-      const target = db.prepare("SELECT role FROM users WHERE id = ?").get(Number(adminUserMatch[1]));
+      const target = db.prepare("SELECT role, username FROM users WHERE id = ?").get(Number(adminUserMatch[1]));
       if (!target) return send(res, 404, { ok: false });
       if (target.role === "admin") return send(res, 400, { ok: false, msg: "不能封禁管理员" });
       db.prepare("UPDATE users SET status = ? WHERE id = ?").run(status, Number(adminUserMatch[1]));
+      logAudit(u.id, u.username, status === "banned" ? "封禁用户" : "解封用户", `用户 #${adminUserMatch[1]} ${target.username}`, "");
       return send(res, 200, { ok: true });
     }
 
@@ -1212,6 +1292,7 @@ const server = http.createServer(async (req, res) => {
       for (let i = 0; i < count; i++) {
         const code = `HLM-${crypto.randomBytes(3).toString("hex").toUpperCase()}-${crypto.randomBytes(3).toString("hex").toUpperCase()}`;
         db.prepare("INSERT INTO invite_codes (code, note, created_at) VALUES (?, ?, ?)").run(code, note, Date.now());
+        logAudit(u.id, u.username, "生成邀请码", code, note ? `备注：${note}` : "");
         codes.push(code);
       }
       if (req.headers["content-type"]?.includes("application/json")) {
@@ -1425,6 +1506,8 @@ const server = http.createServer(async (req, res) => {
       if (view === "comments") content = adminCommentsHtml();
       if (view === "users") content = adminUsersHtml();
       if (view === "invites") content = adminInvitesHtml();
+      if (view === "logs") content = adminLogsHtml();
+      if (view === "user") content = adminUserContentHtml(Number(url.searchParams.get("id")) || 0);
       return res.end(`${PAGE_HEAD}${adminNav(view)}${content}${PAGE_FOOT}`);
     }
   } catch (e) {

@@ -604,8 +604,7 @@ function StarProfile({
 
         <div className="flex items-center gap-3">
           {img ? (
-            <img
-              src={img}
+            <img loading="lazy" src={img}
               alt={c.name}
               className="h-14 w-14 shrink-0 rounded-full object-cover ring-2 ring-[#E8C98F]/70 shadow-[0_0_18px_rgba(232,201,143,0.35)]"
             />

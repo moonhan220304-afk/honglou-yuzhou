@@ -70,6 +70,12 @@ export default function CharacterCenter({
             <p className="mt-2 max-w-xl text-sm leading-relaxed text-body">
               {c.summary.short}
             </p>
+            <Link
+              href={`/characters/${c.id}/poems`}
+              className="mt-2 inline-flex items-center gap-1 text-sm text-primary hover:underline"
+            >
+              查看 TA 的诗词 →
+            </Link>
           </div>
         </div>
         <div className="flex flex-wrap gap-2 md:max-w-xs md:justify-end">

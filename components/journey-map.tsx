@@ -43,7 +43,7 @@ export default function JourneyMap() {
       </div>
 
       {/* 四条路线（2×2 逻辑图） */}
-      <div className="grid gap-5 md:grid-cols-2 md:gap-x-12">
+      <div className="mt-6 grid gap-5 md:mt-8 md:grid-cols-2 md:gap-x-12">
         {routes.map(({ j, cover, stations, from, to }, i) => (
           <Link
             key={j.id}
@@ -60,8 +60,7 @@ export default function JourneyMap() {
               {cover ? (
                 characterImage(cover.id) ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={characterImage(cover.id)!}
+                  <img loading="lazy" src={characterImage(cover.id)!}
                     alt={cover.name}
                     className="h-12 w-12 rounded-full object-cover object-top ring-2 ring-gold/50"
                   />
@@ -93,8 +92,8 @@ export default function JourneyMap() {
               )}
             </div>
 
-            {/* hover 站点预览 */}
-            <div className="mt-3 space-y-1 border-t border-line-inner pt-3 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+            {/* 站点预览：移动端常显（无 hover），桌面端悬停展开 */}
+            <div className="mt-3 space-y-1 border-t border-line-inner pt-3 opacity-100 transition-opacity duration-200 md:opacity-0 md:group-hover:opacity-100">
               {stations.slice(0, 3).map((e) => (
                 <p key={e.id} className="flex items-center gap-2 truncate text-xs text-body">
                   <span className="h-1 w-1 shrink-0 rounded-full bg-gold" />

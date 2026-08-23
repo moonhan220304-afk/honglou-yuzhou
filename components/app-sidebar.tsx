@@ -1,9 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import UserMenu from "@/components/user-menu";
 import WanderButton from "@/components/wander-button";
+import LogoMark from "@/components/logo-mark";
 import {
   IconHome,
   IconCharacters,
@@ -12,6 +14,8 @@ import {
   IconAsk,
   IconPoem,
   IconUser,
+  IconArrowLeft,
+  IconArrowRight,
 } from "@/components/icons";
 
 /**
@@ -73,17 +77,35 @@ const navSections = [
 
 export default function AppSidebar() {
   const pathname = usePathname();
+  const [hovered, setHovered] = useState(false);
   // trailingSlash 导出下 usePathname 带尾斜杠（如 /poem-society/），统一去掉再匹配
   const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
 
+  // 悬停展开 / 移开收回：同步 --hlm-sidebar-w，主内容留白跟随
+  useEffect(() => {
+    document.documentElement.style.setProperty("--hlm-sidebar-w", hovered ? "232px" : "56px");
+    return () => {
+      document.documentElement.style.removeProperty("--hlm-sidebar-w");
+    };
+  }, [hovered]);
+
   return (
-    <aside className="fixed inset-y-0 left-0 z-40 hidden w-[232px] flex-col border-r border-line bg-paper-deep/95 backdrop-blur md:flex">
-      <Link href="/" className="flex items-center px-6 pb-4 pt-5" aria-label="红楼社首页">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo-universal.png`} alt="红楼社" className="h-9 w-auto" />
+    <aside
+      className="fixed inset-y-0 left-0 z-[60] hidden flex-col overflow-hidden border-r border-line bg-paper-deep/95 backdrop-blur transition-[width] duration-200 md:flex"
+      style={{ width: hovered ? 232 : 56 }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <Link href="/" className="flex items-center px-4 pb-4 pt-5" aria-label="红楼社首页">
+        {hovered ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo-universal.png`} alt="红楼社" className="h-9 w-auto" />
+        ) : (
+          <LogoMark className="h-9 w-9" />
+        )}
       </Link>
 
-      <nav className="flex-1 space-y-1 overflow-y-auto px-3">
+      <nav className="flex-1 space-y-1 overflow-y-auto px-2 md:px-3">
         {navSections.map((sec) => {
           const Icon = sec.icon;
           const active = sec.match(path);
@@ -92,16 +114,19 @@ export default function AppSidebar() {
             <div key={sec.href}>
               <Link
                 href={sec.href}
-                className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${
+                title={hovered ? undefined : sec.label}
+                className={`flex items-center gap-3 rounded-lg px-2 py-2 text-sm transition-colors ${
+                  hovered ? "justify-start" : "justify-center"
+                } ${
                   active
                     ? "bg-primary text-white shadow-sm"
                     : "text-ink/80 hover:bg-surface hover:text-primary"
                 }`}
               >
                 <Icon className="h-[18px] w-[18px] shrink-0" />
-                <span className="font-serif font-medium">{sec.label}</span>
+                {hovered && <span className="font-serif font-medium">{sec.label}</span>}
               </Link>
-              {sec.children && (active || childActive) && (
+              {hovered && sec.children && (active || childActive) && (
                 <div className="ml-3 mt-1 space-y-0.5 border-l border-line pl-2.5">
                   {sec.children.map((c) => {
                     const on = c.match(path);
@@ -124,9 +149,23 @@ export default function AppSidebar() {
         })}
       </nav>
 
-      <div className="border-t border-line px-3 py-3">
-        <WanderButton className="mb-2 hidden w-full rounded-full border border-gold/60 bg-surface/60 px-3 py-1.5 text-center font-serif text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary md:block" />
-        <UserMenu />
+      <div className="border-t border-line px-2 py-3 md:px-3">
+        {hovered ? (
+          <>
+            <WanderButton className="mb-2 hidden w-full rounded-full border border-gold/60 bg-surface/60 px-3 py-1.5 text-center font-serif text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary md:block" />
+            <UserMenu />
+          </>
+        ) : (
+          <div className="flex justify-center">
+            <Link
+              href="/profile"
+              aria-label="个人中心"
+              className="flex h-8 w-8 items-center justify-center rounded-full border border-line bg-surface text-muted transition-colors hover:text-primary"
+            >
+              <IconUser className="h-4 w-4" />
+            </Link>
+          </div>
+        )}
       </div>
     </aside>
   );

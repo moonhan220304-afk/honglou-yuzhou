@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+/* 触屏优化：仅在实际支持悬停的设备上应用 hover: 样式，
+   避免触屏设备出现「首次点击命中态、二次点击才触发」的 sticky-hover 问题。 */
+@custom-variant hover {
+  @media (hover: hover) {
+    &:hover {
+      @slot;
+    }
+  }
+}
+
 @theme {
   --color-paper: #f9f5f0;
   --color-paper-deep: #f2ede4;
@@ -54,11 +64,55 @@ html {
   /* 锁定文字缩放：微信/部分安卓浏览器会按系统设置自动放大网页字号，导致布局错乱 */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  /* 声明支持明暗双主题，阻止安卓 Chrome force-dark 反色；由 data-theme-dark 切换 */
+  color-scheme: light dark;
+  /* 桌面侧栏宽度（AppSidebar 悬停展开/移开收回时动态改） */
+  --hlm-sidebar-w: 232px;
 }
 
 body {
   background: var(--color-paper);
   color: var(--color-body);
+}
+
+/* 深色主题色板：覆盖 --color-* 变量（!important 规避 Tailwind v4 剥离） */
+html[data-theme-dark="1"] {
+  color-scheme: dark;
+  --color-paper: #1a1714 !important;
+  --color-paper-deep: #14120f !important;
+  --color-surface: #241f1a !important;
+  --color-surface-warm: #2a2420 !important;
+  --color-ink: #ece5dc !important;
+  --color-body: #b8aea1 !important;
+  --color-muted: #8f867a !important;
+  --color-line: #3a332c !important;
+  --color-line-inner: #2c2620 !important;
+  --color-primary: #c96a5f !important;
+  --color-primary-deep: #a34a40 !important;
+  --color-gold: #d3a97a !important;
+  --color-seal: #c96a5f !important;
+  --color-secondary-btn: #3a2f26 !important;
+  --color-secondary-btn-text: #d8cdbd !important;
+  --color-characters: #6d9a9e !important;
+  --color-characters-deep: #57807f !important;
+  --color-characters-soft: #22312f !important;
+  --color-garden: #7aa97f !important;
+  --color-garden-deep: #5f8a65 !important;
+  --color-garden-soft: #22301f !important;
+  --color-chat: #d08a68 !important;
+  --color-chat-deep: #a86a4c !important;
+  --color-chat-soft: #33261f !important;
+  --color-ask: #6d8ab5 !important;
+  --color-ask-deep: #4f6a92 !important;
+  --color-ask-soft: #222b3a !important;
+  --color-poem: #d690a8 !important;
+  --color-poem-deep: #ab6c85 !important;
+  --color-poem-soft: #33222a !important;
+  --color-me: #8d7bb5 !important;
+  --color-me-deep: #6a5a92 !important;
+  --color-me-soft: #282433 !important;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.35) !important;
+  --shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.4), 0 12px 28px rgba(0, 0, 0, 0.45) !important;
 }
 
 ::selection {

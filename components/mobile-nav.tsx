@@ -1,15 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import type { ComponentType } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { api } from "@/lib/api";
-import { IconHome, IconGrid, IconPlus, IconBell, IconMe, IconQuill, IconMessage, IconX } from "@/components/icons";
+import { IconHome, IconSearch, IconPlus, IconBell, IconChatRoll, IconQuill, IconMessage, IconX } from "@/components/icons";
 
-/** 移动端底部导航（微博/Twitter 式 5 项：首页 / 发现 / ＋发布 / 消息 / 我） */
-const items = [
-  { href: "/", label: "首页", icon: IconHome },
-  { href: "/discover", label: "发现", icon: IconGrid },
+/** 移动端底部导航（最终定案 5 槽，发布居中）：首页 / 搜索 / ＋发布 / 聊一聊 / 消息 */
+const leftTabs = [
+  { href: "/", label: "首页", icon: IconHome, match: (p: string) => p === "/" },
+  { href: "/search", label: "搜索", icon: IconSearch, match: (p: string) => p.startsWith("/search") },
+];
+const rightTabs = [
+  { href: "/community", label: "聊一聊", icon: IconChatRoll, match: (p: string) => p.startsWith("/community") },
 ];
 
 export default function MobileNav() {
@@ -17,10 +21,11 @@ export default function MobileNav() {
   const [unread, setUnread] = useState(0);
   const [sheetOpen, setSheetOpen] = useState(false);
 
-  // 未读消息轮询（供「消息」tab 红点）
+  // 未读消息轮询（供「消息」红点）：仅页面可见时轮询，回前台立即刷新
   useEffect(() => {
     let stop = false;
     const poll = async () => {
+      if (typeof document !== "undefined" && document.visibilityState !== "visible") return;
       try {
         const r = await api<{ unread: number }>("/api/notifications/unread");
         if (!stop) setUnread(r.unread);
@@ -30,13 +35,29 @@ export default function MobileNav() {
     };
     poll();
     const t = setInterval(poll, 60_000);
+    const onVisibility = () => {
+      if (document.visibilityState === "visible") poll();
+    };
+    document.addEventListener("visibilitychange", onVisibility);
     return () => {
       stop = true;
       clearInterval(t);
+      document.removeEventListener("visibilitychange", onVisibility);
     };
   }, []);
 
-  const activeOf = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
+  const Tab = ({ href, label, icon: Icon, match }: { href: string; label: string; icon: ComponentType<{ className?: string }>; match: (p: string) => boolean }) => {
+    const active = match(pathname);
+    return (
+      <Link
+        href={href}
+        className={`flex flex-1 flex-col items-center gap-1 py-2 text-[11px] transition-colors ${active ? "text-primary" : "text-muted"}`}
+      >
+        <Icon className={`h-[22px] w-[22px] ${active ? "stroke-[2]" : ""}`} />
+        {label}
+      </Link>
+    );
+  };
 
   return (
     <>
@@ -80,45 +101,37 @@ export default function MobileNav() {
       )}
 
       <nav className="fixed inset-x-0 bottom-0 z-50 border-t border-line bg-paper/95 px-1 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
-        <div className="mx-auto flex max-w-md items-stretch justify-between">
-          {items.map((it) => {
-            const Icon = it.icon;
-            const active = activeOf(it.href);
-            return (
-              <Link
-                key={it.href}
-                href={it.href}
-                className={`flex flex-1 flex-col items-center gap-1 py-2 text-[11px] transition-colors ${
-                  active ? "text-primary" : "text-muted"
-                }`}
-              >
-                <Icon className={`h-[20px] w-[20px] ${active ? "stroke-[2]" : ""}`} />
-                {it.label}
-              </Link>
-            );
-          })}
+        <div className="mx-auto flex max-w-md items-stretch">
+          {leftTabs.map((it) => (
+            <Tab key={it.href} href={it.href} label={it.label} icon={it.icon} match={it.match} />
+          ))}
 
-          {/* 中央发布 FAB */}
+          {/* 中央发布（常规对齐，居中） */}
           <button
             type="button"
             onClick={() => setSheetOpen(true)}
             aria-label="发布"
-            className="relative -mt-4 flex w-14 shrink-0 flex-col items-center"
+            className="flex flex-1 flex-col items-center gap-1 py-2 text-[11px] text-muted"
           >
-            <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-paper shadow-[0_4px_14px_rgba(166,56,52,0.4)] transition-transform active:scale-95">
-              <IconPlus className="h-6 w-6" />
+            <span className="flex h-[26px] w-[26px] items-center justify-center rounded-full bg-primary text-paper">
+              <IconPlus className="h-4 w-4" />
             </span>
+            发布
           </button>
 
-          {/* 消息 */}
+          {rightTabs.map((it) => (
+            <Tab key={it.href} href={it.href} label={it.label} icon={it.icon} match={it.match} />
+          ))}
+
+          {/* 消息（系统通知，带未读红点） */}
           <Link
             href="/notifications"
-            className={`relative flex flex-1 flex-col items-center gap-1 py-2 text-[11px] transition-colors ${
+            className={`flex flex-1 flex-col items-center gap-1 py-2 text-[11px] transition-colors ${
               pathname.startsWith("/notifications") ? "text-primary" : "text-muted"
             }`}
           >
             <span className="relative">
-              <IconBell className={`h-[20px] w-[20px] ${pathname.startsWith("/notifications") ? "stroke-[2]" : ""}`} />
+              <IconBell className={`h-[22px] w-[22px] ${pathname.startsWith("/notifications") ? "stroke-[2]" : ""}`} />
               {unread > 0 && (
                 <span className="absolute -right-2 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-primary px-1 text-[9px] font-bold leading-none text-white">
                   {unread > 99 ? "99+" : unread}
@@ -126,17 +139,6 @@ export default function MobileNav() {
               )}
             </span>
             消息
-          </Link>
-
-          {/* 我 */}
-          <Link
-            href="/profile"
-            className={`flex flex-1 flex-col items-center gap-1 py-2 text-[11px] transition-colors ${
-              pathname.startsWith("/profile") ? "text-primary" : "text-muted"
-            }`}
-          >
-            <IconMe className={`h-[20px] w-[20px] ${pathname.startsWith("/profile") ? "stroke-[2]" : ""}`} />
-            我
           </Link>
         </div>
       </nav>

@@ -184,7 +184,7 @@ export default function PostDetail() {
                     className="overflow-hidden rounded-2xl border border-line"
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={sitePath(u)} alt={`配图${i + 1}`} className="h-56 w-full object-cover transition-transform hover:scale-105" />
+                    <img loading="lazy" src={sitePath(u)} alt={`配图${i + 1}`} className="h-56 w-full object-cover transition-transform hover:scale-105" />
                   </button>
                 ))}
               </div>
@@ -339,7 +339,7 @@ export default function PostDetail() {
           onClick={() => setZoomImg(null)}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={sitePath(zoomImg)} alt="配图" style={{ maxWidth: "90vw", maxHeight: "90vh" }} className="rounded-xl" />
+          <img loading="lazy" src={sitePath(zoomImg)} alt="配图" style={{ maxWidth: "90vw", maxHeight: "90vh" }} className="rounded-xl" />
         </div>
       )}
 

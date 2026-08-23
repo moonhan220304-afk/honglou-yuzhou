@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { sitePath } from "@/lib/api";
-import { characterImage } from "@/lib/images";
 import { characterName } from "@/lib/data";
 import { IconGrid } from "@/components/icons";
 import SectionHero from "@/components/section-hero";
+import CharacterAvatar from "@/components/character-avatar";
 import type { Character } from "@/lib/types";
 
 /**
@@ -25,6 +25,19 @@ export default function CharacterGacha({ characters }: { characters: Character[]
   const [swiping, setSwiping] = useState<null | 1 | -1>(null);
   const [hoverDir, setHoverDir] = useState<null | 1 | -1>(null);
   const swipingRef = useRef<null | 1 | -1>(null);
+  // 触屏滑动抽卡：记录按下位置，横向位移超过阈值即换人（tap 仍走两侧卡片 onClick 兜底）
+  const dragStartRef = useRef<{ x: number; y: number } | null>(null);
+  // 侧卡偏移：按屏宽自适应，保证侧卡右缘不超过屏宽（side ≤ vw/2 - 145）；桌面 160 堆叠更明显
+  const [side, setSide] = useState(50);
+  useEffect(() => {
+    const calc = () => {
+      const vw = window.innerWidth;
+      setSide(Math.min(160, Math.max(10, Math.floor(vw / 2) - 145)));
+    };
+    calc();
+    window.addEventListener("resize", calc);
+    return () => window.removeEventListener("resize", calc);
+  }, []);
 
   const go = (dir: 1 | -1) => {
     if (swipingRef.current) return;
@@ -37,6 +50,21 @@ export default function CharacterGacha({ characters }: { characters: Character[]
     }, SWAP_MS);
   };
   const at = (i: number) => list[((i % n) + n) % n];
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    dragStartRef.current = { x: e.clientX, y: e.clientY };
+  };
+  const onPointerUp = (e: React.PointerEvent) => {
+    const start = dragStartRef.current;
+    dragStartRef.current = null;
+    if (!start) return;
+    const dx = e.clientX - start.x;
+    const dy = e.clientY - start.y;
+    // 横向位移为主且超过 40px 才判定为滑动，避免误触点击
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.2) {
+      go(dx < 0 ? 1 : -1);
+    }
+  };
 
   const cur = at(idx);
   const left = at(idx - 1);
@@ -54,24 +82,12 @@ export default function CharacterGacha({ characters }: { characters: Character[]
   }, [n]);
 
   const CardBody = ({ c, dim = false }: { c: Character; dim?: boolean }) => {
-    const img = characterImage(c.id);
     const alias = c.aliases?.[0] ?? "";
     const ident = c.identity ? `${c.identity.position ?? ""}${c.identity.origin ? " · " + c.identity.origin : ""}` : "";
     return (
       <div className={`flex h-full w-full flex-col items-center justify-center px-7 text-center ${dim ? "pointer-events-none select-none" : ""}`}>
         <div className="relative">
-          {img ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={sitePath(img)}
-              alt={c.name}
-              className="mx-auto h-28 w-28 rounded-full object-cover object-top shadow-lg ring-[3px] ring-white md:h-36 md:w-36"
-            />
-          ) : (
-            <span className="mx-auto flex h-28 w-28 items-center justify-center rounded-full bg-primary/10 font-serif text-5xl text-primary md:h-36 md:w-36">
-              {c.name.slice(0, 1)}
-            </span>
-          )}
+          <CharacterAvatar characterId={c.id} name={c.name} className="h-28 w-28 md:h-36 md:w-36" />
           <span className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-primary px-3.5 py-1 font-serif text-[11px] text-white shadow">
             {c.category ?? ""}
           </span>
@@ -85,7 +101,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
   };
 
   const cardBase =
-    "card-print card-print--identity absolute inset-0 h-[400px] w-[290px] overflow-hidden rounded-2xl bg-surface select-none touch-pan-y";
+    "card-print card-print--identity absolute inset-0 h-[460px] w-[290px] overflow-hidden rounded-2xl bg-surface select-none touch-pan-y";
   const cardTransition = `transform ${SWAP_MS}ms ${SPRING}, opacity ${SWAP_MS}ms ease, filter ${SWAP_MS}ms ease`;
 
   return (
@@ -98,8 +114,14 @@ export default function CharacterGacha({ characters }: { characters: Character[]
         description="悬停预览，点击两侧卡片换人"
       />
 
-      {/* 卡片区：三张卡以容器中心对称偏移（左右虚化） */}
-      <div className="relative mx-auto mt-10 h-[420px] w-[290px]" style={{ perspective: "1200px" }}>
+      {/* 卡片区：三张卡以容器中心对称偏移（左右虚化）；支持触屏左右滑动换人 */}
+      <div
+        className="relative mx-auto mt-10 h-[480px] w-[290px]"
+        style={{ perspective: "1200px", touchAction: "pan-y" }}
+        onPointerDown={onPointerDown}
+        onPointerUp={onPointerUp}
+        onPointerCancel={() => (dragStartRef.current = null)}
+      >
         {/* 左卡：碰到即滑到中央 */}
         <div
           key={left.id}
@@ -112,7 +134,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
             transform:
               swiping === -1
                 ? "translateX(0) rotate(0) scale(1)"
-                : `translateX(${hoverDir === -1 ? -118 : -SIDE}px) rotate(-5deg) scale(${hoverDir === -1 ? 0.93 : 0.86})`,
+                : `translateX(${hoverDir === -1 ? -118 : -side}px) rotate(-5deg) scale(${hoverDir === -1 ? 0.93 : 0.86})`,
             zIndex: swiping === -1 ? 30 : hoverDir === -1 ? 20 : 10,
             opacity: swiping === 1 ? 0 : swiping === -1 ? 1 : hoverDir === -1 ? 0.92 : 0.45,
             filter: swiping === -1 ? "blur(0)" : hoverDir === -1 ? "blur(0.5px)" : "blur(2px)",
@@ -133,7 +155,7 @@ export default function CharacterGacha({ characters }: { characters: Character[]
             transform:
               swiping === 1
                 ? "translateX(0) rotate(0) scale(1)"
-                : `translateX(${hoverDir === 1 ? 118 : SIDE}px) rotate(5deg) scale(${hoverDir === 1 ? 0.93 : 0.86})`,
+                : `translateX(${hoverDir === 1 ? 118 : side}px) rotate(5deg) scale(${hoverDir === 1 ? 0.93 : 0.86})`,
             zIndex: swiping === 1 ? 30 : hoverDir === 1 ? 20 : 10,
             opacity: swiping === -1 ? 0 : swiping === 1 ? 1 : hoverDir === 1 ? 0.92 : 0.45,
             filter: swiping === 1 ? "blur(0)" : hoverDir === 1 ? "blur(0.5px)" : "blur(2px)",
@@ -172,22 +194,27 @@ export default function CharacterGacha({ characters }: { characters: Character[]
 
         {/* 滑动提示 */}
         <span className="pointer-events-none absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap font-serif text-xs tracking-[0.25em] text-muted">
-          ← 点两侧卡片换人 →
+          ← 左右滑动或点两侧卡片换人 →
         </span>
       </div>
 
-      {/* 指示点 */}
-      <div className="mt-12 flex items-center justify-center gap-1.5">
-        {list.slice(0, Math.min(n, 40)).map((_, i) => (
+      {/* 指示点（限制数量避免溢出，保留触屏热区） */}
+      <div className="mt-12 flex max-w-full items-center justify-center gap-1 overflow-x-auto px-2">
+        {list.slice(0, Math.min(n, 12)).map((_, i) => (
           <button
             key={i}
             type="button"
             onClick={() => setIdx(i)}
             aria-label={`第 ${i + 1} 位`}
-            className={`h-1.5 rounded-full transition-all ${
-              i === idx ? "w-5 bg-primary" : "w-1.5 bg-line hover:bg-gold"
-            }`}
-          />
+            aria-current={i === idx ? "true" : undefined}
+            className="flex h-11 w-5 shrink-0 items-center justify-center"
+          >
+            <span
+              className={`rounded-full transition-all ${
+                i === idx ? "h-2 w-5 bg-primary" : "h-2 w-2 bg-line"
+              }`}
+            />
+          </button>
         ))}
       </div>
 

@@ -44,7 +44,7 @@ export default function AuthForm({ mode }: { mode: "login" | "register" }) {
   };
 
   const inputCls =
-    "w-full rounded-xl border border-line bg-surface px-4 py-3 text-sm text-ink outline-none transition-colors placeholder:text-muted/70 focus:border-gold";
+    "w-full rounded-xl border border-line bg-surface px-4 py-3 text-base text-ink outline-none transition-colors placeholder:text-muted/70 focus:border-gold";
 
   return (
     <div className="mx-auto w-full max-w-md px-6 py-14">

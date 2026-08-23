@@ -12,6 +12,7 @@ import { characterImages } from "@/lib/images";
 import TestResultShare from "@/components/test-result-share";
 import type { TestShareData } from "@/components/test-result-share";
 import LevelBadge from "@/components/level-badge";
+import { IconArrowLeft, IconSearch, IconPlus } from "@/components/icons";
 import { levelProgressPct, nextLevelName, remainToNext, todayKey, typeLabel } from "@/lib/levels";
 
 type TabKey = "all" | "dynamic" | "longform" | "work";
@@ -194,7 +195,7 @@ export default function ProfilePage() {
       {/* Hero：封面 + 头像 + 身份 + 数据条 */}
       <div className="mt-4 overflow-hidden rounded-3xl border border-line/60 bg-surface shadow-card">
         <div
-          className="relative h-40 md:h-44"
+          className="relative h-28 md:h-32"
           style={
             me.bg_image
               ? { backgroundImage: `url(${sitePath(me.bg_image)})`, backgroundSize: "cover", backgroundPosition: "center" }
@@ -207,40 +208,61 @@ export default function ProfilePage() {
               <div className="card-print card-print--identity absolute inset-0 opacity-40" />
             </>
           )}
-          <p className="absolute bottom-3 right-5 text-[10px] tracking-[0.3em] text-white/70 drop-shadow">一梦红楼 · 我的空间</p>
+          {/* 顶部工具行：返回 / 搜索 / 分享 */}
+          <div className="absolute inset-x-0 top-0 flex items-center justify-between p-3">
+            <button
+              type="button"
+              onClick={() => router.back()}
+              aria-label="返回"
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-black/25 text-white backdrop-blur"
+            >
+              <IconArrowLeft className="h-5 w-5" />
+            </button>
+            <div className="flex items-center gap-2">
+              <Link
+                href={sitePath("/search")}
+                aria-label="搜索"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-black/25 text-white backdrop-blur"
+              >
+                <IconSearch className="h-5 w-5" />
+              </Link>
+              <Link
+                href={sitePath("/profile/edit")}
+                className="flex h-9 items-center rounded-full bg-white/90 px-3.5 text-xs font-medium text-primary shadow backdrop-blur"
+              >
+                编辑资料
+              </Link>
+            </div>
+          </div>
+          <p className="absolute bottom-2 right-4 text-[10px] tracking-[0.3em] text-white/70 drop-shadow">一梦红楼 · 我的空间</p>
         </div>
         <div className="px-5 pb-6 md:px-6">
-          <div className="flex flex-wrap items-end gap-4">
+          <div className="flex flex-wrap items-center gap-4">
             {me.avatar ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={sitePath(me.avatar)}
+              <img loading="lazy" src={sitePath(me.avatar)}
                 alt="头像"
-                className="-mt-12 h-24 w-24 rounded-full border-4 border-surface object-cover ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28"
+                className="relative z-10 -mt-12 h-24 w-24 rounded-full border-4 border-surface object-cover ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28"
               />
             ) : (
-              <span className="-mt-12 flex h-24 w-24 items-center justify-center rounded-full border-4 border-surface bg-primary/10 font-serif text-4xl text-primary ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28">
+              <span className="relative z-10 -mt-12 flex h-24 w-24 items-center justify-center rounded-full border-4 border-surface bg-primary/10 font-serif text-4xl text-primary ring-1 ring-gold/50 shadow-card md:-mt-14 md:h-28 md:w-28">
                 {me.username.charAt(0)}
               </span>
             )}
             <div className="min-w-0 flex-1">
               <div className="flex flex-wrap items-center gap-2.5">
-                <h1 className="font-serif text-2xl font-semibold text-ink md:text-[26px]">{me.username}</h1>
+                <h1 className="min-w-0 truncate font-serif text-2xl font-semibold text-ink md:text-[26px]">{me.username}</h1>
                 <LevelBadge level={level} levelName={levelName} />
               </div>
-              <p className="mt-1 text-xs text-muted">
-                @{me.id} · {me.role === "admin" ? "管理员" : "社友"} · 注册于 {formatTime(me.created_at)}
-              </p>
               {me.signature && <p className="mt-2 font-serif text-[13px] text-gold">「{me.signature}」</p>}
             </div>
-            <div className="flex shrink-0 items-center gap-2">
-              <Link
-                href="/profile/edit"
-                className="rounded-full border border-gold/60 px-5 py-2.5 font-serif text-sm text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
-              >
-                编辑资料
-              </Link>
-            </div>
+          </div>
+
+          {/* @账号 / 角色 / 注册于：头像下方（左对齐） */}
+          <div className="mt-4 space-y-1.5 border-t border-line-inner/60 pt-3">
+            <p className="text-xs text-muted">@{me.id}</p>
+            <p className="text-xs text-muted">{me.role === "admin" ? "管理员" : "社友"}</p>
+            <p className="text-xs text-muted">注册于 {formatTime(me.created_at)}</p>
           </div>
 
           {/* 数据条：关注 / 粉丝 / 内容 */}
@@ -265,8 +287,7 @@ export default function ProfilePage() {
                   <Link key={f.id} href={`/u?id=${f.id}`} className="group">
                     {f.avatar ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={sitePath(f.avatar)}
+                      <img loading="lazy" src={sitePath(f.avatar)}
                         alt={f.username}
                         className="h-8 w-8 rounded-full border-2 border-surface object-cover ring-1 ring-gold/40 transition-transform group-hover:-translate-y-0.5"
                       />
@@ -288,6 +309,15 @@ export default function ProfilePage() {
           )}
         </div>
       </div>
+
+      {/* 右下角快捷发布（移动端） */}
+      <Link
+        href={sitePath("/community/status")}
+        aria-label="发动态"
+        className="fixed bottom-24 right-4 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-paper shadow-lg md:hidden"
+      >
+        <IconPlus className="h-6 w-6" />
+      </Link>
 
       {/* sticky Tab */}
       <div className="sticky top-14 z-10 -mx-4 mt-6 border-b border-line/60 bg-paper/90 px-4 backdrop-blur md:-mx-6 md:px-6">
@@ -469,7 +499,7 @@ export default function ProfilePage() {
                   <div className="mt-3 flex items-center gap-3">
                     {avatar ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <img src={avatar} alt={character?.name ?? ""} className="h-12 w-12 rounded-full border-2 border-gold object-cover" />
+                      <img loading="lazy" src={avatar} alt={character?.name ?? ""} className="h-12 w-12 rounded-full border-2 border-gold object-cover" />
                     ) : (
                       <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 font-serif text-xl text-primary">
                         {character?.name.charAt(0) ?? "红"}

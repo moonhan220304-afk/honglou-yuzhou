@@ -374,8 +374,7 @@ export default function TestResultShare({
       <p className="text-sm text-white/85">长按图片保存，即可分享给朋友</p>
       {posterUrl ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={posterUrl}
+        <img loading="lazy" src={posterUrl}
           alt="测试结果分享卡"
           className="max-h-[75vh] w-auto rounded-xl shadow-[0_18px_60px_rgba(0,0,0,0.6)]"
         />

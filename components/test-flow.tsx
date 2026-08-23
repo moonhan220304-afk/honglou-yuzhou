@@ -138,8 +138,7 @@ function ResultCard({
         <div className="mt-4 flex justify-center">
           {avatar ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={avatar}
+            <img loading="lazy" src={avatar}
               alt={character?.name ?? ""}
               className="h-24 w-24 rounded-full object-cover shadow-card ring-2 ring-gold/60"
             />

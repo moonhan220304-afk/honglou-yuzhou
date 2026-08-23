@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { characterImage } from "@/lib/images";
 
 export default function CharacterAvatar({
@@ -68,36 +69,35 @@ export default function CharacterAvatar({
         )}
       </div>
 
-      {/* 点击头像 → 放大为完整正方形大图 */}
-      {zoomed && canZoom && (
-        <div
-          className="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-4 bg-black/80 p-6"
-          onClick={() => setZoomed(false)}
-          role="dialog"
-          aria-modal="true"
-        >
+      {/* 点击头像 → 放大为完整正方形大图（Portal 到 body，避免被卡片 transform 截断/拉伸） */}
+      {zoomed &&
+        canZoom &&
+        createPortal(
           <div
-            className="relative"
-            onClick={(e) => e.stopPropagation()}
+            className="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-4 bg-black/80 p-6"
+            onClick={() => setZoomed(false)}
+            role="dialog"
+            aria-modal="true"
           >
-            <img
-              src={src}
-              alt={name}
-              style={{ width: "88vmin", height: "88vmin" }}
-              className="rounded-2xl object-cover shadow-2xl"
-            />
-            <p className="mt-3 text-center font-serif text-lg text-white/90">{name}</p>
-            <button
-              type="button"
-              onClick={() => setZoomed(false)}
-              aria-label="关闭"
-              className="absolute -right-3 -top-3 flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-lg text-white hover:bg-white/30"
-            >
-              ✕
-            </button>
-          </div>
-        </div>
-      )}
+            <div className="relative max-w-[92vw]" onClick={(e) => e.stopPropagation()}>
+              <img loading="lazy" src={src}
+                alt={name}
+                style={{ width: "min(88vmin, 640px)", height: "min(88vmin, 640px)", objectFit: "cover" }}
+                className="rounded-2xl shadow-2xl"
+              />
+              <p className="mt-3 text-center font-serif text-lg text-white/90">{name}</p>
+              <button
+                type="button"
+                onClick={() => setZoomed(false)}
+                aria-label="关闭"
+                className="absolute -right-3 -top-3 flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-lg text-white hover:bg-white/30"
+              >
+                ✕
+              </button>
+            </div>
+          </div>,
+          document.body,
+        )}
     </>
   );
 }

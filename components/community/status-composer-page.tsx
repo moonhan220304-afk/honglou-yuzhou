@@ -108,7 +108,7 @@ export default function StatusComposerPage() {
             {images.map((u, i) => (
               <div key={u} className="relative h-20 w-20 overflow-hidden rounded-xl border border-line">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={sitePath(u)} alt={`配图${i + 1}`} className="h-full w-full object-cover" />
+                <img loading="lazy" src={sitePath(u)} alt={`配图${i + 1}`} className="h-full w-full object-cover" />
                 <button
                   type="button"
                   onClick={() => setImages((prev) => prev.filter((x) => x !== u))}
