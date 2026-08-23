@@ -222,7 +222,7 @@ function SplashScreen({ onEnter }: { onEnter: () => void }) {
                   <div className="flex items-center gap-3">
                     {cur.img ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <img loading="lazy" src={sitePath(cur.img)}
+                      <img loading="lazy" src={cur.img}
                         alt={cur.name}
                         className="h-14 w-14 shrink-0 rounded-full object-cover object-top ring-2 ring-[#E8C98F]/70 shadow-[0_0_18px_rgba(232,201,143,0.35)]"
                       />

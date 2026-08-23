@@ -124,7 +124,7 @@ export default function LocationCards() {
                     >
                       {characterImage(cid) ? (
                         // eslint-disable-next-line @next/next/no-img-element
-                        <img loading="lazy" src={sitePath(characterImage(cid)!)}
+                        <img loading="lazy" src={characterImage(cid)!}
                           alt={characterName(cid)}
                           className="h-16 w-16 shrink-0 rounded-full object-cover object-top ring-[3px] ring-white shadow-lg group-hover:ring-gold md:h-20 md:w-20"
                         />
