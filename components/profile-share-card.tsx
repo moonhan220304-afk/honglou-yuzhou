@@ -93,49 +93,55 @@ export default function ProfileShareCard({
       const d = data!;
       const cx = W / 2;
 
-      // 顶部品牌
+      // 顶部品牌：站内 Logo（图），下方保留副标语，无虚线
+      let logoOk = false;
+      try {
+        const logo = await loadImage(`${BASE}/images/logo-universal.png`);
+        if (cancelled) return;
+        const LW = 132;
+        const LH = (logo.height / logo.width) * LW;
+        ctx.drawImage(logo, cx - LW / 2, 56 - LH / 2, LW, LH);
+        logoOk = true;
+      } catch {
+        /* logo 加载失败时回退文字 */
+      }
+      if (!logoOk) {
+        ctx.textAlign = "center";
+        ctx.fillStyle = "#A63834";
+        ctx.font = `600 30px ${serif}`;
+        ctx.fillText("红 楼 社", cx, 80);
+      }
       ctx.textAlign = "center";
-      ctx.fillStyle = "#A63834";
-      ctx.font = `600 30px ${serif}`;
-      ctx.fillText("红 楼 社", cx, 96);
       ctx.fillStyle = "#8C8273";
       ctx.font = `400 15px ${sans}`;
-      ctx.fillText("一梦红楼 · 同好空间", cx, 130);
+      ctx.fillText("一梦红楼 · 同好空间", cx, 118);
 
-      // 分隔线
-      ctx.strokeStyle = "rgba(166, 56, 52, 0.35)";
-      ctx.setLineDash([4, 4]);
-      ctx.beginPath();
-      ctx.moveTo(W * 0.2, 158);
-      ctx.lineTo(W * 0.8, 158);
-      ctx.stroke();
-      ctx.setLineDash([]);
-
-      // 头像
+      // 头像（上移）
       const AV = 150;
+      const AV_CY = 268;
       try {
         if (d.avatar) {
           const img = await loadImage(sitePath(d.avatar));
           if (cancelled) return;
           ctx.save();
           ctx.beginPath();
-          ctx.arc(cx, 292, AV / 2, 0, Math.PI * 2);
+          ctx.arc(cx, AV_CY, AV / 2, 0, Math.PI * 2);
           ctx.closePath();
           ctx.clip();
-          ctx.drawImage(img, cx - AV / 2, 292 - AV / 2, AV, AV);
+          ctx.drawImage(img, cx - AV / 2, AV_CY - AV / 2, AV, AV);
           ctx.restore();
         } else {
           ctx.save();
           ctx.fillStyle = "rgba(166, 56, 52, 0.12)";
           ctx.beginPath();
-          ctx.arc(cx, 292, AV / 2, 0, Math.PI * 2);
+          ctx.arc(cx, AV_CY, AV / 2, 0, Math.PI * 2);
           ctx.closePath();
           ctx.fill();
           ctx.fillStyle = "#A63834";
           ctx.font = `600 64px ${serif}`;
           ctx.textAlign = "center";
           ctx.textBaseline = "middle";
-          ctx.fillText(d.username.charAt(0), cx, 292);
+          ctx.fillText(d.username.charAt(0), cx, AV_CY);
           ctx.textBaseline = "alphabetic";
           ctx.restore();
         }
@@ -146,35 +152,36 @@ export default function ProfileShareCard({
       ctx.strokeStyle = "#C49A6C";
       ctx.lineWidth = 4;
       ctx.beginPath();
-      ctx.arc(cx, 292, AV / 2 + 3, 0, Math.PI * 2);
+      ctx.arc(cx, AV_CY, AV / 2 + 3, 0, Math.PI * 2);
       ctx.stroke();
 
-      // 昵称
+      // 昵称（下移，与头像拉开留白）
       ctx.fillStyle = "#3B332B";
       ctx.font = `600 40px ${serif}`;
-      ctx.fillText(d.username, cx, 400);
+      ctx.fillText(d.username, cx, 414);
 
       // 等级徽章
       const badgeText = `${d.levelName || "懵懂"} · LV${d.level}`;
       ctx.font = `500 19px ${sans}`;
       const bw = ctx.measureText(badgeText).width + 40;
-      roundedRect(cx - bw / 2, 428, bw, 36, 18);
+      roundedRect(cx - bw / 2, 442, bw, 36, 18);
       ctx.fillStyle = "rgba(196, 154, 108, 0.18)";
       ctx.fill();
       ctx.fillStyle = "#8A6A45";
       ctx.textAlign = "center";
-      ctx.fillText(badgeText, cx, 452);
+      ctx.fillText(badgeText, cx, 466);
 
-      // 签名（选填）
+      // 签名（选填，与二维码间距拉近）
       if (d.signature) {
         ctx.fillStyle = "#6B6155";
         ctx.font = `400 18px ${serif}`;
         const sig = d.signature.length > 18 ? d.signature.slice(0, 17) + "…" : d.signature;
-        ctx.fillText(`「${sig}」`, cx, 506);
+        ctx.fillText(`「${sig}」`, cx, 516);
       }
 
-      // 二维码（动态生成，指向个人空间）
-      const QR_SIZE = 208;
+      // 二维码（动态生成，指向个人空间；与签名拉近）
+      const QR_SIZE = 200;
+      const QR_TOP = 548;
       try {
         const qrDataUrl = await QRCode.toDataURL(d.profileUrl, {
           width: QR_SIZE,
@@ -190,13 +197,13 @@ export default function ProfileShareCard({
         ctx.shadowBlur = 14;
         ctx.shadowOffsetY = 4;
         ctx.fillStyle = "#FFFFFF";
-        roundedRect(cx - QR_SIZE / 2 - 14, 560, QR_SIZE + 28, QR_SIZE + 28, 16);
+        roundedRect(cx - QR_SIZE / 2 - 14, QR_TOP, QR_SIZE + 28, QR_SIZE + 28, 16);
         ctx.fill();
         ctx.restore();
-        ctx.drawImage(qr, cx - QR_SIZE / 2, 574, QR_SIZE, QR_SIZE);
+        ctx.drawImage(qr, cx - QR_SIZE / 2, QR_TOP + 14, QR_SIZE, QR_SIZE);
         ctx.fillStyle = "#8C8C8C";
         ctx.font = `400 15px ${sans}`;
-        ctx.fillText("扫码进入我的个人空间", cx, 560 + QR_SIZE + 14 + 20 + 26);
+        ctx.fillText("扫码进入我的个人空间", cx, QR_TOP + QR_SIZE + 28 + 24);
       } catch {
         if (cancelled) return;
         ctx.fillStyle = "#8C8C8C";

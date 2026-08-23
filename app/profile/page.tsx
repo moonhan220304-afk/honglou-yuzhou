@@ -13,7 +13,7 @@ import TestResultShare from "@/components/test-result-share";
 import type { TestShareData } from "@/components/test-result-share";
 import ProfileShareCard from "@/components/profile-share-card";
 import LevelBadge from "@/components/level-badge";
-import { IconArrowLeft, IconSearch, IconPlus, IconShare } from "@/components/icons";
+import { IconSearch, IconPlus, IconShare } from "@/components/icons";
 import { levelProgressPct, nextLevelName, remainToNext, todayKey, typeLabel } from "@/lib/levels";
 
 type TabKey = "all" | "dynamic" | "longform" | "work";
@@ -190,14 +190,24 @@ export default function ProfilePage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8 md:px-6">
-      <Link href="/community" className="text-xs text-muted transition-colors hover:text-primary">
-        ← 返回
-      </Link>
+      {/* 顶部行：返回 + 搜索（同排，不叠在背景图上） */}
+      <div className="flex items-center justify-between">
+        <Link href="/community" className="text-xs text-muted transition-colors hover:text-primary">
+          ← 返回
+        </Link>
+        <Link
+          href="/search"
+          aria-label="搜索"
+          className="flex h-8 w-8 items-center justify-center rounded-full bg-paper-deep/70 text-muted transition-colors hover:bg-line/60 hover:text-primary"
+        >
+          <IconSearch className="h-4 w-4" />
+        </Link>
+      </div>
 
       {/* Hero：封面 + 头像 + 身份 + 数据条 */}
       <div className="mt-4 overflow-hidden rounded-3xl border border-line/60 bg-surface shadow-card">
         <div
-          className="relative h-28 md:h-32"
+          className="relative h-36 md:h-44"
           style={
             me.bg_image
               ? { backgroundImage: `url(${sitePath(me.bg_image)})`, backgroundSize: "cover", backgroundPosition: "center" }
@@ -210,34 +220,6 @@ export default function ProfilePage() {
               <div className="card-print card-print--identity absolute inset-0 opacity-40" />
             </>
           )}
-          {/* 顶部工具行：返回 / 搜索 / 分享 */}
-          <div className="absolute inset-x-0 top-0 flex items-center justify-between p-3">
-            <button
-              type="button"
-              onClick={() => router.back()}
-              aria-label="返回"
-              className="flex h-9 w-9 items-center justify-center rounded-full bg-black/25 text-white backdrop-blur"
-            >
-              <IconArrowLeft className="h-5 w-5" />
-            </button>
-            <div className="flex items-center gap-2">
-              <Link
-                href="/search"
-                aria-label="搜索"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-black/25 text-white backdrop-blur"
-              >
-                <IconSearch className="h-5 w-5" />
-              </Link>
-              <button
-                type="button"
-                onClick={() => setCardOpen(true)}
-                className="flex h-9 items-center gap-1.5 rounded-full bg-white/90 px-3.5 text-xs font-medium text-primary shadow backdrop-blur"
-              >
-                <IconShare className="h-3.5 w-3.5" />
-                分享
-              </button>
-            </div>
-          </div>
           <p className="absolute bottom-2 right-4 text-[10px] tracking-[0.3em] text-white/70 drop-shadow">一梦红楼 · 我的空间</p>
         </div>
         <div className="px-5 pb-6 md:px-6">
@@ -259,17 +241,27 @@ export default function ProfilePage() {
                 <LevelBadge level={level} levelName={levelName} />
               </div>
               {me.signature && <p className="mt-2 font-serif text-[13px] text-gold">「{me.signature}」</p>}
-              <Link
-                href="/profile/edit"
-                className="mt-3 inline-flex items-center gap-1 rounded-full border border-gold/60 px-3.5 py-1.5 text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
-              >
-                编辑资料
-              </Link>
+              <div className="mt-3 flex flex-wrap items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setCardOpen(true)}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-gold/60 px-3.5 py-1.5 text-xs text-secondary-btn-text transition-colors hover:border-gold hover:text-primary"
+                >
+                  <IconShare className="h-3.5 w-3.5" />
+                  分享
+                </button>
+                <Link
+                  href="/profile/edit"
+                  className="inline-flex items-center gap-1 rounded-full bg-primary px-3.5 py-1.5 text-xs text-paper transition-colors hover:bg-primary-deep"
+                >
+                  编辑资料
+                </Link>
+              </div>
             </div>
           </div>
 
           {/* 数据条：关注 / 粉丝 / 内容 */}
-          <div className="mt-5 grid grid-cols-3 border-t border-line-inner/70 pt-4 text-center">
+          <div className="mt-5 grid grid-cols-3 border-t border-line-inner/30 pt-4 text-center">
             {[
               { label: "关注", value: me.following ?? 0 },
               { label: "粉丝", value: me.followers ?? 0 },
@@ -281,35 +273,6 @@ export default function ProfilePage() {
               </div>
             ))}
           </div>
-
-          {/* 我的关注头像条 */}
-          {follows !== null && follows.length > 0 && (
-            <div className="mt-4 flex items-center gap-3 border-t border-line-inner/70 pt-4">
-              <div className="flex -space-x-2">
-                {follows.slice(0, 8).map((f) => (
-                  <Link key={f.id} href={`/u?id=${f.id}`} className="group">
-                    {f.avatar ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img loading="lazy" src={sitePath(f.avatar)}
-                        alt={f.username}
-                        className="h-8 w-8 rounded-full border-2 border-surface object-cover ring-1 ring-gold/40 transition-transform group-hover:-translate-y-0.5"
-                      />
-                    ) : (
-                      <span className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-surface bg-primary/10 font-serif text-[11px] text-primary transition-transform group-hover:-translate-y-0.5">
-                        {f.username.charAt(0)}
-                      </span>
-                    )}
-                  </Link>
-                ))}
-                {(me.following ?? 0) > 8 && (
-                  <span className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-surface bg-paper-deep font-mono text-[10px] text-muted">
-                    +{(me.following ?? 0) - 8}
-                  </span>
-                )}
-              </div>
-              <span className="text-xs text-muted">我的关注 · {me.following ?? 0}</span>
-            </div>
-          )}
         </div>
       </div>
 

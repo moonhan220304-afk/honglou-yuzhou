@@ -6,8 +6,9 @@ import { useRouter } from "next/navigation";
 import { api, fetchMe, sitePath } from "@/lib/api";
 import type { Me } from "@/lib/api";
 import { compressAndUpload } from "@/lib/client-community";
+import BgCropModal from "@/components/bg-crop-modal";
 
-/** 编辑资料 · 独立居中页：换头像 + 个性签名 */
+/** 编辑资料 · 独立居中页：换头像 + 背景图（16:9 框选）+ 个性签名 */
 export default function ProfileEdit() {
   const router = useRouter();
   const [me, setMe] = useState<Me | null | undefined>(undefined);
@@ -17,6 +18,7 @@ export default function ProfileEdit() {
   const [err, setErr] = useState("");
   const fileRef = useRef<HTMLInputElement>(null);
   const bgRef = useRef<HTMLInputElement>(null);
+  const [cropFile, setCropFile] = useState<File | null>(null);
 
   useEffect(() => {
     fetchMe().then((m) => {
@@ -48,26 +50,13 @@ export default function ProfileEdit() {
     }
   };
 
-  const onPickBgImage = async (files: FileList | null) => {
+  const onPickBgImage = (files: FileList | null) => {
     const f = files?.[0];
     if (!f) return;
     setErr("");
     setMsg("");
-    setBusy(true);
-    try {
-      const url = await compressAndUpload(f);
-      const r = await api<{ user: Me }>("/api/profile", {
-        method: "POST",
-        body: JSON.stringify({ bg_image: url }),
-      });
-      setMe((m) => (m ? { ...m, bg_image: r.user.bg_image } : m));
-      setMsg("背景图已更新");
-    } catch (ex) {
-      setErr(ex instanceof Error ? ex.message : "背景图更新失败");
-    } finally {
-      setBusy(false);
-      if (bgRef.current) bgRef.current.value = "";
-    }
+    setCropFile(f); // 进入 16:9 框选
+    if (bgRef.current) bgRef.current.value = "";
   };
 
   const saveSignature = async (e: React.FormEvent) => {
@@ -106,7 +95,7 @@ export default function ProfileEdit() {
         {/* 背景图 */}
         <div className="rounded-2xl border border-line/60 bg-surface p-5 shadow-card">
           <p className="font-serif text-base font-semibold text-ink">背景图</p>
-          <p className="mt-1 text-xs text-muted">主页顶部的封面背景，建议横图（如 1200×300），自动压缩后保存</p>
+          <p className="mt-1 text-xs text-muted">主页顶部封面。上传后可在 16:9 框内拖动/缩放，自主选择展示区域</p>
           <div className="mt-3 h-28 w-full overflow-hidden rounded-xl border border-line bg-paper-deep">
             {me.bg_image ? (
               // eslint-disable-next-line @next/next/no-img-element
@@ -179,6 +168,19 @@ export default function ProfileEdit() {
           </div>
         </form>
       </div>
+
+      {/* 背景图 16:9 框选弹层 */}
+      {cropFile && (
+        <BgCropModal
+          file={cropFile}
+          onCancel={() => setCropFile(null)}
+          onDone={(url) => {
+            setMe((m) => (m ? { ...m, bg_image: url } : m));
+            setCropFile(null);
+            setMsg("背景图已更新");
+          }}
+        />
+      )}
     </div>
   );
 }
