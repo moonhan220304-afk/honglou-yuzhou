@@ -18,6 +18,8 @@
   --color-primary: #a63834;
   --color-primary-deep: #8a2c28;
   --color-gold: #c49a6c;
+  /* 贴吧讨论/帖子标题专用深棕金：浅色主题下比 gold 更深、更醒目，深色主题下提亮保证可见 */
+  --color-title-gold: #8a6a45;
   --color-secondary-btn: #e8d9c9;
   --color-secondary-btn-text: #5c4a3d;
   --color-ink: #2c2c2c;
@@ -90,6 +92,7 @@ html[data-theme-dark="1"] {
   --color-primary: #c96a5f !important;
   --color-primary-deep: #a34a40 !important;
   --color-gold: #d3a97a !important;
+  --color-title-gold: #d3a97a !important;
   --color-seal: #c96a5f !important;
   --color-secondary-btn: #3a2f26 !important;
   --color-secondary-btn-text: #d8cdbd !important;

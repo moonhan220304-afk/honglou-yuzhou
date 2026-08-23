@@ -537,7 +537,7 @@ function postView(p, viewer) {
     question_id: p.question_id ?? null,
     quote,
     repost,
-    author: { id: p.author_id, username: p.author_username },
+    author: { id: p.author_id, username: p.author_username, avatar: p.author_avatar ?? null },
     created_at: p.created_at,
   };
 }
@@ -680,7 +680,7 @@ const STATUS_LABEL = { pending: "待审核", approved: "已发布", rejected: "�
 function adminPostsHtml() {
   const mods = moderationWords();
   const rows = db.prepare(
-    `SELECT p.*, u.username author_username FROM posts p JOIN users u ON u.id = p.author_id ORDER BY p.created_at DESC LIMIT 100`,
+    `SELECT p.*, u.username author_username, u.avatar author_avatar FROM posts p JOIN users u ON u.id = p.author_id ORDER BY p.created_at DESC LIMIT 100`,
   ).all().map((p) => {
     const statusColor = p.status === "pending" ? "warn" : p.status === "approved" ? "ok" : "";
     const why = p.status === "pending"
@@ -1042,7 +1042,7 @@ const server = http.createServer(async (req, res) => {
       const where = conds.join(" AND ");
       const order = sort === "hot" ? "p.like_count DESC, p.view_count DESC, p.created_at DESC" : "p.created_at DESC";
       const rows = db.prepare(
-        `SELECT p.*, u.username author_username FROM posts p JOIN users u ON u.id = p.author_id WHERE ${where} ORDER BY ${order} LIMIT ? OFFSET ?`,
+        `SELECT p.*, u.username author_username, u.avatar author_avatar FROM posts p JOIN users u ON u.id = p.author_id WHERE ${where} ORDER BY ${order} LIMIT ? OFFSET ?`,
       ).all(...args, per, (page - 1) * per);
       const total = db.prepare(`SELECT COUNT(*) c FROM posts p JOIN users u ON u.id = p.author_id WHERE ${where}`).get(...args).c;
       const tags = db.prepare("SELECT DISTINCT tag FROM posts WHERE status='approved' ORDER BY tag").all().map((r) => r.tag);
@@ -1055,7 +1055,7 @@ const server = http.createServer(async (req, res) => {
     const commentDeleteMatch = url.pathname.match(/^\/api\/posts\/(\d+)\/comments\/(\d+)$/);
     if (postMatch && req.method === "GET") {
       const viewer = sessionUser(req);
-      const p = db.prepare("SELECT p.*, u.username author_username FROM posts p JOIN users u ON u.id = p.author_id WHERE p.id = ?").get(Number(postMatch[1]));
+      const p = db.prepare("SELECT p.*, u.username author_username, u.avatar author_avatar FROM posts p JOIN users u ON u.id = p.author_id WHERE p.id = ?").get(Number(postMatch[1]));
       if (!p) return send(res, 404, { ok: false });
       const view = postView(p, viewer);
       if (!view) return send(res, 404, { ok: false, msg: "帖子不存在或未过审" });

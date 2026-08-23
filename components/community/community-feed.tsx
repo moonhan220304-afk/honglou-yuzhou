@@ -173,11 +173,24 @@ export default function CommunityFeed() {
     [posts],
   );
 
-  const Avatar = ({ name, size = "h-9 w-9" }: { name: string; size?: string }) => (
-    <span className={`flex shrink-0 items-center justify-center rounded-full bg-primary/10 font-serif ${size}`}>
-      <span className="text-sm text-primary">{name.slice(0, 1)}</span>
-    </span>
-  );
+  const Avatar = ({ name, avatar, size = "h-9 w-9" }: { name: string; avatar?: string | null; size?: string }) => {
+    if (avatar) {
+      return (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          loading="lazy"
+          src={sitePath(avatar)}
+          alt={name}
+          className={`${size} shrink-0 rounded-full border border-gold/40 object-cover`}
+        />
+      );
+    }
+    return (
+      <span className={`flex shrink-0 items-center justify-center rounded-full bg-primary/10 font-serif ${size}`}>
+        <span className="text-sm text-primary">{name.slice(0, 1)}</span>
+      </span>
+    );
+  };
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 md:px-6">
@@ -187,7 +200,7 @@ export default function CommunityFeed() {
         title="聊一聊"
         description="贴吧式盖楼讨论 + 微博式今日动态，两类内容各自独立。内容自动审核，请遵守社区规范。"
         actions={
-          isBoard ? (
+          <div className="flex flex-wrap items-center gap-2">
             <Link
               href="/community/new"
               className="flex items-center justify-center gap-1.5 rounded-full bg-primary px-5 py-2.5 text-center font-serif text-sm text-paper transition-colors hover:bg-primary-deep"
@@ -195,7 +208,6 @@ export default function CommunityFeed() {
               <IconPlus className="h-4 w-4" />
               发帖讨论
             </Link>
-          ) : (
             <Link
               href="/community/status"
               className="flex items-center justify-center gap-1.5 rounded-full border border-chat-deep/40 px-5 py-2.5 text-center font-serif text-sm text-chat-deep transition-colors hover:bg-chat-deep hover:text-paper"
@@ -203,42 +215,56 @@ export default function CommunityFeed() {
               <IconPlus className="h-4 w-4" />
               发表状态
             </Link>
-          )
+          </div>
         }
       />
 
-      {/* 一级板块：贴吧讨论 / 今日动态 */}
-      <div className="mt-6 flex flex-wrap items-center gap-2">
-        {SCOPE_TABS.map((s) => (
-          <button
-            key={s.key}
-            type="button"
-            onClick={() => switchScope(s.key)}
-            className={`rounded-full px-5 py-2 font-serif text-sm transition-colors ${
-              scope === s.key ? "bg-primary font-medium text-paper" : "bg-paper-deep text-muted hover:bg-line/50 hover:text-body"
-            }`}
-          >
-            {s.label}
-          </button>
-        ))}
+      {/* 一级板块：贴吧讨论 / 今日动态（文字 Tab：选中加粗 + 下划线） */}
+      <div className="mt-6 flex items-center gap-6 border-b border-line/60">
+        {SCOPE_TABS.map((s) => {
+          const on = scope === s.key;
+          return (
+            <button
+              key={s.key}
+              type="button"
+              onClick={() => switchScope(s.key)}
+              className={`-mb-px border-b-2 px-1 pb-2.5 pt-1 font-serif text-base transition-colors ${
+                on
+                  ? "border-title-gold font-semibold text-title-gold"
+                  : "border-transparent text-muted hover:text-body"
+              }`}
+            >
+              {s.label}
+            </button>
+          );
+        })}
       </div>
 
       <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_280px]">
         <div>
-          <div className="flex flex-wrap items-center gap-2">
+          {/* 搜索框 */}
+          <div className="flex items-center">
             <SectionSearch
               value={kw}
               onChange={onKwChange}
               placeholder={isBoard ? "搜索帖子：标题、内容、作者…" : "搜索动态…"}
-              className="mr-2 w-full max-w-xs"
+              className="w-full max-w-md"
             />
-            {isBoard &&
-              [...BOARD_TAGS, ...tags.filter((t) => !BOARD_TAGS.includes(t))].slice(0, 8).map((t) => (
+          </div>
+
+          {/* 分类标签（仅贴吧讨论） */}
+          {isBoard && (
+            <div className="mt-3 flex flex-wrap items-center gap-2">
+              {[...BOARD_TAGS, ...tags.filter((t) => !BOARD_TAGS.includes(t))].slice(0, 8).map((t) => (
                 <button key={t} type="button" onClick={() => applyFilter({ tag: t })} className={chipCls(tag === t)}>
                   {t}
                 </button>
               ))}
-            <span className="mx-1 h-4 w-px bg-line" />
+            </div>
+          )}
+
+          {/* 排序：热帖 / 最新 / 我关注的（与上方用线分隔） */}
+          <div className="mt-4 flex items-center gap-5 border-t border-line/50 pt-3">
             <button type="button" onClick={() => applyFilter({ tab: "hot" })} className={chipCls(tab === "hot")}>
               热帖
             </button>
@@ -286,7 +312,7 @@ export default function CommunityFeed() {
                 className="group flex gap-3.5 border-b border-line-inner/60 py-5 transition-colors hover:bg-paper-deep/30 md:px-2"
               >
                 <Link href={`/u?id=${p.author.id}`} className="shrink-0" title={`查看 ${p.author.username} 的主页`}>
-                  <Avatar name={p.author.username} />
+                  <Avatar name={p.author.username} avatar={p.author.avatar} />
                 </Link>
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2 text-xs">
@@ -303,8 +329,8 @@ export default function CommunityFeed() {
                   <Link href={`/community/post/?id=${p.id}`} className="block">
                     {isBoard ? (
                       <>
-                        {/* 标题醒目区分（字号/加粗/颜色），正文次之 */}
-                        <h2 className="mt-1.5 font-serif text-[17px] font-bold leading-snug text-ink group-hover:text-primary">
+                        {/* 标题醒目区分：深棕金配色（浅色主题深棕金、深色主题提亮），正文次之 */}
+                        <h2 className="mt-1.5 font-serif text-[17px] font-semibold leading-snug text-title-gold group-hover:brightness-110">
                           {p.title || "（无标题）"}
                         </h2>
                         {p.quote && <QuoteBlock quote={p.quote} compact questionId={p.question_id} />}

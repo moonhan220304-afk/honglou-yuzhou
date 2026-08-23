@@ -1,5 +1,5 @@
 "use client";
-import { IconHeart } from "@/components/icons";
+import { IconHeart, IconMessage, IconShare } from "@/components/icons";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -135,15 +135,17 @@ export default function CommentThread({
         <button
           type="button"
           onClick={() => setOpenReply(openReply === c.id ? null : c.id)}
-          className="transition-colors hover:text-primary"
+          className="flex items-center gap-1 transition-colors hover:text-primary"
         >
+          <IconMessage className="h-3.5 w-3.5" />
           回复
         </button>
         <button
           type="button"
           onClick={() => shareComment(c)}
-          className="transition-colors hover:text-primary"
+          className="flex items-center gap-1 transition-colors hover:text-primary"
         >
+          <IconShare className="h-3.5 w-3.5" />
           分享
         </button>
         {me && (me.id === c.author.id || me.role === "admin") && (

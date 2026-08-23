@@ -64,7 +64,7 @@ export interface PostSummary {
   question_id: string | null;
   quote: PostQuote | null;
   repost?: PostRepost | null;
-  author: { id: number; username: string };
+  author: { id: number; username: string; avatar?: string | null };
   created_at: number;
 }
 
