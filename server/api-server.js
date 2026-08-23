@@ -145,6 +145,9 @@ if (!userCols.includes("points")) {
 if (!userCols.includes("last_checkin")) {
   db.exec("ALTER TABLE users ADD COLUMN last_checkin TEXT");
 }
+if (!userCols.includes("bg_image")) {
+  db.exec("ALTER TABLE users ADD COLUMN bg_image TEXT");
+}
 if (!postCols.includes("type")) {
   db.exec("ALTER TABLE posts ADD COLUMN type TEXT NOT NULL DEFAULT 'post'");
 }
@@ -309,11 +312,11 @@ function sessionUser(req) {
   if (!pair) return null;
   const token = pair.slice("hlm_session=".length);
   const s = db.prepare(
-    "SELECT s.user_id, u.username, u.role, u.status, u.avatar, u.signature, u.created_at FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token = ? AND s.expires_at > ?",
+    "SELECT s.user_id, u.username, u.role, u.status, u.avatar, u.signature, u.bg_image, u.created_at FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token = ? AND s.expires_at > ?",
   ).get(token, Date.now());
   if (!s) return null;
   if (s.status !== "active") return null;
-  return { id: s.user_id, username: s.username, role: s.role, avatar: s.avatar, signature: s.signature, created_at: s.created_at };
+  return { id: s.user_id, username: s.username, role: s.role, avatar: s.avatar, signature: s.signature, bg_image: s.bg_image, created_at: s.created_at };
 }
 
 function needAuth(req, res) {
@@ -706,7 +709,7 @@ const server = http.createServer(async (req, res) => {
       const u = needAuth(req, res);
       if (!u) return;
       const body = await readBody(req, 10_000);
-      const { avatar, signature } = JSON.parse(body || "{}");
+      const { avatar, signature, bg_image } = JSON.parse(body || "{}");
       const sets = [];
       const args = [];
       if (typeof signature === "string") {
@@ -722,9 +725,17 @@ const server = http.createServer(async (req, res) => {
           return send(res, 400, { ok: false, msg: "头像必须是站内上传的图片" });
         }
       }
+      if (typeof bg_image === "string") {
+        if (!bg_image || bg_image.startsWith("/uploads/")) {
+          sets.push("bg_image = ?");
+          args.push(bg_image || null);
+        } else {
+          return send(res, 400, { ok: false, msg: "背景图必须是站内上传的图片" });
+        }
+      }
       if (sets.length === 0) return send(res, 400, { ok: false, msg: "没有可更新的内容" });
       db.prepare(`UPDATE users SET ${sets.join(", ")} WHERE id = ?`).run(...args, u.id);
-      const fresh = db.prepare("SELECT username, role, avatar, signature, created_at FROM users WHERE id = ?").get(u.id);
+      const fresh = db.prepare("SELECT username, role, avatar, signature, bg_image, created_at FROM users WHERE id = ?").get(u.id);
       return send(res, 200, { ok: true, user: { id: u.id, ...fresh } });
     }
 
@@ -1366,7 +1377,7 @@ const server = http.createServer(async (req, res) => {
     const userMatch = url.pathname.match(/^\/api\/users\/(\d+)$/);
     if (userMatch && req.method === "GET") {
       const uid = Number(userMatch[1]);
-      const row = db.prepare("SELECT id, username, avatar, signature, points, created_at, role FROM users WHERE id = ? AND status = 'active'").get(uid);
+      const row = db.prepare("SELECT id, username, avatar, signature, bg_image, points, created_at, role FROM users WHERE id = ? AND status = 'active'").get(uid);
       if (!row) return send(res, 404, { ok: false, msg: "用户不存在" });
       const posts = db.prepare(
         "SELECT id, title, content, type, like_count, created_at FROM posts WHERE author_id = ? AND status = 'approved' ORDER BY created_at DESC LIMIT 50"
@@ -1376,7 +1387,7 @@ const server = http.createServer(async (req, res) => {
       const lv = levelOf(row.points);
       return send(res, 200, {
         ok: true,
-        user: { id: row.id, username: row.username, avatar: row.avatar, signature: row.signature, points: row.points, level: lv, level_name: LEVEL_NAMES[lv - 1] || "元老", followers, following, created_at: row.created_at },
+        user: { id: row.id, username: row.username, avatar: row.avatar, signature: row.signature, bg_image: row.bg_image, points: row.points, level: lv, level_name: LEVEL_NAMES[lv - 1] || "元老", followers, following, created_at: row.created_at },
         items: posts,
       });
     }
@@ -1418,9 +1429,10 @@ const server = http.createServer(async (req, res) => {
     }
   } catch (e) {
     if (!res.headersSent) return send(res, 500, { ok: false, msg: e.message });
+    return;
   }
 
-  send(res, 404, { ok: false });
+  if (!res.headersSent) send(res, 404, { ok: false });
 });
 
 function osTotalMemMB() {
@@ -1514,6 +1526,88 @@ function composeAiReview(post) {
   return `${pick}。${notes.join("；")}。整体不俗，若再于格律上打磨，可入诗刊。`;
 }
 
+/* ---------- 演示测试统计种子（仅首次、仅空库时插入） ---------- */
+function seedDemoTestResults() {
+  const c = db.prepare("SELECT COUNT(*) c FROM test_results").get().c;
+  if (c > 0) return;
+  const demo = [
+    [1001, "daiyu", "character_lin_daiyu"],
+    [1002, "daiyu", "character_lin_daiyu"],
+    [1003, "daiyu", "character_lin_daiyu"],
+    [1004, "daiyu", "character_lin_daiyu"],
+    [1005, "daiyu", "character_lin_daiyu"],
+    [1006, "daiyu", "character_lin_daiyu"],
+    [1007, "daiyu", "character_lin_daiyu"],
+    [1008, "daiyu", "character_lin_daiyu"],
+    [1009, "baochai", "character_xue_baochai"],
+    [1010, "baochai", "character_xue_baochai"],
+    [1011, "baochai", "character_xue_baochai"],
+    [1012, "baochai", "character_xue_baochai"],
+    [1013, "baochai", "character_xue_baochai"],
+    [1014, "baochai", "character_xue_baochai"],
+    [1015, "fengjie", "character_wang_xifeng"],
+    [1016, "fengjie", "character_wang_xifeng"],
+    [1017, "fengjie", "character_wang_xifeng"],
+    [1018, "fengjie", "character_wang_xifeng"],
+    [1019, "fengjie", "character_wang_xifeng"],
+    [1020, "baoyu", "character_jia_baoyu"],
+    [1021, "baoyu", "character_jia_baoyu"],
+    [1022, "baoyu", "character_jia_baoyu"],
+    [1023, "baoyu", "character_jia_baoyu"],
+    [1024, "xiangyun", "character_shi_xiangyun"],
+    [1025, "xiangyun", "character_shi_xiangyun"],
+    [1026, "xiangyun", "character_shi_xiangyun"],
+    [1027, "tanchun", "character_jia_tanchun"],
+    [1028, "tanchun", "character_jia_tanchun"],
+    [1029, "jiamu", "character_jia_mu"],
+    [1030, "miaoyu", "character_miao_yu"],
+    [1031, "liwan", "character_li_wan"],
+    [1032, "qingwen", "character_qingwen"],
+  ];
+  const now = Date.now();
+  const stmt = db.prepare(
+    "INSERT OR IGNORE INTO test_results (user_id, archetype_id, character_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?)",
+  );
+  for (const [uid, aid, cid] of demo) stmt.run(uid, aid, cid, now, now);
+}
+
+/* ---------- 演示用户 + 帖子种子（让他人主页 / 关注按钮有真实对象可看） ---------- */
+function seedDemoUsers() {
+  const c = db.prepare("SELECT COUNT(*) c FROM users").get().c;
+  if (c > 1) return;
+  const now = Date.now();
+  const demoUsers = [
+    {
+      username: "蘅芜君",
+      signature: "任是无情也动人",
+      posts: [
+        { title: "宝钗的「冷香丸」到底隐喻什么？", content: "「冷香丸」的配方取四季花蕊、四水之霜露，实则是宝钗「藏愚守拙、随分从时」性格的物化。她以「冷」制「热毒」，正对应她压抑真情、以礼自持的处世之道。", tag: "人物讨论" },
+        { title: "「金玉良缘」是不是宝钗的本意？", content: "宝钗对金玉之说一向「总远着宝玉」，她何尝愿意被「金锁」捆绑一生？与其说宝钗要嫁宝玉，不如说是家族利益把她推到了那个位置。", tag: "观点争鸣" },
+      ],
+    },
+    {
+      username: "枕霞旧友",
+      signature: "是真名士自风流",
+      posts: [
+        { title: "湘云醉卧芍药裀——大观园里最洒脱的一幕", content: "湘云醉眠石凳，四面芍药花飞了一身，满头脸衣襟上皆是红香散乱。这一幕是全书写「天真烂漫」的极致，也是「任情率性」与「礼教」对比最鲜明的一笔。", tag: "人物讨论" },
+      ],
+    },
+  ];
+  const insUser = db.prepare("INSERT INTO users (username, pass_hash, role, status, created_at, signature, points) VALUES (?, ?, 'user', 'active', ?, ?, ?)");
+  const insPost = db.prepare("INSERT INTO posts (author_id, title, content, tag, images, status, type, created_at) VALUES (?, ?, ?, ?, '[]', 'approved', 'post', ?)");
+  for (const u of demoUsers) {
+    if (db.prepare("SELECT id FROM users WHERE username = ?").get(u.username)) continue;
+    const info = insUser.run(u.username, hashPassword("Test12345"), now, u.signature, 20);
+    const uid = Number(info.lastInsertRowid);
+    for (const p of u.posts) insPost.run(uid, p.title, p.content, p.tag, now);
+  }
+}
+
 server.listen(PORT, () => {
+  // 演示用：首次启动且无测试结果时，播种一批测试统计（让「站内同好统计」有数据可显）
+  try {
+    seedDemoTestResults();
+    seedDemoUsers();
+  } catch {}
   console.log(`honglou-yuzhou api listening on :${PORT}`);
 });

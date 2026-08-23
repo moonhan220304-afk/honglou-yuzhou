@@ -61,6 +61,53 @@ export const events: Record<string, Event> = {
     status: v(),
   },
 
+  event_baoyu_smash_jade_ch3: {
+    id: "event_baoyu_smash_jade_ch3",
+    title: "宝玉摔玉",
+    event_level: "major",
+    chapter: {
+      number: 3,
+      title: "贾雨村夤缘复旧职 林黛玉抛父进京都",
+      attribution: "caoxueqin",
+    },
+    location: { name: "荣国府", specific: "贾母正房" },
+    summary: {
+      short: "宝玉初见黛玉，问「可也有玉没有」，闻黛玉无玉，登时摘下通灵宝玉狠命摔去——「什么罕物，连人之高低不择」。",
+      meaning: [
+        "宝玉对「金玉良缘」的第一次无意识抵抗",
+        "通灵宝玉是全家眼中的「命根子」，宝玉却可为一见如故的黛玉而摔",
+        "摔玉不是任性，而是对世俗价值标准的最初反叛",
+        "贾母「孽障」之叹，点出宝玉离经叛道与家族期许的根本冲突",
+      ],
+    },
+    participants: [
+      { character_id: "character_jia_baoyu", role: "主要人物" },
+      { character_id: "character_lin_daiyu", role: "相关人物" },
+      { character_id: "character_jiamu", role: "相关人物" },
+    ],
+    evidence: [
+      {
+        source_id: "source_ch03_smash_jade",
+        quote: "又问黛玉：「可也有玉没有？」……宝玉听了，登时发作起痴狂病来，摘下那玉就狠命摔去，骂道：「什么罕物，连人之高低不择，还说通灵不通灵呢！我也不要这劳什子了。」",
+        note: "第三回宝黛初见，宝玉闻黛玉无玉而摔通灵宝玉。",
+      },
+    ],
+    interpretations: [
+      {
+        type: "character",
+        title: "一见如故的「木石前盟」",
+        content: "宝玉从未见黛玉便似曾相识，问玉摔玉，是绛珠仙草与神瑛侍者前盟在人间的第一次呼应。",
+      },
+      {
+        type: "literary",
+        title: "「玉」作为世俗标准的象征",
+        content: "全家视通灵宝玉为命根，宝玉却因黛玉无玉而摔之——「玉」在此是门第、身份的符号，摔玉即是对这套标准的本能反叛。",
+      },
+    ],
+    related_events: ["event_daiyu_enters_jia"],
+    status: v(),
+  },
+
   event_read_west_chamber: {
     id: "event_read_west_chamber",
     title: "共读西厢",

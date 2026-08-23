@@ -20,7 +20,7 @@
         "event_daiyu_enters_jia",
         "event_baoyu_smash_jade_ch3",
         "event_yuanchun_visit_ch18",
-        "event_search_garden_ch74"
+        "event_chaojian_daguanyuan_ch74"
       ],
       "symbolic_meaning": "荣国府是贾府「外面的架子虽未甚倒，内囊却也尽上来了」（冷子兴语）的最佳空间象征。从大门外的石狮子到内院的层层深闺，空间的层层嵌套对应着封建家族的等级秩序与伦理困境。",
       "asset_key": null,
@@ -42,7 +42,7 @@
       "key_events": [
         "event_qin_keqing_death_ch13",
         "event_qin_keqing_funeral_ch13_14",
-        "event_jiaoda_drunk_ch7"
+        "event_jiao_da_drunk_ch7"
       ],
       "symbolic_meaning": "宁国府在全书结构中承担着「揭露」功能——贾府的道德败坏首先在宁国府暴露（焦大醉骂、秦可卿之死）。「造衅开端实在宁」将贾府衰败的起点追溯到宁国府的伦理失序。宁荣二府的对照，本身就是「荣」与「宁」——兴盛与毁灭的隐喻。",
       "asset_key": null,
@@ -63,10 +63,10 @@
         "character_jia_xichun", "character_li_wan", "character_miao_yu"
       ],
       "key_events": [
-        "event_daguanyuan_names_ch17",
+        "event_jiazheng_shicai_ch17",
         "event_yuanchun_visit_ch18",
         "event_haitang_she_ch37",
-        "event_search_garden_ch74"
+        "event_chaojian_daguanyuan_ch74"
       ],
       "symbolic_meaning": "大观园是全书最核心的空间意象——它是「太虚幻境」在人间的投影，是青春与诗意的庇护所。园中诸景与诸人一一对应：潇湘馆是黛玉的清冷与灵性，蘅芜苑是宝钗的素朴与品节，怡红院是宝玉的繁华与幻灭。元春题「天上人间诸景备」——而这「天上人间」终究是暂时的，抄检大观园即是这个青春乌托邦的终结。",
       "asset_key": null,
@@ -111,9 +111,9 @@
       "key_events": [
         "event_qingwen_tear_fans_ch31",
         "event_qingwen_mend_ch52",
-        "event_five_deaths_ch63",
-        "event_liulaolao_nap_ch41",
-        "event_search_garden_ch74"
+        "event_baoyu_flower_night_ch63",
+        "event_liulaolao_drunk_ch41",
+        "event_chaojian_daguanyuan_ch74"
       ],
       "symbolic_meaning": "怡红院是全书最繁复的建筑——「四面皆是雕空玲珑木板」，布置得「金碧辉煌，文章闪烁」，正是宝玉的世界：繁华、温柔、缭乱、终究幻灭。怡红院中的海棠喻女儿，芭蕉喻宝玉（怡红快绿），而海棠枯而复荣是「花妖」之兆，预示大观园命运转折。宝玉为怡红院的匾额题「红香绿玉」，被元春改为「怡红快绿」，去掉「香玉」二字——暗合「无玉」谶语。",
       "asset_key": null,
@@ -133,7 +133,7 @@
       ],
       "key_events": [
         "event_chai_dai_reconcile_ch42",
-        "event_daguanyuan_names_ch17"
+        "event_jiazheng_shicai_ch17"
       ],
       "symbolic_meaning": "蘅芜苑「雪洞一般」的素净是宝钗人格的空间投影——不事雕饰、克制内敛、以德自持。院中遍植各种奇草异藤、牵藤引蔓——贾政初见此院时嫌「无味的很」，但走近却见「一株花木也无，只见许多异草」，这正是宝钗的性格：外表朴素无华，内里丰富深厚。蘅芜苑中使用的「冷香」更强化了宝钗「冷」的特质——不是冷漠，而是理性的克制。",
       "asset_key": null,
@@ -153,7 +153,7 @@
       ],
       "key_events": [
         "event_haitang_she_ch37",
-        "event_daguanyuan_names_ch17"
+        "event_jiazheng_shicai_ch17"
       ],
       "symbolic_meaning": "稻香村是全书中最具反讽意味的建筑——在富贵园林中刻意营造「归农」意象，被宝玉批评为「人力穿凿扭捏而成」，恰如李纨的身份：身为贾府寡妇，被制度塑造成「槁木死灰」，失去自我的活力。杏花数百株「如喷火蒸霞」的绚烂与李纨的守寡孤寂形成鲜明对照——自然繁盛，而人被礼教压制成枯木。贾兰后来「气昂昂头戴簪缨」的功名正是从这片稻香中破土而出。",
       "asset_key": null,
@@ -173,7 +173,7 @@
       ],
       "key_events": [
         "event_haitang_she_ch37",
-        "event_tanchun_reforms_ch55_56"
+        "event_tanchun_reform_ch56"
       ],
       "symbolic_meaning": "探春将三间屋子打通为一大间，是全书唯一在空间上主动打破闺阁界限的女性——这一细节精准投射了她「才自精明志自高」的精神格局。秋爽斋中的大幅米芾字画、大盘大鼎、数十个娇黄玲珑大佛手，都展示了她不同于园中任何其他女性的开阔气象。「秋爽」二字既指秋高气爽，也是她性格「敏」与「爽」的空间化表达。",
       "asset_key": null,
@@ -193,8 +193,8 @@
       ],
       "key_events": [
         "event_miaoyu_serve_tea_ch41",
-        "event_baoyu_visit_longcui_ch63",
-        "event_red_plum_snow_ch49_50"
+        "event_miaoyu_birthday_ch63",
+        "event_miaoyu_red_plum_ch50"
       ],
       "symbolic_meaning": "栊翠庵是大观园中的宗教异质空间——它既是妙玉避世的庇护所，也是她「欲洁何曾洁」的矛盾现场。庵中红梅是全书最动人的意象之一：在白雪世界中傲然怒放，既象征妙玉「太高人愈妒」的孤洁，也暗藏其内心未被彻底熄灭的情感温度。栊翠庵的空间位置——位于园中却「槛外」——精妙地概括了妙玉（以及一切试图逃离世俗者）的生存困境：身在尘世，心许空门，两者皆不得彻底。",
       "asset_key": null,
@@ -253,9 +253,9 @@
         "character_lingguan", "character_fangguan"
       ],
       "key_events": [
-        "event_baochai_pills_ch8",
-        "event_lingguan_draw_ch30",
-        "event_ouguan_yuan_vows_ch58"
+        "event_gold_lock_ch8",
+        "event_lingguan_hua_qiang_ch30",
+        "event_ouguan_weep_ch58"
       ],
       "symbolic_meaning": "梨香院是《红楼梦》中一个重要的过渡性空间。梨园即戏台——梨香院最终成为十二女伶的戏班驻地，绝非巧合。从薛家暂居到女伶聚居，梨香院始终承载着「非永久身份」的人群：寄居的亲眷、被买来的优伶。龄官在此画「蔷」字，是对这一空间最动人的演绎——在梨园（戏）的框架内，却有着最真实的痴情。",
       "asset_key": null,
@@ -272,8 +272,8 @@
       "map_y": null,
       "resident_character_ids": [],
       "key_events": [
-        "event_midautumn_feast_ch75",
-        "event_convex_crystal_ch76"
+        "event_jiashe_zhongqiu_ch75",
+        "event_concave_crystal_ch76"
       ],
       "symbolic_meaning": "凸碧山庄是全书中最具宇宙感的空间——「凸碧」对「凹晶」，一天一地、一高一低、一显一隐。「凸碧山庄品笛感凄清」一回：贾母在高处赏月，笛声呜咽穿林渡水而来，满座寂然。高处不胜寒的不仅是自然气候，更是命运的无情——贾府站在最高处时，也是最危险的时候。这座建在山上的厅堂，本身就是贾府「高处」命运的戏剧性舞台。",
       "asset_key": null,
@@ -290,7 +290,7 @@
       "map_y": null,
       "resident_character_ids": [],
       "key_events": [
-        "event_convex_crystal_ch76"
+        "event_concave_crystal_ch76"
       ],
       "symbolic_meaning": "凹晶溪馆是与凸碧山庄形成的空间辩证法——「凸碧」在上为阳、为明、为贾母等众人；「凹晶」在下为阴、为暗、为黛玉湘云两个孤女。中秋夜众人散去后，黛玉与湘云在水边联句，「寒塘渡鹤影，冷月葬花魂」——凹晶馆的水面映着冷月，成为全书最凄绝的诗意场景。黛玉名字中的「玉」与溪水「晶」光相映，此地几乎成为她命运的湖畔祭坛。",
       "asset_key": null,
@@ -308,7 +308,7 @@
       "resident_character_ids": [],
       "key_events": [
         "event_read_west_chamber",
-        "event_bury_flowers_ch23"
+        "event_read_west_chamber"
       ],
       "symbolic_meaning": "「沁芳」之名本身即为全书最核心的意象之一——水（生命之源）浸染芬芳（花），既是滋养也是消解。沁芳闸是宝黛爱情的青春地标：桃花树下共读禁书是甜蜜的起点，同葬落花是悲感的预演。当水闸放水、落花随水而去之时，实际上已在预演群芳最终的「沁芳」——逝去、消散、归于大荒。",
       "asset_key": null,
@@ -343,7 +343,7 @@
       "resident_character_ids": [],
       "key_events": [
         "event_yuanchun_visit_ch18",
-        "event_daguanyuan_names_ch17"
+        "event_jiazheng_shicai_ch17"
       ],
       "symbolic_meaning": "省亲别墅是大观园存在的政治合法性来源——整座园林因为「有凤来仪」才得以建造。然而元春省亲的场景充满了悲剧性的反讽：深夜来、深夜去，全程哭泣多于欢笑，称皇宫为「不得见人的去处」。这座为皇妃省亲而建的宏伟建筑，其真正的功能是展示贾府「烈火烹油、鲜花着锦之盛」，而烈火烹油的下一步必然是灰烬。",
       "asset_key": null,
@@ -361,7 +361,7 @@
       "resident_character_ids": [],
       "key_events": [
         "event_qin_keqing_funeral_ch13_14",
-        "event_xifeng_abuse_power_ch15"
+        "event_xifeng_iron_threshold_ch15"
       ],
       "symbolic_meaning": "「铁槛寺」与「馒头庵」构成全书最犀利的宗教反讽。铁槛寺的名称源自「纵有千年铁门槛，终须一个土馒头」——然而就在这座以死亡警示为名的寺院中，王熙凤收受三千两银子、拆散一对鸳鸯、制造两条人命。宗教空间成为权力空间的共谋——死亡无法净化欲望，寺庙无法约束贪腐。铁槛寺是对一切伪善的宗教仪式的终极解构。",
       "asset_key": null,
@@ -378,7 +378,7 @@
       "map_y": null,
       "resident_character_ids": [],
       "key_events": [
-        "event_luxuean_couplet_ch50"
+        "event_liwan_meihua_ch50"
       ],
       "symbolic_meaning": "芦雪庵联句是全书中最盛大的集体诗会——白雪红梅、琉璃世界，大观园的青春在此达到诗意的最高潮。然而这一高潮本身就是一个警告：芦雪庵中众人的诗句中已大量出现「斜风仍故故」「清梦转聊聊」等悲音。白雪覆盖一切，而雪的融化不可避免。芦雪庵的欢乐本质上是短暂的、借来的——正如贾府的繁荣。",
       "asset_key": null,
